@@ -487,3 +487,46 @@ test('classifyAuthError', () => {
   assert.equal(al.classifyAuthError({ message: 'Failed to fetch' }), 'generic');
   assert.match(al.linkNotice({ message: 'code verifier' }).text, /quedó confirmado/);
 });
+
+// ---------- Proteína en polvo ----------
+const POWDER = { id: 'on_gold_std_choc', brand: 'Optimum Nutrition', product: 'Gold Standard 100% Whey', serving_g: 30.4, kcal: 120, p: 24, c: 3, f: 1, fiber: 1 };
+test('scoops -> macros de proteína en polvo', () => {
+  assert.deepEqual(nut.macrosForPowder(POWDER, 1), { kcal: 120, p: 24, c: 3, f: 1, fiber: 1 });
+  assert.deepEqual(nut.macrosForPowder(POWDER, 1.5), { kcal: 180, p: 36, c: 4.5, f: 1.5, fiber: 1.5 });
+  assert.equal(nut.macrosForPowder(POWDER, 0.5).p, 12);
+  assert.equal(nut.macrosForPowder({ ...POWDER, fiber: undefined }, 2).fiber, 0);
+  assert.equal(nut.gramsFromScoops(POWDER, 2), 60.8);
+  assert.equal(nut.scoopsFromGrams(POWDER, 60.8), 2);
+  assert.equal(nut.powderProteinPct(POWDER), 79);
+  const e = nut.entryFromPowder(POWDER, 1.5, { id: 'x', logged_on: '2026-11-27', meal_slot: 2 });
+  assert.equal(e.source, 'powder'); assert.equal(e.servings, 1.5); assert.equal(e.grams, 45.6); assert.equal(e.p, 36);
+  assert.equal(e.label, 'Optimum Nutrition Gold Standard 100% Whey');
+  assert.equal(nut.sumEntries([e, e]).p, 72);
+  assert.equal(nut.rescaleEntry(e, 2 / 1.5).servings, 2);
+});
+
+// ---------- Unidad por ejercicio ----------
+test('unidad por defecto de un ejercicio: la última usada, si no la del perfil', () => {
+  const w = (id, d, ex, unit) => ({ id, performed_on: d, created_at: d + 'T10:00', exercises: [{ exercise_id: ex, sets: [{ weight_kg: 60, reps: 8, unit }] }] });
+  const ws = [w('1', '2026-11-10', 'banca', 'kg'), w('2', '2026-11-17', 'banca', 'lb'), w('3', '2026-11-18', 'curl', 'kg')];
+  assert.equal(un.resolveExerciseUnit(ws, 'banca', 'kg'), 'lb');   // la más reciente de banca
+  assert.equal(un.resolveExerciseUnit(ws, 'curl', 'lb'), 'kg');
+  assert.equal(un.resolveExerciseUnit(ws, 'sentadilla', 'lb'), 'lb'); // sin historial -> perfil
+  assert.equal(un.resolveExerciseUnit([], 'x', 'kg'), 'kg');
+  assert.equal(un.resolveExerciseUnit([{ id: 'o', performed_on: '2026-01-01', exercises: [{ exercise_id: 'x', sets: [{ weight_kg: 10, reps: 5 }] }] }], 'x', 'lb'), 'lb'); // datos viejos sin unidad
+});
+test('sin deriva: lb -> kg (2 decimales) -> lb muestra lo tecleado', () => {
+  for (let lb = 5; lb <= 1000; lb += 0.5) assert.equal(un.toDisplay(un.fromDisplay(lb, 'lb'), 'lb'), lb, `${lb} lb`);
+  assert.equal(un.toDisplay(un.fromDisplay(135, 'lb'), 'lb'), 135);
+  assert.equal(un.fromDisplay(135, 'lb'), 61.23);
+  for (let kg = 2.5; kg <= 400; kg += 2.5) assert.equal(un.toDisplay(un.fromDisplay(kg, 'kg'), 'kg'), kg);
+});
+
+test('validación de proteína personalizada', () => {
+  const ok = { brand: 'Birdman', product: 'Falcon', serving_g: '33', kcal: '120', p: '24', c: '3', f: '1.5' };
+  const r = nut.validateCustomPowder(ok);
+  assert.ok(r.ok); assert.deepEqual(r.value, { brand: 'Birdman', product: 'Falcon', serving_g: 33, kcal: 120, p: 24, c: 3, f: 1.5 });
+  for (const [k, v] of [['brand', ''], ['product', 'x'.repeat(61)], ['serving_g', '4'], ['serving_g', '101'], ['kcal', '1001'], ['p', '-1'], ['c', 'abc']]) assert.ok(!nut.validateCustomPowder({ ...ok, [k]: v }).ok, `${k}=${v}`);
+  assert.ok(!nut.validateCustomPowder({ ...ok, serving_g: '30', p: '30', c: '10', f: '5' }).ok); // macros > scoop
+  assert.equal(nut.MAX_CUSTOM_POWDERS, 10);
+});

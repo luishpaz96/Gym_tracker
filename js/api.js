@@ -18,7 +18,7 @@ export function normalizeWorkout(w) {
     id: w.id, performed_on: w.performed_on, plan_day: w.plan_day ?? null, notes: w.notes ?? '', created_at: w.created_at || null,
     exercises: (w.workout_exercises || w.exercises || []).map((e) => ({
       id: e.id, exercise_id: e.exercise_id, position: e.position ?? 0,
-      sets: (e.sets || []).map((s) => ({ id: s.id, set_no: s.set_no, weight_kg: Number(s.weight_kg), reps: Number(s.reps), rir: s.rir === null || s.rir === undefined ? null : Number(s.rir) }))
+      sets: (e.sets || []).map((s) => ({ id: s.id, set_no: s.set_no, weight_kg: Number(s.weight_kg), reps: Number(s.reps), rir: s.rir === null || s.rir === undefined ? null : Number(s.rir), unit: s.unit === 'lb' ? 'lb' : 'kg' }))
         .sort((a, b) => a.set_no - b.set_no),
     })).sort((a, b) => a.position - b.position),
   };
@@ -29,7 +29,7 @@ export function buildWorkout({ performed_on, plan_day, notes, exercises }) {
   return normalizeWorkout({
     id: uuid(), performed_on, plan_day: plan_day || null, notes: (notes || '').slice(0, 1000), created_at: new Date().toISOString(),
     exercises: exercises.map((e, i) => ({ id: uuid(), exercise_id: e.exercise_id, position: i,
-      sets: e.sets.map((s, j) => ({ id: uuid(), set_no: j + 1, weight_kg: s.weight_kg, reps: s.reps, rir: s.rir ?? null })) })),
+      sets: e.sets.map((s, j) => ({ id: uuid(), set_no: j + 1, weight_kg: s.weight_kg, reps: s.reps, rir: s.rir ?? null, unit: s.unit === 'lb' ? 'lb' : 'kg' })) })),
   });
 }
 
@@ -39,7 +39,7 @@ const normFood = (r) => ({ id: r.id, logged_on: r.logged_on, meal_slot: r.meal_s
   kcal: Number(r.kcal), p: Number(r.p), c: Number(r.c), f: Number(r.f), fiber: Number(r.fiber) });
 const foodRow = (e) => ({ id: e.id, logged_on: e.logged_on, meal_slot: e.meal_slot, source: e.source, ref_id: e.ref_id, label: e.label || null,
   servings: e.servings, grams: e.grams, kcal: e.kcal, p: e.p, c: e.c, f: e.f, fiber: e.fiber });
-const PROFILE_COLS = 'display_name,unit,bodyweight,birth_year,sex,height_cm,goal_weight_kg,days_per_week,meals_per_day,meal_plan';
+const PROFILE_COLS = 'display_name,unit,bodyweight,birth_year,sex,height_cm,goal_weight_kg,days_per_week,meals_per_day,meal_plan,favorite_powder,custom_powders';
 const isNetworkError = (err) => !navigator.onLine || err instanceof TypeError || /failed to fetch|network|load failed/i.test(String(err?.message || err));
 
 // ============================== Supabase ==============================
@@ -103,7 +103,7 @@ export function createRemoteApi() {
     async saveProfile(p) {
       const row = { user_id: userId, unit: p.unit === 'lb' ? 'lb' : 'kg', display_name: p.display_name || null, bodyweight: p.bodyweight || null,
         birth_year: p.birth_year ?? null, sex: p.sex ?? null, height_cm: p.height_cm ?? null, goal_weight_kg: p.goal_weight_kg ?? null, days_per_week: p.days_per_week ?? null,
-        meals_per_day: p.meals_per_day ?? null, meal_plan: p.meal_plan ?? null };
+        meals_per_day: p.meals_per_day ?? null, meal_plan: p.meal_plan ?? null, favorite_powder: p.favorite_powder ?? null, custom_powders: p.custom_powders ?? null };
       lsSet(`gt_profile_${userId}`, row);
       const { error } = await sb.from('profiles').upsert(row, { onConflict: 'user_id' });
       if (error) throw error;
@@ -163,9 +163,9 @@ export function createRemoteApi() {
     async listWorkouts() {
       let remote = null;
       try {
-        const { data, error } = await sb.from('workouts')
-          .select('id,performed_on,plan_day,notes,created_at,workout_exercises(id,exercise_id,position,sets(id,set_no,weight_kg,reps,rir))')
-          .order('performed_on', { ascending: false }).limit(1000);
+        const q = (cols) => sb.from('workouts').select(`id,performed_on,plan_day,notes,created_at,workout_exercises(id,exercise_id,position,sets(${cols}))`).order('performed_on', { ascending: false }).limit(1000);
+        let { data, error } = await q(unitCol.on ? 'id,set_no,weight_kg,reps,rir,unit' : 'id,set_no,weight_kg,reps,rir');
+        if (error && unitCol.on && /unit/i.test(error.message || '')) { unitCol.on = false; ({ data, error } = await q('id,set_no,weight_kg,reps,rir')); } // migración pendiente
         if (error) throw error;
         remote = data.map(normalizeWorkout);
         lsSet(cKey(), remote);
@@ -215,13 +215,18 @@ export function createRemoteApi() {
   return api;
 }
 
+const unitCol = { on: true }; // false si la columna sets.unit aún no existe en la BD
 async function pushWorkout(sb, w) {
   let r = await sb.from('workouts').upsert({ id: w.id, performed_on: w.performed_on, plan_day: w.plan_day, notes: w.notes || null }, { onConflict: 'id' });
   if (r.error) throw r.error;
   const wes = w.exercises.map((e) => ({ id: e.id, workout_id: w.id, exercise_id: e.exercise_id, position: e.position }));
   if (wes.length) { r = await sb.from('workout_exercises').upsert(wes, { onConflict: 'id' }); if (r.error) throw r.error; }
-  const sets = w.exercises.flatMap((e) => e.sets.map((s) => ({ id: s.id, workout_exercise_id: e.id, set_no: s.set_no, weight_kg: s.weight_kg, reps: s.reps, rir: s.rir })));
-  if (sets.length) { r = await sb.from('sets').upsert(sets, { onConflict: 'id' }); if (r.error) throw r.error; }
+  const rows = (withUnit) => w.exercises.flatMap((e) => e.sets.map((s) => ({ id: s.id, workout_exercise_id: e.id, set_no: s.set_no, weight_kg: s.weight_kg, reps: s.reps, rir: s.rir, ...(withUnit ? { unit: s.unit === 'lb' ? 'lb' : 'kg' } : {}) })));
+  if (w.exercises.some((e) => e.sets.length)) {
+    r = await sb.from('sets').upsert(rows(unitCol.on), { onConflict: 'id' });
+    if (r.error && unitCol.on && /unit/i.test(r.error.message || '')) { unitCol.on = false; r = await sb.from('sets').upsert(rows(false), { onConflict: 'id' }); }
+    if (r.error) throw r.error;
+  }
 }
 
 // ============================== Demo ==============================

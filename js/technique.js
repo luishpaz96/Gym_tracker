@@ -1,7 +1,7 @@
 // "API" de técnica: animación (free-exercise-db, Unlicense) + puntos clave + enlace a Fitwill.
 // Fitwill no tiene API pública ni permite incrustar su video: solo se abre su página en otra pestaña.
 import { loadData } from './data.js';
-import { el, openModal } from './ui.js';
+import { el, openModal, icon } from './ui.js';
 
 const FRAMES_BASE = 'https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/';
 
@@ -21,17 +21,25 @@ export async function getTechnique(exerciseId) {
   };
 }
 
+// Botón ▶ (≥44 px) que abre la animación; no propaga el clic a la fila que lo contiene.
+export function playButton(exerciseId, name) {
+  return el('button', { class: 'play-btn', type: 'button', 'aria-label': `Ver animación de ${name}`, on: { click: (e) => { e.stopPropagation(); e.preventDefault(); openTechnique(exerciseId); } } }, icon('video'));
+}
+
+// Animación que arranca sola, con botón de pausa / reproducir.
 export function buildAnimation(frames, alt) {
   if (!frames.length) return el('div', { class: 'anim empty' }, 'Sin animación disponible');
   const imgs = frames.map((src, i) => el('img', { src, alt: i === 0 ? alt : '', loading: 'lazy', class: i === 0 ? 'on' : '', referrerpolicy: 'no-referrer' }));
   const box = el('div', { class: 'anim', role: 'img', 'aria-label': alt }, imgs);
-  let i = 0;
-  const timer = setInterval(() => {
-    if (!box.isConnected) { clearInterval(timer); return; }
-    imgs[i].classList.remove('on'); i = (i + 1) % imgs.length; imgs[i].classList.add('on');
-  }, 800);
-  imgs.forEach((im) => im.addEventListener('error', () => { box.classList.add('empty'); box.textContent = 'No se pudo cargar la animación (¿sin conexión?)'; clearInterval(timer); }));
-  return box;
+  const toggle = el('button', { class: 'btn small block', type: 'button', 'aria-pressed': 'true' }, 'Pausar');
+  let i = 0, timer = null;
+  const tick = () => { if (!box.isConnected) { clearInterval(timer); return; } imgs[i].classList.remove('on'); i = (i + 1) % imgs.length; imgs[i].classList.add('on'); };
+  const play = () => { clearInterval(timer); timer = setInterval(tick, 800); toggle.textContent = 'Pausar'; toggle.setAttribute('aria-pressed', 'true'); };
+  const pause = () => { clearInterval(timer); timer = null; toggle.textContent = 'Reproducir'; toggle.setAttribute('aria-pressed', 'false'); };
+  toggle.addEventListener('click', () => (timer ? pause() : play()));
+  imgs.forEach((im) => im.addEventListener('error', () => { box.classList.add('empty'); box.textContent = 'No se pudo cargar la animación (¿sin conexión?)'; pause(); toggle.disabled = true; }));
+  play();
+  return el('div', { class: 'anim-wrap' }, box, toggle);
 }
 
 export async function openTechnique(exerciseId) {

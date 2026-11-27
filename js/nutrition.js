@@ -69,6 +69,35 @@ export function rescaleEntry(entry, factor) {
     servings: entry.servings == null ? null : round(entry.servings * factor, 2), grams: entry.grams == null ? null : round(entry.grams * factor, 1) };
 }
 
+// ---- Proteína en polvo: valores por scoop (serving_g gramos) ----
+export const scoopsFromGrams = (powder, grams) => round(grams / powder.serving_g, 2);
+export const gramsFromScoops = (powder, scoops) => round(scoops * powder.serving_g, 1);
+export const powderProteinPct = (powder) => round((powder.p / powder.serving_g) * 100, 0);
+export function macrosForPowder(powder, scoops) {
+  const r = (v) => round((Number(v) || 0) * scoops, 1);
+  return { kcal: r(powder.kcal), p: r(powder.p), c: r(powder.c), f: r(powder.f), fiber: r(powder.fiber) };
+}
+export function entryFromPowder(powder, scoops, { id, logged_on, meal_slot }) {
+  return { id, logged_on, meal_slot, source: 'powder', ref_id: powder.id, label: `${powder.brand} ${powder.product}`.slice(0, 80), servings: round(scoops, 2), grams: gramsFromScoops(powder, scoops), ...macrosForPowder(powder, scoops) };
+}
+
+// Validación de una proteína en polvo personalizada (valores por scoop de la etiqueta)
+export const MAX_CUSTOM_POWDERS = 10;
+export function validateCustomPowder(f) {
+  const n = (v) => (v === '' || v === null || v === undefined ? NaN : Number(String(v).replace(',', '.')));
+  const errors = {};
+  const brand = String(f.brand || '').trim(), product = String(f.product || '').trim();
+  const serving = n(f.serving_g), kcal = n(f.kcal), p = n(f.p), c = n(f.c), fat = n(f.f);
+  if (!brand || brand.length > 40) errors.brand = 'Marca de 1 a 40 caracteres.';
+  if (!product || product.length > 60) errors.product = 'Producto de 1 a 60 caracteres.';
+  if (!(serving >= 5 && serving <= 100)) errors.serving_g = 'El scoop pesa entre 5 y 100 g.';
+  if (!(kcal >= 0 && kcal <= 1000)) errors.kcal = 'Calorías entre 0 y 1000.';
+  for (const [k, v] of [['p', p], ['c', c], ['f', fat]]) if (!(v >= 0 && v <= 100)) errors[k] = 'Entre 0 y 100 g.';
+  if (!errors.serving_g && !errors.p && !errors.c && !errors.f && p + c + fat > serving * 1.05) errors.p = 'Los macros no pueden pesar más que el scoop.';
+  const r1 = (x) => Math.round(x * 10) / 10;
+  return { ok: !Object.keys(errors).length, errors, value: { brand, product, serving_g: r1(serving), kcal: Math.round(kcal), p: r1(p), c: r1(c), f: r1(fat) } };
+}
+
 export const ZERO = { kcal: 0, p: 0, c: 0, f: 0, fiber: 0 };
 export function sumEntries(entries) {
   const t = { ...ZERO };

@@ -1,6 +1,6 @@
 import { el, clear, icon } from '../ui.js';
 import { searchExercises } from '../search.js';
-import { openTechnique } from '../technique.js';
+import { openTechnique, playButton } from '../technique.js';
 
 export async function render(ctx, root) {
   let group = null, query = '';
@@ -16,9 +16,8 @@ export async function render(ctx, root) {
     clear(list);
     const res = searchExercises(ctx.data.exercises, { query, group });
     count.textContent = `${res.length} ejercicio${res.length === 1 ? '' : 's'}`;
-    res.forEach((e) => list.append(el('li', {}, el('button', { class: 'pick', type: 'button', on: { click: () => openTechnique(e.id) } },
-      el('span', { class: 'grow' }, el('strong', { text: e.name }), el('span', { class: 'muted small block', text: `${e.group} · ${e.equipment}` })),
-      el('span', { class: 'plus', 'aria-hidden': 'true' }, icon('video'))))));
+    res.forEach((e) => list.append(el('li', { class: 'list-item tight' }, playButton(e.id, e.name), el('button', { class: 'pick nb', type: 'button', 'aria-label': `Ficha de ${e.name}`, on: { click: () => openTechnique(e.id) } },
+      el('span', { class: 'grow' }, el('strong', { text: e.name }), el('span', { class: 'muted small block', text: `${e.group} · ${e.equipment}` }))))));
     if (!res.length) list.append(el('li', { class: 'muted pad', text: 'Sin resultados.' }));
   }
   search.addEventListener('input', () => { query = search.value; fill(); });

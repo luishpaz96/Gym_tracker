@@ -1,4 +1,5 @@
 import { el, clear } from '../ui.js';
+import { playButton } from '../technique.js';
 import { buildBodyMap } from '../bodymap.js';
 import { weekStatus } from '../stats.js';
 import { STATUS_LABEL } from '../recommend.js';
@@ -32,7 +33,7 @@ export async function render(ctx, root) {
     detail.append(el('div', { class: 'row between' }, el('h2', { text: s.name }), el('span', { class: `badge st-${s.status}`, text: STATUS_LABEL[s.status] })),
       el('p', { text: `${fmtNum(s.sets, 1)} de ${s.target} series (${pct} %)` }));
     const exs = Object.entries(s.exercises);
-    detail.append(exs.length ? el('ul', { class: 'list' }, exs.map(([id, n]) => el('li', { class: 'list-item' }, el('span', { class: 'grow', text: ctx.data.exById[id]?.name || id }), el('span', { class: 'muted', text: `${fmtNum(n, 1)} series` }))))
+    detail.append(exs.length ? el('ul', { class: 'list' }, exs.map(([id, n]) => el('li', { class: 'list-item' }, ctx.data.exById[id] ? playButton(id, ctx.data.exById[id].name) : null, el('span', { class: 'grow', text: ctx.data.exById[id]?.name || id }), el('span', { class: 'muted', text: `${fmtNum(n, 1)} series` }))))
       : el('p', { class: 'muted', text: 'Sin series esta semana.' }));
   }
 

@@ -1,12 +1,12 @@
 // Track: único lugar para registrar. Rutina recomendada + buscador + series con "última vez" y sobrecarga.
 import { el, clear, icon, toast, fmtDate, confirmDialog, unitToggle } from '../ui.js';
-import { convertTyped, normUnit } from '../units.js';
+import { convertTyped, normUnit, resolveExerciseUnit } from '../units.js';
 import { searchExercises } from '../search.js';
 import { fromDisplay, toDisplay, validateSet } from '../calc.js';
 import { buildWorkout, lsGet, lsSet, lsDel } from '../api.js';
 import { today, routine } from '../stats.js';
 import { lastTime, overloadSuggestion } from '../overload.js';
-import { openTechnique } from '../technique.js';
+import { playButton } from '../technique.js';
 import { renderGrade } from './grade.js';
 
 const KEY = 'gt_draft';
@@ -23,7 +23,7 @@ export async function render(ctx, root) {
   const unit = ctx.profile?.unit === 'lb' ? 'lb' : 'kg';
   let draft = loadDraft(ctx) || { performed_on: today(), plan_day: null, notes: '', unit, exercises: [] };
   let du = normUnit(ctx.profile?.unit || draft.unit);
-  if (draft.unit !== du) { draft.exercises.forEach((e) => e.sets.forEach((x) => { x.w = convertTyped(x.w, draft.unit, du); })); draft.unit = du; }
+  draft.exercises.forEach((e) => { e.unit = normUnit(e.unit || draft.unit || du); }); // cada ejercicio tiene su propia unidad
   const persist = () => lsSet(KEY, draft);
   const view = el('div');
   root.append(view);
@@ -31,7 +31,8 @@ export async function render(ctx, root) {
   const rt = routine(ctx);
   const planReps = Object.fromEntries(rt.items.filter((i) => i.reps).map((i) => [i.exercise.id, i.reps]));
 
-  const fmtSet = (s, j) => `Serie ${j + 1}: ${toDisplay(s.weight_kg, du)} ${du} × ${s.reps}`;
+  const fmtSet = (s, j, eu) => `Serie ${j + 1}: ${toDisplay(s.weight_kg, eu)} ${eu} × ${s.reps}`;
+  const newUnit = (id) => resolveExerciseUnit(ctx.workouts, id, du);
 
   function numInput(label, value, attrs, onInput) {
     const i = el('input', { class: 'input num', type: 'text', inputmode: attrs.inputmode || 'decimal', 'aria-label': label, value, maxlength: 7, placeholder: attrs.placeholder || '', autocomplete: 'off' });
@@ -40,16 +41,16 @@ export async function render(ctx, root) {
   }
 
   function lastPanel(ex, def) {
-    const reps = ex.reps || planReps[def.id] || null;
+    const eu = ex.unit, reps = ex.reps || planReps[def.id] || null;
     const l = lastTime(ctx.workouts, def.id, draft.performed_on);
     const box = el('div', { class: 'last' });
     if (!l) {
-      box.append(el('strong', { text: 'Última vez' }), el('p', { class: 'muted small', text: 'Primera vez con este ejercicio.' }), el('p', { class: 'tip-line', text: overloadSuggestion([], reps, du) }));
+      box.append(el('strong', { text: 'Última vez' }), el('p', { class: 'muted small', text: 'Primera vez con este ejercicio.' }), el('p', { class: 'tip-line', text: overloadSuggestion([], reps, eu) }));
       return box;
     }
     box.append(el('strong', { text: `Última vez: ${fmtDate(l.date)}` }),
-      el('ul', { class: 'last-sets' }, l.sets.map((s, j) => el('li', { text: fmtSet(s, j) }))),
-      el('p', { class: 'tip-line', text: overloadSuggestion(l.sets, reps, du) }));
+      el('ul', { class: 'last-sets' }, l.sets.map((s, j) => el('li', { text: fmtSet(s, j, eu) }))),
+      el('p', { class: 'tip-line', text: overloadSuggestion(l.sets, reps, eu) }));
     if (reps) box.append(el('p', { class: 'muted tiny', text: `Rango del plan: ${reps} reps` }));
     return box;
   }
@@ -62,15 +63,16 @@ export async function render(ctx, root) {
     card.append(el('div', { class: 'row between' },
       el('h3', { text: def.name }),
       el('div', { class: 'row gap' },
-        el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Técnica de ${def.name}`, on: { click: () => openTechnique(def.id) } }, icon('video')),
+        playButton(def.id, def.name),
         el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Quitar ${def.name}`, on: { click: () => { draft.exercises.splice(idx, 1); persist(); draw(); } } }, icon('borrar')))));
     card.append(lastPanel(ex, def));
-    card.append(el('div', { class: 'set-head' }, el('span', { text: '#' }), el('span', { text: `Peso (${du})` }), el('span', { text: 'Reps' }), el('span', { class: 'rir-col', text: 'RIR' }), el('span')));
+    card.append(el('div', { class: 'row between gap' }, el('span', { class: 'muted small', text: 'Unidad de este ejercicio' }), unitToggle(ex.unit, (u) => { ex.sets.forEach((x) => { x.w = convertTyped(x.w, ex.unit, u); }); ex.unit = u; persist(); draw(); }, `Unidad de ${def.name}`)));
+    card.append(el('div', { class: 'set-head' }, el('span', { text: '#' }), el('span', { text: `Peso (${ex.unit})` }), el('span', { text: 'Reps' }), el('span', { class: 'rir-col', text: 'RIR' }), el('span')));
     ex.sets.forEach((s, j) => {
       const p = l?.sets[j] || l?.sets[l.sets.length - 1];
       card.append(el('div', { class: 'set-row' },
         el('span', { class: 'set-no', text: String(j + 1) }),
-        numInput(`Peso serie ${j + 1}`, s.w, { placeholder: p ? String(toDisplay(p.weight_kg, du)) : '0' }, (v) => { s.w = v; }),
+        numInput(`Peso serie ${j + 1}`, s.w, { placeholder: p ? String(toDisplay(p.weight_kg, ex.unit)) : '0' }, (v) => { s.w = v; }),
         numInput(`Repeticiones serie ${j + 1}`, s.r, { int: true, inputmode: 'numeric', placeholder: p ? String(p.reps) : '0' }, (v) => { s.r = v; }),
         numInput(`RIR serie ${j + 1}`, s.rir, { int: true, inputmode: 'numeric', placeholder: '–' }, (v) => { s.rir = v; }),
         el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Quitar serie ${j + 1}`, on: { click: () => { ex.sets.splice(j, 1); persist(); draw(); } } }, icon('cerrar'))));
@@ -85,14 +87,14 @@ export async function render(ctx, root) {
   }
 
   function addExercise(id, reps, nSets = 3) {
-    draft.exercises.push({ exercise_id: id, reps: reps || planReps[id] || null, sets: Array.from({ length: nSets }, emptySet) });
+    draft.exercises.push({ exercise_id: id, unit: newUnit(id), reps: reps || planReps[id] || null, sets: Array.from({ length: nSets }, emptySet) });
     persist(); toast(`Agregado: ${ctx.data.exById[id].name}`); draw(); window.scrollTo({ top: 0 });
   }
 
   async function useRoutine() {
     if (draft.exercises.length && !(await confirmDialog('Usar esta rutina', 'Se reemplazarán los ejercicios de tu sesión actual.', 'Reemplazar'))) return;
     draft = { performed_on: today(), plan_day: rt.next?.session?.name || null, notes: '', unit: du,
-      exercises: rt.items.map((i) => ({ exercise_id: i.exercise.id, reps: i.reps, sets: Array.from({ length: i.sets }, emptySet) })) };
+      exercises: rt.items.map((i) => ({ exercise_id: i.exercise.id, unit: newUnit(i.exercise.id), reps: i.reps, sets: Array.from({ length: i.sets }, emptySet) })) };
     persist(); draw();
   }
 
@@ -106,7 +108,7 @@ export async function render(ctx, root) {
     if (rt.needs.length) {
       card.append(el('div', { class: 'needs' }, rt.needs.slice(0, 4).map((n) => el('span', { class: `badge st-${n.status}`, text: n.text }))));
     }
-    card.append(el('ul', { class: 'list' }, rt.items.map((it) => el('li', { class: 'list-item' }, el('div', { class: 'grow' },
+    card.append(el('ul', { class: 'list' }, rt.items.map((it) => el('li', { class: 'list-item' }, playButton(it.exercise.id, it.exercise.name), el('div', { class: 'grow' },
       el('strong', { text: it.exercise.name }),
       el('div', { class: 'muted small', text: `${it.sets} series${it.reps ? ` · ${it.reps} reps` : ''}${it.rest ? ` · descanso ${it.rest}` : ''}` }),
       el('div', { class: `chip-src ${it.source}`, text: it.source === 'deficit' ? `Añadido · ${it.reason}` : it.reason }))))));
@@ -124,7 +126,7 @@ export async function render(ctx, root) {
     groups.forEach((g) => chips.append(el('button', { class: 'chip', type: 'button', on: { click: () => { group = g; fill(); } } }, g || 'Todos')));
     const home = el('label', { class: 'check' }, el('input', { type: 'checkbox', on: { change: (e) => { whereHome = e.target.checked; fill(); } } }), ' Solo ejercicios para casa');
     home.firstChild.checked = whereHome;
-    const row = (e, sub, onClick) => el('li', {}, el('button', { class: 'pick', type: 'button', on: { click: onClick } },
+    const row = (e, sub, onClick) => el('li', { class: 'list-item tight' }, playButton(e.id, e.name), el('button', { class: 'pick nb', type: 'button', 'aria-label': `Agregar ${e.name}`, on: { click: onClick } },
       el('span', { class: 'grow' }, el('strong', { text: e.name }), el('span', { class: 'muted small block', text: sub })), el('span', { class: 'plus', 'aria-hidden': 'true', text: '+' })));
     function fill() {
       [...chips.children].forEach((c, i) => { c.classList.toggle('on', groups[i] === group); c.setAttribute('aria-pressed', String(groups[i] === group)); });
@@ -138,7 +140,7 @@ export async function render(ctx, root) {
       }
       const list = searchExercises(ctx.data.exercises, { query, group, where: whereHome ? 'casa' : null });
       if (!list.length) results.append(el('li', { class: 'muted pad', text: 'Sin resultados.' }));
-      list.slice(0, 40).forEach((e) => results.append(row(e, `${e.group} · ${e.equipment}`, () => addExercise(e.id))));
+      list.slice(0, 40).forEach((e) => results.append(row(e, [e.group, (e.primary || []).map((m) => ctx.data.muscleById[m]?.name || m).filter((n) => n !== e.group).join(', '), e.equipment].filter(Boolean).join(' · '), () => addExercise(e.id))));
       if (list.length > 40) results.append(el('li', { class: 'muted pad small', text: `Mostrando 40 de ${list.length}. Afina la búsqueda.` }));
     }
     search.addEventListener('input', () => { query = search.value; fill(); });
@@ -153,7 +155,7 @@ export async function render(ctx, root) {
       const sets = [];
       for (const s of ex.sets) {
         if (s.r === '' && s.w === '') continue;
-        const set = { weight_kg: fromDisplay(s.w === '' ? 0 : s.w, du), reps: s.r === '' ? 0 : Number(s.r), rir: s.rir === '' ? null : Number(s.rir) };
+        const set = { unit: ex.unit, weight_kg: fromDisplay(s.w === '' ? 0 : s.w, ex.unit), reps: s.r === '' ? 0 : Number(s.r), rir: s.rir === '' ? null : Number(s.rir) };
         const err = validateSet(set);
         if (err) return toast(`${ctx.data.exById[ex.exercise_id].name}: ${err}`, 'bad');
         if (set.reps > 0) sets.push(set);
@@ -185,7 +187,7 @@ export async function render(ctx, root) {
   }
 
   async function setUnit(u) {
-    draft.exercises.forEach((e) => e.sets.forEach((x) => { x.w = convertTyped(x.w, du, u); }));
+    draft.exercises.forEach((e) => { e.sets.forEach((x) => { x.w = convertTyped(x.w, e.unit, u); }); e.unit = u; });
     du = u; draft.unit = u; persist();
     ctx.profile = { ...ctx.profile, unit: u };
     try { await ctx.api.saveProfile(ctx.profile); } catch { toast('Unidad cambiada (no se pudo guardar la preferencia)', 'bad'); }
@@ -199,7 +201,7 @@ export async function render(ctx, root) {
       el('label', { class: 'field inline' }, el('span', { text: 'Fecha' }),
         el('input', { class: 'input', type: 'date', value: draft.performed_on, max: today(), min: '2000-01-01', on: { change: (e) => { if (e.target.value) { draft.performed_on = e.target.value; persist(); draw(); } } } })),
       draft.plan_day ? el('span', { class: 'badge', text: draft.plan_day }) : null);
-    view.append(el('div', { class: 'row between wrap gap' }, el('h2', { class: 'sub', text: 'Tu sesión' }), unitToggle(du, setUnit)), meta);
+    view.append(el('div', { class: 'row between wrap gap' }, el('h2', { class: 'sub', text: 'Tu sesión' }), el('div', { class: 'row gap' }, el('span', { class: 'muted small', text: 'Aplicar a todos' }), unitToggle(du, setUnit))), meta);
     if (!draft.exercises.length) view.append(el('p', { class: 'muted', text: 'Usa la rutina recomendada o elige ejercicios abajo.' }));
     draft.exercises.forEach((ex, i) => view.append(exerciseCard(ex, i)));
     if (draft.exercises.length) {

@@ -101,7 +101,7 @@ create table if not exists public.food_logs (
   user_id    uuid not null default auth.uid() references auth.users (id) on delete cascade,
   logged_on  date not null check (logged_on between date '2000-01-01' and date '2100-01-01'),
   meal_slot  smallint not null check (meal_slot between 1 and 6),
-  source     text not null check (source in ('recipe', 'food')),
+  source     text not null,
   ref_id     text not null check (char_length(ref_id) between 1 and 64 and ref_id ~ '^[a-zA-Z0-9_-]+$'),
   label      text check (label is null or char_length(label) <= 80),
   servings   numeric(7,2) check (servings is null or (servings > 0 and servings <= 100)),
@@ -112,8 +112,29 @@ create table if not exists public.food_logs (
   f          numeric(6,1) not null check (f between 0 and 2000),
   fiber      numeric(6,1) not null default 0 check (fiber between 0 and 500),
   created_at timestamptz not null default now(),
-  check ((source = 'recipe' and servings is not null) or (source = 'food' and grams is not null))
+  constraint food_logs_source_check check (source in ('recipe', 'food', 'powder')),
+  constraint food_logs_shape_check check ((source in ('recipe', 'powder') and servings is not null) or (source = 'food' and grams is not null))
 );
+
+-- Versión 4: proteína en polvo ('powder': servings = scoops) y "mi proteína" favorita. Migración segura.
+alter table public.food_logs drop constraint if exists food_logs_check;
+alter table public.food_logs drop constraint if exists food_logs_source_check;
+alter table public.food_logs drop constraint if exists food_logs_shape_check;
+alter table public.food_logs add constraint food_logs_source_check check (source in ('recipe', 'food', 'powder'));
+alter table public.food_logs add constraint food_logs_shape_check check ((source in ('recipe', 'powder') and servings is not null) or (source = 'food' and grams is not null));
+alter table public.profiles add column if not exists favorite_powder text;
+alter table public.profiles drop constraint if exists profiles_fav_powder_chk;
+alter table public.profiles add constraint profiles_fav_powder_chk check (favorite_powder is null or (char_length(favorite_powder) <= 64 and favorite_powder ~ '^[a-zA-Z0-9_-]+$'));
+
+-- Versión 5: unidad original (kg/lb) de cada serie; weight_kg sigue siendo la fuente de verdad. Migración segura.
+alter table public.sets add column if not exists unit text not null default 'kg';
+alter table public.sets drop constraint if exists sets_unit_chk;
+alter table public.sets add constraint sets_unit_chk check (unit in ('kg', 'lb'));
+
+-- Versión 6: proteínas en polvo personalizadas del usuario (máx. 10, tamaño acotado). Migración segura.
+alter table public.profiles add column if not exists custom_powders jsonb;
+alter table public.profiles drop constraint if exists profiles_custom_powders_chk;
+alter table public.profiles add constraint profiles_custom_powders_chk check (custom_powders is null or (jsonb_typeof(custom_powders) = 'array' and jsonb_array_length(custom_powders) <= 10 and pg_column_size(custom_powders) < 8000));
 
 -- ============ Índices ============
 create index if not exists workouts_user_date_idx on public.workouts (user_id, performed_on desc);

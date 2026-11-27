@@ -152,3 +152,7 @@ select.input { margin-bottom: 8px; }
 .stat-row { display: flex; gap: 8px; margin: 8px 0; } .stat { flex: 1; background: var(--surface2); border-radius: 12px; padding: 8px; text-align: center; } .stat strong { display: block; font-size: 1.3rem; }
 .pick.nb { border-bottom: 0; flex: 1; }
 .chart-wrap.short { height: 170px; }
+.fav-card { border: 1px solid var(--warn); border-radius: 12px; padding: 4px 10px; margin: 8px 0; } .label-list li { padding: 8px 0; border-bottom: 1px solid var(--line); }
+.play-btn { flex: none; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--accent); color: var(--accent-ink); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; } .play-btn .icon { width: 20px; height: 20px; fill: currentColor; }
+.list-item.tight { gap: 4px; padding: 4px 0; } .list-item.tight .pick { border-bottom: 0; }
+.anim-wrap .btn { margin-top: 0; margin-bottom: 10px; }

@@ -1,6 +1,7 @@
 // Alimentación: metas diarias, plan de comidas y registro por comida; proteínas populares.
 import { el, clear, icon, toast, fmtNum, openModal, confirmDialog } from '../ui.js';
 import { loadFoods, loadRecipes } from '../data.js';
+import { allPowders, renderPowders, openPowder, matchPowder, quickAddScoop, favoritePowder, powderTitle } from './powders.js';
 import { normalize } from '../search.js';
 import { today, targetsOf } from '../stats.js';
 import { addDays } from '../calc.js';
@@ -22,13 +23,14 @@ function bar(label, value, target, unit) {
 export async function render(ctx, root) {
   st.date ||= today();
   const targets = targetsOf(ctx);
+  let favP = await favoritePowder(ctx);
   root.append(el('h1', { text: 'Alimentación' }));
   const tabs = el('div', { class: 'seg', role: 'group', 'aria-label': 'Sección' });
   const host = el('div');
   [['dia', 'Día'], ['proteinas', 'Proteínas'], ['plan', 'Plan']].forEach(([id, label]) => tabs.append(el('button', { class: `seg-btn${st.tab === id ? ' on' : ''}`, type: 'button', 'aria-pressed': String(st.tab === id), on: { click: () => { st.tab = id; [...tabs.children].forEach((b, i) => { const on = ['dia', 'proteinas', 'plan'][i] === id; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); }); draw(); } } }, label)));
   root.append(tabs, host);
   if (!targets) { root.append(el('p', { class: 'banner warn', text: 'Completa tu perfil (estatura, edad, peso) en Cuenta para calcular tus metas.' })); }
-  const draw = () => { clear(host); (st.tab === 'dia' ? dia : st.tab === 'proteinas' ? proteinas : plan)(ctx, host, targets, draw); };
+  const draw = async () => { favP = await favoritePowder(ctx); clear(host); (st.tab === 'dia' ? dia : st.tab === 'proteinas' ? proteinas : plan)(ctx, host, targets, draw, favP); };
   draw();
 }
 
@@ -42,7 +44,7 @@ function formulaDetails(ctx, t) {
     el('p', { text: `Proteína ${t.goal === 'lose' ? '2.2' : '2.0'} g/kg, grasa 0.9 g/kg (mín. 20 % de las kcal), carbohidratos el resto, fibra 14 g por 1 000 kcal. Se recalcula al cambiar tu peso o perfil.` })));
 }
 
-function dia(ctx, host, targets, redraw) {
+function dia(ctx, host, targets, redraw, favP) {
   const date = st.date, plan = mealPlanOf(ctx.profile);
   const logs = ctx.foodLogs;
   const nav = el('div', { class: 'date-nav' },
@@ -64,12 +66,13 @@ function dia(ctx, host, targets, redraw) {
     if (targets) { const pr = el('progress', { max: '100', 'aria-label': `${m.name}: avance de calorías` }); pr.value = Math.min(100, Math.round((t.kcal / m.kcal) * 100)); card.append(pr); }
     if (entries.length) card.append(el('ul', { class: 'list' }, entries.map((e) => el('li', { class: 'list-item' },
       el('div', { class: 'grow' }, el('strong', { text: e.label || e.ref_id }),
-        el('div', { class: 'muted small', text: `${e.source === 'recipe' ? `${fmtNum(e.servings, 2)} porc.` : `${fmtNum(e.grams, 1)} g`} · ${fmtNum(e.kcal)} kcal · P ${fmtNum(e.p, 1)} g` })),
+        el('div', { class: 'muted small', text: `${e.source === 'recipe' ? `${fmtNum(e.servings, 2)} porc.` : e.source === 'powder' ? `${fmtNum(e.servings, 2)} scoop` : `${fmtNum(e.grams, 1)} g`} · ${fmtNum(e.kcal)} kcal · P ${fmtNum(e.p, 1)} g` })),
       el('button', { class: 'btn small', type: 'button', 'aria-label': `Editar ${e.label}`, on: { click: () => openEditEntry(ctx, e, redraw) } }, 'Editar'),
       el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Quitar ${e.label}`, on: { click: async () => { try { await ctx.api.deleteFoodLog(e.id); await ctx.refreshFood(); redraw(); } catch { toast('No se pudo quitar', 'bad'); } } } }, icon('borrar')))))); 
     const prev = mealEntries(logs, addDays(date, -1), m.slot);
     card.append(el('div', { class: 'row gap' },
       el('button', { class: 'btn small grow primary', type: 'button', on: { click: () => openPicker(ctx, { date, slot: m.slot, onSaved: redraw }) } }, '+ Agregar'),
+      favP ? el('button', { class: 'btn small', type: 'button', 'aria-label': `Agregar 1 scoop de ${powderTitle(favP)} a ${m.name}`, on: { click: () => quickAddScoop(ctx, favP, date, m.slot, redraw) } }, '+1 scoop') : null,
       prev.length ? el('button', { class: 'btn small grow', type: 'button', on: { click: async () => {
         if (entries.length && !(await confirmDialog('Copiar de ayer', `Se agregarán ${prev.length} renglones a ${m.name}.`, 'Copiar'))) return;
         try { for (const e of prev) await ctx.api.saveFoodLog({ ...e, id: newId(), logged_on: date }); await ctx.refreshFood(); toast('Comida copiada'); redraw(); } catch { toast('No se pudo copiar', 'bad'); }
@@ -80,7 +83,7 @@ function dia(ctx, host, targets, redraw) {
 
 // ---- Selector para agregar: recetas / alimentos / proteínas ----
 export async function openPicker(ctx, { date, slot, onSaved, initialTab = 'alimentos' }) {
-  const [{ foods }, rd] = await Promise.all([loadFoods(), loadRecipes()]);
+  const [{ foods }, rd, powders] = await Promise.all([loadFoods(), loadRecipes(), allPowders(ctx)]);
   let tab = initialTab, query = '';
   const search = el('input', { class: 'input', type: 'search', placeholder: 'Buscar…', 'aria-label': 'Buscar', maxlength: 60, autocomplete: 'off' });
   const list = el('ul', { class: 'list results' });
@@ -96,7 +99,9 @@ export async function openPicker(ctx, { date, slot, onSaved, initialTab = 'alime
     if (tab === 'recetas') rows = rd.recipes.filter((r) => match(r.name, r.tags, q)).slice(0, 40).map((r) => ({ t: r.name, s: `${r.per_serving.kcal} kcal · P ${r.per_serving.p} g por porción`, go: () => openLogEntry(ctx, { kind: 'recipe', item: r, date, slot, onSaved: (e) => { box.close(); onSaved?.(e); } }) }));
     else {
       const src = tab === 'proteinas' ? foods.filter((f) => f.protein_pick).sort((a, b) => b.p - a.p) : foods;
-      rows = src.filter((f) => match(f.name, f.keywords, q)).slice(0, 40).map((f) => ({ t: f.name, s: `${f.kcal} kcal · P ${f.p} g por 100 g`, go: () => openLogEntry(ctx, { kind: 'food', item: f, date, slot, onSaved: (e) => { box.close(); onSaved?.(e); } }) }));
+      const prow = powders.filter((x) => matchPowder(x, query)).slice(0, tab === 'alimentos' && !q ? 5 : 20).map((x) => ({ t: powderTitle(x), s: `Proteína en polvo · P ${x.p} g · ${x.kcal} kcal por scoop`, go: () => openPowder(ctx, x, { date, slot, onChange: () => { box.close(); onSaved?.(); } }) }));
+      const frows = src.filter((f) => match(f.name, f.keywords, q)).slice(0, 40).map((f) => ({ t: f.name, s: `${f.kcal} kcal · P ${f.p} g por 100 g`, go: () => openLogEntry(ctx, { kind: 'food', item: f, date, slot, onSaved: (e) => { box.close(); onSaved?.(e); } }) }));
+      rows = tab === 'proteinas' ? [...prow, ...frows] : [...(q ? prow : []), ...frows, ...(q ? [] : prow)];
     }
     if (!rows.length) list.append(el('li', { class: 'muted pad', text: tab === 'recetas' && !rd.recipes.length ? 'Las recetas aún no están disponibles.' : 'Sin resultados.' }));
     rows.forEach((r) => list.append(el('li', {}, el('button', { class: 'pick', type: 'button', on: { click: r.go } }, el('span', { class: 'grow' }, el('strong', { text: r.t }), el('span', { class: 'muted small block', text: r.s })), el('span', { class: 'plus', 'aria-hidden': 'true', text: '+' })))));
@@ -106,8 +111,23 @@ export async function openPicker(ctx, { date, slot, onSaved, initialTab = 'alime
   fill();
 }
 
-// ---- Proteínas populares ----
-async function proteinas(ctx, host) {
+// ---- Proteínas: proteína en polvo (marcas) y alimentos ----
+async function proteinas(ctx, host, targets, redraw) {
+  const sub = el('div', { class: 'seg', role: 'group', 'aria-label': 'Tipo de proteína' });
+  const body = el('div');
+  const tabs = [['polvo', 'Proteína en polvo'], ['alimentos', 'Alimentos']];
+  tabs.forEach(([id, label]) => sub.append(el('button', { class: 'seg-btn', type: 'button', on: { click: () => { st.ptab = id; show(); } } }, label)));
+  host.append(sub, body);
+  function show() {
+    st.ptab ||= 'polvo';
+    [...sub.children].forEach((b, i) => { const on = tabs[i][0] === st.ptab; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
+    clear(body);
+    if (st.ptab === 'polvo') renderPowders(ctx, body, redraw); else proteinFoods(ctx, body);
+  }
+  show();
+}
+
+async function proteinFoods(ctx, host) {
   const { foods } = await loadFoods();
   const picks = foods.filter((f) => f.protein_pick).sort((a, b) => b.p - a.p);
   let q = '';

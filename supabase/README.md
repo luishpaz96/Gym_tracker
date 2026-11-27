@@ -14,6 +14,8 @@ La app es un sitio estático; los datos de cada persona viven en Supabase (Auth 
 4. **Si ya habías ejecutado la primera versión**, vuelve a ejecutar el `schema.sql` completo: es una migración segura (usa `IF NOT EXISTS`, `ADD COLUMN IF NOT EXISTS` y recrea políticas y restricciones). Agrega a `profiles` las columnas `birth_year`, `sex`, `height_cm`, `goal_weight_kg` y `days_per_week` (con CHECK: estatura 120–230, peso meta 30–300, días 2–6, y un trigger que exige edad 13–100) y crea `body_weights` (peso 30–300 kg, único por usuario y fecha) y `user_plans` (un plan jsonb por usuario).
 5. **Versión con alimentación**: agrega `profiles.meals_per_day` (3–6) y `profiles.meal_plan` (jsonb, máx. 6 comidas) y la tabla `food_logs` (fecha, comida 1–6, origen receta/alimento, `ref_id`, porciones o gramos y snapshot de kcal/proteína/carbohidratos/grasa/fibra con CHECK de rangos, RLS por `user_id`). También se borra en `delete_my_account()`. Vuelve a ejecutar `schema.sql` completo.
 
+> Si ya habías creado las tablas, vuelve a ejecutar `schema.sql` completo: es seguro repetirlo y agrega `sets.unit`, el origen `powder` en `food_logs`, `profiles.favorite_powder` y `profiles.custom_powders`. Mientras no lo hagas, la app sigue funcionando pero no recuerda la unidad por ejercicio ni guarda proteínas personalizadas.
+
 ## 3. Configuración de Auth (Authentication)
 **URL Configuration**
 - **Site URL**: `https://luishpaz96.github.io/gym_tracker/`

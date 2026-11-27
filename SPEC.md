@@ -66,6 +66,14 @@ Barra inferior: **Track**, **Comida** (Alimentación), **Recetas**, **Summary**,
 ## Unidades kg / lb
 Selector kg | lb en Track (sesión), Summary (peso corporal), onboarding y Cuenta. Se guarda en `profiles.unit`; los pesos siempre se almacenan en kg (`js/units.js`: 1 lb = 0.45359237 kg, pantalla redondeada a 0.5; peso corporal a 0.1; al guardar se conserva kg con 2 decimales). Al cambiar la unidad se convierten los valores ya tecleados; la sobrecarga sugiere +2.5 kg o +5 lb.
 
+Cada tarjeta de ejercicio tiene su propio kg | lb. Por defecto usa la unidad de la última vez que se registró ese ejercicio (`sets.unit`), y si no hay, `profiles.unit`. El selector de sesión significa "aplicar a todos". Se guarda en kg y la unidad original, así "Última vez" muestra exactamente lo capturado (135 lb se queda en 135 lb).
+
+## Botón ▶ de técnica
+`playButton` (js/technique.js) abre la animación de técnica sin seleccionar el ejercicio (≥44 px). Está en el selector de Track (búsqueda, por grupo, Recomendados), Rutina recomendada, tarjetas de sesión, Biblioteca y detalle de músculo en Summary. La animación se reproduce sola, con botón Pausar/Reproducir.
+
+## Proteínas en polvo
+Comida → Proteínas → "Proteína en polvo" (`data/protein_powders.json`, valores por scoop de etiqueta de EE. UU.; fibra/azúcar pueden ser null). Búsqueda sin acentos, agrupado por marca, detalle con fuente, agregar por scoops (0.5) o gramos (`food_logs.source = 'powder'`, servings = scoops). "Mi proteína" (`profiles.favorite_powder`) con botón "+1 scoop" en cada comida. "Agregar mi proteína": hasta 10 por usuario en `profiles.custom_powders` (jsonb, validado en cliente y CHECK en BD), con chip "personalizada".
+
 ## Alimentación y recetas (ver NUTRITION_SPEC.md)
 - **Comida**: metas diarias (kcal, P, C, G, fibra) con `js/nutrition.js` a partir del perfil (Mifflin-St Jeor, factor por días de entreno, ajuste por meta, "¿Cómo se calcula?"); pestañas Día / Proteínas / Plan. Plan de comidas: 3–6 por día con nombre y hora (`profiles.meals_per_day`, `meal_plan`), reparto de kcal y proteína por comida. Registro por comida y fecha desde recetas (porciones decimales), alimentos (gramos o porción casera) y "Proteínas populares" (`protein_pick`); barras de avance por comida y por día, editar, quitar y copiar la comida de ayer.
 - **Recetas**: categorías de `recipe_categories.json`, búsqueda sin acentos (nombre, ingrediente, etiqueta), filtros (alta en proteína, <30 min, <500 kcal, favoritas), listas paginadas, `recipes.json` cargado una sola vez bajo demanda; detalle con macros por porción, ingredientes (g y porción casera), pasos y "Agregar a comida".

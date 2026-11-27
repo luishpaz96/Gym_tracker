@@ -26,3 +26,13 @@ export function convertTyped(text, from, to, step = 0.5) {
 }
 export const overloadStep = (unit) => (normUnit(unit) === 'lb' ? 5 : 2.5);
 export const fmtWeight = (kg, unit, step = 0.5) => `${toDisplay(kg, unit, step)} ${normUnit(unit)}`;
+
+// Unidad por defecto de un ejercicio: la de la última vez que se registró; si no hay historial, la del perfil.
+export function resolveExerciseUnit(workouts, exerciseId, fallback = 'kg') {
+  const ws = [...(workouts || [])].sort((a, b) => (b.performed_on === a.performed_on ? String(b.created_at || '').localeCompare(String(a.created_at || '')) : b.performed_on.localeCompare(a.performed_on)));
+  for (const w of ws) {
+    const ex = (w.exercises || []).find((e) => e.exercise_id === exerciseId && (e.sets || []).length);
+    if (ex) return normUnit(ex.sets[0].unit || fallback);
+  }
+  return normUnit(fallback);
+}
