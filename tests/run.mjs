@@ -154,3 +154,203 @@ test('búsqueda sin acentos', () => {
   assert.equal(searchExercises(EX, { where: 'casa' }).length, 2);
   assert.equal(searchExercises(EX, {}).length, 4);
 });
+
+// ---------- Sobrecarga progresiva ----------
+import * as ov from '../js/overload.js';
+import { generateTips, sessionsInWeek, weekStreak } from '../js/tips.js';
+
+test('parseRepRange', () => {
+  assert.deepEqual(ov.parseRepRange('6–10'), [6, 10]);
+  assert.deepEqual(ov.parseRepRange('8-12'), [8, 12]);
+  assert.deepEqual(ov.parseRepRange('12'), [12, 12]);
+  assert.equal(ov.parseRepRange('45 s'), null);
+  assert.equal(ov.parseRepRange(null), null);
+});
+
+test('lastTime devuelve fecha y todas las series', () => {
+  const ws = [
+    { id: 'a', performed_on: '2026-11-16', exercises: [{ exercise_id: 'banca', sets: [S(60, 10), S(60, 9), S(57.5, 8)] }] },
+    { id: 'b', performed_on: '2026-11-23', exercises: [{ exercise_id: 'curl', sets: [S(10, 10)] }] },
+  ];
+  const l = ov.lastTime(ws, 'banca', '2026-11-27');
+  assert.equal(l.date, '2026-11-16');
+  assert.equal(l.sets.length, 3);
+  assert.equal(ov.lastTime(ws, 'banca', '2026-11-10'), null);
+  assert.equal(ov.lastTime(ws, 'plancha', '2026-11-27'), null);
+});
+
+test('sugerencia de sobrecarga', () => {
+  assert.match(ov.overloadSuggestion([S(60, 10), S(60, 10), S(60, 10)], '6–10'), /Sube 2\.5 kg/);
+  assert.match(ov.overloadSuggestion([S(60, 10), S(60, 10), S(60, 10)], '6–10', 'lb'), /Sube 5 lb/);
+  assert.match(ov.overloadSuggestion([S(60, 10), S(60, 9), S(57.5, 8)], '6–10'), /\+1 rep en la serie 3/);
+  assert.match(ov.overloadSuggestion([S(60, 10), S(60, 8), S(60, 9)], '8–12'), /\+1 rep en la serie 1|\+1 rep en la serie 2/);
+  assert.match(ov.overloadSuggestion([], '6–10'), /Primera vez/);
+  assert.match(ov.overloadSuggestion([S(20, 12), S(20, 12)], null), /\+1 rep/);
+});
+
+// ---------- Rutina recomendada ajustada ----------
+test('rutina: día no planeado usa la siguiente sesión y marca faltantes con texto', () => {
+  const series = { pecho: { sets: 8, exercises: {} }, biceps: { sets: 1, exercises: {} }, abdomen: { sets: 0, exercises: {} }, cuadriceps: { sets: 0, exercises: {} } };
+  const status = rec.muscleStatus(MUSCLES, series, true);
+  const r = rec.recommend({ plan: PLAN, exercises: EX, status, today: '2026-11-28' });
+  assert.equal(r.next.date, '2026-11-30');
+  const b = r.needs.find((n) => n.id === 'biceps');
+  assert.equal(b.text, 'Te falta: bíceps 1/6 series');
+});
+
+test('rutina: músculos que cubre una sesión posterior de la misma semana no se agregan', () => {
+  // Lunes 30 nov: hoy toca pecho/bíceps; pierna (miércoles) y abdomen (viernes) vienen después
+  const status = rec.muscleStatus(MUSCLES, {}, true); // todo rojo
+  const r = rec.recommend({ plan: PLAN, exercises: EX, status, today: '2026-11-30' });
+  const ids = r.items.map((i) => i.exercise.id);
+  assert.deepEqual(ids, ['banca', 'curl']);               // sin extras de pierna/abdomen
+  assert.ok(!r.needs.some((n) => n.id === 'cuadriceps'));
+  assert.ok(r.items[0].reason.includes('Pecho'));          // el plan marca qué refuerza
+});
+
+test('rutina: si ya entrenaste hoy, propone la siguiente', () => {
+  const r = rec.recommend({ plan: PLAN, exercises: EX, status: rec.muscleStatus(MUSCLES, {}, false), today: '2026-11-30', doneToday: true });
+  assert.equal(r.next.date, '2026-12-02');
+});
+
+// ---------- Tips ----------
+test('sesiones de la semana y racha', () => {
+  const w = (d) => ({ id: d, performed_on: d, exercises: [] });
+  const ws = [w('2026-11-09'), w('2026-11-11'), w('2026-11-13'), w('2026-11-16'), w('2026-11-18'), w('2026-11-20'), w('2026-11-23')];
+  assert.equal(sessionsInWeek(ws, '2026-11-25'), 1);
+  assert.equal(weekStreak(ws, '2026-11-25', 3), 2); // semana actual no cumple: cuentan las 2 previas
+  assert.equal(weekStreak([], '2026-11-25', 3), 0);
+  assert.equal(weekStreak([...ws, w('2026-11-25'), w('2026-11-27')], '2026-11-27', 3), 3);
+});
+
+test('tips: faltantes, bajaste y estancados, entre 3 y 5', () => {
+  const mk = (id, d, ex, sets) => ({ id, performed_on: d, exercises: [{ exercise_id: ex, sets }] });
+  const ws = [
+    mk('1', '2026-11-02', 'banca', [S(80, 8)]), mk('2', '2026-11-09', 'banca', [S(80, 8)]), mk('3', '2026-11-16', 'banca', [S(80, 8)]),
+    mk('4', '2026-11-23', 'curl', [S(15, 10)]), mk('5', '2026-11-25', 'curl', [S(10, 10)]),
+  ];
+  const series = { pecho: { sets: 3, exercises: {} }, biceps: { sets: 5, exercises: {} }, cuadriceps: { sets: 10, exercises: {} }, abdomen: { sets: 6, exercises: {} }, gluteo: { sets: 6, exercises: {} } };
+  const status = rec.muscleStatus(MUSCLES, series, true);
+  const tips = generateTips({ status, workouts: ws, exercises: EX, plan: PLAN, today: '2026-11-26' });
+  assert.ok(tips.length >= 3 && tips.length <= 5);
+  const txt = tips.map((t) => t.text).join('\n');
+  assert.match(txt, /Llevas 1 de 3 sesiones|Llevas 2 de 3 sesiones/);
+  assert.match(txt, /Pecho va bajo: 3\/8/);
+  assert.match(txt, /Bajaste vs la sesión anterior en Curl/);
+  assert.ok(tips.some((t) => t.kind === 'streak'));
+  const empty = generateTips({ status: rec.muscleStatus(MUSCLES, {}, false), workouts: [], exercises: EX, plan: PLAN, today: '2026-11-26' });
+  assert.ok(empty.length >= 3);
+});
+
+// ---------- Generador de plan y peso corporal ----------
+import * as gen from '../js/plan-generator.js';
+import * as wt from '../js/weight.js';
+import { readFileSync } from 'node:fs';
+const REAL = JSON.parse(readFileSync(new URL('../data/exercises.json', import.meta.url), 'utf8'));
+const REALBY = Object.fromEntries(REAL.map((e) => [e.id, e]));
+
+test('goalFor', () => {
+  assert.equal(gen.goalFor(70, 75), 'gain');
+  assert.equal(gen.goalFor(80, 75), 'lose');
+  assert.equal(gen.goalFor(80, 80.3), 'recomp');
+});
+
+test('generador: días por semana -> sesiones y días de la semana', () => {
+  const expectDays = { 2: [1, 4], 3: [1, 3, 5], 4: [1, 2, 4, 5], 5: [1, 2, 4, 5, 6], 6: [1, 2, 3, 4, 5, 6] };
+  for (const d of [2, 3, 4, 5, 6]) {
+    const p = gen.generatePlan({ days: d, goal: 'gain', exercises: REAL, start: '2026-11-25', weeks: 8 });
+    assert.deepEqual(Object.keys(p.days).map(Number), expectDays[d]);
+    assert.equal(p.phases.length, 8);
+    assert.equal(p.start, '2026-11-23');
+    for (const ph of p.phases) {
+      assert.deepEqual(Object.keys(ph.sessions).map(Number), expectDays[d]);
+      for (const s of Object.values(ph.sessions)) {
+        assert.ok(s.exercises.length >= 4, `${d} días: sesión con pocos ejercicios`);
+        for (const e of s.exercises) assert.ok(REALBY[e.id], `id inexistente ${e.id}`);
+        assert.equal(new Set(s.exercises.map((e) => e.id)).size, s.exercises.length);
+      }
+    }
+  }
+});
+
+test('generador: fases contiguas y semana de descarga', () => {
+  const p = gen.generatePlan({ days: 3, goal: 'gain', exercises: REAL, start: '2026-11-23', weeks: 8 });
+  p.phases.forEach((ph, i) => { if (i) assert.equal(calc.addDays(p.phases[i - 1].to, 1), ph.from); });
+  const n = (ph) => Object.values(ph.sessions)[0].exercises[0].sets.length;
+  assert.equal(n(p.phases[0]), 3);
+  assert.ok(n(p.phases[1]) >= n(p.phases[0]));
+  assert.ok(n(p.phases[2]) >= 4);
+  assert.equal(n(p.phases[3]), 2);        // descarga
+  assert.equal(n(p.phases[4]), 3);        // nuevo mesociclo
+  assert.match(p.phases[3].name, /Descarga/);
+});
+
+test('generador: 3 días = split del dueño', () => {
+  const p = gen.generatePlan({ days: 3, goal: 'recomp', exercises: REAL, start: '2026-11-23', weeks: 4 });
+  const names = Object.values(p.phases[0].sessions).map((s) => s.name);
+  assert.deepEqual(names, ['Pecho, bíceps y abdomen', 'Pierna', 'Espalda, hombro, trapecio y tríceps']);
+  const prim = (s) => s.exercises.flatMap((e) => REALBY[e.id].primary);
+  const [a, b, c] = Object.values(p.phases[0].sessions);
+  assert.ok(prim(a).filter((m) => m === 'pecho').length >= 2 && prim(a).includes('biceps') && prim(a).includes('abdomen'));
+  assert.ok(prim(b).filter((m) => m === 'cuadriceps').length >= 2);
+  assert.ok(prim(c).includes('trapecio') && prim(c).includes('triceps'));
+});
+
+test('generador: reps y notas según meta; prefiere gimnasio', () => {
+  const g = gen.generatePlan({ days: 4, goal: 'gain', exercises: REAL, start: '2026-11-23', weeks: 1 });
+  const first = Object.values(g.phases[0].sessions)[0].exercises[0];
+  assert.equal(first.reps, '6–10');
+  assert.ok(gen.goalNotes('lose').join(' ').match(/pasos/) && gen.goalNotes('lose').join(' ').match(/déficit/i));
+  assert.ok(gen.goalNotes('gain').join(' ').match(/superávit/i));
+  const used = new Set();
+  const pick = gen.pickExercises(REAL, 'pecho', 2, used);
+  assert.equal(pick.length, 2);
+  assert.ok(pick.every((e) => e.where.includes('gym')));
+});
+
+test('regenerar con otros días cambia el plan', () => {
+  const a = gen.generatePlan({ days: 3, goal: 'gain', exercises: REAL, start: '2026-11-23', weeks: 2 });
+  const b = gen.generatePlan({ days: 5, goal: 'gain', exercises: REAL, start: '2026-11-23', weeks: 2 });
+  assert.notEqual(Object.keys(a.days).length, Object.keys(b.days).length);
+  assert.equal(gen.planEndDate(a), '2026-12-06');
+});
+
+test('peso: promedios semanales y ritmo', () => {
+  const e = [['2026-11-02', 80], ['2026-11-04', 80.2], ['2026-11-09', 80.5], ['2026-11-11', 80.7]].map(([d, w]) => ({ measured_on: d, weight_kg: w }));
+  const w = wt.weeklyAverages(e);
+  assert.deepEqual(w.map((x) => x.avg), [80.1, 80.6]);
+  assert.equal(wt.weeklyChangePct(e), 0.62);
+  assert.match(wt.weightTip(e, 'gain'), /demasiado rápido/);
+  assert.match(wt.weightTip(e, 'lose'), /subió/);
+  assert.match(wt.weightTip([{ measured_on: '2026-11-02', weight_kg: 80 }], 'gain'), /2 semanas/);
+  assert.match(wt.weightTip([], 'gain'), /Registra tu peso/);
+  const ok = [['2026-11-02', 80], ['2026-11-09', 80.3]].map(([d, w2]) => ({ measured_on: d, weight_kg: w2 }));
+  assert.match(wt.weightTip(ok, 'gain'), /Ritmo ideal/);
+  const fast = [['2026-11-02', 80], ['2026-11-09', 79]].map(([d, w2]) => ({ measured_on: d, weight_kg: w2 }));
+  assert.match(wt.weightTip(fast, 'lose'), /demasiado rápido/);
+});
+
+test('tips incluyen consejo de peso', () => {
+  const ws = [{ id: '1', performed_on: '2026-11-25', exercises: [] }];
+  const tips = generateTips({ status: rec.muscleStatus(MUSCLES, {}, true), workouts: ws, exercises: EX, plan: PLAN, today: '2026-11-26', weightGoal: 'gain', weights: [] });
+  assert.ok(tips.some((t) => t.kind === 'weight'));
+  assert.ok(tips.length <= 5);
+});
+
+// ---------- Perfil ----------
+import * as prof from '../js/profile.js';
+test('validación de perfil: rangos', () => {
+  const ok = { age: '28', sex: 'M', height_cm: '175', weight_kg: '80', goal_weight_kg: '75', days_per_week: '3' };
+  const r = prof.validateProfileInput(ok, 2026);
+  assert.ok(r.ok);
+  assert.equal(r.values.birth_year, 1998);
+  for (const [k, v] of [['age', '12'], ['age', '101'], ['age', '20.5'], ['sex', ''], ['height_cm', '119'], ['height_cm', '231'], ['weight_kg', '29'], ['weight_kg', '301'], ['goal_weight_kg', '10'], ['days_per_week', '1'], ['days_per_week', '7']]) {
+    const bad = prof.validateProfileInput({ ...ok, [k]: v }, 2026);
+    assert.ok(!bad.ok && bad.errors[k === 'age' ? 'age' : k], `${k}=${v} debería fallar`);
+  }
+  assert.ok(prof.validateProfileInput({ ...ok, age: '13', height_cm: '120', weight_kg: '30', goal_weight_kg: '300', days_per_week: '6' }, 2026).ok);
+  assert.ok(prof.validateProfileInput({ ...ok, weight_kg: '' }, 2026, { needWeight: false }).ok);
+  assert.ok(prof.profileComplete({ birth_year: 1998, sex: 'F', height_cm: 160, goal_weight_kg: 60, days_per_week: 4 }));
+  assert.ok(!prof.profileComplete({ unit: 'kg' }));
+  assert.equal(prof.ageOf({ birth_year: 1998 }, 2026), 28);
+});

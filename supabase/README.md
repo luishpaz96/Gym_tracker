@@ -10,7 +10,8 @@ La app es un sitio estático; los datos de cada persona viven en Supabase (Auth 
 ## 2. Crear tablas, políticas y funciones
 1. En el panel: **SQL Editor → New query**.
 2. Copia **todo** el contenido de [`schema.sql`](schema.sql), pégalo y presiona **Run**. Es seguro volver a ejecutarlo.
-3. Verifica en **Table Editor** que `profiles`, `workouts`, `workout_exercises` y `sets` existen y muestran el candado de *RLS enabled*. En **Authentication → Policies** debe haber 4 políticas por tabla.
+3. Verifica en **Table Editor** que `profiles`, `workouts`, `workout_exercises`, `sets`, `body_weights` y `user_plans` existen y muestran el candado de *RLS enabled*. En **Authentication → Policies** debe haber 4 políticas por tabla.
+4. **Si ya habías ejecutado la primera versión**, vuelve a ejecutar el `schema.sql` completo: es una migración segura (usa `IF NOT EXISTS`, `ADD COLUMN IF NOT EXISTS` y recrea políticas y restricciones). Agrega a `profiles` las columnas `birth_year`, `sex`, `height_cm`, `goal_weight_kg` y `days_per_week` (con CHECK: estatura 120–230, peso meta 30–300, días 2–6, y un trigger que exige edad 13–100) y crea `body_weights` (peso 30–300 kg, único por usuario y fecha) y `user_plans` (un plan jsonb por usuario).
 
 ## 3. Configuración de Auth (Authentication)
 **URL Configuration**
@@ -60,7 +61,7 @@ La app ya incluye el flujo de código SMS, apagado por defecto.
 > **Nunca** pegues la clave `service_role` ni la contraseña de la base de datos en el repo ni en la app.
 
 ## 6. Seguridad: lista de verificación
-- [ ] RLS activo en las 4 tablas (candado verde en Table Editor).
+- [ ] RLS activo en las 6 tablas (candado verde en Table Editor).
 - [ ] *Confirm email* ON.
 - [ ] Contraseña mínima de 10 caracteres y protección de contraseñas filtradas.
 - [ ] CAPTCHA y límites de tasa configurados.

@@ -1,10 +1,10 @@
 // Service worker: solo cachea archivos estáticos propios, data/*.json y las 2 librerías CDN fijadas (con SRI).
 // Nunca intercepta ni guarda respuestas de Supabase (otro origen) ni peticiones que no sean GET.
-const VERSION = 'gt-v1';
+const VERSION = 'gt-v3';
 const SHELL = ['./', 'index.html', 'css/app.css', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
   'js/main.js', 'js/config.js', 'js/calc.js', 'js/search.js', 'js/grading.js', 'js/recommend.js', 'js/ui.js', 'js/data.js', 'js/api.js', 'js/supabase.js',
   'js/auth.js', 'js/demo.js', 'js/stats.js', 'js/charts.js', 'js/bodymap.js', 'js/technique.js',
-  'js/screens/hoy.js', 'js/screens/registrar.js', 'js/screens/progreso.js', 'js/screens/cuerpo.js', 'js/screens/biblioteca.js', 'js/screens/cuenta.js', 'js/screens/recs.js', 'js/screens/grade.js',
+  'js/overload.js', 'js/plan-generator.js', 'js/weight.js', 'js/profile.js', 'js/planctl.js', 'js/screens/onboarding.js', 'js/tips.js', 'js/screens/track.js', 'js/screens/summary.js', 'js/screens/bodymap_panel.js', 'js/screens/charts_panel.js', 'js/screens/biblioteca.js', 'js/screens/cuenta.js', 'js/screens/grade.js',
   'data/muscles.json', 'data/exercises.json', 'data/plan.json'];
 const CDN_ALLOW = [
   'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js',

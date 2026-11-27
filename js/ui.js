@@ -37,6 +37,8 @@ export const $ = (sel, root = document) => root.querySelector(sel);
 
 // ---- Iconos (trazos simples, 24x24) ----
 const ICONS = {
+  track: 'M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12',
+  summary: 'M4 19V5M4 19h16M8 15l4-5 3 3 5-7',
   hoy: 'M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-4v-6h-6v6H5a1 1 0 0 1-1-1z',
   registrar: 'M12 5v14M5 12h14',
   progreso: 'M4 19V5M4 19h16M8 15l4-5 3 3 5-7',

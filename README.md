@@ -1,6 +1,6 @@
 # Gym Tracker
 
-App web móvil (PWA) en español de México para registrar entrenamientos: series con peso, repeticiones y RIR; volumen; 1RM estimado (Epley); calificación de cada sesión (A–D) contra la anterior; mapa corporal con semáforo por músculo; recomendaciones para la siguiente sesión y una biblioteca de ejercicios con animación y técnica.
+App web móvil (PWA) en español de México para registrar entrenamientos. Menús: **Track** (rutina recomendada, registro de series con "última vez" y sugerencia de sobrecarga, calificación A–D), **Summary** (mapa corporal con semáforo semanal, peso corporal, consejos y gráficas) y **Biblioteca** (ejercicios con animación y técnica). La cuenta está en el engrane. Tras registrarte, un onboarding (edad, sexo, estatura, peso, peso meta, días por semana) genera tu plan personalizado.
 
 **App:** <https://luishpaz96.github.io/gym_tracker/>
 **Demo sin cuenta:** <https://luishpaz96.github.io/gym_tracker/?demo=1> (datos de muestra en tu navegador; no usa Supabase).
@@ -19,7 +19,7 @@ Sigue [`supabase/README.md`](supabase/README.md) (crear proyecto, ejecutar `sche
 ## Estructura
 - `index.html`, `css/app.css`, `js/` (módulos ES, sin paso de build), `sw.js`, `manifest.webmanifest`, `icons/`.
 - `data/` — músculos, ejercicios y plan (JSON de solo lectura).
-- `js/calc.js`, `grading.js`, `recommend.js`, `search.js` — lógica pura con pruebas.
+- `js/calc.js`, `grading.js`, `recommend.js`, `search.js`, `overload.js`, `tips.js`, `weight.js`, `plan-generator.js`, `profile.js` — lógica pura con pruebas.
 - `supabase/schema.sql` — tablas, RLS, restricciones y `delete_my_account()`.
 
 ## Pruebas

@@ -5,6 +5,9 @@ import { createRemoteApi, createDemoApi } from './api.js';
 import { makeSeed } from './demo.js';
 import { renderAuth } from './auth.js';
 import { el, clear, icon, toast, $ } from './ui.js';
+import { profileComplete } from './profile.js';
+import { ensurePlan } from './planctl.js';
+import { renderOnboarding } from './screens/onboarding.js';
 
 const demo = new URLSearchParams(location.search).get('demo') === '1';
 const viewEl = () => $('#view');
@@ -16,14 +19,13 @@ const applyTheme = (t) => { document.documentElement.dataset.theme = t; };
 applyTheme(getTheme());
 
 const ROUTES = {
-  hoy: () => import('./screens/hoy.js'),
-  registrar: () => import('./screens/registrar.js'),
-  progreso: () => import('./screens/progreso.js'),
-  cuerpo: () => import('./screens/cuerpo.js'),
+  track: () => import('./screens/track.js'),
+  summary: () => import('./screens/summary.js'),
   biblioteca: () => import('./screens/biblioteca.js'),
   cuenta: () => import('./screens/cuenta.js'),
 };
-const NAV = [['hoy', 'Hoy'], ['registrar', 'Registrar'], ['progreso', 'Progreso'], ['cuerpo', 'Cuerpo'], ['biblioteca', 'Biblioteca']];
+const ALIAS = { hoy: 'track', registrar: 'track', progreso: 'summary', cuerpo: 'summary' };
+const NAV = [['track', 'Track'], ['summary', 'Summary'], ['biblioteca', 'Biblioteca']];
 
 function message(title, text, extra) {
   const root = viewEl(); clear(root);
@@ -42,7 +44,7 @@ function shell(ctx) {
 
 async function route(ctx) {
   const id = (location.hash.replace(/^#\/?/, '') || 'hoy').split('/')[0];
-  const name = ROUTES[id] ? id : 'hoy';
+  const name = ROUTES[id] ? id : (ALIAS[id] || 'track');
   document.querySelectorAll('.nav-item').forEach((a) => { const on = a.dataset.route === name; a.classList.toggle('on', on); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
   const root = clear(viewEl());
   try {
@@ -57,11 +59,17 @@ async function route(ctx) {
 }
 
 async function startApp(api, data) {
-  const ctx = { api, data, workouts: [], profile: { unit: 'kg' },
+  const ctx = { api, data, workouts: [], weights: [], plan: null, planSource: null, profile: { unit: 'kg' },
     theme: getTheme,
     toggleTheme() { const t = getTheme() === 'dark' ? 'light' : 'dark'; try { localStorage.setItem(themeKey, t); } catch { /* sin almacenamiento */ } applyTheme(t); },
     async refresh() { ctx.workouts = await api.listWorkouts(); } };
   try { ctx.profile = { unit: 'kg', ...(await api.getProfile()) }; } catch { /* se queda en kg */ }
+  try { ctx.weights = await api.listBodyWeights(); } catch { /* sin conexión */ }
+  if (!profileComplete(ctx.profile)) {
+    $('#app-header').classList.add('hidden'); $('#nav').classList.add('hidden');
+    await new Promise((done) => renderOnboarding(ctx, clear(viewEl()), done));
+  }
+  await ensurePlan(ctx);
   try { await api.flush(); } catch { /* sin conexión */ }
   try { await ctx.refresh(); } catch (e) { console.warn(e?.message); toast('No se pudieron cargar tus entrenamientos', 'bad'); }
   shell(ctx);

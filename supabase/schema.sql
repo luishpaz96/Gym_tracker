@@ -39,22 +39,73 @@ create table if not exists public.sets (
   unique (workout_exercise_id, set_no)
 );
 
+-- ---- Versión 2: perfil completo, peso corporal y plan personalizado (migración segura: ADD ... IF NOT EXISTS) ----
+alter table public.profiles add column if not exists birth_year     int;
+alter table public.profiles add column if not exists sex            text;
+alter table public.profiles add column if not exists height_cm      numeric(4,1);
+alter table public.profiles add column if not exists goal_weight_kg numeric(4,1);
+alter table public.profiles add column if not exists days_per_week  int;
+alter table public.profiles drop constraint if exists profiles_birth_year_chk;
+alter table public.profiles add constraint profiles_birth_year_chk check (birth_year is null or birth_year between 1900 and 2100);
+alter table public.profiles drop constraint if exists profiles_sex_chk;
+alter table public.profiles add constraint profiles_sex_chk check (sex is null or sex in ('M', 'F'));
+alter table public.profiles drop constraint if exists profiles_height_chk;
+alter table public.profiles add constraint profiles_height_chk check (height_cm is null or height_cm between 120 and 230);
+alter table public.profiles drop constraint if exists profiles_goal_weight_chk;
+alter table public.profiles add constraint profiles_goal_weight_chk check (goal_weight_kg is null or goal_weight_kg between 30 and 300);
+alter table public.profiles drop constraint if exists profiles_days_chk;
+alter table public.profiles add constraint profiles_days_chk check (days_per_week is null or days_per_week between 2 and 6);
+
+-- Edad 13–100 (depende de la fecha actual, por eso va en un trigger y no en un CHECK).
+create or replace function public.validate_profile()
+returns trigger language plpgsql set search_path = '' as $$
+begin
+  if new.birth_year is not null then
+    if extract(year from now())::int - new.birth_year not between 13 and 100 then
+      raise exception 'Edad fuera de rango (13–100)' using errcode = '23514';
+    end if;
+  end if;
+  return new;
+end $$;
+drop trigger if exists profiles_validate on public.profiles;
+create trigger profiles_validate before insert or update on public.profiles for each row execute function public.validate_profile();
+
+create table if not exists public.body_weights (
+  id          uuid primary key default gen_random_uuid(),
+  user_id     uuid not null default auth.uid() references auth.users (id) on delete cascade,
+  measured_on date not null check (measured_on between date '2000-01-01' and date '2100-01-01'),
+  weight_kg   numeric(5,1) not null check (weight_kg between 30 and 300),
+  created_at  timestamptz not null default now(),
+  unique (user_id, measured_on)
+);
+
+-- Un plan por usuario (el activo). jsonb acotado en tamaño y tipo.
+create table if not exists public.user_plans (
+  user_id    uuid primary key default auth.uid() references auth.users (id) on delete cascade,
+  plan       jsonb not null check (jsonb_typeof(plan) = 'object' and pg_column_size(plan) < 200000),
+  source     text not null default 'generated' check (source in ('generated', 'preset')),
+  updated_at timestamptz not null default now()
+);
+
 -- ============ Índices ============
 create index if not exists workouts_user_date_idx on public.workouts (user_id, performed_on desc);
 create index if not exists workout_exercises_workout_idx on public.workout_exercises (workout_id);
 create index if not exists workout_exercises_user_idx on public.workout_exercises (user_id);
 create index if not exists sets_we_idx on public.sets (workout_exercise_id);
 create index if not exists sets_user_idx on public.sets (user_id);
+create index if not exists body_weights_user_date_idx on public.body_weights (user_id, measured_on desc);
 
 -- ============ Row Level Security ============
 alter table public.profiles          enable row level security;
 alter table public.workouts          enable row level security;
 alter table public.workout_exercises enable row level security;
 alter table public.sets              enable row level security;
+alter table public.body_weights      enable row level security;
+alter table public.user_plans        enable row level security;
 
 -- Sin acceso para anon; solo usuarios autenticados y solo a sus filas.
-revoke all on public.profiles, public.workouts, public.workout_exercises, public.sets from anon;
-grant select, insert, update, delete on public.profiles, public.workouts, public.workout_exercises, public.sets to authenticated;
+revoke all on public.profiles, public.workouts, public.workout_exercises, public.sets, public.body_weights, public.user_plans from anon;
+grant select, insert, update, delete on public.profiles, public.workouts, public.workout_exercises, public.sets, public.body_weights, public.user_plans to authenticated;
 
 drop policy if exists profiles_select on public.profiles;
 drop policy if exists profiles_insert on public.profiles;
@@ -97,6 +148,24 @@ create policy sets_update on public.sets for update to authenticated using (user
   user_id = (select auth.uid()) and exists (select 1 from public.workout_exercises e where e.id = workout_exercise_id and e.user_id = (select auth.uid())));
 create policy sets_delete on public.sets for delete to authenticated using (user_id = (select auth.uid()));
 
+-- Peso corporal y plan: solo las filas propias.
+drop policy if exists bw_select on public.body_weights;
+drop policy if exists bw_insert on public.body_weights;
+drop policy if exists bw_update on public.body_weights;
+drop policy if exists bw_delete on public.body_weights;
+create policy bw_select on public.body_weights for select to authenticated using (user_id = (select auth.uid()));
+create policy bw_insert on public.body_weights for insert to authenticated with check (user_id = (select auth.uid()));
+create policy bw_update on public.body_weights for update to authenticated using (user_id = (select auth.uid())) with check (user_id = (select auth.uid()));
+create policy bw_delete on public.body_weights for delete to authenticated using (user_id = (select auth.uid()));
+drop policy if exists up_select on public.user_plans;
+drop policy if exists up_insert on public.user_plans;
+drop policy if exists up_update on public.user_plans;
+drop policy if exists up_delete on public.user_plans;
+create policy up_select on public.user_plans for select to authenticated using (user_id = (select auth.uid()));
+create policy up_insert on public.user_plans for insert to authenticated with check (user_id = (select auth.uid()));
+create policy up_update on public.user_plans for update to authenticated using (user_id = (select auth.uid())) with check (user_id = (select auth.uid()));
+create policy up_delete on public.user_plans for delete to authenticated using (user_id = (select auth.uid()));
+
 -- ============ Triggers: updated_at del perfil ============
 create or replace function public.touch_updated_at()
 returns trigger language plpgsql set search_path = '' as $$
@@ -104,6 +173,8 @@ begin
   new.updated_at := now();
   return new;
 end $$;
+drop trigger if exists user_plans_touch on public.user_plans;
+create trigger user_plans_touch before update on public.user_plans for each row execute function public.touch_updated_at();
 drop trigger if exists profiles_touch on public.profiles;
 create trigger profiles_touch before update on public.profiles for each row execute function public.touch_updated_at();
 
@@ -124,6 +195,8 @@ begin
   delete from public.sets where user_id = uid;
   delete from public.workout_exercises where user_id = uid;
   delete from public.workouts where user_id = uid;
+  delete from public.body_weights where user_id = uid;
+  delete from public.user_plans where user_id = uid;
   delete from public.profiles where user_id = uid;
   delete from auth.users where id = uid;   -- cascada a cualquier otra fila ligada al usuario
 end $$;

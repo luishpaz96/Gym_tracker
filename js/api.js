@@ -32,6 +32,7 @@ export function buildWorkout({ performed_on, plan_day, notes, exercises }) {
   });
 }
 
+const PROFILE_COLS = 'display_name,unit,bodyweight,birth_year,sex,height_cm,goal_weight_kg,days_per_week';
 const isNetworkError = (err) => !navigator.onLine || err instanceof TypeError || /failed to fetch|network|load failed/i.test(String(err?.message || err));
 
 // ============================== Supabase ==============================
@@ -64,21 +65,47 @@ export function createRemoteApi() {
     async signOut() {
       const uid = userId;
       try { await sb.auth.signOut(); } finally {
-        if (uid) { lsDel(`gt_cache_${uid}`); lsDel(`gt_profile_${uid}`); }
+        if (uid) { for (const k of ['cache', 'profile', 'weights', 'plan']) lsDel(`gt_${k}_${uid}`); }
         lsDel('gt_draft'); // la cola pendiente se conserva por si había datos sin subir
       }
     },
     async getProfile() {
-      const { data, error } = await sb.from('profiles').select('display_name,unit,bodyweight').maybeSingle();
+      const { data, error } = await sb.from('profiles').select(PROFILE_COLS).maybeSingle();
       if (error) return lsGet(`gt_profile_${userId}`, { unit: 'kg' });
-      const p = data || { unit: 'kg', display_name: null, bodyweight: null };
+      const p = data || { unit: 'kg' };
       lsSet(`gt_profile_${userId}`, p); return p;
     },
     async saveProfile(p) {
-      const row = { user_id: userId, unit: p.unit === 'lb' ? 'lb' : 'kg', display_name: p.display_name || null, bodyweight: p.bodyweight || null };
+      const row = { user_id: userId, unit: p.unit === 'lb' ? 'lb' : 'kg', display_name: p.display_name || null, bodyweight: p.bodyweight || null,
+        birth_year: p.birth_year ?? null, sex: p.sex ?? null, height_cm: p.height_cm ?? null, goal_weight_kg: p.goal_weight_kg ?? null, days_per_week: p.days_per_week ?? null };
       lsSet(`gt_profile_${userId}`, row);
       const { error } = await sb.from('profiles').upsert(row, { onConflict: 'user_id' });
       if (error) throw error;
+    },
+    async listBodyWeights() {
+      try {
+        const { data, error } = await sb.from('body_weights').select('measured_on,weight_kg').order('measured_on', { ascending: true }).limit(2000);
+        if (error) throw error;
+        const rows = data.map((r) => ({ measured_on: r.measured_on, weight_kg: Number(r.weight_kg) }));
+        lsSet(`gt_weights_${userId}`, rows); return rows;
+      } catch (err) { if (!isNetworkError(err)) throw err; return lsGet(`gt_weights_${userId}`, []); }
+    },
+    async addBodyWeight(measured_on, weight_kg) {
+      const { error } = await sb.from('body_weights').upsert({ user_id: userId, measured_on, weight_kg }, { onConflict: 'user_id,measured_on' });
+      if (error) throw error;
+    },
+    async getPlan() {
+      try {
+        const { data, error } = await sb.from('user_plans').select('plan,source').maybeSingle();
+        if (error) throw error;
+        const r = data ? { plan: data.plan, source: data.source } : null;
+        lsSet(`gt_plan_${userId}`, r); return r;
+      } catch (err) { if (!isNetworkError(err)) throw err; return lsGet(`gt_plan_${userId}`, null); }
+    },
+    async savePlan(plan, source) {
+      const { error } = await sb.from('user_plans').upsert({ user_id: userId, plan, source }, { onConflict: 'user_id' });
+      if (error) throw error;
+      lsSet(`gt_plan_${userId}`, { plan, source });
     },
     pendingCount() { return userId ? lsGet(qKey(), []).length : 0; },
     pendingList() { return userId ? lsGet(qKey(), []) : []; },
@@ -118,12 +145,12 @@ export function createRemoteApi() {
       lsSet(qKey(), rest); return ok;
     },
     async exportAll() {
-      const [workouts, profile] = await Promise.all([api.listWorkouts(), api.getProfile()]);
-      return { exported_at: new Date().toISOString(), app: 'gym_tracker', email: api.user?.email || null, profile, workouts };
+      const [workouts, profile, body_weights, plan] = await Promise.all([api.listWorkouts(), api.getProfile(), api.listBodyWeights(), api.getPlan()]);
+      return { exported_at: new Date().toISOString(), app: 'gym_tracker', email: api.user?.email || null, profile, body_weights, plan, workouts };
     },
     async deleteAccount() {
       const { error } = await sb.rpc('delete_my_account'); if (error) throw error;
-      const uid = userId; lsDel(`gt_cache_${uid}`); lsDel(`gt_profile_${uid}`); lsDel(`gt_queue_${uid}`); lsDel('gt_draft');
+      const uid = userId; for (const k of ['cache', 'profile', 'weights', 'plan', 'queue']) lsDel(`gt_${k}_${uid}`); lsDel('gt_draft');
       try { await sb.auth.signOut(); } catch { /* la cuenta ya no existe */ }
     },
   };
@@ -141,21 +168,26 @@ async function pushWorkout(sb, w) {
 
 // ============================== Demo ==============================
 export function createDemoApi(seed) {
-  const WK = 'gt_demo_workouts', PK = 'gt_demo_profile';
+  const K = { w: 'gt_demo_workouts', p: 'gt_demo_profile', b: 'gt_demo_weights', l: 'gt_demo_plan' };
+  const plant = () => { const d = seed(); lsSet(K.w, d.workouts); lsSet(K.p, d.profile); lsSet(K.b, d.weights); lsSet(K.l, d.plan); };
   const api = {
     mode: 'demo', user: { id: 'demo', email: 'demo@local' },
-    async init() { if (!lsGet(WK, null)) lsSet(WK, seed()); return api.user; },
+    async init() { if (!lsGet(K.w, null) || !lsGet(K.l, null)) plant(); return api.user; },
     onAuthChange() { return { data: { subscription: { unsubscribe() {} } } }; },
-    async getProfile() { return lsGet(PK, { unit: 'kg', display_name: 'Demo', bodyweight: null }); },
-    async saveProfile(p) { lsSet(PK, p); },
+    async getProfile() { return lsGet(K.p, { unit: 'kg' }); },
+    async saveProfile(p) { lsSet(K.p, p); },
+    async listBodyWeights() { return lsGet(K.b, []).sort((a, b) => a.measured_on.localeCompare(b.measured_on)); },
+    async addBodyWeight(d, kg) { const l = lsGet(K.b, []).filter((r) => r.measured_on !== d); l.push({ measured_on: d, weight_kg: kg }); lsSet(K.b, l); },
+    async getPlan() { return lsGet(K.l, null); },
+    async savePlan(plan, source) { lsSet(K.l, { plan, source }); },
     pendingCount: () => 0, pendingList: () => [],
-    async listWorkouts() { return lsGet(WK, []).sort((a, b) => b.performed_on.localeCompare(a.performed_on)); },
-    async saveWorkout(w) { const l = lsGet(WK, []); l.push(w); lsSet(WK, l); return { queued: false }; },
+    async listWorkouts() { return lsGet(K.w, []).sort((a, b) => b.performed_on.localeCompare(a.performed_on)); },
+    async saveWorkout(w) { const l = lsGet(K.w, []); l.push(w); lsSet(K.w, l); return { queued: false }; },
     async flush() { return 0; },
-    async exportAll() { return { exported_at: new Date().toISOString(), app: 'gym_tracker', demo: true, profile: await api.getProfile(), workouts: await api.listWorkouts() }; },
-    async signOut() { lsDel(WK); lsDel(PK); lsDel('gt_draft'); },
+    async exportAll() { return { exported_at: new Date().toISOString(), app: 'gym_tracker', demo: true, profile: await api.getProfile(), body_weights: await api.listBodyWeights(), workouts: await api.listWorkouts() }; },
+    async signOut() { Object.values(K).forEach(lsDel); lsDel('gt_draft'); },
     async deleteAccount() { await api.signOut(); },
-    resetDemo() { lsSet(WK, seed()); lsDel('gt_draft'); },
+    resetDemo() { plant(); lsDel('gt_draft'); },
   };
   return api;
 }

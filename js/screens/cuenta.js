@@ -1,4 +1,7 @@
-import { el, toast, confirmWord } from '../ui.js';
+import { el, toast, confirmWord, confirmDialog } from '../ui.js';
+import { renderProfileForm } from './onboarding.js';
+import { regenerate, usePreset, PRESET_NAME, goalOf } from '../planctl.js';
+import { GOAL_LABEL, goalNotes } from '../plan-generator.js';
 
 function download(name, obj) {
   const url = URL.createObjectURL(new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' }));
@@ -21,6 +24,25 @@ export async function render(ctx, root) {
   const themeBtn = el('button', { class: 'btn', type: 'button', on: { click: () => { ctx.toggleTheme(); themeBtn.textContent = `Tema: ${ctx.theme() === 'dark' ? 'oscuro' : 'claro'} (cambiar)`; } } }, `Tema: ${ctx.theme() === 'dark' ? 'oscuro' : 'claro'} (cambiar)`);
   root.append(el('section', { class: 'card' }, el('h2', { text: 'Preferencias' }), el('p', { class: 'muted small', text: 'Unidad de peso (los datos se guardan siempre en kg)' }), el('div', { class: 'seg' }, unitBtns), themeBtn));
 
+  // Perfil y plan
+  const prof = el('section', { class: 'card' }, el('h2', { text: 'Mi perfil' }));
+  renderProfileForm(ctx, prof, { mode: 'edit', onDone: () => location.reload() });
+  root.append(prof);
+  const goal = goalOf(ctx.profile, ctx.weights);
+  const planName = ctx.planSource === 'preset' ? PRESET_NAME : `Plan personalizado · ${ctx.plan?.meta?.days || ctx.profile.days_per_week} días`;
+  const planCard = el('section', { class: 'card' }, el('h2', { text: 'Plan de entrenamiento' }),
+    el('p', {}, el('strong', { text: 'Activo: ' }), planName), el('p', { class: 'muted small', text: `Meta: ${GOAL_LABEL[goal]}` }),
+    el('ul', { class: 'tips' }, goalNotes(goal).map((t) => el('li', { text: t }))),
+    el('button', { class: 'btn block', type: 'button', on: { click: async () => {
+      if (!(await confirmDialog('Regenerar plan', 'Se creará un plan nuevo con tu perfil actual y reemplazará el activo.', 'Regenerar'))) return;
+      try { await regenerate(ctx); toast('Plan regenerado'); location.reload(); } catch { toast('No se pudo guardar el plan', 'bad'); }
+    } } }, 'Regenerar mi plan'),
+    el('button', { class: 'btn block', type: 'button', on: { click: async () => {
+      if (!(await confirmDialog('Usar plan preset', `Se usará "${PRESET_NAME}" en lugar de tu plan generado.`, 'Usar preset'))) return;
+      try { await usePreset(ctx); toast('Plan preset activo'); location.reload(); } catch { toast('No se pudo guardar el plan', 'bad'); }
+    } } }, `Usar "${PRESET_NAME}"`));
+  root.append(planCard);
+
   // Cola sin conexión
   const pend = api.pendingCount();
   if (pend) {
@@ -33,16 +55,16 @@ export async function render(ctx, root) {
     el('button', { class: 'btn block', type: 'button', on: { click: async () => { try { download('gym-tracker-datos.json', await api.exportAll()); } catch { toast('No se pudo exportar', 'bad'); } } } }, 'Exportar mis datos (JSON)')));
 
   if (api.mode === 'demo') {
-    root.append(el('section', { class: 'card' }, el('button', { class: 'btn block', type: 'button', on: { click: () => { api.resetDemo(); location.hash = '#/hoy'; location.reload(); } } }, 'Reiniciar datos de la demo'),
+    root.append(el('section', { class: 'card' }, el('button', { class: 'btn block', type: 'button', on: { click: () => { api.resetDemo(); location.hash = '#/track'; location.reload(); } } }, 'Reiniciar datos de la demo'),
       el('a', { class: 'btn block', href: location.pathname }, 'Salir de la demo')));
     return;
   }
   root.append(el('section', { class: 'card' },
-    el('button', { class: 'btn block', type: 'button', on: { click: async () => { await api.signOut(); location.hash = '#/hoy'; } } }, 'Cerrar sesión'),
+    el('button', { class: 'btn block', type: 'button', on: { click: async () => { await api.signOut(); location.hash = '#/track'; } } }, 'Cerrar sesión'),
     el('h2', { class: 'danger-t', text: 'Zona de peligro' }),
     el('p', { class: 'muted small', text: 'Borra tu cuenta y todos tus entrenamientos de forma permanente. No se puede deshacer.' }),
     el('button', { class: 'btn danger block', type: 'button', on: { click: async () => {
       if (!(await confirmWord('Borrar cuenta', 'Se eliminarán tu cuenta y todos tus datos de forma permanente.', 'BORRAR', 'Borrar todo'))) return;
-      try { await api.deleteAccount(); toast('Cuenta eliminada'); location.hash = '#/hoy'; } catch { toast('No se pudo borrar la cuenta', 'bad'); }
+      try { await api.deleteAccount(); toast('Cuenta eliminada'); location.hash = '#/track'; } catch { toast('No se pudo borrar la cuenta', 'bad'); }
     } } }, 'Borrar mi cuenta y datos')));
 }

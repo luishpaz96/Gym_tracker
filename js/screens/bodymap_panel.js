@@ -2,13 +2,12 @@ import { el, clear } from '../ui.js';
 import { buildBodyMap } from '../bodymap.js';
 import { weekStatus } from '../stats.js';
 import { STATUS_LABEL } from '../recommend.js';
-import { renderRecs } from './recs.js';
 import { fmtNum } from '../ui.js';
 
 export async function render(ctx, root) {
   const status = weekStatus(ctx);
   const byId = Object.fromEntries(status.map((s) => [s.id, s]));
-  root.append(el('h1', { text: 'Cuerpo' }), el('p', { class: 'muted', text: 'Series efectivas de los últimos 7 días contra tu objetivo semanal.' }));
+  root.append(el('h2', { text: 'Semana actual (lun–dom)' }), el('p', { class: 'muted small', text: 'Series efectivas de esta semana contra tu objetivo semanal.' }));
 
   let view = 'front', selected = null;
   const mapHost = el('div', { class: 'map-host' });
@@ -34,7 +33,7 @@ export async function render(ctx, root) {
       el('p', { text: `${fmtNum(s.sets, 1)} de ${s.target} series (${pct} %)` }));
     const exs = Object.entries(s.exercises);
     detail.append(exs.length ? el('ul', { class: 'list' }, exs.map(([id, n]) => el('li', { class: 'list-item' }, el('span', { class: 'grow', text: ctx.data.exById[id]?.name || id }), el('span', { class: 'muted', text: `${fmtNum(n, 1)} series` }))))
-      : el('p', { class: 'muted', text: 'Sin series en los últimos 7 días.' }));
+      : el('p', { class: 'muted', text: 'Sin series esta semana.' }));
   }
 
   [['front', 'Frente'], ['back', 'Espalda']].forEach(([v, label]) => toggle.append(el('button', { class: 'seg-btn', type: 'button', dataset: { view: v }, on: { click: () => { view = v; showMap(); } } }, label)));
@@ -48,5 +47,4 @@ export async function render(ctx, root) {
     el('li', {}, el('button', { class: 'pick', type: 'button', on: { click: () => { select(s.id); const v = ctx.data.muscleById[s.id].view; if (v !== 'both' && v !== view) { view = v; showMap(); } detail.scrollIntoView({ block: 'nearest' }); } } },
       el('span', { class: `dot st-${s.status}`, 'aria-hidden': 'true' }), el('span', { class: 'grow', text: s.name }),
       el('span', { class: 'muted small', text: `${fmtNum(s.sets, 1)}/${s.target} · ${STATUS_LABEL[s.status]}` })))))));
-  root.append(renderRecs(ctx));
 }

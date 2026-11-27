@@ -131,3 +131,14 @@ select.input { margin-bottom: 8px; }
 .danger-t { color: var(--bad); margin-top: 22px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 .row.wrap { flex-wrap: wrap; }
+.sub { font-size: .95rem; color: var(--muted); margin: 14px 0 6px; }
+.needs { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.last { background: var(--surface2); border-radius: 10px; padding: 10px 12px; margin: 8px 0; }
+.last-sets { list-style: none; margin: 4px 0; padding: 0; font-size: .92rem; }
+.tip-line { margin: 4px 0 0; color: var(--accent); font-weight: 600; font-size: .9rem; }
+.no-rir .set-head, .no-rir .set-row { grid-template-columns: 24px 1fr 1fr 44px; }
+.no-rir .rir-col, .no-rir .set-row .input:nth-of-type(3) { display: none; }
+.tips { margin: 0; padding-left: 18px; } .tip { margin-bottom: 8px; }
+.field-err { display: block; color: var(--bad); font-size: .8rem; min-height: 1em; }
+.field small { display: block; margin-top: 2px; }
+.weight-form { display: grid; grid-template-columns: 1fr 90px; gap: 8px; margin: 8px 0; } .weight-form .btn { grid-column: 1 / -1; }

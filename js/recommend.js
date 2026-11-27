@@ -1,5 +1,5 @@
 // Semáforo muscular y recomendaciones para la siguiente sesión.
-import { addDays, weekdayOf, round } from './calc.js';
+import { addDays, weekdayOf, weekStart, round } from './calc.js';
 
 export const SEMAFORO = { green: 1.0, yellow: 0.5 }; // ratio = series efectivas / target_sets
 export function semaforo(sets, target, hasData = true) {
@@ -42,15 +42,30 @@ export function nextSession(plan, today, doneToday = false, horizon = 60) {
 const clamp = (n, a, b) => Math.min(b, Math.max(a, n));
 const planSets = (sets) => (Array.isArray(sets) ? sets.length : +sets || 3);
 
-export function recommend({ plan, exercises, status, today, doneToday = false, maxExtras = 3 }) {
+// Ejercicios de la base cuyo músculo principal es muscleId (los más "aislados" primero).
+export function pickForMuscle(exercises, muscleId, n = 1, used = new Set()) {
+  return exercises.filter((e) => !used.has(e.id) && (e.primary || []).includes(muscleId))
+    .sort((a, b) => (a.primary.length + a.secondary.length) - (b.primary.length + b.secondary.length) || a.id.localeCompare(b.id))
+    .slice(0, n);
+}
+
+// Rutina recomendada: sesión del plan (hoy, o la siguiente) ajustada con el semáforo de la semana.
+export function recommend({ plan, exercises, status, today, doneToday = false, maxExtras = 4 }) {
   const byId = Object.fromEntries(exercises.map((e) => [e.id, e]));
   const next = nextSession(plan, today, doneToday);
-  const needy = status.filter((m) => m.status === 'red' || m.status === 'yellow')
-    .map((m) => ({ ...m, deficit: round(m.target - m.sets, 1) })).sort((a, b) => b.deficit - a.deficit);
-  const needIds = new Set(needy.map((m) => m.id));
   const nameOf = Object.fromEntries(status.map((m) => [m.id, m.name]));
-  const items = [];
-  const covered = new Set();
+  const needyAll = status.filter((m) => m.status === 'red' || m.status === 'yellow')
+    .map((m) => ({ ...m, deficit: round(m.target - m.sets, 1) })).sort((a, b) => b.deficit - a.deficit);
+  // Músculos que otra sesión del plan cubrirá más tarde en esta misma semana: no urgen hoy.
+  const postponed = new Set();
+  if (next && weekStart(next.date) === weekStart(today)) {
+    for (let d = addDays(next.date, 1); d <= addDays(weekStart(today), 6); d = addDays(d, 1)) {
+      for (const pe of sessionFor(plan, d)?.session?.exercises || []) (byId[pe.id]?.primary || []).forEach((m) => postponed.add(m));
+    }
+  }
+  const needy = needyAll.filter((m) => !postponed.has(m.id));
+  const needIds = new Set(needyAll.map((m) => m.id));
+  const items = [], covered = new Set();
   for (const pe of next?.session?.exercises || []) {
     const ex = byId[pe.id];
     if (!ex) continue;
@@ -64,13 +79,14 @@ export function recommend({ plan, exercises, status, today, doneToday = false, m
   for (const m of needy) {
     if (extras >= maxExtras) break;
     if (covered.has(m.id)) continue;
-    const cands = exercises.filter((e) => !used.has(e.id) && (e.primary || []).includes(m.id))
-      .sort((a, b) => (a.primary.length + a.secondary.length) - (b.primary.length + b.secondary.length) || a.id.localeCompare(b.id));
-    const ex = cands[0];
-    if (!ex) continue;
-    used.add(ex.id); extras++;
-    items.push({ exercise: ex, sets: clamp(Math.ceil(m.deficit), 2, 4), reps: null, rest: null, source: 'deficit',
-      reason: `${nameOf[m.id]}: ${m.sets}/${m.target} series esta semana`, muscles: [m.id] });
+    const cands = pickForMuscle(exercises, m.id, m.deficit >= 4 ? 2 : 1, used).slice(0, maxExtras - extras);
+    for (const ex of cands) {
+      used.add(ex.id); extras++;
+      items.push({ exercise: ex, sets: clamp(Math.ceil(m.deficit / cands.length), 2, 4), reps: null, rest: null, source: 'deficit',
+        reason: `${m.name}: ${m.sets}/${m.target} series esta semana`, muscles: [m.id] });
+    }
   }
-  return { next, items, needy };
+  const needs = needy.map((m) => ({ id: m.id, name: m.name, sets: m.sets, target: m.target, status: m.status,
+    text: `Te falta: ${m.name.toLowerCase()} ${m.sets}/${m.target} series` }));
+  return { next, items, needy, needs };
 }

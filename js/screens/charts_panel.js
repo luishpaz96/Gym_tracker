@@ -12,7 +12,7 @@ const shortDate = (s) => s.slice(8) + '/' + s.slice(5, 7);
 
 export async function render(ctx, root) {
   const unit = ctx.profile?.unit === 'lb' ? 'lb' : 'kg';
-  root.append(el('h1', { text: 'Progreso' }));
+  root.append(el('h2', { text: 'Gráficas' }));
   if (!ctx.workouts.length) { root.append(el('p', { class: 'card muted', text: 'Registra tu primera sesión para ver tus gráficas.' })); return; }
   const asc = sessionsByDateAsc(ctx.workouts);
 

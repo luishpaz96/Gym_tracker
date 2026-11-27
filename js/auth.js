@@ -80,7 +80,7 @@ export function renderAuth(root, api, { recovery = false } = {}) {
       form.append(el('h2', { text: 'Nueva contraseña' }), pass.node, b);
       handler = () => run(b, async () => {
         if (pass.input.value.length < MIN_PASSWORD) return setMsg(`Mínimo ${MIN_PASSWORD} caracteres.`, true);
-        await api.updatePassword(pass.input.value); toast('Contraseña actualizada'); location.hash = '#/hoy'; location.reload();
+        await api.updatePassword(pass.input.value); toast('Contraseña actualizada'); location.hash = '#/track'; location.reload();
       });
     } else if (mode === 'telefono') {
       const phone = field('Teléfono (con lada, ej. +5215512345678)', { type: 'tel', autocomplete: 'tel', inputmode: 'tel', maxlength: 20, placeholder: '+52…' });

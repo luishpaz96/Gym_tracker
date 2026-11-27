@@ -44,17 +44,27 @@ Animación: frames `https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@f00c92c
 ```
 Cubre fase 1, fase 2, semana 10, fase 3 y los bloques H/F/E de la etapa 2 con sus fechas reales.
 
+## Navegación
+Barra inferior: **Track**, **Summary**, **Biblioteca**. La cuenta vive en el engrane del encabezado (`#/cuenta`). Las rutas antiguas (`#/hoy`, `#/registrar`, `#/progreso`, `#/cuerpo`) redirigen a Track o Summary.
+
 ## Funciones de la app
-1. **Auth** (pantalla inicial): registro e inicio con email + contraseña, enlace mágico, recuperación de contraseña. Teléfono (OTP por SMS) implementado detrás de `config.PHONE_AUTH_ENABLED=false` (se activa al conectar Twilio en Supabase). Cerrar sesión, borrar cuenta y datos, exportar mis datos (JSON).
-2. **Hoy**: sesión del plan que toca hoy (según plan.json y la fecha), con ejercicios recomendados. Botón "Empezar entrenamiento".
-3. **Registrar**: elegir ejercicios por grupo muscular (chips de grupo) + **buscador** (sin acentos, por nombre y keywords). Por ejercicio: sets con peso (kg, opción lb), reps, RIR opcional. Guardar la sesión.
-4. **Volumen**: volumen = Σ peso × reps por set; por sesión, por ejercicio y por músculo (series efectivas).
-5. **Progreso**: gráficas Chart.js: volumen por sesión, 1RM estimado (Epley) por ejercicio, series semanales por músculo.
-6. **Calificación de la sesión**: comparar cada ejercicio con su sesión anterior (mejor e1RM y volumen): "Mejoraste / Igual / Bajaste" por ejercicio y nota global (A–D) con explicación corta.
-7. **Resumen corporal**: SVG de cuerpo humano (frente y espalda) con cada músculo coloreado por semáforo en los últimos 7 días: verde ≥ 100% de target_sets, amarillo 50–99%, rojo < 50%, gris sin datos. Tocar un músculo muestra series y ejercicios.
-8. **Recomendaciones para la siguiente sesión**: según el día del plan que sigue + músculos en rojo/amarillo, sugerir ejercicios de la base (prefiriendo los del plan) con series sugeridas.
-9. **Biblioteca**: base de ejercicios con buscador y filtro por grupo; ficha con animación, técnica, alternativa y "Ver video" (módulo `js/technique.js`).
-10. **Técnica / "API" de video**: `js/technique.js` exporta `getTechnique(exerciseId)` → `{frames:[url0,url1], cues, fitwillUrl}` y `openTechnique(exerciseId)` que abre un modal con la animación. Fitwill no tiene API pública ni permite incrustar su video, así que el modal muestra la animación y un botón "Ver video en Fitwill" que abre la página.
+1. **Auth** (pantalla inicial): registro e inicio con email + contraseña, enlace mágico, recuperación de contraseña. Teléfono (OTP por SMS) detrás de `config.PHONE_AUTH_ENABLED=false`. Cerrar sesión, borrar cuenta y datos, exportar mis datos (JSON) en Cuenta.
+2. **Onboarding** (obligatorio tras registrarse, editable en Cuenta): edad (13–100, se guarda `birth_year`), sexo (Hombre/Mujer), estatura (120–230 cm), peso actual (30–300 kg), peso meta (30–300 kg), días de entrenamiento por semana (2–6). Validación en cliente (`js/profile.js`) y en BD (CHECK + trigger de edad). El peso actual crea la primera fila de `body_weights`. Al terminar se genera y guarda el plan.
+3. **Plan personalizado** (`js/plan-generator.js`, puro): días/semana → división (2: cuerpo completo A/B; 3: pecho+bíceps+abdomen / pierna / espalda+hombro+trapecio+tríceps; 4: torso/pierna ×2; 5: torso/pierna/empuje/jalón/pierna; 6: empuje/jalón/pierna ×2). Ejercicios de `data/exercises.json` (gimnasio primero; 2 por músculo grande, 1 por pequeño). Meta según peso meta vs actual: subir = hipertrofia (6–12 reps, mesociclos de 4 semanas con semana 4 de descarga y progresión de series), bajar = mismo trabajo de fuerza + consejos de cardio/pasos y déficit, igual = recomposición. Se guarda en `user_plans` (jsonb, un plan por usuario); se regenera al cambiar días o meta (con confirmación) y si vence. `data/plan.json` queda como preset "Plan Regreso al gym (3 días)" seleccionable en Cuenta.
+4. **Track** (único lugar para registrar):
+   - "Rutina recomendada": sesión del plan activo de hoy (o la siguiente pendiente), ajustada por el semáforo semanal (músculos en rojo/amarillo se marcan "Te falta: …" y se agregan 1–2 ejercicios). Botón "Usar esta rutina".
+   - Buscador sin acentos + chips de grupo + sección "Recomendados" (plan de hoy, luego ejercicios para músculos en rojo/amarillo).
+   - Por ejercicio: series con peso y reps (RIR opcional, colapsado), "+ Serie".
+   - Panel "Última vez" por ejercicio: fecha y todas las series, más una sugerencia de sobrecarga (`js/overload.js`): todas las series en el tope del rango del plan → "Sube 2.5 kg"; si no → "Intenta +1 rep en la serie N". Los valores anteriores son placeholders.
+   - Guardar → pantalla de calificación (A–D y Mejoraste/Igual/Bajaste por ejercicio). Sin conexión: cola local.
+5. **Summary**: mapa corporal (frente/espalda) con semáforo de la semana actual (lun–dom: verde ≥100 % de `target_sets`, amarillo 50–99 %, rojo <50 %, gris sin datos; con etiqueta de texto); tocar un músculo muestra series y ejercicios; **Peso corporal** (registro rápido en cualquier fecha, gráfica con promedio semanal y línea de peso meta); **Consejos** (`js/tips.js`, 3–5: sesiones vs plan, ritmo de peso sano —subir 0.25–0.5 %/sem, bajar 0.5–1 %/sem—, músculos por reforzar, ejercicios que bajaron o se estancaron, racha); gráficas: volumen por sesión, series semanales por músculo, 1RM estimado (Epley) por ejercicio; historial.
+6. **Volumen**: Σ peso × reps por set; por sesión, ejercicio y músculo (series efectivas: principal 1, secundario 0.5).
+7. **Biblioteca**: búsqueda y filtro por grupo; ficha con animación, técnica, alternativa y "Ver video" (`js/technique.js`).
+8. **Técnica / "API" de video**: `getTechnique(exerciseId)` → `{frames, cues, fitwillUrl}` y `openTechnique(exerciseId)`. Fitwill no permite incrustar su video: se muestra la animación y un botón que abre su página.
+9. **Modo demo** (`?demo=1`): datos falsos en localStorage (perfil, 6 semanas de pesos, plan generado y sesiones), claramente rotulado; nunca toca Supabase.
+
+## Datos de usuario (Supabase)
+`profiles` (unit, display_name, birth_year, sex, height_cm, goal_weight_kg, days_per_week), `workouts`, `workout_exercises`, `sets`, `body_weights` (único por usuario y fecha), `user_plans` (plan jsonb + source generated|preset). Todo con RLS por `user_id`.
 
 ## Seguridad (obligatorio)
 - RLS activado en todas las tablas; políticas `user_id = auth.uid()` para select/insert/update/delete. Ningún service key en el cliente.
@@ -68,4 +78,4 @@ Cubre fase 1, fase 2, semana 10, fase 3 y los bloques H/F/E de la etapa 2 con su
 - Funcion `delete_my_account()` SECURITY DEFINER con `search_path` fijo que borra solo los datos de `auth.uid()`.
 
 ## Diseño
-Mobile first (360–430 px), barra de navegación inferior (Hoy, Registrar, Progreso, Cuerpo, Biblioteca), modo oscuro por defecto con tema claro, botones grandes (≥ 44 px), tipografía del sistema, colores del semáforo accesibles con etiqueta de texto (no solo color). Funciona offline para consultar la biblioteca; el registro sin conexión se guarda en cola local y se sube al reconectar.
+Mobile first (360–430 px), barra de navegación inferior (Track, Summary, Biblioteca), modo oscuro por defecto con tema claro, botones grandes (≥ 44 px), tipografía del sistema, colores del semáforo accesibles con etiqueta de texto (no solo color). Funciona offline para consultar la biblioteca; el registro sin conexión se guarda en cola local y se sube al reconectar.
