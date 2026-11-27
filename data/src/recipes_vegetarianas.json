@@ -1,0 +1,6443 @@
+[
+ {
+  "id": "veg_tacos_tofu_pastor_pina",
+  "name": "Tacos de tofu al pastor con piña",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 500,
+    "note": "prensado y en cubos"
+   },
+   {
+    "food": "pina",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "desvenado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "agua_simple",
+    "g": 60
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Remoja el chile guajillo en agua caliente 10 minutos y escúrrelo.",
+   "Licúa el chile con el ajo, el vinagre, el comino y el agua hasta tener una salsa lisa.",
+   "Marina el tofu en la salsa 20 minutos.",
+   "Dora el tofu y la piña en aceite a fuego medio-alto hasta que se doren.",
+   "Sirve en tortillas tibias con cebolla y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tofu_revuelto_nopal_jitomate",
+  "name": "Tofu revuelto con nopal y jitomate",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "nopal",
+    "g": 150,
+    "note": "cocido y picado"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "cilantro",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite hasta que estén transparentes.",
+   "Agrega el jitomate, el chile y el nopal, y cocina 5 minutos.",
+   "Incorpora el tofu desmenuzado con el comino y la sal.",
+   "Cocina 5 minutos más y termina con cilantro picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tofu_crujiente_salsa_cacahuate",
+  "name": "Tofu crujiente con salsa de cacahuate",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en cubos y escurrido"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 60
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo"
+   },
+   {
+    "food": "miel",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jengibre",
+    "g": 5,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "agua_simple",
+    "g": 80
+   }
+  ],
+  "steps": [
+   "Dora los cubos de tofu en aceite a fuego medio hasta que estén crujientes.",
+   "Mezcla en un cazo la crema de cacahuate, la salsa de soya, la miel, el jengibre, el ajo y el agua.",
+   "Calienta la salsa 3 minutos sin dejar de mover y retírala del fuego.",
+   "Añade el jugo de limón a la salsa.",
+   "Sirve el tofu bañado con la salsa y espolvoréalo con ajonjolí."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tempeh_mojo_ajo_arroz",
+  "name": "Tempeh al mojo de ajo con arroz integral",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tempeh",
+    "g": 250,
+    "note": "en tiras"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 400
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 5
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Dora las tiras de tempeh en aceite de oliva por ambos lados.",
+   "Agrega el ajo y la cebolla, y cocina 2 minutos.",
+   "Añade la salsa de soya y el jugo de limón, y deja reducir 1 minuto.",
+   "Sirve sobre el arroz integral caliente y decora con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_seitan_chipotle_papas",
+  "name": "Seitán en salsa de chipotle con papas",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "seitan",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "2 chiles con adobo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 250
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Licúa el chipotle con el ajo, el puré de tomate y el agua.",
+   "Sofríe la cebolla en aceite hasta que dore y vierte la salsa licuada.",
+   "Cocina 5 minutos y agrega el seitán y las papas.",
+   "Deja hervir a fuego bajo 15 minutos, ajusta la sal y sirve con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_lentejas_guisadas_jitomate_zanahoria",
+  "name": "Lentejas guisadas con jitomate y zanahoria",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 600
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "espinaca",
+    "g": 60,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite hasta que estén dorados.",
+   "Agrega el jitomate, la zanahoria y el comino, y cocina 8 minutos.",
+   "Incorpora las lentejas con un poco de agua y deja hervir 10 minutos.",
+   "Añade la espinaca y la sal, y cocina 2 minutos más."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_dal_lenteja_jitomate_comino",
+  "name": "Dal de lenteja con jitomate y comino",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lenteja_seca",
+    "g": 200,
+    "note": "enjuagada"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "jengibre",
+    "g": 10,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Hierve las lentejas en 800 ml de agua 20 minutos, hasta que se ablanden.",
+   "Sofríe la cebolla, el ajo y el jengibre en aceite con el comino y la paprika.",
+   "Agrega el jitomate y cocina 5 minutos hasta que espese.",
+   "Mezcla el sofrito con las lentejas, ajusta la sal y sirve con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_garbanzos_asados_pimenton_limon",
+  "name": "Garbanzos asados con pimentón y limón",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 500,
+    "note": "escurridos y secos"
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "perejil",
+    "g": 5,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Mezcla los garbanzos con el aceite, el pimentón, el comino y la sal.",
+   "Hornea 25 minutos, moviéndolos a la mitad, hasta que estén dorados.",
+   "Rocía con limón y espolvorea perejil al servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_hummus_garbanzo_pimiento_asado",
+  "name": "Hummus de garbanzo con pimiento asado",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurridos"
+   },
+   {
+    "food": "tahini",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "asado y pelado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "agua_simple",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Asa el pimiento sobre la flama o en comal hasta que la piel se ampolle.",
+   "Pela el pimiento y pícalo.",
+   "Licúa los garbanzos con el tahini, el limón, el ajo, el comino y el agua.",
+   "Agrega el pimiento y el aceite, licúa hasta que quede cremoso y sazona con sal."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_garbanzos_guajillo_calabacita",
+  "name": "Garbanzos guisados con chile guajillo y calabacita",
+  "servings": 3,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 450
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "desvenado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "epazote",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Remoja el guajillo en agua caliente 10 minutos y licúalo con el jitomate y el ajo.",
+   "Sofríe la cebolla en aceite y vierte la salsa; cocina 5 minutos.",
+   "Agrega los garbanzos, el comino, la calabacita y 300 ml de agua.",
+   "Cocina 15 minutos y termina con epazote picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_frijoles_bayos_queso_fresco",
+  "name": "Frijoles bayos de olla con queso fresco",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 500,
+    "note": "con su caldo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en mitad"
+   },
+   {
+    "food": "epazote",
+    "g": 4
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Calienta los frijoles con su caldo a fuego medio.",
+   "Agrega la cebolla, el ajo y el epazote, y cocina 15 minutos.",
+   "Sazona con sal y sirve calientes.",
+   "Acompaña cada plato con queso fresco desmoronado."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tostadas_frijol_refrito_aguacate",
+  "name": "Tostadas de frijol refrito con aguacate y queso",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 piezas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 240,
+    "note": "8 cucharadas"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_panela",
+    "g": 80,
+    "note": "desmoronado"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20,
+    "note": "picada fina"
+   }
+  ],
+  "steps": [
+   "Calienta el frijol refrito en una sartén a fuego bajo.",
+   "Unta el frijol sobre cada tostada.",
+   "Acomoda la lechuga, el jitomate, la cebolla y el aguacate.",
+   "Termina con queso panela desmoronado."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_frijoles_charros_calabacita",
+  "name": "Frijoles charros sin carne con calabacita",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 500,
+    "note": "con su caldo"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el chile en aceite hasta que estén suaves.",
+   "Agrega el jitomate y cocina 5 minutos.",
+   "Incorpora la calabacita, los frijoles con su caldo y el agua, y cocina 15 minutos.",
+   "Sazona con sal y termina con cilantro picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_huevo_mexicana_tortillas",
+  "name": "Huevo a la mexicana con tortillas",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "6 piezas"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 120,
+    "note": "4 piezas"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el chile en aceite hasta que se suavicen.",
+   "Agrega el jitomate y cocina 5 minutos hasta formar una salsa.",
+   "Bate los huevos con sal, viértalos en la salsa y revuelve suavemente.",
+   "Sirve con tortillas calientes y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_omelette_champinon_espinaca",
+  "name": "Omelette de huevo con champiñones y espinaca",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "6 piezas"
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "queso_panela",
+    "g": 50,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Saltea los champiñones y la cebolla en aceite hasta que suelten su agua y doren.",
+   "Agrega la espinaca y cocina 1 minuto.",
+   "Bate los huevos con sal y pimienta y viértalos en el sartén.",
+   "Cuando cuajen, pon el queso y dobla el omelette."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_chilaquiles_verdes_huevo",
+  "name": "Chilaquiles verdes con huevo",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 200,
+    "note": "en cuartos y fritas"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 250,
+    "note": "asado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 piezas"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Fríe las tortillas en cuartos hasta que estén doradas y escúrrelas.",
+   "Licúa el tomate verde asado con chile, cebolla y cilantro, y cuélalo a un sartén con 1 cucharada de aceite.",
+   "Cocina la salsa 5 minutos y agrega las tortillas para que se impregnen.",
+   "Fríe los huevos aparte y sírvelos sobre los chilaquiles con queso y crema."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tortilla_espanola_huevo_papa",
+  "name": "Tortilla española de huevo y papa",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "6 piezas batidas"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en juliana"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y las papas en aceite a fuego medio-bajo 15 minutos.",
+   "Escurre el aceite y mezcla las papas con los huevos batidos y la sal.",
+   "Vierte la mezcla en el sartén con un poco de aceite y cocina a fuego bajo.",
+   "Voltea con un plato y cocina 3 minutos más."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_huevos_salsa_verde_frijoles",
+  "name": "Huevos en salsa verde con frijoles",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "6 piezas"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "calentados"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "3 piezas"
+   }
+  ],
+  "steps": [
+   "Licúa el tomate verde con chile, ajo, cebolla y cilantro.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Agrega los frijoles y cocina 3 minutos.",
+   "Cascarea los huevos sobre la salsa, tapa y cocina hasta que cuajen. Sirve con tortillas."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_revoltillo_nopal_queso_oaxaca",
+  "name": "Revoltillo de huevo con nopal y queso Oaxaca",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 250,
+    "note": "5 piezas"
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "cocido y picado"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 80,
+    "note": "en hebra"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el chile en aceite.",
+   "Agrega el jitomate y el nopal, y cocina 5 minutos.",
+   "Vierte los huevos batidos con sal y revuelve a fuego medio.",
+   "Retira del fuego cuando empiece a cuajar y añade el queso."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_shakshuka_huevo_pimiento",
+  "name": "Shakshuka de huevo con pimiento morrón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 piezas"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "queso_feta",
+    "g": 30,
+    "note": "desmoronado"
+   },
+   {
+    "food": "perejil",
+    "g": 5,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el pimiento y el ajo en aceite 6 minutos.",
+   "Agrega el jitomate, el comino y la paprika, y cocina 10 minutos.",
+   "Haz 4 huecos en la salsa y cascarea un huevo en cada uno.",
+   "Tapa y cocina 6 minutos. Sirve con feta y perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_quesadillas_champinon_oaxaca",
+  "name": "Quesadillas de champiñón con queso Oaxaca",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "6 piezas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 150,
+    "note": "en hebra"
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "epazote",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Saltea los champiñones con la cebolla y el epazote hasta que no suelten agua.",
+   "Calienta las tortillas en un comal.",
+   "Rellena cada tortilla con queso y champiñones.",
+   "Dora las quesadillas en el comal hasta que el queso se derrita."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_enchiladas_coliflor_salsa_roja",
+  "name": "Enchiladas de coliflor en salsa roja con queso",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 300,
+    "note": "10 piezas"
+   },
+   {
+    "food": "coliflor",
+    "g": 400,
+    "note": "en flores cocidas"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 24,
+    "note": "4 piezas desvenadas"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 12,
+    "note": "2 piezas"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en mitad"
+   },
+   {
+    "food": "queso_panela",
+    "g": 100,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Remoja los chiles 15 minutos y licúalos con ajo, media cebolla y 400 ml de agua.",
+   "Cuela la salsa y fríela en aceite 5 minutos con sal.",
+   "Pasa las tortillas por la salsa y rellénalas con coliflor y queso.",
+   "Acomódalas en un refractario, cubre con salsa y el resto del queso, y hornea 15 minutos a 180 °C."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tacos_coliflor_pastor_frijoles",
+  "name": "Tacos de coliflor al pastor con frijoles",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "coliflor",
+    "g": 500,
+    "note": "en trozos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "desvenado"
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "pina",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 250,
+    "note": "calentados"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Licúa el guajillo remojado con paprika, vinagre, ajo, comino y un poco de agua.",
+   "Marina la coliflor en la salsa 15 minutos.",
+   "Dora la coliflor y la piña en aceite a fuego medio-alto.",
+   "Sirve en tortillas con frijoles calientes, cebolla y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_coliflor_gratinada_chihuahua",
+  "name": "Coliflor gratinada con queso Chihuahua",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "coliflor",
+    "g": 700,
+    "note": "en flores"
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 120,
+    "note": "rallado"
+   },
+   {
+    "food": "crema_cocinar",
+    "g": 90,
+    "note": "6 cucharadas"
+   },
+   {
+    "food": "mantequilla",
+    "g": 20
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece la coliflor al vapor 8 minutos y acomódala en un refractario.",
+   "Derrite la mantequilla, sofríe el ajo 1 minuto y agrega la crema con sal y pimienta.",
+   "Vierte la salsa sobre la coliflor y cubre con el queso.",
+   "Gratina en horno a 200 °C durante 12 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_coliflor_diabla_arroz_integral",
+  "name": "Coliflor a la diabla con arroz integral",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "coliflor",
+    "g": 600,
+    "note": "en flores"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 6,
+    "note": "secos"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 400
+   }
+  ],
+  "steps": [
+   "Licúa los chiles de árbol con el puré de tomate, el ajo, el vinagre y 100 ml de agua.",
+   "Dora la coliflor en aceite a fuego medio y reserva.",
+   "Sofríe la cebolla, vierte la salsa y cocina 5 minutos.",
+   "Incorpora la coliflor, cocina 5 minutos más y sirve sobre el arroz integral."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_albondigas_lenteja_salsa_jitomate",
+  "name": "Albóndigas de lenteja en salsa de jitomate",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 400,
+    "note": "escurridas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada fina; en mitad"
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "perejil",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "jitomate",
+    "g": 500,
+    "note": "licuado"
+   }
+  ],
+  "steps": [
+   "Machaca las lentejas y mézclalas con huevo, avena, cebolla, ajo, perejil, comino y sal.",
+   "Forma albóndigas del tamaño de una nuez.",
+   "Dora las albóndigas en aceite por todos lados y resérvalas.",
+   "Licúa el jitomate con cebolla y ajo, cuela la salsa en el sartén y cocina 10 minutos. Agrega las albóndigas y cocina 10 minutos más."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_hamburguesas_garbanzo_aguacate",
+  "name": "Hamburguesas de garbanzo con aguacate",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "machacado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   },
+   {
+    "food": "maicena",
+    "g": 20
+   },
+   {
+    "food": "cilantro",
+    "g": 5
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "bolillo",
+    "g": 240,
+    "note": "4 piezas"
+   },
+   {
+    "food": "aguacate",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 50
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "en rebanadas"
+   }
+  ],
+  "steps": [
+   "Machaca los garbanzos y mézclalos con cebolla, ajo, perejil, cilantro, comino, huevo y maicena.",
+   "Forma 4 hamburguesas y refrigera 10 minutos.",
+   "Dora las hamburguesas en aceite 4 minutos por lado.",
+   "Tuesta los bolillos y arma con aguacate, lechuga y jitomate."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_hamburguesas_frijol_camote",
+  "name": "Hamburguesas vegetales de frijol con camote",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "hamburguesa_vegetal",
+    "g": 360,
+    "note": "4 piezas"
+   },
+   {
+    "food": "camote_cocido",
+    "g": 300,
+    "note": "en rodajas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "en rodajas"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "bolillo",
+    "g": 240,
+    "note": "4 piezas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Dora las hamburguesas vegetales en aceite 3 minutos por lado.",
+   "Asa el camote en rodajas en el mismo sartén hasta que dore.",
+   "Tuesta los bolillos y unta mostaza.",
+   "Arma las hamburguesas con lechuga, jitomate y cebolla morada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_hamburguesas_champinon_cheddar",
+  "name": "Hamburguesas de champiñón con queso cheddar",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 400,
+    "note": "picados finos"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "queso_cheddar",
+    "g": 56,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "bolillo",
+    "g": 240,
+    "note": "4 piezas"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 50
+   }
+  ],
+  "steps": [
+   "Saltea los champiñones con cebolla y ajo hasta que suelten el agua.",
+   "Mezcla con avena, huevo y comino, y forma 4 hamburguesas.",
+   "Dora en aceite 4 minutos por lado y pon el queso al final.",
+   "Sirve en bolillos tostados con jitomate y lechuga."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_champinones_ajillo_tortillas",
+  "name": "Champiñones al ajillo con tortillas",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 500,
+    "note": "en mitades"
+   },
+   {
+    "food": "ajo",
+    "g": 15,
+    "note": "laminado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "6 piezas"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Calienta el aceite con el ajo y el chile de árbol a fuego bajo hasta que el ajo dore.",
+   "Agrega los champiñones y sube el fuego; cocina 8 minutos.",
+   "Sazona con sal y jugo de limón, y termina con perejil.",
+   "Sirve con tortillas calientes."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_champinones_rellenos_panela_espinaca",
+  "name": "Champiñones rellenos de panela y espinaca",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 500,
+    "note": "con el tallo retirado"
+   },
+   {
+    "food": "queso_panela",
+    "g": 100,
+    "note": "desmoronado"
+   },
+   {
+    "food": "espinaca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 190 °C.",
+   "Saltea la cebolla, el ajo y la espinaca 3 minutos y mezcla con la panela.",
+   "Rellena los champiñones y espolvorea parmesano.",
+   "Hornea 15 minutos hasta que doren."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_crema_champinon_elote",
+  "name": "Crema de champiñón y elote",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 400,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "leche_entera",
+    "g": 500
+   },
+   {
+    "food": "harina_trigo",
+    "g": 15
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   }
+  ],
+  "steps": [
+   "Derrite la mantequilla y sofríe la cebolla, el ajo y los champiñones 8 minutos.",
+   "Espolvorea la harina y cocina 1 minuto moviendo.",
+   "Agrega la leche y el agua poco a poco, y cocina 10 minutos.",
+   "Licúa la mitad, regresa a la olla con el elote y sazona con sal y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tacos_champinon_chipotle_queso",
+  "name": "Tacos de champiñón al chipotle con queso fresco",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 500,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "2 chiles con adobo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "queso_fresco",
+    "g": 80,
+    "note": "desmoronado"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 240,
+    "note": "8 piezas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite 3 minutos.",
+   "Agrega los champiñones y cocina 8 minutos hasta que doren.",
+   "Añade el chipotle picado con su adobo y sazona con sal.",
+   "Sirve en tortillas con lechuga y queso fresco."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_seitan_chimichurri_perejil",
+  "name": "Seitán a la plancha con chimichurri de perejil",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "seitan",
+    "g": 150,
+    "note": "en filetes"
+   },
+   {
+    "food": "perejil",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "paprika",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Mezcla el perejil, el ajo, el vinagre, la mitad del aceite, el orégano y la sal para el chimichurri.",
+   "Unta el seitán con el resto del aceite y la paprika.",
+   "Dora el seitán en plancha caliente 3 minutos por lado.",
+   "Sirve con chimichurri, lechuga y cebolla morada."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_seitan_chile_ancho_ajonjoli",
+  "name": "Seitán en salsa de chile ancho con ajonjolí",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "seitan",
+    "g": 180,
+    "note": "en trozos"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "2 piezas"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "2 piezas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en mitad"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "piloncillo",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5,
+    "note": "tostado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Desvena y remoja los chiles en agua caliente 15 minutos.",
+   "Licúa los chiles con jitomate, cebolla, ajo, comino, canela, piloncillo y el agua.",
+   "Fríe la salsa en aceite 6 minutos y sazona.",
+   "Agrega el seitán y cocina 15 minutos. Sirve con ajonjolí."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_tempeh_cacahuate_arroz",
+  "name": "Tempeh en salsa de cacahuate con arroz",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tempeh",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 60
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 350
+   }
+  ],
+  "steps": [
+   "Dora el tempeh en aceite hasta que tenga color.",
+   "Sofríe la cebolla y el ajo, agrega el jitomate y cocina 5 minutos.",
+   "Incorpora la crema de cacahuate, la salsa de soya y 200 ml de agua; cocina 5 minutos.",
+   "Agrega el tempeh, el jugo de limón y sirve con arroz."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_tacos_tempeh_barbacoa",
+  "name": "Tacos de tempeh tipo barbacoa",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tempeh",
+    "g": 300,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "desvenado"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 12,
+    "note": "desvenado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en mitad"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 250
+   }
+  ],
+  "steps": [
+   "Remoja los chiles en agua caliente 15 minutos y licúalos con ajo, vinagre, comino, orégano y el agua.",
+   "Marina el tempeh desmenuzado en la salsa 15 minutos.",
+   "Cocina el tempeh con la salsa a fuego medio 15 minutos hasta que reduzca.",
+   "Sirve en tortillas con cebolla y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_tempeh_brocoli_cacahuate",
+  "name": "Tempeh salteado con brócoli y cacahuate",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tempeh",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "brocoli",
+    "g": 250,
+    "note": "en ramilletes"
+   },
+   {
+    "food": "cacahuate",
+    "g": 30,
+    "note": "tostado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 10
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   }
+  ],
+  "steps": [
+   "Dora el tempeh en aceite a fuego medio-alto 5 minutos.",
+   "Agrega el brócoli, el jengibre y el ajo, y saltea 4 minutos.",
+   "Añade la salsa de soya y la miel, y cocina 1 minuto.",
+   "Sirve con arroz integral y cacahuate picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_tofu_elote_mexicana",
+  "name": "Tofu a la mexicana con elote",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora el tofu desmenuzado en aceite 5 minutos y resérvalo.",
+   "Sofríe la cebolla, el chile y el ajo en el mismo sartén.",
+   "Agrega el jitomate y cocina 5 minutos hasta formar una salsa.",
+   "Incorpora el tofu y el elote, sazona y termina con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_caldo_tofu_espinaca_chayote",
+  "name": "Caldo de tofu con espinaca y chayote",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "chayote",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en mitad"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000
+   },
+   {
+    "food": "cilantro",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Hierve el agua con la cebolla, el ajo y la sal.",
+   "Agrega la zanahoria y el chayote, y cocina 10 minutos.",
+   "Incorpora el tofu y cocina 5 minutos más.",
+   "Agrega la espinaca, deja 1 minuto y sirve con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_garbanzos_chipotle_papa",
+  "name": "Garbanzos en salsa de chipotle con papa",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurridos"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "2 chiles con adobo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite hasta que doren.",
+   "Agrega el jitomate y el chipotle, y cocina 5 minutos.",
+   "Incorpora los garbanzos, las papas y 200 ml de agua; cocina 15 minutos.",
+   "Sazona con sal y sirve con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_curry_garbanzo_espinaca",
+  "name": "Curry de garbanzo con espinaca y leche de almendra",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 450,
+    "note": "escurridos"
+   },
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "jengibre",
+    "g": 8,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "leche_almendra",
+    "g": 250
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 400
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el ajo y el jengibre en aceite con el comino y la paprika.",
+   "Agrega el jitomate y cocina 8 minutos.",
+   "Incorpora los garbanzos y la leche de almendra; cocina 10 minutos.",
+   "Añade la espinaca, deja marchitar y sirve con arroz."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_guiso_lenteja_papa_espinaca",
+  "name": "Guiso de lenteja con papa y espinaca",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 500
+   },
+   {
+    "food": "papa_cocida",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite 4 minutos.",
+   "Agrega el jitomate, la zanahoria y el comino, y cocina 5 minutos.",
+   "Incorpora las lentejas, las papas y 300 ml de agua; cocina 15 minutos.",
+   "Agrega la espinaca, sazona con sal y deja 2 minutos más."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_koshari_lenteja_garbanzo_arroz",
+  "name": "Koshari de lenteja, garbanzo y arroz",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 150
+   },
+   {
+    "food": "pasta_seca",
+    "g": 60,
+    "note": "cocida al dente"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en aros, dorada"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "licuado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Dora la cebolla morada en aceite hasta que esté crujiente y resérvala.",
+   "Prepara la salsa licuando el jitomate con ajo, comino y vinagre, y cocínala 8 minutos.",
+   "Mezcla el arroz, las lentejas, los garbanzos y la pasta.",
+   "Sirve con la salsa y la cebolla dorada encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tofu_salteado_champinon_esparrago",
+  "name": "Tofu salteado con champiñones y espárrago",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "champinon",
+    "g": 200,
+    "note": "en mitades"
+   },
+   {
+    "food": "esparrago",
+    "g": 150,
+    "note": "en trozos"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 25
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 8
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Dora los cubos de tofu en aceite hasta que estén dorados y resérvalos.",
+   "Saltea los champiñones, el espárrago y la cebolla con jengibre y ajo 5 minutos.",
+   "Regresa el tofu, agrega la salsa de soya y la miel, y cocina 2 minutos.",
+   "Sirve con ajonjolí espolvoreado."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "meal prep",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_panqueques_garbanzo_champinon",
+  "name": "Panqueques de garbanzo con champiñones",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 300
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "maicena",
+    "g": 20
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "picados"
+   },
+   {
+    "food": "espinaca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa los garbanzos con huevo, maicena, comino, sal y 80 ml de agua hasta tener una mezcla lisa.",
+   "Saltea los champiñones con cebolla y ajo, agrega la espinaca y reserva.",
+   "Vierte un cucharón de la mezcla en un sartén engrasado y cuaja por ambos lados.",
+   "Rellena cada panqueque con el salteado y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_huevos_horno_espinaca_feta",
+  "name": "Huevos al horno con espinaca y queso feta",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "6 piezas"
+   },
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "queso_feta",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 190 °C.",
+   "Sofríe la cebolla en aceite, agrega el jitomate y la espinaca, y cocina 4 minutos.",
+   "Reparte la mezcla en 3 refractarios y haz un hueco en cada uno.",
+   "Cascarea 2 huevos en cada refractario, pon feta encima y hornea 10 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_frittata_calabacita_parmesano",
+  "name": "Frittata de huevo con calabacita y parmesano",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 350,
+    "note": "7 piezas"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en rodajas finas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "albahaca",
+    "g": 5,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y la calabacita en aceite 6 minutos.",
+   "Bate los huevos con parmesano, albahaca y sal.",
+   "Vierte sobre la verdura en el sartén y cocina a fuego bajo 8 minutos.",
+   "Termina el cuajado en el horno 3 minutos o voltea con un plato."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_espagueti_garbanzo_espinaca_parmesano",
+  "name": "Espagueti con garbanzo, espinaca y parmesano",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 250,
+    "note": "espagueti"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "laminado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 25,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece el espagueti en agua con sal hasta que esté al dente y reserva 1 taza del agua.",
+   "Dora el ajo en aceite, agrega los garbanzos y cocina 4 minutos.",
+   "Añade la espinaca, el espagueti y un poco del agua de cocción.",
+   "Retira del fuego, agrega limón, parmesano y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_fideos_tofu_champinon_ajo",
+  "name": "Fideos con tofu y champiñones al ajo",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fideo_sopa",
+    "g": 150
+   },
+   {
+    "food": "tofu_firme",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "laminado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "perejil",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece los fideos en agua con sal hasta que estén suaves y escurre.",
+   "Dora el tofu en aceite y reserva.",
+   "Saltea los champiñones, la cebolla y el ajo 5 minutos.",
+   "Mezcla todo con los fideos, el limón y el perejil, y sirve con parmesano."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_albondigas_tofu_jitomate_queso",
+  "name": "Albóndigas de tofu en salsa de jitomate con queso",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "desmenuzado y escurrido"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 50
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "jitomate",
+    "g": 500,
+    "note": "picado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 15
+   },
+   {
+    "food": "queso_panela",
+    "g": 60,
+    "note": "desmoronado"
+   }
+  ],
+  "steps": [
+   "Mezcla el tofu con avena, huevo, cebolla, ajo, perejil, comino y sal.",
+   "Forma albóndigas y dóralas en aceite por todos lados.",
+   "Cocina el jitomate con el puré de tomate y 100 ml de agua 10 minutos y sazona.",
+   "Agrega las albóndigas a la salsa, cocina 10 minutos y sirve con queso panela."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_albondigas_frijol_negro_chipotle",
+  "name": "Albóndigas de frijol negro en chipotle",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "frijol_negro_cocido",
+    "g": 400,
+    "note": "machacado"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   },
+   {
+    "food": "masa_maiz",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "2 chiles con adobo"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Machaca los frijoles y mézclalos con huevo, masa, cebolla, ajo, cilantro, comino y sal.",
+   "Forma albóndigas pequeñas y dóralas en aceite.",
+   "Licúa el jitomate con el chipotle y ajo, y fríelo en aceite 5 minutos.",
+   "Agrega las albóndigas a la salsa y cocina 10 minutos a fuego bajo."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_albondigas_garbanzo_espinaca_jitomate",
+  "name": "Albóndigas de garbanzo con espinaca en caldillo de jitomate",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "machacado"
+   },
+   {
+    "food": "espinaca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   },
+   {
+    "food": "masa_maiz",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "jitomate",
+    "g": 450,
+    "note": "picado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Mezcla el garbanzo machacado con espinaca, huevo, masa, cebolla, ajo, comino y sal.",
+   "Forma albóndigas y reposa 10 minutos.",
+   "Cocina el jitomate con el puré y 300 ml de agua 10 minutos.",
+   "Agrega las albóndigas al caldillo y cocina a fuego bajo 15 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_hamburguesas_lenteja_cheddar",
+  "name": "Hamburguesas de lenteja con queso cheddar",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 400,
+    "note": "machacadas"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 40
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "queso_cheddar",
+    "g": 56,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "bolillo",
+    "g": 240,
+    "note": "4 piezas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla las lentejas con avena, huevo, cebolla, ajo y comino.",
+   "Forma 4 hamburguesas y refrigera 10 minutos.",
+   "Dora en aceite 4 minutos por lado y coloca el queso al final.",
+   "Sirve en bolillos tostados con mostaza, lechuga y jitomate."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_gratinado_champinon_espinaca_mozzarella",
+  "name": "Gratinado de champiñón con espinaca y mozzarella",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 400,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 100,
+    "note": "rallada"
+   },
+   {
+    "food": "crema_cocinar",
+    "g": 90,
+    "note": "6 cucharadas"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "maicena",
+    "g": 10
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Saltea los champiñones con cebolla, ajo y mantequilla hasta que doren.",
+   "Agrega la espinaca y cocina 2 minutos.",
+   "Mezcla la crema con maicena, sal y pimienta, y vierte sobre los champiñones.",
+   "Cubre con mozzarella y gratina 8 minutos en horno caliente."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_lasana_calabacita_ricotta",
+  "name": "Lasaña de calabacita con ricotta y mozzarella",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 180,
+    "note": "láminas para lasaña"
+   },
+   {
+    "food": "calabacita",
+    "g": 300,
+    "note": "en láminas"
+   },
+   {
+    "food": "queso_ricotta",
+    "g": 200
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "licuado y cocido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "albahaca",
+    "g": 5,
+    "note": "picada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C.",
+   "Sofríe la cebolla y el ajo, agrega el jitomate licuado y cocina 15 minutos. Añade la albahaca.",
+   "Mezcla la ricotta con huevo y parte de la mozzarella.",
+   "Arma capas de láminas, calabacita, ricotta, salsa y mozzarella; termina con parmesano y hornea 35 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_penne_coliflor_jitomate_parmesano",
+  "name": "Penne con coliflor, jitomate y parmesano",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280,
+    "note": "penne"
+   },
+   {
+    "food": "coliflor",
+    "g": 300,
+    "note": "en flores"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "albahaca",
+    "g": 5,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Cuece el penne con la coliflor en agua con sal 10 minutos y escurre.",
+   "Sofríe la cebolla y el ajo en aceite, agrega el jitomate y cocina 8 minutos.",
+   "Mezcla la pasta y la coliflor con la salsa.",
+   "Sirve con parmesano y albahaca."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_macarrones_cheddar_champinon",
+  "name": "Macarrones con queso cheddar y champiñones",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200,
+    "note": "codo"
+   },
+   {
+    "food": "queso_cheddar",
+    "g": 120,
+    "note": "rallado"
+   },
+   {
+    "food": "leche_entera",
+    "g": 250
+   },
+   {
+    "food": "mantequilla",
+    "g": 20
+   },
+   {
+    "food": "harina_trigo",
+    "g": 15
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente y reserva.",
+   "Derrite la mantequilla, agrega la harina y cocina 1 minuto.",
+   "Vierte la leche poco a poco, agrega el queso, la mostaza, sal y pimienta hasta obtener una salsa cremosa.",
+   "Sofríe los champiñones con cebolla y mézclalos con la pasta y la salsa."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_quesadillas_calabacita_oaxaca",
+  "name": "Quesadillas de calabacita con queso Oaxaca",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 240,
+    "note": "8 piezas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 200,
+    "note": "en hebra"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos pequeños"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "epazote",
+    "g": 4
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Sofríe la calabacita con cebolla, chile y epazote hasta que esté suave.",
+   "Calienta las tortillas en el comal.",
+   "Rellena las tortillas con queso y calabacita y dóblalas.",
+   "Dora las quesadillas en el comal hasta que el queso se derrita."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_sopes_frijol_queso_crema",
+  "name": "Sopes de frijol con queso fresco y crema",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 200,
+    "note": "con agua para formar masa"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 200
+   },
+   {
+    "food": "queso_fresco",
+    "g": 80,
+    "note": "desmoronado"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Mezcla la masa con agua, forma 8 bolitas, aplánalas y cuécelas en comal.",
+   "Pellizca los bordes de cada sope y fríelos en aceite brevemente.",
+   "Unta el frijol refrito sobre cada sope.",
+   "Cubre con lechuga, jitomate, cebolla, queso y crema."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_pozole_verde_elote_garbanzo",
+  "name": "Pozole verde de elote y garbanzo",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "desgranado"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 200
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en mitad"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "epazote",
+    "g": 2
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000
+   }
+  ],
+  "steps": [
+   "Hierve el agua con la cebolla, el ajo y la sal.",
+   "Licúa el tomate verde con chile, cilantro y un poco de agua de la olla.",
+   "Fríe la salsa en aceite 5 minutos y agrégala al caldo.",
+   "Incorpora el elote, los garbanzos y el epazote, y cocina 15 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_chiles_rellenos_queso_frijol",
+  "name": "Chiles rellenos de queso Oaxaca con frijol",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "chile_poblano",
+    "g": 480,
+    "note": "4 piezas asadas y peladas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 150,
+    "note": "escurridos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 piezas, claras y yemas separadas"
+   },
+   {
+    "food": "maicena",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 60
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "licuado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Asa los chiles, pélalos y hazles una abertura lateral sin quitar el rabo.",
+   "Rellena cada chile con queso y frijoles.",
+   "Bate las claras a punto de turrón, incorpora las yemas y la maicena, y pasa los chiles por la mezcla.",
+   "Fríe los chiles en aceite caliente y sírvelos con salsa de jitomate con cebolla."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_rajas_poblano_elote_crema",
+  "name": "Rajas de poblano con elote y crema",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chile_poblano",
+    "g": 400,
+    "note": "en tiras"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 200,
+    "note": "desgranado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 80
+   },
+   {
+    "food": "queso_panela",
+    "g": 80,
+    "note": "en cubos"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite hasta que estén suaves.",
+   "Agrega las tiras de poblano y cocina 8 minutos.",
+   "Incorpora el elote y la sal, y cocina 3 minutos más.",
+   "Retira del fuego, agrega la crema y el queso panela."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_coliflor_salsa_verde_papa",
+  "name": "Coliflor en salsa verde con papa y queso fresco",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "coliflor",
+    "g": 400,
+    "note": "en flores"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa el tomate verde con chile, cilantro, ajo y 100 ml de agua.",
+   "Sofríe la cebolla en aceite, agrega la salsa y cocina 5 minutos.",
+   "Incorpora la coliflor y las papas, y cocina 15 minutos tapado.",
+   "Sazona y sirve con queso fresco."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_curry_coliflor_papa_coco",
+  "name": "Curry de coliflor y papa con coco",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "coliflor",
+    "g": 500,
+    "note": "en flores"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "jengibre",
+    "g": 10,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 20
+   },
+   {
+    "food": "leche_almendra",
+    "g": 200
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el jengibre y el ajo en aceite con comino y paprika.",
+   "Agrega el jitomate y cocina 5 minutos.",
+   "Incorpora la papa, la coliflor, el coco y 150 ml de agua; tapa y cocina 15 minutos.",
+   "Vierte la leche de almendra, cocina 5 minutos y sazona."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_huevos_estrellados_frijoles_aguacate",
+  "name": "Huevos estrellados sobre frijoles negros con aguacate",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 piezas"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 350,
+    "note": "calientes con poco caldo"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "3 piezas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 5
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Calienta los frijoles con cebolla y chile en un sartén pequeño.",
+   "Fríe los huevos estrellados en aceite a fuego medio.",
+   "Sirve los frijoles, coloca los huevos encima y añade el aguacate.",
+   "Termina con queso y cilantro, y acompaña con tortillas."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_huevos_cocidos_guajillo_nopal",
+  "name": "Huevos cocidos en salsa de guajillo con nopal",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 300,
+    "note": "6 piezas peladas"
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "en cubos cocidos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 18,
+    "note": "3 piezas desvenadas"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en mitad"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "cilantro",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Remoja el guajillo 10 minutos y licúalo con jitomate, cebolla, ajo y 200 ml de agua.",
+   "Fríe la salsa en aceite 5 minutos con comino y sal.",
+   "Agrega el nopal y cocina 5 minutos.",
+   "Incorpora los huevos partidos a la mitad, cocina 5 minutos y sirve con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_croquetas_papa_champinon_oaxaca",
+  "name": "Croquetas de papa con champiñón y queso Oaxaca",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 500,
+    "note": "machacada"
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "picados finos"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 80,
+    "note": "en hebra"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   },
+   {
+    "food": "maicena",
+    "g": 20
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "perejil",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 60
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el ajo y los champiñones hasta que se evapore el agua.",
+   "Mezcla la papa machacada con huevo, maicena, perejil y sal.",
+   "Forma croquetas rellenas con champiñón y queso y refrigera 15 minutos.",
+   "Fríe las croquetas en aceite caliente hasta que doren."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_empanadas_frijol_refrito_oaxaca",
+  "name": "Empanadas de frijol refrito con queso Oaxaca",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 200,
+    "note": "con agua para formar masa"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 100,
+    "note": "en hebra"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30,
+    "note": "para freír"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "licuado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Forma una masa con la harina de maíz y agua, y divídela en 8 bolitas.",
+   "Aplana cada bolita en un plástico, rellena con frijol y queso y cierra en media luna.",
+   "Dora las empanadas en aceite caliente por ambos lados.",
+   "Sirve con salsa de jitomate con cebolla y sal."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tortitas_elote_queso_fresco_crema",
+  "name": "Tortitas de elote con queso fresco y crema",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "desgranado y machacado"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "masa_maiz",
+    "g": 60
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30,
+    "note": "para freír"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Mezcla el elote machacado con huevo, masa, cebolla, cilantro y sal.",
+   "Incorpora el queso fresco y forma tortitas pequeñas.",
+   "Fríe las tortitas en aceite caliente 3 minutos por lado.",
+   "Sirve con crema, limón y más cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_enchiladas_suizas_tofu_oaxaca",
+  "name": "Enchiladas suizas de tofu y queso Oaxaca",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 300,
+    "note": "10 piezas"
+   },
+   {
+    "food": "tofu_suave",
+    "g": 300,
+    "note": "licuado con la crema"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 100,
+    "note": "en hebra"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 150
+   },
+   {
+    "food": "tomate_verde",
+    "g": 400,
+    "note": "hervido"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en mitad"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa el tomate verde hervido con chile, media cebolla, cilantro y sal, y fríe la salsa 5 minutos.",
+   "Licúa el tofu con la crema y sal hasta obtener una salsa blanca.",
+   "Pasa las tortillas por la salsa verde, rellénalas con queso y acomódalas en un refractario.",
+   "Cubre con la crema de tofu y el queso restante, y hornea 15 minutos a 180 °C."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tinga_champinon_tostadas_frijol",
+  "name": "Tinga de champiñón en tostadas con frijol",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 400,
+    "note": "en tiras"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 25,
+    "note": "2 chiles con adobo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "tostada_horneada",
+    "g": 80,
+    "note": "6 piezas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite hasta que doren.",
+   "Agrega los champiñones y cocina 8 minutos hasta que se doren.",
+   "Añade el jitomate y el chipotle picado, y cocina 8 minutos hasta que espese.",
+   "Unta frijol en las tostadas y cubre con tinga, lechuga, queso y crema."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_burritos_tofu_arroz_frijol",
+  "name": "Burritos de tofu con arroz y frijol",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_harina",
+    "g": 240,
+    "note": "4 tortillas grandes"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 200
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe el tofu con cebolla, jitomate y sal hasta que se seque un poco.",
+   "Calienta las tortillas de harina en un comal.",
+   "Rellena cada tortilla con arroz, frijol, tofu, lechuga y queso.",
+   "Dobra los extremos, enrolla y dora en el comal para que selle."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_lentejas_gratinadas_chihuahua",
+  "name": "Lentejas gratinadas con queso Chihuahua",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 500
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 120,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite, agrega el jitomate y cocina 5 minutos.",
+   "Incorpora las lentejas, el comino, el orégano y la sal, y cocina 5 minutos.",
+   "Acomoda la espinaca en un refractario, cubre con la mezcla de lentejas.",
+   "Espolvorea el queso y gratina 10 minutos en horno caliente."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tofu_parrilla_calabacita_pesto",
+  "name": "Tofu a la parrilla con calabacita y pesto de albahaca",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en rebanadas gruesas"
+   },
+   {
+    "food": "calabacita",
+    "g": 250,
+    "note": "en tiras"
+   },
+   {
+    "food": "albahaca",
+    "g": 10,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "almendra",
+    "g": 20,
+    "note": "tostada y picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa la albahaca, el ajo, la almendra, la mitad del aceite, el parmesano y la sal para el pesto.",
+   "Unta el tofu con aceite y sal, y asa en sartén de parrilla 4 minutos por lado.",
+   "Asa la calabacita en tiras 3 minutos por lado.",
+   "Sirve el tofu y la calabacita con pesto y jugo de limón."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_quinoa_garbanzo_pepino_feta",
+  "name": "Quinoa con garbanzo, pepino y queso feta",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 400
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "queso_feta",
+    "g": 80,
+    "note": "desmoronado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Mezcla la quinoa con los garbanzos, el pepino, el jitomate y la cebolla.",
+   "Prepara un aderezo con limón, aceite y sal.",
+   "Incorpora el aderezo y revuelve bien.",
+   "Sirve con feta y perejil encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_cuscus_garbanzo_verduras_asadas",
+  "name": "Cuscús con garbanzo y verduras asadas",
+  "servings": 3,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cuscus_crudo",
+    "g": 200
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "en gajos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C y asa la calabacita, el pimiento, la cebolla y los garbanzos con aceite, comino y sal por 20 minutos.",
+   "Hierve el agua, vierte sobre el cuscús, tapa y reposa 5 minutos.",
+   "Esponja el cuscús con un tenedor y sazona con limón.",
+   "Mezcla con las verduras asadas y perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_arroz_champinon_elote_poblano",
+  "name": "Arroz con champiñones, elote y chile poblano",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 200
+   },
+   {
+    "food": "champinon",
+    "g": 250,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "chile_poblano",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 500
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora el arroz en aceite con la cebolla y el ajo 3 minutos.",
+   "Agrega el agua caliente y la sal, tapa y cocina a fuego bajo 15 minutos.",
+   "Incorpora los champiñones, el poblano y el elote.",
+   "Tapa y reposa 10 minutos antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_arroz_integral_edamame_zanahoria",
+  "name": "Arroz integral con edamame y zanahoria",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 450
+   },
+   {
+    "food": "edamame",
+    "g": 200,
+    "note": "cocido"
+   },
+   {
+    "food": "zanahoria",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite 3 minutos.",
+   "Agrega la zanahoria y saltea 5 minutos.",
+   "Incorpora el arroz integral, el edamame y la salsa de soya, y cocina 4 minutos.",
+   "Termina con limón y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_calabacitas_mexicana_queso_elote",
+  "name": "Calabacitas a la mexicana con queso y elote",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el chile y el ajo en aceite.",
+   "Agrega el jitomate y cocina 5 minutos.",
+   "Incorpora la calabacita y el elote, tapa y cocina 10 minutos.",
+   "Sazona, agrega el queso y tapa 2 minutos para que se derrita."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_berenjenas_rellenas_lenteja_mozzarella",
+  "name": "Berenjenas rellenas de lenteja con mozzarella",
+  "servings": 2,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "berenjena",
+    "g": 500,
+    "note": "2 piezas medianas, partidas a lo largo"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 100,
+    "note": "rallada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 80,
+    "note": "picado"
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C. Hornea las berenjenas con aceite 25 minutos y saca la pulpa dejando la cáscara.",
+   "Sofríe la cebolla, el ajo y el pimiento, agrega el jitomate y cocina 8 minutos.",
+   "Mezcla la pulpa de berenjena y las lentejas con el sofrito y el orégano.",
+   "Rellena las cáscaras, cubre con mozzarella y hornea 10 minutos más."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_pimientos_rellenos_quinoa_frijol",
+  "name": "Pimientos morrones rellenos de quinoa y frijol",
+  "servings": 3,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pimiento_morron",
+    "g": 360,
+    "note": "3 piezas partidas a la mitad"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 300
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 250,
+    "note": "escurridos"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 80,
+    "note": "en hebra"
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 190 °C y acomoda los pimientos en un refractario.",
+   "Sofríe la cebolla con jitomate 5 minutos y mezcla con quinoa, frijoles, comino y cilantro.",
+   "Rellena los pimientos con la mezcla y cubre con queso.",
+   "Hornea 25 minutos hasta que los pimientos estén tiernos y el queso dorado."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_tacos_betabel_frijol_queso",
+  "name": "Tacos de betabel asado con frijol y queso fresco",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "betabel",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 240,
+    "note": "8 piezas"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 100,
+    "note": "desmoronado"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 200,
+    "note": "calentados"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C y hornea el betabel con aceite y sal 25 minutos.",
+   "Calienta los frijoles en un sartén con un poco de agua.",
+   "Calienta las tortillas y rellénalas con betabel y frijoles.",
+   "Termina con queso, cebolla morada, cilantro, crema y limón."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_espinaca_salteada_tofu_ajonjoli",
+  "name": "Espinaca salteada con tofu y ajonjolí",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "espinaca",
+    "g": 300
+   },
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "rallado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "ajonjoli",
+    "g": 8
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Dora el tofu en aceite hasta que esté crujiente.",
+   "Agrega la cebolla, el ajo y el jengibre, y saltea 2 minutos.",
+   "Incorpora la espinaca y la salsa de soya, y cocina 2 minutos hasta que marchite.",
+   "Sirve con ajonjolí tostado encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tacos_tempeh_pasilla",
+  "name": "Tacos de tempeh desmenuzado en salsa de chile pasilla",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tempeh",
+    "g": 250,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "chile_pasilla",
+    "g": 20,
+    "note": "2 piezas desvenadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "6 piezas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   }
+  ],
+  "steps": [
+   "Remoja el chile pasilla en agua caliente 10 minutos y licúalo con jitomate, ajo y el agua.",
+   "Dora el tempeh desmenuzado en aceite con cebolla 5 minutos.",
+   "Agrega la salsa, comino y sal, y cocina 10 minutos.",
+   "Sirve en tortillas con lechuga y queso fresco."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_estofado_seitan_champinon_papa",
+  "name": "Estofado de seitán con champiñones y papa",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "seitan",
+    "g": 150,
+    "note": "en trozos"
+   },
+   {
+    "food": "champinon",
+    "g": 200,
+    "note": "en mitades"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en rodajas"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 500
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora el seitán en aceite hasta que tenga color y resérvalo.",
+   "Sofríe la cebolla, el ajo y los champiñones 5 minutos.",
+   "Agrega el puré de tomate, la zanahoria, la papa, el comino y el agua; cocina 20 minutos.",
+   "Regresa el seitán, cocina 15 minutos más, sazona y sirve con perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_coliflor_asada_garbanzo_tahini",
+  "name": "Coliflor asada con garbanzos y tahini",
+  "servings": 3,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "coliflor",
+    "g": 600,
+    "note": "en flores grandes"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "secos"
+   },
+   {
+    "food": "tahini",
+    "g": 45
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "agua_simple",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 210 °C.",
+   "Mezcla la coliflor y los garbanzos con aceite, comino, paprika y sal, y hornea 25 minutos.",
+   "Licúa el tahini con limón, ajo, sal y agua hasta obtener una crema suave.",
+   "Sirve la coliflor y los garbanzos con la salsa de tahini y perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_hamburguesas_quinoa_champinon_lechuga",
+  "name": "Hamburguesas de quinoa con champiñón y lechuga",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 300
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "picados finos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 80
+   }
+  ],
+  "steps": [
+   "Saltea los champiñones con cebolla y ajo hasta que se evapore el agua.",
+   "Mezcla con la quinoa, huevo, avena, comino y perejil, y forma 6 hamburguesas.",
+   "Dora en aceite 4 minutos por lado.",
+   "Sirve con hojas de lechuga como pan."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_pizzas_tortilla_champinon_mozzarella",
+  "name": "Pizzas de tortilla con champiñón y mozzarella",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "6 piezas"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "champinon",
+    "g": 200,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "licuado y cocido"
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "espinaca",
+    "g": 60,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Cocina el jitomate licuado con ajo y orégano 8 minutos para hacer salsa.",
+   "Unta la salsa sobre las tortillas, cubre con champiñones, espinaca y mozzarella.",
+   "Hornea 8 minutos hasta que el queso se derrita y las orillas doren."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_huevos_florentinos_pan_integral",
+  "name": "Huevos florentinos con pan integral y espinaca",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 piezas"
+   },
+   {
+    "food": "espinaca",
+    "g": 200
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 50,
+    "note": "rallada"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Saltea el ajo con mantequilla, agrega la espinaca y sazona con limón y sal.",
+   "Tuesta el pan integral y cúbrelo con la espinaca.",
+   "Cuece los huevos en agua a fuego bajo 4 minutos hasta que la yema quede líquida.",
+   "Coloca un huevo sobre cada pieza de pan, espolvorea mozzarella y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_gorditas_frijol_refrito_oaxaca",
+  "name": "Gorditas de frijol refrito con queso Oaxaca",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 250,
+    "note": "con agua para formar masa"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 200
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 100,
+    "note": "en hebra"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Forma 8 bolitas con la masa, aplánalas y cuécelas en comal 3 minutos por lado.",
+   "Abre cada gordita por un costado sin romperla.",
+   "Rellena con frijol refrito y queso, y cierra.",
+   "Dora en aceite de los dos lados y sirve con lechuga, jitomate y crema."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tacos_papa_rajas_oaxaca",
+  "name": "Tacos de papa con rajas y queso Oaxaca",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_poblano",
+    "g": 200,
+    "note": "en rajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en rodajas"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "6 piezas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 80,
+    "note": "en hebra"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora las papas en aceite a fuego medio 8 minutos y sazona.",
+   "Sofríe el poblano y la cebolla 6 minutos.",
+   "Mezcla las papas con las rajas y el queso.",
+   "Calienta las tortillas y sirve los tacos con crema."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_yakisoba_tofu_col_zanahoria",
+  "name": "Yakisoba de tofu con col y zanahoria",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200,
+    "note": "espagueti"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en juliana"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en tiras"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 10
+   },
+   {
+    "food": "jengibre",
+    "g": 5,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Cuece el espagueti al dente, escurre y pásalo por agua fría.",
+   "Dora el tofu en aceite y resérvalo.",
+   "Saltea la col, la zanahoria, la cebolla, el jengibre y el ajo 4 minutos.",
+   "Agrega el espagueti, el tofu, la salsa de soya y la miel, y saltea 2 minutos. Sirve con ajonjolí."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "meal prep",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tlacoyos_frijol_nopal_queso",
+  "name": "Tlacoyos de frijol con nopal y queso fresco",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 300,
+    "note": "con agua para formar masa"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 200
+   },
+   {
+    "food": "nopal",
+    "g": 150,
+    "note": "cocido y picado"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Forma bolitas con la masa, aplánalas en forma ovalada y rellénalas con frijol.",
+   "Cierra los tlacoyos y cuécelos en comal 4 minutos por lado.",
+   "Sofríe el nopal con cebolla y chile en aceite 5 minutos.",
+   "Sirve los tlacoyos con nopal y queso fresco encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_tostadas_lenteja_aguacate_panela",
+  "name": "Tostadas de lenteja con aguacate y queso panela",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 60,
+    "note": "4 piezas"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "machacadas"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_panela",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el chile y el ajo, y mézclalos con las lentejas machacadas.",
+   "Calienta la mezcla 3 minutos sin dejar de mover.",
+   "Unta la mezcla sobre las tostadas.",
+   "Acomoda aguacate, lechuga y queso, y rocía con limón."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_arroz_frijoles_negros_huevo_estrellado",
+  "name": "Arroz con frijoles negros y huevo estrellado",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 400
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "con poco caldo"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 piezas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite, agrega el jitomate y cocina 5 minutos.",
+   "Incorpora los frijoles y el arroz, y calienta 5 minutos.",
+   "Fríe los huevos estrellados en un sartén aparte.",
+   "Sirve el arroz con frijoles, coloca el huevo encima y termina con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_sopa_lentejas_espinaca_zanahoria",
+  "name": "Sopa de lentejas con espinaca y zanahoria",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 500
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite, agrega el jitomate y cocina 5 minutos.",
+   "Incorpora la zanahoria, el comino, el agua y la sal, y hierve 10 minutos.",
+   "Agrega las lentejas y cocina 10 minutos más.",
+   "Incorpora la espinaca, cocina 2 minutos y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_milanesa_seitan_ensalada_aguacate",
+  "name": "Milanesa de seitán con ensalada de aguacate",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "seitan",
+    "g": 150,
+    "note": "en filetes delgados"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza batida"
+   },
+   {
+    "food": "totopos",
+    "g": 50,
+    "note": "triturados"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30,
+    "note": "para freír"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en rodajas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Pasa el seitán por huevo batido y luego por totopos triturados con sal.",
+   "Dora las milanesas en aceite 3 minutos por lado.",
+   "Mezcla la lechuga, el jitomate, la cebolla, el aguacate y el limón.",
+   "Sirve las milanesas con la ensalada."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "veg_tofu_guajillo_arroz_blanco",
+  "name": "Tofu en salsa de guajillo con arroz blanco",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en cubos y dorado"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 18,
+    "note": "3 piezas desvenadas"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en mitad"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 400
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   }
+  ],
+  "steps": [
+   "Remoja el guajillo 10 minutos y licúalo con jitomate, ajo, vinagre, comino y el agua.",
+   "Dora el tofu en aceite y resérvalo.",
+   "Fríe la salsa con la cebolla picada en aceite 5 minutos y sazona.",
+   "Agrega el tofu a la salsa, cocina 5 minutos y sirve con arroz."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "veg_quesadillas_tofu_espinaca_oaxaca",
+  "name": "Quesadillas de tofu con espinaca y queso Oaxaca",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 240,
+    "note": "8 piezas"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 200,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 120,
+    "note": "en hebra"
+   },
+   {
+    "food": "espinaca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Saltea el tofu con cebolla y chile en aceite 5 minutos.",
+   "Agrega la espinaca y cocina 1 minuto.",
+   "Calienta las tortillas, rellénalas con el tofu y el queso.",
+   "Dora las quesadillas en el comal y sirve con crema."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "meal prep",
+   "sin gluten",
+   "económica"
+  ]
+ }
+]
