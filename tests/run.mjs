@@ -539,3 +539,24 @@ test('isSchemaError reconoce columnas/tablas ausentes de PostgREST', async () =>
   assert.ok(isSchemaError({ code: 'PGRST204', message: "Could not find the 'meal_plan' column of 'profiles' in the schema cache" }));
   assert.ok(!isSchemaError({ message: 'Failed to fetch' }));
 });
+
+test('drop sets: volumen, series efectivas, validación y texto', async () => {
+  const c = await import('../js/calc.js');
+  const s = { weight_kg: 60, reps: 8, drops: [{ weight_kg: 45, reps: 8, unit: 'kg' }, { weight_kg: 35, reps: 6, unit: 'kg' }] };
+  assert.equal(c.setVolume(s), 60 * 8 + 45 * 8 + 35 * 6);
+  assert.equal(c.setVolume({ weight_kg: 60, reps: 8 }), 480); // sin drops, igual que antes
+  assert.equal(c.bestE1RM([s]), c.epley(60, 8)); // e1RM solo con la serie principal
+  assert.equal(c.effectiveSetCount({ reps: 8 }), 1);
+  assert.equal(c.effectiveSetCount({ reps: 8, drops: [{ reps: 5, weight_kg: 1 }] }), 1.5);
+  assert.equal(c.effectiveSetCount(s), 2);
+  assert.equal(c.effectiveSetCount({ reps: 8, drops: [1, 2, 3, 4].map(() => ({ reps: 5, weight_kg: 1 })) }), 2); // tope +1
+  const exById = { x: { id: 'x', primary: ['m1'], secondary: ['m2'] } };
+  const ms = c.muscleSeries([{ performed_on: '2026-01-05', exercises: [{ exercise_id: 'x', sets: [s, { weight_kg: 50, reps: 10 }] }] }], exById);
+  assert.equal(ms.m1.sets, 3); assert.equal(ms.m2.sets, 1.5);
+  assert.equal(c.validateDrops([]), null);
+  assert.ok(c.validateDrops(Array.from({ length: 7 }, () => ({ weight_kg: 1, reps: 1 }))));
+  assert.ok(c.validateDrops([{ weight_kg: -1, reps: 5 }]));
+  assert.ok(c.validateDrops([{ weight_kg: 10, reps: 2.5 }]));
+  assert.equal(c.describeSet(s, 'kg', (kg) => kg), '60 kg × 8 → drop 45 kg × 8 → 35 kg × 6');
+  assert.equal(c.suggestDrop(60, 'kg'), 47.5); assert.equal(c.suggestDrop(135, 'lb'), 105); assert.equal(c.suggestDrop('', 'kg'), 0);
+});

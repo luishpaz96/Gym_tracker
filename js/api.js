@@ -12,13 +12,15 @@ const lsGet = (k, d) => { try { const v = localStorage.getItem(k); return v ? JS
 const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch { return false; } };
 const lsDel = (k) => { try { localStorage.removeItem(k); } catch { /* sin almacenamiento */ } };
 
+export const cleanDrops = (d) => (Array.isArray(d) ? d : []).slice(0, 6).map((x) => ({ weight_kg: Number(x.weight_kg), reps: Number(x.reps), unit: x.unit === 'lb' ? 'lb' : 'kg' })).filter((x) => Number.isFinite(x.weight_kg) && Number.isFinite(x.reps));
+
 // Normaliza un entrenamiento (de BD o del formulario) a la forma interna.
 export function normalizeWorkout(w) {
   return {
     id: w.id, performed_on: w.performed_on, plan_day: w.plan_day ?? null, notes: w.notes ?? '', created_at: w.created_at || null,
     exercises: (w.workout_exercises || w.exercises || []).map((e) => ({
       id: e.id, exercise_id: e.exercise_id, position: e.position ?? 0,
-      sets: (e.sets || []).map((s) => ({ id: s.id, set_no: s.set_no, weight_kg: Number(s.weight_kg), reps: Number(s.reps), rir: s.rir === null || s.rir === undefined ? null : Number(s.rir), unit: s.unit === 'lb' ? 'lb' : 'kg' }))
+      sets: (e.sets || []).map((s) => ({ id: s.id, set_no: s.set_no, weight_kg: Number(s.weight_kg), reps: Number(s.reps), rir: s.rir === null || s.rir === undefined ? null : Number(s.rir), unit: s.unit === 'lb' ? 'lb' : 'kg', drops: cleanDrops(s.drops) }))
         .sort((a, b) => a.set_no - b.set_no),
     })).sort((a, b) => a.position - b.position),
   };
@@ -29,7 +31,7 @@ export function buildWorkout({ performed_on, plan_day, notes, exercises }) {
   return normalizeWorkout({
     id: uuid(), performed_on, plan_day: plan_day || null, notes: (notes || '').slice(0, 1000), created_at: new Date().toISOString(),
     exercises: exercises.map((e, i) => ({ id: uuid(), exercise_id: e.exercise_id, position: i,
-      sets: e.sets.map((s, j) => ({ id: uuid(), set_no: j + 1, weight_kg: s.weight_kg, reps: s.reps, rir: s.rir ?? null, unit: s.unit === 'lb' ? 'lb' : 'kg' })) })),
+      sets: e.sets.map((s, j) => ({ id: uuid(), set_no: j + 1, weight_kg: s.weight_kg, reps: s.reps, rir: s.rir ?? null, unit: s.unit === 'lb' ? 'lb' : 'kg', drops: cleanDrops(s.drops) })) })),
   });
 }
 
@@ -175,10 +177,18 @@ export function createRemoteApi() {
       let remote = null;
       try {
         const q = (cols) => sb.from('workouts').select(`id,performed_on,plan_day,notes,created_at,workout_exercises(id,exercise_id,position,sets(${cols}))`).order('performed_on', { ascending: false }).limit(1000);
-        let { data, error } = await q(unitCol.on ? 'id,set_no,weight_kg,reps,rir,unit' : 'id,set_no,weight_kg,reps,rir');
-        if (error && unitCol.on && /unit/i.test(error.message || '')) { unitCol.on = false; ({ data, error } = await q('id,set_no,weight_kg,reps,rir')); } // migración pendiente
+        const cols = () => `id,set_no,weight_kg,reps,rir${unitCol.on ? ',unit' : ''}${unitCol.drops ? ',drops' : ''}`;
+        let { data, error } = await q(cols());
+        for (let i = 0; error && i < 2; i++) { // migración pendiente: desactiva la columna que falta y reintenta
+          if (unitCol.drops && /drops/i.test(error.message || '')) { unitCol.drops = false; api.schemaStale = true; }
+          else if (unitCol.on && /unit/i.test(error.message || '')) unitCol.on = false;
+          else break;
+          ({ data, error } = await q(cols()));
+        }
         if (error) throw error;
+        const local = lsGet(`gt_drops_${userId}`, {}); // drops guardados solo en este dispositivo
         remote = data.map(normalizeWorkout);
+        remote.forEach((w) => w.exercises.forEach((e) => e.sets.forEach((x) => { if (!x.drops.length && local[x.id]) x.drops = cleanDrops(local[x.id]); })));
         lsSet(cKey(), remote);
       } catch (err) {
         if (isSchemaError(err)) api.schemaStale = true; else if (!isNetworkError(err)) throw err;
@@ -189,7 +199,7 @@ export function createRemoteApi() {
       return [...pend, ...remote].sort((a, b) => b.performed_on.localeCompare(a.performed_on));
     },
     async saveWorkout(w) {
-      try { await pushWorkout(sb, w); return { queued: false }; }
+      try { await pushWorkout(sb, w, { onSchema: () => { api.schemaStale = true; }, uid: userId }); return { queued: false }; }
       catch (err) {
         if (!isNetworkError(err)) throw err;
         const q = lsGet(qKey(), []); q.push(w); if (!lsSet(qKey(), q)) throw new Error('Sin conexión y sin espacio local para guardar.');
@@ -208,7 +218,7 @@ export function createRemoteApi() {
       const q = lsGet(qKey(), []); if (!q.length) return ok;
       const rest = [];
       for (const w of q) {
-        try { await pushWorkout(sb, w); ok++; }
+        try { await pushWorkout(sb, w, { onSchema: () => { api.schemaStale = true; }, uid: userId }); ok++; }
         catch (err) { if (isNetworkError(err)) rest.push(w); else console.warn('Entrenamiento descartado de la cola:', err.message); }
       }
       lsSet(qKey(), rest); return ok;
@@ -226,16 +236,27 @@ export function createRemoteApi() {
   return api;
 }
 
-const unitCol = { on: true }; // false si la columna sets.unit aún no existe en la BD
-async function pushWorkout(sb, w) {
+const unitCol = { on: true, drops: true }; // false si la columna sets.unit aún no existe en la BD
+const keepDropsLocal = (uid, w) => { // sin la columna sets.drops: conserva los drops en este dispositivo
+  const m = lsGet(`gt_drops_${uid}`, {});
+  w.exercises.forEach((e) => e.sets.forEach((x) => { if (x.drops?.length) m[x.id] = x.drops; }));
+  lsSet(`gt_drops_${uid}`, m);
+};
+async function pushWorkout(sb, w, { onSchema, uid } = {}) {
   let r = await sb.from('workouts').upsert({ id: w.id, performed_on: w.performed_on, plan_day: w.plan_day, notes: w.notes || null }, { onConflict: 'id' });
   if (r.error) throw r.error;
   const wes = w.exercises.map((e) => ({ id: e.id, workout_id: w.id, exercise_id: e.exercise_id, position: e.position }));
   if (wes.length) { r = await sb.from('workout_exercises').upsert(wes, { onConflict: 'id' }); if (r.error) throw r.error; }
-  const rows = (withUnit) => w.exercises.flatMap((e) => e.sets.map((s) => ({ id: s.id, workout_exercise_id: e.id, set_no: s.set_no, weight_kg: s.weight_kg, reps: s.reps, rir: s.rir, ...(withUnit ? { unit: s.unit === 'lb' ? 'lb' : 'kg' } : {}) })));
+  const rows = () => w.exercises.flatMap((e) => e.sets.map((s) => ({ id: s.id, workout_exercise_id: e.id, set_no: s.set_no, weight_kg: s.weight_kg, reps: s.reps, rir: s.rir,
+    ...(unitCol.on ? { unit: s.unit === 'lb' ? 'lb' : 'kg' } : {}), ...(unitCol.drops ? { drops: cleanDrops(s.drops) } : {}) })));
   if (w.exercises.some((e) => e.sets.length)) {
-    r = await sb.from('sets').upsert(rows(unitCol.on), { onConflict: 'id' });
-    if (r.error && unitCol.on && /unit/i.test(r.error.message || '')) { unitCol.on = false; r = await sb.from('sets').upsert(rows(false), { onConflict: 'id' }); }
+    r = await sb.from('sets').upsert(rows(), { onConflict: 'id' });
+    for (let i = 0; r.error && i < 2; i++) {
+      if (unitCol.drops && /drops/i.test(r.error.message || '')) { unitCol.drops = false; onSchema?.(); keepDropsLocal(uid, w); }
+      else if (unitCol.on && /unit/i.test(r.error.message || '')) unitCol.on = false;
+      else break;
+      r = await sb.from('sets').upsert(rows(), { onConflict: 'id' });
+    }
     if (r.error) throw r.error;
   }
 }

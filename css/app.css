@@ -156,3 +156,11 @@ select.input { margin-bottom: 8px; }
 .play-btn { flex: none; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--accent); color: var(--accent-ink); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; } .play-btn .icon { width: 20px; height: 20px; fill: currentColor; }
 .list-item.tight { gap: 4px; padding: 4px 0; } .list-item.tight .pick { border-bottom: 0; }
 .anim-wrap .btn { margin-top: 0; margin-bottom: 10px; }
+
+/* Drop sets */
+.drop-wrap { margin: -2px 0 8px 28px; }
+.drop-toggle { min-height: 32px; padding: 2px 10px; font-size: .8rem; }
+.drop-toggle.on { background: var(--accent); color: var(--accent-ink); }
+.drop-panel { border-left: 3px solid var(--accent); padding: 6px 0 6px 10px; margin-top: 6px; display: grid; gap: 6px; }
+.drop-row { display: grid; grid-template-columns: 52px 1fr 1fr 44px; gap: 6px; align-items: center; }
+.drop-no { font-size: .8rem; color: var(--muted); }

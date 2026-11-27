@@ -131,6 +131,11 @@ alter table public.sets add column if not exists unit text not null default 'kg'
 alter table public.sets drop constraint if exists sets_unit_chk;
 alter table public.sets add constraint sets_unit_chk check (unit in ('kg', 'lb'));
 
+-- Versión 7: drop sets por serie (arreglo de {weight_kg, reps, unit}, máx. 6). Migración segura.
+alter table public.sets add column if not exists drops jsonb not null default '[]'::jsonb;
+alter table public.sets drop constraint if exists sets_drops_chk;
+alter table public.sets add constraint sets_drops_chk check (jsonb_typeof(drops) = 'array' and jsonb_array_length(drops) <= 6 and pg_column_size(drops) < 2000);
+
 -- Versión 6: proteínas en polvo personalizadas del usuario (máx. 10, tamaño acotado). Migración segura.
 alter table public.profiles add column if not exists custom_powders jsonb;
 alter table public.profiles drop constraint if exists profiles_custom_powders_chk;

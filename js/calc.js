@@ -9,7 +9,35 @@ export const kgToLb = (kg) => num(kg) / KG_PER_LB;
 export const lbToKg = (lb) => num(lb) * KG_PER_LB;
 
 // ---- Volumen ----
-export const setVolume = (s) => num(s.weight_kg) * num(s.reps);
+export const MAX_DROPS = 6;
+// Drops de una serie: [{weight_kg, reps, unit}] (solo los que tienen repeticiones)
+export const setDrops = (s) => (Array.isArray(s?.drops) ? s.drops.filter((d) => num(d.reps) > 0) : []);
+// Volumen de la serie: serie principal + cada drop (peso × reps)
+export const setVolume = (s) => num(s.weight_kg) * num(s.reps) + setDrops(s).reduce((a, d) => a + num(d.weight_kg) * num(d.reps), 0);
+// Serie efectiva: 1 por la serie, +0.5 por cada drop con un máximo de +1
+export const effectiveSetCount = (s) => (num(s.reps) > 0 ? 1 + Math.min(1, 0.5 * setDrops(s).length) : 0);
+// Texto: "60 kg × 8 → drop 45 kg × 8 → 35 kg × 6" (display = función de conversión kg→unidad)
+export function describeSet(s, unit, disp) {
+  const one = (x) => `${disp(x.weight_kg, unit)} ${unit} × ${x.reps}`;
+  const d = setDrops(s);
+  return [one(s), ...d.map((x, i) => (i === 0 ? 'drop ' : '') + one(x))].join(' → ');
+}
+// Sugerencia del siguiente drop: ~22 % menos, redondeado a 2.5 kg / 5 lb (display = peso en la unidad mostrada)
+export const suggestDrop = (prevDisplay, unit) => {
+  const step = unit === 'lb' ? 5 : 2.5, v = num(prevDisplay) * 0.78;
+  return v > 0 ? Math.max(step, Math.round(v / step) * step) : 0;
+};
+export function validateDrops(drops) {
+  if (drops === undefined || drops === null) return null;
+  if (!Array.isArray(drops) || drops.length > MAX_DROPS) return `Máximo ${MAX_DROPS} drops por serie.`;
+  for (const d of drops) {
+    const w = +d.weight_kg, r = +d.reps;
+    if (!Number.isFinite(w) || w < 0 || w > 1000) return 'Peso del drop fuera de rango (0–1000 kg).';
+    if (!Number.isInteger(r) || r < 0 || r > 1000) return 'Repeticiones del drop fuera de rango (0–1000).';
+    if (d.unit !== undefined && d.unit !== 'kg' && d.unit !== 'lb') return 'Unidad del drop inválida.';
+  }
+  return null;
+}
 export const exerciseVolume = (ex) => (ex.sets || []).reduce((a, s) => a + setVolume(s), 0);
 export const workoutVolume = (w) => (w.exercises || []).reduce((a, ex) => a + exerciseVolume(ex), 0);
 
@@ -44,7 +72,7 @@ export function muscleSeries(workouts, exById, { from = '0000-00-00', to = '9999
     for (const ex of w.exercises || []) {
       const def = exById[ex.exercise_id];
       if (!def) continue;
-      const n = (ex.sets || []).filter((s) => num(s.reps) > 0).length;
+      const n = (ex.sets || []).reduce((a, s) => a + effectiveSetCount(s), 0);
       if (!n) continue;
       for (const m of def.primary || []) { const s = slot(m); s.sets += n; s.exercises[def.id] = (s.exercises[def.id] || 0) + n; }
       for (const m of def.secondary || []) { const s = slot(m); s.sets += n * 0.5; s.exercises[def.id] = (s.exercises[def.id] || 0) + n * 0.5; }

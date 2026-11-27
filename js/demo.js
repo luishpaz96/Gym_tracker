@@ -27,7 +27,7 @@ export function makeSeed(data) {
       exercises: exs.filter((e) => data.exById[e.id]).map((e) => {
         const base = 20 + (hash(e.id) % 60);
         const n = Array.isArray(e.sets) ? e.sets.length : 3;
-        return { exercise_id: e.id, sets: Array.from({ length: n }, (_, i) => ({ weight_kg: Math.round((base * (1 + 0.03 * week) - i * 1.25) * 2) / 2, reps: 10 - Math.min(i, 3) + (week % 2), rir: i === n - 1 ? 1 : 2 })) };
+        return { exercise_id: e.id, sets: Array.from({ length: n }, (_, i) => ({ weight_kg: Math.round((base * (1 + 0.03 * week) - i * 1.25) * 2) / 2, reps: 10 - Math.min(i, 3) + (week % 2), rir: i === n - 1 ? 1 : 2, drops: i === n - 1 && hash(e.id) % 4 === 0 ? [{ weight_kg: Math.round(base * 0.78 / 2.5) * 2.5, reps: 8, unit: 'kg' }, { weight_kg: Math.round(base * 0.6 / 2.5) * 2.5, reps: 6, unit: 'kg' }] : [] })) };
       }),
     });
     out.push(w);

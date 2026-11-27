@@ -68,6 +68,9 @@ Selector kg | lb en Track (sesión), Summary (peso corporal), onboarding y Cuent
 
 Cada tarjeta de ejercicio tiene su propio kg | lb. Por defecto usa la unidad de la última vez que se registró ese ejercicio (`sets.unit`), y si no hay, `profiles.unit`. El selector de sesión significa "aplicar a todos". Se guarda en kg y la unidad original, así "Última vez" muestra exactamente lo capturado (135 lb se queda en 135 lb).
 
+## Drop sets
+Cada serie tiene "Drop set": sub-panel con Drop 1…6 (peso y reps en la unidad del ejercicio; el peso sugerido es ~22 % menos que el anterior, a 2.5 kg / 5 lb). Se guardan en `sets.drops` (jsonb, arreglo de {weight_kg, reps, unit}, máx. 6, CHECK en BD). Volumen y calificación incluyen los drops; el 1RM estimado y la sobrecarga usan solo la serie principal; las series efectivas por músculo cuentan una serie con drops como 1 + 0.5 por drop, hasta +1. Si la columna falta (schema.sql sin re-ejecutar), los drops quedan en el dispositivo y aparece el aviso de actualizar la base.
+
 ## Botón ▶ de técnica
 `playButton` (js/technique.js) abre la animación de técnica sin seleccionar el ejercicio (≥44 px). Está en el selector de Track (búsqueda, por grupo, Recomendados), Rutina recomendada, tarjetas de sesión, Biblioteca y detalle de músculo en Summary. La animación se reproduce sola, con botón Pausar/Reproducir.
 

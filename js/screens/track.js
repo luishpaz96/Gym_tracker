@@ -2,7 +2,7 @@
 import { el, clear, icon, toast, fmtDate, confirmDialog, unitToggle } from '../ui.js';
 import { convertTyped, normUnit, resolveExerciseUnit } from '../units.js';
 import { searchExercises } from '../search.js';
-import { fromDisplay, toDisplay, validateSet } from '../calc.js';
+import { fromDisplay, toDisplay, validateSet, validateDrops, describeSet, suggestDrop, MAX_DROPS } from '../calc.js';
 import { buildWorkout, lsGet, lsSet, lsDel } from '../api.js';
 import { today, routine } from '../stats.js';
 import { lastTime, overloadSuggestion } from '../overload.js';
@@ -11,7 +11,7 @@ import { renderGrade } from './grade.js';
 
 const KEY = 'gt_draft';
 const MAX_SETS = 50;
-const emptySet = () => ({ w: '', r: '', rir: '' });
+const emptySet = () => ({ w: '', r: '', rir: '', drop: false, drops: [] });
 export const clearDraft = () => lsDel(KEY);
 const loadDraft = (ctx) => {
   const d = lsGet(KEY, null);
@@ -31,7 +31,7 @@ export async function render(ctx, root) {
   const rt = routine(ctx);
   const planReps = Object.fromEntries(rt.items.filter((i) => i.reps).map((i) => [i.exercise.id, i.reps]));
 
-  const fmtSet = (s, j, eu) => `Serie ${j + 1}: ${toDisplay(s.weight_kg, eu)} ${eu} × ${s.reps}`;
+  const fmtSet = (s, j, eu) => `Serie ${j + 1}: ${describeSet(s, eu, toDisplay)}`;
   const newUnit = (id) => resolveExerciseUnit(ctx.workouts, id, du);
 
   function numInput(label, value, attrs, onInput) {
@@ -66,7 +66,7 @@ export async function render(ctx, root) {
         playButton(def.id, def.name),
         el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Quitar ${def.name}`, on: { click: () => { draft.exercises.splice(idx, 1); persist(); draw(); } } }, icon('borrar')))));
     card.append(lastPanel(ex, def));
-    card.append(el('div', { class: 'row between gap' }, el('span', { class: 'muted small', text: 'Unidad de este ejercicio' }), unitToggle(ex.unit, (u) => { ex.sets.forEach((x) => { x.w = convertTyped(x.w, ex.unit, u); }); ex.unit = u; persist(); draw(); }, `Unidad de ${def.name}`)));
+    card.append(el('div', { class: 'row between gap' }, el('span', { class: 'muted small', text: 'Unidad de este ejercicio' }), unitToggle(ex.unit, (u) => { ex.sets.forEach((x) => { x.w = convertTyped(x.w, ex.unit, u); (x.drops || []).forEach((d) => { d.w = convertTyped(d.w, ex.unit, u); }); }); ex.unit = u; persist(); draw(); }, `Unidad de ${def.name}`)));
     card.append(el('div', { class: 'set-head' }, el('span', { text: '#' }), el('span', { text: `Peso (${ex.unit})` }), el('span', { text: 'Reps' }), el('span', { class: 'rir-col', text: 'RIR' }), el('span')));
     ex.sets.forEach((s, j) => {
       const p = l?.sets[j] || l?.sets[l.sets.length - 1];
@@ -76,6 +76,7 @@ export async function render(ctx, root) {
         numInput(`Repeticiones serie ${j + 1}`, s.r, { int: true, inputmode: 'numeric', placeholder: p ? String(p.reps) : '0' }, (v) => { s.r = v; }),
         numInput(`RIR serie ${j + 1}`, s.rir, { int: true, inputmode: 'numeric', placeholder: '–' }, (v) => { s.rir = v; }),
         el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Quitar serie ${j + 1}`, on: { click: () => { ex.sets.splice(j, 1); persist(); draw(); } } }, icon('cerrar'))));
+      card.append(dropPanel(ex, s, j));
     });
     card.append(el('div', { class: 'row gap' },
       el('button', { class: 'btn small grow', type: 'button', on: { click: () => {
@@ -84,6 +85,30 @@ export async function render(ctx, root) {
       } } }, '+ Serie'),
       el('button', { class: 'btn small', type: 'button', 'aria-expanded': String(rirOpen), on: { click: () => { ex.rirOpen = !rirOpen; draw(); } } }, rirOpen ? 'Ocultar RIR' : 'RIR (opcional)')));
     return card;
+  }
+
+  // Drop sets: opción por serie con sub-panel de drops (peso y reps en la unidad del ejercicio)
+  function dropPanel(ex, s, j) {
+    s.drops ||= [];
+    const wrap = el('div', { class: 'drop-wrap' });
+    wrap.append(el('button', { class: `btn small drop-toggle${s.drop ? ' on' : ''}`, type: 'button', 'aria-pressed': String(!!s.drop), 'aria-label': `Drop set en la serie ${j + 1}`,
+      on: { click: () => { s.drop = !s.drop; if (s.drop && !s.drops.length) s.drops.push({ w: '', r: '' }); persist(); draw(); } } }, s.drop ? 'Drop set: sí' : 'Drop set'));
+    if (!s.drop) return wrap;
+    const panel = el('div', { class: 'drop-panel', role: 'group', 'aria-label': `Drops de la serie ${j + 1}` });
+    s.drops.forEach((d, k) => {
+      const prev = k === 0 ? s.w : s.drops[k - 1].w;
+      const sug = suggestDrop(prev, ex.unit);
+      panel.append(el('div', { class: 'drop-row' },
+        el('span', { class: 'drop-no', text: `Drop ${k + 1}` }),
+        numInput(`Peso drop ${k + 1} serie ${j + 1}`, d.w, { placeholder: sug ? String(sug) : '0' }, (v) => { d.w = v; }),
+        numInput(`Repeticiones drop ${k + 1} serie ${j + 1}`, d.r, { int: true, inputmode: 'numeric', placeholder: '0' }, (v) => { d.r = v; }),
+        el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Quitar drop ${k + 1} de la serie ${j + 1}`, on: { click: () => { s.drops.splice(k, 1); if (!s.drops.length) s.drop = false; persist(); draw(); } } }, icon('cerrar'))));
+    });
+    panel.append(el('button', { class: 'btn small', type: 'button', on: { click: () => {
+      if (s.drops.length >= MAX_DROPS) return toast(`Máximo ${MAX_DROPS} drops por serie`, 'bad');
+      s.drops.push({ w: '', r: '' }); persist(); draw();
+    } } }, '+ Drop'));
+    return el('div', { class: 'drop-wrap' }, wrap.firstChild, panel);
   }
 
   function addExercise(id, reps, nSets = 3) {
@@ -156,6 +181,16 @@ export async function render(ctx, root) {
       for (const s of ex.sets) {
         if (s.r === '' && s.w === '') continue;
         const set = { unit: ex.unit, weight_kg: fromDisplay(s.w === '' ? 0 : s.w, ex.unit), reps: s.r === '' ? 0 : Number(s.r), rir: s.rir === '' ? null : Number(s.rir) };
+        if (s.drop) {
+          set.drops = [];
+          for (const d of s.drops || []) {
+            if (d.r === '' && d.w === '') continue;
+            set.drops.push({ weight_kg: fromDisplay(d.w === '' ? 0 : d.w, ex.unit), reps: d.r === '' ? 0 : Number(d.r), unit: ex.unit });
+          }
+          const de = validateDrops(set.drops);
+          if (de) return toast(`${ctx.data.exById[ex.exercise_id].name}: ${de}`, 'bad');
+          set.drops = set.drops.filter((d) => d.reps > 0);
+        }
         const err = validateSet(set);
         if (err) return toast(`${ctx.data.exById[ex.exercise_id].name}: ${err}`, 'bad');
         if (set.reps > 0) sets.push(set);
@@ -187,7 +222,7 @@ export async function render(ctx, root) {
   }
 
   async function setUnit(u) {
-    draft.exercises.forEach((e) => { e.sets.forEach((x) => { x.w = convertTyped(x.w, e.unit, u); }); e.unit = u; });
+    draft.exercises.forEach((e) => { e.sets.forEach((x) => { x.w = convertTyped(x.w, e.unit, u); (x.drops || []).forEach((d) => { d.w = convertTyped(d.w, e.unit, u); }); }); e.unit = u; });
     du = u; draft.unit = u; persist();
     ctx.profile = { ...ctx.profile, unit: u };
     try { await ctx.api.saveProfile(ctx.profile); } catch { toast('Unidad cambiada (no se pudo guardar la preferencia)', 'bad'); }
