@@ -43,6 +43,10 @@ const PROFILE_COLS = 'display_name,unit,bodyweight,birth_year,sex,height_cm,goal
 const isNetworkError = (err) => !navigator.onLine || err instanceof TypeError || /failed to fetch|network|load failed/i.test(String(err?.message || err));
 
 // ============================== Supabase ==============================
+// Error de esquema: columna o tabla que aún no existe porque no se re-ejecutó supabase/schema.sql
+export const isSchemaError = (err) => ['42703', '42P01', 'PGRST204', 'PGRST205', 'PGRST200'].includes(err?.code) || /does not exist|schema cache|could not find/i.test(String(err?.message || ''));
+const OPTIONAL_PROFILE_COLS = ['meals_per_day', 'meal_plan', 'favorite_powder', 'custom_powders'];
+
 export function createRemoteApi() {
   const sb = getClient();
   let userId = null;
@@ -94,8 +98,10 @@ export function createRemoteApi() {
         lsDel('gt_draft'); // la cola pendiente se conserva por si había datos sin subir
       }
     },
+    schemaStale: false, // true si falta ejecutar schema.sql (columnas o tablas ausentes)
     async getProfile() {
-      const { data, error } = await sb.from('profiles').select(PROFILE_COLS).maybeSingle();
+      let { data, error } = await sb.from('profiles').select(PROFILE_COLS).maybeSingle();
+      if (error && isSchemaError(error)) { api.schemaStale = true; ({ data, error } = await sb.from('profiles').select('*').maybeSingle()); }
       if (error) return lsGet(`gt_profile_${userId}`, { unit: 'kg' });
       const p = data || { unit: 'kg' };
       lsSet(`gt_profile_${userId}`, p); return p;
@@ -105,7 +111,12 @@ export function createRemoteApi() {
         birth_year: p.birth_year ?? null, sex: p.sex ?? null, height_cm: p.height_cm ?? null, goal_weight_kg: p.goal_weight_kg ?? null, days_per_week: p.days_per_week ?? null,
         meals_per_day: p.meals_per_day ?? null, meal_plan: p.meal_plan ?? null, favorite_powder: p.favorite_powder ?? null, custom_powders: p.custom_powders ?? null };
       lsSet(`gt_profile_${userId}`, row);
-      const { error } = await sb.from('profiles').upsert(row, { onConflict: 'user_id' });
+      let { error } = await sb.from('profiles').upsert(row, { onConflict: 'user_id' });
+      if (error && isSchemaError(error)) { // columnas nuevas ausentes: guarda lo básico
+        api.schemaStale = true;
+        const basic = { ...row }; OPTIONAL_PROFILE_COLS.forEach((k) => delete basic[k]);
+        ({ error } = await sb.from('profiles').upsert(basic, { onConflict: 'user_id' }));
+      }
       if (error) throw error;
     },
     async listBodyWeights() {
@@ -114,7 +125,7 @@ export function createRemoteApi() {
         if (error) throw error;
         const rows = data.map((r) => ({ measured_on: r.measured_on, weight_kg: Number(r.weight_kg) }));
         lsSet(`gt_weights_${userId}`, rows); return rows;
-      } catch (err) { if (!isNetworkError(err)) throw err; return lsGet(`gt_weights_${userId}`, []); }
+      } catch (err) { if (isSchemaError(err)) { api.schemaStale = true; return []; } if (!isNetworkError(err)) throw err; return lsGet(`gt_weights_${userId}`, []); }
     },
     async addBodyWeight(measured_on, weight_kg) {
       const { error } = await sb.from('body_weights').upsert({ user_id: userId, measured_on, weight_kg }, { onConflict: 'user_id,measured_on' });
@@ -126,11 +137,11 @@ export function createRemoteApi() {
         if (error) throw error;
         const r = data ? { plan: data.plan, source: data.source } : null;
         lsSet(`gt_plan_${userId}`, r); return r;
-      } catch (err) { if (!isNetworkError(err)) throw err; return lsGet(`gt_plan_${userId}`, null); }
+      } catch (err) { if (isSchemaError(err)) { api.schemaStale = true; return lsGet(`gt_plan_${userId}`, null); } if (!isNetworkError(err)) throw err; return lsGet(`gt_plan_${userId}`, null); }
     },
     async savePlan(plan, source) {
       const { error } = await sb.from('user_plans').upsert({ user_id: userId, plan, source }, { onConflict: 'user_id' });
-      if (error) throw error;
+      if (error && isSchemaError(error)) api.schemaStale = true; else if (error) throw error;
       lsSet(`gt_plan_${userId}`, { plan, source });
     },
     // ---- Registro de comidas (con cola sin conexión) ----
@@ -140,7 +151,7 @@ export function createRemoteApi() {
         const { data, error } = await sb.from('food_logs').select(FOOD_COLS).gte('logged_on', from).order('logged_on', { ascending: true }).limit(5000);
         if (error) throw error;
         remote = data.map(normFood); lsSet(`gt_food_${userId}`, remote);
-      } catch (err) { if (!isNetworkError(err)) throw err; remote = lsGet(`gt_food_${userId}`, []).filter((e) => e.logged_on >= from); }
+      } catch (err) { if (isSchemaError(err)) api.schemaStale = true; else if (!isNetworkError(err)) throw err; remote = lsGet(`gt_food_${userId}`, []).filter((e) => e.logged_on >= from); }
       const have = new Set(remote.map((e) => e.id));
       const q = lsGet(fKey(), []).filter((e) => !have.has(e.id) && e.logged_on >= from);
       const del = new Set(lsGet(`gt_fdel_${userId}`, []));
@@ -170,7 +181,7 @@ export function createRemoteApi() {
         remote = data.map(normalizeWorkout);
         lsSet(cKey(), remote);
       } catch (err) {
-        if (!isNetworkError(err)) throw err;
+        if (isSchemaError(err)) api.schemaStale = true; else if (!isNetworkError(err)) throw err;
         remote = lsGet(cKey(), []);
       }
       const have = new Set(remote.map((w) => w.id));

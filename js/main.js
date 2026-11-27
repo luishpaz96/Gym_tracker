@@ -59,6 +59,7 @@ async function route(ctx) {
     clear(root).append(el('p', { class: 'banner bad', text: 'Ocurrió un error al mostrar esta pantalla.' }),
       el('p', { class: 'muted small', text: `Detalle: ${detail}` }));
   }
+  if (ctx.api.schemaStale) root.prepend(el('p', { class: 'banner warn', role: 'status', text: 'Falta actualizar la base de datos: ejecuta supabase/schema.sql en Supabase (SQL Editor). Mientras tanto algunas funciones pueden no guardarse.' }));
   window.scrollTo(0, 0);
   root.focus({ preventScroll: true });
 }
@@ -75,7 +76,7 @@ async function startApp(api, data) {
     $('#app-header').classList.add('hidden'); $('#nav').classList.add('hidden');
     await new Promise((done) => renderOnboarding(ctx, clear(viewEl()), done));
   }
-  await ensurePlan(ctx);
+  try { await ensurePlan(ctx); } catch (e) { console.warn(e?.message); }
   try { await api.flush(); } catch { /* sin conexión */ }
   try { await ctx.refreshFood(); } catch (e) { console.warn(e?.message); }
   try { await ctx.refresh(); } catch (e) { console.warn(e?.message); toast('No se pudieron cargar tus entrenamientos', 'bad'); }

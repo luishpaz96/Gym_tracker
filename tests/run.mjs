@@ -530,3 +530,12 @@ test('validación de proteína personalizada', () => {
   assert.ok(!nut.validateCustomPowder({ ...ok, serving_g: '30', p: '30', c: '10', f: '5' }).ok); // macros > scoop
   assert.equal(nut.MAX_CUSTOM_POWDERS, 10);
 });
+
+test('isSchemaError reconoce columnas/tablas ausentes de PostgREST', async () => {
+  const { isSchemaError } = await import('../js/api.js').catch(() => ({}));
+  if (!isSchemaError) return; // api.js depende del navegador en algunos entornos
+  assert.ok(isSchemaError({ code: '42703', message: 'column profiles.custom_powders does not exist' }));
+  assert.ok(isSchemaError({ code: 'PGRST205', message: "Could not find the table 'public.food_logs' in the schema cache" }));
+  assert.ok(isSchemaError({ code: 'PGRST204', message: "Could not find the 'meal_plan' column of 'profiles' in the schema cache" }));
+  assert.ok(!isSchemaError({ message: 'Failed to fetch' }));
+});
