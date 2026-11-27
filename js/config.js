@@ -1,7 +1,7 @@
 // Configuración pública. La anon key es pública por diseño: la seguridad la da RLS (ver supabase/schema.sql).
 // Pega aquí los valores de tu proyecto (Supabase → Project Settings → API). NUNCA pongas la service_role key.
-export const SUPABASE_URL = '';
-export const SUPABASE_ANON_KEY = '';
+export const SUPABASE_URL = 'https://vvdntrpiulhlplzfzfpv.supabase.co';
+export const SUPABASE_ANON_KEY = 'sb_publishable_p-edy-dPZqhYdDc0raoxIg_JdNdYac6';
 
 // Se activa al conectar un proveedor SMS (Twilio) en Supabase → Authentication → Providers → Phone.
 export const PHONE_AUTH_ENABLED = false;
