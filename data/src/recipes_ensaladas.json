@@ -1,0 +1,5762 @@
+[
+ {
+  "id": "ens_pollo_mango_espinaca",
+  "name": "Ensalada de pollo, mango y espinaca con vinagreta de limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "en plumas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona la pechuga con sal y cocínala a la plancha; deja reposar y corta en tiras.",
+   "Lava y escurre la espinaca; acomódala en platos hondos.",
+   "Agrega el mango, la cebolla morada y el pollo.",
+   "Bate el aceite con el jugo de limón y sal, y báñala al servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_atun_lentejas_jitomate",
+  "name": "Ensalada de atún, lentejas y jitomate con cebolla morada",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 200
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Desmenuza el atún y colócalo en un tazón.",
+   "Agrega las lentejas, el jitomate y la cebolla.",
+   "Mezcla el aceite, el vinagre y la sal, y vierte sobre la ensalada.",
+   "Espolvorea el perejil picado y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_huevo_aguacate_lechuga",
+  "name": "Ensalada de huevo, aguacate y lechuga romana con limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "aguacate",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 0.5
+   }
+  ],
+  "steps": [
+   "Pela los huevos cocidos y pártelos en gajos.",
+   "Corta la lechuga en tiras y el jitomate en cubos.",
+   "Parte el aguacate en cubos y acomódalo con el huevo.",
+   "Rocía el limón y el aceite, sazona con sal y pimienta."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "ens_garbanzo_pepino_tahini",
+  "name": "Ensalada de garbanzo, pepino y perejil con aderezo de tahini",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 250
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "perejil",
+    "g": 15
+   },
+   {
+    "food": "tahini",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Escurre y enjuaga los garbanzos.",
+   "Pica el pepino, el jitomate y la cebolla; mezcla todo con los garbanzos.",
+   "Bate el tahini con el limón, una cucharada de agua y sal.",
+   "Baña la ensalada con el aderezo y termina con perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "sin lácteos",
+   "económica",
+   "meal prep",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_salmon_espinaca_naranja",
+  "name": "Ensalada de salmón, espinaca y naranja con aceite de oliva",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 150
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "naranja",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el salmón con sal y cocínalo en sartén antiadherente 3 minutos por lado.",
+   "Acomoda la espinaca en platos y agrega la naranja y la cebolla en plumas.",
+   "Desmenuza el salmón sobre la ensalada.",
+   "Mezcla el aceite con el vinagre y báñala al servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_cesar_crutones",
+  "name": "Ensalada césar de pollo con crutones de pan integral",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 200
+   },
+   {
+    "food": "pan_integral",
+    "g": 40,
+    "note": "en cubos, tostados"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "mayonesa",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Cocina la pechuga a la plancha, deja reposar y corta en tiras.",
+   "Tuesta los cubos de pan con aceite y ajo hasta dorar.",
+   "Mezcla la mayonesa, la mostaza, el limón y el ajo rallado para el aderezo.",
+   "Acomoda la lechuga, el pollo y los crutones; cubre con el aderezo y el queso."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_camaron_aguacate_mango",
+  "name": "Ensalada de camarón, aguacate y mango con cilantro y limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camaron_cocido",
+    "g": 200
+   },
+   {
+    "food": "aguacate",
+    "g": 120
+   },
+   {
+    "food": "mango",
+    "g": 120
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Lava y pica la lechuga; acomódala en platos.",
+   "Corta el aguacate y el mango en cubos.",
+   "Agrega el camarón, la cebolla y el cilantro picado.",
+   "Aliña con limón, aceite y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_sandia_queso_panela_albahaca",
+  "name": "Ensalada de sandía, queso panela y albahaca con limón",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sandia",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_panela",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 100
+   },
+   {
+    "food": "albahaca",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 0.5
+   }
+  ],
+  "steps": [
+   "Corta la sandía, el pepino y el queso panela en cubos del mismo tamaño.",
+   "Mezcla todo en un tazón grande.",
+   "Aliña con limón, aceite, sal y pimienta.",
+   "Agrega la albahaca rota con las manos y sirve fría."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_tofu_edamame_zanahoria_jengibre",
+  "name": "Ensalada de tofu, edamame y zanahoria con aderezo de jengibre",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 200,
+    "note": "en cubos, dorado"
+   },
+   {
+    "food": "edamame",
+    "g": 150,
+    "note": "cocido"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "rallada"
+   },
+   {
+    "food": "col",
+    "g": 100,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "jengibre",
+    "g": 5,
+    "note": "rallado"
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Dora los cubos de tofu en aceite vegetal hasta que estén crujientes.",
+   "Mezcla la col, la zanahoria y el edamame en un tazón.",
+   "Bate la salsa de soya, el jengibre, el vinagre y un poco de aceite.",
+   "Agrega el tofu, baña con el aderezo y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_arrachera_nopal_jitomate",
+  "name": "Ensalada de arrachera, nopal y jitomate con cilantro y limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 250,
+    "note": "asada, en tiras"
+   },
+   {
+    "food": "nopal",
+    "g": 150,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa la arrachera a fuego alto de 3 a 4 minutos por lado y reposa.",
+   "Corta el nopal, el jitomate y la cebolla en cubos chicos.",
+   "Mezcla las verduras con el cilantro picado.",
+   "Acomoda la carne encima y aliña con limón, aceite y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pavo_manzana_nuez",
+  "name": "Ensalada de pavo, manzana y nuez de Castilla con mostaza y miel",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 200,
+    "note": "en tiras, cocida"
+   },
+   {
+    "food": "manzana",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 25
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Acomoda la lechuga picada en tazones.",
+   "Agrega el pavo, la manzana, la cebolla y la nuez.",
+   "Mezcla la mostaza, la miel, el aceite y el vinagre.",
+   "Baña la ensalada y sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_quinoa_garbanzo_espinaca",
+  "name": "Ensalada de quinoa, garbanzo y espinaca con limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 200
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 150
+   },
+   {
+    "food": "espinaca",
+    "g": 80
+   },
+   {
+    "food": "jitomate",
+    "g": 100
+   },
+   {
+    "food": "pepino",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Enjuaga la quinoa cocida y déjala enfriar un poco.",
+   "Pica el jitomate, el pepino y la espinaca.",
+   "Mezcla la quinoa, los garbanzos y las verduras.",
+   "Aliña con limón, aceite, sal y perejil picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_atun_papa_ejote_mostaza",
+  "name": "Ensalada de atún, papa y ejote con vinagreta de mostaza",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "ejote",
+    "g": 150,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Hierve la papa y los ejotes hasta que estén tiernos; escurre y deja enfriar.",
+   "Bate la mostaza, el vinagre, el aceite y la sal.",
+   "Mezcla la papa, los ejotes, el atún y la cebolla en un tazón.",
+   "Acomoda el huevo en cuartos encima y baña con la vinagreta."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_pollo_rostizado_col_cacahuate",
+  "name": "Ensalada de col, pollo rostizado y cacahuate con aderezo de limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pollo_rostizado",
+    "g": 250,
+    "note": "sin piel, deshebrado"
+   },
+   {
+    "food": "col",
+    "g": 200,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "rallada"
+   },
+   {
+    "food": "cacahuate",
+    "g": 30,
+    "note": "tostado"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "mayonesa",
+    "g": 20
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Desmenuza el pollo rostizado y reserva.",
+   "Mezcla la col y la zanahoria en un tazón grande.",
+   "Bate la mayonesa, el limón, el vinagre y la sal.",
+   "Agrega el pollo y el cacahuate, baña con el aderezo y espolvorea cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_kale_huevo_cottage_pepita",
+  "name": "Ensalada de kale, huevo cocido y queso cottage con pepita",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kale",
+    "g": 150,
+    "note": "sin tallo, picado"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 100
+   },
+   {
+    "food": "pepita",
+    "g": 20,
+    "note": "tostada"
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Masajea el kale con sal y un poco de limón durante un minuto.",
+   "Bate el aceite con la mostaza y el resto del limón.",
+   "Acomoda el kale, el huevo en cuartos y el queso cottage.",
+   "Baña con el aderezo y espolvorea la pepita."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_salmon_ahumado_feta_aceitunas",
+  "name": "Ensalada de salmón ahumado, pepino y queso feta con aceitunas",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_ahumado",
+    "g": 100
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "queso_feta",
+    "g": 60,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "aceitunas",
+    "g": 40
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Lava y pica la lechuga; colócala en platos.",
+   "Agrega el pepino, la cebolla, las aceitunas y el salmón ahumado en tiras.",
+   "Desmenuza el queso feta encima.",
+   "Rocía el aceite y el vinagre al momento de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_lentejas_betabel_zanahoria",
+  "name": "Ensalada de lentejas, betabel y zanahoria con queso fresco",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 200
+   },
+   {
+    "food": "betabel",
+    "g": 150,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "cocida, en rodajas"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece el betabel y la zanahoria hasta que estén tiernos; pela y corta en cubos.",
+   "Pica la cebolla finamente y mézclala con el vinagre y sal.",
+   "Combina las lentejas, el betabel y la zanahoria.",
+   "Aliña con aceite, espolvorea el queso y el perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin gluten",
+   "económica",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_arroz_integral_camaron_mango",
+  "name": "Ensalada de arroz integral, camarón y mango con cilantro",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 200
+   },
+   {
+    "food": "camaron_cocido",
+    "g": 200
+   },
+   {
+    "food": "mango",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 100
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Enfría el arroz integral cocido con un poco de agua fría para que no se apelmace.",
+   "Pica el pepino y mezcla con el arroz, el camarón y el mango.",
+   "Bate el aceite, la salsa de soya y el limón.",
+   "Baña la ensalada y espolvorea ajonjolí y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ens_pollo_fresa_espinaca_almendra",
+  "name": "Ensalada de pollo, fresa y espinaca con vinagreta de manzana",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "fresa",
+    "g": 120,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "almendra",
+    "g": 20,
+    "note": "fileteada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina la pechuga a la plancha, sazona con sal y corta en tiras.",
+   "Acomoda la espinaca y las fresas en platos.",
+   "Tuesta ligeramente las almendras en sartén seca.",
+   "Bate el aceite, el vinagre y la miel; baña y termina con pollo y almendras."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_caprese_mozzarella_albahaca",
+  "name": "Ensalada caprese de jitomate, mozzarella y albahaca",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_mozzarella",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "en rodajas"
+   },
+   {
+    "food": "albahaca",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 0.5
+   }
+  ],
+  "steps": [
+   "Corta el jitomate y la mozzarella en rebanadas del mismo grosor.",
+   "Acomódalas en un plato alternando con hojas de albahaca.",
+   "Rocía el aceite y el vinagre.",
+   "Sazona con sal y pimienta antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pulpo_papa_limon",
+  "name": "Ensalada de pulpo, papa y pepino con limón y chile serrano",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pulpo_cocido",
+    "g": 200,
+    "note": "en trozos"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 80,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Corta el pulpo en trozos pequeños y la papa en cubos.",
+   "Pica la cebolla, el pepino y el chile serrano.",
+   "Mezcla todo con el cilantro y el aceite.",
+   "Sazona con limón y sal, y deja reposar 10 minutos antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_tempeh_col_cacahuate",
+  "name": "Ensalada de tempeh, col morada y zanahoria con aderezo de cacahuate",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tempeh",
+    "g": 150,
+    "note": "en tiras, dorado"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "rallada"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 25
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 5
+   },
+   {
+    "food": "ajo",
+    "g": 2
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Dora las tiras de tempeh en aceite vegetal por 5 minutos.",
+   "Mezcla la col y la zanahoria en un tazón.",
+   "Bate la crema de cacahuate con salsa de soya, limón, miel, ajo y un poco de agua.",
+   "Agrega el tempeh a la ensalada, baña con el aderezo y termina con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_sardina_jitomate_aguacate",
+  "name": "Ensalada de sardina, jitomate y aguacate con cebolla y limón",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sardina_lata",
+    "g": 150,
+    "note": "escurrida"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "aguacate",
+    "g": 80
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Acomoda la lechuga picada en un plato.",
+   "Mezcla el jitomate, la cebolla y el chile serrano picados.",
+   "Agrega la sardina desmenuzada y el aguacate en cubos.",
+   "Aliña con limón, aceite y sal."
+  ],
+  "tags": [
+   "económica",
+   "rápida",
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_elote_oaxaca_chipotle",
+  "name": "Ensalada de pollo, elote y queso oaxaca con chipotle",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "deshebrada"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "deshebrado"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 10
+   },
+   {
+    "food": "mayonesa",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla la mayonesa con el chipotle, el limón y sal para el aderezo.",
+   "Pica la lechuga y colócala en platos.",
+   "Agrega el pollo, el elote, el jitomate y el queso oaxaca.",
+   "Baña con el aderezo y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pimiento_garbanzo_hummus",
+  "name": "Ensalada de pimiento asado, garbanzo y hummus con perejil",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pimiento_morron",
+    "g": 200,
+    "note": "asado, en tiras"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 200
+   },
+   {
+    "food": "hummus",
+    "g": 60
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa el pimiento directo sobre la flama hasta que se ampolle; pela y corta en tiras.",
+   "Acomoda la espinaca en platos y agrega el pimiento, los garbanzos y la cebolla.",
+   "Coloca el hummus en una cucharada al centro.",
+   "Rocía el aceite y el vinagre, sazona y termina con perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_pollo_pina_cacahuate_jengibre",
+  "name": "Ensalada de pollo, piña y cacahuate con aderezo de jengibre",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "pina",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "cacahuate",
+    "g": 25,
+    "note": "tostado y picado"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "rallada"
+   },
+   {
+    "food": "jengibre",
+    "g": 5,
+    "note": "rallado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Cocina el pollo a la plancha con sal y corta en tiras.",
+   "Pica la lechuga y mezcla con la piña y la zanahoria.",
+   "Bate el jengibre, la salsa de soya, el limón, el aceite y la miel.",
+   "Agrega el pollo, baña y espolvorea el cacahuate."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_atun_elote_aguacate_chile",
+  "name": "Ensalada de atún, elote y aguacate con chile en polvo",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "aguacate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Desmenuza el atún en un tazón.",
+   "Agrega el elote, el jitomate, el aguacate y la cebolla picada.",
+   "Aliña con limón, aceite y chile en polvo.",
+   "Termina con cilantro picado y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_esparrago_huevo_parmesano",
+  "name": "Ensalada de espárrago, huevo cocido y parmesano con limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "esparrago",
+    "g": 200,
+    "note": "cocido al vapor"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 25,
+    "note": "en lascas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece los espárragos al vapor 4 minutos y deja enfriar.",
+   "Acomoda la lechuga en platos con los espárragos.",
+   "Agrega el huevo en cuartos y las lascas de parmesano.",
+   "Bate el limón, el aceite, la mostaza y sal, y baña la ensalada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_quinoa_pepino_tomate_verde",
+  "name": "Ensalada de quinoa, pepino y tomate verde con limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 200
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Deja enfriar la quinoa cocida en un tazón.",
+   "Pica el pepino, el tomate verde, la cebolla y el chile serrano.",
+   "Mezcla todo con la quinoa.",
+   "Aliña con limón, aceite, sal y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_pollo_brocoli_pasas_mayonesa",
+  "name": "Ensalada de brócoli, pollo y pasas con aderezo de mayonesa",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "brocoli",
+    "g": 200,
+    "note": "en floretes, crudo o al vapor"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "pasas",
+    "g": 30
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "mayonesa",
+    "g": 40
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece el brócoli al vapor 3 minutos y enfría con agua fría.",
+   "Mezcla el brócoli, el pollo, las pasas y la cebolla picada.",
+   "Bate la mayonesa con el vinagre y sal.",
+   "Incorpora el aderezo y espolvorea la nuez antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_bistec_chayote_limon",
+  "name": "Ensalada de bistec asado, chayote y lechuga con limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 250,
+    "note": "asado y en tiras"
+   },
+   {
+    "food": "chayote",
+    "g": 150,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 100
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el bistec con sal y comino y asa a fuego alto 2 a 3 minutos por lado.",
+   "Hierve el chayote hasta que esté tierno y corta en cubos.",
+   "Pica la lechuga, el jitomate y la cebolla.",
+   "Corta el bistec en tiras, mézclalo con las verduras y aliña con limón y aceite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_alubias_col_zanahoria",
+  "name": "Ensalada de alubias, col y zanahoria con vinagre de manzana",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "alubias_cocidas",
+    "g": 200
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "rallada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Escurre y enjuaga las alubias.",
+   "Mezcla la col, la zanahoria, la cebolla picada y las alubias.",
+   "Bate el vinagre, el aceite, la mostaza y sal.",
+   "Baña la ensalada, reposa 10 minutos y termina con perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_salmon_aguacate_pepino",
+  "name": "Ensalada de salmón, aguacate y pepino con aderezo de limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 180
+   },
+   {
+    "food": "aguacate",
+    "g": 80
+   },
+   {
+    "food": "pepino",
+    "g": 150
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 0.5
+   }
+  ],
+  "steps": [
+   "Sazona el salmón con sal y pimienta; cocínalo a la plancha 3 minutos por lado.",
+   "Corta el pepino, el aguacate y la cebolla en cubos.",
+   "Acomoda la lechuga picada y agrega las verduras.",
+   "Pon el salmón en trozos sobre la ensalada y baña con limón y aceite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_nopal_frijol_queso_fresco",
+  "name": "Ensalada de nopal, frijol negro y queso fresco con cebolla",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 200
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el nopal, el frijol y el jitomate en un tazón.",
+   "Agrega la cebolla y el chile serrano picados.",
+   "Aliña con limón, aceite y sal.",
+   "Termina con queso fresco y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_betabel_pollo_naranja_feta",
+  "name": "Ensalada de betabel, pollo y naranja con queso feta",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "betabel",
+    "g": 150,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "naranja",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "queso_feta",
+    "g": 50,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pela y corta el betabel cocido en cubos.",
+   "Acomoda la lechuga en platos.",
+   "Agrega el pollo, el betabel y los gajos de naranja.",
+   "Desmenuza el feta encima, aliña con aceite, vinagre y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_camaron_col_pina_limon",
+  "name": "Ensalada de camarón, col y piña con limón y chile",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camaron_cocido",
+    "g": 200
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "pina",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Corta la col muy fina y ponla en un tazón con sal.",
+   "Agrega la piña, la cebolla y el camarón.",
+   "Mezcla el limón, el aceite y el chile en polvo.",
+   "Baña la ensalada y termina con cilantro picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_tofu_espinaca_fresa_almendra",
+  "name": "Ensalada de tofu, espinaca y fresa con vinagreta de manzana",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 200,
+    "note": "en cubos, dorado"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "fresa",
+    "g": 120,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "almendra",
+    "g": 20,
+    "note": "fileteada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora los cubos de tofu en sartén con un poco de aceite y sal.",
+   "Acomoda la espinaca y las fresas en platos.",
+   "Tuesta las almendras en sartén seca un par de minutos.",
+   "Bate el aceite, el vinagre y la miel; baña y agrega el tofu y las almendras."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_atun_pasta_pepino_mayonesa",
+  "name": "Ensalada de atún, pepino y pasta con mayonesa",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "pasta_cocida",
+    "g": 200,
+    "note": "codito, fría"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "mayonesa",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente, enjuaga con agua fría y escurre.",
+   "Mezcla la pasta, el atún, el pepino, el jitomate y la cebolla.",
+   "Bate la mayonesa con la mostaza y sal.",
+   "Incorpora el aderezo y refrigera 10 minutos antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_pollo_cottage_pepino_jitomate",
+  "name": "Ensalada de pollo, cottage y pepino con limón y pimienta",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 150
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pica la lechuga y colócala en platos.",
+   "Agrega el pepino, el jitomate y la cebolla.",
+   "Acomoda el pollo y una porción generosa de queso cottage.",
+   "Aliña con limón, aceite y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_lentejas_calabacita_elote",
+  "name": "Ensalada de lentejas, calabacita asada y elote con limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 200
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos, asada"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 100,
+    "note": "desgranado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa la calabacita en cubos en sartén con aceite hasta dorar.",
+   "Mezcla las lentejas, la calabacita, el elote y la cebolla picada.",
+   "Espolvorea la paprika y sal.",
+   "Aliña con limón y cilantro antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_pavo_aguacate_jitomate_mostaza",
+  "name": "Ensalada de pavo, aguacate y jitomate con mostaza",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "aguacate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pica la lechuga y acomódala en platos.",
+   "Agrega el pavo, el jitomate, el aguacate y la cebolla.",
+   "Bate la mostaza, el vinagre, el aceite y sal.",
+   "Baña la ensalada y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_tilapia_col_mango_limon",
+  "name": "Ensalada de tilapia, col morada y mango con limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 220,
+    "note": "a la plancha"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "mango",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona la tilapia con sal y chile en polvo y cocínala a la plancha 3 minutos por lado.",
+   "Mezcla la col, el mango y la cebolla en un tazón.",
+   "Desmenuza el pescado sobre la ensalada.",
+   "Aliña con limón, aceite y cilantro picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_huevo_papa_ejote_mayonesa",
+  "name": "Ensalada de papa, huevo y ejote con mayonesa",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "ejote",
+    "g": 120,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "mayonesa",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "paprika",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la papa y los ejotes hasta que estén tiernos; enfría.",
+   "Pica el huevo y la cebolla.",
+   "Mezcla la mayonesa, la mostaza, el vinagre y sal.",
+   "Combina todo, espolvorea paprika y refrigera."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_champinon_espinaca_ajo",
+  "name": "Ensalada de espinaca, champiñón y pollo con aderezo de ajo",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "salteados"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "en tiras"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 0.5
+   }
+  ],
+  "steps": [
+   "Cocina el pollo en tiras en sartén con sal y pimienta.",
+   "Saltea los champiñones en rebanadas con un poco de ajo.",
+   "Acomoda la espinaca en platos y agrega el pollo y los champiñones.",
+   "Bate el aceite con el ajo picado, vinagre y sal, y baña la ensalada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_coliflor_garbanzo_tahini",
+  "name": "Ensalada de coliflor asada, garbanzo y tahini con perejil",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "coliflor",
+    "g": 250,
+    "note": "en floretes, asada"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 200
+   },
+   {
+    "food": "tahini",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C; hornea la coliflor con aceite y sal 20 minutos.",
+   "Escurre los garbanzos y mézclalos con la coliflor.",
+   "Bate el tahini con limón, ajo, comino y agua hasta obtener una salsa cremosa.",
+   "Baña la ensalada y termina con perejil picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_papaya_camaron_pepino",
+  "name": "Ensalada de papaya, camarón y pepino con limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papaya",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "camaron_cocido",
+    "g": 200
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pica la lechuga y acomódala en platos.",
+   "Agrega la papaya, el pepino y el camarón.",
+   "Pica el chile serrano y espárcelo con el cilantro.",
+   "Aliña con limón, aceite y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_thai_col_cacahuate",
+  "name": "Ensalada de pollo y col al estilo tailandés con cacahuate y limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "cocida y en tiras"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "cacahuate",
+    "g": 25,
+    "note": "picado"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "jengibre",
+    "g": 5,
+    "note": "rallado"
+   },
+   {
+    "food": "miel",
+    "g": 5
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Cocina la pechuga con sal, deja enfriar y corta en tiras.",
+   "Mezcla la col y la zanahoria en juliana.",
+   "Bate la crema de cacahuate con limón, salsa de soya, jengibre, miel y un poco de agua.",
+   "Combina todo, baña y termina con cacahuate y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_manzana_pepino_cheddar",
+  "name": "Ensalada de manzana, pepino y queso cheddar con nuez",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "manzana",
+    "g": 150,
+    "note": "en cerillos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "queso_cheddar",
+    "g": 50,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 20
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Lava y pica la lechuga; colócala en platos.",
+   "Agrega la manzana, el pepino y el queso cheddar.",
+   "Bate el vinagre, el aceite, la mostaza y sal.",
+   "Baña la ensalada y termina con nuez picada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_aceitunas_griega",
+  "name": "Ensalada griega de pollo con aceitunas, pepino y feta",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha, en cubos"
+   },
+   {
+    "food": "aceitunas",
+    "g": 50
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "queso_feta",
+    "g": 60,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con sal y cocínalo a la plancha; corta en cubos.",
+   "Mezcla el pepino, el jitomate, la cebolla y las aceitunas.",
+   "Agrega el pollo y el feta en cubos.",
+   "Aliña con aceite, vinagre, orégano y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_res_molida_lechuga_totopos",
+  "name": "Ensalada de res molida, lechuga y frijol con totopos",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 200,
+    "note": "sazonada y dorada"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 100
+   },
+   {
+    "food": "totopos",
+    "g": 40,
+    "note": "triturados"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40,
+    "note": "deshebrado"
+   },
+   {
+    "food": "aguacate",
+    "g": 60
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora la carne molida en sartén con sal, cebolla picada y comino hasta que esté bien cocida.",
+   "Pica la lechuga y el jitomate; acomódalos en platos.",
+   "Agrega la carne, el frijol, el aguacate y el queso.",
+   "Termina con totopos triturados, chile jalapeño y limón."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_salmon_quinoa_esparrago",
+  "name": "Ensalada de salmón a la plancha, quinoa y espárrago con limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 200
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 150
+   },
+   {
+    "food": "esparrago",
+    "g": 120,
+    "note": "cocido al vapor"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el salmón con sal y cocínalo a la plancha 3 minutos por lado.",
+   "Cuece los espárragos al vapor 4 minutos y córtalos en trozos.",
+   "Mezcla la quinoa con el jitomate, los espárragos y el perejil.",
+   "Acomoda el salmón encima y aliña con limón y aceite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ens_pollo_mandarina_almendra",
+  "name": "Ensalada de pollo, mandarina y almendra con vinagreta de miel",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "mandarina",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "almendra",
+    "g": 25,
+    "note": "fileteada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina el pollo a la plancha con sal y corta en tiras.",
+   "Pica la lechuga y acomódala con la mandarina y la cebolla en plumas.",
+   "Tuesta las almendras en sartén seca.",
+   "Bate el aceite, el vinagre y la miel; baña y termina con pollo y almendras."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_nopal_huevo_pasilla",
+  "name": "Ensalada de nopal asado, huevo y jitomate con chile pasilla",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "asado, en tiras"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "chile_pasilla",
+    "g": 3,
+    "note": "desvenado, molido"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa el nopal sobre el comal hasta que suelte baba y se dore; corta en tiras.",
+   "Tuesta el chile pasilla, muélelo y mézclalo con el limón, el aceite y sal.",
+   "Combina el nopal, el jitomate y la cebolla picada.",
+   "Agrega el huevo en cuartos, baña con el aderezo y termina con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_seitan_espinaca_champinon",
+  "name": "Ensalada de seitán, espinaca y champiñón con salsa de soya",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "seitan",
+    "g": 200,
+    "note": "en tiras, salteado"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "champinon",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Saltea el seitán en tiras con aceite vegetal hasta dorar.",
+   "Agrega los champiñones y el ajo picado y cocina 3 minutos más.",
+   "Acomoda la espinaca en platos y encima el seitán con los champiñones.",
+   "Mezcla la salsa de soya con el vinagre, báñala y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_atun_cottage_pepino_limon",
+  "name": "Ensalada de atún, cottage y pepino con limón",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 150,
+    "note": "escurrido"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 120
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 0.5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pica la lechuga y colócala en platos.",
+   "Desmenuza el atún y agrégalo con el pepino y la cebolla.",
+   "Incorpora el queso cottage con cuidado.",
+   "Aliña con limón, aceite, sal y pimienta."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_guayaba_pollo_zanahoria",
+  "name": "Ensalada de pollo, guayaba y lechuga con aderezo de limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "guayaba",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "rallada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina el pollo a la plancha con sal y corta en tiras.",
+   "Pica la lechuga y mezcla con la zanahoria rallada.",
+   "Agrega la guayaba en cubos y el pollo.",
+   "Aliña con limón, aceite, chile en polvo y sal, y termina con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_lentejas_huevo_espinaca_mostaza",
+  "name": "Ensalada de lentejas, huevo y espinaca con mostaza",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 150
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Lava y escurre la espinaca; colócala en tazones.",
+   "Agrega las lentejas, el jitomate y la cebolla picada.",
+   "Pela y corta el huevo en cuartos y acomódalo encima.",
+   "Bate la mostaza, el vinagre, el aceite y sal, y baña la ensalada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_salmon_ahumado_kale_aguacate",
+  "name": "Ensalada de kale, salmón ahumado y aguacate con limón",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kale",
+    "g": 150,
+    "note": "sin tallo, picado"
+   },
+   {
+    "food": "salmon_ahumado",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "aguacate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepita",
+    "g": 15,
+    "note": "tostada"
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Masajea el kale con sal y un poco de limón durante un minuto.",
+   "Agrega el aguacate en cubos y el salmón ahumado en tiras.",
+   "Rocía el aceite y el resto del limón.",
+   "Espolvorea la pepita tostada y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_garbanzo_espinaca_panela",
+  "name": "Ensalada de pollo, garbanzo y espinaca con queso panela y pimiento",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 200,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 100
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 100,
+    "note": "asado, en tiras"
+   },
+   {
+    "food": "queso_panela",
+    "g": 60,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina el pollo a la plancha con sal y corta en tiras.",
+   "Asa el pimiento hasta que se ampolle, pela y corta en tiras.",
+   "Acomoda la espinaca y mezcla con garbanzos, pimiento y pollo.",
+   "Agrega el queso panela, aliña con aceite, limón y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_brocoli_yogur_almendra_pasas",
+  "name": "Ensalada de brócoli, almendra y pasas con yogur griego",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "brocoli",
+    "g": 250,
+    "note": "en floretes, crudo"
+   },
+   {
+    "food": "almendra",
+    "g": 25,
+    "note": "picada"
+   },
+   {
+    "food": "pasas",
+    "g": 30
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Corta el brócoli en floretes pequeños y pícalo finamente.",
+   "Mezcla el brócoli con las pasas, la cebolla y la almendra.",
+   "Bate el yogur griego con el vinagre, la miel y sal.",
+   "Baña la ensalada y sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_camaron_elote_jitomate_chipotle",
+  "name": "Ensalada de camarón, elote y jitomate con chipotle y mayonesa",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camaron_cocido",
+    "g": 200
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 10
+   },
+   {
+    "food": "mayonesa",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Pica la lechuga y colócala en platos.",
+   "Mezcla el elote, el jitomate y el camarón.",
+   "Bate la mayonesa con el chipotle y el limón.",
+   "Baña la ensalada y termina con cilantro picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_cuscus_pollo_pepino",
+  "name": "Ensalada de cuscús, pollo y pepino con perejil y limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cuscus_crudo",
+    "g": 100,
+    "note": "cocido"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha, en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Hidrata el cuscús con agua caliente igual al volumen, tapa 5 minutos y esponja con un tenedor.",
+   "Cocina el pollo a la plancha con sal y corta en cubos.",
+   "Mezcla el cuscús con el pollo, el pepino, el jitomate y la cebolla.",
+   "Aliña con limón, aceite, sal y perejil picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_tofu_papa_ejote_chipotle",
+  "name": "Ensalada de tofu, papa y ejote con aderezo de chipotle",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 200,
+    "note": "en cubos, dorado"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "ejote",
+    "g": 120,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 10
+   },
+   {
+    "food": "mayonesa",
+    "g": 25
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora el tofu en cubos en sartén con poco aceite y sal.",
+   "Cuece la papa y los ejotes hasta que estén tiernos.",
+   "Mezcla la mayonesa con el chipotle, el limón y sal para el aderezo.",
+   "Combina todo con la cebolla picada y baña antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pavo_kale_granada",
+  "name": "Ensalada de pavo, kale y granada con vinagreta de manzana",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 200,
+    "note": "cocida, en tiras"
+   },
+   {
+    "food": "kale",
+    "g": 150,
+    "note": "sin tallo, picado"
+   },
+   {
+    "food": "granada",
+    "g": 80,
+    "note": "sin semillas"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Masajea el kale con sal y un poco de aceite.",
+   "Acomoda el kale en platos y agrega el pavo en tiras.",
+   "Esparce la granada, la nuez y el parmesano.",
+   "Bate el vinagre, la miel y el resto del aceite; baña y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pepino_tomate_verde_queso_fresco",
+  "name": "Ensalada de pepino, tomate verde y queso fresco con chile",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 80,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pica el pepino, el tomate verde, la cebolla y el chile serrano.",
+   "Mezcla todo en un tazón con sal.",
+   "Aliña con limón y aceite.",
+   "Termina con queso fresco desmenuzado y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_merluza_papa_ejote_limon",
+  "name": "Ensalada de merluza, papa y ejote con limón y perejil",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "merluza",
+    "g": 200,
+    "note": "cocida al vapor, desmenuzada"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "ejote",
+    "g": 120,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la merluza al vapor con limón y sal hasta que se desmenuce.",
+   "Hierve la papa y los ejotes hasta que estén tiernos.",
+   "Mezcla la papa, los ejotes, el pescado y la cebolla picada.",
+   "Aliña con limón, aceite, sal y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_frijol_bayo_calabacita_panela",
+  "name": "Ensalada de frijol bayo, calabacita y queso panela con epazote",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 200
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "asada, en cubos"
+   },
+   {
+    "food": "queso_panela",
+    "g": 60,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "epazote",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa la calabacita en cubos en sartén con poco aceite.",
+   "Mezcla el frijol bayo con la calabacita y la cebolla picada.",
+   "Agrega el queso panela y el epazote picado.",
+   "Aliña con limón, aceite, sal y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_blt_pollo_tocino_aguacate",
+  "name": "Ensalada BLT de pollo, tocino y aguacate con mayonesa",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 200,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "tocino",
+    "g": 40,
+    "note": "frito y picado"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "aguacate",
+    "g": 80,
+    "note": "en cubos"
+   },
+   {
+    "food": "mayonesa",
+    "g": 25
+   },
+   {
+    "food": "limon",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Fríe el tocino hasta que esté crujiente, escurre y pica.",
+   "Cocina el pollo a la plancha con sal y corta en tiras.",
+   "Acomoda la lechuga, el jitomate y el aguacate en platos.",
+   "Agrega el pollo y el tocino, y baña con la mayonesa mezclada con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_arroz_blanco_huevo_ejote_soya",
+  "name": "Ensalada de arroz blanco, huevo y ejote con salsa de soya",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 200
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "ejote",
+    "g": 120,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Enfría el arroz cocido extendido en un plato para que no se apelmace.",
+   "Cuece los ejotes y la zanahoria en juliana al vapor 3 minutos.",
+   "Mezcla el arroz, las verduras, la cebolla picada y el huevo en cuartos.",
+   "Aliña con salsa de soya, aceite y ajonjolí."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_durazno_espinaca_ricotta",
+  "name": "Ensalada de espinaca, durazno y almendra con queso ricotta",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "durazno",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "almendra",
+    "g": 25,
+    "note": "fileteada"
+   },
+   {
+    "food": "queso_ricotta",
+    "g": 80,
+    "note": "en cucharadas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 5
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 0.5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Lava la espinaca y acomódala en platos.",
+   "Agrega el durazno en gajos y las almendras.",
+   "Pon el queso ricotta en cucharadas encima.",
+   "Bate el aceite, el vinagre, la miel, sal y pimienta, y rocía."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_curry_uva_almendra",
+  "name": "Ensalada de pollo al curry suave con uvas y almendra",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "uva",
+    "g": 120,
+    "note": "partida a la mitad"
+   },
+   {
+    "food": "almendra",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 80
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "jengibre",
+    "g": 3,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con comino, paprika, jengibre y sal; cocina en sartén hasta dorar.",
+   "Mezcla el yogur griego con limón y sal para hacer el aderezo.",
+   "Pica la lechuga y colócala en platos con la cebolla y las uvas.",
+   "Agrega el pollo tibio, baña con el yogur y espolvorea almendra."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_brocoli_champinon_tofu_soya",
+  "name": "Ensalada de brócoli, champiñón y tofu con salsa de soya",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "brocoli",
+    "g": 150,
+    "note": "en floretes"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "limon",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Dora el tofu en cubos en sartén con aceite vegetal.",
+   "Saltea el brócoli y los champiñones con ajo picado 4 minutos.",
+   "Mezcla el tofu con las verduras salteadas.",
+   "Agrega la salsa de soya y el limón, y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_pera_espinaca_cottage_nuez",
+  "name": "Ensalada de pera, espinaca y queso cottage con nuez",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pera",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "queso_cottage",
+    "g": 100
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Lava la espinaca y acomódala en platos.",
+   "Agrega las rebanadas de pera y el queso cottage.",
+   "Bate el aceite, el vinagre, la miel y sal.",
+   "Baña la ensalada y termina con nuez picada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_salmon_lentejas_jitomate_mostaza",
+  "name": "Ensalada de salmón, lentejas y jitomate con vinagreta de mostaza",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 150,
+    "note": "a la plancha, en trozos"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el salmón con sal y cocínalo a la plancha 3 minutos por lado.",
+   "Mezcla las lentejas, el jitomate y la cebolla picada.",
+   "Bate la mostaza, el aceite, el vinagre y sal.",
+   "Acomoda el salmón sobre la ensalada, baña y termina con perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ens_zanahoria_pollo_pasas_cacahuate",
+  "name": "Ensalada de zanahoria rallada, pollo y pasas con limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "zanahoria",
+    "g": 200,
+    "note": "rallada"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "deshebrada"
+   },
+   {
+    "food": "pasas",
+    "g": 30
+   },
+   {
+    "food": "cacahuate",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Ralla la zanahoria y mézclala con las pasas.",
+   "Agrega el pollo deshebrado y el cacahuate picado.",
+   "Aliña con limón, aceite y sal.",
+   "Termina con cilantro picado y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ens_huevo_frijol_negro_aguacate_picante",
+  "name": "Ensalada de frijol negro, huevo y aguacate con salsa picante",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_negro_cocido",
+    "g": 200
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "aguacate",
+    "g": 80,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "salsa_picante",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pica la lechuga y acomódala en platos.",
+   "Agrega el frijol, el jitomate y el aguacate.",
+   "Pela y corta el huevo en cuartos y ponlo encima.",
+   "Aliña con salsa picante, limón, sal y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_pulpo_coliflor_ejote",
+  "name": "Ensalada de pulpo, coliflor y ejote con limón y perejil",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pulpo_cocido",
+    "g": 180,
+    "note": "en trozos"
+   },
+   {
+    "food": "coliflor",
+    "g": 150,
+    "note": "en floretes, cocida"
+   },
+   {
+    "food": "ejote",
+    "g": 100,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la coliflor y los ejotes al vapor 5 minutos.",
+   "Corta el pulpo en trozos pequeños.",
+   "Mezcla el pulpo, las verduras y la cebolla en plumas.",
+   "Aliña con limón, aceite, sal y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_manzana_cheddar_mostaza",
+  "name": "Ensalada de pollo, manzana y queso cheddar con mostaza y yogur",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "manzana",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_cheddar",
+    "g": 40,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 15
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "yogur_natural",
+    "g": 60
+   },
+   {
+    "food": "miel",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina el pollo a la plancha con sal y corta en tiras.",
+   "Pica la lechuga y colócala en platos con la manzana y el cheddar.",
+   "Mezcla el yogur natural con la mostaza, la miel y sal.",
+   "Agrega el pollo, baña con el aderezo y termina con nuez."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_tofu_mango_pepino_jengibre",
+  "name": "Ensalada de tofu, mango y pepino con vinagreta de jengibre",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 200,
+    "note": "en cubos, dorado"
+   },
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "jengibre",
+    "g": 5,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Dora el tofu en cubos en sartén con aceite vegetal.",
+   "Mezcla el mango y el pepino en un tazón.",
+   "Bate el limón, la salsa de soya, el jengibre y el aceite.",
+   "Agrega el tofu, baña la ensalada y espolvorea ajonjolí y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_caballa_col_cebolla_limon",
+  "name": "Ensalada de caballa, col y cebolla con limón y chile jalapeño",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "caballa_cocida",
+    "g": 180,
+    "note": "desmenuzada"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Corta la col en tiras muy finas y mézclala con sal.",
+   "Agrega la cebolla en plumas y la caballa desmenuzada.",
+   "Pica el chile jalapeño y el cilantro.",
+   "Aliña con limón y aceite, y deja reposar 5 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_garbanzo_aguacate_jitomate_limon",
+  "name": "Ensalada de garbanzo, aguacate y jitomate al limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 250
+   },
+   {
+    "food": "aguacate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 25
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Escurre y enjuaga los garbanzos.",
+   "Mezcla los garbanzos con el jitomate, el pepino y la cebolla.",
+   "Agrega el aguacate con cuidado para que no se deshaga.",
+   "Aliña con limón, aceite, sal y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_pavo_betabel_feta_espinaca",
+  "name": "Ensalada de pavo, betabel y queso feta con espinaca y nuez",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "betabel",
+    "g": 150,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "queso_feta",
+    "g": 50,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Lava la espinaca y colócala en platos.",
+   "Agrega el pavo en tiras y el betabel en cubos.",
+   "Desmenuza el queso feta y la nuez encima.",
+   "Aliña con aceite, vinagre y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_pollo_tomate_verde_aguacate_pepita",
+  "name": "Ensalada de pollo, tomate verde y aguacate con pepita",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 250,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "aguacate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepita",
+    "g": 20,
+    "note": "tostada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina el pollo a la plancha con sal y corta en tiras.",
+   "Licúa el tomate verde cocido con chile serrano, cilantro y sal para la salsa.",
+   "Acomoda la lechuga, el pollo y el aguacate en platos.",
+   "Baña con la salsa, rocía limón y espolvorea pepita."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_elote_frijol_bayo_tomate",
+  "name": "Ensalada de elote, frijol bayo y jitomate con limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "elote_cocido",
+    "g": 200,
+    "note": "desgranado"
+   },
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el elote desgranado con el frijol bayo.",
+   "Agrega el jitomate y la cebolla picada.",
+   "Aliña con limón, aceite y sal.",
+   "Termina con cilantro picado y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "ens_quinoa_camaron_naranja",
+  "name": "Ensalada de quinoa, camarón y naranja con cilantro",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 200
+   },
+   {
+    "food": "camaron_cocido",
+    "g": 200
+   },
+   {
+    "food": "naranja",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Enfría la quinoa cocida en un tazón.",
+   "Agrega el camarón, la naranja en gajos, el pepino y la cebolla.",
+   "Aliña con limón, aceite y sal.",
+   "Termina con cilantro picado y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ens_betabel_arandano_yogur_griego",
+  "name": "Ensalada de betabel, arándano y almendra con yogur griego",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "betabel",
+    "g": 200,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "arandano",
+    "g": 60
+   },
+   {
+    "food": "almendra",
+    "g": 25,
+    "note": "fileteada"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Acomoda la lechuga en platos.",
+   "Agrega el betabel cocido en cubos y los arándanos.",
+   "Baña con el yogur griego mezclado con sal.",
+   "Rocía aceite y vinagre, y termina con almendra."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_pollo_nopal_chipotle_cebolla",
+  "name": "Ensalada de pollo, nopal y cebolla al chipotle con cilantro",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "en tiras"
+   },
+   {
+    "food": "nopal",
+    "g": 150,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 8
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el chipotle con limón, aceite y sal para el aderezo.",
+   "Corta el nopal, el jitomate y la cebolla en cubos.",
+   "Agrega el pollo y las verduras en un tazón.",
+   "Baña con el aderezo y termina con cilantro picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_yogur_granola_fresa_mango",
+  "name": "Ensalada de fruta, yogur griego y granola con chía",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "fresa",
+    "g": 120,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "mango",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "granola",
+    "g": 40
+   },
+   {
+    "food": "miel",
+    "g": 10
+   },
+   {
+    "food": "chia",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Lava la fresa y pártela en rebanadas.",
+   "Pela y corta el mango en cubos.",
+   "Sirve el yogur griego en vasos o platos hondos.",
+   "Acomoda la fruta, la granola y la chía, y rocía con miel."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_calabacita_garbanzo_feta_oregano",
+  "name": "Ensalada de calabacita asada, garbanzo y queso feta con orégano",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 250,
+    "note": "asada, en cubos"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 150
+   },
+   {
+    "food": "queso_feta",
+    "g": 50,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa la calabacita en cubos en sartén con aceite hasta dorar.",
+   "Mezcla la calabacita con los garbanzos y la cebolla en plumas.",
+   "Agrega el queso feta desmenuzado.",
+   "Aliña con limón, aceite, orégano y sal."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_salmon_camote_espinaca_comino",
+  "name": "Ensalada de salmón, camote y espinaca con comino y limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 150
+   },
+   {
+    "food": "camote_cocido",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el salmón con comino y sal, y cocínalo a la plancha 3 minutos por lado.",
+   "Corta el camote cocido en cubos y acomódalo con la espinaca.",
+   "Agrega la cebolla en plumas.",
+   "Pon el salmón en trozos encima y aliña con limón y aceite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ens_res_molida_papa_mostaza",
+  "name": "Ensalada de res molida, papa y jitomate con mostaza",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 200,
+    "note": "dorada con sal y cebolla"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "mayonesa",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora la carne molida en sartén hasta que esté bien cocida; escurre el exceso de grasa.",
+   "Cuece la papa en cubos hasta que esté tierna y deja enfriar.",
+   "Mezcla la lechuga picada, el jitomate, la papa y la carne.",
+   "Baña con la mayonesa mezclada con mostaza y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_melon_pepino_panela_albahaca",
+  "name": "Ensalada de melón, pepino y queso panela con albahaca",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "melon",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_panela",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "albahaca",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 0.5
+   }
+  ],
+  "steps": [
+   "Corta el melón, el pepino y el queso panela en cubos parejos.",
+   "Mezcla todo en un tazón.",
+   "Aliña con limón, aceite, sal y pimienta.",
+   "Agrega la albahaca rota con las manos y sirve fría."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_soya_texturizada_jitomate_limon",
+  "name": "Ensalada de soya texturizada, jitomate y lechuga con limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "soya_texturizada",
+    "g": 60,
+    "note": "hidratada y escurrida"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Hidrata la soya texturizada en agua caliente 10 minutos y escurre bien.",
+   "Sazona con chile en polvo, sal y un poco de aceite y dora en sartén.",
+   "Pica la lechuga, el jitomate y la cebolla.",
+   "Mezcla todo, aliña con limón y termina con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_surimi_pepino_aguacate_mayonesa",
+  "name": "Ensalada de surimi, pepino y aguacate con mayonesa",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "surimi",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "aguacate",
+    "g": 80,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "mayonesa",
+    "g": 25
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pica la lechuga y colócala en platos.",
+   "Agrega el surimi en tiras, el pepino y el aguacate.",
+   "Mezcla la mayonesa con limón y sal.",
+   "Baña la ensalada y sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ens_jamon_pavo_panela_limon",
+  "name": "Ensalada de jamón de pavo, queso panela y lechuga al limón",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "jamon_pavo",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "queso_panela",
+    "g": 80,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "aguacate",
+    "g": 60,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pica la lechuga y acomódala en platos.",
+   "Agrega el jitomate, la cebolla y el aguacate.",
+   "Incorpora el jamón de pavo en tiras y el queso panela.",
+   "Aliña con limón, aceite y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_chicharron_nopal_jitomate",
+  "name": "Ensalada de chicharrón, nopal y jitomate con limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chicharron",
+    "g": 60,
+    "note": "troceado"
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "chile_serrano",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Calienta el chicharrón en sartén para que suelte un poco de grasa.",
+   "Mezcla el nopal, el jitomate y la cebolla picada.",
+   "Agrega el chicharrón troceado y el chile serrano picado.",
+   "Aliña con limón, aceite, sal y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_atun_frijol_negro_pepino",
+  "name": "Ensalada de atún, frijol negro y pepino con limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 150
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Escurre y enjuaga el frijol negro.",
+   "Desmenuza el atún y mézclalo con el frijol, el pepino y el jitomate.",
+   "Agrega la cebolla picada y el cilantro.",
+   "Aliña con limón, aceite y sal, y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_camote_huevo_espinaca_mostaza",
+  "name": "Ensalada de camote, huevo y espinaca con vinagreta de mostaza",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece el camote en cubos hasta que esté tierno y deja enfriar.",
+   "Lava la espinaca y acomódala en platos.",
+   "Agrega el camote, el huevo en cuartos y la cebolla en plumas.",
+   "Bate la mostaza, el aceite, el vinagre y sal, y baña la ensalada."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ens_pollo_lentejas_pimiento_limon",
+  "name": "Ensalada de pollo, lentejas y pimiento morrón con vinagreta de limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 200,
+    "note": "a la plancha, en tiras"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 150
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina el pollo a la plancha con sal y corta en tiras.",
+   "Saltea el pimiento en tiras 3 minutos en sartén con poco aceite.",
+   "Mezcla las lentejas, el pimiento, la cebolla y el pollo.",
+   "Aliña con limón, aceite, sal y perejil picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ens_garbanzo_huevo_jitomate_mostaza",
+  "name": "Ensalada de garbanzo, huevo y jitomate con mostaza y limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 200
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 80
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 8
+   },
+   {
+    "food": "limon",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Escurre los garbanzos y mézclalos con el jitomate y la cebolla picada.",
+   "Acomoda la espinaca en platos y agrega la mezcla.",
+   "Pela el huevo y córtalo en gajos encima.",
+   "Bate la mostaza, el limón, el aceite y sal, y baña la ensalada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ }
+]
