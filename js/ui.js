@@ -50,6 +50,20 @@ const ICONS = {
   cerrar: 'M6 6l12 12M18 6L6 18',
   buscar: 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4',
   video: 'M5 5l14 7-14 7z',
+  check: 'M5 12.5l4.5 4.5L19 7.5',
+  minus: 'M6 12h12',
+  mas: 'M12 5v14M5 12h14',
+  mas3: 'M5 12h.01M12 12h.01M19 12h.01',
+  timer: 'M12 8v5l3 2M9 2h6M12 21a8 8 0 1 0 0-16 8 8 0 0 0 0 16z',
+  abajo: 'M6 9l6 6 6-6',
+  g_pecho: 'M4 9c3-2 5-2 8 0 3-2 5-2 8 0v4c-3 3-5 3-8 1-3 2-5 2-8-1z',
+  g_espalda: 'M12 3v18M5 6c2 4 2 8 0 12M19 6c-2 4-2 8 0 12',
+  g_hombro: 'M3 14a9 9 0 0 1 18 0M12 5v9',
+  g_brazo: 'M6 18l6-6 3 3 4-8M4 20l3-3',
+  g_pierna: 'M9 3h6l-1 8 2 10h-3l-2-8-2 8H6l2-10z',
+  g_core: 'M8 4h8v16H8zM8 9h8M8 14h8M12 4v16',
+  g_pantorrilla: 'M10 3c-1 4 0 7 2 9s2 5 0 9M14 3c1 4 0 7-2 9',
+  g_otro: 'M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12',
   borrar: 'M5 7h14M10 7V4h4v3M7 7l1 13h8l1-13',
 };
 export function icon(name) {
@@ -92,6 +106,27 @@ export function openModal(title, bodyNode, { wide = false } = {}) {
   closeBtn.focus();
   return { close, modal };
 }
+
+// Hoja a pantalla completa (selectores). Devuelve { close, body, root }. Esc o ✕ cierran.
+export function openSheet(title, { onClose } = {}) {
+  const prev = document.activeElement;
+  const host = el('div', { class: 'sheet-root' });
+  const body = el('div', { class: 'sheet-body' });
+  let closed = false;
+  const close = () => { if (closed) return; closed = true; document.removeEventListener('keydown', onKey); host.remove(); document.body.classList.remove('sheet-open'); if (prev?.focus) prev.focus(); onClose?.(); };
+  const onKey = (e) => { if (e.key === 'Escape' && !$('#modal-root').firstChild) close(); };
+  const closeBtn = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Cerrar', on: { click: close } }, icon('cerrar'));
+  host.append(el('div', { class: 'sheet', role: 'dialog', 'aria-modal': 'true', 'aria-label': title },
+    el('div', { class: 'sheet-head' }, closeBtn, el('h2', { text: title })), body));
+  document.body.append(host); document.body.classList.add('sheet-open');
+  document.addEventListener('keydown', onKey);
+  return { close, body, root: host };
+}
+
+// Encabezado de pantalla: título + una línea que explica para qué sirve
+export const pageHead = (title, sub) => el('header', { class: 'page-head' }, el('h1', { text: title }), sub ? el('p', { class: 'muted page-sub', text: sub }) : null);
+// Estado vacío con guía y (opcional) acción
+export const emptyState = (title, text, ...actions) => el('div', { class: 'empty' }, el('strong', { text: title }), el('p', { class: 'muted', text }), ...actions);
 
 export function confirmDialog(title, message, okLabel = 'Confirmar', danger = false) {
   return new Promise((resolve) => {

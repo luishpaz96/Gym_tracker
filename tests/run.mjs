@@ -560,3 +560,18 @@ test('drop sets: volumen, series efectivas, validación y texto', async () => {
   assert.equal(c.describeSet(s, 'kg', (kg) => kg), '60 kg × 8 → drop 45 kg × 8 → 35 kg × 6');
   assert.equal(c.suggestDrop(60, 'kg'), 47.5); assert.equal(c.suggestDrop(135, 'lb'), 105); assert.equal(c.suggestDrop('', 'kg'), 0);
 });
+
+test('sesión: pasos +/- , descanso y progreso', async () => {
+  const s = await import('../js/session.js');
+  assert.equal(s.stepValue('60', 1, 2.5), '62.5'); assert.equal(s.stepValue('', 1, 2.5, { base: 57.5 }), '60');
+  assert.equal(s.stepValue('0.1', 1, 0.2), '0.3'); assert.equal(s.stepValue('1', -1, 2.5), '0'); assert.equal(s.stepValue('abc', 1, 1), '1');
+  assert.equal(s.stepValue('135', 1, s.weightStep('lb')), '140'); assert.equal(s.stepValue('999', 1, 5), '1000'); assert.equal(s.stepValue('1000', 1, 5), '1000');
+  assert.equal(s.parseRest('2–3 min'), 150); assert.equal(s.parseRest('90 s'), 90); assert.equal(s.parseRest('2 min'), 120); assert.equal(s.parseRest(null), 90); assert.equal(s.parseRest(75), 75);
+  let r = s.startRest(90, 1000);
+  assert.equal(s.restLeft(r, 1000), 90); assert.equal(s.restLeft(r, 31000), 60); assert.ok(!s.restDone(r, 50000)); assert.ok(s.restDone(r, 91000));
+  r = s.restAdd(r, 15, 31000); assert.equal(s.restLeft(r, 31000), 75); assert.equal(s.restLeft(r, 999999), 0);
+  assert.equal(s.clock(75), '1:15'); assert.equal(s.clock(-3), '0:00');
+  const ex = [{ sets: [{ done: true }, { done: true }] }, { sets: [{ done: true }, { done: false }] }, { sets: [{}] }];
+  assert.deepEqual(s.setProgress(ex), { done: 3, total: 5 }); assert.equal(s.currentExercise(ex), 1);
+  assert.equal(s.currentExercise([{ sets: [{ done: true }] }]), 0); assert.equal(s.currentExercise([]), -1);
+});
