@@ -1,5 +1,5 @@
 // Alimentación: metas diarias, plan de comidas y registro por comida; proteínas populares.
-import { el, clear, icon, toast, fmtNum, openModal, confirmDialog } from '../ui.js';
+import { el, clear, icon, toast, fmtNum, openModal, confirmDialog, openSheet, pageHead, emptyState } from '../ui.js';
 import { loadFoods, loadRecipes } from '../data.js';
 import { allPowders, renderPowders, openPowder, matchPowder, quickAddScoop, favoritePowder, powderTitle } from './powders.js';
 import { normalize } from '../search.js';
@@ -24,7 +24,7 @@ export async function render(ctx, root) {
   st.date ||= today();
   const targets = targetsOf(ctx);
   let favP = await favoritePowder(ctx);
-  root.append(el('h1', { text: 'Alimentación' }));
+  root.append(pageHead('Alimentación', 'Tus metas del día y lo que has comido, comida por comida.'));
   const tabs = el('div', { class: 'seg', role: 'group', 'aria-label': 'Sección' });
   const host = el('div');
   [['dia', 'Día'], ['proteinas', 'Proteínas'], ['plan', 'Plan']].forEach(([id, label]) => tabs.append(el('button', { class: `seg-btn${st.tab === id ? ' on' : ''}`, type: 'button', 'aria-pressed': String(st.tab === id), on: { click: () => { st.tab = id; [...tabs.children].forEach((b, i) => { const on = ['dia', 'proteinas', 'plan'][i] === id; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); }); draw(); } } }, label)));
@@ -58,6 +58,7 @@ function dia(ctx, host, targets, redraw, favP) {
       bar('Calorías', tot.kcal, targets.kcal, 'kcal'), bar('Proteína', tot.p, targets.p, 'g'), bar('Carbohidratos', tot.c, targets.c, 'g'), bar('Grasa', tot.f, targets.f, 'g'), bar('Fibra', tot.fiber, targets.fiber, 'g'),
       formulaDetails(ctx, targets)));
   }
+  if (!logs.some((e) => e.logged_on === date)) host.append(emptyState('Aún no registras comida este día', 'Toca "+ Agregar" en una comida para buscar alimentos, recetas o tu proteína en polvo.'));
   const split = targets ? splitMeals(targets, plan) : plan;
   split.forEach((m) => {
     const entries = mealEntries(logs, date, m.slot), t = sumEntries(entries);
@@ -85,8 +86,22 @@ function dia(ctx, host, targets, redraw, favP) {
 export async function openPicker(ctx, { date, slot, onSaved, initialTab = 'alimentos' }) {
   const [{ foods }, rd, powders] = await Promise.all([loadFoods(), loadRecipes(), allPowders(ctx)]);
   let tab = initialTab, query = '';
+  // Recientes: lo último que registraste (sin repetir), resuelto contra los catálogos
+  const recents = (() => {
+    const seen = new Set(), out = [];
+    for (const e of [...(ctx.foodLogs || [])].sort((a, b) => b.logged_on.localeCompare(a.logged_on))) {
+      const k = `${e.source}:${e.ref_id}`; if (seen.has(k)) continue; seen.add(k);
+      let item = null, kind = e.source;
+      if (e.source === 'recipe') item = rd.recipeById?.[e.ref_id];
+      else if (e.source === 'powder') { item = powders.find((x) => x.id === e.ref_id); }
+      else item = foods.find((f) => f.id === e.ref_id);
+      if (item) out.push({ kind, item });
+      if (out.length >= 6) break;
+    }
+    return out;
+  })();
   const search = el('input', { class: 'input', type: 'search', placeholder: 'Buscar…', 'aria-label': 'Buscar', maxlength: 60, autocomplete: 'off' });
-  const list = el('ul', { class: 'list results' });
+  const list = el('ul', { class: 'list' });
   const seg = el('div', { class: 'seg', role: 'group', 'aria-label': 'Origen' });
   const tabs = [['alimentos', 'Alimentos'], ['recetas', 'Recetas'], ['proteinas', 'Proteínas']];
   tabs.forEach(([id, label]) => seg.append(el('button', { class: 'seg-btn', type: 'button', on: { click: () => { tab = id; fill(); } } }, label)));
@@ -95,6 +110,16 @@ export async function openPicker(ctx, { date, slot, onSaved, initialTab = 'alime
     [...seg.children].forEach((b, i) => { const on = tabs[i][0] === tab; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
     clear(list);
     const q = normalize(query);
+    if (!q && recents.length) {
+      list.append(el('h3', { class: 'sub', text: 'Recientes' }));
+      recents.forEach(({ kind, item }) => {
+        const go = kind === 'recipe' ? () => openLogEntry(ctx, { kind: 'recipe', item, date, slot, onSaved: (e) => { box.close(); onSaved?.(e); } })
+          : kind === 'powder' ? () => openPowder(ctx, item, { date, slot, onChange: () => { box.close(); onSaved?.(); } })
+          : () => openLogEntry(ctx, { kind: 'food', item, date, slot, onSaved: (e) => { box.close(); onSaved?.(e); } });
+        list.append(el('li', {}, el('button', { class: 'pick', type: 'button', on: { click: go } }, el('span', { class: 'grow' }, el('strong', { text: kind === 'powder' ? powderTitle(item) : item.name }), el('span', { class: 'muted small block', text: kind === 'recipe' ? 'Receta' : kind === 'powder' ? 'Proteína en polvo' : 'Alimento' })), el('span', { class: 'plus', 'aria-hidden': 'true', text: '+' }))));
+      });
+      list.append(el('h3', { class: 'sub', text: 'Todo el catálogo' }));
+    }
     let rows;
     if (tab === 'recetas') rows = rd.recipes.filter((r) => match(r.name, r.tags, q)).slice(0, 40).map((r) => ({ t: r.name, s: `${r.per_serving.kcal} kcal · P ${r.per_serving.p} g por porción`, go: () => openLogEntry(ctx, { kind: 'recipe', item: r, date, slot, onSaved: (e) => { box.close(); onSaved?.(e); } }) }));
     else {
@@ -107,8 +132,9 @@ export async function openPicker(ctx, { date, slot, onSaved, initialTab = 'alime
     rows.forEach((r) => list.append(el('li', {}, el('button', { class: 'pick', type: 'button', on: { click: r.go } }, el('span', { class: 'grow' }, el('strong', { text: r.t }), el('span', { class: 'muted small block', text: r.s })), el('span', { class: 'plus', 'aria-hidden': 'true', text: '+' })))));
   }
   search.addEventListener('input', () => { query = search.value; fill(); });
-  const box = openModal('Agregar a la comida', el('div', {}, seg, el('div', { class: 'search' }, icon('buscar'), search), list), { wide: true });
-  fill();
+  const box = openSheet('Agregar a la comida');
+  box.body.append(el('div', { class: 'sheet-top' }, seg, el('div', { class: 'search' }, icon('buscar'), search)), list);
+  fill(); search.focus();
 }
 
 // ---- Proteínas: proteína en polvo (marcas) y alimentos ----

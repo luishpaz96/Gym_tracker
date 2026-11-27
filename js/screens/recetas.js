@@ -1,5 +1,5 @@
 // Recetas: categorías, búsqueda, filtros, detalle y "Agregar a comida".
-import { el, clear, icon, openModal, fmtNum } from '../ui.js';
+import { el, clear, icon, openModal, fmtNum , pageHead } from '../ui.js';
 import { loadRecipes } from '../data.js';
 import { normalize } from '../search.js';
 import { openLogEntry } from './logentry.js';
@@ -44,7 +44,7 @@ export function openRecipe(ctx, rd, r) {
 }
 
 export async function render(ctx, root) {
-  root.append(el('h1', { text: 'Recetas' }));
+  root.append(pageHead('Recetas', 'Ideas de comidas con sus macros; agrégalas a tu día en un toque.'));
   const rd = await loadRecipes();
   if (!rd.recipes.length) { root.append(el('p', { class: 'card muted', text: 'Las recetas aún no están disponibles. Revisa tu conexión.' })); return; }
   const search = el('input', { class: 'input', type: 'search', placeholder: 'Buscar por nombre, ingrediente o etiqueta', 'aria-label': 'Buscar receta', value: st.query, autocomplete: 'off', maxlength: 60 });

@@ -9,6 +9,7 @@ import { foodFrom } from './stats.js';
 import { profileComplete } from './profile.js';
 import { ensurePlan } from './planctl.js';
 import { renderOnboarding } from './screens/onboarding.js';
+import { renderIntro, introSeen } from './screens/intro.js';
 
 const demo = new URLSearchParams(location.search).get('demo') === '1';
 const viewEl = () => $('#view');
@@ -75,6 +76,7 @@ async function startApp(api, data) {
   if (!profileComplete(ctx.profile)) {
     $('#app-header').classList.add('hidden'); $('#nav').classList.add('hidden');
     await new Promise((done) => renderOnboarding(ctx, clear(viewEl()), done));
+    if (!introSeen(api.user?.id)) await new Promise((done) => renderIntro(clear(viewEl()), api.user?.id, done));
   }
   try { await ensurePlan(ctx); } catch (e) { console.warn(e?.message); }
   try { await api.flush(); } catch { /* sin conexión */ }

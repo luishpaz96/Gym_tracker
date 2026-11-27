@@ -1,7 +1,7 @@
 // Summary: mapa semanal con semáforo, peso corporal, consejos y gráficas.
-import { el, toast, fmtNum, unitToggle } from '../ui.js';
+import { el, toast, fmtNum, unitToggle, pageHead, emptyState } from '../ui.js';
 import { toDisplay, fromDisplay, normUnit } from '../units.js';
-import { weekStatus, today, targetsOf } from '../stats.js';
+import { weekStatus, today, targetsOf, totalVolume } from '../stats.js';
 import { adherence } from '../nutrition.js';
 import { generateTips } from '../tips.js';
 import { drawChart } from '../charts.js';
@@ -66,7 +66,16 @@ function nutritionCard(ctx) {
 }
 
 export async function render(ctx, root) {
-  root.append(el('h1', { text: 'Summary' }));
+  root.append(pageHead('Summary', 'Tu semana de un vistazo: qué músculos trabajaste, tu peso y qué mejorar.'));
+  const unit = normUnit(ctx.profile?.unit), ws = weekStart(today());
+  const weekW = ctx.workouts.filter((w) => w.performed_on >= ws);
+  const avgs = weeklyAverages(ctx.weights), lastAvg = avgs.length ? avgs[avgs.length - 1].avg : ctx.weights[ctx.weights.length - 1]?.weight_kg;
+  const kpi = (v, l) => el('div', { class: 'kpi' }, el('strong', { text: v }), el('span', { text: l }));
+  root.append(el('div', { class: 'kpis', role: 'group', 'aria-label': 'Números clave' },
+    kpi(String(new Set(weekW.map((w) => w.performed_on)).size), 'sesiones esta semana'),
+    kpi(weekW.length ? `${fmtNum(toDisplay(totalVolume(weekW), unit))} ${unit}` : '—', 'volumen semana'),
+    kpi(lastAvg ? `${fmtNum(toDisplay(lastAvg, unit, 0.1), 1)} ${unit}` : '—', 'peso promedio')));
+  if (!ctx.workouts.length) root.append(emptyState('Aún no hay entrenamientos', 'Registra tu primera sesión en Track y aquí verás tu semana, tus gráficas y consejos.', el('a', { class: 'btn primary', href: '#/track' }, 'Ir a Track')));
   await body.render(ctx, root);
   root.append(weightCard(ctx));
   const nc = nutritionCard(ctx); if (nc) root.append(nc);

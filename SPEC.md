@@ -68,6 +68,9 @@ Selector kg | lb en Track (sesión), Summary (peso corporal), onboarding y Cuent
 
 Cada tarjeta de ejercicio tiene su propio kg | lb. Por defecto usa la unidad de la última vez que se registró ese ejercicio (`sets.unit`), y si no hay, `profiles.unit`. El selector de sesión significa "aplicar a todos". Se guarda en kg y la unidad original, así "Última vez" muestra exactamente lo capturado (135 lb se queda en 135 lb).
 
+## Flujo de Track (UX)
+1) Vacío: "Empezar entrenamiento" y "Usar rutina recomendada". 2) Entrenando: barra fija con tiempo, series hechas/total y "Terminar"; tarjetas colapsables (una abierta); peso/reps con −/+ (2.5 kg / 5 lb y ±1), "Serie hecha" inicia el descanso (hoja inferior con −15/+15 s, Saltar y vibración); "Última vez" en una línea; RIR y Drop set en el menú ⋯ de cada serie. 3) Terminar → calificación. Lógica pura en `js/session.js`. El selector de ejercicios (`js/screens/picker.js`) es una hoja a pantalla completa con Recomendados, Recientes, selección múltiple y "Mostrar más" (escala a cientos de ejercicios); Comida usa la misma hoja con Recientes primero. Tras el onboarding se muestra una guía de 3 tarjetas (una vez por usuario).
+
 ## Drop sets
 Cada serie tiene "Drop set": sub-panel con Drop 1…6 (peso y reps en la unidad del ejercicio; el peso sugerido es ~22 % menos que el anterior, a 2.5 kg / 5 lb). Se guardan en `sets.drops` (jsonb, arreglo de {weight_kg, reps, unit}, máx. 6, CHECK en BD). Volumen y calificación incluyen los drops; el 1RM estimado y la sobrecarga usan solo la serie principal; las series efectivas por músculo cuentan una serie con drops como 1 + 0.5 por drop, hasta +1. Si la columna falta (schema.sql sin re-ejecutar), los drops quedan en el dispositivo y aparece el aviso de actualizar la base.
 

@@ -1,4 +1,4 @@
-import { el, toast, confirmWord, confirmDialog } from '../ui.js';
+import { el, toast, confirmWord, confirmDialog , pageHead } from '../ui.js';
 import { renderProfileForm } from './onboarding.js';
 import { regenerate, usePreset, PRESET_NAME, goalOf } from '../planctl.js';
 import { GOAL_LABEL, goalNotes } from '../plan-generator.js';
@@ -11,7 +11,7 @@ function download(name, obj) {
 
 export async function render(ctx, root) {
   const { api } = ctx;
-  root.append(el('h1', { text: 'Cuenta' }));
+  root.append(pageHead('Cuenta', 'Tu perfil, unidades, tema y datos.'));
   if (api.mode === 'demo') root.append(el('p', { class: 'banner warn', text: 'MODO DEMO: los datos son de muestra y viven solo en este navegador. No se conecta a Supabase.' }));
   root.append(el('section', { class: 'card' }, el('h2', { text: 'Sesión' }), el('p', {}, el('strong', { text: 'Correo: ' }), api.user?.email || api.user?.phone || '—')));
 
