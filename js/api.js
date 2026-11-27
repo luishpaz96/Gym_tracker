@@ -3,6 +3,7 @@
 //  - createDemoApi: datos falsos en localStorage (modo ?demo=1; NO toca Supabase)
 import { getClient } from './supabase.js';
 import { APP_URL } from './config.js';
+import { parseAuthUrl, linkNotice } from './authlink.js';
 
 const uuid = () => (crypto.randomUUID ? crypto.randomUUID() : 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => { const r = (Math.random() * 16) | 0; return (c === 'x' ? r : (r & 3) | 8).toString(16); }));
 export const newId = uuid;
@@ -50,12 +51,29 @@ export function createRemoteApi() {
   const fKey = () => `gt_fqueue_${userId}`;
   const api = {
     mode: 'remote', user: null,
+    // Procesa explícitamente el retorno de un enlace de correo (?code=, #access_token=, ?error=...).
     async init() {
+      const link = parseAuthUrl(location.search, location.hash);
+      api.linkNotice = null; api.recovery = false;
+      if (link.touched) {
+        let rec = false;
+        const { data: sub } = sb.auth.onAuthStateChange((ev) => { if (ev === 'PASSWORD_RECOVERY') rec = true; });
+        try {
+          if (link.error) api.linkNotice = linkNotice(link.error);
+          else if (link.code) { const { error } = await sb.auth.exchangeCodeForSession(link.code); if (error) throw error; }
+          else if (link.tokens) { const { error } = await sb.auth.setSession(link.tokens); if (error) throw error; if (link.type === 'recovery') rec = true; }
+        } catch (err) { api.linkNotice = linkNotice(err); }
+        sub.subscription?.unsubscribe?.();
+        api.recovery = rec;
+        // Limpia el URL (quita parámetros de autenticación; conserva la ruta #/…)
+        history.replaceState(null, '', location.pathname + (link.authHash ? '' : location.hash));
+      }
       const { data } = await sb.auth.getSession();
       api.user = data.session?.user || null; userId = api.user?.id || null;
-      if (new URLSearchParams(location.search).has('code')) history.replaceState(null, '', location.pathname + location.hash);
+      if (api.user) api.linkNotice = null; // si hay sesión, el enlace funcionó
       return api.user;
     },
+    async resendConfirmation(email) { const { error } = await sb.auth.resend({ type: 'signup', email, options: { emailRedirectTo: APP_URL } }); if (error) throw error; },
     onAuthChange(cb) {
       return sb.auth.onAuthStateChange((event, session) => { api.user = session?.user || null; userId = api.user?.id || null; cb(event, api.user); });
     },

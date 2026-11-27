@@ -465,3 +465,25 @@ test('unidades: conversión, redondeo y paso de sobrecarga', () => {
   assert.match(ov.overloadSuggestion([S(60, 10), S(60, 10)], '6–10', 'lb'), /Sube 5 lb/);
   assert.match(ov.overloadSuggestion([S(60, 10), S(60, 10)], '6–10', 'kg'), /Sube 2\.5 kg/);
 });
+
+// ---------- Enlaces de correo (confirmación / recuperación) ----------
+import * as al from '../js/authlink.js';
+test('parseAuthUrl: query, hash y errores', () => {
+  const a = al.parseAuthUrl('?error=access_denied&error_code=otp_expired&error_description=Email+link+is+invalid+or+has+expired', '');
+  assert.equal(a.error.code, 'otp_expired'); assert.equal(a.error.description, 'Email link is invalid or has expired'); assert.ok(a.touched);
+  assert.equal(al.parseAuthUrl('?code=abc', '').code, 'abc');
+  const h = al.parseAuthUrl('', '#access_token=a&refresh_token=b&type=recovery');
+  assert.deepEqual(h.tokens, { access_token: 'a', refresh_token: 'b' }); assert.equal(h.type, 'recovery'); assert.ok(h.authHash);
+  const he = al.parseAuthUrl('', '#error=access_denied&error_code=otp_expired&error_description=expired');
+  assert.equal(he.error.code, 'otp_expired');
+  const none = al.parseAuthUrl('', '#/track');
+  assert.ok(!none.touched && !none.error && !none.code);
+});
+test('classifyAuthError', () => {
+  assert.equal(al.classifyAuthError({ code: 'otp_expired' }), 'expired');
+  assert.equal(al.classifyAuthError({ message: 'Email link is invalid or has expired' }), 'expired');
+  assert.equal(al.classifyAuthError({ message: 'PKCE code verifier not found in storage' }), 'verifier');
+  assert.equal(al.classifyAuthError({ message: 'invalid flow state, no valid flow state found' }), 'verifier');
+  assert.equal(al.classifyAuthError({ message: 'Failed to fetch' }), 'generic');
+  assert.match(al.linkNotice({ message: 'code verifier' }).text, /quedó confirmado/);
+});

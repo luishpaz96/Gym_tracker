@@ -21,7 +21,7 @@ function field(label, attrs) {
   return { input, node: el('label', { class: 'field' }, el('span', { text: label }), input) };
 }
 
-export function renderAuth(root, api, { recovery = false } = {}) {
+export function renderAuth(root, api, { recovery = false, notice = null } = {}) {
   let mode = recovery ? 'nueva' : 'entrar';
   const msg = el('p', { class: 'form-msg', role: 'status', 'aria-live': 'polite' });
   const setMsg = (t, bad = false) => { msg.textContent = t; msg.className = `form-msg${bad ? ' bad' : ''}`; };
@@ -36,9 +36,13 @@ export function renderAuth(root, api, { recovery = false } = {}) {
     try { await fn(); } catch (e) { setMsg(friendly(e), true); } finally { btn.disabled = false; }
   }
 
+  const resendLink = () => el('button', { class: 'link', type: 'button', on: { click: () => { mode = 'reenviar'; draw(); } } }, '¿No te llegó o falló el correo? Reenviar');
+
   function draw() {
     clear(card); setMsg('');
-    if (mode !== 'nueva' && mode !== 'olvide') {
+    if (notice) card.append(el('div', { class: `banner ${notice.kind === 'verifier' ? 'warn' : 'bad'}`, role: 'alert' }, el('p', { text: notice.text }),
+      notice.kind !== 'verifier' && mode !== 'reenviar' ? el('button', { class: 'btn small', type: 'button', on: { click: () => { mode = 'reenviar'; draw(); } } }, 'Reenviar correo de confirmación') : null));
+    if (mode !== 'nueva' && mode !== 'olvide' && mode !== 'reenviar') {
       card.append(el('div', { class: 'tabs', role: 'tablist' }, tabs.map(([id, label]) =>
         el('button', { class: `tab${mode === id ? ' on' : ''}`, type: 'button', role: 'tab', 'aria-selected': String(mode === id), on: { click: () => { mode = id; draw(); } } }, label))));
     }
@@ -50,20 +54,30 @@ export function renderAuth(root, api, { recovery = false } = {}) {
 
     if (mode === 'entrar') {
       const b = submit('Entrar');
-      form.append(email.node, pass.node, b, el('button', { class: 'link', type: 'button', on: { click: () => { mode = 'olvide'; draw(); } } }, '¿Olvidaste tu contraseña?'));
+      form.append(email.node, pass.node, b, el('button', { class: 'link', type: 'button', on: { click: () => { mode = 'olvide'; draw(); } } }, '¿Olvidaste tu contraseña?'), resendLink());
       handler = () => run(b, async () => {
         if (!EMAIL_RE.test(email.input.value.trim()) || !pass.input.value) throw new Error('Datos incompletos');
         await api.signIn(email.input.value.trim(), pass.input.value);
       });
     } else if (mode === 'crear') {
       const b = submit('Crear cuenta');
-      form.append(email.node, pass.node, el('p', { class: 'muted small', text: `Mínimo ${MIN_PASSWORD} caracteres. Te enviaremos un correo para confirmar tu cuenta.` }), b);
+      form.append(email.node, pass.node, el('p', { class: 'muted small', text: `Mínimo ${MIN_PASSWORD} caracteres. Te enviaremos un correo para confirmar tu cuenta.` }), b, resendLink());
       handler = () => run(b, async () => {
         const e = email.input.value.trim();
         if (!EMAIL_RE.test(e)) return setMsg('Escribe un correo válido.', true);
         if (pass.input.value.length < MIN_PASSWORD) return setMsg(`La contraseña debe tener al menos ${MIN_PASSWORD} caracteres.`, true);
         await api.signUp(e, pass.input.value);
         setMsg('Listo. Revisa tu correo y confirma tu cuenta para poder entrar.');
+      });
+    } else if (mode === 'reenviar') {
+      const b = submit('Reenviar correo de confirmación');
+      form.append(el('h2', { text: 'Reenviar confirmación' }), el('p', { class: 'muted small', text: 'Si ya confirmaste tu correo, no hace falta: inicia sesión con tu contraseña.' }), email.node, b,
+        el('button', { class: 'link', type: 'button', on: { click: () => { mode = 'entrar'; draw(); } } }, 'Volver a iniciar sesión'));
+      handler = () => run(b, async () => {
+        const e = email.input.value.trim();
+        if (!EMAIL_RE.test(e)) return setMsg('Escribe un correo válido.', true);
+        await api.resendConfirmation(e);
+        setMsg('Si el correo tiene una cuenta pendiente de confirmar, recibirás un enlace nuevo en unos minutos. Ábrelo en este mismo navegador.');
       });
     } else if (mode === 'magico' || mode === 'olvide') {
       const b = submit(mode === 'magico' ? 'Enviar enlace' : 'Enviar enlace de recuperación');

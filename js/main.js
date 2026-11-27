@@ -103,13 +103,14 @@ async function boot() {
   let started = false;
   const show = async (recovery = false) => {
     $('#app-header').classList.add('hidden'); $('#nav').classList.add('hidden');
-    const root = clear(viewEl()); renderAuth(root, api, { recovery });
+    const root = clear(viewEl()); renderAuth(root, api, { recovery, notice: recovery ? null : api.linkNotice });
   };
   api.onAuthChange(async (event, user) => {
     if (event === 'PASSWORD_RECOVERY') return show(true);
     if (event === 'SIGNED_OUT') { location.hash = ''; location.reload(); return; }
     if (event === 'SIGNED_IN' && user && !started) { started = true; location.reload(); }
   });
+  if (api.recovery && api.user) return show(true);
   if (api.user) { started = true; return startApp(api, data); }
   show();
 }

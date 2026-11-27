@@ -6,7 +6,7 @@ export function getClient() {
   if (client) return client;
   if (!window.supabase?.createClient) throw new Error('No se pudo cargar la librería de Supabase (¿sin conexión?).');
   client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-    auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true, flowType: 'pkce' },
+    auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false, flowType: 'pkce' },
   });
   return client;
 }
