@@ -1,0 +1,52 @@
+// Service worker: solo cachea archivos estáticos propios, data/*.json y las 2 librerías CDN fijadas (con SRI).
+// Nunca intercepta ni guarda respuestas de Supabase (otro origen) ni peticiones que no sean GET.
+const VERSION = 'gt-v1';
+const SHELL = ['./', 'index.html', 'css/app.css', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
+  'js/main.js', 'js/config.js', 'js/calc.js', 'js/search.js', 'js/grading.js', 'js/recommend.js', 'js/ui.js', 'js/data.js', 'js/api.js', 'js/supabase.js',
+  'js/auth.js', 'js/demo.js', 'js/stats.js', 'js/charts.js', 'js/bodymap.js', 'js/technique.js',
+  'js/screens/hoy.js', 'js/screens/registrar.js', 'js/screens/progreso.js', 'js/screens/cuerpo.js', 'js/screens/biblioteca.js', 'js/screens/cuenta.js', 'js/screens/recs.js', 'js/screens/grade.js',
+  'data/muscles.json', 'data/exercises.json', 'data/plan.json'];
+const CDN_ALLOW = [
+  'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js',
+  'https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js',
+];
+const FRAMES = 'https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/';
+
+self.addEventListener('install', (e) => {
+  e.waitUntil(caches.open(VERSION).then((c) => Promise.all(SHELL.map((u) => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
+});
+self.addEventListener('activate', (e) => {
+  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
+});
+
+self.addEventListener('fetch', (e) => {
+  const req = e.request;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  const own = url.origin === self.location.origin;
+  const cdn = CDN_ALLOW.includes(req.url) || req.url.startsWith(FRAMES);
+  if (!own && !cdn) return;                       // Supabase y todo lo demás: directo a la red
+  if (own && url.search.includes('code=')) return; // retorno de OAuth/PKCE: sin caché
+  const imgs = req.url.startsWith(FRAMES);
+  e.respondWith((async () => {
+    const cache = await caches.open(VERSION);
+    if (cdn) { // inmutables (versión fija): caché primero
+      const hit = await cache.match(req);
+      if (hit) return hit;
+      const res = await fetch(req);
+      if (res.ok && (res.type === 'cors' || res.type === 'basic') && !imgs) cache.put(req, res.clone());
+      else if (res.ok && imgs) cache.put(req, res.clone());
+      return res;
+    }
+    try { // propios: red primero para recibir actualizaciones; caché si no hay red
+      const res = await fetch(req);
+      if (res.ok) cache.put(req, res.clone());
+      return res;
+    } catch (err) {
+      const hit = await cache.match(req, { ignoreSearch: true });
+      if (hit) return hit;
+      if (req.mode === 'navigate') return (await cache.match('index.html')) || Response.error();
+      throw err;
+    }
+  })());
+});

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es-MX" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- CSP: sin 'unsafe-inline' en scripts ni estilos. frame-ancestors no funciona en <meta> (ver supabase/README.md, sección Notas). -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data: https://cdn.jsdelivr.net; font-src 'self'; connect-src 'self' https://*.supabase.co wss://*.supabase.co; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#0f1115">
+<meta name="description" content="Registra tus entrenamientos, mide tu volumen y progreso por músculo.">
+<title>Gym Tracker</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js" integrity="sha256-hZaWX+kY5lZgChtWjToWj1wNPSKmAIhrtvRKZVXbAec=" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" integrity="sha256-dEAdc43T4D7l37O2hBIQ/ixOrYqWDEARykugt4qf2PM=" crossorigin="anonymous" defer></script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#view">Saltar al contenido</a>
+<header id="app-header" class="app-header hidden"></header>
+<main id="view" tabindex="-1"><p class="muted center pad">Cargando…</p></main>
+<nav id="nav" class="bottom-nav hidden" aria-label="Principal"></nav>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="modal-root"></div>
+<noscript><p class="pad">Esta app necesita JavaScript.</p></noscript>
+</body>
+</html>
