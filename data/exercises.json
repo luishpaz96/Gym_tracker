@@ -2857,5 +2857,4605 @@
   "keywords": [
    "standing barbell calf raise"
   ]
+ },
+ {
+  "id": "press_banca_smith",
+  "name": "Press de banca en Smith",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal"
+  ],
+  "equipment": "Smith",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Banco bajo la barra, pies firmes en el piso.",
+   "Baja la barra al pecho medio con control.",
+   "Empuja sin bloquear de golpe los codos."
+  ],
+  "alt": "Press de banca con barra",
+  "fitwill": null,
+  "fedb": "Smith_Machine_Bench_Press",
+  "keywords": [
+   "Smith Machine Bench Press",
+   "press banca smith",
+   "press en smith"
+  ]
+ },
+ {
+  "id": "press_declinado_smith",
+  "name": "Press declinado en Smith",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal"
+  ],
+  "equipment": "Smith",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Banco en declive, pies sujetos.",
+   "Baja la barra a la parte baja del pecho.",
+   "Empuja en línea recta sin arquear la espalda."
+  ],
+  "alt": "Press declinado con barra",
+  "fitwill": null,
+  "fedb": "Smith_Machine_Decline_Press",
+  "keywords": [
+   "Smith Machine Decline Press",
+   "press declinado smith",
+   "pecho inferior smith"
+  ]
+ },
+ {
+  "id": "press_declinado_mancuernas",
+  "name": "Press declinado con mancuernas",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banco en declive, mancuernas a la altura del pecho.",
+   "Baja despacio hasta sentir el estiramiento.",
+   "Empuja y junta arriba sin soltar la tensión."
+  ],
+  "alt": "Press declinado con barra",
+  "fitwill": null,
+  "fedb": "Decline_Dumbbell_Bench_Press",
+  "keywords": [
+   "Decline Dumbbell Bench Press",
+   "press declinado mancuernas",
+   "pecho inferior mancuernas"
+  ]
+ },
+ {
+  "id": "press_pecho_polea",
+  "name": "Press de pecho en polea de pie",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Una polea a cada lado, pecho al frente.",
+   "Empuja al frente hasta extender los brazos.",
+   "Regresa lento sin soltar el peso del todo."
+  ],
+  "alt": "Press de pecho en máquina",
+  "fitwill": null,
+  "fedb": "Cable_Chest_Press",
+  "keywords": [
+   "Cable Chest Press",
+   "press pecho cable",
+   "press polea de pie"
+  ]
+ },
+ {
+  "id": "press_inclinado_polea",
+  "name": "Press inclinado en polea",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal",
+   "triceps"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Poleas bajas, de pie con un paso al frente.",
+   "Empuja hacia arriba y al frente.",
+   "Baja con control y siente el pecho alto."
+  ],
+  "alt": "Press inclinado en máquina",
+  "fitwill": null,
+  "fedb": "Incline_Cable_Chest_Press",
+  "keywords": [
+   "Incline Cable Chest Press",
+   "press inclinado cable",
+   "pecho superior polea"
+  ]
+ },
+ {
+  "id": "cruce_inclinado_polea",
+  "name": "Cruce inclinado en polea",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Banco inclinado, poleas bajas a los lados.",
+   "Sube los brazos en arco hasta la altura de la cara.",
+   "Regresa lento sin subir los hombros."
+  ],
+  "alt": "Cruces en polea (aperturas)",
+  "fitwill": null,
+  "fedb": "Incline_Cable_Flye",
+  "keywords": [
+   "Incline Cable Flye",
+   "cruce polea inclinado"
+  ]
+ },
+ {
+  "id": "cruce_polea_una_mano",
+  "name": "Cruce en polea a una mano",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De lado a la polea, brazo casi recto.",
+   "Cruza el brazo al frente en arco.",
+   "Controla el regreso y abre bien el pecho."
+  ],
+  "alt": "Cruces en polea (aperturas)",
+  "fitwill": null,
+  "fedb": "Single-Arm_Cable_Crossover",
+  "keywords": [
+   "Single-Arm Cable Crossover",
+   "single arm cable crossover",
+   "cruce una mano polea"
+  ]
+ },
+ {
+  "id": "press_piso_mancuernas",
+  "name": "Press en piso con mancuernas",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado en el piso, codos a unos 45°.",
+   "Baja hasta que los codos toquen el piso.",
+   "Empuja sin rebotar en el suelo."
+  ],
+  "alt": "Press de banca con mancuernas",
+  "fitwill": null,
+  "fedb": "Dumbbell_Floor_Press",
+  "keywords": [
+   "Dumbbell Floor Press",
+   "press piso",
+   "floor press mancuernas"
+  ]
+ },
+ {
+  "id": "aperturas_inclinadas_mancuernas",
+  "name": "Aperturas inclinadas con mancuernas",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banco inclinado, codos ligeramente doblados.",
+   "Abre los brazos en arco hasta sentir el pecho.",
+   "Sube cerrando como si abrazaras un árbol."
+  ],
+  "alt": "Press inclinado con mancuernas",
+  "fitwill": null,
+  "fedb": "Incline_Dumbbell_Flyes",
+  "keywords": [
+   "Incline Dumbbell Flyes",
+   "aperturas inclinado",
+   "aperturas mancuernas inclinadas"
+  ]
+ },
+ {
+  "id": "aperturas_declinadas_mancuernas",
+  "name": "Aperturas declinadas con mancuernas",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banco en declive, mancuernas arriba del pecho.",
+   "Abre en arco con codos ligeramente flexionados.",
+   "Regresa lento sin dejar caer los hombros."
+  ],
+  "alt": "Aperturas con mancuernas",
+  "fitwill": null,
+  "fedb": "Decline_Dumbbell_Flyes",
+  "keywords": [
+   "Decline Dumbbell Flyes",
+   "aperturas declinadas",
+   "decline flyes"
+  ]
+ },
+ {
+  "id": "flexiones_pies_elevados",
+  "name": "Flexiones con pies elevados",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal",
+   "triceps"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pies en un banco o silla, cuerpo recto.",
+   "Baja el pecho casi hasta el piso.",
+   "Empuja sin arquear la espalda."
+  ],
+  "alt": "Flexiones (lagartijas)",
+  "fitwill": null,
+  "fedb": "Push-Ups_With_Feet_Elevated",
+  "keywords": [
+   "Push-Ups With Feet Elevated",
+   "flexiones elevadas",
+   "lagartijas pies elevados"
+  ]
+ },
+ {
+  "id": "flexiones_inclinadas",
+  "name": "Flexiones con manos elevadas",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal",
+   "triceps"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Manos sobre un banco o escalón, cuerpo recto.",
+   "Baja el pecho hacia el borde.",
+   "Empuja controlado hasta extender los brazos."
+  ],
+  "alt": "Flexiones (lagartijas)",
+  "fitwill": null,
+  "fedb": "Incline_Push-Up",
+  "keywords": [
+   "Incline Push-Up",
+   "flexiones inclinadas",
+   "lagartijas inclinadas"
+  ]
+ },
+ {
+  "id": "flexiones_declinadas",
+  "name": "Flexiones declinadas",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal",
+   "triceps"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pies elevados en banco, manos en el piso.",
+   "Baja el pecho al piso con codos a 45°.",
+   "Empuja sin que la cadera se caiga."
+  ],
+  "alt": "Flexiones con pies elevados",
+  "fitwill": null,
+  "fedb": "Decline_Push-Up",
+  "keywords": [
+   "Decline Push-Up",
+   "flexiones declinadas",
+   "decline push up"
+  ]
+ },
+ {
+  "id": "press_declinado_maquina",
+  "name": "Press declinado en máquina",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Ajusta el asiento y agarra las manijas.",
+   "Empuja al frente sin despegar la espalda.",
+   "Regresa lento hasta sentir el pecho estirarse."
+  ],
+  "alt": "Press declinado con mancuernas",
+  "fitwill": null,
+  "fedb": "Leverage_Decline_Chest_Press",
+  "keywords": [
+   "Leverage Decline Chest Press",
+   "press declinado maquina"
+  ]
+ },
+ {
+  "id": "press_banca_una_mano",
+  "name": "Press de banca a una mano con mancuerna",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado en banco, una mano con la mancuerna.",
+   "Baja con control, codo a 45°.",
+   "Empuja y mantén el torso estable."
+  ],
+  "alt": "Press de banca con mancuernas",
+  "fitwill": null,
+  "fedb": "One_Arm_Dumbbell_Bench_Press",
+  "keywords": [
+   "One Arm Dumbbell Bench Press",
+   "press banca una mano"
+  ]
+ },
+ {
+  "id": "apertura_una_mano",
+  "name": "Apertura a una mano con mancuerna",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, mancuerna sobre el pecho, codo leve flexionado.",
+   "Abre en arco hasta sentir el estiramiento.",
+   "Sube cerrando sin mover el hombro."
+  ],
+  "alt": "Aperturas con mancuernas",
+  "fitwill": null,
+  "fedb": "One-Arm_Flat_Bench_Dumbbell_Flye",
+  "keywords": [
+   "One-Arm Flat Bench Dumbbell Flye",
+   "apertura una mano",
+   "one arm flye"
+  ]
+ },
+ {
+  "id": "press_banca_mancuernas_neutro",
+  "name": "Press de banca con mancuernas agarre neutro",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Palmas enfrentadas, codos a unos 45°.",
+   "Baja las mancuernas a la altura del pecho.",
+   "Empuja arriba sin chocar las mancuernas."
+  ],
+  "alt": "Press de banca con mancuernas",
+  "fitwill": null,
+  "fedb": "Dumbbell_Bench_Press_with_Neutral_Grip",
+  "keywords": [
+   "Dumbbell Bench Press with Neutral Grip",
+   "press neutro mancuernas",
+   "press agarre neutro"
+  ]
+ },
+ {
+  "id": "flexiones_balon",
+  "name": "Flexiones con pies en balón",
+  "group": "Pecho",
+  "primary": [
+   "pecho"
+  ],
+  "secondary": [
+   "triceps",
+   "hombro_frontal",
+   "abdomen"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pies sobre el balón, manos en el piso, cuerpo recto.",
+   "Baja el pecho controlando el balón.",
+   "Empuja sin que la cadera se hunda."
+  ],
+  "alt": "Flexiones con pies elevados",
+  "fitwill": null,
+  "fedb": "Push-Ups_With_Feet_On_An_Exercise_Ball",
+  "keywords": [
+   "Push-Ups With Feet On An Exercise Ball",
+   "flexiones balon",
+   "pushups exercise ball"
+  ]
+ },
+ {
+  "id": "pullover_mancuerna",
+  "name": "Pullover con mancuerna",
+  "group": "Espalda",
+  "primary": [
+   "dorsales"
+  ],
+  "secondary": [
+   "pecho"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado en banco, mancuerna con las dos manos sobre el pecho.",
+   "Baja la mancuerna detrás de la cabeza con codos leves flexionados.",
+   "Sube jalando con los dorsales."
+  ],
+  "alt": "Jalón con brazos rectos en polea",
+  "fitwill": null,
+  "fedb": "Bent-Arm_Dumbbell_Pullover",
+  "keywords": [
+   "Bent-Arm Dumbbell Pullover",
+   "pullover mancuerna",
+   "pull over",
+   "bent arm pullover"
+  ]
+ },
+ {
+  "id": "jalon_supino",
+  "name": "Jalón supino en polea",
+  "group": "Espalda",
+  "primary": [
+   "dorsales"
+  ],
+  "secondary": [
+   "biceps",
+   "espalda_media"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Agarre supino, manos a la altura de los hombros.",
+   "Jala la barra al pecho bajo y saca pecho.",
+   "Sube lento sin balancear el torso."
+  ],
+  "alt": "Dominadas supinas",
+  "fitwill": null,
+  "fedb": "Underhand_Cable_Pulldowns",
+  "keywords": [
+   "Underhand Cable Pulldowns",
+   "jalon supino",
+   "jalón agarre supino",
+   "underhand pulldown"
+  ]
+ },
+ {
+  "id": "remo_polea_alta_rodillas",
+  "name": "Remo en polea alta de rodillas",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De rodillas frente a la polea alta, espalda recta.",
+   "Jala los codos hacia atrás y junta las escápulas.",
+   "Estira los brazos sin soltar el tronco."
+  ],
+  "alt": "Remo sentado en polea",
+  "fitwill": null,
+  "fedb": "Kneeling_High_Pulley_Row",
+  "keywords": [
+   "Kneeling High Pulley Row",
+   "remo rodillas polea"
+  ]
+ },
+ {
+  "id": "remo_polea_alta_una_mano",
+  "name": "Remo a una mano en polea alta",
+  "group": "Espalda",
+  "primary": [
+   "dorsales"
+  ],
+  "secondary": [
+   "espalda_media",
+   "biceps"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De rodillas, agarra el mango con una mano.",
+   "Jala el codo hacia atrás pegado al cuerpo.",
+   "Gira poco el torso y regresa lento."
+  ],
+  "alt": "Remo con mancuerna a una mano",
+  "fitwill": null,
+  "fedb": "Kneeling_Single-Arm_High_Pulley_Row",
+  "keywords": [
+   "Kneeling Single-Arm High Pulley Row",
+   "kneeling single arm high pulley row",
+   "remo una mano polea"
+  ]
+ },
+ {
+  "id": "remo_alto_maquina",
+  "name": "Remo alto en máquina",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pecho contra el soporte, agarre firme.",
+   "Jala los codos hacia atrás y aprieta la espalda.",
+   "Regresa controlado sin soltar la tensión."
+  ],
+  "alt": "Remo en máquina",
+  "fitwill": null,
+  "fedb": "Leverage_High_Row",
+  "keywords": [
+   "Leverage High Row",
+   "remo alto maquina"
+  ]
+ },
+ {
+  "id": "remo_t_maquina",
+  "name": "Remo en T en máquina",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pecho apoyado en el soporte, agarre neutro.",
+   "Jala el peso hacia el torso con los codos.",
+   "Baja lento y mantén la espalda plana."
+  ],
+  "alt": "Remo con barra (inclinado)",
+  "fitwill": null,
+  "fedb": "Lying_T-Bar_Row",
+  "keywords": [
+   "Lying T-Bar Row",
+   "lying t bar row",
+   "remo t maquina",
+   "t-bar row"
+  ]
+ },
+ {
+  "id": "remo_inclinado_smith",
+  "name": "Remo inclinado en Smith",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps",
+   "hombro_posterior"
+  ],
+  "equipment": "Smith",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Torso inclinado a unos 45°, barra en el Smith.",
+   "Jala la barra al abdomen bajo.",
+   "Baja sin redondear la espalda."
+  ],
+  "alt": "Remo con barra (inclinado)",
+  "fitwill": null,
+  "fedb": "Smith_Machine_Bent_Over_Row",
+  "keywords": [
+   "Smith Machine Bent Over Row",
+   "remo smith"
+  ]
+ },
+ {
+  "id": "dominadas_con_peso",
+  "name": "Dominadas con peso",
+  "group": "Espalda",
+  "primary": [
+   "dorsales"
+  ],
+  "secondary": [
+   "biceps",
+   "espalda_media"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Disco o mancuerna sujeta al cinturón.",
+   "Sube hasta que la barbilla pase la barra.",
+   "Baja lento hasta extender los brazos."
+  ],
+  "alt": "Dominadas",
+  "fitwill": null,
+  "fedb": "Weighted_Pull_Ups",
+  "keywords": [
+   "Weighted Pull Ups",
+   "dominadas lastradas",
+   "dominadas con disco"
+  ]
+ },
+ {
+  "id": "remo_shotgun_polea",
+  "name": "Remo shotgun en polea",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Polea baja, agarre con una mano y pies separados.",
+   "Jala al abdomen con los codos pegados.",
+   "Regresa lento sin soltar el peso."
+  ],
+  "alt": "Remo sentado en polea",
+  "fitwill": null,
+  "fedb": "Shotgun_Row",
+  "keywords": [
+   "Shotgun Row",
+   "remo shotgun"
+  ]
+ },
+ {
+  "id": "remo_invertido",
+  "name": "Remo invertido",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Barra a la altura del pecho, cuerpo recto.",
+   "Jala el pecho hacia la barra.",
+   "Baja controlado sin doblar la cadera."
+  ],
+  "alt": "Remo con mancuerna a una mano",
+  "fitwill": null,
+  "fedb": "Inverted_Row",
+  "keywords": [
+   "Inverted Row",
+   "remo australiano",
+   "remo invertido barra"
+  ]
+ },
+ {
+  "id": "remo_suspendido",
+  "name": "Remo suspendido con TRX",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Agarra las asas con el cuerpo inclinado.",
+   "Jala el pecho hacia las manos apretando la espalda.",
+   "Baja lento con el cuerpo recto."
+  ],
+  "alt": "Remo invertido",
+  "fitwill": null,
+  "fedb": "Suspended_Row",
+  "keywords": [
+   "Suspended Row",
+   "trx row",
+   "remo trx"
+  ]
+ },
+ {
+  "id": "remo_sentado_una_mano_polea",
+  "name": "Remo sentado a una mano en polea",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Sentado, pecho erguido y rodillas ligeramente flexionadas.",
+   "Jala el codo hacia atrás sin girar el torso.",
+   "Estira el brazo sin encorvar la espalda."
+  ],
+  "alt": "Remo sentado en polea",
+  "fitwill": null,
+  "fedb": "Seated_One-arm_Cable_Pulley_Rows",
+  "keywords": [
+   "Seated One-arm Cable Pulley Rows",
+   "seated one arm cable row",
+   "remo polea una mano"
+  ]
+ },
+ {
+  "id": "remo_kettlebell",
+  "name": "Remo con kettlebell a dos manos",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Bisagra de cadera, espalda plana.",
+   "Jala la kettlebell hacia la cadera.",
+   "No dejes que el torso se levante al bajar."
+  ],
+  "alt": "Remo con mancuerna a una mano",
+  "fitwill": null,
+  "fedb": "Two-Arm_Kettlebell_Row",
+  "keywords": [
+   "Two-Arm Kettlebell Row",
+   "remo kettlebell",
+   "kettlebell row"
+  ]
+ },
+ {
+  "id": "remo_barra_acodada",
+  "name": "Remo con barra acodada",
+  "group": "Espalda",
+  "primary": [
+   "espalda_media"
+  ],
+  "secondary": [
+   "dorsales",
+   "biceps",
+   "trapecio"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra acodada, pecho apoyado o torso inclinado.",
+   "Jala la barra al abdomen con los codos atrás.",
+   "Baja con control sin soltar la espalda."
+  ],
+  "alt": "Remo con barra (inclinado)",
+  "fitwill": null,
+  "fedb": "Lying_Cambered_Barbell_Row",
+  "keywords": [
+   "Lying Cambered Barbell Row",
+   "remo barra cambrada"
+  ]
+ },
+ {
+  "id": "hiperextension_piso",
+  "name": "Hiperextensión en piso",
+  "group": "Espalda",
+  "primary": [
+   "lumbar"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado boca abajo, brazos al frente.",
+   "Levanta pecho y piernas sin forzar el cuello.",
+   "Baja lento y aprieta la zona lumbar."
+  ],
+  "alt": "Hiperextensión lumbar",
+  "fitwill": null,
+  "fedb": "Hyperextensions_With_No_Hyperextension_Bench",
+  "keywords": [
+   "Hyperextensions With No Hyperextension Bench",
+   "superman",
+   "hiperextension sin banco",
+   "hyperextension no bench"
+  ]
+ },
+ {
+  "id": "peso_muerto_pines",
+  "name": "Peso muerto desde pines (rack pull)",
+  "group": "Espalda",
+  "primary": [
+   "lumbar"
+  ],
+  "secondary": [
+   "femoral",
+   "gluteo",
+   "trapecio"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pines a la altura de la rodilla, espalda neutra.",
+   "Empuja el piso con las piernas y sube la barra.",
+   "Bloquea la cadera arriba sin hiperextender."
+  ],
+  "alt": "Peso muerto con barra",
+  "fitwill": null,
+  "fedb": "Rack_Pulls",
+  "keywords": [
+   "Rack Pulls",
+   "peso muerto pines",
+   "rack pull"
+  ]
+ },
+ {
+  "id": "dominadas_agarre_abierto",
+  "name": "Dominadas agarre abierto",
+  "group": "Espalda",
+  "primary": [
+   "dorsales"
+  ],
+  "secondary": [
+   "biceps",
+   "espalda_media"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Agarre más ancho que los hombros.",
+   "Sube llevando el pecho hacia la barra.",
+   "Baja lento sin balancear el cuerpo."
+  ],
+  "alt": "Dominadas",
+  "fitwill": null,
+  "fedb": "Wide-Grip_Rear_Pull-Up",
+  "keywords": [
+   "Wide-Grip Rear Pull-Up",
+   "dominadas agarre ancho",
+   "wide grip rear pull up"
+  ]
+ },
+ {
+  "id": "press_hombro_polea_sentado",
+  "name": "Press de hombros sentado en polea",
+  "group": "Hombro",
+  "primary": [
+   "hombro_frontal"
+  ],
+  "secondary": [
+   "hombro_lateral",
+   "triceps"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Sentado, manijas a la altura de los hombros.",
+   "Empuja hacia arriba sin arquear la espalda.",
+   "Baja controlado hasta la altura de las orejas."
+  ],
+  "alt": "Press de hombros en máquina",
+  "fitwill": null,
+  "fedb": "Seated_Cable_Shoulder_Press",
+  "keywords": [
+   "Seated Cable Shoulder Press",
+   "press hombro polea"
+  ]
+ },
+ {
+  "id": "press_hombro_una_mano",
+  "name": "Press de hombro a una mano con mancuerna",
+  "group": "Hombro",
+  "primary": [
+   "hombro_frontal"
+  ],
+  "secondary": [
+   "hombro_lateral",
+   "triceps"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Mancuerna a la altura del hombro, codo bajo.",
+   "Empuja arriba sin inclinar el torso.",
+   "Baja lento y cambia de brazo."
+  ],
+  "alt": "Press de hombros sentado con mancuernas",
+  "fitwill": null,
+  "fedb": "Dumbbell_One-Arm_Shoulder_Press",
+  "keywords": [
+   "Dumbbell One-Arm Shoulder Press",
+   "dumbbell one arm shoulder press",
+   "press hombro una mano"
+  ]
+ },
+ {
+  "id": "press_hombro_alterno",
+  "name": "Press alterno de hombros con mancuernas",
+  "group": "Hombro",
+  "primary": [
+   "hombro_frontal"
+  ],
+  "secondary": [
+   "hombro_lateral",
+   "triceps"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "De pie, mancuernas a la altura de los hombros.",
+   "Empuja una mientras bajas la otra, en forma alterna.",
+   "Mantén el abdomen firme sin arquear la espalda."
+  ],
+  "alt": "Press de hombros con mancuernas de pie",
+  "fitwill": null,
+  "fedb": "Standing_Alternating_Dumbbell_Press",
+  "keywords": [
+   "Standing Alternating Dumbbell Press",
+   "press alterno mancuernas"
+  ]
+ },
+ {
+  "id": "press_militar_sentado",
+  "name": "Press militar sentado con barra",
+  "group": "Hombro",
+  "primary": [
+   "hombro_frontal"
+  ],
+  "secondary": [
+   "hombro_lateral",
+   "triceps"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Banco con respaldo, barra a la altura de la clavícula.",
+   "Empuja la barra arriba en línea recta.",
+   "Baja hasta el pecho alto sin rebotar."
+  ],
+  "alt": "Press militar de pie con barra",
+  "fitwill": null,
+  "fedb": "Seated_Barbell_Military_Press",
+  "keywords": [
+   "Seated Barbell Military Press",
+   "press militar sentado"
+  ]
+ },
+ {
+  "id": "scaption_mancuernas",
+  "name": "Elevación escapular con mancuernas",
+  "group": "Hombro",
+  "primary": [
+   "hombro_lateral"
+  ],
+  "secondary": [
+   "trapecio"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Brazos a 30° al frente del cuerpo, pulgares arriba.",
+   "Sube hasta la altura de los hombros.",
+   "Baja lento sin encoger los hombros."
+  ],
+  "alt": "Elevaciones laterales",
+  "fitwill": null,
+  "fedb": "Dumbbell_Scaption",
+  "keywords": [
+   "Dumbbell Scaption",
+   "scaption",
+   "elevacion escapular"
+  ]
+ },
+ {
+  "id": "pajaros_banco_inclinado",
+  "name": "Pájaros en banco inclinado con mancuernas",
+  "group": "Hombro",
+  "primary": [
+   "hombro_posterior"
+  ],
+  "secondary": [
+   "espalda_media"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pecho apoyado en el banco inclinado.",
+   "Abre los brazos en arco con codos suaves.",
+   "Baja lento sin encoger los hombros."
+  ],
+  "alt": "Pájaros con mancuernas",
+  "fitwill": null,
+  "fedb": "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench",
+  "keywords": [
+   "Bent Over Dumbbell Rear Delt Raise With Head On Bench",
+   "pajaros banco inclinado",
+   "rear delt raise bench"
+  ]
+ },
+ {
+  "id": "pajaros_boca_abajo",
+  "name": "Pájaros boca abajo en banco",
+  "group": "Hombro",
+  "primary": [
+   "hombro_posterior"
+  ],
+  "secondary": [
+   "espalda_media"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado boca abajo en el banco.",
+   "Abre los brazos a los lados a la altura del hombro.",
+   "Baja despacio sin balancear el cuerpo."
+  ],
+  "alt": "Pájaros en máquina",
+  "fitwill": null,
+  "fedb": "Lying_Rear_Delt_Raise",
+  "keywords": [
+   "Lying Rear Delt Raise",
+   "pajaros acostado"
+  ]
+ },
+ {
+  "id": "elevacion_frontal_disco",
+  "name": "Elevación frontal con disco",
+  "group": "Hombro",
+  "primary": [
+   "hombro_frontal"
+  ],
+  "secondary": [],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Sujeta el disco con las dos manos al frente.",
+   "Sube hasta la altura de los ojos con brazos rectos.",
+   "Baja controlado sin balancear el torso."
+  ],
+  "alt": "Elevación frontal con mancuernas",
+  "fitwill": null,
+  "fedb": "Front_Plate_Raise",
+  "keywords": [
+   "Front Plate Raise",
+   "elevacion frontal disco"
+  ]
+ },
+ {
+  "id": "elevacion_frontal_polea",
+  "name": "Elevación frontal en polea",
+  "group": "Hombro",
+  "primary": [
+   "hombro_frontal"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De espaldas a la polea, mango en una mano.",
+   "Sube el brazo al frente hasta la altura del hombro.",
+   "Regresa lento sin balancear el cuerpo."
+  ],
+  "alt": "Elevación frontal con mancuernas",
+  "fitwill": null,
+  "fedb": "Front_Cable_Raise",
+  "keywords": [
+   "Front Cable Raise",
+   "elevacion frontal cable"
+  ]
+ },
+ {
+  "id": "remo_posterior_barra",
+  "name": "Remo posterior con barra",
+  "group": "Hombro",
+  "primary": [
+   "hombro_posterior"
+  ],
+  "secondary": [
+   "espalda_media",
+   "biceps"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Torso inclinado, agarre a la anchura de los hombros.",
+   "Jala la barra al abdomen con los codos altos.",
+   "Baja lento y mantén el cuello neutro."
+  ],
+  "alt": "Pájaros con mancuernas",
+  "fitwill": null,
+  "fedb": "Barbell_Rear_Delt_Row",
+  "keywords": [
+   "Barbell Rear Delt Row",
+   "remo posterior barra"
+  ]
+ },
+ {
+  "id": "remo_posterior_polea_cuerda",
+  "name": "Remo posterior en polea con cuerda",
+  "group": "Hombro",
+  "primary": [
+   "hombro_posterior"
+  ],
+  "secondary": [
+   "espalda_media"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Cuerda a la altura de la cara, brazos extendidos.",
+   "Separa las manos al jalar hacia la cara.",
+   "Regresa lento sin encorvar la espalda."
+  ],
+  "alt": "Face pull con cuerda",
+  "fitwill": null,
+  "fedb": "Cable_Rope_Rear-Delt_Rows",
+  "keywords": [
+   "Cable Rope Rear-Delt Rows",
+   "cable rope rear delt rows",
+   "remo posterior cuerda"
+  ]
+ },
+ {
+  "id": "press_sentado_kettlebell",
+  "name": "Press sentado con kettlebell",
+  "group": "Hombro",
+  "primary": [
+   "hombro_frontal"
+  ],
+  "secondary": [
+   "hombro_lateral",
+   "triceps"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Sentado, kettlebell en el hombro (posición rack).",
+   "Empuja arriba sin arquear la espalda.",
+   "Baja controlado de vuelta al hombro."
+  ],
+  "alt": "Press de hombro a una mano con mancuerna",
+  "fitwill": null,
+  "fedb": "Kettlebell_Seated_Press",
+  "keywords": [
+   "Kettlebell Seated Press",
+   "press kettlebell sentado"
+  ]
+ },
+ {
+  "id": "elevacion_lateral_banco_inclinado",
+  "name": "Elevación lateral a una mano en banco inclinado",
+  "group": "Hombro",
+  "primary": [
+   "hombro_lateral"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado de lado en banco inclinado.",
+   "Sube el brazo hasta la altura del hombro.",
+   "Baja lento sin tirar del cuerpo."
+  ],
+  "alt": "Elevaciones laterales",
+  "fitwill": null,
+  "fedb": "One-Arm_Incline_Lateral_Raise",
+  "keywords": [
+   "One-Arm Incline Lateral Raise",
+   "one arm incline lateral raise",
+   "elevacion lateral inclinado"
+  ]
+ },
+ {
+  "id": "elevacion_lateral_banda",
+  "name": "Elevación lateral con banda",
+  "group": "Hombro",
+  "primary": [
+   "hombro_lateral"
+  ],
+  "secondary": [],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pisa la banda y sujétala a los lados.",
+   "Sube los brazos hasta la altura del hombro.",
+   "Baja despacio sin soltar la tensión."
+  ],
+  "alt": "Elevaciones laterales",
+  "fitwill": null,
+  "fedb": "Lateral_Raise_-_With_Bands",
+  "keywords": [
+   "Lateral Raise - With Bands",
+   "lateral raise with bands",
+   "elevacion lateral banda"
+  ]
+ },
+ {
+  "id": "encog_barra_espalda",
+  "name": "Encogimiento tras la espalda con barra",
+  "group": "Trapecio",
+  "primary": [
+   "trapecio"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra atrás de los muslos, agarre ancho.",
+   "Encoge los hombros hacia las orejas.",
+   "Baja lento sin rotar los hombros."
+  ],
+  "alt": "Encogimientos con barra",
+  "fitwill": null,
+  "fedb": "Barbell_Shrug_Behind_The_Back",
+  "keywords": [
+   "Barbell Shrug Behind The Back",
+   "encogimiento barra atras"
+  ]
+ },
+ {
+  "id": "encog_maquina_pantorrilla",
+  "name": "Encogimiento en máquina de pantorrilla",
+  "group": "Trapecio",
+  "primary": [
+   "trapecio"
+  ],
+  "secondary": [],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Hombros bajo los apoyos, espalda recta.",
+   "Encoge los hombros subiendo el peso.",
+   "Baja lento con el cuello relajado."
+  ],
+  "alt": "Encogimiento en máquina",
+  "fitwill": null,
+  "fedb": "Calf-Machine_Shoulder_Shrug",
+  "keywords": [
+   "Calf-Machine Shoulder Shrug",
+   "calf machine shoulder shrug",
+   "encogimiento maquina"
+  ]
+ },
+ {
+  "id": "remo_al_menton_mancuerna_una_mano",
+  "name": "Remo al mentón a una mano con mancuerna",
+  "group": "Trapecio",
+  "primary": [
+   "hombro_lateral",
+   "trapecio"
+  ],
+  "secondary": [
+   "biceps"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Mancuerna pegada al muslo, codo arriba.",
+   "Sube el codo por delante hasta la altura del hombro.",
+   "Baja lento sin balancear el torso."
+  ],
+  "alt": "Remo al mentón con barra",
+  "fitwill": null,
+  "fedb": "Dumbbell_One-Arm_Upright_Row",
+  "keywords": [
+   "Dumbbell One-Arm Upright Row",
+   "dumbbell one arm upright row",
+   "remo mentón una mano"
+  ]
+ },
+ {
+  "id": "remo_al_menton_mancuernas",
+  "name": "Remo al mentón con mancuernas",
+  "group": "Trapecio",
+  "primary": [
+   "hombro_lateral",
+   "trapecio"
+  ],
+  "secondary": [
+   "biceps"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Mancuernas juntas frente a los muslos, agarre cerrado.",
+   "Sube los codos por encima de las manos.",
+   "Baja lento sin soltar los hombros."
+  ],
+  "alt": "Remo al mentón con barra",
+  "fitwill": null,
+  "fedb": "Standing_Dumbbell_Upright_Row",
+  "keywords": [
+   "Standing Dumbbell Upright Row",
+   "remo al menton mancuernas"
+  ]
+ },
+ {
+  "id": "remo_al_menton_smith",
+  "name": "Remo al mentón en Smith",
+  "group": "Trapecio",
+  "primary": [
+   "hombro_lateral",
+   "trapecio"
+  ],
+  "secondary": [
+   "biceps"
+  ],
+  "equipment": "Smith",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en el Smith con agarre a la anchura de hombros.",
+   "Sube la barra pegada al cuerpo hasta el pecho.",
+   "Baja despacio sin bajar los codos."
+  ],
+  "alt": "Remo al mentón en polea",
+  "fitwill": null,
+  "fedb": "Smith_Machine_Upright_Row",
+  "keywords": [
+   "Smith Machine Upright Row",
+   "remo al menton smith"
+  ]
+ },
+ {
+  "id": "encog_mancuernas_inclinado",
+  "name": "Encogimiento inclinado con mancuernas",
+  "group": "Trapecio",
+  "primary": [
+   "trapecio"
+  ],
+  "secondary": [
+   "espalda_media"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Torso inclinado al frente, mancuernas colgando.",
+   "Encoge los hombros hacia arriba con la espalda neutra.",
+   "Baja lento sin rotar los hombros."
+  ],
+  "alt": "Encogimientos con mancuernas",
+  "fitwill": null,
+  "fedb": "Middle_Back_Shrug",
+  "keywords": [
+   "Middle Back Shrug",
+   "encogimiento espalda media"
+  ]
+ },
+ {
+  "id": "curl_predicador_polea",
+  "name": "Curl predicador en polea",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Brazos apoyados en el banco predicador, polea baja.",
+   "Sube el peso doblando solo el codo.",
+   "Baja lento sin estirar del todo."
+  ],
+  "alt": "Curl predicador en máquina",
+  "fitwill": null,
+  "fedb": "Cable_Preacher_Curl",
+  "keywords": [
+   "Cable Preacher Curl",
+   "curl predicador cable"
+  ]
+ },
+ {
+  "id": "curl_martillo_cruzado",
+  "name": "Curl martillo cruzado",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Mancuerna con agarre neutro, cruza al lado opuesto.",
+   "Sube hacia el hombro contrario sin mover el codo.",
+   "Baja lento hasta extender el brazo."
+  ],
+  "alt": "Curl martillo",
+  "fitwill": null,
+  "fedb": "Cross_Body_Hammer_Curl",
+  "keywords": [
+   "Cross Body Hammer Curl",
+   "curl martillo cruzado"
+  ]
+ },
+ {
+  "id": "curl_polea_alta",
+  "name": "Curl en polea alta",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De frente a la polea alta, codos pegados.",
+   "Sube el agarre hasta la altura de la cara.",
+   "Baja controlado sin balancear el torso."
+  ],
+  "alt": "Curl de bíceps en polea",
+  "fitwill": null,
+  "fedb": "High_Cable_Curls",
+  "keywords": [
+   "High Cable Curls",
+   "curl polea alta"
+  ]
+ },
+ {
+  "id": "curl_barra_banco_alto",
+  "name": "Curl con barra en banco alto",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Acostado en banco alto con la cabeza fuera.",
+   "Sube la barra sin mover los codos.",
+   "Baja lento sin soltar la tensión."
+  ],
+  "alt": "Curl con barra recta",
+  "fitwill": null,
+  "fedb": "Lying_High_Bench_Barbell_Curl",
+  "keywords": [
+   "Lying High Bench Barbell Curl",
+   "curl banco alto"
+  ]
+ },
+ {
+  "id": "curl_maquina",
+  "name": "Curl de bíceps en máquina",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Ajusta el asiento para alinear el codo con el eje.",
+   "Sube las manijas doblando el codo.",
+   "Baja lento sin despegar la espalda."
+  ],
+  "alt": "Curl de bíceps con mancuernas",
+  "fitwill": null,
+  "fedb": "Machine_Bicep_Curl",
+  "keywords": [
+   "Machine Bicep Curl",
+   "curl maquina"
+  ]
+ },
+ {
+  "id": "curl_inverso_polea",
+  "name": "Curl inverso en polea",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Agarre prono, codos pegados al cuerpo.",
+   "Sube sin ayudarte con el torso.",
+   "Baja controlado hasta extender."
+  ],
+  "alt": "Curl inverso con barra",
+  "fitwill": null,
+  "fedb": "Reverse_Cable_Curl",
+  "keywords": [
+   "Reverse Cable Curl",
+   "curl inverso polea"
+  ]
+ },
+ {
+  "id": "curl_arana",
+  "name": "Curl araña",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pecho apoyado en banco inclinado, brazos colgando.",
+   "Sube la barra con los codos fijos.",
+   "Baja lento sin dejar caer el brazo."
+  ],
+  "alt": "Curl con barra Z",
+  "fitwill": null,
+  "fedb": "Spider_Curl",
+  "keywords": [
+   "Spider Curl",
+   "curl arana"
+  ]
+ },
+ {
+  "id": "curl_polea_una_mano",
+  "name": "Curl a una mano en polea",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Polea baja, mango en una mano y codo pegado.",
+   "Sube el peso doblando el codo.",
+   "Baja lento sin girar el torso."
+  ],
+  "alt": "Curl de bíceps en polea",
+  "fitwill": null,
+  "fedb": "Standing_One-Arm_Cable_Curl",
+  "keywords": [
+   "Standing One-Arm Cable Curl",
+   "standing one arm cable curl",
+   "curl polea una mano"
+  ]
+ },
+ {
+  "id": "curl_inverso_mancuernas",
+  "name": "Curl inverso con mancuernas",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Agarre prono, mancuernas a la altura de los muslos.",
+   "Sube sin mover el codo hacia adelante.",
+   "Baja lento hasta extender los brazos."
+  ],
+  "alt": "Curl inverso con barra",
+  "fitwill": null,
+  "fedb": "Standing_Dumbbell_Reverse_Curl",
+  "keywords": [
+   "Standing Dumbbell Reverse Curl",
+   "curl inverso mancuernas"
+  ]
+ },
+ {
+  "id": "curl_zottman",
+  "name": "Curl Zottman",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Sube con palma arriba y gira al bajar.",
+   "Baja con palma abajo para trabajar el antebrazo.",
+   "Controla el movimiento en las dos fases."
+  ],
+  "alt": "Curl martillo",
+  "fitwill": null,
+  "fedb": "Zottman_Curl",
+  "keywords": [
+   "Zottman Curl",
+   "curl zottman"
+  ]
+ },
+ {
+  "id": "curl_predicador_mancuernas",
+  "name": "Curl predicador con mancuernas",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Brazos apoyados en el banco predicador.",
+   "Sube la mancuerna sin levantar el codo.",
+   "Baja lento hasta casi extender."
+  ],
+  "alt": "Curl predicador en máquina",
+  "fitwill": null,
+  "fedb": "Two-Arm_Dumbbell_Preacher_Curl",
+  "keywords": [
+   "Two-Arm Dumbbell Preacher Curl",
+   "two arm dumbbell preacher curl",
+   "curl predicador mancuernas"
+  ]
+ },
+ {
+  "id": "curl_arrastre",
+  "name": "Curl de arrastre con barra",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra pegada al cuerpo, codos hacia atrás.",
+   "Sube la barra rozando el torso.",
+   "Baja lento sin inclinarte hacia adelante."
+  ],
+  "alt": "Curl con barra recta",
+  "fitwill": null,
+  "fedb": "Drag_Curl",
+  "keywords": [
+   "Drag Curl",
+   "curl arrastre"
+  ]
+ },
+ {
+  "id": "curl_predicador_barra",
+  "name": "Curl predicador con barra",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Brazos en el banco predicador, agarre a la anchura de hombros.",
+   "Sube la barra sin despegar los codos.",
+   "Baja lento y no bloquees arriba."
+  ],
+  "alt": "Curl predicador en máquina",
+  "fitwill": null,
+  "fedb": "Preacher_Curl",
+  "keywords": [
+   "Preacher Curl",
+   "preacher curl barbell",
+   "curl predicador barra"
+  ]
+ },
+ {
+  "id": "curl_polea_acostado",
+  "name": "Curl en polea acostado",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Acostado en banco inclinado, polea baja detrás.",
+   "Sube la barra con los codos fijos.",
+   "Baja lento sin levantar los hombros."
+  ],
+  "alt": "Curl de bíceps en polea",
+  "fitwill": null,
+  "fedb": "Lying_Cable_Curl",
+  "keywords": [
+   "Lying Cable Curl",
+   "curl polea acostado"
+  ]
+ },
+ {
+  "id": "curl_martillo_alterno",
+  "name": "Curl martillo alterno",
+  "group": "Bíceps",
+  "primary": [
+   "biceps"
+  ],
+  "secondary": [
+   "antebrazo"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Agarre neutro, sube una mancuerna a la vez.",
+   "Mantén el codo pegado al cuerpo.",
+   "Baja lento alternando los brazos."
+  ],
+  "alt": "Curl martillo",
+  "fitwill": null,
+  "fedb": "Alternate_Hammer_Curl",
+  "keywords": [
+   "Alternate Hammer Curl",
+   "curl martillo alterno"
+  ]
+ },
+ {
+  "id": "frances_banda",
+  "name": "Press francés con banda",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, banda anclada arriba de la cabeza.",
+   "Baja la banda a la frente doblando solo el codo.",
+   "Extiende sin mover los codos."
+  ],
+  "alt": "Press francés con mancuernas",
+  "fitwill": null,
+  "fedb": "Band_Skull_Crusher",
+  "keywords": [
+   "Band Skull Crusher",
+   "frances banda"
+  ]
+ },
+ {
+  "id": "press_triceps_cuerpo",
+  "name": "Press de tríceps con el cuerpo",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [
+   "pecho"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Manos en banco bajo los hombros, cuerpo extendido.",
+   "Baja doblando los codos hacia atrás.",
+   "Empuja arriba sin bloquear de golpe."
+  ],
+  "alt": "Fondos en banco",
+  "fitwill": null,
+  "fedb": "Body_Tricep_Press",
+  "keywords": [
+   "Body Tricep Press",
+   "press triceps cuerpo"
+  ]
+ },
+ {
+  "id": "extension_triceps_polea_espaldas",
+  "name": "Extensión de tríceps en polea de espaldas",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De espaldas a la polea alta, codos fijos.",
+   "Extiende los brazos hacia abajo.",
+   "Regresa lento sin mover los hombros."
+  ],
+  "alt": "Extensión de tríceps en polea",
+  "fitwill": null,
+  "fedb": "Cable_Incline_Triceps_Extension",
+  "keywords": [
+   "Cable Incline Triceps Extension",
+   "extension triceps polea"
+  ]
+ },
+ {
+  "id": "triceps_polea_una_mano",
+  "name": "Extensión de tríceps a una mano en polea",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Mango en una mano, codo arriba y pegado.",
+   "Extiende el brazo hasta quedar recto.",
+   "Regresa lento sin girar el torso."
+  ],
+  "alt": "Extensión de tríceps en polea",
+  "fitwill": null,
+  "fedb": "Cable_One_Arm_Tricep_Extension",
+  "keywords": [
+   "Cable One Arm Tricep Extension",
+   "triceps polea una mano"
+  ]
+ },
+ {
+  "id": "frances_declinado_agarre_cerrado",
+  "name": "Press francés declinado agarre cerrado",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [
+   "pecho"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Banco declinado, agarre a la anchura de hombros.",
+   "Baja la barra a la frente doblando el codo.",
+   "Extiende sin abrir los codos."
+  ],
+  "alt": "Press francés con barra Z",
+  "fitwill": null,
+  "fedb": "Decline_Close-Grip_Bench_To_Skull_Crusher",
+  "keywords": [
+   "Decline Close-Grip Bench To Skull Crusher",
+   "decline close grip bench to skull crusher",
+   "frances declinado"
+  ]
+ },
+ {
+  "id": "triceps_declinado_mancuerna",
+  "name": "Extensión de tríceps declinada con mancuerna",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Banco declinado, codos apuntando al techo.",
+   "Baja la mancuerna detrás de la cabeza.",
+   "Extiende sin mover los codos."
+  ],
+  "alt": "Press francés con mancuernas",
+  "fitwill": null,
+  "fedb": "Decline_Dumbbell_Triceps_Extension",
+  "keywords": [
+   "Decline Dumbbell Triceps Extension",
+   "triceps declinado mancuerna"
+  ]
+ },
+ {
+  "id": "press_cerrado_mancuernas",
+  "name": "Press cerrado con mancuernas",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [
+   "pecho",
+   "hombro_frontal"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Mancuernas juntas, palmas enfrentadas.",
+   "Baja al pecho con los codos cerca del cuerpo.",
+   "Empuja arriba sin separar las mancuernas."
+  ],
+  "alt": "Press de banca con mancuernas",
+  "fitwill": null,
+  "fedb": "Close-Grip_Dumbbell_Press",
+  "keywords": [
+   "Close-Grip Dumbbell Press",
+   "close grip dumbbell press",
+   "press cerrado mancuernas"
+  ]
+ },
+ {
+  "id": "triceps_barra_sobre_cabeza",
+  "name": "Extensión de tríceps sobre la cabeza con barra",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De pie, barra con agarre cerrado arriba de la cabeza.",
+   "Baja la barra detrás de la cabeza doblando solo el codo.",
+   "Extiende arriba sin arquear la espalda."
+  ],
+  "alt": "Extensión de tríceps sobre la cabeza",
+  "fitwill": null,
+  "fedb": "Standing_Overhead_Barbell_Triceps_Extension",
+  "keywords": [
+   "Standing Overhead Barbell Triceps Extension",
+   "triceps barra sobre cabeza"
+  ]
+ },
+ {
+  "id": "jalon_triceps_agarre_inverso",
+  "name": "Jalón de tríceps con agarre inverso",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Agarre supino, codos pegados al torso.",
+   "Empuja la barra hacia abajo hasta extender.",
+   "Sube lento sin separar los codos."
+  ],
+  "alt": "Extensión de tríceps en polea",
+  "fitwill": null,
+  "fedb": "Reverse_Grip_Triceps_Pushdown",
+  "keywords": [
+   "Reverse Grip Triceps Pushdown",
+   "jalon triceps inverso"
+  ]
+ },
+ {
+  "id": "triceps_sentado_inclinado_mancuernas",
+  "name": "Extensión de tríceps sentado inclinado con mancuernas",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Inclinado hacia adelante, mancuerna con las dos manos.",
+   "Extiende los codos hacia arriba sin moverlos.",
+   "Baja lento hasta sentir el estiramiento."
+  ],
+  "alt": "Extensión de tríceps sobre la cabeza",
+  "fitwill": null,
+  "fedb": "Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension",
+  "keywords": [
+   "Seated Bent-Over Two-Arm Dumbbell Triceps Extension",
+   "seated bent over two arm dumbbell triceps extension",
+   "triceps sentado mancuerna"
+  ]
+ },
+ {
+  "id": "fondos_banco_con_peso",
+  "name": "Fondos en banco con peso",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [
+   "pecho",
+   "hombro_frontal"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Disco sobre las piernas, manos en el banco.",
+   "Baja doblando los codos hasta 90°.",
+   "Sube empujando sin encoger los hombros."
+  ],
+  "alt": "Fondos en banco",
+  "fitwill": null,
+  "fedb": "Weighted_Bench_Dip",
+  "keywords": [
+   "Weighted Bench Dip",
+   "fondos con peso"
+  ]
+ },
+ {
+  "id": "fondos_triceps_paralelas",
+  "name": "Fondos de tríceps en paralelas",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [
+   "pecho",
+   "hombro_frontal"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Torso recto y codos pegados al cuerpo.",
+   "Baja hasta 90° sin abrir los codos.",
+   "Sube extendiendo bien los brazos."
+  ],
+  "alt": "Fondos en banco",
+  "fitwill": null,
+  "fedb": "Dips_-_Triceps_Version",
+  "keywords": [
+   "Dips - Triceps Version",
+   "dips triceps version",
+   "fondos triceps"
+  ]
+ },
+ {
+  "id": "triceps_barra_tras_cabeza",
+  "name": "Extensión de tríceps tras la cabeza con barra",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Acostado, agarre cerrado y barra sobre la frente.",
+   "Baja la barra detrás de la cabeza doblando codos.",
+   "Extiende sin abrir los codos."
+  ],
+  "alt": "Press francés con barra Z",
+  "fitwill": null,
+  "fedb": "Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head",
+  "keywords": [
+   "Lying Close-Grip Barbell Triceps Extension Behind The Head",
+   "lying close grip barbell triceps extension behind the head",
+   "triceps tras cabeza"
+  ]
+ },
+ {
+  "id": "press_triceps_sentado",
+  "name": "Press de tríceps sentado con mancuerna",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Sentado, mancuerna con las dos manos sobre la cabeza.",
+   "Baja detrás de la cabeza con los codos cerrados.",
+   "Empuja arriba sin arquear la espalda."
+  ],
+  "alt": "Extensión de tríceps sobre la cabeza",
+  "fitwill": null,
+  "fedb": "Seated_Triceps_Press",
+  "keywords": [
+   "Seated Triceps Press",
+   "press triceps sentado"
+  ]
+ },
+ {
+  "id": "triceps_polea_barra_v",
+  "name": "Jalón de tríceps con barra V",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra V con agarre neutro, codos pegados.",
+   "Empuja hacia abajo hasta extender.",
+   "Sube lento sin mover los hombros."
+  ],
+  "alt": "Extensión de tríceps en polea",
+  "fitwill": null,
+  "fedb": "Triceps_Pushdown_-_V-Bar_Attachment",
+  "keywords": [
+   "Triceps Pushdown - V-Bar Attachment",
+   "triceps pushdown v bar",
+   "jalon triceps barra v"
+  ]
+ },
+ {
+  "id": "triceps_polea_rodillas",
+  "name": "Extensión de tríceps en polea de rodillas",
+  "group": "Tríceps",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De rodillas frente a la polea alta, codos pegados.",
+   "Extiende los brazos hacia abajo sin mover los hombros.",
+   "Sube lento sin dejar que los codos se separen."
+  ],
+  "alt": "Extensión de tríceps en polea",
+  "fitwill": null,
+  "fedb": "Kneeling_Cable_Triceps_Extension",
+  "keywords": [
+   "Kneeling Cable Triceps Extension",
+   "triceps polea rodillas"
+  ]
+ },
+ {
+  "id": "curl_muneca_inverso_mancuernas",
+  "name": "Curl de muñeca inverso con mancuernas",
+  "group": "Antebrazo",
+  "primary": [
+   "antebrazo"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Antebrazos sobre el banco, palmas abajo.",
+   "Sube la mancuerna solo con la muñeca.",
+   "Baja lento hasta estirar la muñeca."
+  ],
+  "alt": "Curl de muñeca inverso con barra",
+  "fitwill": null,
+  "fedb": "Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench",
+  "keywords": [
+   "Palms-Down Dumbbell Wrist Curl Over A Bench",
+   "palms down dumbbell wrist curl",
+   "curl muñeca inverso mancuerna"
+  ]
+ },
+ {
+  "id": "pronacion_mancuerna",
+  "name": "Pronación de antebrazo con mancuerna",
+  "group": "Antebrazo",
+  "primary": [
+   "antebrazo"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, antebrazo en el banco con la palma arriba.",
+   "Gira la mancuerna de palma arriba a palma abajo.",
+   "Ve lento y controla el peso en todo el arco."
+  ],
+  "alt": "Curl de muñeca con barra",
+  "fitwill": null,
+  "fedb": "Dumbbell_Lying_Pronation",
+  "keywords": [
+   "Dumbbell Lying Pronation",
+   "pronacion antebrazo"
+  ]
+ },
+ {
+  "id": "pellizco_disco",
+  "name": "Pellizco con disco",
+  "group": "Antebrazo",
+  "primary": [
+   "antebrazo"
+  ],
+  "secondary": [],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pinza el disco con los dedos y el pulgar.",
+   "Sostén el peso sin dejar que caiga.",
+   "Mantén 20 a 30 segundos por serie."
+  ],
+  "alt": "Caminata del granjero",
+  "fitwill": null,
+  "fedb": "Plate_Pinch",
+  "keywords": [
+   "Plate Pinch",
+   "pinza disco"
+  ]
+ },
+ {
+  "id": "rodillo_muneca",
+  "name": "Rodillo de muñeca",
+  "group": "Antebrazo",
+  "primary": [
+   "antebrazo"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Brazos al frente, cuerda enrollada en el rodillo.",
+   "Enrolla la cuerda subiendo el peso con las muñecas.",
+   "Baja despacio y desenrolla con control."
+  ],
+  "alt": "Pellizco con disco",
+  "fitwill": null,
+  "fedb": "Wrist_Roller",
+  "keywords": [
+   "Wrist Roller",
+   "rodillo muñeca"
+  ]
+ },
+ {
+  "id": "curl_dedos_barra",
+  "name": "Curl de dedos con barra",
+  "group": "Antebrazo",
+  "primary": [
+   "antebrazo"
+  ],
+  "secondary": [],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Antebrazos sobre las rodillas, barra en las puntas de los dedos.",
+   "Flexiona los dedos y sube la barra.",
+   "Baja lento abriendo la mano."
+  ],
+  "alt": "Curl de muñeca con barra",
+  "fitwill": null,
+  "fedb": "Finger_Curls",
+  "keywords": [
+   "Finger Curls",
+   "curl dedos"
+  ]
+ },
+ {
+  "id": "curl_muneca_polea",
+  "name": "Curl de muñeca en polea",
+  "group": "Antebrazo",
+  "primary": [
+   "antebrazo"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Polea baja, barra con agarre supino.",
+   "Sube la barra solo con la muñeca.",
+   "Baja controlado hasta estirar."
+  ],
+  "alt": "Curl de muñeca con mancuernas sentado",
+  "fitwill": null,
+  "fedb": "Cable_Wrist_Curl",
+  "keywords": [
+   "Cable Wrist Curl",
+   "curl muñeca polea"
+  ]
+ },
+ {
+  "id": "curl_inverso_disco",
+  "name": "Curl inverso con disco",
+  "group": "Antebrazo",
+  "primary": [
+   "antebrazo"
+  ],
+  "secondary": [
+   "biceps"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Agarra el disco con palmas abajo y dedos alrededor.",
+   "Sube el disco solo con el antebrazo.",
+   "Baja lento sin soltar la pieza."
+  ],
+  "alt": "Curl inverso con barra",
+  "fitwill": null,
+  "fedb": "Reverse_Plate_Curls",
+  "keywords": [
+   "Reverse Plate Curls",
+   "curl disco inverso"
+  ]
+ },
+ {
+  "id": "rueda_abdominal",
+  "name": "Rueda abdominal",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "De rodillas, agarra la rueda con las dos manos.",
+   "Rueda al frente manteniendo la espalda neutra.",
+   "Regresa contrayendo el abdomen sin hundir la cadera."
+  ],
+  "alt": "Plancha",
+  "fitwill": null,
+  "fedb": "Ab_Roller",
+  "keywords": [
+   "Ab Roller",
+   "rueda ab",
+   "ab wheel"
+  ]
+ },
+ {
+  "id": "rueda_abdominal_barra",
+  "name": "Rueda abdominal con barra",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [
+   "hombro_frontal",
+   "lumbar"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De rodillas con la barra, agarre a la anchura de hombros.",
+   "Rueda al frente sin arquear la zona lumbar.",
+   "Regresa apretando el abdomen."
+  ],
+  "alt": "Rueda abdominal",
+  "fitwill": null,
+  "fedb": "Barbell_Ab_Rollout",
+  "keywords": [
+   "Barbell Ab Rollout",
+   "rollout barra"
+  ]
+ },
+ {
+  "id": "elevacion_cadera_rodillas",
+  "name": "Elevación de cadera con rodillas flexionadas",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, manos a los lados y rodillas al pecho.",
+   "Sube la cadera del piso contrayendo el abdomen.",
+   "Baja lento sin soltar la cadera de golpe."
+  ],
+  "alt": "Elevación de rodillas colgado",
+  "fitwill": null,
+  "fedb": "Bent-Knee_Hip_Raise",
+  "keywords": [
+   "Bent-Knee Hip Raise",
+   "bent knee hip raise",
+   "elevacion cadera"
+  ]
+ },
+ {
+  "id": "crunch_inverso_piso",
+  "name": "Crunch inverso en piso",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, rodillas al pecho y manos al piso.",
+   "Sube la pelvis del piso enrollando el abdomen.",
+   "Baja lento sin patear con las piernas."
+  ],
+  "alt": "Crunch declinado",
+  "fitwill": null,
+  "fedb": "Reverse_Crunch",
+  "keywords": [
+   "Reverse Crunch",
+   "crunch inverso"
+  ]
+ },
+ {
+  "id": "giro_ruso_polea",
+  "name": "Giro ruso en polea",
+  "group": "Abdomen",
+  "primary": [
+   "oblicuos"
+  ],
+  "secondary": [
+   "abdomen"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Sentado de lado a la polea, cuerda con las dos manos.",
+   "Gira el torso hacia un lado sin mover la cadera.",
+   "Regresa controlado y cambia de lado."
+  ],
+  "alt": "Giros rusos",
+  "fitwill": null,
+  "fedb": "Cable_Russian_Twists",
+  "keywords": [
+   "Cable Russian Twists",
+   "giro ruso cable"
+  ]
+ },
+ {
+  "id": "dead_bug",
+  "name": "Dead bug (bicho muerto)",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Espalda plana en el piso, brazos y piernas arriba.",
+   "Extiende brazo y pierna opuestos sin arquear la espalda.",
+   "Regresa y cambia de lado despacio."
+  ],
+  "alt": "Plancha",
+  "fitwill": null,
+  "fedb": "Dead_Bug",
+  "keywords": [
+   "Dead Bug",
+   "bicho muerto"
+  ]
+ },
+ {
+  "id": "flexion_lateral_mancuerna",
+  "name": "Flexión lateral con mancuerna",
+  "group": "Abdomen",
+  "primary": [
+   "oblicuos"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "De pie, mancuerna en una mano, pies separados.",
+   "Baja de lado sin girar el torso.",
+   "Sube contrayendo el costado, no con el brazo."
+  ],
+  "alt": "Plancha de lado",
+  "fitwill": null,
+  "fedb": "Dumbbell_Side_Bend",
+  "keywords": [
+   "Dumbbell Side Bend",
+   "flexion lateral"
+  ]
+ },
+ {
+  "id": "elevacion_piernas_banco",
+  "name": "Elevación de piernas acostado en banco",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Acostado en banco, manos sujetando el borde.",
+   "Sube las piernas rectas hasta 90°.",
+   "Baja lento sin tocar el piso."
+  ],
+  "alt": "Elevación de piernas en silla romana",
+  "fitwill": null,
+  "fedb": "Flat_Bench_Lying_Leg_Raise",
+  "keywords": [
+   "Flat Bench Lying Leg Raise",
+   "elevacion piernas banco"
+  ]
+ },
+ {
+  "id": "molino_kettlebell",
+  "name": "Molino con kettlebell",
+  "group": "Abdomen",
+  "primary": [
+   "oblicuos"
+  ],
+  "secondary": [
+   "abdomen",
+   "hombro_frontal"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Kettlebell arriba, pie al lado de la pesa.",
+   "Baja la mano hacia el pie girando la cadera.",
+   "Sube sin soltar el brazo que sostiene la pesa."
+  ],
+  "alt": "Giros rusos",
+  "fitwill": null,
+  "fedb": "Kettlebell_Windmill",
+  "keywords": [
+   "Kettlebell Windmill",
+   "molino kettlebell"
+  ]
+ },
+ {
+  "id": "crunch_oblicuo_piso",
+  "name": "Crunch oblicuo en piso",
+  "group": "Abdomen",
+  "primary": [
+   "oblicuos"
+  ],
+  "secondary": [
+   "abdomen"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, manos atrás de la cabeza.",
+   "Sube el hombro hacia la cadera contraria.",
+   "Baja lento sin jalar el cuello."
+  ],
+  "alt": "Giros rusos",
+  "fitwill": null,
+  "fedb": "Oblique_Crunches_-_On_The_Floor",
+  "keywords": [
+   "Oblique Crunches - On The Floor",
+   "oblique crunches floor",
+   "crunch oblicuo"
+  ]
+ },
+ {
+  "id": "plancha_lateral",
+  "name": "Plancha lateral",
+  "group": "Abdomen",
+  "primary": [
+   "oblicuos"
+  ],
+  "secondary": [
+   "abdomen",
+   "hombro_lateral"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Apóyate en el antebrazo, cuerpo en línea recta.",
+   "Levanta la cadera sin dejarla caer.",
+   "Aguanta el tiempo indicado y cambia de lado."
+  ],
+  "alt": "Plancha",
+  "fitwill": null,
+  "fedb": "Side_Bridge",
+  "keywords": [
+   "Side Bridge",
+   "plancha de lado"
+  ]
+ },
+ {
+  "id": "hachazo_polea",
+  "name": "Hachazo en polea",
+  "group": "Abdomen",
+  "primary": [
+   "oblicuos"
+  ],
+  "secondary": [
+   "abdomen",
+   "hombro_frontal"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De lado a la polea alta, brazos rectos.",
+   "Baja el mango en diagonal girando el torso.",
+   "Regresa controlado sin soltar la cadera."
+  ],
+  "alt": "Press Pallof en polea",
+  "fitwill": null,
+  "fedb": "Standing_Cable_Wood_Chop",
+  "keywords": [
+   "Standing Cable Wood Chop",
+   "wood chop polea"
+  ]
+ },
+ {
+  "id": "crunch_balon_medicinal",
+  "name": "Crunch con balón medicinal",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [
+   "oblicuos"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, balón sujeto al pecho con las dos manos.",
+   "Enrolla el torso sin jalar con los brazos.",
+   "Baja lento sin dejar caer la cabeza."
+  ],
+  "alt": "Crunch en máquina abdominal",
+  "fitwill": null,
+  "fedb": "Weighted_Crunches",
+  "keywords": [
+   "Weighted Crunches",
+   "crunch balon"
+  ]
+ },
+ {
+  "id": "sit_up",
+  "name": "Abdominal completo (sit-up)",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pies sujetos o flexionados, manos cruzadas al pecho.",
+   "Sube el torso hasta quedar sentado.",
+   "Baja lento sin soltar el cuello."
+  ],
+  "alt": "Crunch en el piso",
+  "fitwill": null,
+  "fedb": "Sit-Up",
+  "keywords": [
+   "Sit-Up",
+   "sit ups",
+   "abdominal sit up"
+  ]
+ },
+ {
+  "id": "giro_landmine",
+  "name": "Giro con barra landmine",
+  "group": "Abdomen",
+  "primary": [
+   "oblicuos"
+  ],
+  "secondary": [
+   "abdomen",
+   "hombro_frontal"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en el landmine, sostenla al pecho.",
+   "Gira el torso de lado a lado en arco.",
+   "Mantén la cadera mirando al frente."
+  ],
+  "alt": "Giros rusos",
+  "fitwill": null,
+  "fedb": "Landmine_180s",
+  "keywords": [
+   "Landmine 180's",
+   "landmine 180s",
+   "landmine rotation"
+  ]
+ },
+ {
+  "id": "levantamiento_polea_diagonal",
+  "name": "Levantamiento diagonal en polea",
+  "group": "Abdomen",
+  "primary": [
+   "oblicuos"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Polea baja a un lado, agarre con las dos manos.",
+   "Sube en diagonal hacia el hombro contrario.",
+   "Baja controlado sin soltar la rotación."
+  ],
+  "alt": "Hachazo en polea",
+  "fitwill": null,
+  "fedb": "Standing_Cable_Lift",
+  "keywords": [
+   "Standing Cable Lift",
+   "levantamiento diagonal polea"
+  ]
+ },
+ {
+  "id": "crunch_piso_clasico",
+  "name": "Abdominales en piso (crunch)",
+  "group": "Abdomen",
+  "primary": [
+   "abdomen"
+  ],
+  "secondary": [],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, rodillas flexionadas y manos junto a la cabeza.",
+   "Sube los hombros del piso enrollando el abdomen.",
+   "Baja lento sin jalar el cuello."
+  ],
+  "alt": "Crunch en polea (de rodillas)",
+  "fitwill": null,
+  "fedb": "Crunches",
+  "keywords": [
+   "Crunches",
+   "crunch clasico",
+   "abdominales"
+  ]
+ },
+ {
+  "id": "sentadilla_frontal",
+  "name": "Sentadilla frontal con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra sobre los deltoides, codos arriba.",
+   "Baja con el torso erguido hasta romper paralelo.",
+   "Empuja el piso y sube sin dejar caer los codos."
+  ],
+  "alt": "Sentadilla con barra",
+  "fitwill": null,
+  "fedb": "Front_Barbell_Squat",
+  "keywords": [
+   "Front Barbell Squat",
+   "front squat",
+   "sentadilla al frente"
+  ]
+ },
+ {
+  "id": "zancada_barra",
+  "name": "Zancada con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en trapecios, paso largo al frente.",
+   "Baja la rodilla trasera casi al piso.",
+   "Empuja con el talón delantero para subir."
+  ],
+  "alt": "Zancadas caminando con mancuernas",
+  "fitwill": null,
+  "fedb": "Barbell_Lunge",
+  "keywords": [
+   "Barbell Lunge",
+   "zancada barra"
+  ]
+ },
+ {
+  "id": "zancadas_caminando_barra",
+  "name": "Zancadas caminando con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en la espalda, da pasos largos.",
+   "Baja la rodilla trasera hacia el piso sin tocarlo.",
+   "Avanza con el siguiente paso."
+  ],
+  "alt": "Zancadas caminando con mancuernas",
+  "fitwill": null,
+  "fedb": "Barbell_Walking_Lunge",
+  "keywords": [
+   "Barbell Walking Lunge",
+   "zancadas barra"
+  ]
+ },
+ {
+  "id": "subida_banco_barra",
+  "name": "Subida al banco con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en la espalda, pie completo sobre el banco.",
+   "Sube empujando con el talón de arriba.",
+   "Baja controlado sin dejar caer la pierna."
+  ],
+  "alt": "Subida al cajón con mancuernas",
+  "fitwill": null,
+  "fedb": "Barbell_Step_Ups",
+  "keywords": [
+   "Barbell Step Ups",
+   "subida banco barra"
+  ]
+ },
+ {
+  "id": "sentadilla_cajon_barra",
+  "name": "Sentadilla a cajón con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Siéntate en el cajón sin relajar el cuerpo.",
+   "Empuja los pies al piso y sube.",
+   "Mantén el pecho arriba en cada repetición."
+  ],
+  "alt": "Sentadilla con barra",
+  "fitwill": null,
+  "fedb": "Box_Squat",
+  "keywords": [
+   "Box Squat",
+   "sentadilla cajon"
+  ]
+ },
+ {
+  "id": "sentadilla_pies_abiertos_barra",
+  "name": "Sentadilla de pies abiertos con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "aductores"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pies más anchos que los hombros, puntas afuera.",
+   "Baja la cadera entre las rodillas.",
+   "Empuja el piso sin redondear la espalda."
+  ],
+  "alt": "Sentadilla con barra",
+  "fitwill": null,
+  "fedb": "Wide_Stance_Barbell_Squat",
+  "keywords": [
+   "Wide Stance Barbell Squat",
+   "sentadilla sumo barra"
+  ]
+ },
+ {
+  "id": "extension_una_pierna",
+  "name": "Extensión de cuádriceps a una pierna",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Ajusta el rodillo en el tobillo de la pierna que trabajas.",
+   "Extiende la rodilla sin levantar la cadera.",
+   "Baja lento y controla el peso."
+  ],
+  "alt": "Extensión de cuádriceps",
+  "fitwill": null,
+  "fedb": "Single-Leg_Leg_Extension",
+  "keywords": [
+   "Single-Leg Leg Extension",
+   "single leg leg extension",
+   "extension una pierna"
+  ]
+ },
+ {
+  "id": "prensa_pies_juntos",
+  "name": "Prensa de piernas con pies juntos",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pies juntos y al centro de la plataforma.",
+   "Baja hasta 90° en la rodilla sin levantar la cadera.",
+   "Empuja con todo el pie sin bloquear la rodilla."
+  ],
+  "alt": "Prensa de piernas 45°",
+  "fitwill": null,
+  "fedb": "Narrow_Stance_Leg_Press",
+  "keywords": [
+   "Narrow Stance Leg Press",
+   "prensa pies juntos"
+  ]
+ },
+ {
+  "id": "sentadilla_maquina_acostado",
+  "name": "Sentadilla en máquina acostado",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Acostado, espalda y cadera firmes en el respaldo.",
+   "Baja las rodillas hacia el pecho con control.",
+   "Empuja con las plantas para extender."
+  ],
+  "alt": "Prensa de piernas 45°",
+  "fitwill": null,
+  "fedb": "Lying_Machine_Squat",
+  "keywords": [
+   "Lying Machine Squat",
+   "sentadilla maquina acostado"
+  ]
+ },
+ {
+  "id": "sentadilla_silla",
+  "name": "Sentadilla a silla",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pies separados, siéntate apenas toques la silla.",
+   "Empuja el piso para ponerte de pie.",
+   "Mantén el pecho arriba y la rodilla sobre el pie."
+  ],
+  "alt": "Sentadilla libre (peso corporal)",
+  "fitwill": null,
+  "fedb": "Chair_Squat",
+  "keywords": [
+   "Chair Squat",
+   "sentadilla silla"
+  ]
+ },
+ {
+  "id": "sentadilla_libre",
+  "name": "Sentadilla libre (peso corporal)",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pies al ancho de hombros, puntas un poco afuera.",
+   "Baja la cadera como si fueras a sentarte.",
+   "Sube empujando el piso sin perder la postura."
+  ],
+  "alt": "Sentadilla goblet",
+  "fitwill": null,
+  "fedb": "Bodyweight_Squat",
+  "keywords": [
+   "Bodyweight Squat",
+   "sentadilla peso corporal"
+  ]
+ },
+ {
+  "id": "subida_cajon_mancuernas",
+  "name": "Subida al cajón con mancuernas",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Mancuernas a los lados, pie completo sobre el cajón.",
+   "Sube empujando con el talón de arriba.",
+   "Baja despacio controlando la pierna de abajo."
+  ],
+  "alt": "Zancadas caminando con mancuernas",
+  "fitwill": null,
+  "fedb": "Dumbbell_Step_Ups",
+  "keywords": [
+   "Dumbbell Step Ups",
+   "subida cajon mancuernas"
+  ]
+ },
+ {
+  "id": "sentadilla_banco_mancuernas",
+  "name": "Sentadilla a banco con mancuernas",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Mancuernas a los lados, siéntate en el banco.",
+   "Toca el banco sin descansar y empuja arriba.",
+   "Mantén la espalda recta en todo el movimiento."
+  ],
+  "alt": "Sentadilla goblet",
+  "fitwill": null,
+  "fedb": "Dumbbell_Squat_To_A_Bench",
+  "keywords": [
+   "Dumbbell Squat To A Bench",
+   "sentadilla banco mancuernas"
+  ]
+ },
+ {
+  "id": "bulgara_smith",
+  "name": "Sentadilla búlgara en Smith",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Smith",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pie trasero sobre el banco, barra en el Smith.",
+   "Baja la rodilla delantera en línea con el pie.",
+   "Empuja con el talón delantero para subir."
+  ],
+  "alt": "Sentadilla búlgara con mancuernas",
+  "fitwill": null,
+  "fedb": "Smith_Single-Leg_Split_Squat",
+  "keywords": [
+   "Smith Single-Leg Split Squat",
+   "smith single leg split squat",
+   "bulgara smith"
+  ]
+ },
+ {
+  "id": "sentadilla_banda",
+  "name": "Sentadilla con banda",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banda bajo los pies y sobre los hombros.",
+   "Baja la cadera controlando la banda.",
+   "Sube empujando con los pies bien apoyados."
+  ],
+  "alt": "Sentadilla goblet",
+  "fitwill": null,
+  "fedb": "Squat_with_Bands",
+  "keywords": [
+   "Squat with Bands",
+   "sentadilla con bandas"
+  ]
+ },
+ {
+  "id": "sentadilla_zercher",
+  "name": "Sentadilla Zercher",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "lumbar"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en la flexión de codos, al frente del cuerpo.",
+   "Baja manteniendo el torso erguido.",
+   "Sube empujando el piso sin soltar la barra."
+  ],
+  "alt": "Sentadilla frontal con barra",
+  "fitwill": null,
+  "fedb": "Zercher_Squats",
+  "keywords": [
+   "Zercher Squats",
+   "zercher squat",
+   "sentadilla zercher"
+  ]
+ },
+ {
+  "id": "sentadilla_sumo_mancuerna",
+  "name": "Sentadilla sumo con mancuerna",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "aductores"
+  ],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pies abiertos, puntas afuera, mancuerna al centro.",
+   "Baja la cadera manteniendo el pecho arriba.",
+   "Sube empujando y aprieta los glúteos."
+  ],
+  "alt": "Sentadilla goblet",
+  "fitwill": null,
+  "fedb": "Plie_Dumbbell_Squat",
+  "keywords": [
+   "Plie Dumbbell Squat",
+   "sentadilla plie"
+  ]
+ },
+ {
+  "id": "sentadilla_frontal_kettlebells",
+  "name": "Sentadilla frontal con kettlebells",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Kettlebells en los hombros, codos arriba.",
+   "Baja en sentadilla con el torso erguido.",
+   "Sube empujando el piso sin soltar las pesas."
+  ],
+  "alt": "Sentadilla goblet",
+  "fitwill": null,
+  "fedb": "Front_Squats_With_Two_Kettlebells",
+  "keywords": [
+   "Front Squats With Two Kettlebells",
+   "front squats two kettlebells",
+   "sentadilla kettlebells"
+  ]
+ },
+ {
+  "id": "zancada_suspendida",
+  "name": "Zancada suspendida (TRX)",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Pie trasero en la correa, pie delantero firme.",
+   "Baja la rodilla delantera en línea con el pie.",
+   "Sube empujando con el talón delantero."
+  ],
+  "alt": "Zancada hacia atrás con mancuernas",
+  "fitwill": null,
+  "fedb": "Suspended_Split_Squat",
+  "keywords": [
+   "Suspended Split Squat",
+   "trx split squat"
+  ]
+ },
+ {
+  "id": "zancadas_caminando_libre",
+  "name": "Zancadas caminando sin peso",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Da un paso largo y baja la rodilla trasera.",
+   "Mantén el torso erguido y el pie delantero firme.",
+   "Avanza al siguiente paso alternando piernas."
+  ],
+  "alt": "Zancadas caminando con mancuernas",
+  "fitwill": null,
+  "fedb": "Bodyweight_Walking_Lunge",
+  "keywords": [
+   "Bodyweight Walking Lunge",
+   "zancadas sin peso"
+  ]
+ },
+ {
+  "id": "sentadilla_hack_barra",
+  "name": "Sentadilla hack con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra detrás de los muslos, espalda pegada al soporte.",
+   "Baja controlado sin perder la postura.",
+   "Empuja arriba sin rebotar."
+  ],
+  "alt": "Sentadilla hack en máquina",
+  "fitwill": null,
+  "fedb": "Barbell_Hack_Squat",
+  "keywords": [
+   "Barbell Hack Squat",
+   "hack squat barra"
+  ]
+ },
+ {
+  "id": "zancada_trasera_elevada_barra",
+  "name": "Zancada trasera elevada con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pie trasero sobre el banco, barra en la espalda.",
+   "Baja la rodilla delantera sin pasar la punta del pie.",
+   "Empuja con el talón delantero para subir."
+  ],
+  "alt": "Sentadilla búlgara con mancuernas",
+  "fitwill": null,
+  "fedb": "Elevated_Back_Lunge",
+  "keywords": [
+   "Elevated Back Lunge",
+   "zancada trasera barra"
+  ]
+ },
+ {
+  "id": "sentadilla_lateral_barra",
+  "name": "Sentadilla lateral con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "aductores",
+   "gluteo"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en la espalda, pies en paralelo y uno al lado.",
+   "Baja la cadera a un lado flexionando una pierna.",
+   "Empuja para volver al centro."
+  ],
+  "alt": "Sentadilla de pies abiertos con barra",
+  "fitwill": null,
+  "fedb": "Barbell_Side_Split_Squat",
+  "keywords": [
+   "Barbell Side Split Squat",
+   "sentadilla lateral"
+  ]
+ },
+ {
+  "id": "sentadilla_banco_barra",
+  "name": "Sentadilla a banco con barra",
+  "group": "Cuádriceps",
+  "primary": [
+   "cuadriceps"
+  ],
+  "secondary": [
+   "gluteo",
+   "femoral"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en la espalda, siéntate en el banco.",
+   "Toca el banco sin descansar y empuja arriba.",
+   "Mantén el pecho alto y la espalda neutra."
+  ],
+  "alt": "Sentadilla con barra",
+  "fitwill": null,
+  "fedb": "Barbell_Squat_To_A_Bench",
+  "keywords": [
+   "Barbell Squat To A Bench",
+   "sentadilla banco barra"
+  ]
+ },
+ {
+  "id": "curl_femoral_pie",
+  "name": "Curl femoral de pie en máquina",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral"
+  ],
+  "secondary": [],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Rodillo sobre el tobillo, cadera apoyada.",
+   "Flexiona la rodilla sin levantar la cadera.",
+   "Baja lento sin soltar la tensión."
+  ],
+  "alt": "Curl femoral sentado",
+  "fitwill": null,
+  "fedb": "Standing_Leg_Curl",
+  "keywords": [
+   "Standing Leg Curl",
+   "curl femoral maquina de pie"
+  ]
+ },
+ {
+  "id": "curl_femoral_balon",
+  "name": "Curl femoral en balón",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Talones sobre el balón, cadera arriba.",
+   "Jala el balón hacia los glúteos.",
+   "Estira las piernas sin bajar la cadera."
+  ],
+  "alt": "Curl femoral deslizando (con toalla)",
+  "fitwill": null,
+  "fedb": "Ball_Leg_Curl",
+  "keywords": [
+   "Ball Leg Curl",
+   "curl femoral balon"
+  ]
+ },
+ {
+  "id": "glute_ham_maquina",
+  "name": "Elevación glúteo-femoral en máquina",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Rodillas en el soporte, pies fijos en la plataforma.",
+   "Baja el torso controlando con los femorales.",
+   "Sube con los femorales, sin usar la espalda."
+  ],
+  "alt": "Curl femoral sentado",
+  "fitwill": null,
+  "fedb": "Glute_Ham_Raise",
+  "keywords": [
+   "Glute Ham Raise",
+   "ghr",
+   "elevacion glute ham"
+  ]
+ },
+ {
+  "id": "curl_nordico",
+  "name": "Curl nórdico",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Rodillas fijas, cuerpo recto de cabeza a rodillas.",
+   "Baja el torso lento con los femorales.",
+   "Frena con las manos y regresa si no controlas."
+  ],
+  "alt": "Curl femoral acostado",
+  "fitwill": null,
+  "fedb": "Natural_Glute_Ham_Raise",
+  "keywords": [
+   "Natural Glute Ham Raise",
+   "nordic curl",
+   "curl nordico"
+  ]
+ },
+ {
+  "id": "hiperextension_invertida_maquina",
+  "name": "Hiperextensión invertida en máquina",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral",
+   "gluteo"
+  ],
+  "secondary": [
+   "lumbar"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Cadera sobre la plataforma, agarre firme.",
+   "Sube la pierna hacia atrás con glúteo y femoral.",
+   "Baja lento sin balancear el torso."
+  ],
+  "alt": "Hiperextensión lumbar",
+  "fitwill": null,
+  "fedb": "Reverse_Hyperextension",
+  "keywords": [
+   "Reverse Hyperextension",
+   "hiperextension invertida"
+  ]
+ },
+ {
+  "id": "peso_muerto_rumano_smith",
+  "name": "Peso muerto rumano en Smith",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral"
+  ],
+  "secondary": [
+   "gluteo",
+   "lumbar"
+  ],
+  "equipment": "Smith",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en el Smith a la altura de la cadera.",
+   "Baja la barra con rodillas leves y espalda plana.",
+   "Sube apretando glúteos y femorales."
+  ],
+  "alt": "Peso muerto rumano con barra",
+  "fitwill": null,
+  "fedb": "Smith_Machine_Stiff-Legged_Deadlift",
+  "keywords": [
+   "Smith Machine Stiff-Legged Deadlift",
+   "smith machine stiff legged deadlift",
+   "rumano smith"
+  ]
+ },
+ {
+  "id": "buenos_dias_banda",
+  "name": "Buenos días con banda",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral"
+  ],
+  "secondary": [
+   "gluteo",
+   "lumbar"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banda bajo los pies, sujeta a los hombros.",
+   "Bisagra de cadera con la espalda plana.",
+   "Sube apretando los glúteos."
+  ],
+  "alt": "Buenos días con barra",
+  "fitwill": null,
+  "fedb": "Band_Good_Morning",
+  "keywords": [
+   "Band Good Morning",
+   "buenos dias banda"
+  ]
+ },
+ {
+  "id": "peso_muerto_sumo",
+  "name": "Peso muerto sumo con barra",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral",
+   "gluteo"
+  ],
+  "secondary": [
+   "aductores",
+   "lumbar",
+   "cuadriceps"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pies muy abiertos, puntas afuera, agarre por dentro de las rodillas.",
+   "Pecho arriba y espalda neutra al tomar la barra.",
+   "Empuja el piso y extiende cadera y rodillas juntas."
+  ],
+  "alt": "Peso muerto con barra",
+  "fitwill": null,
+  "fedb": "Sumo_Deadlift",
+  "keywords": [
+   "Sumo Deadlift",
+   "peso muerto sumo"
+  ]
+ },
+ {
+  "id": "peso_muerto_deficit",
+  "name": "Peso muerto desde plataforma (déficit)",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral",
+   "gluteo"
+  ],
+  "secondary": [
+   "lumbar"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Párate sobre un disco o plataforma, barra más baja.",
+   "Empuja el piso con las piernas al inicio.",
+   "Bloquea la cadera arriba sin hiperextender."
+  ],
+  "alt": "Peso muerto con barra",
+  "fitwill": null,
+  "fedb": "Deficit_Deadlift",
+  "keywords": [
+   "Deficit Deadlift",
+   "peso muerto deficit"
+  ]
+ },
+ {
+  "id": "swing_kettlebell_una_mano",
+  "name": "Swing con kettlebell a una mano",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral",
+   "gluteo"
+  ],
+  "secondary": [
+   "hombro_frontal"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Bisagra de cadera, kettlebell entre las piernas.",
+   "Impulsa con la cadera hasta subir la pesa al pecho.",
+   "Deja que la pesa baje sin ayudarla con el brazo."
+  ],
+  "alt": "Puente de glúteo con barra",
+  "fitwill": null,
+  "fedb": "One-Arm_Kettlebell_Swings",
+  "keywords": [
+   "One-Arm Kettlebell Swings",
+   "one arm kettlebell swings",
+   "swing kettlebell"
+  ]
+ },
+ {
+  "id": "pull_through_polea",
+  "name": "Pull-through en polea",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [
+   "femoral",
+   "lumbar"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "De espaldas a la polea baja, cuerda entre las piernas.",
+   "Haz bisagra y empuja la cadera al frente.",
+   "Regresa controlando sin usar los brazos."
+  ],
+  "alt": "Patada de glúteo en polea",
+  "fitwill": null,
+  "fedb": "Pull_Through",
+  "keywords": [
+   "Pull Through",
+   "pull through cable"
+  ]
+ },
+ {
+  "id": "peso_muerto_maquina",
+  "name": "Peso muerto en máquina",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral",
+   "gluteo"
+  ],
+  "secondary": [
+   "cuadriceps",
+   "lumbar"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Pies en la plataforma, agarra las manijas.",
+   "Empuja con piernas y cadera al mismo tiempo.",
+   "Baja lento controlando el peso."
+  ],
+  "alt": "Peso muerto rumano con mancuernas",
+  "fitwill": null,
+  "fedb": "Leverage_Deadlift",
+  "keywords": [
+   "Leverage Deadlift",
+   "peso muerto maquina"
+  ]
+ },
+ {
+  "id": "peso_muerto_hexagonal",
+  "name": "Peso muerto con barra hexagonal",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "cuadriceps",
+   "gluteo"
+  ],
+  "secondary": [
+   "femoral",
+   "lumbar"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Parado dentro de la barra hexagonal, pecho arriba.",
+   "Empuja el piso con las piernas.",
+   "Sube hasta extender cadera y rodillas."
+  ],
+  "alt": "Peso muerto con barra",
+  "fitwill": null,
+  "fedb": "Trap_Bar_Deadlift",
+  "keywords": [
+   "Trap Bar Deadlift",
+   "peso muerto hexagonal"
+  ]
+ },
+ {
+  "id": "puente_gluteo_una_pierna",
+  "name": "Puente de glúteo a una pierna",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [
+   "femoral"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, una pierna flexionada y la otra estirada.",
+   "Sube la cadera apretando el glúteo.",
+   "Baja lento sin tocar el piso."
+  ],
+  "alt": "Puente de glúteo con barra",
+  "fitwill": null,
+  "fedb": "Single_Leg_Glute_Bridge",
+  "keywords": [
+   "Single Leg Glute Bridge",
+   "puente gluteo una pierna"
+  ]
+ },
+ {
+  "id": "puente_gluteo_balon",
+  "name": "Puente de glúteo en balón",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [
+   "femoral"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Espalda alta sobre el balón, pies firmes.",
+   "Sube la cadera hasta alinear rodilla y hombro.",
+   "Aprieta el glúteo arriba un segundo."
+  ],
+  "alt": "Puente de glúteo con barra",
+  "fitwill": null,
+  "fedb": "Physioball_Hip_Bridge",
+  "keywords": [
+   "Physioball Hip Bridge",
+   "puente balon"
+  ]
+ },
+ {
+  "id": "puente_gluteo_piso",
+  "name": "Puente de glúteo en piso (butt lift)",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [
+   "femoral"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado, pies en el piso y rodillas flexionadas.",
+   "Sube la cadera apretando los glúteos arriba.",
+   "Baja controlado sin arquear la espalda."
+  ],
+  "alt": "Puente de glúteo con barra",
+  "fitwill": null,
+  "fedb": "Butt_Lift_Bridge",
+  "keywords": [
+   "Butt Lift (Bridge)",
+   "butt lift",
+   "bridge",
+   "puente gluteo"
+  ]
+ },
+ {
+  "id": "extension_cadera_banda",
+  "name": "Extensión de cadera con banda",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [
+   "femoral"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banda anclada abajo, pie dentro del lazo.",
+   "Empuja la pierna atrás sin arquear la espalda.",
+   "Regresa lento sin balancear el torso."
+  ],
+  "alt": "Patada de glúteo en polea",
+  "fitwill": null,
+  "fedb": "Hip_Extension_with_Bands",
+  "keywords": [
+   "Hip Extension with Bands",
+   "extension cadera elastico"
+  ]
+ },
+ {
+  "id": "elevacion_cadera_banda",
+  "name": "Elevación de cadera con banda",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [
+   "femoral"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banda sobre la pelvis, sujeta con las manos.",
+   "Sube la cadera apretando los glúteos.",
+   "Baja lento sin soltar la banda."
+  ],
+  "alt": "Puente de glúteo con barra",
+  "fitwill": null,
+  "fedb": "Hip_Lift_with_Band",
+  "keywords": [
+   "Hip Lift with Band",
+   "elevacion cadera elastico"
+  ]
+ },
+ {
+  "id": "patada_gluteo_cuadrupedia",
+  "name": "Patada de glúteo en cuadrupedia",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [
+   "femoral"
+  ],
+  "equipment": "Peso corporal",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "En cuatro apoyos, espalda neutra.",
+   "Empuja el pie hacia atrás y arriba sin arquear.",
+   "Regresa controlado sin tocar el piso."
+  ],
+  "alt": "Patada de glúteo en polea",
+  "fitwill": null,
+  "fedb": "Glute_Kickback",
+  "keywords": [
+   "Glute Kickback",
+   "patada gluteo"
+  ]
+ },
+ {
+  "id": "abduccion_maquina",
+  "name": "Abducción de cadera en máquina",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Sentado con las rodillas en los pads, espalda recta.",
+   "Abre las piernas lento contrayendo el glúteo lateral.",
+   "Cierra controlando el peso."
+  ],
+  "alt": "Caminata lateral con banda",
+  "fitwill": null,
+  "fedb": "Thigh_Abductor",
+  "keywords": [
+   "Thigh Abductor",
+   "abduccion maquina",
+   "abductores maquina"
+  ]
+ },
+ {
+  "id": "caminata_lateral_banda",
+  "name": "Caminata lateral con banda",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "gluteo"
+  ],
+  "secondary": [],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banda en los tobillos o rodillas, medio sentadilla.",
+   "Da pasos laterales manteniendo la tensión.",
+   "No juntes los pies, mantén la postura."
+  ],
+  "alt": "Abducción de cadera en máquina",
+  "fitwill": null,
+  "fedb": "Monster_Walk",
+  "keywords": [
+   "Monster Walk",
+   "caminata lateral banda"
+  ]
+ },
+ {
+  "id": "aduccion_polea",
+  "name": "Aducción de cadera en polea",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "aductores"
+  ],
+  "secondary": [],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Tobillo en la polea, de lado y sujeta el soporte.",
+   "Cruza la pierna hacia el centro del cuerpo.",
+   "Regresa lento sin inclinar el torso."
+  ],
+  "alt": "Aducción de cadera en máquina",
+  "fitwill": null,
+  "fedb": "Cable_Hip_Adduction",
+  "keywords": [
+   "Cable Hip Adduction",
+   "aduccion polea"
+  ]
+ },
+ {
+  "id": "aduccion_maquina",
+  "name": "Aducción de cadera en máquina",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "aductores"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Sentado con las rodillas en los pads.",
+   "Cierra las piernas apretando el aductor.",
+   "Regresa lento sin soltar la tensión."
+  ],
+  "alt": "Aducción de cadera en polea",
+  "fitwill": null,
+  "fedb": "Thigh_Adductor",
+  "keywords": [
+   "Thigh Adductor",
+   "aductores maquina",
+   "aduccion maquina"
+  ]
+ },
+ {
+  "id": "aduccion_banda",
+  "name": "Aducción de cadera con banda",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "aductores"
+  ],
+  "secondary": [],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banda entre las rodillas o tobillos, de lado.",
+   "Junta las piernas contra la resistencia.",
+   "Regresa lento sin perder la tensión."
+  ],
+  "alt": "Aducción de cadera en polea",
+  "fitwill": null,
+  "fedb": "Band_Hip_Adductions",
+  "keywords": [
+   "Band Hip Adductions",
+   "aduccion banda"
+  ]
+ },
+ {
+  "id": "deslizar_isquios_plataforma",
+  "name": "Deslizamiento de isquiotibiales en plataforma",
+  "group": "Femoral y glúteo",
+  "primary": [
+   "femoral"
+  ],
+  "secondary": [
+   "gluteo"
+  ],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Talones sobre una toalla o plataforma, piernas rectas.",
+   "Desliza los talones hacia ti flexionando la rodilla.",
+   "Empuja de vuelta sin subir la cadera."
+  ],
+  "alt": "Curl femoral deslizando (con toalla)",
+  "fitwill": null,
+  "fedb": "Platform_Hamstring_Slides",
+  "keywords": [
+   "Platform Hamstring Slides",
+   "deslizamiento isquiotibiales"
+  ]
+ },
+ {
+  "id": "talones_maquina_pie",
+  "name": "Elevación de talones de pie en máquina",
+  "group": "Pantorrilla",
+  "primary": [
+   "pantorrilla"
+  ],
+  "secondary": [],
+  "equipment": "Máquina",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Hombros bajo los pads, puntas en la plataforma.",
+   "Sube lo más alto posible sin rebotar.",
+   "Baja hasta sentir el estiramiento."
+  ],
+  "alt": "Elevación de talones sentado",
+  "fitwill": null,
+  "fedb": "Standing_Calf_Raises",
+  "keywords": [
+   "Standing Calf Raises",
+   "standing calf raises machine",
+   "talones de pie maquina"
+  ]
+ },
+ {
+  "id": "talones_mancuernas_pie",
+  "name": "Elevación de talones de pie con mancuernas",
+  "group": "Pantorrilla",
+  "primary": [
+   "pantorrilla"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Mancuernas a los lados, puntas en un escalón.",
+   "Sube lo más alto que puedas.",
+   "Baja lento hasta sentir el estiramiento."
+  ],
+  "alt": "Elevación de talón a una pierna",
+  "fitwill": null,
+  "fedb": "Standing_Dumbbell_Calf_Raise",
+  "keywords": [
+   "Standing Dumbbell Calf Raise",
+   "talones mancuernas"
+  ]
+ },
+ {
+  "id": "talon_sentado_mancuerna",
+  "name": "Elevación de talón sentado a una pierna",
+  "group": "Pantorrilla",
+  "primary": [
+   "pantorrilla"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Sentado, mancuerna sobre la rodilla.",
+   "Sube el talón lo más alto posible.",
+   "Baja lento hasta estirar la pantorrilla."
+  ],
+  "alt": "Elevación de talones sentado",
+  "fitwill": null,
+  "fedb": "Dumbbell_Seated_One-Leg_Calf_Raise",
+  "keywords": [
+   "Dumbbell Seated One-Leg Calf Raise",
+   "seated one leg calf raise",
+   "talon sentado una pierna"
+  ]
+ },
+ {
+  "id": "talones_banda",
+  "name": "Elevación de talones con banda",
+  "group": "Pantorrilla",
+  "primary": [
+   "pantorrilla"
+  ],
+  "secondary": [],
+  "equipment": "Otro",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Banda bajo las puntas de los pies, sujeta arriba.",
+   "Sube el talón empujando contra la banda.",
+   "Baja lento sin perder la tensión."
+  ],
+  "alt": "Elevación de talón a una pierna",
+  "fitwill": null,
+  "fedb": "Calf_Raises_-_With_Bands",
+  "keywords": [
+   "Calf Raises - With Bands",
+   "calf raises with bands",
+   "talones banda"
+  ]
+ },
+ {
+  "id": "talon_escalon_mancuerna",
+  "name": "Elevación de talones en escalón con mancuerna",
+  "group": "Pantorrilla",
+  "primary": [
+   "pantorrilla"
+  ],
+  "secondary": [],
+  "equipment": "Mancuernas",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Una mancuerna en la mano, puntas en el escalón.",
+   "Sube en punta de pie y pausa arriba.",
+   "Baja hasta el estiramiento completo."
+  ],
+  "alt": "Elevación de talones de pie con mancuernas",
+  "fitwill": null,
+  "fedb": "Calf_Raise_On_A_Dumbbell",
+  "keywords": [
+   "Calf Raise On A Dumbbell",
+   "talon escalon"
+  ]
+ },
+ {
+  "id": "talones_balanceo",
+  "name": "Elevación de talones con balanceo",
+  "group": "Pantorrilla",
+  "primary": [
+   "pantorrilla"
+  ],
+  "secondary": [],
+  "equipment": "Barra",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Barra en los hombros, puntas en una plataforma.",
+   "Sube el talón y balancea el peso al frente.",
+   "Baja lento hasta sentir el estiramiento."
+  ],
+  "alt": "Elevación de talones de pie con barra",
+  "fitwill": null,
+  "fedb": "Rocking_Standing_Calf_Raise",
+  "keywords": [
+   "Rocking Standing Calf Raise",
+   "talones balanceo"
+  ]
  }
 ]
