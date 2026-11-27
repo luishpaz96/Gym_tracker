@@ -1,0 +1,110 @@
+[
+ {
+  "id": "pecho",
+  "name": "Pecho",
+  "view": "front",
+  "target_sets": 8
+ },
+ {
+  "id": "dorsales",
+  "name": "Dorsales",
+  "view": "back",
+  "target_sets": 8
+ },
+ {
+  "id": "espalda_media",
+  "name": "Espalda media",
+  "view": "back",
+  "target_sets": 7
+ },
+ {
+  "id": "lumbar",
+  "name": "Zona lumbar",
+  "view": "back",
+  "target_sets": 1
+ },
+ {
+  "id": "trapecio",
+  "name": "Trapecio",
+  "view": "back",
+  "target_sets": 4
+ },
+ {
+  "id": "hombro_frontal",
+  "name": "Hombro frontal",
+  "view": "front",
+  "target_sets": 6
+ },
+ {
+  "id": "hombro_lateral",
+  "name": "Hombro lateral",
+  "view": "both",
+  "target_sets": 4
+ },
+ {
+  "id": "hombro_posterior",
+  "name": "Hombro posterior",
+  "view": "back",
+  "target_sets": 3
+ },
+ {
+  "id": "biceps",
+  "name": "Bíceps",
+  "view": "front",
+  "target_sets": 6
+ },
+ {
+  "id": "triceps",
+  "name": "Tríceps",
+  "view": "back",
+  "target_sets": 6
+ },
+ {
+  "id": "antebrazo",
+  "name": "Antebrazo",
+  "view": "both",
+  "target_sets": 3
+ },
+ {
+  "id": "abdomen",
+  "name": "Abdomen",
+  "view": "front",
+  "target_sets": 6
+ },
+ {
+  "id": "oblicuos",
+  "name": "Oblicuos",
+  "view": "front",
+  "target_sets": 2
+ },
+ {
+  "id": "cuadriceps",
+  "name": "Cuádriceps",
+  "view": "front",
+  "target_sets": 8
+ },
+ {
+  "id": "femoral",
+  "name": "Femorales",
+  "view": "back",
+  "target_sets": 6
+ },
+ {
+  "id": "gluteo",
+  "name": "Glúteos",
+  "view": "back",
+  "target_sets": 6
+ },
+ {
+  "id": "aductores",
+  "name": "Aductores",
+  "view": "front",
+  "target_sets": 2
+ },
+ {
+  "id": "pantorrilla",
+  "name": "Pantorrillas",
+  "view": "back",
+  "target_sets": 3
+ }
+]

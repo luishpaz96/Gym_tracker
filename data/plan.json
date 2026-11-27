@@ -1,0 +1,2714 @@
+{
+ "start": "2026-10-19",
+ "days": {
+  "1": "Lunes",
+  "3": "Miércoles",
+  "5": "Viernes"
+ },
+ "phases": [
+  {
+   "id": "F1-S1",
+   "name": "Fase 1 · Adaptación · Semana 1",
+   "from": "2026-10-19",
+   "to": "2026-10-25",
+   "note": "RIR 4 → 2. Aprende la técnica.",
+   "cols": [
+    "S1"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Full Body A",
+     "exercises": [
+      {
+       "id": "prensa",
+       "reps": "12–15",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "jalon",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "12–15",
+       "sets": [
+        2
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "plancha",
+       "reps": "20–40 s",
+       "sets": [
+        2
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Full Body B",
+     "exercises": [
+      {
+       "id": "goblet",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "inclinado",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_m",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "laterales",
+       "reps": "12–15",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "curl",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Full Body A",
+     "exercises": [
+      {
+       "id": "prensa",
+       "reps": "12–15",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "jalon",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "12–15",
+       "sets": [
+        2
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "plancha",
+       "reps": "20–40 s",
+       "sets": [
+        2
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "F1-S2",
+   "name": "Fase 1 · Adaptación · Semana 2",
+   "from": "2026-10-26",
+   "to": "2026-11-01",
+   "note": "RIR 3.",
+   "cols": [
+    "S2"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Full Body B",
+     "exercises": [
+      {
+       "id": "goblet",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "inclinado",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_m",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "laterales",
+       "reps": "12–15",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "curl",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Full Body A",
+     "exercises": [
+      {
+       "id": "prensa",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "jalon",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "12–15",
+       "sets": [
+        2
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "plancha",
+       "reps": "20–40 s",
+       "sets": [
+        2
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Full Body B",
+     "exercises": [
+      {
+       "id": "goblet",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "inclinado",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_m",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "laterales",
+       "reps": "12–15",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "curl",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "F1-S3",
+   "name": "Fase 1 · Adaptación · Semana 3",
+   "from": "2026-11-02",
+   "to": "2026-11-08",
+   "note": "RIR 2–3.",
+   "cols": [
+    "S3"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Full Body A",
+     "exercises": [
+      {
+       "id": "prensa",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "jalon",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "plancha",
+       "reps": "20–40 s",
+       "sets": [
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Full Body B",
+     "exercises": [
+      {
+       "id": "goblet",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "inclinado",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_m",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "laterales",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "curl",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Full Body A",
+     "exercises": [
+      {
+       "id": "prensa",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "jalon",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "plancha",
+       "reps": "20–40 s",
+       "sets": [
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "F1-S4",
+   "name": "Fase 1 · Adaptación · Semana 4",
+   "from": "2026-11-09",
+   "to": "2026-11-15",
+   "note": "Mismas series que la semana 3.",
+   "cols": [
+    "S3"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Full Body B",
+     "exercises": [
+      {
+       "id": "goblet",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "inclinado",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_m",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "laterales",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "curl",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Full Body A",
+     "exercises": [
+      {
+       "id": "prensa",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "jalon",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "plancha",
+       "reps": "20–40 s",
+       "sets": [
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Full Body B",
+     "exercises": [
+      {
+       "id": "goblet",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "inclinado",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_m",
+       "reps": "10–12",
+       "sets": [
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "laterales",
+       "reps": "12–15",
+       "sets": [
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "curl",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        2
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "name": "Fase 2 · Construcción",
+   "from": "2026-11-16",
+   "to": "2026-12-20",
+   "note": "Subir cargas cada semana. RIR 3 → 1.",
+   "cols": [
+    "S5–6",
+    "S7–8",
+    "S9"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Pecho, tríceps y core",
+     "exercises": [
+      {
+       "id": "banca",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "incl_smith",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "aperturas",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "crunch_maq",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "silla_romana",
+       "reps": "10–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Pierna y hombro",
+     "exercises": [
+      {
+       "id": "sentadilla",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "prensa",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "talones_prensa",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "extension",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro_maq",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "12–15",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, trapecio y bíceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_b",
+       "reps": "6–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "remo_maq",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "facepull",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      },
+      {
+       "id": "encog_smith",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "curl_polea",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "martillo_polea",
+       "reps": "10–12",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "S10",
+   "name": "Semana 10 · Descarga navideña",
+   "from": "2026-12-21",
+   "to": "2026-12-27",
+   "note": "Descarga navideña: 3 días ligeros para recuperarte antes del cierre. El viernes es opcional. Usa las mismas series de la fase 2.",
+   "cols": [
+    "S5–6",
+    "S7–8",
+    "S9"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Pecho, tríceps y core",
+     "exercises": [
+      {
+       "id": "banca",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "incl_smith",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "aperturas",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "crunch_maq",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "silla_romana",
+       "reps": "10–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Pierna y hombro",
+     "exercises": [
+      {
+       "id": "sentadilla",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "prensa",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "talones_prensa",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "extension",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro_maq",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "12–15",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, trapecio y bíceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_b",
+       "reps": "6–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "remo_maq",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "facepull",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      },
+      {
+       "id": "encog_smith",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "curl_polea",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "martillo_polea",
+       "reps": "10–12",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "F3",
+   "name": "Fase 3 · Cierre y evaluación",
+   "from": "2026-12-28",
+   "to": "2027-01-10",
+   "note": "Igualar o superar la semana 9 y medir tu progreso. Semana 11: el viernes 1 de enero se hace el sábado 2. Semana 12: evaluación el viernes 8 de enero.",
+   "cols": [
+    "S5–6",
+    "S7–8",
+    "S9"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Pecho, tríceps y core",
+     "exercises": [
+      {
+       "id": "banca",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "incl_smith",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "pecho_maq",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "aperturas",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "crunch_maq",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "silla_romana",
+       "reps": "10–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Pierna y hombro",
+     "exercises": [
+      {
+       "id": "sentadilla",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "prensa",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "talones_prensa",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "extension",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro_maq",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "12–15",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, trapecio y bíceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_b",
+       "reps": "6–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "remo_maq",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "facepull",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      },
+      {
+       "id": "encog_smith",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "curl_polea",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "martillo_polea",
+       "reps": "10–12",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E2-B1-H",
+   "name": "Etapa 2 · Bloque 1 · Hipertrofia",
+   "from": "2027-01-11",
+   "to": "2027-03-07",
+   "note": "Más volumen con pesos moderados: construir la base de músculo. Semana 8 (descarga): 1 mar – 7 mar.",
+   "cols": [
+    "S1–2",
+    "S3–5",
+    "S6–7"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Pecho, tríceps y core",
+     "exercises": [
+      {
+       "id": "banca",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "incl_smith",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "fondos",
+       "reps": "8–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "aperturas",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "silla_romana",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "crunch_maq",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Pierna y hombro",
+     "exercises": [
+      {
+       "id": "sentadilla",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "prensa",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "talones_prensa",
+       "reps": "10–15",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "extension",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "press_smith",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "12–20",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, trapecio y bíceps",
+     "exercises": [
+      {
+       "id": "dominadas",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_b",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "remo_maq",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "jalon_n",
+       "reps": "10–12",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "facepull",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      },
+      {
+       "id": "encog_smith",
+       "reps": "10–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "curl_polea",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E2-B2-F",
+   "name": "Etapa 2 · Bloque 2 · Fuerza",
+   "from": "2027-03-08",
+   "to": "2027-05-02",
+   "note": "Básicos más pesados (4–8 repeticiones) para subir tu fuerza; el resto, en rango de hipertrofia. Semana 8 (descarga): 26 abr – 2 may.",
+   "cols": [
+    "S1–2",
+    "S3–5",
+    "S6–7"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Pecho, tríceps y core",
+     "exercises": [
+      {
+       "id": "banca",
+       "reps": "4–6",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "incl_barra",
+       "reps": "6–8",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "fondos",
+       "reps": "6–10",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "aperturas",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "triceps",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "crunch",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "pallof",
+       "reps": "10 c/lado",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Pierna y hombro",
+     "exercises": [
+      {
+       "id": "sentadilla",
+       "reps": "4–6",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "prensa",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "talones_prensa",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "press_smith",
+       "reps": "4–6",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "10–15",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, trapecio y bíceps",
+     "exercises": [
+      {
+       "id": "dominadas",
+       "reps": "5–8",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "rumano_b",
+       "reps": "5–8",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "remo_maq",
+       "reps": "6–8",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "encog_smith",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "facepull",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      },
+      {
+       "id": "curl_polea",
+       "reps": "6–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "martillo_polea",
+       "reps": "8–12",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E2-B3-E",
+   "name": "Etapa 2 · Bloque 3 · Estética",
+   "from": "2027-05-03",
+   "to": "2027-06-27",
+   "note": "Hipertrofia con énfasis en pecho alto, hombros, espalda ancha y brazos: lo que más cambia cómo te ves. Semana 8 (descarga): 21 jun – 27 jun.",
+   "cols": [
+    "S1–2",
+    "S3–5",
+    "S6–7"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Pecho, tríceps y core",
+     "exercises": [
+      {
+       "id": "incl_barra",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "banca",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "aperturas",
+       "reps": "12–15",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "fondos",
+       "reps": "8–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "silla_romana",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "pallof",
+       "reps": "12 c/lado",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Pierna y hombro",
+     "exercises": [
+      {
+       "id": "hack",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "prensa",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "talones_prensa",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro_maq",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "12–20",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "pajaros_maq",
+       "reps": "15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, trapecio y bíceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_b",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "pullover",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "encog_smith",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "predicador",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "martillo_polea",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E2-B4-F",
+   "name": "Etapa 2 · Bloque 4 · Fuerza",
+   "from": "2027-06-28",
+   "to": "2027-08-22",
+   "note": "Básicos más pesados (4–8 repeticiones) para subir tu fuerza; el resto, en rango de hipertrofia. Semana 8 (descarga): 16 ago – 22 ago.",
+   "cols": [
+    "S1–2",
+    "S3–5",
+    "S6–7"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Pecho, tríceps y core",
+     "exercises": [
+      {
+       "id": "banca",
+       "reps": "4–6",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "incl_barra",
+       "reps": "6–8",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "fondos",
+       "reps": "6–10",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "aperturas",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "triceps",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "crunch",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "pallof",
+       "reps": "10 c/lado",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Pierna y hombro",
+     "exercises": [
+      {
+       "id": "sentadilla",
+       "reps": "4–6",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "prensa",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "talones_prensa",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "press_smith",
+       "reps": "4–6",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "10–15",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "60–90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, trapecio y bíceps",
+     "exercises": [
+      {
+       "id": "dominadas",
+       "reps": "5–8",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "rumano_b",
+       "reps": "5–8",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "3 min"
+      },
+      {
+       "id": "remo_maq",
+       "reps": "6–8",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "encog_smith",
+       "reps": "8–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "facepull",
+       "reps": "12–15",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      },
+      {
+       "id": "curl_polea",
+       "reps": "6–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "martillo_polea",
+       "reps": "8–12",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E2-B5-E",
+   "name": "Etapa 2 · Bloque 5 · Estética",
+   "from": "2027-08-23",
+   "to": "2027-10-17",
+   "note": "Hipertrofia con énfasis en pecho alto, hombros, espalda ancha y brazos: lo que más cambia cómo te ves. Semana 8 (descarga): 11 oct – 17 oct.",
+   "cols": [
+    "S1–2",
+    "S3–5",
+    "S6–7"
+   ],
+   "sessions": {
+    "1": {
+     "name": "Pecho, tríceps y core",
+     "exercises": [
+      {
+       "id": "incl_barra",
+       "reps": "6–10",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "banca",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "aperturas",
+       "reps": "12–15",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "fondos",
+       "reps": "8–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "triceps",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "silla_romana",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "pallof",
+       "reps": "12 c/lado",
+       "sets": [
+        2,
+        2,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "3": {
+     "name": "Pierna y hombro",
+     "exercises": [
+      {
+       "id": "hack",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "prensa",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "—"
+      },
+      {
+       "id": "talones_prensa",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "femoral",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "hombro_maq",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "12–20",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "pajaros_maq",
+       "reps": "15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, trapecio y bíceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "rumano_b",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "pullover",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "encog_smith",
+       "reps": "12–15",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "90 s"
+      },
+      {
+       "id": "predicador",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "martillo_polea",
+       "reps": "10–12",
+       "sets": [
+        2,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    }
+   }
+  }
+ ]
+}
