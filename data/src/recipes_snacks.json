@@ -1,0 +1,4194 @@
+[
+ {
+  "id": "sna_pepino_chile_cacahuate",
+  "name": "Pepino con chile y cacahuate",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pepino",
+    "g": 400,
+    "note": "en rodajas gruesas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 3
+   },
+   {
+    "food": "cacahuate",
+    "g": 50,
+    "note": "tostado, picado"
+   }
+  ],
+  "steps": [
+   "Lava el pepino, pélalo y córtalo en rodajas o bastones.",
+   "Exprime el limón sobre el pepino.",
+   "Espolvorea el chile en polvo y mezcla bien.",
+   "Agrega el cacahuate picado encima y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_garbanzos_enchilados",
+  "name": "Garbanzos tostados enchilados",
+  "servings": 4,
+  "time_min": 45,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurrido y bien seco"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "chile_polvo",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Escurre los garbanzos y sécalos muy bien con una toalla.",
+   "Mézclalos con el aceite y el chile en polvo.",
+   "Hornea a 200 °C de 30 a 35 minutos, moviéndolos a la mitad.",
+   "Deja enfriar, sazona con sal y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_palomitas_chile_limon",
+  "name": "Palomitas con chile y limón",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "palomitas",
+    "g": 50,
+    "note": "de maíz natural, sin mantequilla"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Revienta el maíz en una olla tapada con el aceite a fuego medio.",
+   "Pasa las palomitas a un bol grande.",
+   "Rocía el jugo de limón y espolvorea el chile en polvo.",
+   "Mueve bien para que se repartan y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_palomitas_parmesano",
+  "name": "Palomitas con parmesano",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "palomitas",
+    "g": 40,
+    "note": "de maíz natural, sin mantequilla"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 5
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 10,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Revienta el maíz en una olla tapada con el aceite de oliva a fuego medio.",
+   "Pasa las palomitas a un bol y agrega sal.",
+   "Espolvorea el parmesano y mueve para que se adhiera.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_rollitos_pavo_panela",
+  "name": "Rollitos de pavo con queso panela",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "jamon_pavo",
+    "g": 120,
+    "note": "6 rebanadas"
+   },
+   {
+    "food": "queso_panela",
+    "g": 90,
+    "note": "en tiras"
+   },
+   {
+    "food": "pepino",
+    "g": 60,
+    "note": "en tiras"
+   }
+  ],
+  "steps": [
+   "Extiende las rebanadas de pavo sobre la tabla.",
+   "Coloca una tira de queso panela y otra de pepino en cada rebanada.",
+   "Enrolla firme y sujeta con un palillo si hace falta.",
+   "Acomoda en un plato y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_zanahoria_hummus_pimenton",
+  "name": "Zanahoria con hummus y pimentón",
+  "servings": 2,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "zanahoria",
+    "g": 250,
+    "note": "en palitos"
+   },
+   {
+    "food": "hummus",
+    "g": 90
+   },
+   {
+    "food": "paprika",
+    "g": 1,
+    "note": "pimentón"
+   }
+  ],
+  "steps": [
+   "Pela la zanahoria y córtala en palitos.",
+   "Sirve el hummus en un plato pequeño.",
+   "Espolvorea el pimentón sobre el hummus.",
+   "Acompaña con los palitos de zanahoria."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_chayote_pepitas_limon",
+  "name": "Chayote con pepitas y limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chayote",
+    "g": 300,
+    "note": "en tiras"
+   },
+   {
+    "food": "pepita",
+    "g": 25,
+    "note": "tostada y picada"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Pela el chayote, quítale el hueso y córtalo en tiras.",
+   "Cocina el chayote al vapor 8 minutos y escurre.",
+   "Sirve con el jugo de limón y el chile en polvo.",
+   "Espolvorea las pepitas tostadas encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_nopal_queso_fresco",
+  "name": "Nopal asado con queso fresco",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "en tiras, sin espinas"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Calienta el aceite en un sartén a fuego medio.",
+   "Sofríe el nopal con la cebolla y el chile de 6 a 8 minutos.",
+   "Retira del fuego, agrega el cilantro y mezcla.",
+   "Sirve con el queso fresco desmoronado encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_totopos_frijol_queso",
+  "name": "Totopos con frijoles refritos y queso",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "totopos",
+    "g": 40,
+    "note": "de bolsa"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 80,
+    "note": "de lata"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 30,
+    "note": "en hebra"
+   }
+  ],
+  "steps": [
+   "Calienta los frijoles refritos en una sartén chica a fuego bajo.",
+   "Acomoda los totopos en un plato refractario.",
+   "Cubre con los frijoles y el queso Oaxaca.",
+   "Mete al horno o al microondas hasta que derrita el queso y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_edamame_limon_chile",
+  "name": "Edamame con limón y chile",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "edamame",
+    "g": 250,
+    "note": "cocido, sin vaina"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Calienta el edamame cocido en agua hirviendo 2 minutos y escurre.",
+   "Rocía el jugo de limón sobre el edamame.",
+   "Espolvorea el chile en polvo y la sal.",
+   "Sirve tibio o frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_guacamole_sencillo",
+  "name": "Guacamole sencillo para botana",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "aguacate",
+    "g": 200,
+    "note": "pulpa"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "picado sin semillas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado sin semillas"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Machaca el aguacate con un tenedor en un bol.",
+   "Agrega la cebolla, el chile serrano y el jitomate.",
+   "Incorpora el cilantro, el jugo de limón y la sal.",
+   "Mezcla y sirve de inmediato para que no se oxide."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_hummus_betabel",
+  "name": "Hummus de betabel",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 300
+   },
+   {
+    "food": "betabel",
+    "g": 100,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "tahini",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "pelado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa el betabel con el garbanzo escurrido y un poco de agua.",
+   "Agrega el tahini, el jugo de limón, el ajo y la sal.",
+   "Licúa de nuevo añadiendo el aceite en hilo hasta quedar cremoso.",
+   "Sirve en un plato hondo con un chorrito de aceite encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_hummus_chipotle",
+  "name": "Hummus de chipotle",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 300
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "chiles y adobo, picados"
+   },
+   {
+    "food": "tahini",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Escurre los garbanzos y reserva un poco del agua de cocción.",
+   "Licúa los garbanzos con el tahini, el limón, el ajo y el chipotle.",
+   "Ajusta la textura con agua de los garbanzos.",
+   "Sazona, agrega el aceite y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_dip_frijol_bayo_queso",
+  "name": "Dip de frijol bayo y queso Oaxaca",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 250
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "rallado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Aplasta los frijoles con un tenedor o pásalos por la licuadora con poca agua.",
+   "Mezcla con la cebolla, el chile jalapeño y el cilantro.",
+   "Agrega el queso rallado y el limón, y sazona al gusto.",
+   "Hornea 5 minutos a 180 °C o sirve tal cual."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_dip_yogur_pepino",
+  "name": "Dip de yogur griego con pepino",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 250
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "rallado y escurrido"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Ralla el pepino, espárcelo sobre un trapo y exprime el agua.",
+   "Mezcla el yogur con el pepino, el ajo y el limón.",
+   "Agrega el cilantro y sazona con sal.",
+   "Sirve con un chorrito de aceite de oliva."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_barritas_avena_cacahuate",
+  "name": "Barritas de avena y cacahuate",
+  "servings": 8,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 120
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 80
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "chia",
+    "g": 15
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 20,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Tuesta las hojuelas de avena en un sartén seco 3 minutos.",
+   "Calienta la crema de cacahuate con la miel a fuego bajo.",
+   "Mezcla todo con la chía y el chocolate picado.",
+   "Presiona en un molde forrado, enfría 1 hora y corta en 8 barritas."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_bolitas_datil_nuez",
+  "name": "Bolitas de dátil y nuez",
+  "servings": 10,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "datil",
+    "g": 150,
+    "note": "sin hueso"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 30
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Remoja los dátiles en agua caliente 10 minutos y escúrrelos.",
+   "Licúa los dátiles con la nuez hasta formar una pasta.",
+   "Forma bolitas del tamaño de una nuez.",
+   "Pásalas por el coco rallado mezclado con el cacao y guarda en refrigerador."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_bolitas_proteina_cacahuate",
+  "name": "Bolitas de proteína de cacahuate",
+  "servings": 6,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "crema_cacahuate",
+    "g": 80
+   },
+   {
+    "food": "whey_aislado",
+    "g": 30,
+    "note": "1 scoop"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "miel",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Mezcla la crema de cacahuate con la miel hasta integrar.",
+   "Agrega la avena y la proteína en polvo.",
+   "Si queda muy seca, añade una cucharada de agua.",
+   "Forma 6 bolitas y refrigera 30 minutos antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_barritas_chia_coco",
+  "name": "Barritas de chía y coco",
+  "servings": 8,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 100
+   },
+   {
+    "food": "pasas",
+    "g": 50
+   },
+   {
+    "food": "chia",
+    "g": 25
+   },
+   {
+    "food": "coco_rallado",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Pica las pasas y mézclalas con la avena, la chía y el coco.",
+   "Calienta la miel con el aceite a fuego bajo.",
+   "Vierte sobre la mezcla seca y revuelve hasta integrar.",
+   "Presiona en un molde, enfría y corta en 8 barritas."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_bolitas_almendra_cacao",
+  "name": "Bolitas de almendra y cacao",
+  "servings": 8,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "almendra",
+    "g": 100,
+    "note": "molida"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "canela",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Muele la almendra y la avena en la licuadora hasta obtener una harina gruesa.",
+   "Agrega el cacao, la canela y la miel, y mezcla con las manos.",
+   "Forma 8 bolitas apretando bien.",
+   "Refrigera 20 minutos antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_yogur_griego_granola_fresa",
+  "name": "Yogur griego con granola y fresa",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "granola",
+    "g": 40
+   },
+   {
+    "food": "fresa",
+    "g": 80,
+    "note": "en mitades"
+   },
+   {
+    "food": "miel",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Pon el yogur griego en un tazón o vaso.",
+   "Agrega la fresa encima.",
+   "Espolvorea la granola justo antes de comer para que no se humedezca.",
+   "Rocía la miel y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_yogur_natural_mango_chia",
+  "name": "Yogur natural con mango y chía",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_natural",
+    "g": 200
+   },
+   {
+    "food": "mango",
+    "g": 80,
+    "note": "en cubitos"
+   },
+   {
+    "food": "chia",
+    "g": 10
+   },
+   {
+    "food": "pepita",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Sirve el yogur natural en un vaso.",
+   "Agrega el mango picado en cubitos.",
+   "Espolvorea la chía y las pepitas.",
+   "Mezcla un poco y disfruta."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_yogur_descremado_platano_nuez",
+  "name": "Yogur descremado con plátano y nuez",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_descremado",
+    "g": 250
+   },
+   {
+    "food": "platano",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "canela",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sirve el yogur descremado en un tazón.",
+   "Acomoda las rodajas de plátano encima.",
+   "Agrega la nuez picada y espolvorea la canela.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_cottage_durazno_canela",
+  "name": "Cottage con durazno y canela",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 150
+   },
+   {
+    "food": "durazno",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "canela",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pon el queso cottage en un tazón.",
+   "Agrega el durazno en cubos.",
+   "Espolvorea la canela encima.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_cottage_pina_chile",
+  "name": "Cottage con piña y chile",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 200
+   },
+   {
+    "food": "pina",
+    "g": 150,
+    "note": "picada"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 1
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Pon el queso cottage en un tazón.",
+   "Agrega la piña picada y rocía el limón.",
+   "Espolvorea el chile en polvo.",
+   "Mezcla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_tostaditas_frijol_queso",
+  "name": "Tostaditas de frijol refrito y queso fresco",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 80
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   }
+  ],
+  "steps": [
+   "Calienta el frijol refrito en una sartén chica a fuego bajo.",
+   "Unta el frijol sobre cada tostada.",
+   "Desmorona el queso fresco encima.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_tostadas_atun_chipotle",
+  "name": "Tostadas de atún con chipotle",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "atun_agua",
+    "g": 120,
+    "note": "escurrido"
+   },
+   {
+    "food": "mayonesa",
+    "g": 10
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Escurre bien el atún y desmenúzalo en un bol.",
+   "Mezcla con la mayonesa, el chipotle y la cebolla.",
+   "Acomoda sobre las tostadas y ponle cilantro picado.",
+   "Sirve al momento para que la tostada no se humedezca."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_tostadas_pollo_aguacate",
+  "name": "Tostadas de pollo con aguacate",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 100,
+    "note": "deshebrada"
+   },
+   {
+    "food": "aguacate",
+    "g": 50
+   },
+   {
+    "food": "jitomate",
+    "g": 40,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Desmenuza la pechuga cocida y sazónala con limón.",
+   "Machaca el aguacate y unta una capa sobre cada tostada.",
+   "Cubre con el pollo, el jitomate y la cebolla.",
+   "Sirve enseguida."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_tostadas_tofu_jitomate",
+  "name": "Tostadas de tofu con jitomate",
+  "servings": 4,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 180,
+    "note": "desmoronado"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Calienta el aceite en un sartén a fuego medio.",
+   "Desmorona el tofu y dóralo de 5 a 6 minutos.",
+   "Mezcla con el jitomate, la cebolla, el chile y el cilantro.",
+   "Sirve sobre las tostadas."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_tostadas_camaron_aguacate",
+  "name": "Tostadas de camarón y aguacate",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "camaron_cocido",
+    "g": 120
+   },
+   {
+    "food": "aguacate",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 3
+   },
+   {
+    "food": "salsa_picante",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Pica el camarón cocido y ponle limón.",
+   "Machaca el aguacate y úntalo en cada tostada.",
+   "Acomoda el camarón, la cebolla y el cilantro encima.",
+   "Pon unas gotas de salsa picante y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_mini_tostadas_pavo_queso",
+  "name": "Mini tostadas de pavo y queso",
+  "servings": 3,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 39,
+    "note": "3 tostadas"
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 60
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 30
+   },
+   {
+    "food": "jitomate",
+    "g": 40,
+    "note": "en rodajas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Unta la mostaza sobre cada tostada.",
+   "Coloca el pavo y una rebanada de queso Chihuahua partida.",
+   "Mete al horno 3 minutos para que derrita el queso.",
+   "Agrega lechuga y jitomate, y sirve."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_huevo_salsa_verde",
+  "name": "Huevos cocidos con salsa verde",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 80
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 5
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Hierve el tomate verde con el chile y el ajo unos 8 minutos.",
+   "Licúa con el cilantro, la cebolla y la sal.",
+   "Pela los huevos cocidos y córtalos a la mitad.",
+   "Baña los huevos con la salsa y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_huevo_salsa_roja",
+  "name": "Huevos cocidos en salsa roja",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 150,
+    "note": "3 piezas"
+   },
+   {
+    "food": "jitomate",
+    "g": 100
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 6,
+    "note": "sin semillas"
+   },
+   {
+    "food": "ajo",
+    "g": 2
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Hierve el jitomate con el chile guajillo y el ajo 10 minutos.",
+   "Licúa con la cebolla y la sal hasta tener una salsa tersa.",
+   "Calienta el aceite y fríe la salsa 5 minutos.",
+   "Corta los huevos a la mitad, báñalos con la salsa y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "sna_huevo_relleno_chipotle",
+  "name": "Huevos cocidos rellenos de chipotle",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 30
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 10
+   },
+   {
+    "food": "mostaza",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Corta los huevos a la mitad y aparta las yemas.",
+   "Machaca las yemas con el yogur griego, el chipotle y la mostaza.",
+   "Rellena las claras con la mezcla.",
+   "Refrigera 10 minutos y sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "sna_huevo_chile_arbol",
+  "name": "Huevos cocidos con salsa de chile de árbol",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 3
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5,
+    "note": "tostado"
+   }
+  ],
+  "steps": [
+   "Corta los huevos cocidos a la mitad.",
+   "Calienta el aceite y fríe el ajo con el chile de árbol hasta dorar.",
+   "Agrega el ajonjolí y retira del fuego.",
+   "Baña los huevos con el aceite picante y sirve."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_edamame_ajonjoli",
+  "name": "Edamame con ajonjolí y salsa de soya",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "edamame",
+    "g": 200,
+    "note": "cocido"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "tostado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Calienta el edamame cocido en agua hirviendo 2 minutos y escurre.",
+   "Mezcla con la salsa de soya y el jugo de limón.",
+   "Espolvorea el ajonjolí encima.",
+   "Sirve tibio o frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_edamame_zanahoria_limon",
+  "name": "Edamame con zanahoria y limón",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "edamame",
+    "g": 150,
+    "note": "cocido"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Cuece el edamame 2 minutos en agua hirviendo y escúrrelo.",
+   "Ralla la zanahoria gruesa.",
+   "Mezcla el edamame con la zanahoria, el limón y el aceite de oliva.",
+   "Sirve en un bol."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_mix_nuez_pasas",
+  "name": "Mix de nuez, almendra y pasas",
+  "servings": 4,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "almendra",
+    "g": 30
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 30
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   },
+   {
+    "food": "pepita",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Pica en trozos grandes la nuez y la almendra.",
+   "Mezcla con las pasas y las pepitas en un bol.",
+   "Divide en 4 bolsitas para llevar.",
+   "Guarda en frasco hermético."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_mix_cacahuate_pepita_chile",
+  "name": "Mix de cacahuate, pepita y chile",
+  "servings": 4,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cacahuate",
+    "g": 60
+   },
+   {
+    "food": "pepita",
+    "g": 30
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Calienta el aceite en un sartén a fuego bajo.",
+   "Tuesta el cacahuate y las pepitas 4 minutos, moviendo.",
+   "Retira del fuego y espolvorea el chile en polvo.",
+   "Deja enfriar y reparte en 4 porciones."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_mix_pistache_coco_girasol",
+  "name": "Mix de pistache, coco y girasol",
+  "servings": 4,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pistache",
+    "g": 60,
+    "note": "sin sal"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 30,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "girasol",
+    "g": 20,
+    "note": "sin sal"
+   }
+  ],
+  "steps": [
+   "Tuesta el coco rallado en sartén seco 2 minutos.",
+   "Mezcla con el pistache y las semillas de girasol.",
+   "Deja enfriar por completo.",
+   "Reparte en 4 bolsitas para llevar."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_mix_caju_chocolate",
+  "name": "Mix de cajú con chocolate oscuro",
+  "servings": 3,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "nuez_india",
+    "g": 50
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Pica el chocolate oscuro en trozos pequeños.",
+   "Mezcla con la nuez de la India y las pasas.",
+   "Reparte en 3 porciones.",
+   "Guarda en el refrigerador si hace calor."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_mix_avellana_chia_pasas",
+  "name": "Mix de avellana, chía y pasas",
+  "servings": 3,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avellana",
+    "g": 40
+   },
+   {
+    "food": "chia",
+    "g": 15
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   },
+   {
+    "food": "linaza",
+    "g": 10,
+    "note": "molida"
+   }
+  ],
+  "steps": [
+   "Tuesta ligeramente las avellanas en sartén seco.",
+   "Pícalas y mézclalas con la chía y la linaza.",
+   "Agrega las pasas.",
+   "Reparte en 3 porciones."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_mix_salado_pepita_ajonjoli",
+  "name": "Mix salado de pepita, ajonjolí y chile",
+  "servings": 3,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pepita",
+    "g": 40
+   },
+   {
+    "food": "ajonjoli",
+    "g": 15
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Calienta el aceite en un sartén chico.",
+   "Tuesta la pepita y el ajonjolí 4 minutos.",
+   "Agrega el chile en polvo y la sal, y revuelve 30 segundos.",
+   "Deja enfriar y reparte en 3 porciones."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_fresas_cottage_nuez",
+  "name": "Fresas con cottage y nuez",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 150
+   },
+   {
+    "food": "fresa",
+    "g": 120,
+    "note": "en mitades"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 10,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Pon el queso cottage en un tazón.",
+   "Agrega las fresas en mitades encima.",
+   "Espolvorea la nuez picada.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_manzana_cottage_cacahuate",
+  "name": "Manzana con cottage y crema de cacahuate",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "manzana",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 150
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Lava la manzana y córtala en gajos.",
+   "Sirve el cottage en un plato.",
+   "Pon la crema de cacahuate a un lado.",
+   "Acompaña con los gajos de manzana."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_frambuesa_cottage_chia",
+  "name": "Cottage con frambuesa y chía",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 180
+   },
+   {
+    "food": "frambuesa",
+    "g": 100
+   },
+   {
+    "food": "chia",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Pon el queso cottage en un bol.",
+   "Agrega las frambuesas lavadas.",
+   "Espolvorea la chía encima.",
+   "Mezcla un poco y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_papaya_cottage_linaza",
+  "name": "Papaya con cottage y linaza",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papaya",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 150
+   },
+   {
+    "food": "linaza",
+    "g": 5,
+    "note": "molida"
+   }
+  ],
+  "steps": [
+   "Pela la papaya y córtala en cubos.",
+   "Sirve el cottage en un tazón.",
+   "Agrega la papaya y espolvorea la linaza.",
+   "Mezcla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_mango_cottage_limon_chile",
+  "name": "Mango con cottage, limón y chile",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 180
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pon el queso cottage en un tazón.",
+   "Agrega el mango en cubos.",
+   "Rocía el limón y espolvorea el chile.",
+   "Mezcla y sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_rollos_jamon_oaxaca",
+  "name": "Rollos de jamón con queso Oaxaca",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "jamon_cerdo",
+    "g": 75,
+    "note": "3 rebanadas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en tiras"
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Unta la mostaza sobre cada rebanada de jamón.",
+   "Coloca una tira de queso Oaxaca y enrolla.",
+   "Repite con las demás rebanadas.",
+   "Sirve enseguida o refrigera."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_betabel_feta_limon",
+  "name": "Betabel con queso feta y limón",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "betabel",
+    "g": 150,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "queso_feta",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Acomoda los cubos de betabel en un plato.",
+   "Desmorona el queso feta encima.",
+   "Rocía el limón y el aceite de oliva.",
+   "Sirve frío o a temperatura ambiente."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_garbanzos_paprika_limon",
+  "name": "Garbanzos tostados con paprika y limón",
+  "servings": 4,
+  "time_min": 45,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurridos y secos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Escurre y seca muy bien los garbanzos.",
+   "Mézclalos con el aceite de oliva y la paprika.",
+   "Hornea a 200 °C de 30 a 35 minutos, moviendo a la mitad.",
+   "Rocía el limón, sazona con sal y deja enfriar."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_palomitas_ajo_comino_pepita",
+  "name": "Palomitas con ajo, comino y pepita",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "palomitas",
+    "g": 40,
+    "note": "de maíz natural, sin mantequilla"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "ajo_polvo",
+    "g": 2
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "pepita",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Revienta el maíz en una olla tapada con el aceite a fuego medio.",
+   "Pasa las palomitas a un bol.",
+   "Agrega el ajo en polvo, el comino y la sal, y mueve.",
+   "Incorpora las pepitas y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_mango_chile_limon",
+  "name": "Mango con chile y limón",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mango",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Pela el mango y córtalo en cubos.",
+   "Ponlo en un plato y rocía el limón.",
+   "Espolvorea el chile en polvo.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_hummus_cacahuate_limon",
+  "name": "Hummus de cacahuate y limón",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 250
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Escurre los garbanzos y reserva un poco del agua.",
+   "Licúa con la crema de cacahuate, el limón y el ajo.",
+   "Agrega el aceite y agua de garbanzo hasta una textura suave.",
+   "Sirve con un chorrito de aceite encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_hummus_pimiento_asado",
+  "name": "Hummus de pimiento asado",
+  "servings": 5,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "asado y pelado"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 250
+   },
+   {
+    "food": "tahini",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "comino",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa el pimiento hasta que la piel se ampolle y pélalo.",
+   "Licúa el pimiento con los garbanzos, el tahini, el limón y el ajo.",
+   "Agrega el comino, el aceite y un poco de agua hasta una textura cremosa.",
+   "Refrigera y sirve frío."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_hummus_verde_espinaca",
+  "name": "Hummus verde de espinaca",
+  "servings": 5,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 250
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "albahaca",
+    "g": 10
+   },
+   {
+    "food": "tahini",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Escalda la espinaca 30 segundos en agua hirviendo y escúrrela.",
+   "Licúa la espinaca con los garbanzos, la albahaca, el tahini, el limón y el ajo.",
+   "Ajusta la textura con agua y aceite.",
+   "Refrigera si lo vas a guardar y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_crema_aguacate_yogur",
+  "name": "Crema de aguacate con yogur",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "aguacate",
+    "g": 120
+   },
+   {
+    "food": "yogur_griego",
+    "g": 120
+   },
+   {
+    "food": "cilantro",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Licúa el aguacate con el yogur griego.",
+   "Agrega el cilantro, el limón y el chile serrano.",
+   "Sazona con sal y licúa de nuevo.",
+   "Sirve con verdura cortada en palitos."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_queso_fundido_chipotle",
+  "name": "Queso Oaxaca fundido con chipotle",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_oaxaca",
+    "g": 120,
+    "note": "en hebra"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "jitomate",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 15,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Acomoda el queso en un refractario pequeño.",
+   "Mezcla el chipotle con el jitomate y la cebolla, y cubre el queso.",
+   "Hornea 8 minutos hasta que burbujee y sirve con verdura cortada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "sna_dip_cottage_hierbas",
+  "name": "Dip de cottage con hierbas frescas",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 240
+   },
+   {
+    "food": "yogur_griego",
+    "g": 60
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "picada fina"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Licúa el cottage con el yogur griego hasta quedar cremoso.",
+   "Agrega el perejil, la cebolla y el limón.",
+   "Sazona con sal y mezcla.",
+   "Refrigera 15 minutos y sirve con verdura."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_barritas_proteina_cacao",
+  "name": "Barritas de proteína de cacao",
+  "servings": 6,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "whey_concentrado",
+    "g": 60,
+    "note": "2 scoops"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 40
+   },
+   {
+    "food": "miel",
+    "g": 30
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla la avena con la proteína en polvo y el cacao.",
+   "Calienta la crema de cacahuate con la miel 1 minuto.",
+   "Integra todo y agrega un poco de agua si está muy seco.",
+   "Presiona en un molde, enfría y corta en 6 barritas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "sna_bolitas_platano_avena",
+  "name": "Bolitas de plátano, avena y cacao",
+  "servings": 6,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 120
+   },
+   {
+    "food": "platano",
+    "g": 150,
+    "note": "muy maduro, machacado"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 40
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Machaca el plátano muy maduro con un tenedor.",
+   "Mezcla con la crema de cacahuate y el cacao.",
+   "Agrega la avena y amasa hasta formar una masa firme.",
+   "Forma 6 bolitas y refrigera 30 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_barritas_datil_almendra",
+  "name": "Barritas de dátil, almendra y ajonjolí",
+  "servings": 8,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "datil",
+    "g": 150,
+    "note": "sin hueso"
+   },
+   {
+    "food": "almendra",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 15,
+    "note": "tostado"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Remoja los dátiles en agua caliente 10 minutos y escúrrelos.",
+   "Licúa los dátiles con la mitad de la almendra hasta formar una pasta.",
+   "Mezcla con el resto de la almendra, el ajonjolí y el coco.",
+   "Presiona en un molde, enfría y corta en 8 barritas."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_yogur_natural_almendra_mandarina",
+  "name": "Yogur natural con almendra y mandarina",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_natural",
+    "g": 200
+   },
+   {
+    "food": "almendra",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "mandarina",
+    "g": 100,
+    "note": "en gajos"
+   },
+   {
+    "food": "chia",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Sirve el yogur natural en un tazón.",
+   "Agrega los gajos de mandarina.",
+   "Espolvorea la almendra picada y la chía.",
+   "Mezcla y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_kefir_frambuesa_pepita",
+  "name": "Kéfir con frambuesa y pepita",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kefir",
+    "g": 250
+   },
+   {
+    "food": "frambuesa",
+    "g": 80
+   },
+   {
+    "food": "pepita",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Sirve el kéfir en un vaso.",
+   "Agrega las frambuesas lavadas.",
+   "Espolvorea las pepitas encima.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_yogur_griego_pina_coco",
+  "name": "Yogur griego con piña y coco",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "pina",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 10
+   },
+   {
+    "food": "chia",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Sirve el yogur griego en un tazón.",
+   "Agrega la piña picada.",
+   "Espolvorea el coco rallado y la chía.",
+   "Mezcla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_yogur_griego_zarzamora_nuez",
+  "name": "Yogur griego con zarzamora y nuez",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "zarzamora",
+    "g": 80
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 10,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Sirve el yogur griego en un tazón.",
+   "Agrega las zarzamoras lavadas.",
+   "Espolvorea la nuez picada.",
+   "Sirve al momento."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_tostadas_aguacate_huevo",
+  "name": "Tostadas de aguacate con huevo",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "aguacate",
+    "g": 50
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas en rodajas"
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 3,
+    "note": "en rodajas"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Machaca el aguacate con limón y sal.",
+   "Unta sobre las tostadas.",
+   "Acomoda las rodajas de huevo cocido encima.",
+   "Agrega el chile serrano en rodajas y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_tostadas_salmon_ahumado",
+  "name": "Tostadas de salmón ahumado con queso crema",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "salmon_ahumado",
+    "g": 60
+   },
+   {
+    "food": "queso_crema",
+    "g": 20
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 10,
+    "note": "en aros finos"
+   },
+   {
+    "food": "pepino",
+    "g": 30,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Unta el queso crema sobre cada tostada.",
+   "Acomoda el salmón ahumado en trozos.",
+   "Agrega la cebolla morada y las rodajas de pepino.",
+   "Sirve enseguida."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_tostadas_frijol_negro_nopal",
+  "name": "Tostadas de frijol negro con nopal",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 100
+   },
+   {
+    "food": "nopal",
+    "g": 80,
+    "note": "cocido y picado"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 30,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 10,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Machaca los frijoles con un poco de agua.",
+   "Unta el frijol sobre cada tostada.",
+   "Cubre con nopal, cebolla, cilantro y queso fresco.",
+   "Sirve al momento."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_huevos_pico_de_gallo",
+  "name": "Huevos cocidos con pico de gallo",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Pela los huevos cocidos y córtalos en mitades.",
+   "Mezcla el jitomate, la cebolla, el cilantro y el chile.",
+   "Agrega el limón y mezcla.",
+   "Acomoda el pico de gallo sobre los huevos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_huevos_salsa_morita",
+  "name": "Huevos cocidos con salsa de chile morita",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 150,
+    "note": "3 piezas"
+   },
+   {
+    "food": "chile_morita",
+    "g": 5,
+    "note": "sin semillas"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 60,
+    "note": "cocido"
+   },
+   {
+    "food": "ajo",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Hierve el tomate verde y el chile morita 8 minutos.",
+   "Licúa con el ajo y la sal hasta tener una salsa lisa.",
+   "Calienta el aceite y fríe la salsa 4 minutos.",
+   "Corta los huevos, báñalos con la salsa y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "sna_huevos_crema_cilantro",
+  "name": "Huevos cocidos con crema de cilantro",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 60
+   },
+   {
+    "food": "cilantro",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Licúa el yogur griego con el cilantro, el limón, el ajo y la sal.",
+   "Corta los huevos cocidos a la mitad.",
+   "Baña los huevos con la crema.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_rollitos_pepino_pavo_queso",
+  "name": "Rollitos de pepino con pavo y queso crema",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en tiras largas"
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 80,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_crema",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Corta el pepino en tiras largas y finas.",
+   "Unta el queso crema sobre las rebanadas de pavo.",
+   "Pon una tira de pepino en cada rebanada y enrolla.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_pepino_pepitas_limon",
+  "name": "Pepino con pepitas, limón y chile",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pepino",
+    "g": 300,
+    "note": "en rodajas"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "pepita",
+    "g": 20,
+    "note": "tostada"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Lava el pepino y córtalo en rodajas.",
+   "Acomódalas en un plato y rocía el jugo de limón.",
+   "Espolvorea el chile en polvo.",
+   "Agrega las pepitas tostadas y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_brocoli_coliflor_parmesano",
+  "name": "Brócoli y coliflor asados con parmesano",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "brocoli",
+    "g": 200,
+    "note": "en ramitos"
+   },
+   {
+    "food": "coliflor",
+    "g": 150,
+    "note": "en ramitos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "ajo_polvo",
+    "g": 2
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 10,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Mezcla las verduras con el aceite de oliva y el ajo en polvo.",
+   "Hornea 20 minutos hasta que doren un poco.",
+   "Espolvorea el parmesano y rocía el limón antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_champinones_ajo_parmesano",
+  "name": "Champiñones al ajo con parmesano",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 250,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Calienta el aceite en un sartén a fuego medio.",
+   "Sofríe los champiñones 6 minutos hasta dorar.",
+   "Agrega el ajo y el perejil 1 minuto.",
+   "Retira del fuego, espolvorea el parmesano y el limón, y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_esquites_queso_fresco",
+  "name": "Esquites con queso fresco",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "desgranado"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "queso_fresco",
+    "g": 30,
+    "note": "desmoronado"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 3,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Cocina la cebolla en un sartén chico 2 minutos.",
+   "Agrega el elote desgranado y cocina 3 minutos.",
+   "Retira, mezcla con la crema, el limón y el chile en polvo.",
+   "Sirve con el queso fresco y el cilantro encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_elote_asado_crema_limon",
+  "name": "Elote asado con crema y limón",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "mazorca"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Asa el elote cocido en un sartén hasta dorar un poco.",
+   "Unta la crema mexicana sobre el elote.",
+   "Exprime el limón y espolvorea el chile en polvo.",
+   "Sirve caliente."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_tamal_pollo_salsa_verde",
+  "name": "Tamal de pollo con salsa verde",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tamal_pollo",
+    "g": 150,
+    "note": "1 pieza"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 50,
+    "note": "cocido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 3
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Calienta el tamal al vapor 10 minutos.",
+   "Licúa el tomate verde cocido con la cebolla, el cilantro y el chile.",
+   "Desenvuelve el tamal y ponle la salsa encima.",
+   "Sirve caliente."
+  ],
+  "tags": [
+   "económica",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_tostadas_sardina_cebolla",
+  "name": "Tostadas de sardina con cebolla y limón",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 26,
+    "note": "2 tostadas"
+   },
+   {
+    "food": "sardina_lata",
+    "g": 60,
+    "note": "escurrida"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "jitomate",
+    "g": 30,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Desmenuza la sardina escurrida sobre un plato.",
+   "Mezcla con la cebolla, el jitomate, el chile y el limón.",
+   "Acomoda sobre las dos tostadas.",
+   "Sirve enseguida."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "económica",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_pepino_relleno_atun",
+  "name": "Pepino relleno de atún",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "partido a la mitad y ahuecado"
+   },
+   {
+    "food": "atun_agua",
+    "g": 100,
+    "note": "escurrido"
+   },
+   {
+    "food": "mayonesa",
+    "g": 10
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 3,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Corta el pepino a la mitad a lo largo y saca el centro con una cuchara.",
+   "Mezcla el atún con la mayonesa, la cebolla y el limón.",
+   "Rellena las mitades de pepino con la mezcla.",
+   "Espolvorea el cilantro y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "económica",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_panela_asada_jitomate",
+  "name": "Panela asada con jitomate y epazote",
+  "servings": 2,
+  "time_min": 15,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "queso_panela",
+    "g": 120,
+    "note": "en rebanadas gruesas"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 10,
+    "note": "en aros"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5,
+    "note": "en rodajas"
+   },
+   {
+    "food": "epazote",
+    "g": 2,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Calienta un sartén a fuego medio sin aceite.",
+   "Dora la panela 2 minutos por lado.",
+   "Agrega el jitomate, la cebolla y el chile, y cocina 3 minutos.",
+   "Espolvorea el epazote y sirve caliente."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "sna_quesadilla_oaxaca_mini",
+  "name": "Quesadilla pequeña de queso Oaxaca",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "2 tortillas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40,
+    "note": "en hebra"
+   },
+   {
+    "food": "epazote",
+    "g": 2,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Calienta el comal a fuego medio.",
+   "Pon el queso y el epazote sobre una tortilla y cúbrela con la otra.",
+   "Dora 2 minutos por lado hasta que el queso derrita.",
+   "Corta en 4 triángulos y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_totopos_horneados_salsa",
+  "name": "Totopos horneados con salsa de jitomate",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "en triángulos"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 8
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 3,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Mezcla los triángulos de tortilla con el aceite y el chile en polvo.",
+   "Hornea a 180 °C de 10 a 12 minutos hasta que estén crujientes.",
+   "Mezcla el jitomate con la cebolla y el cilantro para hacer la salsa.",
+   "Sirve los totopos con la salsa a un lado."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_papas_limon_chile",
+  "name": "Papas cocidas con limón y chile",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "en rodajas"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Corta las papas cocidas en rodajas.",
+   "Rocía el aceite de oliva y el jugo de limón.",
+   "Espolvorea el chile en polvo y la sal.",
+   "Mezcla con cuidado y sirve tibias."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_camote_cottage_chile",
+  "name": "Camote con cottage y chile",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 200,
+    "note": "en rodajas"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 120
+   },
+   {
+    "food": "chile_polvo",
+    "g": 1
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Acomoda las rodajas de camote cocido en un plato.",
+   "Cubre con el queso cottage.",
+   "Espolvorea el chile en polvo y exprime el limón.",
+   "Sirve frío o tibio."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_yogur_griego_cereal_maiz",
+  "name": "Yogur griego con cereal de maíz y fresa",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 150
+   },
+   {
+    "food": "cereal_maiz",
+    "g": 30
+   },
+   {
+    "food": "fresa",
+    "g": 60,
+    "note": "en rebanadas"
+   }
+  ],
+  "steps": [
+   "Sirve el yogur griego en un tazón.",
+   "Agrega las fresas en rebanadas.",
+   "Pon el cereal de maíz encima justo antes de comer.",
+   "Mezcla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_tostadas_cottage_pepino",
+  "name": "Tostadas de cottage con pepino y orégano",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 120
+   },
+   {
+    "food": "pepino",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Machaca el queso cottage con el limón en un plato.",
+   "Unta el cottage sobre cada tostada.",
+   "Acomoda las rodajas de pepino encima.",
+   "Espolvorea el orégano y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_lechugas_pollo_aguacate",
+  "name": "Lechugas rellenas de pollo y aguacate",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "hojas"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 120,
+    "note": "deshebrada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "aguacate",
+    "g": 30,
+    "note": "en cubitos"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 5,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 3,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Lava las hojas de lechuga y sécalas.",
+   "Mezcla el pollo con la cebolla, el chile y el limón.",
+   "Agrega el aguacate y el cilantro con cuidado.",
+   "Rellena las hojas de lechuga y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_ejotes_cottage_limon",
+  "name": "Ejotes con cottage y limón",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "ejote",
+    "g": 150,
+    "note": "cocido"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Corta los ejotes cocidos en trozos de 4 cm.",
+   "Acomódalos en un plato con el queso cottage.",
+   "Rocía el limón y el aceite de oliva.",
+   "Mezcla y sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_calabacita_queso_oaxaca",
+  "name": "Calabacita asada con queso Oaxaca",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en rodajas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 50,
+    "note": "en hebra"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 5
+   },
+   {
+    "food": "ajo_polvo",
+    "g": 1
+   },
+   {
+    "food": "chile_polvo",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Acomoda las rodajas de calabacita en una charola y rocía el aceite.",
+   "Espolvorea el ajo en polvo y el chile, y hornea 10 minutos.",
+   "Cubre con el queso Oaxaca, hornea 5 minutos más y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_cacahuate_chile_limon",
+  "name": "Cacahuate tostado con chile y limón",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cacahuate",
+    "g": 100
+   },
+   {
+    "food": "chile_polvo",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 5,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pon el cacahuate en un bol.",
+   "Rocía el jugo de limón y mezcla.",
+   "Espolvorea el chile en polvo y la sal.",
+   "Reparte en 4 porciones y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_sandia_melon_chile",
+  "name": "Sandía y melón con chile y limón",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sandia",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "melon",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Corta la sandía y el melón en cubos.",
+   "Acomódalos en un plato hondo.",
+   "Exprime el limón y espolvorea el chile en polvo.",
+   "Mezcla y sirve frío."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_uvas_feta_nuez",
+  "name": "Uvas con queso feta y nuez",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "uva",
+    "g": 150,
+    "note": "sin tallo"
+   },
+   {
+    "food": "queso_feta",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 10,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Lava las uvas y sepáralas del tallo.",
+   "Desmorona el queso feta sobre un plato.",
+   "Agrega las uvas y la nuez picada.",
+   "Mezcla suavemente y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_platano_crema_cacahuate_chia",
+  "name": "Plátano con crema de cacahuate y chía",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 120,
+    "note": "en rodajas"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 20
+   },
+   {
+    "food": "chia",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Corta el plátano en rodajas.",
+   "Unta la crema de cacahuate sobre las rodajas.",
+   "Espolvorea la chía encima.",
+   "Sirve al momento."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "sna_pera_chihuahua_nuez",
+  "name": "Pera con queso Chihuahua y nuez",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pera",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 30,
+    "note": "en tiras"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 10,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Lava la pera y córtala en rebanadas.",
+   "Acomoda las rebanadas con el queso en tiras.",
+   "Espolvorea la nuez picada.",
+   "Sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_naranja_pepino_chile",
+  "name": "Naranja con pepino y chile",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "naranja",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Pela la naranja y córtala en gajos.",
+   "Corta el pepino en cubos.",
+   "Mezcla la naranja y el pepino en un vaso.",
+   "Agrega el limón y el chile en polvo, y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "sna_batido_soya_cacao_avena",
+  "name": "Batido de soya con cacao y avena",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "leche_soya",
+    "g": 240
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 5
+   },
+   {
+    "food": "avena_cocida",
+    "g": 150,
+    "note": "cocida con agua"
+   }
+  ],
+  "steps": [
+   "Pon la avena cocida, la bebida de soya y el cacao en la licuadora.",
+   "Licúa 30 segundos hasta quedar terso.",
+   "Agrega hielo si lo quieres frío.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "sna_batido_proteina_platano",
+  "name": "Batido de proteína con plátano",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "whey_aislado",
+    "g": 30,
+    "note": "1 scoop"
+   },
+   {
+    "food": "platano",
+    "g": 100
+   },
+   {
+    "food": "leche_descremada",
+    "g": 240
+   },
+   {
+    "food": "canela",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pela el plátano y ponlo en la licuadora.",
+   "Agrega la leche descremada y la proteína en polvo.",
+   "Licúa hasta quedar suave con la canela.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "sna_avena_colageno_cacao",
+  "name": "Avena con colágeno y cacao",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_cocida",
+    "g": 234,
+    "note": "cocida con agua"
+   },
+   {
+    "food": "colageno",
+    "g": 10
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 5
+   },
+   {
+    "food": "canela",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Calienta la avena cocida en una olla con poca agua.",
+   "Agrega el cacao y la canela, y mezcla.",
+   "Incorpora el colágeno en polvo y revuelve bien.",
+   "Sirve tibia."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin lácteos"
+  ]
+ }
+]
