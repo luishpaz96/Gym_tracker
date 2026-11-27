@@ -1,0 +1,6197 @@
+[
+ {
+  "id": "asi_pollo_kung_pao",
+  "name": "Pollo Kung Pao casero",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "cacahuate",
+    "g": 60,
+    "note": "sin sal"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 240,
+    "note": "2 piezas en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 110
+   },
+   {
+    "food": "chile_arbol",
+    "g": 4
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 60
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 21
+   },
+   {
+    "food": "maicena",
+    "g": 16
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Mezcla el pollo con 8 g de maicena y una cucharada de salsa de soya.",
+   "Dora el pollo en aceite caliente y apártalo.",
+   "Saltea el ajo, el jengibre, el chile de árbol y la cebolla dos minutos.",
+   "Agrega el pimiento, regresa el pollo y pon la salsa de soya, vinagre, miel y la maicena restante diluida en agua.",
+   "Termina con los cacahuates tostados y sirve enseguida."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_res_brocoli_salteado",
+  "name": "Salteado de res con brócoli",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 500,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "brocoli",
+    "g": 300,
+    "note": "en floretes"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "maicena",
+    "g": 8
+   },
+   {
+    "food": "azucar",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Mezcla la carne con la maicena y la mitad de la salsa de soya.",
+   "Sella la carne en aceite muy caliente por tandas y reserva.",
+   "Saltea el ajo, el jengibre y el brócoli con un poco de agua hasta que esté crujiente.",
+   "Regresa la carne, agrega el resto de la soya y el azúcar y mueve un minuto."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_arroz_frito_pollo",
+  "name": "Arroz frito con pollo y huevo",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 470,
+    "note": "frío, de un día antes"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 210,
+    "note": "deshebrada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en cubitos"
+   },
+   {
+    "food": "ejote",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Calienta el aceite en sartén grande y cuaja el huevo revuelto. Apártalo.",
+   "Saltea la cebolla, la zanahoria y el ejote cuatro minutos.",
+   "Agrega el arroz desmenuzado y dóralo sin dejar de mover.",
+   "Incorpora el pollo, el huevo y la salsa de soya. Espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_arroz_frito_camaron",
+  "name": "Arroz frito de camarón",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 470,
+    "note": "frío"
+   },
+   {
+    "food": "camaron_cocido",
+    "g": 210
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "calabacita",
+    "g": 90,
+    "note": "en cubitos"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Calienta aceite en sartén y cuaja el huevo. Retira.",
+   "Saltea cebolla, zanahoria y calabacita a fuego alto.",
+   "Agrega el arroz frío y dóralo bien.",
+   "Regresa el huevo y los camarones, sazona con salsa de soya y termina con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_pollo_teriyaki",
+  "name": "Pollo teriyaki casero",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en medallones"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 60
+   },
+   {
+    "food": "miel",
+    "g": 42
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "maicena",
+    "g": 8
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 6
+   }
+  ],
+  "steps": [
+   "Calienta la salsa de soya, la miel, el jengibre y el ajo a fuego medio.",
+   "Dora el pollo en aceite por ambos lados.",
+   "Vierte la salsa y deja que espese, agregando la maicena diluida en agua.",
+   "Cubre el pollo con la salsa y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_salmon_teriyaki_horno",
+  "name": "Salmón teriyaki al horno",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 60
+   },
+   {
+    "food": "miel",
+    "g": 42
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "ajonjoli",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "brocoli",
+    "g": 200,
+    "note": "para acompañar"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Mezcla la salsa de soya, la miel, el jengibre y el ajo rallados.",
+   "Acomoda el salmón y el brócoli en charola con papel, cubre con la mitad de la salteada.",
+   "Hornea 12 minutos, baña con el resto de la salsa y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_katsu_pollo_horneado",
+  "name": "Katsu de pollo horneado",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "aplanada"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 40
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "cereal_maiz",
+    "g": 60,
+    "note": "triturado como pan molido"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "salsa_tomate",
+    "g": 30
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 220 °C.",
+   "Pasa el pollo por harina, luego por huevo y después por el cereal triturado mezclado con ajonjolí.",
+   "Acomoda en rejilla con aceite en spray o un hilo de aceite y hornea 20 minutos, volteando a la mitad.",
+   "Mezcla la salsa de tomate, la soya y la miel para acompañar el katsu."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_katsu_camaron_horneado",
+  "name": "Katsu de camarón horneado",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 400,
+    "note": "pelado y desvenado"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 40
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "cereal_maiz",
+    "g": 60,
+    "note": "triturado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "salsa_tomate",
+    "g": 30
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 7
+   },
+   {
+    "food": "col",
+    "g": 140,
+    "note": "rebanada fina para acompañar"
+   }
+  ],
+  "steps": [
+   "Pasa los camarones por harina, huevo y cereal triturado.",
+   "Acomódalos en charola, rocía con aceite y hornea a 210 °C de 10 a 12 minutos.",
+   "Mezcla la salsa de tomate con la soya y la miel.",
+   "Sirve con la col cruda y la salsa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_pollo_tikka_masala",
+  "name": "Pollo tikka masala casero",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "yogur_natural",
+    "g": 150
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 4
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 110
+   },
+   {
+    "food": "jitomate",
+    "g": 240,
+    "note": "2 piezas licuadas"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Marina el pollo 20 minutos con el yogur, la mitad del ajo, el jengibre, el comino y la paprika.",
+   "Dora el pollo en aceite y resérvalo.",
+   "Sofríe la cebolla con el resto del ajo y agrega el jitomate licuado. Cocina 8 minutos.",
+   "Regresa el pollo, cocina 10 minutos más, agrega la crema y sirve con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_pollo_curry_papa",
+  "name": "Pollo al curry con papa",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 120
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "agua_simple",
+    "g": 400
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el ajo y el jengibre en aceite hasta dorar.",
+   "Agrega el comino, la paprika y el jitomate picado. Cocina 5 minutos.",
+   "Incorpora el pollo y la papa, cubre con agua y cocina a fuego medio 25 minutos.",
+   "Ajusta la sal y termina con cilantro picado."
+  ],
+  "tags": [
+   "económica",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "asi_dal_lentejas_tadka",
+  "name": "Dal de lentejas al tadka",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lenteja_seca",
+    "g": 200
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "jitomate",
+    "g": 120
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Cuece las lentejas con el agua, la mitad de la cebolla y el jengibre, 25 minutos.",
+   "Calienta el aceite, dora el comino, el ajo y la cebolla restante.",
+   "Agrega el jitomate picado y cocina 5 minutos.",
+   "Vierte la mezcla sobre las lentejas, sazona y termina con limón y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_garbanzo_curry_espinaca",
+  "name": "Garbanzos al curry con espinaca",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400
+   },
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 120
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 4
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en aceite hasta dorar y agrega el ajo y el jengibre.",
+   "Incorpora el comino, la paprika y el jitomate picado. Cocina 6 minutos.",
+   "Agrega los garbanzos con un poco de agua y cocina 10 minutos.",
+   "Integra la espinaca y deja que se marchite antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_pulao_garbanzo",
+  "name": "Pulao de arroz con garbanzo",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 370,
+    "note": "enjuagado"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "en cubitos"
+   },
+   {
+    "food": "comino",
+    "g": 4
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "agua_simple",
+    "g": 700
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y fríe la cebolla, el ajo, el comino y la canela.",
+   "Agrega el arroz y la zanahoria, y mueve un minuto.",
+   "Cubre con el agua y la sal, incorpora garbanzos y pasas. Cocina tapado a fuego bajo 18 minutos.",
+   "Deja reposar 5 minutos sin destapar y esponja con tenedor."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_tofu_brocoli_soya",
+  "name": "Tofu salteado con brócoli y soya",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "brocoli",
+    "g": 250
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "maicena",
+    "g": 8
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "miel",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora los cubos de tofu en aceite y resérvalos.",
+   "Saltea el ajo, el jengibre, el brócoli y el pimiento tres minutos.",
+   "Mezcla la soya, la miel y la maicena con 60 ml de agua.",
+   "Regresa el tofu, vierte la salsa y mueve hasta que espese."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "asi_tofu_agridulce_pina",
+  "name": "Tofu agridulce con piña",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "pina",
+    "g": 330,
+    "note": "2 tazas en cubos"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100
+   },
+   {
+    "food": "pure_tomate",
+    "g": 32
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "azucar",
+    "g": 25
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "maicena",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Escurre el tofu, sécalo bien y pásalo por maicena.",
+   "Dora el tofu en aceite hasta que esté crujiente y resérvalo.",
+   "Saltea el pimiento y la cebolla, agrega la piña y cocina 2 minutos.",
+   "Mezcla el puré de tomate, vinagre, azúcar, soya y 100 ml de agua, vierte sobre el tofu y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_edamame_ajonjoli",
+  "name": "Edamame salteado con ajonjolí",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "edamame",
+    "g": 300
+   },
+   {
+    "food": "ajonjoli",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y saltea el ajo 30 segundos.",
+   "Agrega el edamame y la soya, mueve dos minutos.",
+   "Retira del fuego, exprime el limón y espolvorea ajonjolí y sal."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_ramen_pollo",
+  "name": "Ramen casero de pollo",
+  "servings": 3,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 400,
+    "note": "entera"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 12
+   },
+   {
+    "food": "consome_pollo",
+    "g": 8
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "pasta_seca",
+    "g": 240,
+    "note": "espagueti partido"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas, en mitades"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1200
+   }
+  ],
+  "steps": [
+   "Hierve el agua con la pechuga, la cebolla, el ajo, el jengibre y el consomé durante 25 minutos.",
+   "Retira el pollo, deshébralo y cuela el caldo. Agrega la salsa de soya.",
+   "Cuece la pasta aparte y escúrrela.",
+   "Sirve el caldo con la pasta, el pollo, la zanahoria, la espinaca y el huevo partido a la mitad."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_sopa_miso_tofu",
+  "name": "Sopa miso con tofu",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_miso",
+    "g": 54,
+    "note": "3 cucharadas"
+   },
+   {
+    "food": "tofu_suave",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "en cubitos"
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "agua_simple",
+    "g": 900
+   }
+  ],
+  "steps": [
+   "Calienta el agua con el jengibre y la cebolla 5 minutos.",
+   "Agrega el tofu y la espinaca, cocina 2 minutos más.",
+   "Disuelve la pasta de miso en un cucharón de caldo y regrésala a la olla.",
+   "Sirve de inmediato, sin volver a hervir."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_yakimeshi_verduras",
+  "name": "Yakimeshi de verduras y huevo",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 470,
+    "note": "frío"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en cubitos"
+   },
+   {
+    "food": "calabacita",
+    "g": 90,
+    "note": "en cubitos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "ajonjoli",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Saltea la zanahoria, la calabacita y la cebolla en aceite caliente.",
+   "Empuja las verduras a un lado y cuaja el huevo revuelto.",
+   "Agrega el arroz frío, dóralo y cubre con la salsa de soya.",
+   "Espolvorea ajonjolí y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_pad_thai_pollo",
+  "name": "Pad thai de pollo estilo casero",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200,
+    "note": "espagueti, cocido al dente"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "en tiras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "cacahuate",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 20
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50
+   },
+   {
+    "food": "zanahoria",
+    "g": 50,
+    "note": "en juliana"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Cuece la pasta, escúrrela y pásala por aceite para que no se pegue.",
+   "Saltea el pollo, la cebolla y el chile hasta que el pollo esté cocido.",
+   "Empuja a un lado, cuaja el huevo y agrega la pasta.",
+   "Mezcla salsa de pescado, azúcar, vinagre y limón; vierte y revuelve. Termina con cacahuate y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_pollo_albahaca_chile",
+  "name": "Pollo salteado con albahaca y chile",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "albahaca",
+    "g": 10,
+    "note": "hojas"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "2 piezas picadas"
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 10
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 7
+   },
+   {
+    "food": "calabacita",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50
+   }
+  ],
+  "steps": [
+   "Saltea el ajo, la cebolla y el chile en aceite caliente.",
+   "Agrega el pollo y cocina hasta dorar.",
+   "Incorpora la calabacita, la salsa de pescado, la soya y el azúcar.",
+   "Apaga el fuego, agrega la albahaca y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_ensalada_res_tailandesa",
+  "name": "Ensalada tailandesa de res",
+  "servings": 3,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 400,
+    "note": "asada y en tiras"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo"
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 7
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en gajos"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Asa la arrachera en sartén con poco aceite 3 minutos por lado y deja reposar.",
+   "Mezcla el limón, la salsa de pescado, el azúcar y el chile picado.",
+   "Corta la carne en tiras y mezcla con la cebolla morada y el aliño.",
+   "Acomoda la lechuga, el pepino y el jitomate, pon la carne encima y termina con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_gyozas_pollo_col",
+  "name": "Gyozas caseras de pollo y col",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 200
+   },
+   {
+    "food": "agua_simple",
+    "g": 100,
+    "note": "tibia, para la masa"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "picada finamente"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "picada fina y exprimida"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Amasa la harina con el agua tibia 5 minutos, cubre y deja reposar 20 minutos.",
+   "Mezcla el pollo, la col, la cebolla, el jengibre, el ajo y la soya para el relleno.",
+   "Estira la masa en círculos, rellena, dobla y sella con los bordes plisados.",
+   "Dora la base en aceite, agrega un poco de agua, tapa y cocina 6 minutos hasta que estén cocidas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_dumplings_camaron_vapor",
+  "name": "Dumplings de camarón al vapor",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 300,
+    "note": "picado grueso"
+   },
+   {
+    "food": "col",
+    "g": 100,
+    "note": "picada fina"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "maicena",
+    "g": 10
+   },
+   {
+    "food": "harina_trigo",
+    "g": 200
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla el camarón con la col, la cebolla, el jengibre, el ajo, la soya y la maicena.",
+   "Amasa la harina con el agua hasta obtener una masa lisa y reposa 15 minutos.",
+   "Forma bolitas de masa, estira cada una, rellena con una cucharada y cierra en pliegues.",
+   "Cuece al vapor 10 minutos en vaporera con papel encerado y sirve con salsa de soya."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_bulgogi_res",
+  "name": "Bulgogi de res casero",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 600,
+    "note": "en láminas muy delgadas"
+   },
+   {
+    "food": "pera",
+    "g": 90,
+    "note": "media pera rallada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en juliana"
+   },
+   {
+    "food": "ajo",
+    "g": 12,
+    "note": "rallado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 60
+   },
+   {
+    "food": "azucar",
+    "g": 20
+   },
+   {
+    "food": "ajonjoli",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla la pera rallada, el ajo, la soya y el azúcar; marina la carne 20 minutos.",
+   "Calienta una sartén con aceite a fuego alto.",
+   "Saltea la carne con la cebolla en tandas hasta que esté dorada.",
+   "Sirve espolvoreado con ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_bibimbap_res",
+  "name": "Bibimbap de res y verduras",
+  "servings": 3,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 470
+   },
+   {
+    "food": "res_arrachera",
+    "g": 240,
+    "note": "en tiras"
+   },
+   {
+    "food": "espinaca",
+    "g": 90
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "calabacita",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas, fritas"
+   },
+   {
+    "food": "pasta_miso",
+    "g": 18
+   },
+   {
+    "food": "miel",
+    "g": 21
+   },
+   {
+    "food": "pure_tomate",
+    "g": 16
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   }
+  ],
+  "steps": [
+   "Saltea la carne con soya, ajo y un poco de aceite; reserva.",
+   "Saltea espinaca, zanahoria y calabacita por separado con una pizca de sal.",
+   "Mezcla miso, miel, puré de tomate y chile para hacer la salsa picante.",
+   "Sirve el arroz con las verduras, la carne y el huevo frito. Pon la salsa y ajonjolí encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_japchae_pollo",
+  "name": "Japchae estilo casero con pollo",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200,
+    "note": "cocida y escurrida"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "en tiras"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "azucar",
+    "g": 12
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   }
+  ],
+  "steps": [
+   "Saltea el pollo con la mitad de la soya y el ajo hasta cocerlo.",
+   "Saltea por separado la cebolla, la zanahoria y la espinaca con un poco de sal.",
+   "Mezcla la pasta con la soya restante, el azúcar y el aceite.",
+   "Revuelve todo junto, agrega ajonjolí y sirve tibio."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_panqueque_camaron_coreano",
+  "name": "Panqueque coreano de camarón y verduras",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 125
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "agua_simple",
+    "g": 150
+   },
+   {
+    "food": "camaron_crudo",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "zanahoria",
+    "g": 40,
+    "note": "rallada"
+   },
+   {
+    "food": "calabacita",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 6
+   }
+  ],
+  "steps": [
+   "Mezcla harina, huevo y agua hasta tener una mezcla lisa.",
+   "Agrega camarón y verduras y revuelve.",
+   "Dora la mezcla en sartén con aceite, a fuego medio, 4 minutos por lado.",
+   "Mezcla soya, vinagre y azúcar para mojar el panqueque."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_sundubu_tofu_huevo",
+  "name": "Sopa coreana de tofu suave y huevo",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_suave",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "calabacita",
+    "g": 80,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "champinon",
+    "g": 70
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "chile_arbol",
+    "g": 3
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   }
+  ],
+  "steps": [
+   "Sofríe el ajo, la cebolla y el chile en aceite.",
+   "Agrega el agua, la soya, la calabacita y los champiñones; hierve 8 minutos.",
+   "Incorpora el tofu con cuidado y cocina 3 minutos.",
+   "Rompe el huevo en la olla, tapa 1 minuto y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_pollo_coreano_horneado",
+  "name": "Pollo coreano horneado dulce y picante",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en trozos"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 30
+   },
+   {
+    "food": "maicena",
+    "g": 20
+   },
+   {
+    "food": "salsa_tomate",
+    "g": 40
+   },
+   {
+    "food": "miel",
+    "g": 42
+   },
+   {
+    "food": "pasta_miso",
+    "g": 18
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "chile_arbol",
+    "g": 4
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 220 °C.",
+   "Mezcla harina y maicena y empaniza los trozos de pollo.",
+   "Hornea 20 minutos en charola con aceite, volteando a la mitad.",
+   "Calienta salsa de tomate, miel, miso, ajo, chile, vinagre y soya; baña el pollo y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_banh_xeo_camaron",
+  "name": "Bánh xèo de camarón",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 125
+   },
+   {
+    "food": "leche_almendra",
+    "g": 150
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "camaron_crudo",
+    "g": 200,
+    "note": "pelado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "zanahoria",
+    "g": 40,
+    "note": "rallada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "azucar",
+    "g": 6
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Bate la harina con la bebida de almendra, el huevo y una pizca de sal hasta tener una mezcla fluida.",
+   "Calienta una sartén con aceite, vierte un cucharón de masa y pon camarones y cebolla encima.",
+   "Tapa y cocina 3 minutos hasta que el borde esté dorado; dobla.",
+   "Prepara salsa con salsa de pescado, limón, azúcar y agua; sirve con cilantro y zanahoria."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_pho_res",
+  "name": "Pho de res casero",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 300,
+    "note": "en láminas muy finas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 110,
+    "note": "asada, partida a la mitad"
+   },
+   {
+    "food": "jengibre",
+    "g": 20,
+    "note": "asado, en rodajas"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 20
+   },
+   {
+    "food": "consome_pollo",
+    "g": 8
+   },
+   {
+    "food": "agua_simple",
+    "g": 1600
+   },
+   {
+    "food": "pasta_seca",
+    "g": 160,
+    "note": "cocida aparte"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "en gajos"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Asa la cebolla y el jengibre en sartén seca hasta dorar.",
+   "Hierve el agua con la cebolla, el jengibre, la canela, el ajo, el consomé y la salsa de pescado 60 minutos.",
+   "Cuece la pasta y repártela en los tazones.",
+   "Pon la carne cruda encima, vierte el caldo hirviendo para cocerla y sirve con limón, chile, albahaca y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_res_shaking_vietnamita",
+  "name": "Res salteada estilo vietnamita",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 450,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 80,
+    "note": "en gajos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "para acompañar"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Marina la carne con soya, azúcar, ajo, pimienta y sal 15 minutos.",
+   "Calienta aceite a fuego muy alto y sella la carne 2 minutos.",
+   "Agrega la cebolla morada y saltea 1 minuto más.",
+   "Sirve sobre lechuga y rocía con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_ensalada_fideo_camaron_viet",
+  "name": "Ensalada de fideo con camarón estilo vietnamita",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 160,
+    "note": "cocida y fría"
+   },
+   {
+    "food": "camaron_cocido",
+    "g": 200
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en juliana"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "cacahuate",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Cuece la pasta, enjuágala con agua fría y escúrrela.",
+   "Prepara el aderezo con salsa de pescado, azúcar, limón, ajo y chile picado.",
+   "Mezcla la pasta con zanahoria, pepino y lechuga.",
+   "Agrega camarones, aderezo, cacahuate y cilantro; mezcla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_pollo_limon_chino",
+  "name": "Pollo al limón estilo chino",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "maicena",
+    "g": 30,
+    "note": "para empanizar y para la salsa"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "batido"
+   },
+   {
+    "food": "limon",
+    "g": 120,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "miel",
+    "g": 28
+   },
+   {
+    "food": "azucar",
+    "g": 25
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "jengibre",
+    "g": 9
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 25
+   }
+  ],
+  "steps": [
+   "Pasa el pollo por huevo y luego por maicena.",
+   "Fríe en aceite caliente hasta dorar y escurre sobre papel.",
+   "Calienta limón, miel, azúcar, vinagre, jengibre y ajo; espesa con un poco de maicena disuelta.",
+   "Baña el pollo con la salsa de limón y sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_sunomono_pepino_camaron",
+  "name": "Sunomono de pepino y camarón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pepino",
+    "g": 300,
+    "note": "en láminas muy finas"
+   },
+   {
+    "food": "camaron_cocido",
+    "g": 120
+   },
+   {
+    "food": "zanahoria",
+    "g": 30,
+    "note": "en juliana"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   }
+  ],
+  "steps": [
+   "Pon el pepino con sal y deja reposar 10 minutos; escúrrelo.",
+   "Mezcla vinagre y azúcar hasta disolver.",
+   "Combina el pepino, la zanahoria y el camarón con el aderezo.",
+   "Espolvorea ajonjolí y sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_temaki_salmon",
+  "name": "Temaki casero de salmón",
+  "servings": 3,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 400,
+    "note": "tibio, aderezado"
+   },
+   {
+    "food": "salmon_fresco",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "2 mitades en tiras"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en tiras"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 20
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla el vinagre con el azúcar y úsalo para aderezar el arroz tibio.",
+   "Corta el salmón, el aguacate y el pepino en tiras.",
+   "Corta hojas de alga nori a la mitad, pon arroz, salmón, aguacate y pepino en diagonal.",
+   "Enrolla en cono, espolvorea ajonjolí y sirve con la soya."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_onigiri_atun",
+  "name": "Onigiri de atún con mayonesa",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 470,
+    "note": "tibio"
+   },
+   {
+    "food": "atun_agua",
+    "g": 150,
+    "note": "escurrido"
+   },
+   {
+    "food": "mayonesa",
+    "g": 26
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Mezcla el atún con la mayonesa y la soya.",
+   "Divide el arroz en porciones y haz un hueco en el centro.",
+   "Rellena con la mezcla de atún, cubre con arroz y moldea en triángulos.",
+   "Espolvorea ajonjolí y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_tempura_verduras_horno",
+  "name": "Tempura de verduras horneada",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 80
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "batido"
+   },
+   {
+    "food": "agua_simple",
+    "g": 120
+   },
+   {
+    "food": "maicena",
+    "g": 20
+   },
+   {
+    "food": "calabacita",
+    "g": 180,
+    "note": "en bastones"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en bastones"
+   },
+   {
+    "food": "brocoli",
+    "g": 150,
+    "note": "en floretes"
+   },
+   {
+    "food": "cereal_maiz",
+    "g": 40,
+    "note": "triturado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 14
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 220 °C y forra una charola con papel.",
+   "Bate harina, huevo, maicena y agua hasta tener un empanizado líquido.",
+   "Pasa las verduras por la mezcla y luego por el cereal triturado; acomoda en charola con aceite.",
+   "Hornea 18 minutos y sirve con salsa de soya, vinagre y miel."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_okonomiyaki_col",
+  "name": "Okonomiyaki de col",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "col",
+    "g": 300,
+    "note": "picada fina"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 100
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "agua_simple",
+    "g": 80
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 40,
+    "note": "rallada"
+   },
+   {
+    "food": "mayonesa",
+    "g": 20
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 7
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Mezcla harina, huevo y agua hasta tener una masa espesa.",
+   "Agrega la col, la cebolla y la zanahoria, y revuelve.",
+   "Cuaja porciones en sartén con aceite, 4 minutos por lado.",
+   "Mezcla mayonesa, soya y miel para la salsa; sirve con ajonjolí."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_yakisoba_pollo",
+  "name": "Yakisoba de pollo y verduras",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 240,
+    "note": "cocida y escurrida"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "en tiras"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en gajos"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "salsa_tomate",
+    "g": 20
+   },
+   {
+    "food": "miel",
+    "g": 14
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Saltea el pollo en aceite hasta cocerlo.",
+   "Agrega cebolla, zanahoria y col, y cocina 3 minutos.",
+   "Incorpora la pasta, la soya, la salsa de tomate y la miel; mezcla a fuego alto.",
+   "Sirve con ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_mapo_tofu",
+  "name": "Mapo tofu con carne molida",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 150
+   },
+   {
+    "food": "pasta_miso",
+    "g": 18
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "chile_arbol",
+    "g": 3
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "maicena",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Hierve el tofu 2 minutos en agua con sal y escúrrelo.",
+   "Dora la carne con cebolla, ajo, jengibre y chile en aceite.",
+   "Agrega el miso, la soya y el azúcar; añade 150 ml de agua y el tofu.",
+   "Espesa con maicena diluida y cocina 4 minutos más."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_satay_pollo_cacahuate",
+  "name": "Satay de pollo con salsa de cacahuate",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en tiras para brocheta"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 48,
+    "note": "3 cucharadas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 21
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 120
+   }
+  ],
+  "steps": [
+   "Mezcla la soya, la miel, el jengibre, el ajo y el limón; marina el pollo 20 minutos.",
+   "Ensarta el pollo en brochetas de madera remojadas.",
+   "Asa o dora en sartén con aceite 4 minutos por lado.",
+   "Calienta la crema de cacahuate con agua, soya y azúcar hasta obtener una salsa; sirve para mojar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_fideos_tofu_chino",
+  "name": "Fideos chinos salteados con tofu",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200,
+    "note": "cocida al dente"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 250,
+    "note": "en tiras"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "champinon",
+    "g": 100,
+    "note": "en láminas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Dora el tofu en aceite y resérvalo.",
+   "Saltea ajo, jengibre, champiñones, col y zanahoria a fuego alto.",
+   "Agrega la pasta escurrida, la soya y el azúcar; mezcla 2 minutos.",
+   "Regresa el tofu y sirve caliente."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_arroz_integral_edamame",
+  "name": "Arroz integral con edamame y ajonjolí",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390
+   },
+   {
+    "food": "edamame",
+    "g": 150
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en cubitos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "miel",
+    "g": 7
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Saltea la cebolla y la zanahoria en aceite 4 minutos.",
+   "Agrega el arroz y el edamame y calienta, mezclando.",
+   "Incorpora el vinagre, la miel y la sal.",
+   "Espolvorea ajonjolí y sirve tibio o frío."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "asi_ensalada_atun_edamame",
+  "name": "Ensalada japonesa de atún y edamame",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "atun_agua",
+    "g": 150,
+    "note": "escurrido"
+   },
+   {
+    "food": "edamame",
+    "g": 100
+   },
+   {
+    "food": "zanahoria",
+    "g": 50,
+    "note": "en juliana"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 7
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Lava y pica la lechuga; acomódala en platos.",
+   "Agrega el atún, el edamame, la zanahoria y el pepino.",
+   "Bate soya, vinagre, miel, aceite y ajonjolí para el aderezo.",
+   "Rocía la ensalada con el aderezo y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_arroz_pollo_hainan",
+  "name": "Arroz con pollo estilo Hainán",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "entera"
+   },
+   {
+    "food": "arroz_crudo",
+    "g": 370,
+    "note": "enjuagado"
+   },
+   {
+    "food": "consome_pollo",
+    "g": 8
+   },
+   {
+    "food": "jengibre",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "para acompañar"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000
+   }
+  ],
+  "steps": [
+   "Hierve el agua con el pollo, la mitad del jengibre y el consomé 25 minutos; reserva el caldo.",
+   "Saltea el arroz con cebolla, ajo y aceite; cúbrelo con 500 ml del caldo y cocina tapado 18 minutos.",
+   "Deshebra el pollo y mézclalo con la salsa de soya y el jengibre restante.",
+   "Sirve el arroz con el pollo y rodajas de pepino."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_naan_yogur",
+  "name": "Naan casero de yogur",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "yogur_natural",
+    "g": 100
+   },
+   {
+    "food": "levadura",
+    "g": 7
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   },
+   {
+    "food": "mantequilla",
+    "g": 15,
+    "note": "derretida"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 60
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Mezcla harina, levadura, azúcar y sal; agrega yogur y agua hasta formar una masa suave.",
+   "Amasa 5 minutos, cubre y deja reposar 1 hora.",
+   "Divide en 4, estira en óvalos y dales forma; pon encima ajo y mantequilla.",
+   "Cocina en sartén muy caliente 2 minutos por lado hasta que infle y dore."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_pakoras_garbanzo",
+  "name": "Pakoras de garbanzo y cebolla",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "machacado a medias"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en juliana"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Mezcla garbanzos machacados con harina, cebolla, cilantro, comino, chile y sal.",
+   "Si queda muy seco, agrega una cucharada de agua para que se pueda formar.",
+   "Forma bolitas aplanadas con las manos.",
+   "Fríe en aceite caliente a fuego medio hasta dorar; escurre sobre papel."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_pollo_tandoori",
+  "name": "Pollo tandoori al horno",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en trozos grandes"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 150
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "rebanada para acompañar"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Mezcla yogur, ajo, jengibre, paprika, comino, limón y sal.",
+   "Marina el pollo en la mezcla al menos 2 horas en refrigerador.",
+   "Precalienta el horno a 230 °C, acomoda el pollo en rejilla y hornea 25 minutos.",
+   "Sirve con cebolla rebanada y un chorrito de aceite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "asi_raita_pepino",
+  "name": "Raita de pepino y yogur",
+  "servings": 3,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "rallado y exprimido"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "tostado"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Exprime bien el pepino rallado.",
+   "Mezcla el yogur con el pepino, el ajo y la sal.",
+   "Espolvorea comino tostado y cilantro.",
+   "Enfría 10 minutos y sirve de acompañamiento."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "asi_biryani_pollo",
+  "name": "Biryani de pollo casero",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 370,
+    "note": "remojado 30 minutos"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "yogur_natural",
+    "g": 100
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "en cubitos"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 25
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "agua_simple",
+    "g": 500
+   }
+  ],
+  "steps": [
+   "Marina el pollo con yogur, jengibre, ajo, comino y paprika por 20 minutos.",
+   "Dora la cebolla en aceite, agrega el jitomate y cocina el pollo marinado 15 minutos.",
+   "Hierve el arroz en el agua con sal 5 minutos; escúrrelo.",
+   "Acomoda el arroz sobre el pollo, cubre, cocina a fuego bajo 15 minutos y termina con pasas y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_tom_yum_pollo",
+  "name": "Sopa tipo tom yum de pollo",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "en tiras"
+   },
+   {
+    "food": "champinon",
+    "g": 100,
+    "note": "en láminas"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en gajos"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 15
+   },
+   {
+    "food": "jengibre",
+    "g": 12,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000
+   }
+  ],
+  "steps": [
+   "Hierve el agua con el jengibre, la cebolla y el chile machacado 5 minutos.",
+   "Agrega el pollo y los champiñones; cocina 8 minutos.",
+   "Incorpora el jitomate, la salsa de pescado y el jugo de limón.",
+   "Apaga el fuego, agrega cilantro y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_calamar_pimiento_chino",
+  "name": "Calamar salteado con pimiento estilo chino",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calamar",
+    "g": 300,
+    "note": "en aros"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 240,
+    "note": "en cuadros"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "maicena",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Pasa el calamar por maicena y sacude el exceso.",
+   "Sella el calamar en aceite muy caliente 1 minuto y resérvalo.",
+   "Saltea el pimiento, la cebolla, el ajo, el jengibre y el chile 2 minutos.",
+   "Regresa el calamar, agrega la soya y el azúcar y sirve enseguida."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_poke_salmon_aguacate",
+  "name": "Poke de salmón con aguacate",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 300,
+    "note": "en cubos (grado sushi)"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "2 mitades en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 300,
+    "note": "tibio, para servir"
+   }
+  ],
+  "steps": [
+   "Mezcla soya, limón, chile picado y ajonjolí para el aderezo.",
+   "Incorpora el salmón y deja marinar 10 minutos en refrigerador.",
+   "Agrega el aguacate, el pepino y la cebolla con suavidad.",
+   "Sirve sobre el arroz tibio."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_sopa_champinon_tofu",
+  "name": "Sopa de champiñones con tofu",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 300,
+    "note": "en láminas"
+   },
+   {
+    "food": "tofu_suave",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "pasta_miso",
+    "g": 18
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "agua_simple",
+    "g": 900
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Saltea la cebolla, el ajo y el jengibre en aceite.",
+   "Agrega los champiñones y cocina 5 minutos.",
+   "Vierte el agua, cuece 10 minutos y agrega el tofu y la espinaca.",
+   "Disuelve el miso en un poco de caldo, regrésalo a la olla y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_chop_suey_pollo",
+  "name": "Chop suey de pollo",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 400,
+    "note": "en tiras"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en diagonal"
+   },
+   {
+    "food": "brocoli",
+    "g": 150,
+    "note": "en floretes"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "champinon",
+    "g": 100,
+    "note": "en láminas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "maicena",
+    "g": 10
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Saltea el pollo en aceite hasta dorar y resérvalo.",
+   "Saltea ajo, cebolla, zanahoria, brócoli, col y champiñones 4 minutos.",
+   "Regresa el pollo, agrega la soya y 100 ml de agua con maicena disuelta.",
+   "Mueve hasta espesar y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_tilapia_vapor_jengibre",
+  "name": "Tilapia al vapor con jengibre",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 600,
+    "note": "3 filetes"
+   },
+   {
+    "food": "jengibre",
+    "g": 12,
+    "note": "en juliana"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Acomoda los filetes en un plato hondo sobre la mitad del jengibre y la cebolla.",
+   "Cuece al vapor en vaporera 10 minutos.",
+   "Calienta la soya con azúcar, el resto del jengibre y el chile; cubre el pescado.",
+   "Calienta el aceite, vierte sobre el pescado para dorar el aroma y termina con cilantro y ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_almejas_jengibre_chile",
+  "name": "Almejas salteadas con jengibre y chile",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "almeja",
+    "g": 500,
+    "note": "limpias"
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 9,
+    "note": "en juliana"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "salsa_soya",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Remoja las almejas en agua con sal 15 minutos y enjuágalas.",
+   "Saltea ajo, jengibre, cebolla y chile en aceite.",
+   "Agrega las almejas, tapa y cocina 4 minutos hasta que abran.",
+   "Rocía con soya y limón, espolvorea cilantro y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_ejotes_tofu_chino",
+  "name": "Ejotes salteados estilo chino con tofu",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "ejote",
+    "g": 375,
+    "note": "3 tazas, cocidos al dente"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Dora el tofu en aceite y resérvalo.",
+   "Saltea la cebolla, el ajo y el jengibre 1 minuto.",
+   "Agrega los ejotes y la soya, mueve 3 minutos.",
+   "Regresa el tofu, espolvorea ajonjolí y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_som_tam_papaya",
+  "name": "Som tam de papaya",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papaya",
+    "g": 300,
+    "note": "verde o firme, en juliana"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en gajos"
+   },
+   {
+    "food": "ejote",
+    "g": 60,
+    "note": "cortado en trozos"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cacahuate",
+    "g": 30,
+    "note": "tostado y machacado"
+   }
+  ],
+  "steps": [
+   "Machaca el ajo y el chile en el molcajete o un tazón.",
+   "Agrega azúcar, salsa de pescado y limón y mezcla hasta disolver.",
+   "Incorpora la papaya, la zanahoria, el ejote y el jitomate y machaca ligeramente.",
+   "Sirve con cacahuate machacado encima."
+  ],
+  "tags": [
+   "rápida",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_ensalada_pollo_mango",
+  "name": "Ensalada de pollo y mango tailandesa",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "en tiras"
+   },
+   {
+    "food": "mango",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100
+   },
+   {
+    "food": "cacahuate",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 10
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "en juliana"
+   }
+  ],
+  "steps": [
+   "Mezcla limón, salsa de pescado, azúcar y chile picado para el aderezo.",
+   "Acomoda la lechuga en un plato.",
+   "Agrega el pollo, el mango y la cebolla morada; baña con el aderezo.",
+   "Termina con cacahuate y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_pollo_naranja_chino",
+  "name": "Pollo a la naranja estilo chino",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "jugo_naranja",
+    "g": 240
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 21
+   },
+   {
+    "food": "maicena",
+    "g": 20
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "chile_arbol",
+    "g": 3
+   },
+   {
+    "food": "naranja",
+    "g": 131,
+    "note": "ralladura de 1 pieza"
+   }
+  ],
+  "steps": [
+   "Empaniza el pollo con 10 g de maicena y dóralo en aceite; resérvalo.",
+   "Calienta jugo de naranja, soya, miel, jengibre, ajo, chile y ralladura.",
+   "Espesa la salsa con la maicena restante disuelta en agua.",
+   "Regresa el pollo a la salsa, mueve 2 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_oyakodon_pollo",
+  "name": "Oyakodon de pollo",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 350,
+    "note": "en cubos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "batido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 470,
+    "note": "caliente"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "azucar",
+    "g": 14
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "agua_simple",
+    "g": 150
+   },
+   {
+    "food": "ajonjoli",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Hierve el agua con la soya y el azúcar.",
+   "Agrega la cebolla y el pollo, cocina 8 minutos.",
+   "Vierte el huevo batido, tapa 1 minuto y deja que cuaje a medias.",
+   "Sirve sobre el arroz caliente y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_gyudon_res",
+  "name": "Gyudon de res",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 400,
+    "note": "en láminas finas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "en juliana"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "azucar",
+    "g": 14
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 470,
+    "note": "caliente"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 150
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Hierve el agua con soya, azúcar y jengibre.",
+   "Agrega la cebolla y cocina 5 minutos hasta suavizar.",
+   "Incorpora la carne en láminas y cocina 3 minutos, retirando la espuma.",
+   "Sirve sobre el arroz y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_pollo_vapor_jengibre",
+  "name": "Pollo al vapor con jengibre y cebollín",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en medallones finos"
+   },
+   {
+    "food": "jengibre",
+    "g": 15,
+    "note": "en juliana"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   }
+  ],
+  "steps": [
+   "Acomoda el pollo en un plato con jengibre y la mitad de la cebolla.",
+   "Cuece al vapor 15 minutos hasta que esté cocido por dentro.",
+   "Calienta aceite con ajo y la cebolla restante, vierte sobre el pollo.",
+   "Rocía con soya y azúcar, termina con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_jook_pollo_jengibre",
+  "name": "Jook de pollo y jengibre",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 185,
+    "note": "enjuagado"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "entera"
+   },
+   {
+    "food": "jengibre",
+    "g": 15,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 1500
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "batido"
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Hierve el arroz con el agua, el jengibre y la cebolla a fuego bajo 40 minutos, removiendo seguido.",
+   "Agrega el pollo entero y cocina 20 minutos más hasta que esté cocido.",
+   "Retira el pollo, deshébralo y regrésalo a la olla con la soya y la sal.",
+   "Vierte el huevo batido en hilo, sirve caliente y termina con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_maki_pepino_atun",
+  "name": "Maki de pepino y atún",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 400,
+    "note": "aderezado con vinagre"
+   },
+   {
+    "food": "atun_agua",
+    "g": 150,
+    "note": "escurrido"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en tiras"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "1 mitad en tiras"
+   },
+   {
+    "food": "mayonesa",
+    "g": 15
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 20
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Mezcla vinagre y azúcar y úsalo para aderezar el arroz tibio.",
+   "Mezcla el atún con mayonesa y un chorrito de soya.",
+   "Pon hojas de alga nori sobre la esterilla, extiende arroz, atún, pepino y aguacate.",
+   "Enrolla apretando, corta en rodajas y sirve con ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_general_tso_horneado",
+  "name": "Pollo estilo General Tso horneado",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 40
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "batido"
+   },
+   {
+    "food": "maicena",
+    "g": 16
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 35
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 20
+   },
+   {
+    "food": "chile_arbol",
+    "g": 3
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "jengibre",
+    "g": 9
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 220 °C.",
+   "Pasa el pollo por huevo y por una mezcla de harina y maicena.",
+   "Hornea 20 minutos en charola con aceite, volteando a la mitad.",
+   "Calienta soya, miel, vinagre, azúcar, ajo, jengibre y chile; baña el pollo y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_calabacitas_japonesas",
+  "name": "Calabacitas salteadas al estilo japonés",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 400,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 7
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "en juliana"
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y saltea la cebolla y el ajo 1 minuto.",
+   "Agrega la calabacita y saltea a fuego alto 4 minutos.",
+   "Mezcla la soya con la miel y vierte sobre las calabacitas.",
+   "Espolvorea ajonjolí y sirve caliente."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_sopa_fideo_huevo",
+  "name": "Sopa de fideo con huevo estilo chino",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 160,
+    "note": "espagueti partido"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "zanahoria",
+    "g": 50,
+    "note": "en juliana"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "consome_pollo",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajonjoli",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000
+   }
+  ],
+  "steps": [
+   "Hierve el agua con el consomé, el jengibre y la cebolla 5 minutos.",
+   "Agrega la zanahoria y la pasta; cocina hasta que la pasta esté lista.",
+   "Vierte el huevo batido en hilo, moviendo para formar hebras.",
+   "Incorpora la espinaca y la soya, sirve y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_ensalada_col_asiatica",
+  "name": "Ensalada asiática de col con ajonjolí",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "col",
+    "g": 200,
+    "note": "rebanada muy fina"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en juliana"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 20
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   },
+   {
+    "food": "cacahuate",
+    "g": 20,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Mezcla col, zanahoria y pepino en un bol.",
+   "Bate vinagre, azúcar, soya y aceite hasta disolver el azúcar.",
+   "Baña la ensalada con el aliño y deja reposar 5 minutos.",
+   "Termina con ajonjolí, cacahuate y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_brochetas_res_teriyaki",
+  "name": "Brochetas de res teriyaki",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 60
+   },
+   {
+    "food": "miel",
+    "g": 42
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Mezcla soya, miel, jengibre y ajo; marina la carne 20 minutos.",
+   "Ensarta la carne, cebolla y pimiento en brochetas de madera remojadas.",
+   "Asa o dora en sartén con aceite 3 minutos por lado.",
+   "Baña con el resto de la marinada y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_curry_japones_res",
+  "name": "Curry japonés de res con papa",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "manzana",
+    "g": 182,
+    "note": "1 pieza rallada"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 15
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 10
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   }
+  ],
+  "steps": [
+   "Dora la carne en aceite y resérvala.",
+   "Sofríe la cebolla, el ajo y el jengibre hasta caramelizar; agrega zanahoria, papa y manzana.",
+   "Espolvorea harina, comino y paprika, y mezcla un minuto.",
+   "Agrega el agua y la carne, cocina 25 minutos; apaga y disuelve el chocolate y la soya."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_tofu_teriyaki_horno",
+  "name": "Tofu teriyaki al horno",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 500,
+    "note": "en rebanadas gruesas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 60
+   },
+   {
+    "food": "miel",
+    "g": 28
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "ajonjoli",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "brocoli",
+    "g": 150,
+    "note": "para acompañar"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C y seca el tofu con papel.",
+   "Mezcla soya, miel, jengibre y ajo; baña el tofu y el brócoli.",
+   "Acomoda en charola con aceite y hornea 25 minutos, volteando a la mitad.",
+   "Sirve con el jarabe de la charola y ajonjolí."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "asi_lettuce_wraps_pollo",
+  "name": "Lettuce wraps de pollo y champiñón",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 400,
+    "note": "picada"
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 50,
+    "note": "rallada"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 14
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "maicena",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150,
+    "note": "hojas para envolver"
+   },
+   {
+    "food": "cacahuate",
+    "g": 20,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Saltea el pollo picado en aceite hasta dorar.",
+   "Agrega cebolla, ajo, jengibre, champiñones y zanahoria; cocina 4 minutos.",
+   "Mezcla soya, miel y maicena con 50 ml de agua y añádela al salteado hasta espesar.",
+   "Sirve en hojas de lechuga y termina con cacahuate picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_rollitos_primavera_tofu",
+  "name": "Rollitos primavera de verduras y tofu",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 150
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "rallada"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 200,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ejote",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 25
+   }
+  ],
+  "steps": [
+   "Haz una masa lisa con harina y agua, estírala en discos muy delgados y cuécelos en sartén 30 segundos por lado.",
+   "Saltea ajo, cebolla, col, zanahoria, ejote y tofu con la soya hasta que se seque el líquido.",
+   "Pon una cucharada de relleno en cada disco, enrolla apretando los lados.",
+   "Dora los rollitos en aceite por todos lados y sirve calientes."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_huevos_jitomate_chino",
+  "name": "Huevos revueltos con jitomate estilo chino",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 piezas batidas"
+   },
+   {
+    "food": "jitomate",
+    "g": 240,
+    "note": "2 piezas en gajos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "azucar",
+    "g": 7
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Calienta aceite y cuaja los huevos revueltos a fuego medio; retíralos.",
+   "Saltea la cebolla y el jitomate 3 minutos hasta que suelten jugo.",
+   "Agrega azúcar y sal, regresa el huevo y mezcla un minuto.",
+   "Sirve con cilantro picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_trucha_miso",
+  "name": "Trucha glaseada con miso",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "trucha",
+    "g": 450,
+    "note": "3 filetes"
+   },
+   {
+    "food": "pasta_miso",
+    "g": 36,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 14
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "espinaca",
+    "g": 60,
+    "note": "para acompañar"
+   }
+  ],
+  "steps": [
+   "Mezcla el miso, la miel y el jengibre hasta formar una pasta.",
+   "Unta la mezcla sobre los filetes y deja reposar 15 minutos.",
+   "Hornea a 200 °C en charola con aceite y cebolla 12 minutos.",
+   "Sirve con espinaca salteada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_pulpo_jengibre_calabacita",
+  "name": "Pulpo salteado con jengibre y calabacita",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pulpo_cocido",
+    "g": 400,
+    "note": "en trozos"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en gajos"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "en juliana"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Seca bien los trozos de pulpo con papel.",
+   "Saltea el pulpo en aceite muy caliente 3 minutos y resérvalo.",
+   "Saltea cebolla, calabacita, ajo, jengibre y chile 3 minutos.",
+   "Regresa el pulpo, agrega la soya, mueve y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_larb_pollo",
+  "name": "Larb de pollo tailandés",
+  "servings": 3,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "picada muy fina"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada fina"
+   },
+   {
+    "food": "cilantro",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo"
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 20
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "arroz_crudo",
+    "g": 20,
+    "note": "tostado y molido"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Tuesta el arroz en sartén seca hasta dorar y muélelo grueso.",
+   "Cocina el pollo picado en aceite con un poco de agua hasta que esté cocido.",
+   "Retira del fuego y mezcla con limón, salsa de pescado, azúcar y chile.",
+   "Agrega cebolla, cilantro, albahaca y arroz tostado; sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_pad_kra_pao_res",
+  "name": "Pad kra pao de res molida",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 500
+   },
+   {
+    "food": "albahaca",
+    "g": 10,
+    "note": "hojas"
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 10
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   },
+   {
+    "food": "ejote",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Saltea ajo, cebolla y chile en aceite caliente.",
+   "Agrega la carne molida y cocina hasta dorar, deshaciéndola.",
+   "Incorpora ejote, soya, salsa de pescado y azúcar; cocina 4 minutos.",
+   "Apaga el fuego, agrega la albahaca y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_fideos_dan_dan",
+  "name": "Fideos dan dan con carne molida",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200,
+    "note": "cocida al dente"
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 250
+   },
+   {
+    "food": "pasta_miso",
+    "g": 18
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "chile_arbol",
+    "g": 3
+   },
+   {
+    "food": "cacahuate",
+    "g": 30,
+    "note": "molido grueso"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "col",
+    "g": 80,
+    "note": "picada para acompañar"
+   }
+  ],
+  "steps": [
+   "Cuece la pasta, escúrrela y reserva un poco del agua.",
+   "Dora la carne con ajo, chile y aceite hasta que suelte grasa y esté crujiente.",
+   "Mezcla miso, soya, azúcar y un poco del agua de la pasta; agrega a la carne.",
+   "Sirve la pasta con la carne, col y cacahuate molido."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_camarones_curry_calabacita",
+  "name": "Camarones al curry con calabacita",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 500,
+    "note": "pelados"
+   },
+   {
+    "food": "calabacita",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el ajo y el jengibre en aceite.",
+   "Agrega comino, paprika y jitomate; cocina 5 minutos.",
+   "Incorpora la calabacita y el agua; cocina 5 minutos.",
+   "Agrega los camarones y la crema, cocina 4 minutos y termina con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_champinones_esparragos_chino",
+  "name": "Champiñones con espárragos al estilo chino",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 300,
+    "note": "en mitades"
+   },
+   {
+    "food": "esparrago",
+    "g": 180,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "miel",
+    "g": 7
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en juliana"
+   }
+  ],
+  "steps": [
+   "Saltea la cebolla, el ajo y el jengibre en aceite 1 minuto.",
+   "Agrega los champiñones y cocina 4 minutos hasta dorar.",
+   "Incorpora los espárragos, la soya y la miel; mezcla 2 minutos.",
+   "Espolvorea ajonjolí y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_chawanmushi_pollo",
+  "name": "Chawanmushi de huevo con pollo",
+  "servings": 2,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "batido sin hacer espuma"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 80,
+    "note": "en cubitos"
+   },
+   {
+    "food": "champinon",
+    "g": 40,
+    "note": "en láminas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 8
+   },
+   {
+    "food": "agua_simple",
+    "g": 300,
+    "note": "caldo tibio"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20,
+    "note": "picada fina"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el huevo con el agua, la soya y la sal; cuela.",
+   "Reparte el pollo, los champiñones y la cebolla en 2 tazones.",
+   "Vierte la mezcla de huevo encima y cubre con papel aluminio.",
+   "Cuece al vapor a fuego bajo 20 minutos hasta que cuaje."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_salmon_glaseado_miso",
+  "name": "Salmón glaseado con miso",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "pasta_miso",
+    "g": 36,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 21
+   },
+   {
+    "food": "jengibre",
+    "g": 5,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "brocoli",
+    "g": 200,
+    "note": "para acompañar"
+   }
+  ],
+  "steps": [
+   "Mezcla el miso, la miel y el jengibre hasta obtener una pasta lisa.",
+   "Unta la mezcla sobre los filetes y deja reposar 15 minutos.",
+   "Hornea a 200 °C en charola con aceite y brócoli 12 minutos.",
+   "Sirve el salmón con el brócoli."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_tacos_coreanos_res",
+  "name": "Tacos coreanos de res",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 400,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en juliana"
+   },
+   {
+    "food": "pera",
+    "g": 90,
+    "note": "media pera rallada"
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45
+   },
+   {
+    "food": "azucar",
+    "g": 14
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 240,
+    "note": "8 tortillas"
+   },
+   {
+    "food": "col",
+    "g": 100,
+    "note": "rallada para la guarnición"
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "ajonjoli",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Marina la carne con pera, ajo, soya y azúcar 20 minutos.",
+   "Saltea la carne con la cebolla en aceite a fuego alto hasta dorar.",
+   "Calienta las tortillas en comal.",
+   "Sirve la carne en tortillas con col, cilantro y ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_ensalada_india_garbanzo",
+  "name": "Ensalada india de garbanzo y pepino",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 300
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada fina"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Escurre los garbanzos y mézclalos con pepino y cebolla morada.",
+   "Bate el yogur con limón, comino, sal y chile.",
+   "Incorpora el aderezo a los garbanzos y mezcla.",
+   "Termina con cilantro y sirve frío."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "asi_samosas_horneadas_papa",
+  "name": "Samosas horneadas de papa",
+  "servings": 4,
+  "time_min": 55,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 200
+   },
+   {
+    "food": "agua_simple",
+    "g": 100,
+    "note": "tibia, para la masa"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "machacada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "rallado"
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "cilantro",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Amasa la harina con agua, aceite y sal; reposa 20 minutos.",
+   "Mezcla la papa con cebolla, jengibre, comino, cilantro y chile.",
+   "Estira la masa, corta discos, pon relleno, dobla en triángulo y sella.",
+   "Hornea a 200 °C 25 minutos hasta dorar."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_ensalada_quinoa_asiatica",
+  "name": "Ensalada de quinoa a la asiática",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "edamame",
+    "g": 150
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 5
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla soya, vinagre, azúcar y aceite para el aderezo.",
+   "Combina la quinoa con el edamame, la zanahoria y el pepino.",
+   "Baña con el aderezo y deja reposar 10 minutos.",
+   "Termina con ajonjolí y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "asi_sukiyaki_res",
+  "name": "Sukiyaki casero de res",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 300,
+    "note": "en láminas finas"
+   },
+   {
+    "food": "tofu_firme",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "champinon",
+    "g": 100,
+    "note": "en láminas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 60
+   },
+   {
+    "food": "azucar",
+    "g": 14
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas, para mojar"
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Calienta aceite en una cacerola baja y dora la carne ligeramente.",
+   "Agrega soya, azúcar y agua; acomoda cebolla, champiñones, tofu y espinaca.",
+   "Cocina a fuego medio 15 minutos sin revolver demasiado.",
+   "Sirve con los huevos batidos para mojar cada bocado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_nasi_goreng_pollo",
+  "name": "Nasi goreng de pollo",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 470,
+    "note": "frío"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "en cubitos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 9
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "pepino",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 25
+   },
+   {
+    "food": "zanahoria",
+    "g": 40,
+    "note": "en cubitos"
+   }
+  ],
+  "steps": [
+   "Saltea el pollo en aceite hasta dorar y resérvalo.",
+   "Saltea cebolla, ajo, chile y zanahoria 3 minutos.",
+   "Agrega el arroz frío, la soya y el azúcar; dóralo 4 minutos.",
+   "Cuaja el huevo a un lado, mezcla todo y sirve con pepino."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_gado_gado",
+  "name": "Gado gado con salsa de cacahuate",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "ejote",
+    "g": 200,
+    "note": "cocido"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en rodajas"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 piezas en mitades"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 48,
+    "note": "3 cucharadas"
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 80
+   }
+  ],
+  "steps": [
+   "Cuece los ejotes, la zanahoria y la espinaca al vapor 5 minutos.",
+   "Calienta la crema de cacahuate con agua, azúcar, limón, ajo y chile hasta obtener una salsa.",
+   "Acomoda las verduras, la papa y el huevo en un plato.",
+   "Baña con la salsa de cacahuate y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "asi_pollo_almendras_chino",
+  "name": "Pollo con almendras estilo chino",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "almendra",
+    "g": 60,
+    "note": "fileteada y tostada"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "maicena",
+    "g": 10
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en gajos"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "miel",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Mezcla el pollo con maicena y la mitad de la soya.",
+   "Dora el pollo en aceite y resérvalo.",
+   "Saltea jengibre, ajo, zanahoria y cebolla 3 minutos.",
+   "Regresa el pollo, agrega la soya restante con la miel, mueve y termina con almendras."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_tortitas_atun_tailandes",
+  "name": "Tortitas de atún estilo tailandés",
+  "servings": 3,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 300,
+    "note": "escurrido"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "batido"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 30
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2,
+    "note": "molido"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "ejote",
+    "g": 80,
+    "note": "en juliana fina"
+   },
+   {
+    "food": "salsa_pescado",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada fina"
+   }
+  ],
+  "steps": [
+   "Mezcla atún, huevo, harina, ajo, chile y salsa de pescado.",
+   "Agrega ejote, cebolla y cilantro; forma tortitas aplanadas.",
+   "Fríe en aceite caliente 3 minutos por lado hasta dorar.",
+   "Sirve con salsa de soya o limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_sopa_calabacita_curry",
+  "name": "Sopa de calabacita al curry",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 20,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "jengibre",
+    "g": 6
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el ajo y el jengibre en aceite.",
+   "Agrega comino, zanahoria y calabacita; cocina 3 minutos.",
+   "Vierte el agua, cuece 20 minutos hasta que las verduras estén suaves.",
+   "Licúa con el coco rallado y la sal, y sirve caliente."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_hiyashi_chuka_fideo",
+  "name": "Hiyashi chuka de fideo frío",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 160,
+    "note": "cocida y enfriada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas, en tortilla delgada"
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 60,
+    "note": "3 rebanadas en tiras"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en juliana"
+   },
+   {
+    "food": "zanahoria",
+    "g": 40,
+    "note": "en juliana"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Bate el huevo, cuájalo en sartén con aceite como tortilla delgada y corta en tiras.",
+   "Mezcla soya, vinagre y azúcar para el caldo frío.",
+   "Acomoda la pasta sobre platos con pepino, zanahoria, jamón y huevo.",
+   "Vierte el caldo frío y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "asi_brocoli_ajo_soya",
+  "name": "Brócoli salteado con ajo y soya",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "brocoli",
+    "g": 400,
+    "note": "en floretes"
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "en láminas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 4
+   },
+   {
+    "food": "azucar",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Hierve el brócoli 2 minutos y escúrrelo.",
+   "Dora el ajo en aceite caliente sin quemarlo.",
+   "Agrega el brócoli, la soya y el azúcar; saltea 2 minutos.",
+   "Espolvorea ajonjolí y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "asi_ensalada_pollo_ajonjoli",
+  "name": "Ensalada de pollo con aderezo de ajonjolí",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "deshebrada"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150
+   },
+   {
+    "food": "zanahoria",
+    "g": 50,
+    "note": "rallada"
+   },
+   {
+    "food": "pepino",
+    "g": 80,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9
+   },
+   {
+    "food": "salsa_soya",
+    "g": 15
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 14
+   },
+   {
+    "food": "tahini",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Bate tahini, soya, vinagre, miel y aceite hasta tener un aderezo cremoso.",
+   "Acomoda la lechuga, la zanahoria y el pepino en platos.",
+   "Agrega el pollo deshebrado y espolvorea ajonjolí.",
+   "Baña con el aderezo justo antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ }
+]
