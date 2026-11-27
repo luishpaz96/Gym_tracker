@@ -1,0 +1,5969 @@
+[
+ {
+  "id": "fit_pollo_chipotle_arroz_integral_brocoli",
+  "name": "Pechuga al chipotle con arroz integral y brócoli",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en tiras"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 585,
+    "note": "tres tazas, ya cocido"
+   },
+   {
+    "food": "brocoli",
+    "g": 300,
+    "note": "en floretes"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "2 chiles licuados con adobo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Licua el chipotle con el ajo y dos cucharadas de agua.",
+   "Dora el pollo con la cebolla en aceite, agrega la salsa y cocina 8 minutos.",
+   "Cuece el brócoli al vapor 4 minutos y sirve con el arroz integral."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_quinoa_pepino_jitomate",
+  "name": "Pollo a la plancha con quinoa, pepino y jitomate",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 400,
+    "note": "aplanada"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con sal y pimienta y cocínalo en sartén caliente 5 minutos por lado.",
+   "Mezcla la quinoa con pepino, jitomate, cilantro, limón y aceite.",
+   "Sirve el pollo en rebanadas sobre la ensalada de quinoa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_pollo_curry_garbanzo_espinaca",
+  "name": "Pollo al curry con garbanzos y espinaca",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "espinaca",
+    "g": 120,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 110,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el pollo con cebolla y ajo en aceite.",
+   "Agrega comino, jitomate y garbanzos; cocina 10 minutos con un poco de agua.",
+   "Incorpora la espinaca al final hasta que se marchite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_muslo_camote_ejotes",
+  "name": "Muslo de pollo horneado con camote y ejotes",
+  "servings": 3,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "muslo_pollo",
+    "g": 500,
+    "note": "sin piel, cocido"
+   },
+   {
+    "food": "camote_cocido",
+    "g": 400,
+    "note": "en rodajas"
+   },
+   {
+    "food": "ejote",
+    "g": 250,
+    "note": "cocidos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "paprika",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "ajo_polvo",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Unta el pollo y el camote con aceite y especias, hornea 25 minutos.",
+   "Agrega los ejotes los últimos 5 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_fajitas_pollo_pimiento_tortilla",
+  "name": "Fajitas de pollo con pimiento y cebolla en tortilla de maíz",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "seis tortillas"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 240,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 3,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "comino",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Saltea el pollo con las especias en aceite hasta dorar.",
+   "Agrega pimiento y cebolla y cocina 5 minutos más.",
+   "Sirve en tortillas calientes con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_rostizado_col_pepino",
+  "name": "Pollo rostizado desmenuzado con ensalada de col y pepino",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pollo_rostizado",
+    "g": 600,
+    "note": "tres cuartos, sin hueso"
+   },
+   {
+    "food": "col",
+    "g": 200,
+    "note": "rallada fina"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en media luna"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Desmenuza el pollo rostizado quitando piel y hueso.",
+   "Mezcla col, pepino, vinagre, limón, aceite y sal.",
+   "Sirve el pollo sobre la ensalada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_teriyaki_brocoli_arroz",
+  "name": "Pollo teriyaki con brócoli y arroz integral",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "brocoli",
+    "g": 300,
+    "note": "en floretes"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 45,
+    "note": "tres cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 20,
+    "note": "una cucharada"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "una cucharada rallada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Dora el pollo en aceite 6 minutos.",
+   "Agrega salsa de soya, miel, jengibre y ajo y cocina 4 minutos hasta glasear.",
+   "Cuece el brócoli al vapor y sirve con el arroz."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "fit_pollo_dorado_lechuga_aguacate",
+  "name": "Pechuga dorada al horno con ensalada de lechuga y aguacate",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 450,
+    "note": "aplanada"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150,
+    "note": "en trozos"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en gajos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "en juliana"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Hornea la pechuga sazonada a 200 °C por 18 minutos.",
+   "Mezcla lechuga, aguacate, jitomate, cebolla, limón y aceite.",
+   "Rebana el pollo y sirve sobre la ensalada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_pollo_salsa_verde_frijol_tortilla",
+  "name": "Pollo en salsa verde con frijol negro y tortillas",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "entera, cocida en agua con cebolla"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300,
+    "note": "hervidos"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "dos chiles"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "un cuarto"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "un manojo chico"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Cuece el pollo, deshébralo y reserva el caldo.",
+   "Licua tomate verde, chile, cebolla, cilantro y sal; cocina la salsa 5 minutos.",
+   "Mezcla el pollo con la salsa y sirve con frijol y tortillas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_limon_lentejas_espinaca",
+  "name": "Pollo al limón con lentejas y espinaca",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 450,
+    "note": "en medallones"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 400,
+    "note": "escurridas"
+   },
+   {
+    "food": "espinaca",
+    "g": 90,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo de dos limones"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sella el pollo en aceite con ajo y cebolla 6 minutos.",
+   "Agrega las lentejas, el comino y el jugo de limón y cocina 5 minutos.",
+   "Incorpora la espinaca y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_papas_horno_brocoli",
+  "name": "Pollo al horno con papas y brócoli",
+  "servings": 3,
+  "time_min": 45,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en piezas"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 500,
+    "note": "en gajos"
+   },
+   {
+    "food": "brocoli",
+    "g": 250,
+    "note": "en floretes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "oregano",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes machacados"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Mezcla pollo, papas y ajo con aceite, orégano, sal y pimienta; hornea 25 minutos.",
+   "Agrega el brócoli y hornea 15 minutos más."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_mole_arroz_integral",
+  "name": "Pollo en mole poblano con arroz integral",
+  "servings": 3,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en piezas, cocida"
+   },
+   {
+    "food": "pasta_mole",
+    "g": 60,
+    "note": "tres cucharadas"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "agua_simple",
+    "g": 300,
+    "note": "para el caldo del mole"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "una cucharada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Cuece el pollo y reserva 300 ml del caldo.",
+   "Fríe la pasta de mole con cebolla y aceite, agrega el caldo y cocina 10 minutos.",
+   "Sirve el pollo bañado en mole con ajonjolí y arroz."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "fit_burrito_bowl_pollo_frijol_arroz",
+  "name": "Burrito bowl de pollo con frijol negro y arroz blanco",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 450,
+    "note": "en tiras, sazonada con chile en polvo"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 400,
+    "note": "tres cuartos de taza por porción"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Dora el pollo con chile en polvo en sartén caliente 8 minutos.",
+   "Calienta el frijol y el arroz.",
+   "Arma los tazones con pollo, frijol, arroz, pico de jitomate, aguacate y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_pastor_pina_tortilla",
+  "name": "Pollo al pastor con piña y tortillas de maíz",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "pina",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "dos chiles desvenados, hidratados"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en cuartos"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "seis tortillas"
+   }
+  ],
+  "steps": [
+   "Licua los chiles hidratados con ajo, vinagre, comino y agua; marina el pollo 15 minutos.",
+   "Dora el pollo con la cebolla en sartén caliente y agrega la piña los últimos 4 minutos.",
+   "Sirve en tortillas de maíz calientes."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_pollo_curry_rojo_calabacita",
+  "name": "Pollo al curry rojo con calabacita y arroz integral",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "calabacita",
+    "g": 250,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 20,
+    "note": "dos cucharadas sin azúcar"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30,
+    "note": "dos cucharadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "una cucharada rallada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Dora el pollo con cebolla, ajo y jengibre en aceite.",
+   "Agrega puré de tomate, coco y 150 ml de agua; cocina 8 minutos.",
+   "Incorpora la calabacita 5 minutos y sirve con arroz."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_pollo_brochetas_quinoa_pimiento",
+  "name": "Brochetas de pollo con pimiento, cebolla morada y quinoa",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos para brocheta"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 240,
+    "note": "en cuadros"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en cuadros"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "paprika",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "ajo_polvo",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Marina el pollo con aceite, paprika, ajo en polvo, limón y sal 10 minutos.",
+   "Arma las brochetas con pollo, pimiento y cebolla y asa 12 minutos.",
+   "Sirve con la quinoa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_guisado_pollo_papa_calabacita",
+  "name": "Guisado de pollo con papa, calabacita y jitomate",
+  "servings": 3,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el pollo con cebolla y ajo en aceite.",
+   "Agrega jitomate, papa y 300 ml de agua; cocina 15 minutos.",
+   "Añade calabacita 8 minutos más y sirve con tortillas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_ajillo_ejotes_arroz_blanco",
+  "name": "Pollo al ajillo con ejotes y arroz blanco",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 450,
+    "note": "en medallones"
+   },
+   {
+    "food": "ejote",
+    "g": 250,
+    "note": "en trozos"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 400,
+    "note": "dos tazas"
+   },
+   {
+    "food": "ajo",
+    "g": 15,
+    "note": "cinco dientes laminados"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2,
+    "note": "dos piezas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el pollo en aceite con ajo y chile de árbol 7 minutos.",
+   "Cuece los ejotes al vapor 5 minutos.",
+   "Sirve el pollo con ejotes, arroz y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_pollo_champinones_quinoa_mostaza",
+  "name": "Pollo con champiñones, espinaca y quinoa en salsa de mostaza",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "champinon",
+    "g": 250,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 120,
+    "note": "picada"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "mostaza",
+    "g": 10,
+    "note": "dos cucharaditas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   }
+  ],
+  "steps": [
+   "Dora el pollo con cebolla y ajo en aceite.",
+   "Agrega champiñones y cocina 5 minutos hasta que suelten su jugo.",
+   "Incorpora mostaza, espinaca y sirve con quinoa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_enchiladas_verdes_pollo_calabacita",
+  "name": "Enchiladas verdes de pollo con calabacita",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "cocida y deshebrada"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 240,
+    "note": "ocho tortillas"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300,
+    "note": "hervido"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "un chile"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "un cuarto para la salsa"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "para freír"
+   }
+  ],
+  "steps": [
+   "Licua tomate verde, chile, cebolla y cilantro; cocina la salsa 5 minutos.",
+   "Dora ligeramente las tortillas en aceite, rellénalas con pollo y calabacita y enróllalas.",
+   "Baña las enchiladas con la salsa y hornea 15 minutos a 180 °C."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_mexicana_frijol_bayo",
+  "name": "Pollo a la mexicana con frijol bayo",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "jitomate",
+    "g": 240,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "dos chiles picados"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el pollo con cebolla y ajo en aceite.",
+   "Agrega jitomate y chile y cocina 8 minutos.",
+   "Incorpora el frijol, calienta 3 minutos y espolvorea cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_mango_arroz_integral_pepino",
+  "name": "Bowl de pollo con mango, pepino y arroz integral",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "mango",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "salsa_picante",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Cocina el pollo en aceite con sal 8 minutos.",
+   "Mezcla mango, pepino, cilantro, limón y salsa picante.",
+   "Sirve el pollo sobre arroz integral con la mezcla de mango."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_pollo_jengibre_ajonjoli_edamame",
+  "name": "Pollo al jengibre con ajonjolí, edamame y arroz integral",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "edamame",
+    "g": 200,
+    "note": "cocido, desgranado"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 10,
+    "note": "una cucharada tostado"
+   },
+   {
+    "food": "jengibre",
+    "g": 10,
+    "note": "una cucharada rallada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Saltea el pollo con jengibre y ajo en aceite 7 minutos.",
+   "Agrega el edamame y sazona con sal.",
+   "Sirve sobre arroz y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_pollo_ancho_calabacita_guisado",
+  "name": "Pollo deshebrado en chile ancho con calabacita",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "cocida y deshebrada"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "dos chiles desvenados, hidratados"
+   },
+   {
+    "food": "calabacita",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Licua los chiles hidratados con ajo y cebolla.",
+   "Fríe la salsa 4 minutos, agrega el pollo y la calabacita y cocina 10 minutos.",
+   "Sirve con tortillas calientes."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_pollo_lentejas_tahini_espinaca",
+  "name": "Ensalada tibia de pollo con lentejas y espinaca",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 450,
+    "note": "en cubos"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "espinaca",
+    "g": 150,
+    "note": "hojas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "mostaza",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Cocina el pollo en sartén con sal 8 minutos.",
+   "Mezcla lentejas, espinaca, cebolla, pepino, limón, mostaza y aceite.",
+   "Sirve el pollo tibio sobre la ensalada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_pavo_quinoa_esparragos_limon",
+  "name": "Pechuga de pavo con quinoa, espárragos y limón",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 400,
+    "note": "en rebanadas gruesas"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "esparrago",
+    "g": 180,
+    "note": "cocidos al vapor"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Saltea el pavo con ajo y aceite 4 minutos por lado.",
+   "Sirve sobre quinoa con los espárragos.",
+   "Rocía con limón y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_wrap_pavo_aguacate_espinaca",
+  "name": "Wraps de pavo con aguacate, espinaca y pepino",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 300,
+    "note": "en tiras"
+   },
+   {
+    "food": "tortilla_harina",
+    "g": 120,
+    "note": "cuatro tortillas, dos por persona"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza en rebanadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 60,
+    "note": "hojas"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en tiras"
+   },
+   {
+    "food": "mostaza",
+    "g": 10,
+    "note": "dos cucharaditas"
+   }
+  ],
+  "steps": [
+   "Calienta las tortillas 20 segundos en sartén.",
+   "Unta mostaza, coloca pavo, aguacate, espinaca, jitomate y pepino.",
+   "Enrolla y corta a la mitad."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_pavo_salteado_arroz_blanco_verduras",
+  "name": "Tiras de pavo salteadas con verduras y arroz blanco",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 450,
+    "note": "en tiras"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 395,
+    "note": "tres tazas"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30,
+    "note": "dos cucharadas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Saltea el pavo con ajo en aceite 4 minutos.",
+   "Agrega cebolla, pimiento y calabacita y cocina 5 minutos.",
+   "Añade salsa de soya y sirve con arroz."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_pavo_pipian_verde_calabacita",
+  "name": "Pavo en pipián verde con calabacita",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 450,
+    "note": "en trozos"
+   },
+   {
+    "food": "pepita",
+    "g": 40,
+    "note": "tostada y molida"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300,
+    "note": "hervido"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "dos chiles"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Licua tomate verde, chile, cilantro, pepita y cebolla con 100 ml de agua.",
+   "Fríe la salsa 5 minutos en aceite, agrega el pavo y la calabacita y cocina 10 minutos.",
+   "Ajusta la sal y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_pavo_ensalada_garbanzo_espinaca",
+  "name": "Ensalada de pavo, garbanzo y espinaca",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "espinaca",
+    "g": 120,
+    "note": "hojas"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Mezcla garbanzos, espinaca, pepino, jitomate y cebolla.",
+   "Agrega el pavo en cubos.",
+   "Aliña con limón, aceite y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_pavo_camote_brocoli_paprika",
+  "name": "Pavo al horno con camote y brócoli",
+  "servings": 3,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 400,
+    "note": "en cubos grandes"
+   },
+   {
+    "food": "camote_cocido",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "brocoli",
+    "g": 250,
+    "note": "en floretes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "paprika",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Unta pavo, camote y brócoli con aceite y especias.",
+   "Hornea 25 minutos hasta dorar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_bistec_nopal_frijol_negro",
+  "name": "Bistec a la plancha con nopales, frijoles y tortillas",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 400,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "nopal",
+    "g": 250,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "dos chiles picados"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Asa el bistec con sal y limón.",
+   "Saltea nopales, cebolla, jitomate y chile 6 minutos.",
+   "Sirve con frijoles, tortillas y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_arrachera_elote_cebolla_jitomate",
+  "name": "Arrachera asada con elote, cebolla morada y jitomate",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 500,
+    "note": "cruda, sin grasa excesiva"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "dos mazorcas, desgranado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 3,
+    "note": "una cucharadita"
+   }
+  ],
+  "steps": [
+   "Sazona la arrachera con sal y chile en polvo; asa 4 minutos por lado.",
+   "Saltea el elote con cebolla 4 minutos.",
+   "Corta la carne en tiras y sirve con elote, jitomate y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_picadillo_magro_calabacita_arroz_integral",
+  "name": "Picadillo magro de res con calabacita y arroz integral",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 500,
+    "note": "90 % magra"
+   },
+   {
+    "food": "calabacita",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "comino",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora la carne molida en sartén sin grasa, escúrrela.",
+   "Agrega cebolla, ajo, jitomate y calabacita; cocina 12 minutos.",
+   "Sazona con comino y sal y sirve con arroz integral."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_hamburguesa_res_magra_camote",
+  "name": "Hamburguesas de res magra con camote asado y ensalada",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 500,
+    "note": "formadas en cuatro hamburguesas"
+   },
+   {
+    "food": "camote_cocido",
+    "g": 300,
+    "note": "en gajos asados"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "hojas"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "en aros"
+   },
+   {
+    "food": "mostaza",
+    "g": 10,
+    "note": "dos cucharaditas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sazona la carne, forma cuatro hamburguesas y asa 4 minutos por lado.",
+   "Hornea el camote en gajos con aceite 20 minutos a 200 °C.",
+   "Sirve las hamburguesas con lechuga, jitomate, cebolla y mostaza sobre el camote."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_albondigas_res_magra_jitomate_arroz",
+  "name": "Albóndigas de res magra en jitomate con arroz blanco",
+  "servings": 3,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 550,
+    "note": "90 % magra"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "una pieza batida"
+   },
+   {
+    "food": "cereal_maiz",
+    "g": 20,
+    "note": "dos cucharadas triturado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "un diente"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "licuado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30,
+    "note": "dos cucharadas"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 395,
+    "note": "tres tazas"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Mezcla carne, huevo, cereal triturado, cebolla, ajo y sal; forma albóndigas.",
+   "Hierve el jitomate con puré y agrega las albóndigas; cocina 20 minutos.",
+   "Sirve con arroz blanco."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "fit_tacos_bistec_chipotle_repollo",
+  "name": "Tacos de res al chipotle con repollo",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 450,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "dos chiles licuados"
+   },
+   {
+    "food": "col",
+    "g": 200,
+    "note": "rallada fina"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "seis tortillas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Calienta el bistec con el chipotle licuado 5 minutos.",
+   "Mezcla la col con limón y sal.",
+   "Sirve en tortillas con col, cebolla y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_res_brocoli_arroz_integral_ajo",
+  "name": "Bistec de res al ajo con brócoli y arroz integral",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 400,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "brocoli",
+    "g": 300,
+    "note": "en floretes"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "tres dientes"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20,
+    "note": "una cucharada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "una cucharada rallada"
+   }
+  ],
+  "steps": [
+   "Saltea el bistec con ajo y jengibre 4 minutos.",
+   "Agrega brócoli y salsa de soya; cocina 5 minutos.",
+   "Sirve con arroz integral."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "fit_carne_chile_ancho_papa_zanahoria",
+  "name": "Carne en chile ancho con papa y zanahoria",
+  "servings": 3,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 500,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "dos chiles desvenados, hidratados"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "comino",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Licua los chiles hidratados con ajo, cebolla y 200 ml de agua.",
+   "Fríe la salsa 4 minutos, agrega carne, papa y zanahoria y cocina 25 minutos.",
+   "Ajusta la sal y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_ensalada_res_quinoa_pepino",
+  "name": "Ensalada tibia de res, quinoa y pepino",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 400,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora las tiras de res en sartén 3 minutos.",
+   "Mezcla quinoa, pepino, jitomate y lechuga.",
+   "Sirve la res tibia sobre la ensalada con limón y aceite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_fajitas_res_pimiento_tortilla",
+  "name": "Fajitas de res con pimiento y cebolla en tortilla de maíz",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 400,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "seis tortillas"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 240,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 3,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "comino",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Saltea la res con chile en polvo y comino 3 minutos.",
+   "Agrega pimiento, cebolla y jitomate y cocina 5 minutos.",
+   "Sirve en tortillas con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_lomo_cerdo_hierbas_puré_camote",
+  "name": "Lomo de cerdo a las hierbas con puré de camote",
+  "servings": 3,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 500,
+    "note": "en medallones"
+   },
+   {
+    "food": "camote_cocido",
+    "g": 400,
+    "note": "cocido y machacado"
+   },
+   {
+    "food": "ejote",
+    "g": 200,
+    "note": "cocidos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "oregano",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sazona el cerdo con orégano, ajo, sal y aceite; dora 5 minutos por lado.",
+   "Machaca el camote con un poco de agua caliente y sal.",
+   "Sirve el cerdo con puré y ejotes."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_lomo_cerdo_guajillo_frijol_bayo",
+  "name": "Lomo de cerdo en chile guajillo con frijol bayo",
+  "servings": 3,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 450,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 18,
+    "note": "tres chiles desvenados, hidratados"
+   },
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Licua los chiles con ajo, jitomate y 150 ml de agua.",
+   "Fríe la salsa, agrega el cerdo y cocina 12 minutos.",
+   "Sirve con frijol bayo calentado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_pavo_ajillo_garbanzo_espinaca",
+  "name": "Pavo al ajillo con garbanzo y espinaca",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "espinaca",
+    "g": 120,
+    "note": "hojas"
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "tres dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2,
+    "note": "dos piezas"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el pavo con ajo y chile de árbol en aceite 5 minutos.",
+   "Agrega garbanzos y espinaca y cocina 3 minutos.",
+   "Rocía con limón y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_brochetas_pavo_calabacita_quinoa",
+  "name": "Brochetas de pavo con calabacita y quinoa",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 450,
+    "note": "en cubos para brocheta"
+   },
+   {
+    "food": "calabacita",
+    "g": 250,
+    "note": "en rodajas"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en cuadros"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "paprika",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Arma las brochetas alternando pavo, calabacita y pimiento.",
+   "Unta con aceite, paprika y sal y asa 12 minutos.",
+   "Sirve con la quinoa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_pavo_guisado_papa_ejote_jitomate",
+  "name": "Pavo guisado con papa, ejote y jitomate",
+  "servings": 3,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "ejote",
+    "g": 200,
+    "note": "en trozos"
+   },
+   {
+    "food": "jitomate",
+    "g": 240,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y ajo en aceite; agrega jitomate y cocina 5 minutos.",
+   "Añade papa con 250 ml de agua y cocina 12 minutos.",
+   "Agrega pavo y ejotes, cocina 8 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_bistec_lentejas_cebolla_morada",
+  "name": "Bistec con lentejas, cebolla morada y perejil",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 400,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el bistec en sartén caliente 3 minutos por lado.",
+   "Calienta las lentejas con cebolla y jitomate 6 minutos.",
+   "Sirve el bistec sobre las lentejas con perejil, limón y aceite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_res_kale_garbanzo_limon",
+  "name": "Res magra salteada con kale y garbanzos",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 400,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "kale",
+    "g": 200,
+    "note": "picada"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 250,
+    "note": "escurridos"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Saltea ajo en aceite y agrega la res 3 minutos.",
+   "Agrega garbanzos y kale y cocina 4 minutos.",
+   "Termina con limón y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_lomo_cerdo_brocoli_quinoa_limon",
+  "name": "Lomo de cerdo con brócoli al limón y quinoa",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 450,
+    "note": "en medallones"
+   },
+   {
+    "food": "brocoli",
+    "g": 250,
+    "note": "en floretes"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el cerdo con ajo y aceite 4 minutos por lado.",
+   "Cuece el brócoli al vapor 4 minutos.",
+   "Sirve con quinoa, brócoli y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_lomo_cerdo_manzana_coliflor",
+  "name": "Lomo de cerdo con manzana, canela y coliflor",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 450,
+    "note": "en medallones"
+   },
+   {
+    "food": "manzana",
+    "g": 180,
+    "note": "en gajos"
+   },
+   {
+    "food": "coliflor",
+    "g": 300,
+    "note": "en floretes"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "canela",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "mostaza",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el cerdo con cebolla en aceite 8 minutos.",
+   "Agrega manzana y canela y cocina 5 minutos.",
+   "Sirve con coliflor al vapor y mostaza."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_salmon_horno_quinoa_esparragos",
+  "name": "Salmón al horno con quinoa y espárragos al limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 400,
+    "note": "dos filetes"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "esparrago",
+    "g": 180,
+    "note": "cocidos"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo y rodajas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "un diente picado"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Hornea el salmón con limón, ajo y aceite 12 minutos.",
+   "Sirve con quinoa y espárragos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_tilapia_empapelada_calabacita_arroz",
+  "name": "Tilapia empapelada con calabacita y arroz integral",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 500,
+    "note": "cuatro filetes"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en aros"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Coloca cada filete sobre papel aluminio con verduras, aceite, limón y sal.",
+   "Cierra los paquetes y hornea 18 minutos a 200 °C.",
+   "Sirve con arroz integral."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_tacos_mojarra_col_tortilla",
+  "name": "Tacos de mojarra a la plancha con col y tortilla de maíz",
+  "servings": 3,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "mojarra",
+    "g": 500,
+    "note": "cuatro filetes"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180,
+    "note": "seis tortillas"
+   },
+   {
+    "food": "col",
+    "g": 200,
+    "note": "rallada fina"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_polvo",
+    "g": 3,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15,
+    "note": "para dorar"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sazona los filetes con chile en polvo, limón y sal.",
+   "Dora los filetes en aceite 3 minutos por lado.",
+   "Sirve en tortillas con col y cebolla."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_ensalada_atun_garbanzo_pepino",
+  "name": "Ensalada de atún con garbanzos, pepino y jitomate",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 250,
+    "note": "2 y media latas escurridas"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Escurre el atún y desmenúzalo.",
+   "Mezcla garbanzos, pepino, jitomate y cebolla.",
+   "Agrega el atún, limón, aceite y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_tostadas_atun_frijol_aguacate",
+  "name": "Tostadas de atún con frijol refrito y aguacate",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 250,
+    "note": "escurrido"
+   },
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "cuatro tostadas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 90,
+    "note": "tres cucharadas"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Calienta el frijol refrito.",
+   "Unta el frijol sobre las tostadas y cubre con atún.",
+   "Agrega aguacate machacado, cebolla, cilantro y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_atun_quinoa_pepino_limon",
+  "name": "Atún con quinoa, pepino y limón",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_aceite",
+    "g": 300,
+    "note": "tres latas escurridas"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Desmenuza el atún y mézclalo con quinoa.",
+   "Agrega pepino, cebolla y cilantro.",
+   "Rocía con limón y pimienta."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_camarones_mojo_ajo_arroz_integral",
+  "name": "Camarones al mojo de ajo con arroz integral y calabacita",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_cocido",
+    "g": 400,
+    "note": "pelados y desvenados"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "ajo",
+    "g": 12,
+    "note": "cuatro dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2,
+    "note": "dos piezas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el ajo y el chile de árbol en aceite 2 minutos.",
+   "Agrega calabacita 4 minutos, luego los camarones y el limón 3 minutos.",
+   "Sirve con arroz integral."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_camarones_diabla_quinoa_ejotes",
+  "name": "Camarones a la diabla con quinoa y ejotes",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camaron_cocido",
+    "g": 400,
+    "note": "pelados"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "ejote",
+    "g": 200,
+    "note": "cocidos en trozos"
+   },
+   {
+    "food": "chile_morita",
+    "g": 8,
+    "note": "dos chiles"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 40,
+    "note": "tres cucharadas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15,
+    "note": "una cucharada"
+   }
+  ],
+  "steps": [
+   "Licua los chiles hidratados con puré de tomate, ajo y vinagre.",
+   "Fríe la salsa 4 minutos y agrega los camarones 3 minutos.",
+   "Sirve con quinoa y ejotes."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_huachinango_veracruzana_arroz_integral",
+  "name": "Huachinango a la veracruzana con arroz integral",
+  "servings": 3,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huachinango",
+    "g": 500,
+    "note": "cuatro filetes"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "aceitunas",
+    "g": 40,
+    "note": "diez piezas"
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 14,
+    "note": "un chile en rajas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y ajo en aceite; agrega jitomate, aceitunas y chile y cocina 10 minutos.",
+   "Acomoda el pescado sobre la salsa y cocina tapado 10 minutos.",
+   "Sirve con arroz integral."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_merluza_empapelada_papa_ejote",
+  "name": "Merluza empapelada con papa, ejote y jitomate",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "merluza",
+    "g": 500,
+    "note": "cuatro filetes"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 400,
+    "note": "en rodajas"
+   },
+   {
+    "food": "ejote",
+    "g": 250,
+    "note": "cocidos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en aros"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Acomoda papa y ejotes sobre papel aluminio con aceite y ajo.",
+   "Coloca la merluza con jitomate y cebolla encima, sazona y cierra.",
+   "Hornea 20 minutos a 200 °C."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_trucha_horno_lentejas_espinaca",
+  "name": "Trucha al horno con lentejas y espinaca",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "trucha",
+    "g": 500,
+    "note": "tres filetes"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "espinaca",
+    "g": 150,
+    "note": "hojas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Hornea la trucha con limón, ajo y aceite 12 minutos a 200 °C.",
+   "Saltea espinaca con ajo 2 minutos.",
+   "Sirve la trucha sobre las lentejas con la espinaca."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_ensalada_caballa_lechuga_aguacate",
+  "name": "Ensalada de caballa con lechuga romana, pepino y aguacate",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "caballa_cocida",
+    "g": 400,
+    "note": "cuatro filetes, desmenuzados"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150,
+    "note": "en trozos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en gajos"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Desmenuza la caballa sobre la lechuga.",
+   "Agrega pepino, jitomate y aguacate.",
+   "Aliña con limón, aceite y sal al gusto."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_sardinas_jitomate_frijol_negro",
+  "name": "Sardinas en jitomate con frijol negro y tortillas",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sardina_lata",
+    "g": 300,
+    "note": "doce sardinas escurridas"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "jitomate",
+    "g": 240,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "un chile"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla, ajo y chile en aceite; agrega jitomate y cocina 6 minutos.",
+   "Incorpora las sardinas y el frijol y calienta 4 minutos.",
+   "Sirve con tortillas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_salmon_ahumado_huevo_pan_integral",
+  "name": "Plato de salmón ahumado con huevo y aguacate en pan integral",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_ahumado",
+    "g": 120,
+    "note": "cuatro rebanadas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "dos huevos"
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "dos rebanadas"
+   },
+   {
+    "food": "aguacate",
+    "g": 40,
+    "note": "un cuarto de pieza"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "unas gotas"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Cuece o fríe los huevos al gusto.",
+   "Tuesta el pan y unta aguacate machacado con limón.",
+   "Sirve con el salmón ahumado y el huevo."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_mojarra_nopal_jitomate_limon",
+  "name": "Mojarra a la plancha con nopales, jitomate y limón",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mojarra",
+    "g": 500,
+    "note": "cuatro filetes"
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Asa la mojarra con aceite y sal 4 minutos por lado.",
+   "Mezcla nopales, jitomate, cebolla y cilantro con limón.",
+   "Sirve el pescado con la ensalada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_pulpo_ajo_papa_ejotes",
+  "name": "Pulpo al ajo con papa y ejotes",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pulpo_cocido",
+    "g": 400,
+    "note": "en rodajas"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "ejote",
+    "g": 200,
+    "note": "cocidos"
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "tres dientes laminados"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el ajo en aceite y agrega el pulpo 4 minutos.",
+   "Incorpora papa y ejotes y cocina 3 minutos.",
+   "Termina con perejil y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_calamar_plancha_garbanzo_espinaca",
+  "name": "Calamar a la plancha con garbanzos y espinaca",
+  "servings": 3,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "calamar",
+    "g": 500,
+    "note": "limpio, en anillos"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "espinaca",
+    "g": 120,
+    "note": "hojas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Calienta una sartén muy caliente y cocina el calamar 2 minutos.",
+   "Agrega ajo, garbanzos y espinaca 3 minutos.",
+   "Sirve con limón y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_almejas_ajillo_arroz_integral",
+  "name": "Almejas al ajillo con arroz integral y perejil",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "almeja",
+    "g": 500,
+    "note": "limpias"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "tres dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 1,
+    "note": "una pieza"
+   }
+  ],
+  "steps": [
+   "Dora ajo y chile en aceite 2 minutos.",
+   "Agrega almejas, tapa y cocina 5 minutos hasta que abran.",
+   "Sirve con arroz, limón y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_mejillones_vapor_quinoa_jitomate",
+  "name": "Mejillones al vapor con quinoa y jitomate",
+  "servings": 3,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "mejillon",
+    "g": 500,
+    "note": "cocidos, sin concha"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y ajo en aceite y agrega jitomate 4 minutos.",
+   "Incorpora los mejillones 3 minutos.",
+   "Sirve sobre quinoa con perejil y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_tilapia_chipotle_lentejas_jitomate",
+  "name": "Tilapia en salsa de chipotle con lentejas",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 500,
+    "note": "cuatro filetes"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "dos chiles licuados con adobo"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Licua chipotle, jitomate y ajo; fríe la salsa 4 minutos.",
+   "Coloca los filetes en la salsa y cocina tapado 8 minutos.",
+   "Sirve con lentejas calientes y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_salmon_plancha_lentejas_espinaca",
+  "name": "Salmón a la plancha con lentejas y espinaca",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 400,
+    "note": "dos filetes"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "espinaca",
+    "g": 120,
+    "note": "hojas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el salmón en sartén 4 minutos por lado.",
+   "Calienta lentejas con cebolla y espinaca 3 minutos.",
+   "Sirve el salmón sobre las lentejas con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_ceviche_camaron_pepino_aguacate",
+  "name": "Ceviche de camarón con pepino, cebolla y aguacate",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_cocido",
+    "g": 500,
+    "note": "picados"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "picada fina"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 120,
+    "note": "jugo de cuatro limones"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "un chile picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza en cubos"
+   }
+  ],
+  "steps": [
+   "Marina el camarón con jugo de limón 10 minutos.",
+   "Agrega pepino, cebolla, jitomate, chile y cilantro.",
+   "Sirve con aguacate encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_atun_arroz_integral_ejote_tomate",
+  "name": "Atún con arroz integral, ejotes y tomate",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 350,
+    "note": "3 y media latas escurridas"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "ejote",
+    "g": 200,
+    "note": "cocidos en trozos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Calienta el arroz integral con los ejotes.",
+   "Agrega el atún escurrido y el jitomate y cocina 3 minutos.",
+   "Rocía con aceite, limón y cebolla morada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_bagre_horno_papa_cebolla",
+  "name": "Bagre al horno con papa y cebolla morada",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bagre",
+    "g": 500,
+    "note": "cuatro filetes"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en aros"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "oregano",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Acomoda papa y cebolla en un refractario con aceite.",
+   "Coloca el bagre con jitomate, limón y orégano encima.",
+   "Hornea 20 minutos a 200 °C."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_omelette_claras_espinaca_champinon",
+  "name": "Omelette de claras con espinaca, champiñón y tortilla de maíz",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "clara_huevo",
+    "g": 330,
+    "note": "diez claras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "cuatro huevos"
+   },
+   {
+    "food": "espinaca",
+    "g": 90,
+    "note": "picada"
+   },
+   {
+    "food": "champinon",
+    "g": 140,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "dos tortillas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sofríe champiñones y espinaca en aceite 4 minutos.",
+   "Bate claras y huevos con sal, vierte en sartén y cocina tapado 5 minutos.",
+   "Dobla el omelette y sirve con tortillas calientes."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_tortilla_huevo_papa_lechuga",
+  "name": "Tortilla de huevo y papa con ensalada de lechuga",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 400,
+    "note": "ocho huevos"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 200,
+    "note": "seis claras"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150,
+    "note": "en trozos"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora papa y cebolla en aceite 8 minutos.",
+   "Bate huevos y claras con sal, vierte sobre la papa y cuaja a fuego bajo 10 minutos.",
+   "Voltea la tortilla y sirve con lechuga y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_huevos_mexicana_frijoles_tortillas",
+  "name": "Huevos a la mexicana con frijoles negros y tortillas",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 250,
+    "note": "cinco huevos"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 100,
+    "note": "tres claras"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "dos chiles picados"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y chile en aceite, agrega jitomate y cocina 5 minutos.",
+   "Incorpora los huevos batidos con claras y revuelve hasta cuajar.",
+   "Sirve con frijoles calientes, tortillas y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_burritos_claras_frijol_bayo_espinaca",
+  "name": "Burritos de claras con frijol bayo y espinaca",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "clara_huevo",
+    "g": 350,
+    "note": "diez claras"
+   },
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 300,
+    "note": "escurridos y machacados"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 120,
+    "note": "cuatro tortillas"
+   },
+   {
+    "food": "espinaca",
+    "g": 90,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   }
+  ],
+  "steps": [
+   "Cocina cebolla y espinaca en aceite 3 minutos.",
+   "Agrega las claras y revuelve hasta cuajar; sazona.",
+   "Calienta el frijol y arma los burritos con claras, frijol, jitomate y espinaca."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_revuelto_claras_brocoli_pan_integral",
+  "name": "Revuelto de claras con brócoli y pan integral",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "clara_huevo",
+    "g": 400,
+    "note": "doce claras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "dos huevos"
+   },
+   {
+    "food": "brocoli",
+    "g": 150,
+    "note": "en floretes picados"
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "dos rebanadas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Cuece el brócoli 3 minutos al vapor y sofríe con cebolla.",
+   "Bate claras y huevos, agrega a la sartén y revuelve a fuego medio.",
+   "Sirve con pan integral tostado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_ensalada_huevo_garbanzo_pepino",
+  "name": "Ensalada de huevo cocido, garbanzos y pepino",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 300,
+    "note": "seis huevos cocidos en rodajas"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 350,
+    "note": "escurridos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15,
+    "note": "una cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "mostaza",
+    "g": 5,
+    "note": "una cucharadita"
+   }
+  ],
+  "steps": [
+   "Mezcla garbanzos, pepino, jitomate y lechuga.",
+   "Agrega los huevos en rodajas.",
+   "Aliña con aceite, limón y mostaza."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_frittata_claras_pavo_calabacita",
+  "name": "Frittata de claras con pavo, calabacita y cebolla",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "clara_huevo",
+    "g": 400,
+    "note": "doce claras"
+   },
+   {
+    "food": "pavo_pechuga",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "calabacita",
+    "g": 180,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y calabacita en aceite 5 minutos; agrega el pavo.",
+   "Vierte las claras batidas con sal y pimienta encima.",
+   "Cocina tapado a fuego bajo 10 minutos hasta cuajar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_huevos_horno_esparragos_quinoa",
+  "name": "Huevos al horno con espárragos y quinoa",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "seis huevos"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 200,
+    "note": "seis claras"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "esparrago",
+    "g": 150,
+    "note": "cocidos en trozos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Acomoda quinoa y espárragos en refractarios individuales con aceite.",
+   "Vierte huevos y claras batidos con sal y pimienta encima.",
+   "Hornea 15 minutos a 180 °C."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_chilaquiles_claras_salsa_verde",
+  "name": "Chilaquiles de claras con salsa verde y frijol negro",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "totopos",
+    "g": 60,
+    "note": "horneados o de bolsa"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 400,
+    "note": "doce claras"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 200,
+    "note": "hervido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "un chile"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 200,
+    "note": "escurridos"
+   }
+  ],
+  "steps": [
+   "Licua tomate verde, chile, cebolla y cilantro; cocina la salsa 5 minutos.",
+   "Agrega las claras y revuelve 4 minutos.",
+   "Mezcla los totopos con la salsa y sirve con frijol."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_huevos_salsa_jitomate_lentejas",
+  "name": "Huevos en salsa de jitomate con lentejas",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "seis huevos"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 400,
+    "note": "escurridas"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "comino",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla, pimiento y ajo; agrega jitomate y comino y cocina 8 minutos.",
+   "Mezcla las lentejas y forma huecos para los huevos.",
+   "Cuaja los huevos tapados 6 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_tofu_salteado_brocoli_arroz_integral",
+  "name": "Tofu salteado con brócoli y arroz integral",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en cubos dorados"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "brocoli",
+    "g": 250,
+    "note": "en floretes"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 30,
+    "note": "dos cucharadas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "una cucharada rallada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Dora el tofu en aceite 6 minutos.",
+   "Agrega ajo, jengibre, brócoli y salsa de soya; cocina 4 minutos.",
+   "Sirve con arroz integral."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "fit_tofu_plancha_quinoa_pepino",
+  "name": "Tofu a la plancha con quinoa, pepino y jitomate",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en rebanadas gruesas"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370,
+    "note": "dos tazas"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el tofu en sartén con un poco de aceite 4 minutos por lado.",
+   "Mezcla quinoa, pepino, jitomate, cilantro, limón y aceite.",
+   "Sirve el tofu sobre la ensalada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_tempeh_cacahuate_brocoli_arroz",
+  "name": "Tempeh en salsa de cacahuate con brócoli y arroz integral",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tempeh",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 40,
+    "note": "dos cucharadas"
+   },
+   {
+    "food": "brocoli",
+    "g": 200,
+    "note": "en floretes"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "una cucharada rallada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Dora el tempeh en aceite 5 minutos con ajo y jengibre.",
+   "Diluye la crema de cacahuate con 80 ml de agua y limón; agrega al tempeh.",
+   "Sirve con brócoli al vapor y arroz integral."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_picadillo_soya_frijoles_calabacita",
+  "name": "Picadillo de soya texturizada con frijoles y calabacita",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "soya_texturizada",
+    "g": 80,
+    "note": "seca, hidratada en agua caliente"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "un diente"
+   },
+   {
+    "food": "comino",
+    "g": 1,
+    "note": "una pizca"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   }
+  ],
+  "steps": [
+   "Hidrata la soya 10 minutos y escúrrela.",
+   "Sofríe cebolla y ajo, agrega jitomate, calabacita y soya; cocina 10 minutos.",
+   "Incorpora el frijol, sazona con comino y sirve con tortillas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_bowl_tofu_edamame_arroz_zanahoria",
+  "name": "Tazón de tofu con edamame, arroz integral y zanahoria",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "en cubos dorados"
+   },
+   {
+    "food": "edamame",
+    "g": 200,
+    "note": "cocido, desgranado"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "ralladas"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "una cucharada rallada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "una cucharada"
+   }
+  ],
+  "steps": [
+   "Dora el tofu con jengibre en aceite 6 minutos.",
+   "Sirve arroz, edamame y zanahoria rallada en tazones.",
+   "Agrega el tofu y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_tofu_chile_ancho_papa_ejote",
+  "name": "Tofu en salsa de chile ancho con papa y ejote",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "dos chiles desvenados, hidratados"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "ejote",
+    "g": 200,
+    "note": "en trozos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Licua chiles hidratados con cebolla y ajo; fríe la salsa 4 minutos.",
+   "Agrega papa y 200 ml de agua y cocina 12 minutos.",
+   "Incorpora tofu y ejotes 8 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "fit_seitan_salteado_brocoli_pimiento",
+  "name": "Seitán salteado con brócoli, pimiento y arroz blanco",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "seitan",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "brocoli",
+    "g": 200,
+    "note": "en floretes"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 395,
+    "note": "tres tazas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20,
+    "note": "una cucharada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Dora el seitán con ajo en aceite 5 minutos.",
+   "Agrega brócoli, pimiento y salsa de soya; cocina 5 minutos.",
+   "Sirve con arroz blanco."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "fit_frijol_soya_elote_jitomate_arroz",
+  "name": "Frijol de soya con elote, jitomate y arroz integral",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "soya_cocida",
+    "g": 350,
+    "note": "escurrida"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 2,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla en aceite, agrega elote y jitomate 5 minutos.",
+   "Incorpora el frijol de soya y calienta 5 minutos.",
+   "Sirve sobre arroz integral con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_lentejas_olla_huevo_zanahoria_arroz",
+  "name": "Lentejas de olla con huevo cocido, zanahoria y arroz integral",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 500,
+    "note": "escurridas"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 150,
+    "note": "tres huevos en mitades"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 200,
+    "note": "una taza"
+   },
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "comino",
+    "g": 1,
+    "note": "una pizca"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y ajo; agrega zanahoria y lentejas con 150 ml de agua y comino; cocina 12 minutos.",
+   "Sirve con arroz integral.",
+   "Coloca los huevos cocidos encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_guisado_garbanzo_lentejas_calabacita",
+  "name": "Guisado de garbanzo y lentejas con calabacita",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurridos"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 400,
+    "note": "escurridas"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y ajo en aceite; agrega jitomate y cocina 5 minutos.",
+   "Incorpora garbanzos, lentejas, comino y 150 ml de agua; cocina 10 minutos.",
+   "Agrega calabacita y cocina 8 minutos más."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_bowl_garbanzo_quinoa_tahini",
+  "name": "Bowl de garbanzo con quinoa, pepino y tahini",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurridos"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 500,
+    "note": "tres tazas"
+   },
+   {
+    "food": "tahini",
+    "g": 30,
+    "note": "dos cucharadas"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora ligeramente los garbanzos en sartén seca 5 minutos.",
+   "Arma los tazones con quinoa, garbanzos, pepino y jitomate.",
+   "Aliña con tahini diluido en limón y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_frijoles_negros_huevo_arroz_integral",
+  "name": "Frijoles negros con huevo estrellado y arroz integral",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_negro_cocido",
+    "g": 400,
+    "note": "escurridos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "tres huevos"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 390,
+    "note": "dos tazas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Calienta los frijoles con cebolla y sal 8 minutos.",
+   "Fríe los huevos estrellados en aceite.",
+   "Sirve frijoles y arroz integral con el huevo encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_alubias_chorizo_col",
+  "name": "Alubias con chorizo de cerdo y col",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "alubias_cocidas",
+    "g": 400,
+    "note": "escurridas"
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 100,
+    "note": "cocido, desmenuzado"
+   },
+   {
+    "food": "col",
+    "g": 200,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "al gusto"
+   }
+  ],
+  "steps": [
+   "Dora el chorizo con cebolla y ajo 5 minutos.",
+   "Agrega jitomate y col y cocina 8 minutos.",
+   "Incorpora las alubias y calienta 5 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_lentejas_secas_nopales_tortillas_huevo",
+  "name": "Lentejas con huevo, nopales y tortillas de maíz",
+  "servings": 2,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lenteja_seca",
+    "g": 200,
+    "note": "cruda, enjuagada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "dos huevos"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "cocido en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   }
+  ],
+  "steps": [
+   "Cuece las lentejas en 800 ml de agua con ajo y cebolla 25 minutos.",
+   "Agrega jitomate y nopales y cocina 8 minutos.",
+   "Sirve con huevo cocido picado, tortillas y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "fit_tofu_revuelto_frijol_bayo_tortillas",
+  "name": "Tofu revuelto estilo mexicano con frijol bayo y tortillas",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "desmenuzado"
+   },
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 250,
+    "note": "escurridos"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "tres tortillas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "un chile"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5,
+    "note": "una cucharadita"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y chile en aceite; agrega jitomate 4 minutos.",
+   "Incorpora el tofu desmenuzado y cocina 5 minutos.",
+   "Sirve con frijol bayo, tortillas y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "fit_lentejas_guisadas_atun_calabacita",
+  "name": "Lentejas guisadas con atún y calabacita",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 400,
+    "note": "escurridas"
+   },
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "dos latas escurridas"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "dos dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Sofríe cebolla y ajo; agrega jitomate y calabacita 6 minutos.",
+   "Incorpora las lentejas y cocina 5 minutos.",
+   "Agrega el atún escurrido, calienta 2 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ }
+]
