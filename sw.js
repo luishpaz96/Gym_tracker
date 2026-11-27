@@ -1,6 +1,6 @@
 // Service worker: solo cachea archivos estáticos propios, data/*.json y las 2 librerías CDN fijadas (con SRI).
 // Nunca intercepta ni guarda respuestas de Supabase (otro origen) ni peticiones que no sean GET.
-const VERSION = 'gt-v6';
+const VERSION = 'gt-v7';
 const SHELL = ['./', 'index.html', 'css/app.css', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
   'js/main.js', 'js/config.js', 'js/calc.js', 'js/search.js', 'js/grading.js', 'js/recommend.js', 'js/ui.js', 'js/data.js', 'js/api.js', 'js/supabase.js',
   'js/auth.js', 'js/demo.js', 'js/stats.js', 'js/charts.js', 'js/bodymap.js', 'js/technique.js',
@@ -14,7 +14,7 @@ const CDN_ALLOW = [
 const FRAMES = 'https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/';
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => Promise.all(SHELL.map((u) => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(VERSION).then((c) => Promise.all(SHELL.map((u) => c.add(new Request(u, { cache: 'reload' })).catch(() => null)))).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
@@ -39,8 +39,8 @@ self.addEventListener('fetch', (e) => {
       else if (res.ok && imgs) cache.put(req, res.clone());
       return res;
     }
-    try { // propios: red primero para recibir actualizaciones; caché si no hay red
-      const res = await fetch(req);
+    try { // propios: red primero, saltando la caché HTTP (GitHub Pages cachea 10 min); caché si no hay red
+      const res = await fetch(req, { cache: 'no-cache' });
       if (res.ok) cache.put(req, res.clone());
       return res;
     } catch (err) {
