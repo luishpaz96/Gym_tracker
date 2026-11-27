@@ -63,6 +63,9 @@ Barra inferior: **Track**, **Comida** (Alimentación), **Recetas**, **Summary**,
 8. **Técnica / "API" de video**: `getTechnique(exerciseId)` → `{frames, cues, fitwillUrl}` y `openTechnique(exerciseId)`. Fitwill no permite incrustar su video: se muestra la animación y un botón que abre su página.
 9. **Modo demo** (`?demo=1`): datos falsos en localStorage (perfil, 6 semanas de pesos, plan generado y sesiones), claramente rotulado; nunca toca Supabase.
 
+## Unidades kg / lb
+Selector kg | lb en Track (sesión), Summary (peso corporal), onboarding y Cuenta. Se guarda en `profiles.unit`; los pesos siempre se almacenan en kg (`js/units.js`: 1 lb = 0.45359237 kg, pantalla redondeada a 0.5; peso corporal a 0.1; al guardar se conserva kg con 2 decimales). Al cambiar la unidad se convierten los valores ya tecleados; la sobrecarga sugiere +2.5 kg o +5 lb.
+
 ## Alimentación y recetas (ver NUTRITION_SPEC.md)
 - **Comida**: metas diarias (kcal, P, C, G, fibra) con `js/nutrition.js` a partir del perfil (Mifflin-St Jeor, factor por días de entreno, ajuste por meta, "¿Cómo se calcula?"); pestañas Día / Proteínas / Plan. Plan de comidas: 3–6 por día con nombre y hora (`profiles.meals_per_day`, `meal_plan`), reparto de kcal y proteína por comida. Registro por comida y fecha desde recetas (porciones decimales), alimentos (gramos o porción casera) y "Proteínas populares" (`protein_pick`); barras de avance por comida y por día, editar, quitar y copiar la comida de ayer.
 - **Recetas**: categorías de `recipe_categories.json`, búsqueda sin acentos (nombre, ingrediente, etiqueta), filtros (alta en proteína, <30 min, <500 kcal, favoritas), listas paginadas, `recipes.json` cargado una sola vez bajo demanda; detalle con macros por porción, ingredientes (g y porción casera), pasos y "Agregar a comida".

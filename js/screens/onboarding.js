@@ -1,5 +1,6 @@
 // Formulario de perfil: onboarding obligatorio tras registrarse y edición posterior (Cuenta).
-import { el, toast, confirmDialog } from '../ui.js';
+import { el, toast, confirmDialog, unitToggle } from '../ui.js';
+import { toDisplay, fromDisplay, convertTyped, normUnit } from '../units.js';
 import { validateProfileInput, ageOf } from '../profile.js';
 import { today } from '../stats.js';
 import { regenerate, latestWeight } from '../planctl.js';
@@ -13,13 +14,14 @@ const numInput = (name, ph, inputmode = 'decimal', value = '') => el('input', { 
 // mode: 'onboarding' | 'edit'. onDone() se llama tras guardar.
 export function renderProfileForm(ctx, host, { mode, onDone }) {
   const p = ctx.profile || {};
+  let u = normUnit(p.unit);
   const cur = latestWeight(ctx.weights || []);
   const f = {
     age: numInput('age', 'ej. 28', 'numeric', ageOf(p) ?? ''),
     sex: el('select', { class: 'input', name: 'sex', 'aria-label': 'Sexo' }, el('option', { value: '', text: 'Elegir…' }), el('option', { value: 'M', text: 'Hombre' }), el('option', { value: 'F', text: 'Mujer' })),
     height_cm: numInput('height_cm', 'ej. 175', 'decimal', p.height_cm ?? ''),
-    weight_kg: numInput('weight_kg', 'ej. 80', 'decimal', mode === 'edit' ? '' : (cur ?? '')),
-    goal_weight_kg: numInput('goal_weight_kg', 'ej. 75', 'decimal', p.goal_weight_kg ?? ''),
+    weight_kg: numInput('weight_kg', 'ej. 80', 'decimal', mode === 'edit' || cur === null ? '' : toDisplay(cur, u, 0.1)),
+    goal_weight_kg: numInput('goal_weight_kg', 'ej. 75', 'decimal', p.goal_weight_kg ? toDisplay(p.goal_weight_kg, u, 0.1) : ''),
     days_per_week: el('select', { class: 'input', name: 'days_per_week', 'aria-label': 'Días por semana' }, el('option', { value: '', text: 'Elegir…' }), [2, 3, 4, 5, 6].map((n) => el('option', { value: String(n), text: `${n} días` }))),
   };
   f.sex.value = p.sex || ''; f.days_per_week.value = p.days_per_week ? String(p.days_per_week) : '';
@@ -28,11 +30,21 @@ export function renderProfileForm(ctx, host, { mode, onDone }) {
     weight_kg: field(mode === 'edit' ? 'Peso actual (kg) — opcional, registra hoy' : 'Peso actual (kg)', f.weight_kg),
     goal_weight_kg: field('Peso meta (kg)', f.goal_weight_kg), days_per_week: field('Días de entrenamiento por semana', f.days_per_week, 'Define tu plan: 2 a 6 días.'),
   };
+  const labelFor = (k) => (k === 'weight_kg' ? (mode === 'edit' ? `Peso actual (${u}) — opcional, registra hoy` : `Peso actual (${u})`) : `Peso meta (${u})`);
+  const relabel = () => { for (const k of ['weight_kg', 'goal_weight_kg']) rows[k].node.firstChild.textContent = labelFor(k); };
+  const toggleHost = el('div', { class: 'field' });
+  const mountToggle = () => toggleHost.replaceChildren(el('span', { class: 'muted small', text: 'Unidad para los pesos' }), unitToggle(u, onUnit));
+  function onUnit(nu) {
+    for (const k of ['weight_kg', 'goal_weight_kg']) f[k].value = convertTyped(f[k].value, u, nu, 0.1);
+    u = nu; ctx.profile = { ...ctx.profile, unit: nu }; relabel(); mountToggle();
+  }
   const btn = el('button', { class: 'btn primary block big', type: 'submit' }, mode === 'edit' ? 'Guardar perfil' : 'Guardar y crear mi plan');
-  const form = el('form', { novalidate: true }, Object.values(rows).map((r) => r.node), btn);
+  const form = el('form', { novalidate: true }, toggleHost, Object.values(rows).map((r) => r.node), btn);
+  relabel(); mountToggle();
   form.addEventListener('submit', async (ev) => {
     ev.preventDefault();
     const raw = Object.fromEntries(Object.entries(f).map(([k, i]) => [k, i.value.trim()]));
+    for (const k of ['weight_kg', 'goal_weight_kg']) if (raw[k] !== '') raw[k] = String(Math.round(fromDisplay(raw[k], u) * 10) / 10);
     const v = validateProfileInput(raw, new Date().getFullYear(), { needWeight: mode !== 'edit' });
     Object.entries(rows).forEach(([k, r]) => { r.err.textContent = v.errors[k] || ''; });
     if (!v.ok) return;
@@ -43,7 +55,7 @@ export function renderProfileForm(ctx, host, { mode, onDone }) {
         // Se guardan los datos, pero se conserva el plan actual
         v.keepPlan = true;
       }
-      ctx.profile = { ...p, unit: p.unit || 'kg', birth_year: v.values.birth_year, sex: v.values.sex, height_cm: v.values.height_cm, goal_weight_kg: v.values.goal_weight_kg, days_per_week: v.values.days_per_week };
+      ctx.profile = { ...p, unit: u, birth_year: v.values.birth_year, sex: v.values.sex, height_cm: v.values.height_cm, goal_weight_kg: v.values.goal_weight_kg, days_per_week: v.values.days_per_week };
       await ctx.api.saveProfile(ctx.profile);
       if (v.values.weight_kg) { await ctx.api.addBodyWeight(today(), v.values.weight_kg); ctx.weights = await ctx.api.listBodyWeights(); }
       if (mode === 'onboarding' || (changedPlanInputs && !v.keepPlan)) await regenerate(ctx);

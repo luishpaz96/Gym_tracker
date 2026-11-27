@@ -1,5 +1,6 @@
 // Track: único lugar para registrar. Rutina recomendada + buscador + series con "última vez" y sobrecarga.
-import { el, clear, icon, toast, fmtDate, confirmDialog } from '../ui.js';
+import { el, clear, icon, toast, fmtDate, confirmDialog, unitToggle } from '../ui.js';
+import { convertTyped, normUnit } from '../units.js';
 import { searchExercises } from '../search.js';
 import { fromDisplay, toDisplay, validateSet } from '../calc.js';
 import { buildWorkout, lsGet, lsSet, lsDel } from '../api.js';
@@ -21,8 +22,8 @@ const loadDraft = (ctx) => {
 export async function render(ctx, root) {
   const unit = ctx.profile?.unit === 'lb' ? 'lb' : 'kg';
   let draft = loadDraft(ctx) || { performed_on: today(), plan_day: null, notes: '', unit, exercises: [] };
-  draft.unit = draft.unit || unit;
-  const du = draft.unit;
+  let du = normUnit(ctx.profile?.unit || draft.unit);
+  if (draft.unit !== du) { draft.exercises.forEach((e) => e.sets.forEach((x) => { x.w = convertTyped(x.w, draft.unit, du); })); draft.unit = du; }
   const persist = () => lsSet(KEY, draft);
   const view = el('div');
   root.append(view);
@@ -183,6 +184,14 @@ export async function render(ctx, root) {
         el('button', { class: 'btn grow', type: 'button', on: { click: () => { location.hash = '#/track'; location.reload(); } } }, 'Listo'))].filter(Boolean));
   }
 
+  async function setUnit(u) {
+    draft.exercises.forEach((e) => e.sets.forEach((x) => { x.w = convertTyped(x.w, du, u); }));
+    du = u; draft.unit = u; persist();
+    ctx.profile = { ...ctx.profile, unit: u };
+    try { await ctx.api.saveProfile(ctx.profile); } catch { toast('Unidad cambiada (no se pudo guardar la preferencia)', 'bad'); }
+    draw();
+  }
+
   function draw() {
     clear(view);
     view.append(el('h1', { text: 'Track' }), routineCard());
@@ -190,7 +199,7 @@ export async function render(ctx, root) {
       el('label', { class: 'field inline' }, el('span', { text: 'Fecha' }),
         el('input', { class: 'input', type: 'date', value: draft.performed_on, max: today(), min: '2000-01-01', on: { change: (e) => { if (e.target.value) { draft.performed_on = e.target.value; persist(); draw(); } } } })),
       draft.plan_day ? el('span', { class: 'badge', text: draft.plan_day }) : null);
-    view.append(el('h2', { class: 'sub', text: 'Tu sesión' }), meta);
+    view.append(el('div', { class: 'row between wrap gap' }, el('h2', { class: 'sub', text: 'Tu sesión' }), unitToggle(du, setUnit)), meta);
     if (!draft.exercises.length) view.append(el('p', { class: 'muted', text: 'Usa la rutina recomendada o elige ejercicios abajo.' }));
     draft.exercises.forEach((ex, i) => view.append(exerciseCard(ex, i)));
     if (draft.exercises.length) {

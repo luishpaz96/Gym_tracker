@@ -126,3 +126,10 @@ export function confirmWord(title, message, word, okLabel) {
     m.modal.addEventListener('closed', () => finish(false));
   });
 }
+
+// Selector segmentado kg | lb. onChange(nuevaUnidad)
+export function unitToggle(current, onChange, label = 'Unidad de peso') {
+  const box = el('div', { class: 'seg unit-seg', role: 'group', 'aria-label': label });
+  ['kg', 'lb'].forEach((u) => box.append(el('button', { class: `seg-btn${current === u ? ' on' : ''}`, type: 'button', 'aria-pressed': String(current === u), on: { click: () => { if (u !== current) onChange(u); } } }, u)));
+  return box;
+}

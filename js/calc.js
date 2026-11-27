@@ -3,11 +3,10 @@
 const num = (v) => (Number.isFinite(+v) ? +v : 0);
 export const round = (n, d = 1) => { const f = 10 ** d; return Math.round((n + Number.EPSILON) * f) / f; };
 
-export const KG_PER_LB = 0.45359237;
+export { KG_PER_LB, toDisplay, fromDisplay } from './units.js';
+import { KG_PER_LB } from './units.js';
 export const kgToLb = (kg) => num(kg) / KG_PER_LB;
 export const lbToKg = (lb) => num(lb) * KG_PER_LB;
-export const toDisplay = (kg, unit) => round(unit === 'lb' ? kgToLb(kg) : num(kg), 1);
-export const fromDisplay = (v, unit) => round(unit === 'lb' ? lbToKg(v) : num(v), 2);
 
 // ---- Volumen ----
 export const setVolume = (s) => num(s.weight_kg) * num(s.reps);

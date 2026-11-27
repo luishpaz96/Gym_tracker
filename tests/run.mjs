@@ -437,3 +437,31 @@ test('consejos de nutrición', () => {
   const tips = generateTips({ status: rec.muscleStatus(MUSCLES, {}, true), workouts: [{ id: '1', performed_on: '2026-11-25', exercises: [] }], exercises: EX, plan: PLAN, today: '2026-11-27', weights: [], weightGoal: 'lose', nutrition: { logs: over, targets: T } });
   assert.ok(tips.some((t) => t.kind === 'food') && tips.length <= 5);
 });
+
+// ---------- Unidades kg / lb ----------
+import * as un from '../js/units.js';
+test('unidades: conversión, redondeo y paso de sobrecarga', () => {
+  assert.equal(un.toDisplay(60, 'kg'), 60);
+  assert.equal(un.toDisplay(60, 'lb'), 132.5);            // 132.277 -> 0.5 más cercano
+  assert.equal(un.toDisplay(100, 'lb'), 220.5);           // 220.462
+  assert.equal(un.toDisplay(82.63, 'kg', 0.1), 82.6);
+  assert.equal(un.toDisplay(82.63, 'lb', 0.1), 182.2);
+  assert.equal(un.fromDisplay(135, 'lb'), 61.23);         // 2 decimales
+  assert.equal(un.fromDisplay('62,5', 'kg'), 62.5);
+  assert.equal(un.fromDisplay('', 'kg'), 0);
+  // ida y vuelta: kg -> lb (0.5) -> kg se queda a menos de 0.25 lb
+  for (const kg of [20, 42.5, 60, 87.5, 100, 142.5]) {
+    const back = un.fromDisplay(un.toDisplay(kg, 'lb'), 'lb');
+    assert.ok(Math.abs(back - kg) <= 0.25 * un.KG_PER_LB + 0.01, `${kg} -> ${back}`);
+  }
+  assert.equal(un.convertTyped('135', 'lb', 'kg'), '61');
+  assert.equal(un.convertTyped('60', 'kg', 'lb'), '132.5');
+  assert.equal(un.convertTyped('', 'kg', 'lb'), '');
+  assert.equal(un.convertTyped('abc', 'kg', 'lb'), '');
+  assert.equal(un.convertTyped('60', 'kg', 'kg'), '60');
+  assert.equal(un.overloadStep('kg'), 2.5); assert.equal(un.overloadStep('lb'), 5);
+  assert.equal(un.fmtWeight(60, 'lb'), '132.5 lb');
+  assert.equal(un.normUnit('xx'), 'kg');
+  assert.match(ov.overloadSuggestion([S(60, 10), S(60, 10)], '6–10', 'lb'), /Sube 5 lb/);
+  assert.match(ov.overloadSuggestion([S(60, 10), S(60, 10)], '6–10', 'kg'), /Sube 2\.5 kg/);
+});

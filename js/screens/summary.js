@@ -1,5 +1,6 @@
 // Summary: mapa semanal con semáforo, peso corporal, consejos y gráficas.
-import { el, toast, fmtNum } from '../ui.js';
+import { el, toast, fmtNum, unitToggle } from '../ui.js';
+import { toDisplay, fromDisplay, normUnit } from '../units.js';
 import { weekStatus, today, targetsOf } from '../stats.js';
 import { adherence } from '../nutrition.js';
 import { generateTips } from '../tips.js';
@@ -14,16 +15,19 @@ import * as charts from './charts_panel.js';
 const short = (s) => s.slice(8) + '/' + s.slice(5, 7);
 
 function weightCard(ctx) {
+  const unit = normUnit(ctx.profile?.unit);
+  const D = (kg) => toDisplay(kg, unit, 0.1);
   const goalKg = ctx.profile?.goal_weight_kg;
-  const card = el('section', { class: 'card' }, el('h2', { text: 'Peso corporal' }));
+  const card = el('section', { class: 'card' }, el('div', { class: 'row between wrap gap' }, el('h2', { text: 'Peso corporal' }),
+    unitToggle(unit, async (u) => { ctx.profile = { ...ctx.profile, unit: u }; try { await ctx.api.saveProfile(ctx.profile); } catch { /* se queda local */ } location.reload(); })));
   const last = ctx.weights[ctx.weights.length - 1];
-  card.append(el('p', { class: 'muted', text: last ? `Actual: ${fmtNum(last.weight_kg, 1)} kg${goalKg ? ` · Meta: ${fmtNum(goalKg, 1)} kg` : ''}` : 'Aún no registras tu peso.' }));
+  card.append(el('p', { class: 'muted', text: last ? `Actual: ${fmtNum(D(last.weight_kg), 1)} ${unit}${goalKg ? ` · Meta: ${fmtNum(D(goalKg), 1)} ${unit}` : ''}` : 'Aún no registras tu peso.' }));
   const date = el('input', { class: 'input', type: 'date', value: today(), max: today(), min: '2000-01-01', 'aria-label': 'Fecha del peso' });
-  const w = el('input', { class: 'input', type: 'text', inputmode: 'decimal', placeholder: 'kg', maxlength: 6, 'aria-label': 'Peso en kg', autocomplete: 'off' });
+  const w = el('input', { class: 'input', type: 'text', inputmode: 'decimal', placeholder: unit, maxlength: 6, 'aria-label': `Peso en ${unit}`, autocomplete: 'off' });
   const btn = el('button', { class: 'btn primary', type: 'button' }, 'Registrar peso');
   btn.addEventListener('click', async () => {
-    const kg = Number(w.value.replace(',', '.'));
-    if (!Number.isFinite(kg) || kg < LIMITS.weight[0] || kg > LIMITS.weight[1]) return toast('Peso entre 30 y 300 kg.', 'bad');
+    const kg = fromDisplay(w.value, unit);
+    if (!(kg >= LIMITS.weight[0] && kg <= LIMITS.weight[1])) return toast(`Peso entre ${D(LIMITS.weight[0])} y ${D(LIMITS.weight[1])} ${unit}.`, 'bad');
     if (!date.value || date.value > today()) return toast('Elige una fecha válida.', 'bad');
     btn.disabled = true;
     try { await ctx.api.addBodyWeight(date.value, Math.round(kg * 10) / 10); ctx.weights = await ctx.api.listBodyWeights(); toast('Peso registrado'); location.reload(); }
@@ -35,9 +39,9 @@ function weightCard(ctx) {
     const avg = Object.fromEntries(weeklyAverages(ctx.weights).map((a) => [a.week, a.avg]));
     const canvas = el('canvas', { role: 'img', 'aria-label': 'Gráfica de peso corporal con promedio semanal y meta' });
     card.append(el('div', { class: 'chart-wrap' }, canvas));
-    const datasets = [{ label: 'Peso (kg)', data: rows.map((r) => r.weight_kg) }, { label: 'Promedio semanal', data: rows.map((r) => avg[weekStart(r.measured_on)]), pointRadius: 0, borderWidth: 3 }];
-    if (goalKg) datasets.push({ label: `Meta (${fmtNum(goalKg, 1)})`, data: rows.map(() => goalKg), pointRadius: 0, borderDash: [6, 4], borderWidth: 2 });
-    requestAnimationFrame(() => drawChart(canvas, { type: 'line', labels: rows.map((r) => short(r.measured_on)), datasets, yTitle: 'kg', zero: false }));
+    const datasets = [{ label: `Peso (${unit})`, data: rows.map((r) => D(r.weight_kg)) }, { label: 'Promedio semanal', data: rows.map((r) => D(avg[weekStart(r.measured_on)])), pointRadius: 0, borderWidth: 3 }];
+    if (goalKg) datasets.push({ label: `Meta (${fmtNum(D(goalKg), 1)})`, data: rows.map(() => D(goalKg)), pointRadius: 0, borderDash: [6, 4], borderWidth: 2 });
+    requestAnimationFrame(() => drawChart(canvas, { type: 'line', labels: rows.map((r) => short(r.measured_on)), datasets, yTitle: unit, zero: false }));
   }
   return card;
 }

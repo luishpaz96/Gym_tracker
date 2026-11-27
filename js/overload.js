@@ -19,13 +19,14 @@ export function parseRepRange(txt) {
   return lo <= hi ? [lo, hi] : [hi, lo];
 }
 
+import { overloadStep } from './units.js';
 export const STEP = { kg: 2.5, lb: 5 };
 
 // sets: [{weight_kg, reps}] de la última vez. Devuelve una línea de texto.
 export function overloadSuggestion(sets, repRange, unit = 'kg') {
   if (!sets || !sets.length) return 'Primera vez: elige un peso con el que te queden 2–3 repeticiones en reserva.';
   const range = parseRepRange(repRange);
-  const step = STEP[unit] || STEP.kg;
+  const step = overloadStep(unit);
   if (range) {
     const hi = range[1];
     if (sets.every((s) => +s.reps >= hi)) return `Sube ${step} ${unit}: completaste ${hi} reps en todas las series.`;
