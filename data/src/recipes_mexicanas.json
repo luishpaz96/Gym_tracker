@@ -1577,7 +1577,7 @@
    },
    {
     "food": "aceite_vegetal",
-    "g": 40
+    "g": 30
    }
   ],
   "steps": [
@@ -2229,7 +2229,7 @@
    },
    {
     "food": "aceite_vegetal",
-    "g": 40
+    "g": 30
    },
    {
     "food": "lechuga_romana",
@@ -2781,7 +2781,7 @@
    },
    {
     "food": "aceite_vegetal",
-    "g": 40
+    "g": 30
    },
    {
     "food": "jitomate",
@@ -4544,7 +4544,7 @@
    },
    {
     "food": "aceite_vegetal",
-    "g": 40
+    "g": 30
    },
    {
     "food": "chile_poblano",
@@ -4594,7 +4594,7 @@
    },
    {
     "food": "aceite_vegetal",
-    "g": 40
+    "g": 30
    },
    {
     "food": "pechuga_pollo_cocida",
@@ -5190,7 +5190,7 @@
    },
    {
     "food": "aceite_vegetal",
-    "g": 40
+    "g": 30
    },
    {
     "food": "sal",
