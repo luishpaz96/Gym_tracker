@@ -1,0 +1,3959 @@
+[
+ {
+  "id": "pos_mug_cake_chocolate",
+  "name": "Mug cake de chocolate con whey",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 25,
+    "note": "molida"
+   },
+   {
+    "food": "whey_aislado",
+    "g": 30,
+    "note": "sabor chocolate"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 8,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pieza"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 80
+   }
+  ],
+  "steps": [
+   "Muele la avena y mézclala con el whey y el cacao.",
+   "Agrega el huevo y la leche, y bate hasta que no queden grumos.",
+   "Vierte en una taza apta para microondas.",
+   "Calienta en microondas 90 segundos y deja reposar 1 minuto."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "pos_mug_cake_platano",
+  "name": "Mug cake de plátano y canela",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 100,
+    "note": "maduro, machacado"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 25,
+    "note": "molida"
+   },
+   {
+    "food": "whey_concentrado",
+    "g": 20,
+    "note": "sabor vainilla"
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Machaca el plátano en un bowl.",
+   "Agrega el huevo, la avena molida, el whey y la canela.",
+   "Mezcla bien y pasa a una taza para microondas.",
+   "Cocina en microondas 2 minutos y deja reposar un minuto."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "pos_brownie_frijol_negro",
+  "name": "Brownie de frijol negro",
+  "servings": 8,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "frijol_negro_cocido",
+    "g": 300,
+    "note": "escurrido"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 30
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "miel",
+    "g": 60
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C y engrasa un molde de 20 cm.",
+   "Licua el frijol con el huevo, la miel y el aceite hasta obtener una pasta lisa.",
+   "Agrega el cacao y licua de nuevo. Incorpora el chocolate picado.",
+   "Hornea 35 minutos y deja enfriar antes de cortar."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_brownie_camote",
+  "name": "Brownie de camote",
+  "servings": 8,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 250,
+    "note": "machacado"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 25
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 40,
+    "note": "molida"
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C y forra un molde cuadrado.",
+   "Mezcla el camote machacado con el huevo, la miel y el aceite.",
+   "Agrega la avena, el cacao y el chocolate picado, y revuelve.",
+   "Hornea 30 minutos, deja enfriar y corta en 8 porciones."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "pos_pay_queso_ligero",
+  "name": "Pay de queso ligero",
+  "servings": 8,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 400
+   },
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "galletas_maria",
+    "g": 60,
+    "note": "trituradas"
+   },
+   {
+    "food": "mantequilla",
+    "g": 20,
+    "note": "derretida"
+   },
+   {
+    "food": "azucar",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 170 °C. Mezcla las galletas con la mantequilla y forra un molde de 20 cm.",
+   "Licua el cottage con el yogur, el huevo, el azúcar y el limón hasta tener una crema lisa.",
+   "Vierte sobre la base y hornea 40 minutos.",
+   "Deja enfriar y refrigera 4 horas antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_gelatina_yogur_fresa",
+  "name": "Gelatina de yogur y fresa",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fresa",
+    "g": 200,
+    "note": "picada"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "grenetina",
+    "g": 7,
+    "note": "1 sobre"
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Hidrata la grenetina en 50 g de agua fría durante 5 minutos.",
+   "Calienta el resto del agua, disuelve la grenetina y deja entibiar.",
+   "Licua el yogur con la miel y la fresa, luego mezcla con la grenetina.",
+   "Vierte en moldes y refrigera 4 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_gelatina_yogur_mango",
+  "name": "Gelatina de yogur con mango",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mango",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "grenetina",
+    "g": 7,
+    "note": "1 sobre"
+   },
+   {
+    "food": "agua_simple",
+    "g": 150
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Hidrata la grenetina con 40 g de agua fría.",
+   "Disuelve la grenetina en el agua tibia restante.",
+   "Licua el mango con el yogur y la miel, y agrega la mezcla de grenetina.",
+   "Sirve en vasos y refrigera 4 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_helado_platano_cacao",
+  "name": "Helado de plátano y cacao",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 240,
+    "note": "congelado en rebanadas"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   },
+   {
+    "food": "leche_almendra",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Congela el plátano en rebanadas al menos 4 horas antes.",
+   "Pon el plátano congelado en el procesador con el cacao.",
+   "Agrega la bebida de almendra poco a poco y procesa hasta que quede cremoso.",
+   "Sirve de inmediato o congela 30 minutos para dar más consistencia."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_helado_platano_fresa",
+  "name": "Helado de plátano con fresa",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 240,
+    "note": "congelado en rebanadas"
+   },
+   {
+    "food": "fresa",
+    "g": 100
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Congela el plátano en rebanadas al menos 4 horas antes.",
+   "Procesa el plátano con el yogur hasta obtener una crema suave.",
+   "Incorpora la fresa picada y procesa un poco más sin dejar del todo lisa la mezcla.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_mousse_cacao_aguacate",
+  "name": "Mousse de cacao y aguacate",
+  "servings": 4,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "pulpa madura"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 25
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "leche_almendra",
+    "g": 80
+   }
+  ],
+  "steps": [
+   "Pela el aguacate y retira el hueso.",
+   "Licua el aguacate con la leche de almendra y la miel.",
+   "Agrega el cacao y licua hasta quedar totalmente lisa.",
+   "Refrigera 30 minutos y sirve en vasitos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_mousse_cacao_yogur",
+  "name": "Mousse de cacao con yogur griego",
+  "servings": 4,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 400
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 20
+   },
+   {
+    "food": "miel",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Bate el yogur griego hasta que quede cremoso.",
+   "Tamiza el cacao sobre el yogur y agrega la miel.",
+   "Incorpora todo con movimientos suaves para no perder volumen.",
+   "Refrigera 20 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_budin_chia_coco",
+  "name": "Budín de chía y coco",
+  "servings": 3,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chia",
+    "g": 40
+   },
+   {
+    "food": "leche_almendra",
+    "g": 300
+   },
+   {
+    "food": "coco_rallado",
+    "g": 12
+   },
+   {
+    "food": "miel",
+    "g": 20
+   },
+   {
+    "food": "fresa",
+    "g": 100,
+    "note": "para cubrir"
+   }
+  ],
+  "steps": [
+   "Mezcla la chía con la leche de almendra, la miel y el coco.",
+   "Revuelve bien y deja reposar 10 minutos.",
+   "Vuelve a revolver para evitar grumos y refrigera 3 horas o toda la noche.",
+   "Sirve en vasos y cubre con fresa picada."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_budin_chia_cacao",
+  "name": "Budín de chía con cacao",
+  "servings": 3,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chia",
+    "g": 40
+   },
+   {
+    "food": "leche_descremada",
+    "g": 300
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 20
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Mezcla la leche con el cacao y la miel hasta disolver.",
+   "Agrega la chía y deja reposar 10 minutos.",
+   "Revuelve, incorpora el yogur griego y refrigera 3 horas.",
+   "Sirve frío en vasos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_arroz_leche_ligero",
+  "name": "Arroz con leche ligero",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 60
+   },
+   {
+    "food": "leche_descremada",
+    "g": 500
+   },
+   {
+    "food": "canela",
+    "g": 3,
+    "note": "1 raja"
+   },
+   {
+    "food": "azucar",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Lava el arroz y cuécelo en 300 ml de agua con la canela a fuego bajo 15 minutos.",
+   "Agrega la leche y cocina 20 minutos, revolviendo seguido.",
+   "Incorpora el azúcar y cocina 5 minutos más hasta que espese.",
+   "Retira la canela y sirve tibio o frío con un poco de canela molida."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_arroz_leche_almendra",
+  "name": "Arroz con leche de almendra",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 60
+   },
+   {
+    "food": "leche_almendra",
+    "g": 500
+   },
+   {
+    "food": "canela",
+    "g": 3
+   },
+   {
+    "food": "piloncillo",
+    "g": 20,
+    "note": "rallado"
+   }
+  ],
+  "steps": [
+   "Lava el arroz y cuécelo 10 minutos con 300 ml de agua y la canela.",
+   "Agrega la bebida de almendra y cocina a fuego bajo 25 minutos.",
+   "Incorpora el piloncillo rallado y revuelve hasta disolver.",
+   "Sirve tibio y espolvorea canela."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_flan_ligero",
+  "name": "Flan ligero de vainilla",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 piezas"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 100,
+    "note": "3 claras"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 300
+   },
+   {
+    "food": "azucar",
+    "g": 40,
+    "note": "para el caramelo"
+   }
+  ],
+  "steps": [
+   "Haz un caramelo con el azúcar y cubre el fondo de un molde.",
+   "Bate los huevos y las claras con la leche sin hacer espuma.",
+   "Vierte sobre el caramelo y cubre con papel aluminio.",
+   "Cuece al baño María en horno a 160 °C por 45 minutos y enfría."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_flan_cottage",
+  "name": "Flan de queso cottage",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 300
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 150
+   },
+   {
+    "food": "azucar",
+    "g": 30
+   },
+   {
+    "food": "canela",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Licua el cottage con el huevo, la leche y el azúcar.",
+   "Vierte en un molde engrasado y espolvorea canela.",
+   "Hornea al baño María a 170 °C por 40 minutos.",
+   "Deja enfriar y refrigera 2 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_galletas_avena_platano",
+  "name": "Galletas de avena y plátano",
+  "servings": 12,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 120,
+    "note": "muy maduro"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 120
+   },
+   {
+    "food": "proteina_vegetal_polvo",
+    "g": 30
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 20,
+    "note": "en trocitos"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C y forra una charola.",
+   "Machaca el plátano y mézclalo con el aceite.",
+   "Agrega la avena, la proteína vegetal y el chocolate, y mezcla.",
+   "Forma 12 galletas, aplánalas y hornea 12 minutos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "rápida",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_galletas_avena_manzana",
+  "name": "Galletas de avena con manzana",
+  "servings": 10,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "manzana",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 150
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 30
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C y forra una charola.",
+   "Mezcla la manzana rallada con el huevo y la crema de cacahuate.",
+   "Agrega la avena, las pasas y la canela, y revuelve.",
+   "Forma 10 galletas, hornea 15 minutos y deja enfriar."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_galletas_avena_proteina",
+  "name": "Galletas de avena y proteína",
+  "servings": 8,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 100
+   },
+   {
+    "food": "whey_aislado",
+    "g": 60,
+    "note": "sabor vainilla"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "platano",
+    "g": 60,
+    "note": "maduro"
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 20,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C.",
+   "Aplasta el plátano y mézclalo con el huevo.",
+   "Agrega la avena, el whey y el chocolate picado.",
+   "Forma 8 galletas, aplánalas y hornea 12 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_fresas_chocolate_yogur",
+  "name": "Fresas con chocolate y yogur",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fresa",
+    "g": 300,
+    "note": "con cáliz"
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 30,
+    "note": "derretido"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 150
+   }
+  ],
+  "steps": [
+   "Lava las fresas y sécalas bien.",
+   "Derrite el chocolate a baño María o en microondas en intervalos de 20 segundos.",
+   "Baña las fresas en el chocolate por la mitad y deja secar.",
+   "Sirve con el yogur griego para acompañar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_fresas_banadas_chocolate",
+  "name": "Fresas bañadas en chocolate oscuro",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fresa",
+    "g": 300,
+    "note": "con cáliz"
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 40,
+    "note": "derretido"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 6,
+    "note": "para espolvorear"
+   }
+  ],
+  "steps": [
+   "Lava y seca muy bien las fresas.",
+   "Derrite el chocolate en baño María.",
+   "Baña las fresas y espolvorea coco rallado encima.",
+   "Refrigera 10 minutos para que el chocolate endurezca."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_paleta_platano_cacao",
+  "name": "Paletas de plátano con cacao",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 240,
+    "note": "maduro"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   },
+   {
+    "food": "leche_almendra",
+    "g": 120
+   }
+  ],
+  "steps": [
+   "Licua el plátano con la bebida de almendra hasta obtener una mezcla lisa.",
+   "Agrega el cacao y licua un poco más.",
+   "Vierte en moldes para paleta y pon los palitos.",
+   "Congela al menos 6 horas."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_paleta_yogur_fruta",
+  "name": "Paletas de yogur y fruta",
+  "servings": 6,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "fresa",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Licua el mango con el yogur griego y la miel.",
+   "Incorpora la fresa picada sin licuar.",
+   "Vierte en moldes para paleta, agregando capas de mezcla.",
+   "Congela 6 horas antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_paleta_sandia_limon",
+  "name": "Paletas de sandía y limón",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sandia",
+    "g": 300,
+    "note": "sin semillas"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Licua la sandía con el jugo de limón y la miel.",
+   "Cuela para quitar pulpa gruesa si lo deseas.",
+   "Vierte en moldes y coloca los palitos.",
+   "Congela 5 horas o hasta que estén firmes."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_mug_cake_vainilla_fresa",
+  "name": "Mug cake de vainilla con fresas",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 25,
+    "note": "molida"
+   },
+   {
+    "food": "whey_concentrado",
+    "g": 25,
+    "note": "sabor vainilla"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "leche_almendra",
+    "g": 60
+   },
+   {
+    "food": "fresa",
+    "g": 60,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Muele la avena y mézclala con el whey.",
+   "Agrega el huevo y la leche de almendra, y bate.",
+   "Incorpora la mitad de las fresas y vierte en una taza.",
+   "Cocina en microondas 2 minutos y decora con el resto de fresas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "pos_mug_cake_limon_yogur",
+  "name": "Mug cake de limón con yogur",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 25,
+    "note": "molida"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 60
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "miel",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla la avena molida con el yogur griego.",
+   "Agrega el huevo, el jugo y la ralladura de limón y la miel.",
+   "Bate bien y vierte en una taza.",
+   "Cocina en microondas 90 segundos y deja reposar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "pos_mug_cake_cacao_integral",
+  "name": "Mug cake de cacao integral",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "harina_integral",
+    "g": 30
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "leche_soya",
+    "g": 80
+   },
+   {
+    "food": "miel",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla la harina integral con el cacao en una taza.",
+   "Agrega el huevo, la bebida de soya y la miel, y bate.",
+   "Cocina en microondas 2 minutos.",
+   "Deja reposar 1 minuto antes de comer."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_brownie_lentejas_cacao",
+  "name": "Brownie de lentejas y cacao",
+  "servings": 8,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 25
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "miel",
+    "g": 60
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C y engrasa un molde.",
+   "Licúa las lentejas con el huevo, la miel y el aceite.",
+   "Agrega el cacao, licua y mezcla el chocolate picado a mano.",
+   "Hornea 35 minutos y deja enfriar antes de cortar."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_brownie_avena_chocolate",
+  "name": "Brownie de avena y chocolate",
+  "servings": 6,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 80
+   },
+   {
+    "food": "platano",
+    "g": 120,
+    "note": "maduro"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 20
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C y engrasa un molde pequeño.",
+   "Machaca el plátano y mézclalo con el huevo y el aceite.",
+   "Agrega la avena, el cacao y el chocolate picado.",
+   "Hornea 25 minutos y corta en 6 porciones."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_blondie_garbanzo_cacahuate",
+  "name": "Blondie de garbanzo y cacahuate",
+  "servings": 8,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurrido"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 60
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "miel",
+    "g": 60
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 30
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 20,
+    "note": "en trocitos"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C y engrasa un molde cuadrado.",
+   "Licúa el garbanzo con la crema de cacahuate, el huevo y la miel.",
+   "Agrega la avena y mezcla con una cuchara.",
+   "Incorpora los trocitos de chocolate, hornea 30 minutos y enfría."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_cheesecake_vaso_yogur",
+  "name": "Cheesecake de yogur en vaso",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 400
+   },
+   {
+    "food": "queso_cottage",
+    "g": 150
+   },
+   {
+    "food": "galletas_maria",
+    "g": 60,
+    "note": "trituradas"
+   },
+   {
+    "food": "fresa",
+    "g": 150,
+    "note": "en mermelada natural"
+   },
+   {
+    "food": "miel",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Licúa el yogur con el cottage y la miel hasta tener una crema suave.",
+   "Pon una capa de galleta triturada en cada vaso.",
+   "Agrega una capa de crema y luego una de fresa picada.",
+   "Refrigera 2 horas antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_gelatina_yogur_limon",
+  "name": "Gelatina de yogur y limón",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "grenetina",
+    "g": 7,
+    "note": "1 sobre"
+   },
+   {
+    "food": "agua_simple",
+    "g": 150
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Hidrata la grenetina en 40 g de agua fría.",
+   "Calienta el agua restante y disuelve la grenetina.",
+   "Mezcla el yogur con el limón, la miel y la grenetina tibia.",
+   "Vierte en vasos y refrigera 4 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_gelatina_yogur_kiwi",
+  "name": "Gelatina de yogur con kiwi",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kiwi",
+    "g": 150,
+    "note": "pelado y picado"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "grenetina",
+    "g": 7,
+    "note": "1 sobre"
+   },
+   {
+    "food": "agua_simple",
+    "g": 150
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Hidrata la grenetina con 40 g de agua fría.",
+   "Disuelve la grenetina en el agua tibia.",
+   "Licúa el yogur con el kiwi y la miel, y agrega la grenetina.",
+   "Sirve en vasos y refrigera 4 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_gelatina_yogur_frambuesa",
+  "name": "Gelatina de yogur y frambuesa",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frambuesa",
+    "g": 150
+   },
+   {
+    "food": "yogur_descremado",
+    "g": 300
+   },
+   {
+    "food": "grenetina",
+    "g": 7,
+    "note": "1 sobre"
+   },
+   {
+    "food": "agua_simple",
+    "g": 150
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Hidrata la grenetina en 40 g de agua fría.",
+   "Calienta el resto del agua y disuelve la grenetina.",
+   "Machaca la frambuesa y mézclala con el yogur y la miel.",
+   "Incorpora la grenetina, vierte en moldes y refrigera 4 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_helado_platano_mango",
+  "name": "Helado de plátano y mango",
+  "servings": 3,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 200,
+    "note": "congelado"
+   },
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "congelado en cubos"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Saca el plátano y el mango del congelador 5 minutos antes.",
+   "Procesa el plátano y el mango hasta tener una crema.",
+   "Agrega el yogur griego y mezcla hasta integrar.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_helado_platano_cacahuate",
+  "name": "Helado de plátano con cacahuate",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 240,
+    "note": "congelado"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 30
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 5
+   },
+   {
+    "food": "leche_almendra",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Procesa el plátano congelado con la leche de almendra.",
+   "Agrega la crema de cacahuate y el cacao.",
+   "Procesa hasta obtener una textura de helado suave.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_mousse_cacao_cottage",
+  "name": "Mousse de cacao y cottage",
+  "servings": 3,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 300
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 20
+   },
+   {
+    "food": "miel",
+    "g": 30
+   },
+   {
+    "food": "leche_descremada",
+    "g": 50
+   }
+  ],
+  "steps": [
+   "Licua el queso cottage con la leche hasta quedar muy liso.",
+   "Agrega el cacao y la miel y licua de nuevo.",
+   "Vierte en vasitos.",
+   "Refrigera 30 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_mousse_cacao_platano",
+  "name": "Mousse de plátano y cacao",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 200,
+    "note": "muy maduro"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 15
+   },
+   {
+    "food": "leche_almendra",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Machaca el plátano muy bien o licúalo con un poco de leche.",
+   "Agrega el cacao y el resto de la bebida de almendra.",
+   "Bate hasta obtener una textura de mousse.",
+   "Refrigera 20 minutos y sirve."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_budin_chia_mango",
+  "name": "Budín de chía y mango",
+  "servings": 3,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chia",
+    "g": 40
+   },
+   {
+    "food": "leche_almendra",
+    "g": 300
+   },
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Mezcla la chía con la leche de almendra y la miel.",
+   "Reposa 10 minutos y revuelve para evitar grumos.",
+   "Licua la mitad del mango y mézclalo con el budín.",
+   "Refrigera 3 horas y sirve con el mango restante."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_budin_chia_proteico",
+  "name": "Budín de chía con proteína",
+  "servings": 2,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chia",
+    "g": 30
+   },
+   {
+    "food": "leche_descremada",
+    "g": 250
+   },
+   {
+    "food": "whey_aislado",
+    "g": 30,
+    "note": "sabor vainilla"
+   },
+   {
+    "food": "fresa",
+    "g": 80,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Bate el whey con la leche hasta disolver.",
+   "Agrega la chía y reposa 10 minutos.",
+   "Revuelve y refrigera 2 horas.",
+   "Sirve con la fresa encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_arroz_leche_avena",
+  "name": "Arroz con leche de avena",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 60
+   },
+   {
+    "food": "bebida_avena",
+    "g": 500
+   },
+   {
+    "food": "canela",
+    "g": 3
+   },
+   {
+    "food": "piloncillo",
+    "g": 20,
+    "note": "rallado"
+   }
+  ],
+  "steps": [
+   "Cuece el arroz con 300 ml de agua y la canela 10 minutos.",
+   "Agrega la bebida de avena y cocina a fuego bajo 20 minutos.",
+   "Incorpora el piloncillo y revuelve hasta disolver.",
+   "Sirve tibio con canela molida."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_arroz_leche_yogur",
+  "name": "Arroz con leche y yogur griego",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 60
+   },
+   {
+    "food": "leche_descremada",
+    "g": 400
+   },
+   {
+    "food": "yogur_griego",
+    "g": 150
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Cuece el arroz con 300 ml de agua y la canela 10 minutos.",
+   "Agrega la leche descremada y cocina a fuego bajo 20 minutos.",
+   "Retira del fuego, incorpora el yogur griego y la miel.",
+   "Sirve tibio o frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_fresas_horneadas_canela",
+  "name": "Fresas asadas con canela y yogur",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fresa",
+    "g": 300,
+    "note": "sin cáliz"
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "miel",
+    "g": 20
+   },
+   {
+    "food": "yogur_griego",
+    "g": 150
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 190 °C.",
+   "Acomoda las fresas en un refractario y rocía con miel y canela.",
+   "Hornea 12 minutos hasta que suelten jugo.",
+   "Sirve tibias con el yogur griego."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_flan_chocolate",
+  "name": "Flan ligero de chocolate",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "leche_descremada",
+    "g": 400
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 20
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 piezas"
+   },
+   {
+    "food": "azucar",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Calienta la leche con el cacao sin que hierva.",
+   "Bate los huevos con el azúcar y mezcla con la leche tibia.",
+   "Vierte en moldes y cuece al baño María a 160 °C por 40 minutos.",
+   "Enfría y refrigera 2 horas antes de desmoldar."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_flan_pina",
+  "name": "Flan de piña",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pina",
+    "g": 200,
+    "note": "licuada"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 300
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 piezas"
+   },
+   {
+    "food": "azucar",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Licua la piña con la leche y los huevos.",
+   "Agrega el azúcar y vierte en un molde con caramelo.",
+   "Cuece al baño María a 170 °C por 45 minutos.",
+   "Enfría y refrigera antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_galletas_avena_coco",
+  "name": "Galletas de avena y coco",
+  "servings": 12,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 120
+   },
+   {
+    "food": "coco_rallado",
+    "g": 20
+   },
+   {
+    "food": "platano",
+    "g": 100,
+    "note": "machacado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C y forra una charola.",
+   "Mezcla el plátano con el huevo, el aceite y la miel.",
+   "Agrega la avena y el coco rallado, y revuelve.",
+   "Forma 12 galletas y hornea 13 minutos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_galletas_avena_cacahuate",
+  "name": "Galletas de avena y cacahuate",
+  "servings": 10,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 100
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 60
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C.",
+   "Mezcla la crema de cacahuate con el huevo y la miel.",
+   "Agrega la avena y las pasas, y revuelve.",
+   "Forma 10 galletas, aplánalas y hornea 12 minutos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_paleta_fresa_limon",
+  "name": "Paletas de fresa y limón",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fresa",
+    "g": 300
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "miel",
+    "g": 30
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Licua la fresa con el agua hasta que quede lisa.",
+   "Agrega el jugo de limón y la miel, y licua de nuevo.",
+   "Vierte en moldes y coloca los palitos.",
+   "Congela 6 horas."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_paleta_kiwi_pina",
+  "name": "Paletas de kiwi y piña",
+  "servings": 5,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kiwi",
+    "g": 150,
+    "note": "pelado"
+   },
+   {
+    "food": "pina",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "yogur_descremado",
+    "g": 100
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Licua el kiwi con el yogur y la miel.",
+   "Procesa la piña y mezcla con la otra preparación.",
+   "Vierte en moldes para paleta.",
+   "Congela 6 horas antes de servir."
+  ],
+  "tags": [
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_pastel_zanahoria_ligero",
+  "name": "Pastel de zanahoria ligero",
+  "servings": 8,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 80,
+    "note": "molida"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "miel",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C y engrasa un molde de 20 cm.",
+   "Bate el huevo con la miel y el aceite.",
+   "Agrega la avena molida, la zanahoria rallada y la canela.",
+   "Hornea 40 minutos, deja enfriar y corta en 8 porciones."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "pos_pastel_platano_avena",
+  "name": "Pastel de plátano y avena",
+  "servings": 8,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 240,
+    "note": "muy maduro"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 100
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C y engrasa un molde pequeño.",
+   "Machaca el plátano y mézclalo con el huevo y el yogur.",
+   "Agrega la avena y la canela, y revuelve.",
+   "Hornea 35 minutos y deja enfriar antes de cortar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_tarta_manzana_avena",
+  "name": "Tarta de manzana y avena",
+  "servings": 6,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "manzana",
+    "g": 300,
+    "note": "en láminas"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 120
+   },
+   {
+    "food": "mantequilla",
+    "g": 30,
+    "note": "derretida"
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C.",
+   "Mezcla la avena con la mantequilla, la miel y la mitad de la canela.",
+   "Presiona la mezcla en un molde para formar la base.",
+   "Acomoda la manzana encima, espolvorea la canela restante y hornea 35 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_compota_manzana_pera",
+  "name": "Compota de manzana y pera con canela",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "manzana",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "pera",
+    "g": 180,
+    "note": "en cubos"
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Pon la manzana y la pera en una olla con 100 ml de agua.",
+   "Agrega la canela y cocina a fuego medio 15 minutos.",
+   "Aplasta un poco la fruta con una cuchara.",
+   "Incorpora la miel y sirve tibia o fría."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_manzanas_horneadas_yogur",
+  "name": "Manzanas horneadas con yogur",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "manzana",
+    "g": 364,
+    "note": "2 medianas, sin corazón"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 14,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C.",
+   "Rellena las manzanas con las pasas, la canela y la nuez picada.",
+   "Hornea 25 minutos hasta que estén suaves.",
+   "Sirve con el yogur griego encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_peras_asadas_cajeta",
+  "name": "Peras asadas con cajeta ligera",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pera",
+    "g": 360,
+    "note": "2 piezas, partidas a la mitad"
+   },
+   {
+    "food": "cajeta",
+    "g": 20
+   },
+   {
+    "food": "almendra",
+    "g": 10,
+    "note": "laminada"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 190 °C.",
+   "Acomoda las peras con la parte cortada hacia arriba en un refractario.",
+   "Pon una cucharadita de cajeta en cada mitad y espolvorea almendra.",
+   "Hornea 20 minutos hasta que estén suaves y doradas."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_duraznos_asados_yogur",
+  "name": "Duraznos asados con yogur",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "durazno",
+    "g": 300,
+    "note": "2 piezas partidas"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Coloca los duraznos cortados hacia arriba en una charola y rocía con miel.",
+   "Hornea 12 minutos hasta que doren.",
+   "Sirve con el yogur griego."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_ensalada_frutas_chia",
+  "name": "Ensalada de frutas con chía",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papaya",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "mango",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "pina",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "chia",
+    "g": 12
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Pica la papaya, el mango y la piña en cubos pequeños.",
+   "Mezcla la fruta en un bowl.",
+   "Rocía con jugo de limón y espolvorea la chía.",
+   "Revuelve y deja reposar 5 minutos antes de servir."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_granizado_sandia_limon",
+  "name": "Granizado de sandía y limón",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sandia",
+    "g": 500,
+    "note": "sin semillas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Licua la sandía con el jugo de limón y la miel.",
+   "Vierte en un recipiente metálico poco profundo.",
+   "Congela 1 hora y raspa con un tenedor cada 30 minutos.",
+   "Sirve cuando tenga textura de nieve."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_nieve_mango_yogur",
+  "name": "Nieve de mango con yogur",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mango",
+    "g": 300,
+    "note": "congelado en cubos"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Saca el mango del congelador 5 minutos antes.",
+   "Procesa el mango con el yogur y la miel hasta tener una textura de nieve.",
+   "Sirve de inmediato.",
+   "Si queda muy firme, deja reposar 3 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_bolitas_datil_cacao",
+  "name": "Bolitas de dátil y cacao",
+  "servings": 12,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "datil",
+    "g": 160,
+    "note": "sin hueso"
+   },
+   {
+    "food": "almendra",
+    "g": 60,
+    "note": "molida"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   },
+   {
+    "food": "coco_rallado",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Remoja los dátiles en agua caliente 10 minutos y escúrrelos.",
+   "Procesa los dátiles con la almendra y el cacao.",
+   "Forma bolitas del tamaño de una nuez y pásalas por coco rallado.",
+   "Refrigera 30 minutos antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_bolitas_avena_cacahuate",
+  "name": "Bolitas de avena y cacahuate",
+  "servings": 10,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 100,
+    "note": "molida"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 80
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "proteina_vegetal_polvo",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Mezcla la crema de cacahuate con la miel hasta suavizar.",
+   "Agrega la avena molida y la proteína vegetal.",
+   "Amasa y forma 10 bolitas.",
+   "Refrigera 30 minutos antes de comer."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "meal prep",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_barritas_granola_pepita",
+  "name": "Barritas de granola y pepita",
+  "servings": 6,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "granola",
+    "g": 150
+   },
+   {
+    "food": "pepita",
+    "g": 30
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Calienta la miel con la crema de cacahuate hasta que se mezclen.",
+   "Agrega la granola y la pepita, y revuelve.",
+   "Presiona en un molde forrado con papel encima.",
+   "Refrigera 1 hora y corta en 6 barritas."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_crujiente_manzana_avena",
+  "name": "Crujiente de manzana con avena",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "manzana",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "miel",
+    "g": 30
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C.",
+   "Acomoda la manzana en un refractario y rocía con miel y canela.",
+   "Mezcla la avena con el aceite y espolvorea encima.",
+   "Hornea 25 minutos hasta que la avena dore."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_tarta_yogur_frutos_rojos",
+  "name": "Tarta de yogur y frutos rojos",
+  "servings": 6,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 400
+   },
+   {
+    "food": "arandano",
+    "g": 100
+   },
+   {
+    "food": "galletas_maria",
+    "g": 60,
+    "note": "trituradas"
+   },
+   {
+    "food": "miel",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Mezcla las galletas trituradas con un poco de agua para formar la base.",
+   "Presiona la base en un molde pequeño.",
+   "Mezcla el yogur con la miel y viértelo sobre la base.",
+   "Cubre con arándanos y refrigera 3 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_mousse_fresa_yogur",
+  "name": "Mousse de fresa y yogur",
+  "servings": 4,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "fresa",
+    "g": 250
+   },
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "grenetina",
+    "g": 7,
+    "note": "1 sobre"
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Hidrata la grenetina en 30 g de agua fría y caliéntala para disolver.",
+   "Licua la fresa con el yogur y la miel.",
+   "Incorpora la grenetina tibia a la mezcla.",
+   "Refrigera 2 horas y sirve en vasos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_mousse_mango_coco",
+  "name": "Mousse de mango y coco",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mango",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 200
+   },
+   {
+    "food": "coco_rallado",
+    "g": 12
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Licua el mango con el cottage hasta quedar liso.",
+   "Agrega la miel y licua de nuevo.",
+   "Incorpora el coco rallado con una cuchara.",
+   "Refrigera 30 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_pudin_pan_integral",
+  "name": "Pudín de pan integral ligero",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 300
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "miel",
+    "g": 30
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 170 °C y engrasa un molde.",
+   "Bate el huevo con la leche, la miel y la canela.",
+   "Acomoda el pan y las pasas en el molde y vierte la mezcla.",
+   "Hornea al baño María 35 minutos y sirve tibio."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_capirotada_ligera",
+  "name": "Capirotada ligera",
+  "servings": 6,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 150,
+    "note": "tostado en cubos"
+   },
+   {
+    "food": "piloncillo",
+    "g": 60,
+    "note": "rallado"
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   },
+   {
+    "food": "queso_panela",
+    "g": 30,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cacahuate",
+    "g": 15,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Hierve 500 ml de agua con el piloncillo y la canela 10 minutos hasta formar un almíbar.",
+   "Acomoda el pan tostado en un refractario con las pasas y el cacahuate.",
+   "Vierte el almíbar caliente sobre el pan.",
+   "Cubre con queso panela y hornea 15 minutos a 180 °C."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_tostadas_canela_fresa",
+  "name": "Tostadas de canela y fresa",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "2 piezas"
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "miel",
+    "g": 20
+   },
+   {
+    "food": "fresa",
+    "g": 100,
+    "note": "en rebanadas"
+   }
+  ],
+  "steps": [
+   "Calienta las tortillas en un comal hasta que doren.",
+   "Espolvorea canela y rocía con miel.",
+   "Hornea 3 minutos a 180 °C para que queden crujientes.",
+   "Cubre con las fresas rebanadas."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "pos_churros_horneados",
+  "name": "Churros horneados ligeros",
+  "servings": 6,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_integral",
+    "g": 120
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "azucar",
+    "g": 20
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Hierve 200 ml de agua con el aceite y agrega la harina de golpe.",
+   "Retira del fuego, incorpora el huevo y forma una masa lisa.",
+   "Pasa la masa por una manga y forma churros en una charola engrasada.",
+   "Hornea a 200 °C por 15 minutos y revuelve el azúcar con canela para cubrirlos."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_yogur_griego_cajeta",
+  "name": "Yogur griego con cajeta",
+  "servings": 2,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "cajeta",
+    "g": 40
+   },
+   {
+    "food": "almendra",
+    "g": 10,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Pon el yogur griego en dos vasos.",
+   "Calienta la cajeta 10 segundos en microondas para que se haga fluida.",
+   "Vierte la cajeta sobre el yogur.",
+   "Espolvorea la almendra picada y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_sorbete_fresa_limon",
+  "name": "Sorbete de fresa y limón",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fresa",
+    "g": 300
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Licua la fresa con el agua, el jugo de limón y la miel.",
+   "Vierte en un recipiente metálico.",
+   "Congela 1 hora y raspa con tenedor cada 30 minutos.",
+   "Sirve cuando esté esponjoso."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_trufas_chocolate_yogur",
+  "name": "Trufas de chocolate y yogur",
+  "servings": 8,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "chocolate_oscuro",
+    "g": 60,
+    "note": "picado"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 60
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10,
+    "note": "para cubrir"
+   }
+  ],
+  "steps": [
+   "Derrite el chocolate a baño María y deja entibiar.",
+   "Incorpora el yogur griego hasta obtener una mezcla lisa.",
+   "Refrigera 1 hora y forma 8 bolitas.",
+   "Pásalas por cacao en polvo y refrigera antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_natilla_ligera_canela",
+  "name": "Natilla ligera de canela",
+  "servings": 4,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "leche_descremada",
+    "g": 400
+   },
+   {
+    "food": "clara_huevo",
+    "g": 100,
+    "note": "3 claras"
+   },
+   {
+    "food": "maicena",
+    "g": 20
+   },
+   {
+    "food": "azucar",
+    "g": 40
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Calienta la leche con la canela sin que hierva.",
+   "Disuelve la maicena en un poco de leche fría y agrega las claras y el azúcar.",
+   "Incorpora la mezcla a la leche caliente y revuelve sin parar.",
+   "Cocina 5 minutos hasta espesar y sirve en vasos."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_pan_platano_integral",
+  "name": "Pan de plátano integral",
+  "servings": 8,
+  "time_min": 55,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 240,
+    "note": "muy maduro"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 60,
+    "note": "molida"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "harina_integral",
+    "g": 60
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C y engrasa un molde de pan.",
+   "Machaca el plátano y bate con el huevo y la miel.",
+   "Agrega la avena, la harina integral y la canela, y mezcla sin batir de más.",
+   "Hornea 45 minutos, deja enfriar y corta en 8 rebanadas."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_galletas_limon_avena",
+  "name": "Galletas de limón y avena",
+  "servings": 12,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 120
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C y forra una charola.",
+   "Mezcla el huevo con el aceite, la miel, el jugo y la ralladura de limón.",
+   "Agrega la avena y revuelve hasta integrar.",
+   "Forma 12 galletas, aplánalas y hornea 12 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "pos_mug_cake_nuez_canela",
+  "name": "Mug cake de nuez y canela",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 25,
+    "note": "molida"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 10,
+    "note": "picada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50
+   },
+   {
+    "food": "leche_soya",
+    "g": 80
+   },
+   {
+    "food": "miel",
+    "g": 10
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Mezcla la avena molida con la canela en una taza.",
+   "Agrega el huevo, la bebida de soya y la miel, y bate.",
+   "Incorpora la nuez picada.",
+   "Cocina en microondas 2 minutos y deja reposar 1 minuto."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_brownie_cottage_cacao",
+  "name": "Brownie de cottage y cacao",
+  "servings": 8,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 250
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 30
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 30,
+    "note": "molida"
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 15,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C y engrasa un molde cuadrado.",
+   "Licua el cottage con el huevo y la miel.",
+   "Agrega el cacao y la avena, y mezcla con espátula.",
+   "Incorpora el chocolate picado, hornea 30 minutos y enfría."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_pay_limon_ligero",
+  "name": "Pay de limón ligero",
+  "servings": 8,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "limon",
+    "g": 90,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "galletas_avena",
+    "g": 60,
+    "note": "trituradas"
+   },
+   {
+    "food": "miel",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 170 °C y forma la base con las galletas trituradas.",
+   "Bate el yogur con el huevo, el limón y la miel.",
+   "Vierte sobre la base y hornea 30 minutos.",
+   "Refrigera 3 horas antes de cortar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_bombones_tahini_cacao",
+  "name": "Bombones de tahini y cacao",
+  "servings": 10,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tahini",
+    "g": 60
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 20
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "coco_rallado",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Mezcla el tahini con la miel hasta integrar.",
+   "Agrega el cacao y amasa hasta obtener una pasta firme.",
+   "Forma 10 bombones y pásalos por coco rallado.",
+   "Refrigera 30 minutos antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_dulce_camote_nuez",
+  "name": "Dulce de camote con nuez",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 300,
+    "note": "machacado"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Machaca el camote cocido hasta obtener un puré.",
+   "Calienta el puré con la miel y la canela a fuego bajo 10 minutos.",
+   "Agrega la nuez picada y revuelve.",
+   "Sirve tibio o frío."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_camote_horneado_yogur",
+  "name": "Camote horneado con yogur",
+  "servings": 2,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 250,
+    "note": "en mitades"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "miel",
+    "g": 20
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 10,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 190 °C.",
+   "Hornea las mitades de camote 15 minutos para dorar la superficie.",
+   "Abre el camote y rellénalo con el yogur griego.",
+   "Rocía con miel y espolvorea la nuez picada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_platanos_horneados_cacao",
+  "name": "Plátanos horneados con cacao",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 240,
+    "note": "2 piezas con cáscara"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Corta el plátano a lo largo sin separarlo del todo.",
+   "Rellena con la crema de cacahuate y espolvorea cacao.",
+   "Hornea 12 minutos y sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_pina_asada_coco",
+  "name": "Piña asada con coco",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pina",
+    "g": 300,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 12
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Acomoda las rebanadas de piña en una charola y rocía con miel.",
+   "Hornea 12 minutos hasta que doren.",
+   "Espolvorea coco rallado y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_vasitos_yogur_granola",
+  "name": "Vasitos de yogur con granola y arándano",
+  "servings": 3,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "granola",
+    "g": 40
+   },
+   {
+    "food": "arandano",
+    "g": 100
+   },
+   {
+    "food": "miel",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Pon una capa de yogur griego en el fondo de tres vasos.",
+   "Agrega una capa de arándanos y otra de granola.",
+   "Repite las capas y rocía miel encima.",
+   "Sirve de inmediato para que la granola no se ablande."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "pos_brochetas_fruta_yogur",
+  "name": "Brochetas de fruta con yogur",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pina",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "fresa",
+    "g": 150
+   },
+   {
+    "food": "yogur_griego",
+    "g": 150
+   }
+  ],
+  "steps": [
+   "Corta la fruta en cubos del mismo tamaño.",
+   "Ensarta la fruta en palitos de madera alternando colores.",
+   "Acomoda las brochetas en un plato.",
+   "Sirve con el yogur griego para mojar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_bolitas_coco_proteina",
+  "name": "Bolitas de coco y proteína",
+  "servings": 12,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "coco_rallado",
+    "g": 30
+   },
+   {
+    "food": "whey_aislado",
+    "g": 60,
+    "note": "sabor vainilla"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 60,
+    "note": "molida"
+   },
+   {
+    "food": "miel",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Mezcla la avena molida con el whey y el coco rallado.",
+   "Agrega la miel poco a poco hasta formar una masa.",
+   "Forma 12 bolitas.",
+   "Refrigera 30 minutos antes de comer."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "pos_rollitos_platano_cacahuate",
+  "name": "Rollitos de plátano y cacahuate",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_harina",
+    "g": 60,
+    "note": "2 piezas"
+   },
+   {
+    "food": "platano",
+    "g": 100,
+    "note": "maduro, en tiras"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 20
+   },
+   {
+    "food": "miel",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Calienta las tortillas de harina en un comal medio minuto.",
+   "Unta la crema de cacahuate y rocía con un poco de miel.",
+   "Coloca el plátano en tiras sobre la tortilla y enrolla.",
+   "Corta en trozos y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_quesadillas_dulces_cajeta",
+  "name": "Quesadillas dulces de cajeta y pera",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "2 piezas"
+   },
+   {
+    "food": "cajeta",
+    "g": 30
+   },
+   {
+    "food": "pera",
+    "g": 100,
+    "note": "en láminas"
+   }
+  ],
+  "steps": [
+   "Unta cajeta en una mitad de cada tortilla.",
+   "Acomoda las láminas de pera encima y dobla.",
+   "Dora cada quesadilla en un comal sin aceite, 2 minutos por lado.",
+   "Corta en triángulos y sirve tibias."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_pastel_elote_ligero",
+  "name": "Pastel de elote ligero",
+  "servings": 6,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "elote_cocido",
+    "g": 200,
+    "note": "desgranado"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 piezas"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 100
+   },
+   {
+    "food": "miel",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 170 °C y engrasa un molde pequeño.",
+   "Licua el elote con los huevos, la leche y la miel.",
+   "Vierte en el molde y hornea 40 minutos.",
+   "Deja enfriar 10 minutos antes de desmoldar."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_crema_ricotta_fresas",
+  "name": "Crema de ricotta con fresas",
+  "servings": 3,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_ricotta",
+    "g": 200
+   },
+   {
+    "food": "fresa",
+    "g": 200,
+    "note": "picada"
+   },
+   {
+    "food": "miel",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Bate la ricotta con la miel hasta que quede cremosa.",
+   "Pica las fresas y reserva algunas para decorar.",
+   "Acomoda la ricotta en vasos y cubre con fresas.",
+   "Sirve fría."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "pos_vasos_tiramisu_ligero",
+  "name": "Vasos de tiramisú ligero",
+  "servings": 3,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "galletas_maria",
+    "g": 60,
+    "note": "partidas"
+   },
+   {
+    "food": "cafe_negro",
+    "g": 60,
+    "note": "frío"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 15
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Mezcla el yogur griego con la miel hasta suavizar.",
+   "Moja las galletas en el café frío y coloca una capa en cada vaso.",
+   "Cubre con una capa de yogur y espolvorea cacao.",
+   "Repite las capas, termina con cacao y refrigera 2 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_paletas_yogur_cacao",
+  "name": "Paletas de yogur y cacao",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "platano",
+    "g": 100,
+    "note": "maduro"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Licua el plátano con el yogur griego.",
+   "Agrega el cacao y licua hasta integrar.",
+   "Vierte en moldes para paleta.",
+   "Congela 6 horas antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_helado_yogur_fresa",
+  "name": "Helado de yogur griego y fresa",
+  "servings": 4,
+  "time_min": 15,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 400
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "fresa",
+    "g": 100,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Mezcla el yogur griego con la miel hasta integrar.",
+   "Incorpora la fresa picada.",
+   "Vierte en un recipiente y congela 1 hora.",
+   "Bate con tenedor a la mitad del congelado y vuelve a congelar 2 horas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_gelatina_leche_cacao",
+  "name": "Gelatina de leche y cacao",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "leche_descremada",
+    "g": 400
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 15
+   },
+   {
+    "food": "grenetina",
+    "g": 7,
+    "note": "1 sobre"
+   },
+   {
+    "food": "miel",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Hidrata la grenetina en 50 ml de leche fría.",
+   "Calienta el resto de la leche con el cacao y la miel.",
+   "Retira del fuego, incorpora la grenetina y revuelve.",
+   "Vierte en vasos y refrigera 3 horas."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "pos_gelatina_jamaica",
+  "name": "Gelatina de jamaica con grenetina",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "agua_jamaica",
+    "g": 400,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "grenetina",
+    "g": 7,
+    "note": "1 sobre"
+   },
+   {
+    "food": "miel",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Hidrata la grenetina con 50 ml del agua de jamaica fría.",
+   "Calienta el resto del agua y disuelve la grenetina.",
+   "Agrega la miel y revuelve hasta disolver.",
+   "Vierte en moldes y refrigera 3 horas."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "pos_mousse_tofu_chocolate",
+  "name": "Mousse de tofu y chocolate",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_suave",
+    "g": 300
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 40,
+    "note": "derretido"
+   },
+   {
+    "food": "miel",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Escurre el tofu y licúalo hasta quedar muy liso.",
+   "Derrite el chocolate y agrégalo al tofu con la miel.",
+   "Licua de nuevo hasta que no queden grumos.",
+   "Refrigera 1 hora y sirve en vasitos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_bizcocho_yogur_limon",
+  "name": "Bizcocho de yogur y limón",
+  "servings": 8,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 piezas"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 100,
+    "note": "molida"
+   },
+   {
+    "food": "miel",
+    "g": 60
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo y ralladura"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 175 °C y engrasa un molde pequeño.",
+   "Bate el huevo con el yogur, la miel, el limón y su ralladura.",
+   "Agrega la avena molida y mezcla hasta integrar.",
+   "Hornea 35 minutos, enfría y corta en 8 porciones."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "pos_pudin_yogur_chia_platano",
+  "name": "Pudín de yogur, chía y plátano",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 250
+   },
+   {
+    "food": "chia",
+    "g": 24
+   },
+   {
+    "food": "platano",
+    "g": 100,
+    "note": "en rodajas"
+   },
+   {
+    "food": "miel",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Mezcla el yogur griego con la miel.",
+   "Incorpora la chía y reposa 10 minutos.",
+   "Revuelve y agrega la mitad del plátano machacado.",
+   "Sirve con las rodajas de plátano restantes encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ }
+]

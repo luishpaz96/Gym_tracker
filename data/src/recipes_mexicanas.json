@@ -2988,7 +2988,7 @@
     "note": "deshebrada"
    },
    {
-    "food": "elote_cocido",
+    "food": "maiz_pozolero_cocido",
     "g": 300,
     "note": "en granos"
    },
@@ -3060,7 +3060,7 @@
     "note": "deshebrada"
    },
    {
-    "food": "elote_cocido",
+    "food": "maiz_pozolero_cocido",
     "g": 300,
     "note": "en granos"
    },
@@ -3138,7 +3138,7 @@
     "note": "en cubos"
    },
    {
-    "food": "elote_cocido",
+    "food": "maiz_pozolero_cocido",
     "g": 300,
     "note": "en granos"
    },
@@ -3200,7 +3200,7 @@
     "note": "en trozos"
    },
    {
-    "food": "elote_cocido",
+    "food": "maiz_pozolero_cocido",
     "g": 300,
     "note": "en granos"
    },

@@ -1,4484 +1,4484 @@
 [
-  {
-    "id": "des_huevos_a_la_mexicana",
-    "name": "Huevos a la mexicana",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200,
-        "note": "4 pzas batidas"
-      },
-      {
-        "food": "jitomate",
-        "g": 240,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 60,
-        "note": "picada"
-      },
-      {
-        "food": "chile_serrano",
-        "g": 12,
-        "note": "picado"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 14
-      },
-      {
-        "food": "cilantro",
-        "g": 8,
-        "note": "picado"
-      },
-      {
-        "food": "sal",
-        "g": 2
-      }
-    ],
-    "steps": [
-      "Pica el jitomate, la cebolla y el chile serrano.",
-      "Calienta el aceite a fuego medio y sofríe la cebolla con el chile 2 minutos.",
-      "Agrega el jitomate y cocina 4 minutos hasta que espese.",
-      "Bate los huevos con sal, viértelos en el sartén y revuelve hasta que cuajen.",
-      "Sirve con cilantro picado."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_huevos_rancheros",
-    "name": "Huevos rancheros",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 60,
-        "note": "2 pzas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100,
-        "note": "2 pzas"
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 100
-      },
-      {
-        "food": "queso_fresco",
-        "g": 40,
-        "note": "desmoronado"
-      },
-      {
-        "food": "jitomate",
-        "g": 150,
-        "note": "para salsa ranchera"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "chile_jalapeno",
-        "g": 14,
-        "note": "sin venas"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 20
-      }
-    ],
-    "steps": [
-      "Fríe las tortillas en aceite caliente hasta dorarlas y escúrrelas.",
-      "Licúa el jitomate con la mitad de la cebolla y el chile, luego cocina la salsa 5 minutos en sartén.",
-      "Calienta los frijoles refritos y unta una capa sobre cada tortilla.",
-      "Fríe los huevos y colócalos encima de los frijoles.",
-      "Cubre con salsa ranchera y queso fresco."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_huevos_revueltos_espinaca",
-    "name": "Huevos revueltos con espinaca",
-    "servings": 2,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "espinaca",
-        "g": 60
-      },
-      {
-        "food": "jitomate",
-        "g": 100,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40,
-        "note": "picada"
-      },
-      {
-        "food": "queso_panela",
-        "g": 30,
-        "note": "desmoronado"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 14
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla en el aceite a fuego medio 2 minutos.",
-      "Agrega el jitomate y la espinaca, cocina hasta que la espinaca marchite.",
-      "Vierte los huevos batidos y revuelve suavemente.",
-      "Retira del fuego en cuanto estén cuajados y espolvorea el queso."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_huevos_revueltos_nopal",
-    "name": "Huevos revueltos con nopal",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "nopal",
-        "g": 100,
-        "note": "cocido y picado"
-      },
-      {
-        "food": "jitomate",
-        "g": 100,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40,
-        "note": "picada"
-      },
-      {
-        "food": "chile_serrano",
-        "g": 6,
-        "note": "picado"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 14
-      },
-      {
-        "food": "sal",
-        "g": 2
-      }
-    ],
-    "steps": [
-      "Calienta el aceite y sofríe la cebolla con el chile.",
-      "Agrega el nopal y el jitomate, cocina 4 minutos.",
-      "Incorpora los huevos batidos con sal y revuelve hasta cuajar."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_huevos_revueltos_jamon_pavo",
-    "name": "Huevos revueltos con jamón de pavo",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150,
-        "note": "3 pzas"
-      },
-      {
-        "food": "jamon_pavo",
-        "g": 60,
-        "note": "en tiras"
-      },
-      {
-        "food": "pimiento_morron",
-        "g": 60,
-        "note": "en cubitos"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30,
-        "note": "picada"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y el pimiento en el aceite 3 minutos.",
-      "Agrega el jamón y cocina 1 minuto más.",
-      "Vierte los huevos batidos y revuelve hasta que cuajen."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_huevos_con_chorizo_papa",
-    "name": "Huevos con chorizo y papa",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "chorizo_cerdo",
-        "g": 60,
-        "note": "sin tripa"
-      },
-      {
-        "food": "papa_cocida",
-        "g": 150,
-        "note": "en cubos"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40,
-        "note": "picada"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Dora las papas en el aceite a fuego medio unos 8 minutos.",
-      "Agrega el chorizo y la cebolla, cocina 5 minutos más.",
-      "Baja el fuego, vierte los huevos batidos y revuelve hasta cuajar."
-    ],
-    "tags": [
-      "sin gluten",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_huevos_al_albanil",
-    "name": "Huevos al albañil",
-    "servings": 2,
-    "time_min": 20,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "jitomate",
-        "g": 150,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40,
-        "note": "picada"
-      },
-      {
-        "food": "chile_poblano",
-        "g": 60,
-        "note": "en rajas"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 14
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y el poblano en el aceite 4 minutos.",
-      "Agrega el jitomate y cocina hasta que suelte su jugo.",
-      "Incorpora los huevos batidos y revuelve hasta que cuajen."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_huevos_en_salsa_verde",
-    "name": "Huevos en salsa verde",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200,
-        "note": "4 pzas"
-      },
-      {
-        "food": "tomate_verde",
-        "g": 200,
-        "note": "limpios"
-      },
-      {
-        "food": "chile_serrano",
-        "g": 12
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40,
-        "note": "en cuarto"
-      },
-      {
-        "food": "ajo",
-        "g": 3
-      },
-      {
-        "food": "cilantro",
-        "g": 8
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      },
-      {
-        "food": "tortilla_maiz",
-        "g": 60,
-        "note": "para acompañar"
-      }
-    ],
-    "steps": [
-      "Hierve los tomates verdes, el chile, la cebolla y el ajo 8 minutos.",
-      "Licúa con el cilantro y un poco del agua de cocción.",
-      "Fríe la salsa en aceite 4 minutos a fuego medio.",
-      "Agrega los huevos enteros, tapa y cocina 5 minutos.",
-      "Sirve con las tortillas calientes."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_huevos_divorciados",
-    "name": "Huevos divorciados",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 100,
-        "note": "2 pzas"
-      },
-      {
-        "food": "tortilla_maiz",
-        "g": 60,
-        "note": "2 pzas"
-      },
-      {
-        "food": "jitomate",
-        "g": 120,
-        "note": "para salsa roja"
-      },
-      {
-        "food": "tomate_verde",
-        "g": 100,
-        "note": "para salsa verde"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40
-      },
-      {
-        "food": "chile_serrano",
-        "g": 6
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 60
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 14
-      }
-    ],
-    "steps": [
-      "Prepara una salsa roja con jitomate, cebolla y chile, y otra verde con tomate verde.",
-      "Fríe las tortillas y cúbrelas con frijoles refritos.",
-      "Fríe los huevos y colócalos sobre las tortillas.",
-      "Sirve con mitad de salsa roja y mitad de salsa verde."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_huevos_a_la_florentina",
-    "name": "Huevos a la florentina",
-    "servings": 2,
-    "time_min": 20,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200,
-        "note": "4 pzas escalfadas"
-      },
-      {
-        "food": "espinaca",
-        "g": 150
-      },
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas tostadas"
-      },
-      {
-        "food": "queso_parmesano",
-        "g": 10,
-        "note": "rallado"
-      },
-      {
-        "food": "mantequilla",
-        "g": 14
-      },
-      {
-        "food": "ajo",
-        "g": 3,
-        "note": "picado"
-      }
-    ],
-    "steps": [
-      "Derrite la mantequilla con el ajo y saltea la espinaca 2 minutos.",
-      "Escalfa los huevos en agua apenas hirviendo 3 minutos.",
-      "Tuesta el pan y cúbrelo con la espinaca.",
-      "Coloca el huevo encima y espolvorea parmesano."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_huevos_revueltos_champinones",
-    "name": "Huevos revueltos con champiñones",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "champinon",
-        "g": 100,
-        "note": "en laminas"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30,
-        "note": "picada"
-      },
-      {
-        "food": "mantequilla",
-        "g": 7
-      },
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "perejil",
-        "g": 4,
-        "note": "picado"
-      }
-    ],
-    "steps": [
-      "Derrite la mantequilla y sofríe la cebolla 2 minutos.",
-      "Agrega los champiñones y cocina hasta que suelten el agua.",
-      "Vierte los huevos batidos y revuelve hasta cuajar.",
-      "Sirve con pan tostado y perejil."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_huevos_horneados_espinaca",
-    "name": "Huevos horneados con espinaca y jitomate",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "espinaca",
-        "g": 100
-      },
-      {
-        "food": "jitomate",
-        "g": 120,
-        "note": "en rodajas"
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 30,
-        "note": "en hebra"
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 30,
-        "note": "picada"
-      },
-      {
-        "food": "aceite_oliva",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Precalienta el horno a 180 °C y engrasa dos ramequines con aceite.",
-      "Acomoda la espinaca, el jitomate y la cebolla en cada ramequín.",
-      "Rompe dos huevos encima de cada uno y cubre con queso.",
-      "Hornea 12 a 14 minutos hasta que la clara cuaje."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_huevos_con_frijoles_queso",
-    "name": "Huevos con frijoles de la olla y queso fresco",
-    "servings": 2,
-    "time_min": 20,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "frijol_negro_cocido",
-        "g": 200,
-        "note": "con poco caldo"
-      },
-      {
-        "food": "queso_fresco",
-        "g": 40
-      },
-      {
-        "food": "tortilla_maiz",
-        "g": 60
-      },
-      {
-        "food": "jitomate",
-        "g": 100,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "cilantro",
-        "g": 4
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Calienta los frijoles en un cazo con un poco de agua.",
-      "Sofríe el jitomate con la cebolla en aceite 4 minutos.",
-      "Fríe los huevos en un sartén aparte.",
-      "Sirve los huevos sobre los frijoles con tortillas, queso y cilantro."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_huevos_motuleños",
-    "name": "Huevos motuleños",
-    "servings": 2,
-    "time_min": 30,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 60,
-        "note": "2 pzas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100,
-        "note": "2 pzas"
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 120
-      },
-      {
-        "food": "jamon_cerdo",
-        "g": 40,
-        "note": "en cubos"
-      },
-      {
-        "food": "queso_chihuahua",
-        "g": 30,
-        "note": "rallado"
-      },
-      {
-        "food": "jitomate",
-        "g": 120,
-        "note": "para salsa"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 14
-      }
-    ],
-    "steps": [
-      "Fríe las tortillas hasta dorarlas y cúbrelas con frijol refrito caliente.",
-      "Saltea el jamón en aceite y ponlo sobre el frijol.",
-      "Prepara una salsa picada de jitomate y cebolla, y úsala para cubrir.",
-      "Fríe los huevos y colócalos encima; termina con queso rallado."
-    ],
-    "tags": [
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_huevos_revueltos_calabacita_epazote",
-    "name": "Huevos revueltos con calabacita y epazote",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "calabacita",
-        "g": 150,
-        "note": "en cubitos"
-      },
-      {
-        "food": "epazote",
-        "g": 6,
-        "note": "3 ramitas"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "jitomate",
-        "g": 100
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y la calabacita en aceite 5 minutos.",
-      "Agrega el jitomate picado y el epazote.",
-      "Vierte los huevos batidos y revuelve hasta cuajar."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_huevos_tibios_aguacate",
-    "name": "Huevos tibios con aguacate",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_cocido",
-        "g": 100,
-        "note": "2 pzas"
-      },
-      {
-        "food": "aguacate",
-        "g": 75,
-        "note": "media pieza"
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 15
-      },
-      {
-        "food": "limon",
-        "g": 30,
-        "note": "jugo"
-      },
-      {
-        "food": "cilantro",
-        "g": 4
-      },
-      {
-        "food": "sal",
-        "g": 1
-      }
-    ],
-    "steps": [
-      "Pela los huevos cocidos y pártelos en mitades.",
-      "Machaca el aguacate con limón y sal.",
-      "Mezcla jitomate, cebolla y cilantro picados.",
-      "Sirve los huevos con el aguacate y la salsa encima."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_huevos_revueltos_queso_oaxaca",
-    "name": "Huevos revueltos con queso Oaxaca",
-    "servings": 2,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 60,
-        "note": "en hebra"
-      },
-      {
-        "food": "jitomate",
-        "g": 100,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30,
-        "note": "picada"
-      },
-      {
-        "food": "cilantro",
-        "g": 4
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      },
-      {
-        "food": "tortilla_maiz",
-        "g": 60
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y el jitomate en aceite 3 minutos.",
-      "Agrega los huevos batidos y revuelve a fuego bajo.",
-      "Cuando estén casi cuajados, incorpora el queso y el cilantro.",
-      "Sirve con tortillas calientes."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_huevos_con_tocino_tortilla",
-    "name": "Huevos con tocino y tortilla dorada",
-    "servings": 1,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 100,
-        "note": "2 pzas"
-      },
-      {
-        "food": "tocino",
-        "g": 24,
-        "note": "3 rebanadas"
-      },
-      {
-        "food": "tortilla_maiz",
-        "g": 30,
-        "note": "1 pza"
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "en rodajas"
-      }
-    ],
-    "steps": [
-      "Fríe el tocino hasta que esté crujiente y resérvalo.",
-      "En la misma grasa, dora la tortilla y reserva.",
-      "Fríe los huevos en la grasa restante.",
-      "Sirve con el tocino, la tortilla y el jitomate."
-    ],
-    "tags": [
-      "sin gluten",
-      "sin lácteos",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_huevos_revueltos_pollo_espinaca",
-    "name": "Huevos revueltos con pollo y espinaca",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "pechuga_pollo_cocida",
-        "g": 120,
-        "note": "deshebrada"
-      },
-      {
-        "food": "espinaca",
-        "g": 60
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      },
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla en aceite 2 minutos.",
-      "Agrega el pollo y la espinaca, cocina 2 minutos.",
-      "Vierte los huevos batidos y revuelve hasta cuajar.",
-      "Sirve con pan integral tostado."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_omelette_claras_espinaca",
-    "name": "Omelette de claras y espinaca",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "clara_huevo",
-        "g": 200,
-        "note": "6 claras"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 50,
-        "note": "1 pza"
-      },
-      {
-        "food": "espinaca",
-        "g": 60
-      },
-      {
-        "food": "queso_panela",
-        "g": 30
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y la espinaca en aceite 2 minutos.",
-      "Bate las claras con el huevo entero y viértelas en el sartén antiadherente.",
-      "Cuando cuajen los bordes, pon la espinaca y el queso de un lado.",
-      "Dobla a la mitad y sirve."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten",
-      "vegetariana"
-    ]
-  },
-  {
-    "id": "des_omelette_jamon_queso",
-    "name": "Omelette de jamón y queso",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150,
-        "note": "3 pzas"
-      },
-      {
-        "food": "jamon_cerdo",
-        "g": 50,
-        "note": "en cubos"
-      },
-      {
-        "food": "queso_chihuahua",
-        "g": 30,
-        "note": "rallado"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Bate los huevos con una pizca de sal.",
-      "Calienta el aceite y vierte los huevos.",
-      "Agrega el jamón y el queso sobre una mitad.",
-      "Dobla la omelette y sirve cuando el queso funda."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_omelette_champinones_cebolla",
-    "name": "Omelette de champiñones y cebolla",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "champinon",
-        "g": 80,
-        "note": "en rebanadas"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30,
-        "note": "en juliana"
-      },
-      {
-        "food": "mantequilla",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe los champiñones con la cebolla en mantequilla hasta dorar.",
-      "Bate los huevos y viértelos en el sartén.",
-      "Cuando cuajen los bordes, pon el relleno sobre una mitad.",
-      "Dobla y sirve."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_omelette_nopal_queso_fresco",
-    "name": "Omelette de nopal y queso fresco",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "nopal",
-        "g": 80,
-        "note": "cocido y picado"
-      },
-      {
-        "food": "queso_fresco",
-        "g": 30
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "picado"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Saltea el nopal con el jitomate en aceite 3 minutos.",
-      "Vierte los huevos batidos y deja cuajar la base.",
-      "Coloca el nopal y el queso fresco sobre una mitad.",
-      "Dobla y sirve de inmediato."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_omelette_pavo_jitomate",
-    "name": "Omelette de pavo y jitomate",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "jamon_pavo",
-        "g": 50,
-        "note": "en tiras"
-      },
-      {
-        "food": "jitomate",
-        "g": 80,
-        "note": "en cubos"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y el jitomate 2 minutos.",
-      "Agrega el jamón de pavo y cocina 1 minuto.",
-      "Vierte los huevos batidos y cocina hasta cuajar.",
-      "Dobla y sirve."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_huevos_horneados_rajas_poblano",
-    "name": "Huevos horneados con rajas de poblano",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "chile_poblano",
-        "g": 120,
-        "note": "en rajas"
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 40,
-        "note": "en hebra"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30,
-        "note": "en juliana"
-      },
-      {
-        "food": "crema_mexicana",
-        "g": 30
-      },
-      {
-        "food": "tortilla_maiz",
-        "g": 60,
-        "note": "para acompañar"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Precalienta el horno a 180 °C y engrasa dos ramequines.",
-      "Sofríe la cebolla y las rajas de poblano 4 minutos y pon una capa en cada ramequín.",
-      "Rompe dos huevos encima, agrega la crema y el queso.",
-      "Hornea 12 minutos y sirve con tortillas."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_omelette_rajas_poblano",
-    "name": "Omelette de rajas de poblano",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "chile_poblano",
-        "g": 100,
-        "note": "en rajas"
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 30,
-        "note": "en hebra"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y las rajas de poblano en aceite 4 minutos.",
-      "Vierte los huevos batidos y deja cuajar la base.",
-      "Coloca el relleno y el queso sobre una mitad.",
-      "Dobla la omelette y sirve."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_omelette_salmon_queso_crema",
-    "name": "Omelette de salmón ahumado y queso crema",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "salmon_ahumado",
-        "g": 40,
-        "note": "en tiras"
-      },
-      {
-        "food": "queso_crema",
-        "g": 20
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 15,
-        "note": "en rodajas finas"
-      },
-      {
-        "food": "aceitunas",
-        "g": 20,
-        "note": "picadas"
-      },
-      {
-        "food": "mantequilla",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Derrite la mantequilla y vierte los huevos batidos.",
-      "Cuando cuajen los bordes, extiende el queso crema sobre una mitad.",
-      "Acomoda el salmón, la cebolla y las aceitunas.",
-      "Dobla y sirve templada."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_omelette_calabacita_panela",
-    "name": "Omelette de calabacita y queso panela",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "calabacita",
-        "g": 80,
-        "note": "en cubitos"
-      },
-      {
-        "food": "queso_panela",
-        "g": 40,
-        "note": "en cubos"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la calabacita con la cebolla en aceite 4 minutos.",
-      "Vierte los huevos batidos sobre el sartén.",
-      "Coloca el queso y el relleno en una mitad al cuajar.",
-      "Dobla y sirve."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_omelette_atun_cebolla_morada",
-    "name": "Omelette de atún con cebolla morada",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "atun_agua",
-        "g": 60,
-        "note": "escurrido"
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 30,
-        "note": "picada"
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "picado"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla morada en aceite 2 minutos.",
-      "Agrega el atún y el jitomate, cocina 1 minuto.",
-      "Vierte los huevos batidos y cocina hasta cuajar.",
-      "Dobla y sirve."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten",
-      "sin lácteos",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_omelette_chorizo_papa",
-    "name": "Omelette de chorizo y papa",
-    "servings": 1,
-    "time_min": 18,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "chorizo_cerdo",
-        "g": 40,
-        "note": "sin tripa"
-      },
-      {
-        "food": "papa_cocida",
-        "g": 100,
-        "note": "en cubos"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Dora la papa y el chorizo en aceite 6 minutos.",
-      "Agrega la cebolla y cocina 2 minutos más.",
-      "Vierte los huevos batidos sobre el relleno y tapa 3 minutos.",
-      "Dobla y sirve."
-    ],
-    "tags": [
-      "sin gluten",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_chilaquiles_verdes_pollo",
-    "name": "Chilaquiles verdes ligeros con pollo",
-    "servings": 2,
-    "time_min": 30,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 120,
-        "note": "4 pzas en triángulos"
-      },
-      {
-        "food": "tomate_verde",
-        "g": 200
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40
-      },
-      {
-        "food": "chile_serrano",
-        "g": 12
-      },
-      {
-        "food": "cilantro",
-        "g": 8
-      },
-      {
-        "food": "pechuga_pollo_cocida",
-        "g": 150,
-        "note": "deshebrada"
-      },
-      {
-        "food": "queso_fresco",
-        "g": 40
-      },
-      {
-        "food": "crema_mexicana",
-        "g": 30
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Hornea las tortillas en triángulos a 180 °C 10 minutos hasta que estén crujientes.",
-      "Cuece el tomate verde, la cebolla y el chile 8 minutos y licúa con cilantro.",
-      "Fríe la salsa en aceite 4 minutos y agrega el pollo.",
-      "Mezcla los totopos con la salsa justo antes de servir.",
-      "Sirve con queso fresco y un poco de crema."
-    ],
-    "tags": [
-      "alta en proteína",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_chilaquiles_rojos_huevo",
-    "name": "Chilaquiles rojos ligeros con huevo",
-    "servings": 2,
-    "time_min": 30,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 120,
-        "note": "4 pzas en triángulos"
-      },
-      {
-        "food": "jitomate",
-        "g": 300
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40
-      },
-      {
-        "food": "chile_guajillo",
-        "g": 12,
-        "note": "2 pzas desvenadas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100,
-        "note": "2 pzas"
-      },
-      {
-        "food": "queso_fresco",
-        "g": 40
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 20
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Hornea las tortillas en triángulos 10 minutos hasta que estén crujientes.",
-      "Hierve el jitomate, la cebolla y los chiles guajillo 10 minutos y licúa.",
-      "Fríe la salsa 5 minutos en aceite y mezcla con los totopos.",
-      "Sirve con huevo estrellado, queso y cebolla morada."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_chilaquiles_nopal_queso",
-    "name": "Chilaquiles de nopal con queso fresco",
-    "servings": 2,
-    "time_min": 28,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 120
-      },
-      {
-        "food": "nopal",
-        "g": 150,
-        "note": "cocido en cubos"
-      },
-      {
-        "food": "tomate_verde",
-        "g": 150
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 40,
-        "note": "en hebra"
-      },
-      {
-        "food": "cilantro",
-        "g": 8
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Hornea las tortillas en triángulos hasta que estén crujientes.",
-      "Licúa el tomate verde cocido con la cebolla y el cilantro.",
-      "Fríe la salsa en aceite y agrega el nopal 3 minutos.",
-      "Mezcla con los totopos y cubre con queso Oaxaca."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_chilaquiles_horno_pollo_chipotle",
-    "name": "Chilaquiles al horno con pollo y chipotle",
-    "servings": 2,
-    "time_min": 35,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 120
-      },
-      {
-        "food": "pechuga_pollo_cocida",
-        "g": 150,
-        "note": "deshebrada"
-      },
-      {
-        "food": "jitomate",
-        "g": 250
-      },
-      {
-        "food": "chipotle_adobo",
-        "g": 20,
-        "note": "1 chile con adobo"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "queso_panela",
-        "g": 40
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Licúa el jitomate con el chipotle y la cebolla, y cocina la salsa 6 minutos.",
-      "Corta las tortillas en tiras y hornéalas 8 minutos a 180 °C.",
-      "Mezcla los totopos, el pollo y la salsa en un refractario.",
-      "Cubre con queso panela y hornea 8 minutos más."
-    ],
-    "tags": [
-      "alta en proteína",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_chilaquiles_frijol_huevo",
-    "name": "Chilaquiles de frijol negro con huevo",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 120
-      },
-      {
-        "food": "frijol_negro_cocido",
-        "g": 150,
-        "note": "licuado con poco caldo"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "jitomate",
-        "g": 200
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "queso_fresco",
-        "g": 30
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Hornea las tortillas en triángulos hasta que estén crujientes.",
-      "Licúa el frijol y caliéntalo en un sartén con aceite.",
-      "Prepara una salsa de jitomate y cebolla, cocínala 5 minutos.",
-      "Mezcla los totopos con la salsa, sirve con frijol, huevo estrellado y queso."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_chilaquiles_calabacita_oaxaca",
-    "name": "Chilaquiles de calabacita y queso Oaxaca",
-    "servings": 2,
-    "time_min": 28,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 120
-      },
-      {
-        "food": "calabacita",
-        "g": 150,
-        "note": "en cubitos"
-      },
-      {
-        "food": "jitomate",
-        "g": 200
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 50,
-        "note": "en hebra"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Hornea las tortillas en triángulos hasta dorar.",
-      "Sofríe la cebolla y la calabacita en aceite 5 minutos.",
-      "Agrega el jitomate licuado y cocina 6 minutos.",
-      "Mezcla con los totopos y cubre con queso Oaxaca."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_mollete_frijol_queso",
-    "name": "Molletes de frijol con queso",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "bolillo",
-        "g": 120,
-        "note": "2 pzas partidas a la mitad"
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 150
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 60,
-        "note": "en hebra"
-      },
-      {
-        "food": "jitomate",
-        "g": 120,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20,
-        "note": "picada"
-      },
-      {
-        "food": "chile_serrano",
-        "g": 6,
-        "note": "picado"
-      },
-      {
-        "food": "cilantro",
-        "g": 4
-      }
-    ],
-    "steps": [
-      "Abre los bolillos y tuéstalos ligeramente.",
-      "Unta frijol refrito en cada mitad y cubre con queso.",
-      "Hornea o tuesta hasta que el queso funda.",
-      "Mezcla jitomate, cebolla, chile y cilantro y sirve encima."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_mollete_integral_pico_gallo",
-    "name": "Molletes integrales con pico de gallo",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "frijol_negro_cocido",
-        "g": 100,
-        "note": "machacado"
-      },
-      {
-        "food": "queso_chihuahua",
-        "g": 40,
-        "note": "rallado"
-      },
-      {
-        "food": "jitomate",
-        "g": 120,
-        "note": "en cubitos"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "cilantro",
-        "g": 4
-      },
-      {
-        "food": "chile_jalapeno",
-        "g": 7,
-        "note": "picado"
-      }
-    ],
-    "steps": [
-      "Tuesta las rebanadas de pan integral.",
-      "Unta el frijol machacado sobre cada rebanada.",
-      "Cubre con queso y gratina 3 minutos.",
-      "Prepara el pico de gallo con jitomate, cebolla, chile y cilantro, y sirve encima."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_mollete_pollo_deshebrado",
-    "name": "Molletes de pollo deshebrado",
-    "servings": 2,
-    "time_min": 18,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "bolillo",
-        "g": 120,
-        "note": "2 pzas"
-      },
-      {
-        "food": "pechuga_pollo_cocida",
-        "g": 120,
-        "note": "deshebrada"
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 100
-      },
-      {
-        "food": "queso_chihuahua",
-        "g": 30,
-        "note": "rallado"
-      },
-      {
-        "food": "jitomate",
-        "g": 80,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20,
-        "note": "picada"
-      }
-    ],
-    "steps": [
-      "Abre los bolillos y tuéstalos ligeramente.",
-      "Unta frijol refrito y coloca el pollo deshebrado.",
-      "Cubre con queso y gratina hasta que funda.",
-      "Sirve con jitomate y cebolla picados."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_mollete_atun_queso",
-    "name": "Molletes de atún con queso Oaxaca",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "bolillo",
-        "g": 120,
-        "note": "2 pzas"
-      },
-      {
-        "food": "atun_agua",
-        "g": 100,
-        "note": "escurrido"
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 60,
-        "note": "en hebra"
-      },
-      {
-        "food": "jitomate",
-        "g": 80,
-        "note": "en rodajas"
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 20,
-        "note": "picada"
-      },
-      {
-        "food": "mayonesa",
-        "g": 13,
-        "note": "1 cucharada"
-      }
-    ],
-    "steps": [
-      "Mezcla el atún con la mayonesa y la cebolla morada.",
-      "Abre los bolillos y unta la mezcla sobre cada mitad.",
-      "Cubre con queso y jitomate en rodajas.",
-      "Gratina 4 minutos hasta que el queso esté dorado."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_mollete_aguacate_frijol",
-    "name": "Molletes de frijol y aguacate",
-    "servings": 2,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "bolillo",
-        "g": 120,
-        "note": "2 pzas"
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 100
-      },
-      {
-        "food": "aguacate",
-        "g": 75,
-        "note": "media pieza"
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 15,
-        "note": "picada"
-      },
-      {
-        "food": "limon",
-        "g": 15,
-        "note": "jugo"
-      }
-    ],
-    "steps": [
-      "Tuesta los bolillos abiertos hasta dorar.",
-      "Unta el frijol refrito caliente en cada mitad.",
-      "Machaca el aguacate con limón y cúbrelo sobre el frijol.",
-      "Termina con jitomate y cebolla picados."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin lácteos",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_burrito_desayuno_huevo_frijol",
-    "name": "Burrito de desayuno de huevo y frijol",
-    "servings": 2,
-    "time_min": 20,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tortilla_harina",
-        "g": 120,
-        "note": "4 pzas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 200,
-        "note": "4 pzas"
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 150
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 60,
-        "note": "en hebra"
-      },
-      {
-        "food": "jitomate",
-        "g": 120,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "chile_serrano",
-        "g": 6
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y el chile, agrega el jitomate 3 minutos.",
-      "Revuelve los huevos con el jitomate hasta cuajar.",
-      "Calienta las tortillas y unta frijol refrito en cada una.",
-      "Rellena con huevo y queso, enrolla y dora 1 minuto en sartén."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida",
-      "económica",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_burrito_desayuno_chorizo_papa",
-    "name": "Burrito de desayuno de chorizo y papa",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_harina",
-        "g": 120,
-        "note": "4 pzas"
-      },
-      {
-        "food": "chorizo_cerdo",
-        "g": 60,
-        "note": "sin tripa"
-      },
-      {
-        "food": "papa_cocida",
-        "g": 150,
-        "note": "en cubos"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 40,
-        "note": "en hebra"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Dora las papas en aceite 6 minutos, agrega chorizo y cebolla.",
-      "Incorpora los huevos batidos y revuelve hasta cuajar.",
-      "Rellena las tortillas tibias con la mezcla y queso.",
-      "Enrolla y dora en sartén 1 minuto por lado."
-    ],
-    "tags": [
-      "meal prep",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_burrito_desayuno_nopal_queso",
-    "name": "Burrito de desayuno de nopal y queso",
-    "servings": 2,
-    "time_min": 20,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tortilla_harina",
-        "g": 120,
-        "note": "4 pzas"
-      },
-      {
-        "food": "nopal",
-        "g": 150,
-        "note": "cocido en tiras"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 40
-      },
-      {
-        "food": "jitomate",
-        "g": 100,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Saltea el nopal con cebolla y jitomate en aceite 4 minutos.",
-      "Revuelve los huevos con la mezcla hasta cuajar.",
-      "Rellena las tortillas con el guiso y el queso.",
-      "Enrolla y dora en sartén antes de servir."
-    ],
-    "tags": [
-      "vegetariana",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_burrito_desayuno_pollo_espinaca",
-    "name": "Burrito de desayuno de pollo y espinaca",
-    "servings": 2,
-    "time_min": 20,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tortilla_harina",
-        "g": 120,
-        "note": "4 pzas"
-      },
-      {
-        "food": "pechuga_pollo_cocida",
-        "g": 200,
-        "note": "deshebrada"
-      },
-      {
-        "food": "espinaca",
-        "g": 80
-      },
-      {
-        "food": "huevo_entero",
-        "g": 150
-      },
-      {
-        "food": "queso_panela",
-        "g": 40
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla y el pollo en aceite 3 minutos.",
-      "Agrega la espinaca y los huevos batidos, revuelve hasta cuajar.",
-      "Rellena las tortillas con la mezcla y el queso panela.",
-      "Enrolla y dora 1 minuto en sartén."
-    ],
-    "tags": [
-      "alta en proteína",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_burrito_desayuno_res_molida",
-    "name": "Burrito de desayuno de res molida",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_harina",
-        "g": 120,
-        "note": "4 pzas"
-      },
-      {
-        "food": "res_molida_magra",
-        "g": 150
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "jitomate",
-        "g": 100,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30
-      },
-      {
-        "food": "frijol_negro_cocido",
-        "g": 80,
-        "note": "escurrido"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Dora la carne molida con la cebolla en aceite 6 minutos.",
-      "Agrega el jitomate y el frijol, cocina 4 minutos.",
-      "Incorpora los huevos batidos y revuelve.",
-      "Rellena las tortillas, enrolla y sirve."
-    ],
-    "tags": [
-      "alta en proteína",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_hotcakes_avena_platano",
-    "name": "Hotcakes de avena y plátano",
-    "servings": 2,
-    "time_min": 20,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 80,
-        "note": "1 taza, licuada"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "platano",
-        "g": 118,
-        "note": "1 pza madura"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 120
-      },
-      {
-        "food": "canela",
-        "g": 1
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Licúa la avena, el plátano, el huevo, la leche y la canela hasta obtener una mezcla espesa.",
-      "Deja reposar 5 minutos para que la avena hidrate.",
-      "Calienta un sartén con aceite y vierte porciones de masa.",
-      "Cocina 2 minutos por lado hasta dorar."
-    ],
-    "tags": [
-      "vegetariana",
-      "meal prep",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_hotcakes_avena_claras",
-    "name": "Hotcakes de avena con claras",
-    "servings": 2,
-    "time_min": 20,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 80,
-        "note": "licuada"
-      },
-      {
-        "food": "clara_huevo",
-        "g": 200,
-        "note": "6 claras"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 120
-      },
-      {
-        "food": "yogur_griego",
-        "g": 50
-      },
-      {
-        "food": "canela",
-        "g": 1
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Licúa la avena con las claras, la leche y la canela.",
-      "Mezcla el yogur griego en la masa al final, sin batir de más.",
-      "Cocina en sartén antiadherente con poco aceite, 2 minutos por lado."
-    ],
-    "tags": [
-      "alta en proteína",
-      "vegetariana",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_waffles_avena_almendra",
-    "name": "Waffles de avena y almendra",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 80,
-        "note": "licuada"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "leche_almendra",
-        "g": 150
-      },
-      {
-        "food": "almendra",
-        "g": 20,
-        "note": "picada"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Licúa la avena con el huevo y la leche de almendra.",
-      "Incorpora la almendra picada y deja reposar 5 minutos.",
-      "Calienta la wafflera engrasada y vierte la masa.",
-      "Cocina hasta que los waffles estén dorados y crujientes."
-    ],
-    "tags": [
-      "sin lácteos",
-      "vegetariana",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_hotcakes_avena_manzana",
-    "name": "Hotcakes de avena y manzana",
-    "servings": 2,
-    "time_min": 22,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 80,
-        "note": "licuada"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "manzana",
-        "g": 182,
-        "note": "1 pza rallada"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 120
-      },
-      {
-        "food": "canela",
-        "g": 1
-      },
-      {
-        "food": "mantequilla",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Ralla la manzana y mezcla con la avena licuada, el huevo y la leche.",
-      "Agrega la canela y deja reposar 5 minutos.",
-      "Derrite un poco de mantequilla en el sartén y vierte porciones de masa.",
-      "Voltea cuando salgan burbujas y cocina 2 minutos más."
-    ],
-    "tags": [
-      "vegetariana",
-      "económica",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_waffles_avena_proteina",
-    "name": "Waffles de avena con proteína y fresa",
-    "servings": 2,
-    "time_min": 22,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 80,
-        "note": "licuada"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "whey_concentrado",
-        "g": 30,
-        "note": "1 scoop"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 120
-      },
-      {
-        "food": "fresa",
-        "g": 100,
-        "note": "para acompañar"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Licúa la avena, el huevo, el whey y la leche hasta tener una masa lisa.",
-      "Deja reposar 5 minutos.",
-      "Cocina en wafflera engrasada hasta dorar.",
-      "Sirve con fresas en rodajas."
-    ],
-    "tags": [
-      "alta en proteína",
-      "vegetariana",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_hotcakes_camote_avena",
-    "name": "Hotcakes de camote y avena",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "camote_cocido",
-        "g": 150,
-        "note": "machacado"
-      },
-      {
-        "food": "avena_hojuelas",
-        "g": 60,
-        "note": "licuada"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "leche_descremada",
-        "g": 100
-      },
-      {
-        "food": "canela",
-        "g": 1
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Machaca el camote y mézclalo con el huevo y la leche.",
-      "Agrega la avena licuada y la canela, y deja reposar 5 minutos.",
-      "Cocina porciones en sartén con poco aceite, 2 minutos por lado."
-    ],
-    "tags": [
-      "vegetariana",
-      "meal prep",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_avena_nocturna_mango_chia",
-    "name": "Avena nocturna de mango y chía",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 60
-      },
-      {
-        "food": "chia",
-        "g": 12,
-        "note": "1 cucharada"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 200
-      },
-      {
-        "food": "yogur_griego",
-        "g": 100
-      },
-      {
-        "food": "mango",
-        "g": 100,
-        "note": "picado"
-      }
-    ],
-    "steps": [
-      "Mezcla la avena, la chía y la leche en un frasco.",
-      "Tapa y refrigera de un día para otro.",
-      "Al servir, agrega el yogur griego y el mango picado."
-    ],
-    "tags": [
-      "alta en proteína",
-      "meal prep",
-      "vegetariana"
-    ]
-  },
-  {
-    "id": "des_avena_nocturna_platano_cacahuate",
-    "name": "Avena nocturna de plátano y cacahuate",
-    "servings": 1,
-    "time_min": 8,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 60
-      },
-      {
-        "food": "leche_entera",
-        "g": 200
-      },
-      {
-        "food": "platano",
-        "g": 118,
-        "note": "1 pza en rodajas"
-      },
-      {
-        "food": "crema_cacahuate",
-        "g": 16,
-        "note": "1 cucharada"
-      }
-    ],
-    "steps": [
-      "Pon la avena y la leche en un frasco y mezcla.",
-      "Agrega la mitad del plátano en rodajas.",
-      "Refrigera toda la noche.",
-      "Al día siguiente, cubre con el resto del plátano y la crema de cacahuate."
-    ],
-    "tags": [
-      "meal prep",
-      "vegetariana",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_avena_nocturna_cacao_platano",
-    "name": "Avena nocturna de cacao y plátano",
-    "servings": 1,
-    "time_min": 8,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 60
-      },
-      {
-        "food": "cacao_polvo",
-        "g": 10,
-        "note": "2 cucharadas"
-      },
-      {
-        "food": "leche_almendra",
-        "g": 240
-      },
-      {
-        "food": "platano",
-        "g": 100,
-        "note": "en rodajas"
-      }
-    ],
-    "steps": [
-      "Mezcla la avena, el cacao y la leche de almendra en un frasco.",
-      "Agrega las rodajas de plátano y tapa.",
-      "Refrigera mínimo 6 horas y sirve frío."
-    ],
-    "tags": [
-      "sin lácteos",
-      "vegetariana",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_avena_nocturna_fresa_yogur",
-    "name": "Avena nocturna de fresa y yogur",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 60
-      },
-      {
-        "food": "yogur_griego",
-        "g": 120
-      },
-      {
-        "food": "fresa",
-        "g": 100,
-        "note": "picada"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 100
-      },
-      {
-        "food": "miel",
-        "g": 10,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Mezcla la avena con la leche y el yogur griego.",
-      "Agrega la miel y la mitad de las fresas.",
-      "Refrigera de un día para otro.",
-      "Sirve con el resto de las fresas encima."
-    ],
-    "tags": [
-      "alta en proteína",
-      "meal prep",
-      "vegetariana"
-    ]
-  },
-  {
-    "id": "des_avena_nocturna_manzana_canela",
-    "name": "Avena nocturna de manzana y canela",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 60
-      },
-      {
-        "food": "leche_entera",
-        "g": 200
-      },
-      {
-        "food": "manzana",
-        "g": 100,
-        "note": "rallada"
-      },
-      {
-        "food": "canela",
-        "g": 1
-      },
-      {
-        "food": "nuez_castilla",
-        "g": 14,
-        "note": "picada"
-      }
-    ],
-    "steps": [
-      "Ralla la manzana y mézclala con la avena, la leche y la canela.",
-      "Refrigera toda la noche en un frasco.",
-      "Sirve con nuez picada encima."
-    ],
-    "tags": [
-      "meal prep",
-      "vegetariana",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_avena_nocturna_pina_coco",
-    "name": "Avena nocturna de piña y coco",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 60
-      },
-      {
-        "food": "leche_soya",
-        "g": 200
-      },
-      {
-        "food": "pina",
-        "g": 110,
-        "note": "picada"
-      },
-      {
-        "food": "coco_rallado",
-        "g": 6,
-        "note": "1 cucharada"
-      },
-      {
-        "food": "chia",
-        "g": 6,
-        "note": "1/2 cucharada"
-      }
-    ],
-    "steps": [
-      "Mezcla la avena, la chía y la bebida de soya en un frasco.",
-      "Agrega la piña picada y tapa.",
-      "Refrigera toda la noche y espolvorea coco al servir."
-    ],
-    "tags": [
-      "sin lácteos",
-      "vegetariana",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_pan_frances_integral_platano",
-    "name": "Pan francés integral con plátano",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "leche_descremada",
-        "g": 60
-      },
-      {
-        "food": "platano",
-        "g": 118,
-        "note": "1 pza en rodajas"
-      },
-      {
-        "food": "canela",
-        "g": 1
-      },
-      {
-        "food": "mantequilla",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Bate el huevo con la leche y la canela.",
-      "Remoja el pan en la mezcla 20 segundos por lado.",
-      "Dora el pan en mantequilla a fuego medio, 2 minutos por lado.",
-      "Sirve con rodajas de plátano."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_pan_frances_jamon_queso",
-    "name": "Pan francés salado de jamón y queso",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "jamon_pavo",
-        "g": 40
-      },
-      {
-        "food": "queso_chihuahua",
-        "g": 30
-      },
-      {
-        "food": "mantequilla",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Forma un sándwich con el jamón y el queso entre las rebanadas.",
-      "Bate el huevo con sal y remoja el sándwich 20 segundos por lado.",
-      "Dora en mantequilla a fuego medio hasta que el queso funda."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_pan_frances_miel_nuez",
-    "name": "Pan francés de bolillo con miel y nuez",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "bolillo",
-        "g": 60,
-        "note": "1 pza"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "leche_entera",
-        "g": 60
-      },
-      {
-        "food": "miel",
-        "g": 15,
-        "note": "1 cucharada"
-      },
-      {
-        "food": "nuez_castilla",
-        "g": 14,
-        "note": "picada"
-      },
-      {
-        "food": "mantequilla",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Corta el bolillo en rebanadas gruesas.",
-      "Bate el huevo con la leche y remoja el pan.",
-      "Dora en mantequilla y sirve con miel y nuez picada."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_pan_frances_sin_lacteos_fresa",
-    "name": "Pan francés sin lácteos con fresa",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "leche_almendra",
-        "g": 60
-      },
-      {
-        "food": "fresa",
-        "g": 80,
-        "note": "en rodajas"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Bate el huevo con la leche de almendra.",
-      "Remoja el pan 20 segundos por lado.",
-      "Dora en aceite a fuego medio, 2 minutos por lado.",
-      "Sirve con fresas encima."
-    ],
-    "tags": [
-      "sin lácteos",
-      "vegetariana",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_pan_frances_claras_naranja",
-    "name": "Pan francés de claras con naranja",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "clara_huevo",
-        "g": 100,
-        "note": "3 claras"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 50,
-        "note": "1 pza"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 60
-      },
-      {
-        "food": "naranja",
-        "g": 65,
-        "note": "media, ralladura y jugo"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Bate las claras, el huevo, la leche y la ralladura de naranja.",
-      "Remoja el pan en la mezcla unos segundos por lado.",
-      "Dora en aceite a fuego medio y sirve con gajos de naranja."
-    ],
-    "tags": [
-      "alta en proteína",
-      "vegetariana",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_tostadas_frijol_pollo",
-    "name": "Tostadas de frijol con pollo",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tostada_horneada",
-        "g": 52,
-        "note": "4 tostadas"
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 150
-      },
-      {
-        "food": "pechuga_pollo_cocida",
-        "g": 150,
-        "note": "deshebrada"
-      },
-      {
-        "food": "lechuga_romana",
-        "g": 40,
-        "note": "picada"
-      },
-      {
-        "food": "queso_fresco",
-        "g": 30
-      },
-      {
-        "food": "crema_mexicana",
-        "g": 30
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 15,
-        "note": "picada"
-      }
-    ],
-    "steps": [
-      "Calienta el frijol refrito y úntalo sobre las tostadas.",
-      "Cubre con el pollo deshebrado y la lechuga.",
-      "Agrega queso fresco, crema y cebolla morada."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_tostadas_atun_aguacate",
-    "name": "Tostadas de atún con aguacate",
-    "servings": 2,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tostada_horneada",
-        "g": 52,
-        "note": "4 tostadas"
-      },
-      {
-        "food": "atun_agua",
-        "g": 150,
-        "note": "escurrido"
-      },
-      {
-        "food": "aguacate",
-        "g": 75,
-        "note": "media pieza"
-      },
-      {
-        "food": "jitomate",
-        "g": 80,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 20,
-        "note": "picada"
-      },
-      {
-        "food": "limon",
-        "g": 15,
-        "note": "jugo"
-      }
-    ],
-    "steps": [
-      "Mezcla el atún con limón y cebolla morada.",
-      "Machaca el aguacate con un poco de sal.",
-      "Unta el aguacate sobre las tostadas.",
-      "Cubre con atún y jitomate picado."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_tostadas_huevo_nopal",
-    "name": "Tostadas de huevo con nopal",
-    "servings": 2,
-    "time_min": 20,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tostada_horneada",
-        "g": 52,
-        "note": "4 tostadas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 200
-      },
-      {
-        "food": "nopal",
-        "g": 120,
-        "note": "cocido en tiras"
-      },
-      {
-        "food": "jitomate",
-        "g": 120,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20,
-        "note": "picada"
-      },
-      {
-        "food": "chile_serrano",
-        "g": 6,
-        "note": "picado"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla, el chile y el jitomate en aceite 4 minutos.",
-      "Agrega el nopal y cocina 2 minutos.",
-      "Revuelve los huevos con el guiso hasta cuajar.",
-      "Sirve sobre las tostadas."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "sin lácteos",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_tostadas_salmon_queso_crema",
-    "name": "Tostadas de salmón ahumado y queso crema",
-    "servings": 2,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tostada_horneada",
-        "g": 52,
-        "note": "4 tostadas"
-      },
-      {
-        "food": "salmon_ahumado",
-        "g": 60,
-        "note": "en tiras"
-      },
-      {
-        "food": "queso_crema",
-        "g": 30
-      },
-      {
-        "food": "pepino",
-        "g": 60,
-        "note": "en rodajas"
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 15,
-        "note": "en juliana"
-      },
-      {
-        "food": "limon",
-        "g": 15,
-        "note": "jugo"
-      }
-    ],
-    "steps": [
-      "Unta queso crema sobre cada tostada.",
-      "Acomoda el salmón y las rodajas de pepino.",
-      "Agrega la cebolla morada y rocía con limón."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_tostadas_pollo_jitomate_cebolla",
-    "name": "Tostadas de pollo con jitomate y cebolla",
-    "servings": 2,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tostada_horneada",
-        "g": 52,
-        "note": "4 tostadas"
-      },
-      {
-        "food": "pechuga_pollo_cocida",
-        "g": 200,
-        "note": "deshebrada"
-      },
-      {
-        "food": "jitomate",
-        "g": 200,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 40,
-        "note": "picada"
-      },
-      {
-        "food": "cilantro",
-        "g": 8,
-        "note": "picado"
-      },
-      {
-        "food": "queso_fresco",
-        "g": 30
-      }
-    ],
-    "steps": [
-      "Mezcla el jitomate, la cebolla y el cilantro con una pizca de sal.",
-      "Coloca el pollo deshebrado sobre las tostadas.",
-      "Cubre con la mezcla de jitomate y queso fresco."
-    ],
-    "tags": [
-      "alta en proteína",
-      "meal prep",
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_tostadas_aguacate_huevo_cocido",
-    "name": "Tostadas de aguacate con huevo cocido",
-    "servings": 2,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tostada_horneada",
-        "g": 52,
-        "note": "4 tostadas"
-      },
-      {
-        "food": "huevo_cocido",
-        "g": 150,
-        "note": "3 pzas"
-      },
-      {
-        "food": "aguacate",
-        "g": 75,
-        "note": "media pieza"
-      },
-      {
-        "food": "jitomate",
-        "g": 80,
-        "note": "en rodajas"
-      },
-      {
-        "food": "limon",
-        "g": 15,
-        "note": "jugo"
-      },
-      {
-        "food": "cilantro",
-        "g": 4,
-        "note": "picado"
-      }
-    ],
-    "steps": [
-      "Hierve los huevos 10 minutos, pélalos y rebánalos.",
-      "Machaca el aguacate con limón y sal.",
-      "Unta el aguacate sobre las tostadas.",
-      "Acomoda huevo y jitomate, y termina con cilantro."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin lácteos",
-      "rápida",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_yogur_griego_granola_fresa",
-    "name": "Yogur griego con granola y fresas",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "yogur_griego",
-        "g": 250,
-        "note": "1 envase grande"
-      },
-      {
-        "food": "granola",
-        "g": 40
-      },
-      {
-        "food": "fresa",
-        "g": 100,
-        "note": "en rebanadas"
-      },
-      {
-        "food": "miel",
-        "g": 10,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Pon el yogur griego en un tazón.",
-      "Agrega las fresas en rebanadas.",
-      "Cubre con granola y rocía miel al final."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "vegetariana"
-    ]
-  },
-  {
-    "id": "des_yogur_griego_platano_cacahuate",
-    "name": "Yogur griego con plátano y crema de cacahuate",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "yogur_griego",
-        "g": 200
-      },
-      {
-        "food": "platano",
-        "g": 118,
-        "note": "1 pza en rodajas"
-      },
-      {
-        "food": "crema_cacahuate",
-        "g": 16,
-        "note": "1 cucharada"
-      }
-    ],
-    "steps": [
-      "Sirve el yogur en un tazón.",
-      "Acomoda las rodajas de plátano encima.",
-      "Agrega la crema de cacahuate en hilo."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "vegetariana",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_yogur_natural_chia_frambuesa",
-    "name": "Yogur natural con chía y frambuesa",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "yogur_natural",
-        "g": 225,
-        "note": "1 taza"
-      },
-      {
-        "food": "chia",
-        "g": 12,
-        "note": "1 cucharada"
-      },
-      {
-        "food": "frambuesa",
-        "g": 80
-      }
-    ],
-    "steps": [
-      "Mezcla el yogur natural con la chía.",
-      "Deja reposar 10 minutos o refrigera de un día para otro.",
-      "Sirve con frambuesas encima."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "meal prep",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_yogur_griego_mango_linaza",
-    "name": "Yogur griego con mango y linaza",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "yogur_griego",
-        "g": 200
-      },
-      {
-        "food": "mango",
-        "g": 100,
-        "note": "picado"
-      },
-      {
-        "food": "linaza",
-        "g": 10,
-        "note": "1 cucharada molida"
-      }
-    ],
-    "steps": [
-      "Sirve el yogur griego en un tazón.",
-      "Agrega el mango picado.",
-      "Espolvorea la linaza molida."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "sin gluten",
-      "vegetariana"
-    ]
-  },
-  {
-    "id": "des_yogur_natural_arandanos_nuez",
-    "name": "Yogur natural con arándanos y nuez",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "yogur_natural",
-        "g": 225
-      },
-      {
-        "food": "arandano",
-        "g": 100
-      },
-      {
-        "food": "nuez_castilla",
-        "g": 14,
-        "note": "picada"
-      },
-      {
-        "food": "miel",
-        "g": 7,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Sirve el yogur natural en un tazón.",
-      "Agrega los arándanos.",
-      "Espolvorea nuez picada y rocía miel."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_yogur_natural_granola_papaya",
-    "name": "Yogur natural con granola y papaya",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "yogur_natural",
-        "g": 200
-      },
-      {
-        "food": "granola",
-        "g": 30
-      },
-      {
-        "food": "papaya",
-        "g": 150,
-        "note": "en cubos"
-      }
-    ],
-    "steps": [
-      "Pon el yogur en un tazón.",
-      "Agrega la papaya en cubos.",
-      "Termina con granola justo antes de comer."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_kefir_zarzamora_avena",
-    "name": "Kéfir con zarzamora y avena",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "kefir",
-        "g": 250,
-        "note": "1 vaso grande"
-      },
-      {
-        "food": "zarzamora",
-        "g": 100
-      },
-      {
-        "food": "avena_hojuelas",
-        "g": 30,
-        "note": "tostada en seco"
-      }
-    ],
-    "steps": [
-      "Tuesta la avena en un sartén seco 3 minutos.",
-      "Sirve el kéfir en un vaso.",
-      "Agrega las zarzamoras y espolvorea la avena tostada."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_yogur_natural_durazno_pepita",
-    "name": "Yogur natural con durazno, pepita y miel",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "yogur_natural",
-        "g": 225
-      },
-      {
-        "food": "durazno",
-        "g": 150,
-        "note": "en rodajas"
-      },
-      {
-        "food": "pepita",
-        "g": 14,
-        "note": "tostada"
-      },
-      {
-        "food": "miel",
-        "g": 10,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Tuesta las pepitas en un sartén seco 3 minutos.",
-      "Sirve el yogur y acomoda el durazno en rodajas.",
-      "Espolvorea pepitas y rocía miel."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_licuado_platano_avena",
-    "name": "Licuado de plátano y avena",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "platano",
-        "g": 118,
-        "note": "1 pza"
-      },
-      {
-        "food": "avena_hojuelas",
-        "g": 30
-      },
-      {
-        "food": "leche_descremada",
-        "g": 240
-      },
-      {
-        "food": "crema_cacahuate",
-        "g": 16,
-        "note": "1 cucharada"
-      }
-    ],
-    "steps": [
-      "Pon todos los ingredientes en la licuadora.",
-      "Licúa 40 segundos hasta que esté liso.",
-      "Sirve de inmediato."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_smoothie_fresa_yogur_griego",
-    "name": "Smoothie de fresa y yogur griego",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "fresa",
-        "g": 150
-      },
-      {
-        "food": "yogur_griego",
-        "g": 150
-      },
-      {
-        "food": "leche_descremada",
-        "g": 120
-      },
-      {
-        "food": "miel",
-        "g": 7,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Pon la fresa, el yogur, la leche y la miel en la licuadora.",
-      "Licúa hasta obtener una mezcla homogénea.",
-      "Sirve frío."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "vegetariana",
-      "sin gluten"
-    ]
-  },
-  {
-    "id": "des_smoothie_verde_espinaca_pina",
-    "name": "Smoothie verde de espinaca y piña",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "espinaca",
-        "g": 60
-      },
-      {
-        "food": "pina",
-        "g": 150
-      },
-      {
-        "food": "manzana",
-        "g": 91,
-        "note": "media pieza"
-      },
-      {
-        "food": "agua_simple",
-        "g": 240
-      }
-    ],
-    "steps": [
-      "Lava bien la espinaca y ponla en la licuadora con el agua.",
-      "Agrega la piña y la manzana.",
-      "Licúa 1 minuto y sirve."
-    ],
-    "tags": [
-      "sin lácteos",
-      "vegetariana",
-      "sin gluten",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_licuado_mango_whey",
-    "name": "Licuado de mango con proteína",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "mango",
-        "g": 150
-      },
-      {
-        "food": "whey_concentrado",
-        "g": 30,
-        "note": "1 scoop"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 240
-      }
-    ],
-    "steps": [
-      "Pela y corta el mango en cubos.",
-      "Licúa el mango con la leche.",
-      "Agrega el whey y licúa 20 segundos más."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_smoothie_arandano_almendra",
-    "name": "Smoothie de arándano y almendra",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "arandano",
-        "g": 120
-      },
-      {
-        "food": "leche_almendra",
-        "g": 240
-      },
-      {
-        "food": "platano",
-        "g": 59,
-        "note": "media pieza"
-      },
-      {
-        "food": "almendra",
-        "g": 14,
-        "note": "picada"
-      }
-    ],
-    "steps": [
-      "Pon los arándanos, el plátano y la leche de almendra en la licuadora.",
-      "Licúa hasta que quede liso.",
-      "Sirve con almendra picada encima."
-    ],
-    "tags": [
-      "sin lácteos",
-      "vegetariana",
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_licuado_papaya_linaza",
-    "name": "Licuado de papaya y linaza",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "papaya",
-        "g": 200,
-        "note": "en cubos"
-      },
-      {
-        "food": "linaza",
-        "g": 10,
-        "note": "1 cucharada molida"
-      },
-      {
-        "food": "yogur_natural",
-        "g": 150
-      },
-      {
-        "food": "limon",
-        "g": 15,
-        "note": "jugo"
-      }
-    ],
-    "steps": [
-      "Pon la papaya, el yogur y la linaza en la licuadora.",
-      "Agrega el jugo de limón y licúa hasta que quede cremoso.",
-      "Sirve frío."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_smoothie_platano_cacao_avena",
-    "name": "Smoothie de plátano y cacao con avena",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "platano",
-        "g": 118,
-        "note": "1 pza"
-      },
-      {
-        "food": "cacao_polvo",
-        "g": 10,
-        "note": "2 cucharadas"
-      },
-      {
-        "food": "bebida_avena",
-        "g": 240
-      },
-      {
-        "food": "avena_hojuelas",
-        "g": 20
-      }
-    ],
-    "steps": [
-      "Pon todos los ingredientes en la licuadora.",
-      "Licúa 40 segundos hasta que la avena se integre.",
-      "Sirve de inmediato."
-    ],
-    "tags": [
-      "sin lácteos",
-      "vegetariana",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_licuado_proteico_chocolate",
-    "name": "Licuado proteico de chocolate",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "whey_concentrado",
-        "g": 30,
-        "note": "1 scoop"
-      },
-      {
-        "food": "cacao_polvo",
-        "g": 5,
-        "note": "1 cucharada"
-      },
-      {
-        "food": "platano",
-        "g": 59,
-        "note": "media pieza"
-      },
-      {
-        "food": "leche_descremada",
-        "g": 240
-      }
-    ],
-    "steps": [
-      "Pon la leche, el plátano y el cacao en la licuadora.",
-      "Agrega el whey y licúa 30 segundos.",
-      "Sirve frío."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_smoothie_frambuesa_kefir",
-    "name": "Smoothie de frambuesa con kéfir",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "frambuesa",
-        "g": 120
-      },
-      {
-        "food": "kefir",
-        "g": 200
-      },
-      {
-        "food": "miel",
-        "g": 7,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Pon el kéfir y las frambuesas en la licuadora.",
-      "Agrega la miel y licúa hasta que quede liso.",
-      "Sirve de inmediato."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_licuado_guayaba_soya",
-    "name": "Licuado de guayaba y soya",
-    "servings": 1,
-    "time_min": 5,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "guayaba",
-        "g": 180,
-        "note": "2 pzas"
-      },
-      {
-        "food": "leche_soya",
-        "g": 240
-      },
-      {
-        "food": "chia",
-        "g": 6,
-        "note": "1/2 cucharada"
-      }
-    ],
-    "steps": [
-      "Pela y corta la guayaba en trozos.",
-      "Licúa la guayaba con la leche de soya.",
-      "Agrega la chía y mezcla 10 segundos."
-    ],
-    "tags": [
-      "sin lácteos",
-      "vegetariana",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_sandwich_pavo_panela",
-    "name": "Sándwich de pavo y queso panela",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "jamon_pavo",
-        "g": 60
-      },
-      {
-        "food": "queso_panela",
-        "g": 30
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "en rodajas"
-      },
-      {
-        "food": "lechuga_romana",
-        "g": 30
-      },
-      {
-        "food": "mostaza",
-        "g": 5,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Unta mostaza en una rebanada de pan.",
-      "Acomoda el jamón, el queso panela, el jitomate y la lechuga.",
-      "Tapa con la otra rebanada y tuesta en sartén 2 minutos por lado."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_sandwich_huevo_aguacate",
-    "name": "Sándwich de huevo y aguacate",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "bolillo",
-        "g": 60,
-        "note": "1 pza"
-      },
-      {
-        "food": "huevo_cocido",
-        "g": 100,
-        "note": "2 pzas en rebanadas"
-      },
-      {
-        "food": "aguacate",
-        "g": 75,
-        "note": "media pieza"
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "en rodajas"
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 15,
-        "note": "en rodajas"
-      }
-    ],
-    "steps": [
-      "Abre el bolillo y tuesta el interior ligeramente.",
-      "Machaca el aguacate y úntalo en el pan.",
-      "Acomoda el huevo, el jitomate y la cebolla morada."
-    ],
-    "tags": [
-      "vegetariana",
-      "rápida",
-      "sin lácteos"
-    ]
-  },
-  {
-    "id": "des_sandwich_atun_pepino",
-    "name": "Sándwich de atún y pepino",
-    "servings": 1,
-    "time_min": 8,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "atun_agua",
-        "g": 100,
-        "note": "escurrido"
-      },
-      {
-        "food": "pepino",
-        "g": 80,
-        "note": "en rodajas"
-      },
-      {
-        "food": "lechuga_romana",
-        "g": 30
-      },
-      {
-        "food": "mayonesa",
-        "g": 7,
-        "note": "1/2 cucharada"
-      }
-    ],
-    "steps": [
-      "Mezcla el atún con la mayonesa.",
-      "Unta la mezcla sobre una rebanada de pan.",
-      "Agrega pepino y lechuga, cubre con la otra rebanada."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_sandwich_salmon_queso_crema",
-    "name": "Sándwich de salmón ahumado y queso crema",
-    "servings": 1,
-    "time_min": 8,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "salmon_ahumado",
-        "g": 60
-      },
-      {
-        "food": "queso_crema",
-        "g": 15
-      },
-      {
-        "food": "pepino",
-        "g": 60,
-        "note": "en rodajas"
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 15,
-        "note": "en rodajas"
-      }
-    ],
-    "steps": [
-      "Unta el queso crema en las dos rebanadas.",
-      "Acomoda el salmón, el pepino y la cebolla morada.",
-      "Cierra el sándwich y sirve."
-    ],
-    "tags": [
-      "alta en proteína",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_sandwich_pollo_espinaca",
-    "name": "Sándwich de pollo y espinaca",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "pechuga_pollo_cocida",
-        "g": 100,
-        "note": "en rebanadas"
-      },
-      {
-        "food": "espinaca",
-        "g": 40
-      },
-      {
-        "food": "queso_mozzarella",
-        "g": 28,
-        "note": "1 rebanada"
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "en rodajas"
-      },
-      {
-        "food": "mostaza",
-        "g": 5,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Unta mostaza en el pan.",
-      "Acomoda el pollo, el queso, la espinaca y el jitomate.",
-      "Tuesta en sartén 3 minutos hasta que el queso funda."
-    ],
-    "tags": [
-      "alta en proteína",
-      "meal prep"
-    ]
-  },
-  {
-    "id": "des_sandwich_queso_oaxaca_jamon",
-    "name": "Bolillo de queso Oaxaca y jamón",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "bolillo",
-        "g": 60,
-        "note": "1 pza"
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 40,
-        "note": "en hebra"
-      },
-      {
-        "food": "jamon_cerdo",
-        "g": 40
-      },
-      {
-        "food": "jitomate",
-        "g": 60,
-        "note": "en rodajas"
-      }
-    ],
-    "steps": [
-      "Abre el bolillo y acomoda el queso y el jamón.",
-      "Hornea 4 minutos a 180 °C hasta que el queso funda.",
-      "Agrega las rodajas de jitomate y sirve caliente."
-    ],
-    "tags": [
-      "económica",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_sandwich_clara_espinaca_integral",
-    "name": "Sándwich de claras y espinaca",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_integral",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "clara_huevo",
-        "g": 100,
-        "note": "3 claras"
-      },
-      {
-        "food": "espinaca",
-        "g": 40
-      },
-      {
-        "food": "queso_panela",
-        "g": 30
-      },
-      {
-        "food": "cebolla_morada",
-        "g": 10,
-        "note": "en rodajas"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 4
-      }
-    ],
-    "steps": [
-      "Cocina las claras en aceite a fuego medio como omelette delgada.",
-      "Tuesta el pan y acomoda la espinaca y la cebolla.",
-      "Agrega la clara cocida y el queso panela, cierra y sirve."
-    ],
-    "tags": [
-      "alta en proteína",
-      "vegetariana",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_sandwich_tostado_jamon_queso",
-    "name": "Sándwich tostado de jamón y queso",
-    "servings": 1,
-    "time_min": 10,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "pan_blanco_caja",
-        "g": 60,
-        "note": "2 rebanadas"
-      },
-      {
-        "food": "jamon_cerdo",
-        "g": 40
-      },
-      {
-        "food": "queso_chihuahua",
-        "g": 30
-      },
-      {
-        "food": "mantequilla",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Unta mantequilla en la parte externa de las rebanadas.",
-      "Rellena con jamón y queso chihuahua.",
-      "Dora el sándwich en sartén tapado a fuego bajo, 3 minutos por lado."
-    ],
-    "tags": [
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_quesadillas_huevo_espinaca",
-    "name": "Quesadillas de huevo y espinaca",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 90,
-        "note": "3 pzas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "espinaca",
-        "g": 40
-      },
-      {
-        "food": "queso_oaxaca",
-        "g": 60,
-        "note": "en hebra"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 4
-      }
-    ],
-    "steps": [
-      "Sofríe la cebolla con la espinaca 2 minutos.",
-      "Revuelve los huevos y rellena las tortillas con huevo, espinaca y queso.",
-      "Dora las quesadillas en sartén con poco aceite hasta que el queso funda."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "rápida"
-    ]
-  },
-  {
-    "id": "des_avena_cocida_manzana_canela",
-    "name": "Avena cocida con manzana y canela",
-    "servings": 1,
-    "time_min": 12,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "avena_hojuelas",
-        "g": 60
-      },
-      {
-        "food": "agua_simple",
-        "g": 240
-      },
-      {
-        "food": "manzana",
-        "g": 100,
-        "note": "en cubos"
-      },
-      {
-        "food": "canela",
-        "g": 1
-      },
-      {
-        "food": "miel",
-        "g": 7,
-        "note": "1 cucharadita"
-      }
-    ],
-    "steps": [
-      "Hierve el agua y agrega la avena.",
-      "Cocina a fuego bajo 5 minutos, moviendo seguido.",
-      "Agrega la manzana y la canela, cocina 2 minutos más.",
-      "Endulza con miel y sirve caliente."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin lácteos",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_enfrijoladas_huevo",
-    "name": "Enfrijoladas con huevo",
-    "servings": 1,
-    "time_min": 20,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 90,
-        "note": "3 pzas"
-      },
-      {
-        "food": "frijol_negro_cocido",
-        "g": 200,
-        "note": "licuado con caldo"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100,
-        "note": "2 pzas"
-      },
-      {
-        "food": "queso_fresco",
-        "g": 40
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 30,
-        "note": "picada"
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Licúa el frijol con un poco de caldo y caliéntalo.",
-      "Pasa las tortillas por el frijol en aceite caliente.",
-      "Rellena con huevo estrellado y cubre con queso y cebolla."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_tacos_huevo_nopal",
-    "name": "Tacos de huevo con nopal",
-    "servings": 1,
-    "time_min": 15,
-    "level": "fácil",
-    "ingredients": [
-      {
-        "food": "tortilla_maiz",
-        "g": 90,
-        "note": "3 pzas"
-      },
-      {
-        "food": "huevo_entero",
-        "g": 150,
-        "note": "3 pzas"
-      },
-      {
-        "food": "nopal",
-        "g": 100,
-        "note": "cocido en tiras"
-      },
-      {
-        "food": "jitomate",
-        "g": 80,
-        "note": "picado"
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "cilantro",
-        "g": 4
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Saltea el nopal con cebolla y jitomate en aceite 4 minutos.",
-      "Revuelve los huevos con el guiso hasta cuajar.",
-      "Sirve en tortillas calientes con cilantro."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin gluten",
-      "rápida",
-      "económica"
-    ]
-  },
-  {
-    "id": "des_gorditas_frijol_huevo",
-    "name": "Gorditas de frijol y huevo",
-    "servings": 2,
-    "time_min": 25,
-    "level": "media",
-    "ingredients": [
-      {
-        "food": "masa_maiz",
-        "g": 120,
-        "note": "1 taza de harina nixtamalizada"
-      },
-      {
-        "food": "agua_simple",
-        "g": 100,
-        "note": "tibia"
-      },
-      {
-        "food": "frijol_refrito",
-        "g": 100
-      },
-      {
-        "food": "huevo_entero",
-        "g": 100
-      },
-      {
-        "food": "queso_fresco",
-        "g": 40
-      },
-      {
-        "food": "cebolla_blanca",
-        "g": 20
-      },
-      {
-        "food": "aceite_vegetal",
-        "g": 7
-      }
-    ],
-    "steps": [
-      "Mezcla la harina con el agua tibia hasta formar una masa suave y reposa 5 minutos.",
-      "Forma dos gorditas, rellénalas con frijol y cierra.",
-      "Dora en comal o sartén con aceite hasta que se inflen.",
-      "Abre y rellena con huevo revuelto, queso y cebolla."
-    ],
-    "tags": [
-      "vegetariana",
-      "sin lácteos",
-      "económica",
-      "sin gluten"
-    ]
-  }
+ {
+  "id": "des_huevos_a_la_mexicana",
+  "name": "Huevos a la mexicana",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 pzas batidas"
+   },
+   {
+    "food": "jitomate",
+    "g": 240,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 14
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Pica el jitomate, la cebolla y el chile serrano.",
+   "Calienta el aceite a fuego medio y sofríe la cebolla con el chile 2 minutos.",
+   "Agrega el jitomate y cocina 4 minutos hasta que espese.",
+   "Bate los huevos con sal, viértelos en el sartén y revuelve hasta que cuajen.",
+   "Sirve con cilantro picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_huevos_rancheros",
+  "name": "Huevos rancheros",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "2 pzas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 pzas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 100
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "para salsa ranchera"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 14,
+    "note": "sin venas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Fríe las tortillas en aceite caliente hasta dorarlas y escúrrelas.",
+   "Licúa el jitomate con la mitad de la cebolla y el chile, luego cocina la salsa 5 minutos en sartén.",
+   "Calienta los frijoles refritos y unta una capa sobre cada tortilla.",
+   "Fríe los huevos y colócalos encima de los frijoles.",
+   "Cubre con salsa ranchera y queso fresco."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_huevos_revueltos_espinaca",
+  "name": "Huevos revueltos con espinaca",
+  "servings": 2,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "queso_panela",
+    "g": 30,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 14
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en el aceite a fuego medio 2 minutos.",
+   "Agrega el jitomate y la espinaca, cocina hasta que la espinaca marchite.",
+   "Vierte los huevos batidos y revuelve suavemente.",
+   "Retira del fuego en cuanto estén cuajados y espolvorea el queso."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_huevos_revueltos_nopal",
+  "name": "Huevos revueltos con nopal",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "nopal",
+    "g": 100,
+    "note": "cocido y picado"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 14
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y sofríe la cebolla con el chile.",
+   "Agrega el nopal y el jitomate, cocina 4 minutos.",
+   "Incorpora los huevos batidos con sal y revuelve hasta cuajar."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_huevos_revueltos_jamon_pavo",
+  "name": "Huevos revueltos con jamón de pavo",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 pzas"
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 60,
+    "note": "en tiras"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 60,
+    "note": "en cubitos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el pimiento en el aceite 3 minutos.",
+   "Agrega el jamón y cocina 1 minuto más.",
+   "Vierte los huevos batidos y revuelve hasta que cuajen."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_huevos_con_chorizo_papa",
+  "name": "Huevos con chorizo y papa",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 60,
+    "note": "sin tripa"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora las papas en el aceite a fuego medio unos 8 minutos.",
+   "Agrega el chorizo y la cebolla, cocina 5 minutos más.",
+   "Baja el fuego, vierte los huevos batidos y revuelve hasta cuajar."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_huevos_al_albanil",
+  "name": "Huevos al albañil",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_poblano",
+    "g": 60,
+    "note": "en rajas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 14
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el poblano en el aceite 4 minutos.",
+   "Agrega el jitomate y cocina hasta que suelte su jugo.",
+   "Incorpora los huevos batidos y revuelve hasta que cuajen."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_huevos_en_salsa_verde",
+  "name": "Huevos ahogados en salsa verde",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 pzas"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 200,
+    "note": "limpios"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en cuarto"
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "para acompañar"
+   }
+  ],
+  "steps": [
+   "Hierve los tomates verdes, el chile, la cebolla y el ajo 8 minutos.",
+   "Licúa con el cilantro y un poco del agua de cocción.",
+   "Fríe la salsa en aceite 4 minutos a fuego medio.",
+   "Agrega los huevos enteros, tapa y cocina 5 minutos.",
+   "Sirve con las tortillas calientes."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_huevos_divorciados",
+  "name": "Huevos divorciados con frijoles refritos",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 pzas"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "2 pzas"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "para salsa roja"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 100,
+    "note": "para salsa verde"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 14
+   }
+  ],
+  "steps": [
+   "Prepara una salsa roja con jitomate, cebolla y chile, y otra verde con tomate verde.",
+   "Fríe las tortillas y cúbrelas con frijoles refritos.",
+   "Fríe los huevos y colócalos sobre las tortillas.",
+   "Sirve con mitad de salsa roja y mitad de salsa verde."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_huevos_a_la_florentina",
+  "name": "Huevos a la florentina",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 pzas escalfadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas tostadas"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 10,
+    "note": "rallado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 14
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Derrite la mantequilla con el ajo y saltea la espinaca 2 minutos.",
+   "Escalfa los huevos en agua apenas hirviendo 3 minutos.",
+   "Tuesta el pan y cúbrelo con la espinaca.",
+   "Coloca el huevo encima y espolvorea parmesano."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_huevos_revueltos_champinones",
+  "name": "Huevos revueltos con champiñones",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "champinon",
+    "g": 100,
+    "note": "en laminas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "mantequilla",
+    "g": 7
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "perejil",
+    "g": 4,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Derrite la mantequilla y sofríe la cebolla 2 minutos.",
+   "Agrega los champiñones y cocina hasta que suelten el agua.",
+   "Vierte los huevos batidos y revuelve hasta cuajar.",
+   "Sirve con pan tostado y perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_huevos_horneados_espinaca",
+  "name": "Huevos horneados con espinaca y jitomate",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en rodajas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 30,
+    "note": "en hebra"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C y engrasa dos ramequines con aceite.",
+   "Acomoda la espinaca, el jitomate y la cebolla en cada ramequín.",
+   "Rompe dos huevos encima de cada uno y cubre con queso.",
+   "Hornea 12 a 14 minutos hasta que la clara cuaje."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_huevos_con_frijoles_queso",
+  "name": "Huevos con frijoles de la olla y queso fresco",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 200,
+    "note": "con poco caldo"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Calienta los frijoles en un cazo con un poco de agua.",
+   "Sofríe el jitomate con la cebolla en aceite 4 minutos.",
+   "Fríe los huevos en un sartén aparte.",
+   "Sirve los huevos sobre los frijoles con tortillas, queso y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_huevos_motuleños",
+  "name": "Huevos motuleños",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "2 pzas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 pzas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 120
+   },
+   {
+    "food": "jamon_cerdo",
+    "g": 40,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "para salsa"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 14
+   }
+  ],
+  "steps": [
+   "Fríe las tortillas hasta dorarlas y cúbrelas con frijol refrito caliente.",
+   "Saltea el jamón en aceite y ponlo sobre el frijol.",
+   "Prepara una salsa picada de jitomate y cebolla, y úsala para cubrir.",
+   "Fríe los huevos y colócalos encima; termina con queso rallado."
+  ],
+  "tags": [
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_huevos_revueltos_calabacita_epazote",
+  "name": "Huevos revueltos con calabacita y epazote",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en cubitos"
+   },
+   {
+    "food": "epazote",
+    "g": 6,
+    "note": "3 ramitas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "jitomate",
+    "g": 100
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y la calabacita en aceite 5 minutos.",
+   "Agrega el jitomate picado y el epazote.",
+   "Vierte los huevos batidos y revuelve hasta cuajar."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_huevos_tibios_aguacate",
+  "name": "Huevos tibios con aguacate",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 pzas"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pela los huevos cocidos y pártelos en mitades.",
+   "Machaca el aguacate con limón y sal.",
+   "Mezcla jitomate, cebolla y cilantro picados.",
+   "Sirve los huevos con el aguacate y la salsa encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_huevos_revueltos_queso_oaxaca",
+  "name": "Huevos revueltos con queso Oaxaca",
+  "servings": 2,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el jitomate en aceite 3 minutos.",
+   "Agrega los huevos batidos y revuelve a fuego bajo.",
+   "Cuando estén casi cuajados, incorpora el queso y el cilantro.",
+   "Sirve con tortillas calientes."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_huevos_con_tocino_tortilla",
+  "name": "Huevos con tocino y tortilla dorada",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 pzas"
+   },
+   {
+    "food": "tocino",
+    "g": 24,
+    "note": "3 rebanadas"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 30,
+    "note": "1 pza"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Fríe el tocino hasta que esté crujiente y resérvalo.",
+   "En la misma grasa, dora la tortilla y reserva.",
+   "Fríe los huevos en la grasa restante.",
+   "Sirve con el tocino, la tortilla y el jitomate."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_huevos_revueltos_pollo_espinaca",
+  "name": "Huevos revueltos con pollo y espinaca",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 120,
+    "note": "deshebrada"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en aceite 2 minutos.",
+   "Agrega el pollo y la espinaca, cocina 2 minutos.",
+   "Vierte los huevos batidos y revuelve hasta cuajar.",
+   "Sirve con pan integral tostado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_omelette_claras_espinaca",
+  "name": "Omelette de claras y espinaca",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "clara_huevo",
+    "g": 200,
+    "note": "6 claras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pza"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "queso_panela",
+    "g": 30
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y la espinaca en aceite 2 minutos.",
+   "Bate las claras con el huevo entero y viértelas en el sartén antiadherente.",
+   "Cuando cuajen los bordes, pon la espinaca y el queso de un lado.",
+   "Dobla a la mitad y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "des_omelette_jamon_queso",
+  "name": "Omelette de jamón y queso",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 pzas"
+   },
+   {
+    "food": "jamon_cerdo",
+    "g": 50,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Bate los huevos con una pizca de sal.",
+   "Calienta el aceite y vierte los huevos.",
+   "Agrega el jamón y el queso sobre una mitad.",
+   "Dobla la omelette y sirve cuando el queso funda."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_omelette_champinones_cebolla",
+  "name": "Omelette de champiñones y cebolla",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "champinon",
+    "g": 80,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "en juliana"
+   },
+   {
+    "food": "mantequilla",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe los champiñones con la cebolla en mantequilla hasta dorar.",
+   "Bate los huevos y viértelos en el sartén.",
+   "Cuando cuajen los bordes, pon el relleno sobre una mitad.",
+   "Dobla y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_omelette_nopal_queso_fresco",
+  "name": "Omelette de nopal y queso fresco",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "nopal",
+    "g": 80,
+    "note": "cocido y picado"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 30
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Saltea el nopal con el jitomate en aceite 3 minutos.",
+   "Vierte los huevos batidos y deja cuajar la base.",
+   "Coloca el nopal y el queso fresco sobre una mitad.",
+   "Dobla y sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_omelette_pavo_jitomate",
+  "name": "Omelette de pavo y jitomate",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 50,
+    "note": "en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el jitomate 2 minutos.",
+   "Agrega el jamón de pavo y cocina 1 minuto.",
+   "Vierte los huevos batidos y cocina hasta cuajar.",
+   "Dobla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_huevos_horneados_rajas_poblano",
+  "name": "Huevos horneados con rajas de poblano",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "chile_poblano",
+    "g": 120,
+    "note": "en rajas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40,
+    "note": "en hebra"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "en juliana"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "para acompañar"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 180 °C y engrasa dos ramequines.",
+   "Sofríe la cebolla y las rajas de poblano 4 minutos y pon una capa en cada ramequín.",
+   "Rompe dos huevos encima, agrega la crema y el queso.",
+   "Hornea 12 minutos y sirve con tortillas."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_omelette_rajas_poblano",
+  "name": "Omelette de rajas de poblano",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "chile_poblano",
+    "g": 100,
+    "note": "en rajas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 30,
+    "note": "en hebra"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y las rajas de poblano en aceite 4 minutos.",
+   "Vierte los huevos batidos y deja cuajar la base.",
+   "Coloca el relleno y el queso sobre una mitad.",
+   "Dobla la omelette y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_omelette_salmon_queso_crema",
+  "name": "Omelette de salmón ahumado y queso crema",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "salmon_ahumado",
+    "g": 40,
+    "note": "en tiras"
+   },
+   {
+    "food": "queso_crema",
+    "g": 20
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "en rodajas finas"
+   },
+   {
+    "food": "aceitunas",
+    "g": 20,
+    "note": "picadas"
+   },
+   {
+    "food": "mantequilla",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Derrite la mantequilla y vierte los huevos batidos.",
+   "Cuando cuajen los bordes, extiende el queso crema sobre una mitad.",
+   "Acomoda el salmón, la cebolla y las aceitunas.",
+   "Dobla y sirve templada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_omelette_calabacita_panela",
+  "name": "Omelette de calabacita y queso panela",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "calabacita",
+    "g": 80,
+    "note": "en cubitos"
+   },
+   {
+    "food": "queso_panela",
+    "g": 40,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la calabacita con la cebolla en aceite 4 minutos.",
+   "Vierte los huevos batidos sobre el sartén.",
+   "Coloca el queso y el relleno en una mitad al cuajar.",
+   "Dobla y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_omelette_atun_cebolla_morada",
+  "name": "Omelette de atún con cebolla morada",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "atun_agua",
+    "g": 60,
+    "note": "escurrido"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla morada en aceite 2 minutos.",
+   "Agrega el atún y el jitomate, cocina 1 minuto.",
+   "Vierte los huevos batidos y cocina hasta cuajar.",
+   "Dobla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_omelette_chorizo_papa",
+  "name": "Omelette de chorizo y papa",
+  "servings": 1,
+  "time_min": 18,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 40,
+    "note": "sin tripa"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora la papa y el chorizo en aceite 6 minutos.",
+   "Agrega la cebolla y cocina 2 minutos más.",
+   "Vierte los huevos batidos sobre el relleno y tapa 3 minutos.",
+   "Dobla y sirve."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_chilaquiles_verdes_pollo",
+  "name": "Chilaquiles verdes ligeros con pollo",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 120,
+    "note": "4 pzas en triángulos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 200
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 150,
+    "note": "deshebrada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Hornea las tortillas en triángulos a 180 °C 10 minutos hasta que estén crujientes.",
+   "Cuece el tomate verde, la cebolla y el chile 8 minutos y licúa con cilantro.",
+   "Fríe la salsa en aceite 4 minutos y agrega el pollo.",
+   "Mezcla los totopos con la salsa justo antes de servir.",
+   "Sirve con queso fresco y un poco de crema."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_chilaquiles_rojos_huevo",
+  "name": "Chilaquiles rojos ligeros con huevo",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 120,
+    "note": "4 pzas en triángulos"
+   },
+   {
+    "food": "jitomate",
+    "g": 300
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "2 pzas desvenadas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 pzas"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Hornea las tortillas en triángulos 10 minutos hasta que estén crujientes.",
+   "Hierve el jitomate, la cebolla y los chiles guajillo 10 minutos y licúa.",
+   "Fríe la salsa 5 minutos en aceite y mezcla con los totopos.",
+   "Sirve con huevo estrellado, queso y cebolla morada."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_chilaquiles_nopal_queso",
+  "name": "Chilaquiles de nopal con queso fresco",
+  "servings": 2,
+  "time_min": 28,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 120
+   },
+   {
+    "food": "nopal",
+    "g": 150,
+    "note": "cocido en cubos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40,
+    "note": "en hebra"
+   },
+   {
+    "food": "cilantro",
+    "g": 8
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Hornea las tortillas en triángulos hasta que estén crujientes.",
+   "Licúa el tomate verde cocido con la cebolla y el cilantro.",
+   "Fríe la salsa en aceite y agrega el nopal 3 minutos.",
+   "Mezcla con los totopos y cubre con queso Oaxaca."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_chilaquiles_horno_pollo_chipotle",
+  "name": "Chilaquiles al horno con pollo y chipotle",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 120
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 150,
+    "note": "deshebrada"
+   },
+   {
+    "food": "jitomate",
+    "g": 250
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "1 chile con adobo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "queso_panela",
+    "g": 40
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Licúa el jitomate con el chipotle y la cebolla, y cocina la salsa 6 minutos.",
+   "Corta las tortillas en tiras y hornéalas 8 minutos a 180 °C.",
+   "Mezcla los totopos, el pollo y la salsa en un refractario.",
+   "Cubre con queso panela y hornea 8 minutos más."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_chilaquiles_frijol_huevo",
+  "name": "Chilaquiles de frijol negro con huevo",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 120
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 150,
+    "note": "licuado con poco caldo"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 200
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "queso_fresco",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Hornea las tortillas en triángulos hasta que estén crujientes.",
+   "Licúa el frijol y caliéntalo en un sartén con aceite.",
+   "Prepara una salsa de jitomate y cebolla, cocínala 5 minutos.",
+   "Mezcla los totopos con la salsa, sirve con frijol, huevo estrellado y queso."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_chilaquiles_calabacita_oaxaca",
+  "name": "Chilaquiles de calabacita y queso Oaxaca",
+  "servings": 2,
+  "time_min": 28,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 120
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en cubitos"
+   },
+   {
+    "food": "jitomate",
+    "g": 200
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 50,
+    "note": "en hebra"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Hornea las tortillas en triángulos hasta dorar.",
+   "Sofríe la cebolla y la calabacita en aceite 5 minutos.",
+   "Agrega el jitomate licuado y cocina 6 minutos.",
+   "Mezcla con los totopos y cubre con queso Oaxaca."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_mollete_frijol_queso",
+  "name": "Molletes de frijol con queso",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bolillo",
+    "g": 120,
+    "note": "2 pzas partidas a la mitad"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Abre los bolillos y tuéstalos ligeramente.",
+   "Unta frijol refrito en cada mitad y cubre con queso.",
+   "Hornea o tuesta hasta que el queso funda.",
+   "Mezcla jitomate, cebolla, chile y cilantro y sirve encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_mollete_integral_pico_gallo",
+  "name": "Molletes integrales con pico de gallo",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 100,
+    "note": "machacado"
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en cubitos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 7,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Tuesta las rebanadas de pan integral.",
+   "Unta el frijol machacado sobre cada rebanada.",
+   "Cubre con queso y gratina 3 minutos.",
+   "Prepara el pico de gallo con jitomate, cebolla, chile y cilantro, y sirve encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_mollete_pollo_deshebrado",
+  "name": "Molletes de pollo deshebrado",
+  "servings": 2,
+  "time_min": 18,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bolillo",
+    "g": 120,
+    "note": "2 pzas"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 120,
+    "note": "deshebrada"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 100
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Abre los bolillos y tuéstalos ligeramente.",
+   "Unta frijol refrito y coloca el pollo deshebrado.",
+   "Cubre con queso y gratina hasta que funda.",
+   "Sirve con jitomate y cebolla picados."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_mollete_atun_queso",
+  "name": "Molletes de atún con queso Oaxaca",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bolillo",
+    "g": 120,
+    "note": "2 pzas"
+   },
+   {
+    "food": "atun_agua",
+    "g": 100,
+    "note": "escurrido"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "mayonesa",
+    "g": 13,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Mezcla el atún con la mayonesa y la cebolla morada.",
+   "Abre los bolillos y unta la mezcla sobre cada mitad.",
+   "Cubre con queso y jitomate en rodajas.",
+   "Gratina 4 minutos hasta que el queso esté dorado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_mollete_aguacate_frijol",
+  "name": "Molletes de frijol y aguacate",
+  "servings": 2,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bolillo",
+    "g": 120,
+    "note": "2 pzas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 100
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Tuesta los bolillos abiertos hasta dorar.",
+   "Unta el frijol refrito caliente en cada mitad.",
+   "Machaca el aguacate con limón y cúbrelo sobre el frijol.",
+   "Termina con jitomate y cebolla picados."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_burrito_desayuno_huevo_frijol",
+  "name": "Burrito de desayuno de huevo y frijol",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_harina",
+    "g": 120,
+    "note": "4 pzas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 pzas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el chile, agrega el jitomate 3 minutos.",
+   "Revuelve los huevos con el jitomate hasta cuajar.",
+   "Calienta las tortillas y unta frijol refrito en cada una.",
+   "Rellena con huevo y queso, enrolla y dora 1 minuto en sartén."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_burrito_desayuno_chorizo_papa",
+  "name": "Burrito de desayuno de chorizo y papa",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_harina",
+    "g": 120,
+    "note": "4 pzas"
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 60,
+    "note": "sin tripa"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40,
+    "note": "en hebra"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora las papas en aceite 6 minutos, agrega chorizo y cebolla.",
+   "Incorpora los huevos batidos y revuelve hasta cuajar.",
+   "Rellena las tortillas tibias con la mezcla y queso.",
+   "Enrolla y dora en sartén 1 minuto por lado."
+  ],
+  "tags": [
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_burrito_desayuno_nopal_queso",
+  "name": "Burrito de desayuno de nopal y queso",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_harina",
+    "g": 120,
+    "note": "4 pzas"
+   },
+   {
+    "food": "nopal",
+    "g": 150,
+    "note": "cocido en tiras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Saltea el nopal con cebolla y jitomate en aceite 4 minutos.",
+   "Revuelve los huevos con la mezcla hasta cuajar.",
+   "Rellena las tortillas con el guiso y el queso.",
+   "Enrolla y dora en sartén antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_burrito_desayuno_pollo_espinaca",
+  "name": "Burrito de desayuno de pollo y espinaca",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_harina",
+    "g": 120,
+    "note": "4 pzas"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "deshebrada"
+   },
+   {
+    "food": "espinaca",
+    "g": 80
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150
+   },
+   {
+    "food": "queso_panela",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el pollo en aceite 3 minutos.",
+   "Agrega la espinaca y los huevos batidos, revuelve hasta cuajar.",
+   "Rellena las tortillas con la mezcla y el queso panela.",
+   "Enrolla y dora 1 minuto en sartén."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_burrito_desayuno_res_molida",
+  "name": "Burrito de desayuno de res molida",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_harina",
+    "g": 120,
+    "note": "4 pzas"
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 150
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 80,
+    "note": "escurrido"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora la carne molida con la cebolla en aceite 6 minutos.",
+   "Agrega el jitomate y el frijol, cocina 4 minutos.",
+   "Incorpora los huevos batidos y revuelve.",
+   "Rellena las tortillas, enrolla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_hotcakes_avena_platano",
+  "name": "Hotcakes de avena y plátano",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 80,
+    "note": "1 taza, licuada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pza madura"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 120
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Licúa la avena, el plátano, el huevo, la leche y la canela hasta obtener una mezcla espesa.",
+   "Deja reposar 5 minutos para que la avena hidrate.",
+   "Calienta un sartén con aceite y vierte porciones de masa.",
+   "Cocina 2 minutos por lado hasta dorar."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_hotcakes_avena_claras",
+  "name": "Hotcakes de avena con claras",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 80,
+    "note": "licuada"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 200,
+    "note": "6 claras"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 120
+   },
+   {
+    "food": "yogur_griego",
+    "g": 50
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Licúa la avena con las claras, la leche y la canela.",
+   "Mezcla el yogur griego en la masa al final, sin batir de más.",
+   "Cocina en sartén antiadherente con poco aceite, 2 minutos por lado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_waffles_avena_almendra",
+  "name": "Waffles de avena y almendra",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 80,
+    "note": "licuada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "leche_almendra",
+    "g": 150
+   },
+   {
+    "food": "almendra",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Licúa la avena con el huevo y la leche de almendra.",
+   "Incorpora la almendra picada y deja reposar 5 minutos.",
+   "Calienta la wafflera engrasada y vierte la masa.",
+   "Cocina hasta que los waffles estén dorados y crujientes."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_hotcakes_avena_manzana",
+  "name": "Hotcakes de avena y manzana",
+  "servings": 2,
+  "time_min": 22,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 80,
+    "note": "licuada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "manzana",
+    "g": 182,
+    "note": "1 pza rallada"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 120
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "mantequilla",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Ralla la manzana y mezcla con la avena licuada, el huevo y la leche.",
+   "Agrega la canela y deja reposar 5 minutos.",
+   "Derrite un poco de mantequilla en el sartén y vierte porciones de masa.",
+   "Voltea cuando salgan burbujas y cocina 2 minutos más."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_waffles_avena_proteina",
+  "name": "Waffles de avena con proteína y fresa",
+  "servings": 2,
+  "time_min": 22,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 80,
+    "note": "licuada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "whey_concentrado",
+    "g": 30,
+    "note": "1 scoop"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 120
+   },
+   {
+    "food": "fresa",
+    "g": 100,
+    "note": "para acompañar"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Licúa la avena, el huevo, el whey y la leche hasta tener una masa lisa.",
+   "Deja reposar 5 minutos.",
+   "Cocina en wafflera engrasada hasta dorar.",
+   "Sirve con fresas en rodajas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_hotcakes_camote_avena",
+  "name": "Hotcakes de camote y avena",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 150,
+    "note": "machacado"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 60,
+    "note": "licuada"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "leche_descremada",
+    "g": 100
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Machaca el camote y mézclalo con el huevo y la leche.",
+   "Agrega la avena licuada y la canela, y deja reposar 5 minutos.",
+   "Cocina porciones en sartén con poco aceite, 2 minutos por lado."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_avena_nocturna_mango_chia",
+  "name": "Avena nocturna de mango y chía",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "chia",
+    "g": 12,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 200
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "mango",
+    "g": 100,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Mezcla la avena, la chía y la leche en un frasco.",
+   "Tapa y refrigera de un día para otro.",
+   "Al servir, agrega el yogur griego y el mango picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "des_avena_nocturna_platano_cacahuate",
+  "name": "Avena nocturna de plátano y cacahuate",
+  "servings": 1,
+  "time_min": 8,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "leche_entera",
+    "g": 200
+   },
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pza en rodajas"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 16,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Pon la avena y la leche en un frasco y mezcla.",
+   "Agrega la mitad del plátano en rodajas.",
+   "Refrigera toda la noche.",
+   "Al día siguiente, cubre con el resto del plátano y la crema de cacahuate."
+  ],
+  "tags": [
+   "meal prep",
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_avena_nocturna_cacao_platano",
+  "name": "Avena nocturna de cacao y plátano",
+  "servings": 1,
+  "time_min": 8,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "leche_almendra",
+    "g": 240
+   },
+   {
+    "food": "platano",
+    "g": 100,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Mezcla la avena, el cacao y la leche de almendra en un frasco.",
+   "Agrega las rodajas de plátano y tapa.",
+   "Refrigera mínimo 6 horas y sirve frío."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_avena_nocturna_fresa_yogur",
+  "name": "Avena nocturna de fresa y yogur",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "yogur_griego",
+    "g": 120
+   },
+   {
+    "food": "fresa",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 100
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Mezcla la avena con la leche y el yogur griego.",
+   "Agrega la miel y la mitad de las fresas.",
+   "Refrigera de un día para otro.",
+   "Sirve con el resto de las fresas encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "des_avena_nocturna_manzana_canela",
+  "name": "Avena nocturna de manzana y canela",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "leche_entera",
+    "g": 200
+   },
+   {
+    "food": "manzana",
+    "g": 100,
+    "note": "rallada"
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 14,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Ralla la manzana y mézclala con la avena, la leche y la canela.",
+   "Refrigera toda la noche en un frasco.",
+   "Sirve con nuez picada encima."
+  ],
+  "tags": [
+   "meal prep",
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_avena_nocturna_pina_coco",
+  "name": "Avena nocturna de piña y coco",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "leche_soya",
+    "g": 200
+   },
+   {
+    "food": "pina",
+    "g": 110,
+    "note": "picada"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 6,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "chia",
+    "g": 6,
+    "note": "1/2 cucharada"
+   }
+  ],
+  "steps": [
+   "Mezcla la avena, la chía y la bebida de soya en un frasco.",
+   "Agrega la piña picada y tapa.",
+   "Refrigera toda la noche y espolvorea coco al servir."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_pan_frances_integral_platano",
+  "name": "Pan francés integral con plátano",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "leche_descremada",
+    "g": 60
+   },
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pza en rodajas"
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "mantequilla",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Bate el huevo con la leche y la canela.",
+   "Remoja el pan en la mezcla 20 segundos por lado.",
+   "Dora el pan en mantequilla a fuego medio, 2 minutos por lado.",
+   "Sirve con rodajas de plátano."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_pan_frances_jamon_queso",
+  "name": "Pan francés salado de jamón y queso",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 40
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 30
+   },
+   {
+    "food": "mantequilla",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Forma un sándwich con el jamón y el queso entre las rebanadas.",
+   "Bate el huevo con sal y remoja el sándwich 20 segundos por lado.",
+   "Dora en mantequilla a fuego medio hasta que el queso funda."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_pan_frances_miel_nuez",
+  "name": "Pan francés de bolillo con miel y nuez",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bolillo",
+    "g": 60,
+    "note": "1 pza"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "leche_entera",
+    "g": 60
+   },
+   {
+    "food": "miel",
+    "g": 15,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 14,
+    "note": "picada"
+   },
+   {
+    "food": "mantequilla",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Corta el bolillo en rebanadas gruesas.",
+   "Bate el huevo con la leche y remoja el pan.",
+   "Dora en mantequilla y sirve con miel y nuez picada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_pan_frances_sin_lacteos_fresa",
+  "name": "Pan francés sin lácteos con fresa",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "leche_almendra",
+    "g": 60
+   },
+   {
+    "food": "fresa",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Bate el huevo con la leche de almendra.",
+   "Remoja el pan 20 segundos por lado.",
+   "Dora en aceite a fuego medio, 2 minutos por lado.",
+   "Sirve con fresas encima."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_pan_frances_claras_naranja",
+  "name": "Pan francés de claras con naranja",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 100,
+    "note": "3 claras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 pza"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 60
+   },
+   {
+    "food": "naranja",
+    "g": 65,
+    "note": "media, ralladura y jugo"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Bate las claras, el huevo, la leche y la ralladura de naranja.",
+   "Remoja el pan en la mezcla unos segundos por lado.",
+   "Dora en aceite a fuego medio y sirve con gajos de naranja."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_tostadas_frijol_pollo",
+  "name": "Tostadas de frijol con pollo",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 150,
+    "note": "deshebrada"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 30
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Calienta el frijol refrito y úntalo sobre las tostadas.",
+   "Cubre con el pollo deshebrado y la lechuga.",
+   "Agrega queso fresco, crema y cebolla morada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_tostadas_atun_aguacate",
+  "name": "Tostadas de desayuno con atún, aguacate y huevo",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "atun_agua",
+    "g": 150,
+    "note": "escurrido"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Mezcla el atún con limón y cebolla morada.",
+   "Machaca el aguacate con un poco de sal.",
+   "Unta el aguacate sobre las tostadas.",
+   "Cubre con atún y jitomate picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_tostadas_huevo_nopal",
+  "name": "Tostadas de huevo con nopal",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "nopal",
+    "g": 120,
+    "note": "cocido en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el chile y el jitomate en aceite 4 minutos.",
+   "Agrega el nopal y cocina 2 minutos.",
+   "Revuelve los huevos con el guiso hasta cuajar.",
+   "Sirve sobre las tostadas."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_tostadas_salmon_queso_crema",
+  "name": "Tostadas de salmón ahumado y queso crema",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "salmon_ahumado",
+    "g": 60,
+    "note": "en tiras"
+   },
+   {
+    "food": "queso_crema",
+    "g": 30
+   },
+   {
+    "food": "pepino",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "en juliana"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Unta queso crema sobre cada tostada.",
+   "Acomoda el salmón y las rodajas de pepino.",
+   "Agrega la cebolla morada y rocía con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_tostadas_pollo_jitomate_cebolla",
+  "name": "Tostadas de pollo con jitomate y cebolla",
+  "servings": 2,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "deshebrada"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Mezcla el jitomate, la cebolla y el cilantro con una pizca de sal.",
+   "Coloca el pollo deshebrado sobre las tostadas.",
+   "Cubre con la mezcla de jitomate y queso fresco."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_tostadas_aguacate_huevo_cocido",
+  "name": "Tostadas de aguacate con huevo cocido",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 150,
+    "note": "3 pzas"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 4,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Hierve los huevos 10 minutos, pélalos y rebánalos.",
+   "Machaca el aguacate con limón y sal.",
+   "Unta el aguacate sobre las tostadas.",
+   "Acomoda huevo y jitomate, y termina con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_yogur_griego_granola_fresa",
+  "name": "Yogur griego con granola y fresas",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 250,
+    "note": "1 envase grande"
+   },
+   {
+    "food": "granola",
+    "g": 40
+   },
+   {
+    "food": "fresa",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Pon el yogur griego en un tazón.",
+   "Agrega las fresas en rebanadas.",
+   "Cubre con granola y rocía miel al final."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "des_yogur_griego_platano_cacahuate",
+  "name": "Yogur griego con plátano y crema de cacahuate",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pza en rodajas"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 16,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Sirve el yogur en un tazón.",
+   "Acomoda las rodajas de plátano encima.",
+   "Agrega la crema de cacahuate en hilo."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_yogur_natural_chia_frambuesa",
+  "name": "Yogur natural con chía y frambuesa",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_natural",
+    "g": 225,
+    "note": "1 taza"
+   },
+   {
+    "food": "chia",
+    "g": 12,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "frambuesa",
+    "g": 80
+   }
+  ],
+  "steps": [
+   "Mezcla el yogur natural con la chía.",
+   "Deja reposar 10 minutos o refrigera de un día para otro.",
+   "Sirve con frambuesas encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "meal prep",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_yogur_griego_mango_linaza",
+  "name": "Yogur griego con mango y linaza",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "mango",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "linaza",
+    "g": 10,
+    "note": "1 cucharada molida"
+   }
+  ],
+  "steps": [
+   "Sirve el yogur griego en un tazón.",
+   "Agrega el mango picado.",
+   "Espolvorea la linaza molida."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "des_yogur_natural_arandanos_nuez",
+  "name": "Yogur natural con arándanos y nuez",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_natural",
+    "g": 225
+   },
+   {
+    "food": "arandano",
+    "g": 100
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 14,
+    "note": "picada"
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Sirve el yogur natural en un tazón.",
+   "Agrega los arándanos.",
+   "Espolvorea nuez picada y rocía miel."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_yogur_natural_granola_papaya",
+  "name": "Yogur natural con granola y papaya",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_natural",
+    "g": 200
+   },
+   {
+    "food": "granola",
+    "g": 30
+   },
+   {
+    "food": "papaya",
+    "g": 150,
+    "note": "en cubos"
+   }
+  ],
+  "steps": [
+   "Pon el yogur en un tazón.",
+   "Agrega la papaya en cubos.",
+   "Termina con granola justo antes de comer."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_kefir_zarzamora_avena",
+  "name": "Kéfir con zarzamora y avena",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kefir",
+    "g": 250,
+    "note": "1 vaso grande"
+   },
+   {
+    "food": "zarzamora",
+    "g": 100
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 30,
+    "note": "tostada en seco"
+   }
+  ],
+  "steps": [
+   "Tuesta la avena en un sartén seco 3 minutos.",
+   "Sirve el kéfir en un vaso.",
+   "Agrega las zarzamoras y espolvorea la avena tostada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_yogur_natural_durazno_pepita",
+  "name": "Yogur natural con durazno, pepita y miel",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_natural",
+    "g": 225
+   },
+   {
+    "food": "durazno",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "pepita",
+    "g": 14,
+    "note": "tostada"
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Tuesta las pepitas en un sartén seco 3 minutos.",
+   "Sirve el yogur y acomoda el durazno en rodajas.",
+   "Espolvorea pepitas y rocía miel."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_licuado_platano_avena",
+  "name": "Licuado de plátano y avena",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pza"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 30
+   },
+   {
+    "food": "leche_descremada",
+    "g": 240
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 16,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Pon todos los ingredientes en la licuadora.",
+   "Licúa 40 segundos hasta que esté liso.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_smoothie_fresa_yogur_griego",
+  "name": "Smoothie de fresa y yogur griego",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fresa",
+    "g": 150
+   },
+   {
+    "food": "yogur_griego",
+    "g": 150
+   },
+   {
+    "food": "leche_descremada",
+    "g": 120
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Pon la fresa, el yogur, la leche y la miel en la licuadora.",
+   "Licúa hasta obtener una mezcla homogénea.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "des_smoothie_verde_espinaca_pina",
+  "name": "Smoothie verde de espinaca y piña",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "pina",
+    "g": 150
+   },
+   {
+    "food": "manzana",
+    "g": 91,
+    "note": "media pieza"
+   },
+   {
+    "food": "agua_simple",
+    "g": 240
+   }
+  ],
+  "steps": [
+   "Lava bien la espinaca y ponla en la licuadora con el agua.",
+   "Agrega la piña y la manzana.",
+   "Licúa 1 minuto y sirve."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_licuado_mango_whey",
+  "name": "Licuado de mango con proteína",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mango",
+    "g": 150
+   },
+   {
+    "food": "whey_concentrado",
+    "g": 30,
+    "note": "1 scoop"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 240
+   }
+  ],
+  "steps": [
+   "Pela y corta el mango en cubos.",
+   "Licúa el mango con la leche.",
+   "Agrega el whey y licúa 20 segundos más."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_smoothie_arandano_almendra",
+  "name": "Smoothie de arándano y almendra",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arandano",
+    "g": 120
+   },
+   {
+    "food": "leche_almendra",
+    "g": 240
+   },
+   {
+    "food": "platano",
+    "g": 59,
+    "note": "media pieza"
+   },
+   {
+    "food": "almendra",
+    "g": 14,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Pon los arándanos, el plátano y la leche de almendra en la licuadora.",
+   "Licúa hasta que quede liso.",
+   "Sirve con almendra picada encima."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_licuado_papaya_linaza",
+  "name": "Licuado de papaya y linaza",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papaya",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "linaza",
+    "g": 10,
+    "note": "1 cucharada molida"
+   },
+   {
+    "food": "yogur_natural",
+    "g": 150
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Pon la papaya, el yogur y la linaza en la licuadora.",
+   "Agrega el jugo de limón y licúa hasta que quede cremoso.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_smoothie_platano_cacao_avena",
+  "name": "Smoothie de plátano y cacao con avena",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pza"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "bebida_avena",
+    "g": 240
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 20
+   }
+  ],
+  "steps": [
+   "Pon todos los ingredientes en la licuadora.",
+   "Licúa 40 segundos hasta que la avena se integre.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_licuado_proteico_chocolate",
+  "name": "Licuado proteico de chocolate",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "whey_concentrado",
+    "g": 30,
+    "note": "1 scoop"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 5,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "platano",
+    "g": 59,
+    "note": "media pieza"
+   },
+   {
+    "food": "leche_descremada",
+    "g": 240
+   }
+  ],
+  "steps": [
+   "Pon la leche, el plátano y el cacao en la licuadora.",
+   "Agrega el whey y licúa 30 segundos.",
+   "Sirve frío."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_smoothie_frambuesa_kefir",
+  "name": "Smoothie de frambuesa con kéfir",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frambuesa",
+    "g": 120
+   },
+   {
+    "food": "kefir",
+    "g": 200
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Pon el kéfir y las frambuesas en la licuadora.",
+   "Agrega la miel y licúa hasta que quede liso.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_licuado_guayaba_soya",
+  "name": "Licuado de guayaba y soya",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "guayaba",
+    "g": 180,
+    "note": "2 pzas"
+   },
+   {
+    "food": "leche_soya",
+    "g": 240
+   },
+   {
+    "food": "chia",
+    "g": 6,
+    "note": "1/2 cucharada"
+   }
+  ],
+  "steps": [
+   "Pela y corta la guayaba en trozos.",
+   "Licúa la guayaba con la leche de soya.",
+   "Agrega la chía y mezcla 10 segundos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_sandwich_pavo_panela",
+  "name": "Sándwich de pavo y queso panela",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 60
+   },
+   {
+    "food": "queso_panela",
+    "g": 30
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 5,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Unta mostaza en una rebanada de pan.",
+   "Acomoda el jamón, el queso panela, el jitomate y la lechuga.",
+   "Tapa con la otra rebanada y tuesta en sartén 2 minutos por lado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_sandwich_huevo_aguacate",
+  "name": "Sándwich de huevo y aguacate",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bolillo",
+    "g": 60,
+    "note": "1 pza"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 pzas en rebanadas"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Abre el bolillo y tuesta el interior ligeramente.",
+   "Machaca el aguacate y úntalo en el pan.",
+   "Acomoda el huevo, el jitomate y la cebolla morada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "des_sandwich_atun_pepino",
+  "name": "Sándwich de atún y pepino",
+  "servings": 1,
+  "time_min": 8,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "atun_agua",
+    "g": 100,
+    "note": "escurrido"
+   },
+   {
+    "food": "pepino",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 30
+   },
+   {
+    "food": "mayonesa",
+    "g": 7,
+    "note": "1/2 cucharada"
+   }
+  ],
+  "steps": [
+   "Mezcla el atún con la mayonesa.",
+   "Unta la mezcla sobre una rebanada de pan.",
+   "Agrega pepino y lechuga, cubre con la otra rebanada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_sandwich_salmon_queso_crema",
+  "name": "Sándwich de salmón ahumado y queso crema",
+  "servings": 1,
+  "time_min": 8,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "salmon_ahumado",
+    "g": 60
+   },
+   {
+    "food": "queso_crema",
+    "g": 15
+   },
+   {
+    "food": "pepino",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 15,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Unta el queso crema en las dos rebanadas.",
+   "Acomoda el salmón, el pepino y la cebolla morada.",
+   "Cierra el sándwich y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_sandwich_pollo_espinaca",
+  "name": "Sándwich de pollo y espinaca",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 40
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 28,
+    "note": "1 rebanada"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "mostaza",
+    "g": 5,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Unta mostaza en el pan.",
+   "Acomoda el pollo, el queso, la espinaca y el jitomate.",
+   "Tuesta en sartén 3 minutos hasta que el queso funda."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "des_sandwich_queso_oaxaca_jamon",
+  "name": "Bolillo de queso Oaxaca y jamón",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bolillo",
+    "g": 60,
+    "note": "1 pza"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40,
+    "note": "en hebra"
+   },
+   {
+    "food": "jamon_cerdo",
+    "g": 40
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Abre el bolillo y acomoda el queso y el jamón.",
+   "Hornea 4 minutos a 180 °C hasta que el queso funda.",
+   "Agrega las rodajas de jitomate y sirve caliente."
+  ],
+  "tags": [
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_sandwich_clara_espinaca_integral",
+  "name": "Sándwich de claras y espinaca",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 100,
+    "note": "3 claras"
+   },
+   {
+    "food": "espinaca",
+    "g": 40
+   },
+   {
+    "food": "queso_panela",
+    "g": 30
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 10,
+    "note": "en rodajas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Cocina las claras en aceite a fuego medio como omelette delgada.",
+   "Tuesta el pan y acomoda la espinaca y la cebolla.",
+   "Agrega la clara cocida y el queso panela, cierra y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_sandwich_tostado_jamon_queso",
+  "name": "Sándwich tostado de jamón y queso",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_blanco_caja",
+    "g": 60,
+    "note": "2 rebanadas"
+   },
+   {
+    "food": "jamon_cerdo",
+    "g": 40
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 30
+   },
+   {
+    "food": "mantequilla",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Unta mantequilla en la parte externa de las rebanadas.",
+   "Rellena con jamón y queso chihuahua.",
+   "Dora el sándwich en sartén tapado a fuego bajo, 3 minutos por lado."
+  ],
+  "tags": [
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_quesadillas_huevo_espinaca",
+  "name": "Quesadillas de huevo y espinaca",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "3 pzas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "espinaca",
+    "g": 40
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla con la espinaca 2 minutos.",
+   "Revuelve los huevos y rellena las tortillas con huevo, espinaca y queso.",
+   "Dora las quesadillas en sartén con poco aceite hasta que el queso funda."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "des_avena_cocida_manzana_canela",
+  "name": "Avena cocida con manzana y canela",
+  "servings": 1,
+  "time_min": 12,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_hojuelas",
+    "g": 60
+   },
+   {
+    "food": "agua_simple",
+    "g": 240
+   },
+   {
+    "food": "manzana",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Hierve el agua y agrega la avena.",
+   "Cocina a fuego bajo 5 minutos, moviendo seguido.",
+   "Agrega la manzana y la canela, cocina 2 minutos más.",
+   "Endulza con miel y sirve caliente."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_enfrijoladas_huevo",
+  "name": "Enfrijoladas con huevo",
+  "servings": 1,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "3 pzas"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 200,
+    "note": "licuado con caldo"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 pzas"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Licúa el frijol con un poco de caldo y caliéntalo.",
+   "Pasa las tortillas por el frijol en aceite caliente.",
+   "Rellena con huevo estrellado y cubre con queso y cebolla."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_tacos_huevo_nopal",
+  "name": "Tacos de huevo con nopal",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 90,
+    "note": "3 pzas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 pzas"
+   },
+   {
+    "food": "nopal",
+    "g": 100,
+    "note": "cocido en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "cilantro",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Saltea el nopal con cebolla y jitomate en aceite 4 minutos.",
+   "Revuelve los huevos con el guiso hasta cuajar.",
+   "Sirve en tortillas calientes con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "des_gorditas_frijol_huevo",
+  "name": "Gorditas de frijol y huevo",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 120,
+    "note": "1 taza de harina nixtamalizada"
+   },
+   {
+    "food": "agua_simple",
+    "g": 100,
+    "note": "tibia"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 100
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Mezcla la harina con el agua tibia hasta formar una masa suave y reposa 5 minutos.",
+   "Forma dos gorditas, rellénalas con frijol y cierra.",
+   "Dora en comal o sartén con aceite hasta que se inflen.",
+   "Abre y rellena con huevo revuelto, queso y cebolla."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica",
+   "sin gluten"
+  ]
+ }
 ]

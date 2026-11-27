@@ -1,0 +1,62 @@
+[
+ {
+  "id": "mexicanas",
+  "name": "Mexicanas",
+  "count": 100
+ },
+ {
+  "id": "italianas",
+  "name": "Italianas",
+  "count": 100
+ },
+ {
+  "id": "mediterraneas",
+  "name": "Mediterráneas",
+  "count": 100
+ },
+ {
+  "id": "ensaladas",
+  "name": "Ensaladas",
+  "count": 100
+ },
+ {
+  "id": "asiaticas",
+  "name": "Asiáticas",
+  "count": 100
+ },
+ {
+  "id": "desayunos",
+  "name": "Desayunos",
+  "count": 100
+ },
+ {
+  "id": "fitness",
+  "name": "Altas en proteína",
+  "count": 100
+ },
+ {
+  "id": "sopas",
+  "name": "Sopas y caldos",
+  "count": 100
+ },
+ {
+  "id": "snacks",
+  "name": "Snacks y colaciones",
+  "count": 100
+ },
+ {
+  "id": "postres",
+  "name": "Postres saludables",
+  "count": 100
+ },
+ {
+  "id": "vegetarianas",
+  "name": "Vegetarianas",
+  "count": 100
+ },
+ {
+  "id": "bowls",
+  "name": "Bowls y tazones",
+  "count": 100
+ }
+]
