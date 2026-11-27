@@ -1,0 +1,6227 @@
+[
+ {
+  "id": "med_hummus_tahini",
+  "name": "Hummus de garbanzo con tahini",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 450,
+    "note": "escurrido"
+   },
+   {
+    "food": "tahini",
+    "g": 60
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "agua_simple",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Licúa los garbanzos con el tahini y el jugo de limón.",
+   "Agrega el ajo, el comino y la sal.",
+   "Añade agua poco a poco hasta lograr una textura cremosa.",
+   "Sirve con un hilo de aceite de oliva."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_hummus_betabel",
+  "name": "Hummus de betabel",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurrido"
+   },
+   {
+    "food": "betabel",
+    "g": 200,
+    "note": "cocido y pelado"
+   },
+   {
+    "food": "tahini",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "ajo",
+    "g": 5
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Pon en el procesador los garbanzos, el betabel y el ajo.",
+   "Agrega el tahini, el jugo de limón, el comino y la sal.",
+   "Procesa hasta obtener una pasta lisa, agregando un poco de agua si está muy espesa.",
+   "Sirve con aceite de oliva encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_baba_ganoush",
+  "name": "Baba ganoush de berenjena",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "berenjena",
+    "g": 800,
+    "note": "2 piezas grandes"
+   },
+   {
+    "food": "tahini",
+    "g": 60
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Asa las berenjenas enteras en el horno a 220 °C hasta que estén suaves, unos 30 minutos.",
+   "Pela la pulpa y escúrrela un poco en un colador.",
+   "Machácala con el tahini, el limón, el ajo y el comino.",
+   "Sazona con sal, decora con perejil picado y aceite de oliva."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_muhammara",
+  "name": "Muhammara de pimiento y nuez",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pimiento_morron",
+    "g": 400,
+    "note": "asado y pelado"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 80,
+    "note": "tostada"
+   },
+   {
+    "food": "pan_integral",
+    "g": 40,
+    "note": "sin orilla, remojado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa el pimiento con la nuez, el pan escurrido y el puré de tomate.",
+   "Agrega el aceite de oliva en hilo mientras sigue licuando.",
+   "Sazona con limón, comino, paprika y sal.",
+   "Sirve fría con pan integral tostado."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_labneh_pepino",
+  "name": "Labneh casero con pepino",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 500,
+    "note": "natural, sin azúcar"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "en rodajas finas"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "1 diente rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Un día antes, cuela el yogurt en una manta o colador con un trapo durante 12 horas en el refri.",
+   "Mezcla el yogurt ya escurrido con el ajo, el limón y la sal.",
+   "Extiende en un plato, acomoda el pepino encima y báñalo con aceite de oliva.",
+   "Sirve con pan integral."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_tzatziki",
+  "name": "Tzatziki de pepino y yogur",
+  "servings": 4,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 400
+   },
+   {
+    "food": "pepino",
+    "g": 300,
+    "note": "rallado y bien escurrido"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes rallados"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "perejil",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Ralla el pepino y exprímelo con las manos para quitarle el agua.",
+   "Mezcla el yogurt con el pepino, el ajo y el limón.",
+   "Agrega el aceite de oliva, el perejil picado y la sal.",
+   "Refrigera 15 minutos antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_pate_sardina",
+  "name": "Paté de sardina con limón",
+  "servings": 4,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sardina_lata",
+    "g": 240,
+    "note": "escurrida, sin espinas"
+   },
+   {
+    "food": "mantequilla",
+    "g": 40,
+    "note": "suavizada"
+   },
+   {
+    "food": "yogur_natural",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada muy fina"
+   },
+   {
+    "food": "perejil",
+    "g": 5
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Machaca la sardina con un tenedor.",
+   "Mezcla con la mantequilla, el yogurt, la mostaza y el limón.",
+   "Agrega la cebolla, el perejil y la pimienta.",
+   "Sirve con galletas de avena o pan integral."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "med_ful_alubias",
+  "name": "Ful de alubias con comino",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "alubias_cocidas",
+    "g": 450,
+    "note": "escurridas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en el aceite hasta dorar.",
+   "Agrega el jitomate y cocina 5 minutos.",
+   "Incorpora las alubias, el comino y 100 ml de agua, y aplasta un poco.",
+   "Termina con limón, perejil y sal."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_pimientos_feta",
+  "name": "Pimientos rellenos de feta",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pimiento_morron",
+    "g": 600,
+    "note": "4 piezas medianas"
+   },
+   {
+    "food": "queso_feta",
+    "g": 150,
+    "note": "desmoronado"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 60
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Corta la parte de arriba de los pimientos y quita las semillas.",
+   "Mezcla el feta con el yogurt, el orégano y el perejil.",
+   "Rellena los pimientos y acomódalos en un refractario.",
+   "Hornea a 200 °C por 25 minutos y rocía aceite de oliva al servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_falafel_horneado",
+  "name": "Falafel horneado de garbanzo",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_seco",
+    "g": 300,
+    "note": "remojado 12 horas y escurrido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "perejil",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 20
+   },
+   {
+    "food": "comino",
+    "g": 4
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "harina_integral",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "sal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Procesa los garbanzos con la cebolla, el ajo y las hierbas hasta tener una masa gruesa.",
+   "Agrega el comino, la paprika, la sal y la harina; mezcla bien.",
+   "Forma bolitas o discos, pásalos ligeramente por aceite y acomódalos en charola.",
+   "Hornea a 200 °C 25 minutos, volteando a la mitad."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_tabule_cuscus",
+  "name": "Tabule de cuscús con perejil",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cuscus_crudo",
+    "g": 150
+   },
+   {
+    "food": "perejil",
+    "g": 120,
+    "note": "picado fino"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "albahaca",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Vierte agua hirviendo sobre el cuscús, tápalo y deja reposar 5 minutos.",
+   "Esponja el cuscús con un tenedor y deja enfriar.",
+   "Mezcla con el perejil, el jitomate, el pepino y la cebolla.",
+   "Aliña con limón, aceite, albahaca y sal."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_tabule_quinoa",
+  "name": "Tabule de quinoa",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cruda",
+    "g": 200,
+    "note": "enjuagada"
+   },
+   {
+    "food": "perejil",
+    "g": 120,
+    "note": "picado fino"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina la quinoa en el doble de agua unos 15 minutos y deja enfriar.",
+   "Pica el perejil, el jitomate, el pepino y la cebolla.",
+   "Mezcla todo con la quinoa ya fría.",
+   "Aliña con limón, aceite, sal y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_fatush",
+  "name": "Fatush de pan integral",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 120,
+    "note": "en cubos, tostado"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 150,
+    "note": "picada"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40
+   },
+   {
+    "food": "perejil",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 50
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Tuesta los cubos de pan en el horno hasta que estén dorados.",
+   "Mezcla la lechuga, el pepino, el jitomate, la cebolla y el perejil.",
+   "Aliña con limón, aceite, orégano y sal.",
+   "Agrega el pan justo antes de servir para que no se reblandezca."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_mujadara",
+  "name": "Mujadara de lentejas y arroz",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lenteja_seca",
+    "g": 200,
+    "note": "enjuagada"
+   },
+   {
+    "food": "arroz_crudo",
+    "g": 180
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 200,
+    "note": "en rodajas delgadas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina las lentejas en 600 ml de agua unos 20 minutos.",
+   "Dora la cebolla en aceite a fuego medio hasta que quede bien caramelizada.",
+   "Agrega el arroz, el comino y la sal a las lentejas y cocina hasta que el arroz esté listo.",
+   "Sirve con la cebolla dorada encima y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_shakshuka",
+  "name": "Shakshuka de jitomate y huevo",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "6 huevos"
+   },
+   {
+    "food": "jitomate",
+    "g": 600,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 120,
+    "note": "picada"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "pure_tomate",
+    "g": 60
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el pimiento y el ajo en el aceite.",
+   "Agrega el jitomate, el puré, el comino, la paprika y la sal; cocina 15 minutos.",
+   "Haz 6 huecos en la salsa y rompe un huevo en cada uno.",
+   "Tapa y cocina 6 a 8 minutos. Sirve con cilantro y pan."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_garbanzos_horno",
+  "name": "Garbanzos al horno con paprika",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 500,
+    "note": "escurridos y secos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "ajo_polvo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   }
+  ],
+  "steps": [
+   "Seca bien los garbanzos con una toalla de papel.",
+   "Mezcla con el aceite, la paprika, el comino, el ajo en polvo y la sal.",
+   "Hornea a 220 °C de 25 a 30 minutos, moviendo a la mitad, hasta que estén crujientes.",
+   "Rocía con limón al sacarlos."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_espinacas_garbanzos",
+  "name": "Espinacas con garbanzos",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "espinaca",
+    "g": 400,
+    "note": "bien lavada"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 350,
+    "note": "escurrido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 15
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en el aceite hasta que estén suaves.",
+   "Agrega los garbanzos y el comino y cocina 5 minutos.",
+   "Incorpora la espinaca y tapa hasta que se marchite.",
+   "Termina con limón y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "rápida",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_potaje_garbanzos_col",
+  "name": "Potaje de garbanzos con col",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurrido"
+   },
+   {
+    "food": "col",
+    "g": 300,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en el aceite.",
+   "Agrega la zanahoria, la papa y el puré de tomate con 1 litro de agua.",
+   "Cuando la papa esté casi lista, incorpora la col y los garbanzos.",
+   "Cocina 10 minutos más y sazona con comino, sal y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_fasolakia",
+  "name": "Fasolakia de ejotes guisados",
+  "servings": 4,
+  "time_min": 45,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "ejote",
+    "g": 500,
+    "note": "sin puntas, en trozos"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en rodajas"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el ajo y la zanahoria en el aceite.",
+   "Agrega el jitomate y cocina 5 minutos.",
+   "Incorpora los ejotes y 150 ml de agua; tapa y cocina a fuego bajo 30 minutos.",
+   "Sirve tibio o a temperatura ambiente con perejil y sal."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_gigantes_horno",
+  "name": "Gigantes al horno con jitomate y feta",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "alubias_cocidas",
+    "g": 450,
+    "note": "escurridas"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "queso_feta",
+    "g": 80,
+    "note": "desmoronado"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo, luego agrega el jitomate y cocina 8 minutos.",
+   "Mezcla las alubias con la salsa, el orégano y la sal en un refractario.",
+   "Hornea a 190 °C unos 30 minutos hasta que la salsa espese.",
+   "Cubre con feta y perejil y hornea 5 minutos más."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_imam_bayildi",
+  "name": "Imam bayildi de berenjena",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "berenjena",
+    "g": 800,
+    "note": "4 piezas medianas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 60
+   },
+   {
+    "food": "perejil",
+    "g": 15
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "azucar",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Parte las berenjenas a lo largo, hazles cortes y dóralas en 30 ml de aceite.",
+   "Sofríe la cebolla y el ajo, agrega el jitomate, el puré, el azúcar, el perejil y la sal.",
+   "Rellena las berenjenas con el guiso y acomódalas en un refractario.",
+   "Hornea tapadas a 180 °C 35 minutos y sirve tibias o frías."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_souvlaki_pollo",
+  "name": "Souvlaki de pollo",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "oregano",
+    "g": 3
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 200,
+    "note": "en cuadros"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 150,
+    "note": "en cuadros"
+   }
+  ],
+  "steps": [
+   "Mezcla el pollo con aceite, limón, orégano, ajo, sal y pimienta; deja marinar 20 minutos.",
+   "Ensarta el pollo alternando con pimiento y cebolla.",
+   "Asa en sartén o parrilla a fuego medio-alto, 3 a 4 minutos por lado.",
+   "Sirve con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_souvlaki_cordero",
+  "name": "Pinchos de cordero estilo griego",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cordero_pierna",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "oregano",
+    "g": 3
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 150,
+    "note": "en cuadros"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en cuadros"
+   }
+  ],
+  "steps": [
+   "Marina el cordero con aceite, limón, orégano, ajo, sal y pimienta al menos 1 hora.",
+   "Ensarta el cordero con la cebolla y el pimiento.",
+   "Asa en sartén o parrilla 10 minutos, volteando seguido.",
+   "Sirve con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_gyros_pollo",
+  "name": "Gyro de pollo en tortilla de harina",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "oregano",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "tortilla_harina",
+    "g": 200,
+    "note": "4 piezas"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 80
+   }
+  ],
+  "steps": [
+   "Marina el pollo con yogurt, limón, ajo, orégano, paprika y sal.",
+   "Dora el pollo en aceite a fuego alto unos 6 minutos.",
+   "Calienta las tortillas y rellénalas con pollo, pepino, cebolla, jitomate y lechuga.",
+   "Enrolla y sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_moussaka_ligera",
+  "name": "Moussaka ligera de berenjena",
+  "servings": 6,
+  "time_min": 75,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "berenjena",
+    "g": 600,
+    "note": "en rodajas"
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 400
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo"
+   },
+   {
+    "food": "sal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Asa las rodajas de berenjena en sartén con poco aceite hasta dorar.",
+   "Cocina la carne con cebolla, ajo, jitomate, canela, comino, orégano y sal.",
+   "Acomoda capas de berenjena y carne en un refractario.",
+   "Mezcla el yogurt con el huevo y el parmesano, cúbrelo y hornea a 180 °C 35 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_pastitsio_ligero",
+  "name": "Pastitsio ligero",
+  "servings": 6,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300,
+    "note": "tipo penne"
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 400
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "pure_tomate",
+    "g": 150
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "yogur_griego",
+    "g": 250
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 50,
+    "note": "rallado"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos"
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente y escúrrela.",
+   "Dora la carne con cebolla y ajo; agrega el puré, la canela, el orégano y la sal.",
+   "Acomoda la pasta, la carne y la mezcla de yogurt, huevo y parmesano en un refractario.",
+   "Hornea a 180 °C 35 minutos hasta que la superficie esté dorada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_pescado_papas_limon",
+  "name": "Pescado al horno con papas y limón",
+  "servings": 4,
+  "time_min": 45,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 500,
+    "note": "en gajos"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "oregano",
+    "g": 3
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Acomoda las papas en un refractario, rocía con aceite, ajo, orégano y sal.",
+   "Hornea a 200 °C 20 minutos.",
+   "Pon los filetes sobre las papas, rocía con limón, aceite y pimienta.",
+   "Hornea 15 minutos más hasta que el pescado se desmorone."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_gambas_ajillo",
+  "name": "Gambas al ajillo",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 500,
+    "note": "pelado y desvenado"
+   },
+   {
+    "food": "ajo",
+    "g": 10,
+    "note": "en laminillas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 50
+   },
+   {
+    "food": "chile_arbol",
+    "g": 3,
+    "note": "sin semillas"
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Calienta el aceite a fuego medio y dora el ajo con el chile de árbol.",
+   "Agrega los camarones y sube el fuego.",
+   "Cocina 2 a 3 minutos, hasta que estén rosados.",
+   "Termina con perejil, limón y sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_calamar_plancha",
+  "name": "Calamar a la plancha con limón",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calamar",
+    "g": 600,
+    "note": "limpio y en aros"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Seca los calamares con papel para que doren bien.",
+   "Calienta una plancha o sartén con un poco de aceite y cocina el calamar 2 minutos.",
+   "Agrega el ajo y el orégano, y cocina 30 segundos más.",
+   "Sirve con limón, perejil, sal y pimienta."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_pulpo_papa",
+  "name": "Pulpo con papa y pimentón",
+  "servings": 4,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pulpo_cocido",
+    "g": 500,
+    "note": "en rodajas"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 400,
+    "note": "en rodajas"
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 50
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   }
+  ],
+  "steps": [
+   "Acomoda las rodajas de papa en un plato.",
+   "Pon encima el pulpo tibio y sazona con sal.",
+   "Espolvorea la paprika y rocía con aceite de oliva.",
+   "Termina con unas gotas de limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_mejillones_ajo",
+  "name": "Mejillones al ajo y perejil",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mejillon",
+    "g": 800,
+    "note": "limpios y con concha"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "para acompañar"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora el ajo en el aceite a fuego medio.",
+   "Agrega los mejillones, tapa y cocina 4 a 5 minutos, hasta que se abran.",
+   "Desecha los que no abran y añade perejil y limón.",
+   "Sirve con pan tostado para el caldo."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_atun_aceitunas",
+  "name": "Atún mediterráneo con aceitunas",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 360,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "aceitunas",
+    "g": 80,
+    "note": "sin hueso, picadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 250,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Desmenuza el atún y mézclalo con la cebolla y el jitomate.",
+   "Agrega las aceitunas y el perejil picado.",
+   "Aliña con aceite de oliva, limón y pimienta.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_sardinas_limon",
+  "name": "Sardinas en lata con pan tostado",
+  "servings": 3,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sardina_lata",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "pan_integral",
+    "g": 90,
+    "note": "rebanadas tostadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "en aros finos"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Tuesta las rebanadas de pan.",
+   "Acomoda las sardinas sobre el pan con jitomate y cebolla.",
+   "Rocía limón, aceite y pimienta.",
+   "Termina con perejil picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_salmon_horno",
+  "name": "Salmón al horno con hierbas",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "en rodajas"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "oregano",
+    "g": 3
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "albahaca",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "calabacita",
+    "g": 300,
+    "note": "en rodajas"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Acomoda la calabacita en un refractario con aceite y sal.",
+   "Pon los filetes encima, sazona con ajo picado, orégano, sal y pimienta.",
+   "Hornea 15 minutos y sirve con limón, perejil y albahaca."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_merluza_aceitunas",
+  "name": "Merluza con aceitunas y jitomate",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "merluza",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "aceitunas",
+    "g": 60,
+    "note": "sin hueso, picadas"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en el aceite.",
+   "Agrega el jitomate y las aceitunas y cocina 8 minutos.",
+   "Acomoda los filetes sobre la salsa, tapa y cocina 8 a 10 minutos.",
+   "Sirve con perejil, limón, sal y pimienta."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_tilapia_ajo",
+  "name": "Tilapia al ajo y perejil",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "ajo",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona los filetes con sal, pimienta y paprika.",
+   "Dora el ajo en aceite a fuego medio.",
+   "Cocina los filetes 3 minutos por lado.",
+   "Vierte el ajo con aceite encima, agrega perejil y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_pollo_limon_griego",
+  "name": "Pollo al limón griego",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 80,
+    "note": "jugo y ralladura de 3 limones"
+   },
+   {
+    "food": "oregano",
+    "g": 4
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "papa_cruda",
+    "g": 400,
+    "note": "en gajos"
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla aceite, limón, ralladura, orégano, ajo, sal y pimienta.",
+   "Cubre el pollo y las papas con la mezcla y acomódalos en un refractario.",
+   "Agrega el agua y hornea a 200 °C 40 minutos, bañando a la mitad.",
+   "Sirve con el jugo de la charola."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_pollo_garbanzos",
+  "name": "Pollo al horno con garbanzos",
+  "servings": 4,
+  "time_min": 50,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "sin piel, en piezas"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurrido"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Mezcla el pollo con aceite, paprika, comino, ajo, orégano y sal.",
+   "Acomoda el pollo, los garbanzos, la cebolla y el pimiento en una charola.",
+   "Hornea a 200 °C 40 minutos, hasta que el pollo esté bien cocido.",
+   "Rocía con limón antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_pechuga_feta",
+  "name": "Pechuga rellena de espinaca y feta",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 640,
+    "note": "4 filetes aplanados"
+   },
+   {
+    "food": "espinaca",
+    "g": 150,
+    "note": "picada"
+   },
+   {
+    "food": "queso_feta",
+    "g": 100,
+    "note": "desmoronado"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   }
+  ],
+  "steps": [
+   "Saltea la espinaca con ajo y aceite hasta marchitar; mezcla con el feta.",
+   "Abre los filetes como libro y rellénalos con la mezcla.",
+   "Enrolla, sazona con sal, pimienta y orégano, y amarra con hilo.",
+   "Hornea a 190 °C 25 minutos y rocía con limón al servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_keftedes",
+  "name": "Keftedes de res al horno",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 500
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "rallada"
+   },
+   {
+    "food": "pan_integral",
+    "g": 40,
+    "note": "remojado y escurrido"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo"
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "oregano",
+    "g": 3
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Mezcla la carne con cebolla, pan, huevo, perejil, orégano, ajo, sal y pimienta.",
+   "Forma bolitas del tamaño de una nuez.",
+   "Acomódalas en charola con un poco de aceite.",
+   "Hornea a 200 °C 20 minutos hasta dorar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_kofta_cordero",
+  "name": "Kofta de cordero con tahini",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cordero_pierna",
+    "g": 500,
+    "note": "molida o picada muy fina"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "perejil",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "tahini",
+    "g": 60
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   }
+  ],
+  "steps": [
+   "Mezcla la carne con cebolla, hierbas, comino, paprika, canela y sal.",
+   "Forma koftas alargadas alrededor de brochetas o en bolitas aplanadas.",
+   "Dora en sartén con aceite 4 minutos por lado, o hornea a 220 °C 12 minutos.",
+   "Mezcla el tahini con limón y agua y sirve como salsa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_shawarma_pollo",
+  "name": "Shawarma de pollo en tortilla",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 700,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "tortilla_harina",
+    "g": 240,
+    "note": "8 piezas chicas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "tahini",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Marina el pollo con yogurt, limón, ajo, especias, aceite y sal por 20 minutos.",
+   "Dora el pollo en sartén bien caliente unos 8 minutos.",
+   "Calienta las tortillas y rellénalas con el pollo y la lechuga.",
+   "Rocía con tahini antes de enrollar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_shish_taouk",
+  "name": "Shish taouk de pollo",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en cuadros"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en cuadros"
+   }
+  ],
+  "steps": [
+   "Mezcla el pollo con yogurt, limón, ajo, paprika, comino, aceite, puré y sal.",
+   "Deja marinar 30 minutos en el refri.",
+   "Ensarta el pollo con pimiento y cebolla.",
+   "Asa en parrilla o sartén 10 minutos, volteando seguido."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_kebab_res",
+  "name": "Kebab de res con cebolla morada",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 150,
+    "note": "en cuadros"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en cuadros"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   }
+  ],
+  "steps": [
+   "Marina la carne con aceite, comino, paprika, orégano, ajo y sal.",
+   "Ensarta la carne con la cebolla y el pimiento.",
+   "Asa a fuego alto de 8 a 10 minutos, volteando.",
+   "Sirve con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_cordero_papas",
+  "name": "Cordero al horno con papas",
+  "servings": 4,
+  "time_min": 100,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cordero_pierna",
+    "g": 800,
+    "note": "en trozos grandes"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 600,
+    "note": "en gajos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "en gajos"
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "oregano",
+    "g": 4
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el cordero con aceite, ajo, orégano, paprika, sal y pimienta.",
+   "Acomoda el cordero, las papas y la cebolla en un refractario con el limón.",
+   "Cubre con papel aluminio y hornea a 180 °C 60 minutos.",
+   "Destapa y hornea 20 minutos más para dorar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_tajin_pollo_datil",
+  "name": "Tajine de pollo con dátil",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "datil",
+    "g": 60,
+    "note": "sin hueso, picados"
+   },
+   {
+    "food": "almendra",
+    "g": 40,
+    "note": "tostada"
+   },
+   {
+    "food": "pasas",
+    "g": 30
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora el pollo y la cebolla en el aceite en una olla de barro o sartén honda.",
+   "Agrega ajo, canela, comino, paprika, sal y 200 ml de agua.",
+   "Incorpora los dátiles y las pasas, tapa y cocina a fuego bajo 35 minutos.",
+   "Sirve con almendra tostada, cilantro y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_tajin_res_calabacita",
+  "name": "Tajine de res con calabacita",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 600,
+    "note": "en cubos para guisar"
+   },
+   {
+    "food": "calabacita",
+    "g": 300,
+    "note": "en trozos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 150,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 100
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Dora la carne en aceite con la cebolla y el ajo.",
+   "Agrega puré, especias, sal y 400 ml de agua; tapa y cocina 60 minutos.",
+   "Incorpora la zanahoria y la calabacita y cocina 20 minutos más.",
+   "Sirve con cilantro picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_tajin_garbanzo_camote",
+  "name": "Tajine vegetariano de garbanzo y camote",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurrido"
+   },
+   {
+    "food": "camote_cocido",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 120,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "pasas",
+    "g": 40
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite con las especias.",
+   "Agrega el jitomate, la zanahoria y 300 ml de agua; cocina 15 minutos.",
+   "Incorpora el garbanzo, el camote y las pasas; cocina 15 minutos más.",
+   "Sazona con sal y sirve con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_cuscus_verduras",
+  "name": "Cuscús marroquí con verduras",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cuscus_crudo",
+    "g": 250
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 200,
+    "note": "escurrido"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "cilantro",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en aceite con comino, paprika y canela.",
+   "Agrega zanahoria, calabacita, jitomate y 300 ml de agua; cocina 15 minutos.",
+   "Incorpora los garbanzos y deja calentar.",
+   "Sirve sobre el cuscús preparado con agua hirviendo y cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_cuscus_pollo",
+  "name": "Cuscús de pollo al limón",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cuscus_crudo",
+    "g": 200
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en cubitos"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en cubitos"
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora el pollo en aceite con ajo, comino y sal.",
+   "Saltea la zanahoria y la calabacita 5 minutos.",
+   "Prepara el cuscús con agua hirviendo, tapa 5 minutos y esponja.",
+   "Mezcla todo con limón y cilantro antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "med_cuscus_garbanzo_pasas",
+  "name": "Cuscús con garbanzo, pasas y pistache",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cuscus_crudo",
+    "g": 200
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurrido"
+   },
+   {
+    "food": "pasas",
+    "g": 50
+   },
+   {
+    "food": "pistache",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "perejil",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Prepara el cuscús con agua hirviendo, tapa 5 minutos y esponja con un tenedor.",
+   "Sofríe la cebolla con comino y canela, y agrega los garbanzos y las pasas.",
+   "Mezcla con el cuscús, aceite, limón y sal.",
+   "Termina con pistache y perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_zaalouk",
+  "name": "Zaalouk de berenjena marroquí",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "berenjena",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "cilantro",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   }
+  ],
+  "steps": [
+   "Dora la berenjena en aceite hasta que esté suave.",
+   "Agrega el jitomate, el ajo, el comino, la paprika y la sal.",
+   "Cocina a fuego bajo 25 minutos, aplastando hasta obtener una crema.",
+   "Sirve tibio con cilantro y limón."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_chermoula_pescado",
+  "name": "Huachinango chermoula",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huachinango",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "cilantro",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Licúa cilantro, perejil, ajo, comino, paprika, limón, aceite y sal para la chermoula.",
+   "Unta la mitad sobre los filetes y deja reposar 15 minutos.",
+   "Hornea a 200 °C 15 minutos o asa en sartén.",
+   "Sirve con el resto de la chermoula encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_pollo_chermoula",
+  "name": "Pollo chermoula al horno",
+  "servings": 4,
+  "time_min": 45,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "cilantro",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 120,
+    "note": "en gajos"
+   }
+  ],
+  "steps": [
+   "Licúa cilantro, perejil, ajo, comino, paprika, limón, aceite y sal.",
+   "Marina el pollo y la cebolla con la chermoula al menos 30 minutos.",
+   "Acomoda en charola y hornea a 200 °C 35 minutos.",
+   "Sirve con los jugos de la charola."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_paella_mariscos",
+  "name": "Paella de mariscos",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 300
+   },
+   {
+    "food": "camaron_crudo",
+    "g": 250,
+    "note": "pelado"
+   },
+   {
+    "food": "calamar",
+    "g": 200,
+    "note": "en aros"
+   },
+   {
+    "food": "mejillon",
+    "g": 200,
+    "note": "limpios"
+   },
+   {
+    "food": "almeja",
+    "g": 150,
+    "note": "limpias"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "agua_simple",
+    "g": 800,
+    "note": "caliente"
+   },
+   {
+    "food": "consome_pollo",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora la cebolla, el pimiento y el ajo en aceite dentro de un sartén ancho.",
+   "Agrega el jitomate, la paprika y cocina 5 minutos.",
+   "Incorpora el arroz, el caldo caliente disuelto con el consomé y la sal; cocina 10 minutos sin revolver.",
+   "Acomoda los mariscos encima, tapa 8 minutos y termina con limón y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_paella_pollo",
+  "name": "Paella de pollo y verduras",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 300
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "ejote",
+    "g": 150,
+    "note": "en trozos"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "agua_simple",
+    "g": 800,
+    "note": "caliente"
+   },
+   {
+    "food": "consome_pollo",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora el pollo en aceite y reserva.",
+   "Sofríe la cebolla, el pimiento, el ajo y el jitomate; agrega la paprika.",
+   "Incorpora el arroz y el caldo caliente con el consomé; acomoda el pollo y el ejote encima.",
+   "Cocina sin revolver 20 minutos, deja reposar 5 y sirve con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_fideua_camaron",
+  "name": "Fideuá de camarón",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "fideo_sopa",
+    "g": 300
+   },
+   {
+    "food": "camaron_crudo",
+    "g": 300,
+    "note": "pelado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 700,
+    "note": "caliente"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Tuesta el fideo en aceite hasta que tome color dorado.",
+   "Sofríe la cebolla, el pimiento, el ajo y el jitomate; agrega la paprika.",
+   "Vierte el agua caliente con sal, cocina el fideo sin revolver unos 8 minutos.",
+   "Acomoda los camarones encima, cocina 3 minutos y termina con limón y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "med_arroz_calamar",
+  "name": "Arroz con calamar y pimiento",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 250
+   },
+   {
+    "food": "calamar",
+    "g": 350,
+    "note": "en aros"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "agua_simple",
+    "g": 600,
+    "note": "caliente"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora el calamar en aceite y reserva.",
+   "Sofríe la cebolla, el pimiento y el ajo; agrega el jitomate y la paprika.",
+   "Incorpora el arroz y el agua caliente con sal; cocina 15 minutos.",
+   "Regresa el calamar, cocina 5 minutos más y sirve con perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_gazpacho_andaluz",
+  "name": "Gazpacho andaluz",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "jitomate",
+    "g": 800,
+    "note": "maduro, picado"
+   },
+   {
+    "food": "pepino",
+    "g": 200,
+    "note": "pelado"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "sin semillas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "sin orilla, remojado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 50
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "agua_simple",
+    "g": 150
+   }
+  ],
+  "steps": [
+   "Licúa jitomate, pepino, pimiento, cebolla, ajo y pan escurrido.",
+   "Agrega el aceite en hilo, el vinagre, la sal y el agua poco a poco.",
+   "Cuela si quieres una textura más fina.",
+   "Refrigera al menos 1 hora antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_salmorejo",
+  "name": "Salmorejo cordobés",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "jitomate",
+    "g": 800,
+    "note": "muy maduro, picado"
+   },
+   {
+    "food": "pan_integral",
+    "g": 120,
+    "note": "sin orilla"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 80
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 huevos picados para decorar"
+   }
+  ],
+  "steps": [
+   "Remoja el pan en un poco de agua y escúrrelo.",
+   "Licúa el jitomate, el pan y el ajo con la sal.",
+   "Agrega el aceite en hilo y el vinagre hasta lograr una crema espesa.",
+   "Sirve frío con huevo picado encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_tortilla_espanola",
+  "name": "Tortilla española de papa",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "6 huevos"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 500,
+    "note": "en rodajas finas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 120,
+    "note": "en juliana"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 60
+   },
+   {
+    "food": "sal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Fríe la papa y la cebolla en aceite a fuego medio-bajo unos 15 minutos, hasta que estén suaves.",
+   "Bate los huevos con sal y mezcla con la papa escurrida.",
+   "Cuaja la mezcla en sartén antiadherente 5 minutos, voltéala con un plato y cocina 3 minutos más.",
+   "Sirve tibia o a temperatura ambiente."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_papas_bravas",
+  "name": "Papas bravas al horno",
+  "servings": 4,
+  "time_min": 45,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papa_cruda",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "paprika",
+    "g": 4
+   },
+   {
+    "food": "ajo_polvo",
+    "g": 2
+   },
+   {
+    "food": "chile_polvo",
+    "g": 2
+   },
+   {
+    "food": "pure_tomate",
+    "g": 150
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "azucar",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Mezcla las papas con aceite, paprika, ajo en polvo, chile y sal.",
+   "Hornea a 220 °C 35 minutos, volteando a la mitad.",
+   "Calienta el puré con vinagre, azúcar y una pizca de sal para la salsa brava.",
+   "Sirve las papas con la salsa encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_pisto_manchego",
+  "name": "Pisto manchego",
+  "servings": 4,
+  "time_min": 50,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "berenjena",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 120,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos, opcional"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el pimiento y el ajo en aceite 10 minutos.",
+   "Agrega la berenjena y la calabacita y cocina 10 minutos.",
+   "Incorpora el jitomate, la paprika y la sal; cocina a fuego bajo 25 minutos.",
+   "Si quieres, cuaja huevo encima antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_berenjenas_miel",
+  "name": "Berenjenas con miel y vinagre",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "berenjena",
+    "g": 600,
+    "note": "en rodajas"
+   },
+   {
+    "food": "miel",
+    "g": 60
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Corta las berenjenas en rodajas, sazona con sal y deja reposar 10 minutos.",
+   "Dóralas en aceite o hornéalas a 200 °C 20 minutos.",
+   "Calienta la miel con el vinagre hasta que espese un poco.",
+   "Baña las berenjenas con la miel y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_esparragos_almendra",
+  "name": "Espárragos con almendra y limón",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "esparrago",
+    "g": 400,
+    "note": "sin la parte dura"
+   },
+   {
+    "food": "almendra",
+    "g": 40,
+    "note": "tostada y picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Saltea los espárragos en aceite con el ajo 5 minutos.",
+   "Sazona con sal y pimienta.",
+   "Acomoda en platón y cubre con almendra picada.",
+   "Termina con limón y parmesano."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_albondigas_jitomate",
+  "name": "Albóndigas de res en salsa de jitomate",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 500
+   },
+   {
+    "food": "pan_integral",
+    "g": 30,
+    "note": "remojado y escurrido"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "jitomate",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Mezcla la carne con pan, huevo, cebolla, ajo, perejil, paprika, comino y sal; forma bolitas.",
+   "Dora las albóndigas en aceite y reserva.",
+   "Licúa el jitomate con el puré y cocina la salsa 10 minutos.",
+   "Agrega las albóndigas a la salsa y cocina a fuego bajo 20 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_pollo_ajillo",
+  "name": "Pollo al ajillo",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en trozos"
+   },
+   {
+    "food": "ajo",
+    "g": 12,
+    "note": "enteros"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 50
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con sal, pimienta y paprika.",
+   "Dora el pollo en aceite a fuego medio-alto, por tandas.",
+   "Agrega el ajo entero y el vinagre; tapa y cocina 15 minutos.",
+   "Sirve con perejil y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_lentejas_espanolas",
+  "name": "Lentejas estilo español con espinaca",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lenteja_seca",
+    "g": 300,
+    "note": "enjuagada"
+   },
+   {
+    "food": "espinaca",
+    "g": 150,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "pure_tomate",
+    "g": 50
+   },
+   {
+    "food": "sal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Cubre las lentejas con agua y cocina con cebolla, zanahoria y papa 30 minutos.",
+   "Sofríe el ajo, el pimiento y el puré en aceite con paprika y comino.",
+   "Agrega el sofrito a las lentejas y cocina 15 minutos más.",
+   "Incorpora la espinaca, sazona con sal y cocina 2 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_fabada_ligera",
+  "name": "Fabada ligera de alubias",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "alubias_cocidas",
+    "g": 500,
+    "note": "escurridas"
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "pure_tomate",
+    "g": 60
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora el chorizo en una olla sin aceite y retira el exceso de grasa.",
+   "Sofríe la cebolla y el ajo en poco aceite, agrega el puré y la paprika.",
+   "Incorpora las alubias, el chorizo y 300 ml de agua.",
+   "Cocina a fuego bajo 20 minutos y sazona con sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_pan_tomate",
+  "name": "Pan con tomate y aceite de oliva",
+  "servings": 4,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 200,
+    "note": "en rebanadas gruesas"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "maduro"
+   },
+   {
+    "food": "ajo",
+    "g": 2,
+    "note": "1 diente"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Tuesta las rebanadas de pan hasta que estén crujientes.",
+   "Frota cada una con el ajo partido.",
+   "Ralla el jitomate sobre el pan y deja que escurra un poco.",
+   "Sazona con sal, rocía aceite y espolvorea orégano."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_calabacitas_rellenas",
+  "name": "Calabacitas rellenas de arroz y feta",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 800,
+    "note": "4 piezas medianas"
+   },
+   {
+    "food": "arroz_crudo",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "almendra",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "queso_feta",
+    "g": 60,
+    "note": "desmoronado"
+   }
+  ],
+  "steps": [
+   "Parte las calabacitas a lo largo, saca la pulpa y pícala.",
+   "Cuece el arroz 12 minutos y mézclalo con la pulpa, cebolla, ajo, jitomate, almendra y especias.",
+   "Rellena las mitades con la mezcla y cubre con feta.",
+   "Hornea a 190 °C 35 minutos hasta que estén tiernas."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_yogur_nuez",
+  "name": "Yogur griego con miel y nuez",
+  "servings": 4,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 600
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "miel",
+    "g": 60
+   },
+   {
+    "food": "fresa",
+    "g": 200,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "linaza",
+    "g": 20,
+    "note": "molida"
+   }
+  ],
+  "steps": [
+   "Reparte el yogur griego en 4 vasos o tazones.",
+   "Agrega las fresas en rebanadas.",
+   "Espolvorea nuez picada y linaza molida.",
+   "Termina con un hilo de miel."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_quinoa_griega",
+  "name": "Quinoa a la griega",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cruda",
+    "g": 200,
+    "note": "enjuagada"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceitunas",
+    "g": 50,
+    "note": "sin hueso, picadas"
+   },
+   {
+    "food": "queso_feta",
+    "g": 100,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada fina"
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Cocina la quinoa en el doble de agua unos 15 minutos y deja enfriar.",
+   "Mezcla con pepino, jitomate, aceitunas, cebolla y feta.",
+   "Aliña con limón, aceite, orégano y sal.",
+   "Sirve a temperatura ambiente."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_dakos",
+  "name": "Dakos cretense",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 160,
+    "note": "en rebanadas tostadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "rallado"
+   },
+   {
+    "food": "queso_feta",
+    "g": 120,
+    "note": "desmoronado"
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "aceitunas",
+    "g": 40,
+    "note": "picadas"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Tuesta el pan hasta que esté bien crujiente.",
+   "Cubre el pan con el jitomate rallado y sazona con sal.",
+   "Agrega el feta desmoronado y las aceitunas.",
+   "Rocía con aceite de oliva, orégano y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_frittata_espinaca_feta",
+  "name": "Frittata de espinaca y feta",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 360,
+    "note": "6 huevos"
+   },
+   {
+    "food": "espinaca",
+    "g": 200,
+    "note": "picada"
+   },
+   {
+    "food": "queso_feta",
+    "g": 80,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en aceite y agrega la espinaca hasta que se marchite.",
+   "Bate los huevos con sal, pimienta y orégano.",
+   "Vierte los huevos sobre la verdura y agrega el feta.",
+   "Cuaja tapada a fuego bajo 10 minutos o termina en horno 5 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "med_pimientos_atun",
+  "name": "Pimientos morrones rellenos de atún",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pimiento_morron",
+    "g": 600,
+    "note": "4 piezas medianas"
+   },
+   {
+    "food": "atun_agua",
+    "g": 360,
+    "note": "escurrido"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 60
+   },
+   {
+    "food": "aceitunas",
+    "g": 30,
+    "note": "picadas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Corta la parte superior de los pimientos y quita las semillas.",
+   "Mezcla el atún con yogurt, aceitunas, cebolla, perejil, limón, sal y pimienta.",
+   "Rellena los pimientos y acomódalos en un refractario con aceite.",
+   "Hornea a 190 °C 25 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_pollo_aceitunas",
+  "name": "Pollo con aceitunas y limón",
+  "servings": 4,
+  "time_min": 55,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "aceitunas",
+    "g": 100,
+    "note": "sin hueso"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 120,
+    "note": "en gajos"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "oregano",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en gajos"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el pollo con aceite, ajo, orégano, sal y pimienta.",
+   "Acomoda el pollo, las papas, la cebolla, las aceitunas y el limón en un refractario.",
+   "Hornea a 200 °C 45 minutos, bañando con sus jugos a la mitad.",
+   "Sirve caliente."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_almejas_ajillo",
+  "name": "Almejas al ajillo con limón",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "almeja",
+    "g": 800,
+    "note": "limpias, con concha"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2,
+    "note": "sin semillas"
+   },
+   {
+    "food": "agua_simple",
+    "g": 80
+   },
+   {
+    "food": "pan_integral",
+    "g": 80,
+    "note": "para acompañar"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora el ajo y el chile en aceite a fuego medio.",
+   "Agrega las almejas y el agua, tapa y cocina 5 minutos, hasta que se abran.",
+   "Retira las que no abran y sazona con sal.",
+   "Termina con limón y perejil; sirve con pan tostado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_tofu_griego",
+  "name": "Tofu marinado a la griega",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "oregano",
+    "g": 3
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 150,
+    "note": "en cuadros"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en gajos"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en medias lunas"
+   }
+  ],
+  "steps": [
+   "Marina el tofu con aceite, limón, orégano, ajo y sal 15 minutos.",
+   "Acomoda el tofu, el pimiento, la cebolla y la calabacita en charola.",
+   "Hornea a 200 °C 25 minutos, volteando a la mitad.",
+   "Sirve con el jugo de la charola."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_shawarma_soya",
+  "name": "Shawarma vegetal de soya texturizada",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "soya_texturizada",
+    "g": 150,
+    "note": "seca"
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo de 2 limones"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "paprika",
+    "g": 3
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "tortilla_harina",
+    "g": 240,
+    "note": "8 piezas chicas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "en aros"
+   },
+   {
+    "food": "tahini",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Hidrata la soya en agua caliente 10 minutos y escúrrela bien.",
+   "Saltea la soya con limón, ajo, especias, puré, aceite y sal hasta dorar.",
+   "Calienta las tortillas y rellénalas con soya, lechuga y cebolla.",
+   "Rocía tahini y enrolla."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_hamburguesa_garbanzo",
+  "name": "Hamburguesas de garbanzo y feta",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "machacado"
+   },
+   {
+    "food": "queso_feta",
+    "g": 80,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "harina_integral",
+    "g": 40
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Machaca los garbanzos con un tenedor, sin dejarlos totalmente lisos.",
+   "Mezcla con feta, cebolla, ajo, perejil, especias, harina, huevo y sal.",
+   "Forma 4 hamburguesas y refrigera 15 minutos.",
+   "Dóralas en sartén con aceite 4 minutos por lado."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_wrap_pollo_hummus",
+  "name": "Wrap de pollo con hummus",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 400,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "hummus",
+    "g": 150
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "en aros finos"
+   },
+   {
+    "food": "tortilla_harina",
+    "g": 240,
+    "note": "8 piezas chicas"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con comino, paprika y sal, y dóralo en aceite.",
+   "Calienta las tortillas y unta hummus en cada una.",
+   "Rellena con pollo, lechuga, jitomate y cebolla.",
+   "Rocía limón, enrolla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_plato_hummus_pollo",
+  "name": "Plato de hummus con pollo a la plancha",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "hummus",
+    "g": 200
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en medallones"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con limón, ajo, comino, paprika y sal.",
+   "Cocina el pollo en sartén con aceite unos 6 minutos por lado.",
+   "Extiende el hummus en un plato y acomoda el pollo encima.",
+   "Decora con pepino, perejil y un chorro de aceite de oliva."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_kibbeh_horneado",
+  "name": "Kibbeh horneado de res",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 400
+   },
+   {
+    "food": "cuscus_crudo",
+    "g": 150,
+    "note": "remojado en agua 10 minutos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 120,
+    "note": "picada"
+   },
+   {
+    "food": "almendra",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "comino",
+    "g": 3
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   }
+  ],
+  "steps": [
+   "Escurre el cuscús y mézclalo con la carne, la mitad de la cebolla, especias y sal.",
+   "Dora el resto de la cebolla con las almendras en aceite.",
+   "Extiende la mitad de la carne en un refractario, cubre con la cebolla y almendra, y tapa con el resto de la carne.",
+   "Hornea a 190 °C 35 minutos y rocía limón al servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_ajo_blanco",
+  "name": "Ajo blanco con uva",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "almendra",
+    "g": 120,
+    "note": "sin piel, remojada"
+   },
+   {
+    "food": "pan_integral",
+    "g": 100,
+    "note": "sin orilla, remojado"
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 80
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "agua_simple",
+    "g": 500,
+    "note": "fría"
+   },
+   {
+    "food": "uva",
+    "g": 150,
+    "note": "sin semilla, para decorar"
+   }
+  ],
+  "steps": [
+   "Licúa la almendra, el pan escurrido y el ajo con un poco de agua.",
+   "Agrega el aceite en hilo, el vinagre y la sal.",
+   "Añade el resto del agua fría hasta lograr una crema suave.",
+   "Sirve frío con uvas encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "rápida",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_tilapia_cuscus",
+  "name": "Tilapia con cuscús y tomate",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "cuscus_crudo",
+    "g": 200
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sazona la tilapia con comino, paprika y sal, y dórala en aceite 3 minutos por lado.",
+   "Saltea el jitomate, la cebolla y el ajo 5 minutos.",
+   "Prepara el cuscús con agua hirviendo, tapa 5 minutos y esponja.",
+   "Sirve el pescado sobre el cuscús con el jitomate, limón y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_fatteh_garbanzo",
+  "name": "Fatteh de garbanzo con yogur",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurrido"
+   },
+   {
+    "food": "pan_integral",
+    "g": 100,
+    "note": "en cuadros, tostado"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 250
+   },
+   {
+    "food": "tahini",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "almendra",
+    "g": 30,
+    "note": "tostada y picada"
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Calienta los garbanzos con comino, ajo, sal y un poco de agua.",
+   "Mezcla el yogurt con el tahini, el limón y una pizca de ajo.",
+   "Acomoda el pan tostado en un platón, cubre con garbanzos y después con la salsa de yogur.",
+   "Termina con almendra, paprika y aceite de oliva."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_hummus_pimiento",
+  "name": "Hummus de pimiento asado y pistache",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400,
+    "note": "escurrido"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 200,
+    "note": "asado y pelado"
+   },
+   {
+    "food": "tahini",
+    "g": 50
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "pistache",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Licúa los garbanzos con el pimiento, el tahini, el limón y el ajo.",
+   "Agrega el comino, la sal y el aceite con el motor en marcha.",
+   "Ajusta la textura con un poco de agua si hace falta.",
+   "Sirve con pistache picado y un hilo de aceite."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_croquetas_lenteja",
+  "name": "Croquetas de lenteja y perejil",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 450,
+    "note": "escurridas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "perejil",
+    "g": 30,
+    "note": "picado"
+   },
+   {
+    "food": "pan_integral",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo"
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Machaca las lentejas con un tenedor, sin dejarlas totalmente lisas.",
+   "Mezcla con cebolla, ajo, perejil, pan rallado, huevo, comino, paprika y sal.",
+   "Forma croquetas y acomódalas en charola con aceite.",
+   "Hornea a 200 °C 20 minutos, volteando a la mitad."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_brocoli_limon",
+  "name": "Brócoli al limón y ajo",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "brocoli",
+    "g": 600,
+    "note": "en ramilletes"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "en laminillas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 1,
+    "note": "opcional"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece el brócoli al vapor 4 minutos.",
+   "Dora el ajo y el chile en aceite a fuego bajo.",
+   "Saltea el brócoli con el ajo 2 minutos.",
+   "Termina con limón, sal y parmesano."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_coliflor_tahini",
+  "name": "Coliflor asada con tahini",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "coliflor",
+    "g": 800,
+    "note": "en ramilletes"
+   },
+   {
+    "food": "tahini",
+    "g": 60
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "almendra",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Mezcla la coliflor con aceite, comino, paprika y sal.",
+   "Asa a 220 °C 25 minutos hasta dorar.",
+   "Bate el tahini con limón, ajo, agua y sal para la salsa.",
+   "Sirve la coliflor con la salsa, almendra y perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "med_kale_garbanzo",
+  "name": "Kale con garbanzos y limón",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kale",
+    "g": 300,
+    "note": "sin tallo, picado"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 350,
+    "note": "escurrido"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite.",
+   "Agrega los garbanzos y cocina 5 minutos.",
+   "Incorpora el kale y las pasas, cocina hasta que se suavice.",
+   "Sazona con limón, sal y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "med_pasta_sardina",
+  "name": "Pasta con sardina y perejil",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300
+   },
+   {
+    "food": "sardina_lata",
+    "g": 200,
+    "note": "escurrida"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "perejil",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "pan_integral",
+    "g": 30,
+    "note": "rallado y tostado"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 1,
+    "note": "opcional"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente y reserva un poco del agua.",
+   "Sofríe la cebolla, el ajo y el chile en aceite; agrega la sardina y deshazla.",
+   "Mezcla con la pasta, un poco del agua reservada y el limón.",
+   "Sirve con pan rallado tostado y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_champinones_perejil",
+  "name": "Champiñones al ajillo con perejil",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 500,
+    "note": "en cuartos"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "perejil",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora los champiñones en aceite a fuego medio-alto hasta que suelten y doren.",
+   "Agrega el ajo, la mantequilla y cocina 1 minuto.",
+   "Sazona con sal y pimienta.",
+   "Termina con perejil y limón."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_calamar_relleno",
+  "name": "Calamar relleno de arroz",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "calamar",
+    "g": 600,
+    "note": "tubos limpios"
+   },
+   {
+    "food": "arroz_crudo",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "perejil",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "pasas",
+    "g": 20
+   },
+   {
+    "food": "pure_tomate",
+    "g": 60
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Cuece el arroz 10 minutos y mézclalo con cebolla, ajo, jitomate, pasas, perejil y sal.",
+   "Rellena los tubos de calamar sin llenarlos y cierra con palillo.",
+   "Dora los calamares en aceite y acomódalos en un refractario.",
+   "Licúa el puré con agua, paprika y sal; báñalos y hornea a 180 °C 30 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_merluza_esparragos",
+  "name": "Merluza con espárragos al horno",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "merluza",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "esparrago",
+    "g": 300,
+    "note": "sin la parte dura"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo de 1 limón"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en mitades"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Acomoda los espárragos y el jitomate en un refractario con aceite, ajo y sal.",
+   "Pon los filetes encima, sazona con orégano, pimienta y limón.",
+   "Hornea a 200 °C 15 minutos hasta que el pescado se desmorone.",
+   "Sirve con el jugo de la charola."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "med_naranja_pistache",
+  "name": "Naranjas con canela y pistache",
+  "servings": 4,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "naranja",
+    "g": 800,
+    "note": "en rodajas, sin cáscara"
+   },
+   {
+    "food": "pistache",
+    "g": 40,
+    "note": "picado"
+   },
+   {
+    "food": "miel",
+    "g": 30
+   },
+   {
+    "food": "canela",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Pela las naranjas a lo vivo y córtalas en rodajas.",
+   "Acomódalas en un platón.",
+   "Rocía con miel y espolvorea canela.",
+   "Termina con pistache picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "med_durazno_asado",
+  "name": "Durazno asado con yogur y miel",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "durazno",
+    "g": 600,
+    "note": "partidos a la mitad"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "miel",
+    "g": 40
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "canela",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Acomoda los duraznos con el lado cortado hacia arriba en una charola.",
+   "Hornea 15 minutos hasta que estén suaves y dorados.",
+   "Sirve con yogurt, nuez, un poco de miel y canela."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_pollo_granada",
+  "name": "Pollo con granada y nuez",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "granada",
+    "g": 150,
+    "note": "grano"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en gajos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "canela",
+    "g": 1
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo de 1/2 limón"
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora el pollo en aceite con ajo, comino, canela y sal.",
+   "Agrega la cebolla y cocina 10 minutos.",
+   "Incorpora la mitad de la granada y un poco de agua; cocina 10 minutos a fuego bajo.",
+   "Sirve con nuez, el resto de la granada, limón y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "med_pimientos_asados",
+  "name": "Pimientos asados con ajo y pan",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pimiento_morron",
+    "g": 600,
+    "note": "sin semillas, en tiras"
+   },
+   {
+    "food": "ajo",
+    "g": 8,
+    "note": "en laminillas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "pan_integral",
+    "g": 120,
+    "note": "tostado"
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Asa los pimientos a 220 °C 25 minutos hasta que estén suaves y con manchas.",
+   "Dora el ajo en aceite a fuego bajo.",
+   "Mezcla los pimientos con el ajo, el aceite, el vinagre y la sal.",
+   "Sirve sobre pan tostado con perejil."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "económica"
+  ]
+ }
+]

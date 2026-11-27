@@ -1,0 +1,6101 @@
+[
+ {
+  "id": "ita_espagueti_pomodoro",
+  "name": "Espagueti al pomodoro",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 320
+   },
+   {
+    "food": "jitomate",
+    "g": 600,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "albahaca",
+    "g": 6,
+    "note": "picada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Hierve agua con una cucharada de sal y cuece el espagueti al dente.",
+   "Sofríe la cebolla y el ajo en el aceite a fuego medio, unos 3 minutos.",
+   "Agrega el jitomate picado y cocina 10 minutos hasta que la salsa espese.",
+   "Mezcla la pasta con la salsa, agrega la albahaca y sirve con parmesano y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_carbonara_tocino",
+  "name": "Espagueti a la carbonara",
+  "servings": 4,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 320
+   },
+   {
+    "food": "tocino",
+    "g": 80,
+    "note": "en cubitos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos batidos"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 60,
+    "note": "rallado"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece el espagueti al dente y aparta una taza del agua de cocción.",
+   "Dora el tocino en sartén sin aceite hasta que esté crujiente.",
+   "Bate los huevos con el parmesano y la pimienta.",
+   "Fuera del fuego, mezcla la pasta con el tocino y el huevo, agregando agua poco a poco para lograr una crema."
+  ],
+  "tags": [
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_cacio_pepe",
+  "name": "Cacio e pepe",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 60,
+    "note": "rallado fino"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 3
+   },
+   {
+    "food": "mantequilla",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece la pasta en agua con sal y guarda media taza del agua de cocción.",
+   "Tuesta la pimienta en una sartén seca durante 1 minuto.",
+   "Agrega la mantequilla y medio cucharón de agua de la pasta para hacer una emulsión.",
+   "Incorpora la pasta y el parmesano moviendo rápido, y sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_penne_arrabbiata",
+  "name": "Penne arrabbiata",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 320
+   },
+   {
+    "food": "jitomate",
+    "g": 500,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "laminado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2,
+    "note": "sin semilla, desmoronado"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Cuece la penne en agua con sal hasta que esté al dente.",
+   "Dora el ajo y el chile de árbol en el aceite a fuego bajo.",
+   "Agrega el jitomate y cocina 12 minutos hasta que espese.",
+   "Mezcla la pasta con la salsa, agrega la albahaca y sirve con parmesano."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_fettuccine_alfredo_ligero",
+  "name": "Fettuccine Alfredo ligero",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300
+   },
+   {
+    "food": "leche_descremada",
+    "g": 250
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 60,
+    "note": "rallado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 10
+   },
+   {
+    "food": "harina_trigo",
+    "g": 10
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "picado"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece el fettuccine al dente y reserva un poco del agua.",
+   "Derrite la mantequilla, dora el ajo y agrega la harina sin dejar de mover un minuto.",
+   "Vierte la leche poco a poco y cocina 3 minutos hasta que espese.",
+   "Retira del fuego, agrega el parmesano y la pasta, y mezcla con un poco de agua de cocción."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_lasana_res_ricotta",
+  "name": "Lasaña de res y ricotta",
+  "servings": 8,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 250,
+    "note": "láminas para lasaña"
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 500
+   },
+   {
+    "food": "pure_tomate",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "queso_ricotta",
+    "g": 250
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 250,
+    "note": "rebanada en láminas"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora la cebolla y el ajo en aceite, agrega la carne y cocina hasta que suelte el jugo.",
+   "Incorpora el puré de tomate, el orégano, sal y pimienta, y cocina 15 minutos.",
+   "Cuece las láminas de pasta y acomódalas en un refractor alternando con carne, ricotta y mozzarella.",
+   "Cubre con parmesano y hornea a 180 °C por 35 minutos, hasta que esté dorada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_lasana_calabacita_ricotta",
+  "name": "Lasaña de calabacita y ricotta",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 600,
+    "note": "en láminas a lo largo"
+   },
+   {
+    "food": "queso_ricotta",
+    "g": 250
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Asa las láminas de calabacita en sartén con una gota de aceite y sazona con sal.",
+   "Prepara la salsa cociendo el jitomate, cebolla y ajo 10 minutos; agrega albahaca al final.",
+   "En un refractor, alterna capas de calabacita, ricotta, salsa y mozzarella.",
+   "Cubre con parmesano y hornea a 180 °C por 25 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_pasta_primavera_ejotes",
+  "name": "Pasta primavera con ejotes",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280
+   },
+   {
+    "food": "ejote",
+    "g": 150,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "brocoli",
+    "g": 120,
+    "note": "en floretes"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente junto con la zanahoria y el brócoli unos 4 minutos.",
+   "Saltea el ajo en aceite, agrega la calabacita y los ejotes 3 minutos.",
+   "Escurre la pasta y las verduras y mézclalas en el sartén.",
+   "Agrega el jugo de limón, el parmesano, sal y pimienta, y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_espagueti_pesto_albahaca",
+  "name": "Espagueti al pesto de albahaca",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 320
+   },
+   {
+    "food": "albahaca",
+    "g": 40,
+    "note": "hojas frescas"
+   },
+   {
+    "food": "almendra",
+    "g": 40,
+    "note": "tostada, sustituye al piñón"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 60
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Cuece el espagueti al dente y reserva media taza del agua de cocción.",
+   "Licúa la albahaca, las almendras, el ajo, el aceite y un poco de agua de cocción hasta obtener un pesto suave.",
+   "Agrega el parmesano y la sal al pesto y mezcla.",
+   "Mezcla la pasta con el pesto, añade agua si hace falta y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_pasta_limon_pollo",
+  "name": "Pasta al limón con pollo",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 400,
+    "note": "en tiras"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con sal y pimienta y dóralo en aceite a fuego medio-alto, unos 6 minutos.",
+   "Agrega el ajo y la espinaca, y cocina hasta que la espinaca marchite.",
+   "Cuece la pasta al dente y escúrrela con un poco de agua de cocción.",
+   "Mezcla la pasta con el pollo, el limón y el parmesano, y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_pasta_atun_jitomate",
+  "name": "Pasta con atún y jitomate",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300
+   },
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "escurrido"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente y reserva un poco del agua.",
+   "Sofríe la cebolla y el ajo en aceite, agrega el jitomate y cocina 8 minutos.",
+   "Añade el atún escurrido y cocina 2 minutos para que se integre.",
+   "Mezcla la pasta con la salsa, agrega perejil, limón, sal y pimienta, y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_espagueti_bolognesa",
+  "name": "Espagueti boloñesa",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 400
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada fina"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "rallada"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 100
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora la carne en aceite hasta que cambie de color y desmorónala.",
+   "Agrega la cebolla, el ajo y la zanahoria, y cocina 5 minutos.",
+   "Incorpora el jitomate, el puré, el orégano, sal y pimienta; cocina a fuego bajo 25 minutos.",
+   "Cuece la pasta, mézclala con la salsa y sirve con parmesano."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_pasta_camaron_ajo",
+  "name": "Pasta con camarones al ajo",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280
+   },
+   {
+    "food": "camaron_crudo",
+    "g": 300,
+    "note": "pelados y desvenados"
+   },
+   {
+    "food": "ajo",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "chile_arbol",
+    "g": 1,
+    "note": "desmoronado"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente y reserva un poco del agua.",
+   "Dora el ajo y el chile de árbol en aceite a fuego medio, 1 minuto.",
+   "Agrega los camarones con sal y cocina 3 minutos hasta que estén rosados.",
+   "Incorpora la pasta, el perejil y el limón, añade agua de cocción si hace falta y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_rigatoni_pavo_espinaca",
+  "name": "Rigatoni con pavo y espinaca",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300,
+    "note": "rigatoni"
+   },
+   {
+    "food": "pavo_pechuga",
+    "g": 300,
+    "note": "cocida, en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece el rigatoni al dente y escúrrelo.",
+   "Dora la cebolla y el ajo en aceite, agrega el jitomate y cocina 8 minutos.",
+   "Incorpora el pavo y la espinaca, y cocina hasta que la espinaca marchite.",
+   "Mezcla con la pasta, agrega parmesano, sal y pimienta, y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_pasta_fagioli",
+  "name": "Pasta e fagioli",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 120,
+    "note": "pasta corta"
+   },
+   {
+    "food": "alubias_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, la zanahoria y el ajo en aceite unos 5 minutos.",
+   "Agrega el jitomate, el orégano y 1 litro de agua; cocina 10 minutos.",
+   "Incorpora las alubias y la pasta, y cocina 10 minutos más, moviendo seguido.",
+   "Sazona con sal, agrega la albahaca y sirve con parmesano."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_penne_pollo_brocoli",
+  "name": "Penne con pollo y brócoli",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "brocoli",
+    "g": 250,
+    "note": "en floretes"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la penne al dente con los floretes de brócoli durante los últimos 3 minutos.",
+   "Dora el pollo con sal y pimienta en aceite hasta que esté bien cocido.",
+   "Agrega el ajo 1 minuto y mezcla la pasta con el brócoli y el pollo.",
+   "Termina con limón y parmesano, y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_linguine_almejas",
+  "name": "Linguine con almejas",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280,
+    "note": "linguine"
+   },
+   {
+    "food": "almeja",
+    "g": 500,
+    "note": "con concha, bien lavadas"
+   },
+   {
+    "food": "ajo",
+    "g": 8,
+    "note": "laminado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 1,
+    "note": "desmoronado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cuece el linguine al dente y reserva media taza del agua.",
+   "Dora el ajo y el chile en aceite, agrega las almejas y tapa 3 minutos.",
+   "Retira las almejas que ya abrieron y cocina las demás hasta que abran.",
+   "Mezcla la pasta con las almejas, el perejil, el limón y un poco de agua de cocción."
+  ],
+  "tags": [
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_pasta_salmon_ahumado",
+  "name": "Pasta con salmón ahumado",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280
+   },
+   {
+    "food": "salmon_ahumado",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "crema_cocinar",
+    "g": 60
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "en juliana fina"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "picado"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente y escúrrela.",
+   "Sofríe la cebolla y el ajo 2 minutos sin que se doren.",
+   "Agrega la crema y el limón, y cocina 1 minuto a fuego bajo.",
+   "Mezcla la pasta con la salsa, el salmón, el perejil y el parmesano, y sirve."
+  ],
+  "tags": [
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_ziti_horno_mozzarella",
+  "name": "Ziti al horno con mozzarella",
+  "servings": 6,
+  "time_min": 55,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300,
+    "note": "ziti o penne"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 150
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 200,
+    "note": "rallada"
+   },
+   {
+    "food": "queso_ricotta",
+    "g": 150
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Cuece la pasta 3 minutos menos del tiempo indicado y escúrrela.",
+   "Sofríe la cebolla y el ajo, agrega el jitomate, el puré y sal, y cocina 10 minutos.",
+   "Mezcla la pasta con la salsa, la ricotta y la mitad de la mozzarella.",
+   "Pasa a un refractor, cubre con el resto de mozzarella y parmesano, y hornea a 190 °C por 20 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_espagueti_aglio_olio",
+  "name": "Espagueti aglio e olio",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 300
+   },
+   {
+    "food": "ajo",
+    "g": 12,
+    "note": "laminado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 50
+   },
+   {
+    "food": "chile_arbol",
+    "g": 1,
+    "note": "desmoronado"
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece el espagueti al dente y reserva media taza del agua.",
+   "Dora el ajo laminado en aceite a fuego bajo hasta que esté dorado, sin quemarlo.",
+   "Agrega el chile y la pasta con un poco de agua de cocción, y mueve 1 minuto.",
+   "Sirve con perejil, parmesano y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_pasta_calabacita_limon",
+  "name": "Pasta de calabacita al limón",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280
+   },
+   {
+    "food": "calabacita",
+    "g": 300,
+    "note": "en listones"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente y reserva media taza del agua.",
+   "Saltea el ajo en aceite, agrega la calabacita y cocina 4 minutos.",
+   "Mezcla la pasta con la calabacita, el jugo y la ralladura de limón.",
+   "Sirve con parmesano, albahaca picada, sal y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_fusilli_pollo_pesto_rojo",
+  "name": "Fusilli con pollo y pesto rojo",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280,
+    "note": "fusilli"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 350,
+    "note": "en cubos"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 60
+   },
+   {
+    "food": "almendra",
+    "g": 30,
+    "note": "tostada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece el fusilli al dente y escúrrelo.",
+   "Dora el pollo con sal y pimienta en un poco de aceite hasta que esté cocido.",
+   "Licúa el puré, la almendra, el ajo, la albahaca, el parmesano y el aceite para hacer el pesto rojo.",
+   "Mezcla la pasta y el pollo con el pesto y sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_pasta_lentejas_jitomate",
+  "name": "Pasta con lentejas y jitomate",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite hasta que estén transparentes.",
+   "Agrega el jitomate, el orégano y 500 ml de agua; cocina 10 minutos.",
+   "Incorpora las lentejas y la pasta, y cocina 10 minutos más, moviendo seguido.",
+   "Sazona con sal, agrega albahaca y sirve con parmesano."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_pasta_tofu_pesto_vegano",
+  "name": "Pasta con tofu y pesto vegano",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 280
+   },
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "albahaca",
+    "g": 40
+   },
+   {
+    "food": "almendra",
+    "g": 30
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "levadura",
+    "g": 5,
+    "note": "para dar sabor a queso"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora los cubos de tofu en 15 g de aceite hasta que estén dorados; sazona con sal.",
+   "Licúa la albahaca, las almendras, el ajo, el limón, la levadura, el resto del aceite y un poco de agua.",
+   "Cuece la pasta al dente y escúrrela.",
+   "Mezcla la pasta con el pesto y el tofu, y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_lasana_pavo_ligera",
+  "name": "Lasaña ligera de pavo y espinaca",
+  "servings": 6,
+  "time_min": 70,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 200,
+    "note": "láminas para lasaña"
+   },
+   {
+    "food": "pavo_pechuga",
+    "g": 400,
+    "note": "molida o cocida y desmenuzada"
+   },
+   {
+    "food": "espinaca",
+    "g": 200
+   },
+   {
+    "food": "queso_cottage",
+    "g": 200
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 120,
+    "note": "rallada"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina la cebolla y el ajo en aceite, agrega el jitomate con orégano y cocina 10 minutos.",
+   "Saltea la espinaca con sal y mezcla con el pavo y el cottage.",
+   "Cuece las láminas de pasta y acomódalas en un refractor con salsa, relleno y mozzarella.",
+   "Hornea a 180 °C por 35 minutos, hasta que la superficie esté dorada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_risotto_champinones",
+  "name": "Risotto de champiñones",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 300,
+    "note": "arroz de grano corto"
+   },
+   {
+    "food": "champinon",
+    "g": 400,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 50,
+    "note": "rallado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000,
+    "note": "caliente"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Saltea los champiñones en aceite hasta que suelten y doren; aparta.",
+   "Sofríe la cebolla y el ajo, agrega el arroz y tuéstalo 2 minutos.",
+   "Añade el agua caliente de a poco, moviendo, y espera a que se absorba antes de agregar más (unos 20 minutos).",
+   "Incorpora los champiñones, la mantequilla y el parmesano, y sirve cremoso."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_risotto_espinaca_limon",
+  "name": "Risotto de espinaca y limón",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 300
+   },
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000,
+    "note": "caliente"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en mantequilla, luego agrega el arroz y tuéstalo 2 minutos.",
+   "Añade el agua caliente poco a poco, moviendo, durante unos 18 minutos.",
+   "Incorpora la espinaca picada y cocina 2 minutos hasta que marchite.",
+   "Retira del fuego, agrega limón, parmesano, sal y pimienta, y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_risotto_calabacita_albahaca",
+  "name": "Risotto de calabacita y albahaca",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 300
+   },
+   {
+    "food": "calabacita",
+    "g": 300,
+    "note": "en cubitos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "albahaca",
+    "g": 10,
+    "note": "picada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000,
+    "note": "caliente"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora la calabacita en aceite y resérvala.",
+   "Sofríe la cebolla y el ajo, agrega el arroz y tuéstalo 2 minutos.",
+   "Añade el agua caliente poco a poco durante unos 18 minutos, moviendo seguido.",
+   "Incorpora la calabacita, la albahaca y el parmesano, sazona con sal y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_risotto_pollo_esparrago",
+  "name": "Risotto de pollo con espárrago",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 280
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 350,
+    "note": "en cubos"
+   },
+   {
+    "food": "esparrago",
+    "g": 200,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 900,
+    "note": "caliente"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora el pollo con sal y pimienta en aceite; resérvalo.",
+   "Sofríe la cebolla y el ajo, agrega el arroz y tuéstalo 2 minutos.",
+   "Añade el agua caliente de a poco durante unos 18 minutos, luego incorpora el pollo.",
+   "Agrega los espárragos y el parmesano, mezcla y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_risotto_camaron_limon",
+  "name": "Risotto de camarón al limón",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 280
+   },
+   {
+    "food": "camaron_crudo",
+    "g": 300,
+    "note": "pelados y desvenados"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "agua_simple",
+    "g": 900,
+    "note": "caliente"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en mantequilla, agrega el arroz y tuéstalo 2 minutos.",
+   "Añade el agua caliente poco a poco durante unos 18 minutos.",
+   "Cocina los camarones con sal en una sartén 3 minutos y agrégalos al arroz.",
+   "Termina con limón, parmesano y perejil, y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_risotto_jitomate_albahaca",
+  "name": "Risotto de jitomate y albahaca",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 300
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado sin piel"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "albahaca",
+    "g": 8,
+    "note": "picada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 900,
+    "note": "caliente"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite, agrega el jitomate y cocina 5 minutos.",
+   "Incorpora el arroz y tuéstalo 2 minutos.",
+   "Añade el agua caliente poco a poco durante unos 18 minutos.",
+   "Retira del fuego, agrega albahaca, parmesano y sal, y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_risotto_kale_cebolla_morada",
+  "name": "Risotto de kale y cebolla morada",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 300
+   },
+   {
+    "food": "kale",
+    "g": 150,
+    "note": "sin tallo, picada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 120,
+    "note": "en juliana"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 50,
+    "note": "rallado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000,
+    "note": "caliente"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina la cebolla morada en mantequilla a fuego bajo 10 minutos hasta que esté suave.",
+   "Agrega el ajo y el arroz, y tuéstalo 2 minutos.",
+   "Añade el agua caliente poco a poco durante 18 minutos, incorporando el kale al final.",
+   "Retira del fuego, agrega parmesano, sal y pimienta, y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_risotto_tocino_espinaca",
+  "name": "Risotto de tocino y espinaca",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 280
+   },
+   {
+    "food": "tocino",
+    "g": 60,
+    "note": "en cubitos"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 900,
+    "note": "caliente"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora el tocino en sartén hasta que esté crujiente y reserva la mitad de la grasa.",
+   "Sofríe la cebolla y el ajo con la grasa, agrega el arroz y tuéstalo 2 minutos.",
+   "Añade el agua caliente poco a poco durante unos 18 minutos.",
+   "Incorpora la espinaca, el tocino, el parmesano y la pimienta, y sirve."
+  ],
+  "tags": [
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_gnocchi_pomodoro",
+  "name": "Gnocchi de papa al pomodoro",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 500,
+    "note": "machacada y fría"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 120
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo batido"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "albahaca",
+    "g": 6
+   }
+  ],
+  "steps": [
+   "Mezcla la papa machacada con el huevo, el parmesano y la sal.",
+   "Agrega la harina poco a poco hasta formar una masa suave; no la trabajes de más.",
+   "Forma cilindros, córtalos en trozos de 2 cm y marca cada uno con un tenedor.",
+   "Cuece los gnocchi en agua con sal hasta que floten, y sírvelos con salsa de jitomate al ajo y albahaca."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_gnocchi_pesto",
+  "name": "Gnocchi de papa con pesto",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 500,
+    "note": "machacada y fría"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 120
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo batido"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "albahaca",
+    "g": 40,
+    "note": "hojas frescas"
+   },
+   {
+    "food": "almendra",
+    "g": 30
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Mezcla la papa con el huevo y la sal, y agrega la harina hasta obtener una masa suave.",
+   "Forma cilindros, córtalos en trozos y cuécelos en agua con sal hasta que floten.",
+   "Licúa la albahaca, las almendras, el ajo, el parmesano y el aceite para hacer el pesto.",
+   "Mezcla los gnocchi escurridos con el pesto y sirve."
+  ],
+  "tags": [
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "ita_gnocchi_mantequilla_albahaca",
+  "name": "Gnocchi dorados con mantequilla y albahaca",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 450,
+    "note": "machacada y fría"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 110
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo batido"
+   },
+   {
+    "food": "mantequilla",
+    "g": 30
+   },
+   {
+    "food": "albahaca",
+    "g": 8,
+    "note": "hojas"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla la papa, el huevo, la sal y la harina hasta formar una masa suave.",
+   "Forma cilindros, córtalos en trozos y cuécelos hasta que floten.",
+   "Derrite la mantequilla en sartén y dora los gnocchi de 2 a 3 minutos por lado.",
+   "Sirve con albahaca, parmesano y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_gnocchi_camote_pollo",
+  "name": "Gnocchi de camote con pollo",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 500,
+    "note": "machacado"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 130
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo batido"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 300,
+    "note": "desmenuzada"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   }
+  ],
+  "steps": [
+   "Mezcla el camote con el huevo, la sal y la harina hasta formar una masa suave.",
+   "Forma cilindros, córtalos en trozos y cuécelos en agua con sal hasta que floten.",
+   "Sofríe la cebolla y el ajo, agrega el jitomate y el pollo, y cocina 8 minutos.",
+   "Mezcla los gnocchi con el pollo, espolvorea parmesano y sirve."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_gnocchi_horno_mozzarella",
+  "name": "Gnocchi al horno con mozzarella",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 500,
+    "note": "machacada y fría"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 120
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo batido"
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 80
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rebanada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Forma los gnocchi con la papa, el huevo, la harina y la sal, y cuécelos hasta que floten.",
+   "Prepara la salsa cociendo el jitomate, el puré, el ajo y el aceite 10 minutos.",
+   "Acomoda los gnocchi en un refractor, cubre con salsa y mozzarella, y espolvorea parmesano.",
+   "Hornea a 200 °C por 15 minutos, hasta que el queso esté dorado; agrega albahaca al servir."
+  ],
+  "tags": [
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "ita_gnocchi_espinaca_ricotta",
+  "name": "Gnocchi de espinaca y ricotta",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "queso_ricotta",
+    "g": 250
+   },
+   {
+    "food": "harina_trigo",
+    "g": 100
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo batido"
+   },
+   {
+    "food": "espinaca",
+    "g": 150,
+    "note": "picada"
+   },
+   {
+    "food": "mantequilla",
+    "g": 20
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Saltea la espinaca con una pizca de sal hasta que marchite; escúrrela y pícala bien.",
+   "Mezcla la ricotta, la espinaca, el huevo, 20 g de parmesano y la harina hasta formar una masa suave.",
+   "Forma cilindros, córtalos en trozos y cuécelos en agua con sal hasta que floten.",
+   "Derrite la mantequilla, mezcla los gnocchi, espolvorea parmesano y pimienta, y sirve."
+  ],
+  "tags": [
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "ita_pizza_margarita",
+  "name": "Pizza margarita casera",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 80
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 200,
+    "note": "rebanada"
+   },
+   {
+    "food": "albahaca",
+    "g": 6
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla la harina, la levadura, la sal, el aceite y el agua tibia; amasa 8 minutos.",
+   "Deja reposar la masa tapada 60 minutos, hasta que duplique su volumen.",
+   "Extiende la masa, cubre con puré, mozzarella y orégano.",
+   "Hornea a 250 °C por 10 a 12 minutos y termina con albahaca fresca."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_pizza_pollo_pesto",
+  "name": "Pizza de pollo y pesto",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "desmenuzada"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rebanada"
+   },
+   {
+    "food": "albahaca",
+    "g": 20,
+    "note": "hojas"
+   },
+   {
+    "food": "almendra",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Prepara la masa con harina, levadura, sal, aceite y agua; deja reposar 60 minutos.",
+   "Licúa la albahaca, las almendras, el ajo, el parmesano y un poco de aceite para hacer el pesto.",
+   "Extiende la masa, unta el pesto, agrega el pollo y la mozzarella.",
+   "Hornea a 250 °C por 12 minutos y sirve caliente."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_pizza_jamon_pavo_champinon",
+  "name": "Pizza de jamón de pavo y champiñón",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 80
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rebanada"
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 100,
+    "note": "en tiras"
+   },
+   {
+    "food": "champinon",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Haz la masa con harina, levadura, sal, aceite y agua, y deja reposar 60 minutos.",
+   "Saltea los champiñones en una sartén seca hasta que suelten su agua.",
+   "Extiende la masa, cubre con puré, mozzarella, jamón, champiñones y orégano.",
+   "Hornea a 250 °C por 12 minutos hasta que la orilla esté dorada."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_pizza_blanca_espinaca_ricotta",
+  "name": "Pizza blanca de espinaca y ricotta",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "queso_ricotta",
+    "g": 150
+   },
+   {
+    "food": "espinaca",
+    "g": 120,
+    "note": "salteada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 120,
+    "note": "rebanada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   }
+  ],
+  "steps": [
+   "Prepara la masa y déjala reposar 60 minutos.",
+   "Saltea la espinaca con el ajo y escúrrela bien.",
+   "Extiende la masa, unta la ricotta, cubre con espinaca, mozzarella y parmesano.",
+   "Hornea a 250 °C por 12 minutos y sirve."
+  ],
+  "tags": [
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "ita_pizza_chorizo_cebolla",
+  "name": "Pizza de chorizo y cebolla morada",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 80
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 120,
+    "note": "desmoronado y cocido"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 80,
+    "note": "en aros"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rebanada"
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Prepara la masa con harina, levadura, sal, aceite y agua; deja reposar 60 minutos.",
+   "Cocina el chorizo desmoronado en sartén hasta que esté dorado y escurre la grasa.",
+   "Extiende la masa, cubre con puré, mozzarella, chorizo, cebolla y orégano.",
+   "Hornea a 250 °C por 12 minutos y sirve."
+  ],
+  "tags": [
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_pizza_ricotta_limon",
+  "name": "Pizza blanca de ricotta y limón",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "queso_ricotta",
+    "g": 200
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "ralladura y jugo"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 100,
+    "note": "rebanada"
+   }
+  ],
+  "steps": [
+   "Haz la masa con harina, levadura, sal, aceite y agua, y deja reposar 60 minutos.",
+   "Mezcla la ricotta con la ralladura y el jugo de limón.",
+   "Extiende la masa, unta la mezcla de ricotta y cubre con mozzarella y parmesano.",
+   "Hornea a 250 °C por 12 minutos y termina con albahaca."
+  ],
+  "tags": [
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "ita_pizza_atun_cebolla",
+  "name": "Pizza de atún con cebolla",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 80
+   },
+   {
+    "food": "atun_agua",
+    "g": 150,
+    "note": "escurrido"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 80,
+    "note": "en aros"
+   },
+   {
+    "food": "aceitunas",
+    "g": 30,
+    "note": "picadas"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 120,
+    "note": "rebanada"
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Prepara la masa y déjala reposar 60 minutos.",
+   "Extiende la masa, cubre con puré, mozzarella y orégano.",
+   "Distribuye el atún, la cebolla morada y las aceitunas encima.",
+   "Hornea a 250 °C por 12 minutos y sirve caliente."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_pizza_calabacita_mozzarella",
+  "name": "Pizza de calabacita y mozzarella",
+  "servings": 4,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en listones finos"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rebanada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Prepara la masa y déjala reposar 60 minutos.",
+   "Dora la calabacita con ajo en una sartén con poco aceite.",
+   "Extiende la masa, unta el puré, cubre con calabacita y mozzarella.",
+   "Hornea a 250 °C por 12 minutos, espolvorea parmesano y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_calzone_jamon_queso",
+  "name": "Calzone de jamón y queso",
+  "servings": 4,
+  "time_min": 80,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 150,
+    "note": "tibia"
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 60
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Prepara la masa con harina, levadura, sal, aceite y agua, y deja reposar 45 minutos.",
+   "Divide la masa en 4 bolas y extiende cada una en un disco.",
+   "Rellena una mitad con jamón, mozzarella, puré y orégano; dobla y sella las orillas.",
+   "Hornea a 220 °C por 20 minutos, hasta que estén doraditos."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_focaccia_jitomate",
+  "name": "Focaccia de jitomate",
+  "servings": 6,
+  "time_min": 100,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "harina_trigo",
+    "g": 250
+   },
+   {
+    "food": "levadura",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "agua_simple",
+    "g": 170,
+    "note": "tibia"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "picado"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla harina, levadura, sal, 15 g de aceite y agua; amasa y deja reposar 60 minutos.",
+   "Extiende la masa en un molde engrasado y hunde los dedos para hacer hoyitos.",
+   "Cubre con jitomate, ajo, orégano y el resto del aceite; deja reposar 20 minutos más.",
+   "Hornea a 220 °C por 25 minutos y termina con albahaca."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_pan_ajo_horno",
+  "name": "Pan de ajo al horno",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "bolillo",
+    "g": 240,
+    "note": "4 piezas partidas a lo largo"
+   },
+   {
+    "food": "ajo",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 40
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 190 °C y parte los bolillos a lo largo.",
+   "Derrite la mantequilla y mezcla con el ajo y el perejil.",
+   "Unta la mezcla en el interior del pan y espolvorea parmesano.",
+   "Hornea 8 minutos hasta que esté dorado y crujiente."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_pollo_cacciatora",
+  "name": "Pollo a la cacciatora",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "champinon",
+    "g": 150,
+    "note": "en mitades"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "ajo",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 4
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con sal y pimienta y dóralo en aceite por todos lados; resérvalo.",
+   "Sofríe la cebolla, el pimiento, el ajo y los champiñones hasta que estén suaves.",
+   "Agrega el jitomate, el puré y el orégano, regresa el pollo y cocina tapado 35 minutos.",
+   "Termina con albahaca picada y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ita_pollo_parmesana",
+  "name": "Pollo a la parmesana al horno",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "aplanada en filetes"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 40
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos batidos"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 60,
+    "note": "rallado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 120
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rebanada"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Pasa los filetes por harina, luego por huevo y reserva.",
+   "Dóralos en aceite unos 3 minutos por lado y colócalos en un refractor.",
+   "Cubre cada filete con puré, mozzarella, parmesano y orégano.",
+   "Hornea a 200 °C por 15 minutos y termina con albahaca."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_pollo_napolitana_empanizado",
+  "name": "Pollo empanizado a la napolitana",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "aplanada"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 40
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos batidos"
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "molido a migas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 40
+   },
+   {
+    "food": "pure_tomate",
+    "g": 100
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "rebanada"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con sal, pásalo por harina, huevo y pan molido.",
+   "Dora los filetes en aceite unos 3 minutos por lado.",
+   "Coloca los filetes en un refractor, cubre con puré y mozzarella.",
+   "Gratina en horno a 220 °C 5 minutos y sirve con albahaca."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_saltimbocca_pollo",
+  "name": "Saltimbocca de pollo con jamón",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en filetes delgados"
+   },
+   {
+    "food": "jamon_pavo",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "albahaca",
+    "g": 8,
+    "note": "hojas"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Coloca una hoja de albahaca y una rebanada de jamón sobre cada filete y sujeta con palillo.",
+   "Sazona con pimienta y dora en aceite con la parte del jamón hacia abajo, 4 minutos.",
+   "Voltea, agrega el agua y la mantequilla, y cocina 4 minutos más tapado.",
+   "Retira los palillos, baña con la salsa de la sartén y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_bistec_pizzaiola",
+  "name": "Bistec a la pizzaiola",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 600,
+    "note": "en bistecs"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 60
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en juliana"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona los bistecs con sal y pimienta y dóralos en aceite; resérvalos.",
+   "Sofríe la cebolla y el ajo, agrega el jitomate, el puré y el orégano, y cocina 8 minutos.",
+   "Regresa la carne a la salsa y cocina 5 minutos más para que tome sabor.",
+   "Sirve con la salsa encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_albondigas_res_pomodoro",
+  "name": "Albóndigas de res al pomodoro",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 400
+   },
+   {
+    "food": "pan_integral",
+    "g": 40,
+    "note": "remojado en un poco de leche"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "jitomate",
+    "g": 500,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Mezcla la carne con el pan, el huevo, el parmesano, el perejil, el ajo, sal y pimienta.",
+   "Forma albóndigas del tamaño de una nuez.",
+   "Prepara la salsa sofriendo la cebolla, agregando el jitomate y cocinando 15 minutos.",
+   "Dora las albóndigas en aceite, agrégalas a la salsa y cocina 15 minutos; sirve con albahaca."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_bistec_limon_ajo",
+  "name": "Bistec de res con limón y ajo",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 500,
+    "note": "en bistecs"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Marina la carne con limón, ajo, sal y pimienta durante 10 minutos.",
+   "Calienta una sartén de hierro y dora la carne en aceite de 2 a 3 minutos por lado.",
+   "Deja reposar 5 minutos y córtala en contra de la fibra.",
+   "Sirve con el perejil y el jugo de la sartén."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_tilapia_limon_horno",
+  "name": "Tilapia al limón a la italiana",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "en rodajas y jugo"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C y acomoda los filetes en un refractor engrasado.",
+   "Mezcla el ajo, el jugo de limón, el aceite, sal y pimienta, y báñalos con la mezcla.",
+   "Cubre con jitomate y rodajas de limón.",
+   "Hornea 15 minutos hasta que el pescado se desmorone y espolvorea perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_salmon_aceitunas_horno",
+  "name": "Salmón al horno con aceitunas y jitomate",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceitunas",
+    "g": 60,
+    "note": "picadas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Mezcla el jitomate, las aceitunas, el ajo, el aceite, el orégano y el limón.",
+   "Sazona el salmón con sal y pimienta y acomódalo en un refractor; cúbrelo con la mezcla.",
+   "Hornea 15 minutos hasta que el salmón esté cocido por dentro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_camarones_ajillo_italiano",
+  "name": "Camarones al ajillo a la italiana",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 500,
+    "note": "pelados y desvenados"
+   },
+   {
+    "food": "ajo",
+    "g": 12,
+    "note": "laminado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "chile_arbol",
+    "g": 1,
+    "note": "desmoronado"
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Calienta el aceite a fuego medio y dora el ajo con el chile sin quemarlo.",
+   "Agrega los camarones con sal y cocina 2 a 3 minutos por lado.",
+   "Retira del fuego, agrega el jugo de limón y el perejil.",
+   "Sirve de inmediato con pan para mojar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_merluza_pomodoro",
+  "name": "Merluza al pomodoro",
+  "servings": 4,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "merluza",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "albahaca",
+    "g": 6
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite, agrega el jitomate, el orégano y sal, y cocina 10 minutos.",
+   "Acomoda los filetes de merluza sobre la salsa y sazona con pimienta.",
+   "Tapa y cocina a fuego bajo 10 minutos, hasta que el pescado se desmorone.",
+   "Sirve con albahaca fresca."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_calamares_romana",
+  "name": "Calamares a la romana",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "calamar",
+    "g": 500,
+    "note": "en aros"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 80
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30,
+    "note": "para dorar"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en gajos"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Seca bien los aros de calamar con papel y pásalos por harina con sal.",
+   "Calienta el aceite en sartén honda a fuego medio-alto.",
+   "Fríe los aros en tandas de 1 a 2 minutos hasta que estén dorados; escurre sobre papel.",
+   "Sirve con limón y pimienta."
+  ],
+  "tags": [
+   "sin lácteos",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_pollo_limone_ejotes",
+  "name": "Pollo al limone con ejotes",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en filetes delgados"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 80,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "ejote",
+    "g": 200,
+    "note": "cocido, en trozos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 120
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pasa los filetes por harina con sal y pimienta, y dóralos en aceite unos 3 minutos por lado.",
+   "Retira el pollo y saltea el ajo y los ejotes 2 minutos.",
+   "Agrega el jugo, la ralladura, el agua y la mantequilla; cocina hasta que espese.",
+   "Regresa el pollo a la salsa, mezcla un minuto y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "ita_arrachera_gremolata",
+  "name": "Arrachera a la gremolata",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 500,
+    "note": "en tiras gruesas"
+   },
+   {
+    "food": "perejil",
+    "g": 20,
+    "note": "picado fino"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado fino"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "ralladura y jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el perejil, el ajo, la ralladura, el jugo y el aceite para hacer la gremolata.",
+   "Sazona la arrachera con sal y pimienta y ásala en sartén muy caliente, 3 minutos por lado.",
+   "Deja reposar 5 minutos y corta en contra de la fibra.",
+   "Sirve con la gremolata encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_trucha_horno_hierbas",
+  "name": "Trucha al horno con hierbas",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "trucha",
+    "g": 600,
+    "note": "4 filetes"
+   },
+   {
+    "food": "limon",
+    "g": 40,
+    "note": "jugo y rodajas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "albahaca",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C y engrasa un refractor.",
+   "Mezcla el aceite, el ajo, el jugo de limón, las hierbas, sal y pimienta.",
+   "Acomoda los filetes, báñalos con la mezcla y cubre con rodajas de limón.",
+   "Hornea 12 a 15 minutos y sirve con más hierbas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_sardinas_limon_jitomate",
+  "name": "Sardinas en lata con jitomate y limón",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sardina_lata",
+    "g": 200,
+    "note": "escurridas"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "en juliana fina"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "tostado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Escurre las sardinas y desmenúzalas con un tenedor.",
+   "Mezcla el jitomate, la cebolla, el limón, el aceite y el perejil.",
+   "Agrega las sardinas y sazona con sal.",
+   "Sirve sobre el pan tostado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_polpette_mixtas_jitomate",
+  "name": "Polpette mixtas al jitomate",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 250
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 200,
+    "note": "molida en casa"
+   },
+   {
+    "food": "pan_integral",
+    "g": 40,
+    "note": "migas"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "jitomate",
+    "g": 500,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Mezcla la carne, el pollo, las migas, el huevo, el parmesano, el perejil, el ajo, sal y pimienta.",
+   "Forma bolitas del tamaño de una nuez.",
+   "Cocina el jitomate con cebolla y aceite 15 minutos para hacer la salsa.",
+   "Cuece las polpette en la salsa a fuego bajo 20 minutos y sirve con albahaca."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_pollo_piccata_limon",
+  "name": "Pollo a la piccata con limón",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en filetes delgados"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 30
+   },
+   {
+    "food": "mantequilla",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "jugo y rodajas"
+   },
+   {
+    "food": "aceitunas",
+    "g": 30,
+    "note": "picadas"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Pasa los filetes por harina con sal y pimienta y sacude el exceso.",
+   "Dóralos en aceite y mantequilla 3 minutos por lado; resérvalos.",
+   "En la misma sartén, saltea el ajo y agrega el agua, el jugo de limón y las aceitunas.",
+   "Regresa el pollo, cocina 2 minutos y sirve con perejil y rodajas de limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_pollo_pesto_horno",
+  "name": "Pollo al pesto al horno",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "entera o en filetes"
+   },
+   {
+    "food": "albahaca",
+    "g": 30,
+    "note": "hojas"
+   },
+   {
+    "food": "almendra",
+    "g": 25
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Licúa la albahaca, las almendras, el parmesano, el aceite, el ajo, el limón y sal para hacer el pesto.",
+   "Unta el pollo con el pesto por ambos lados y acomódalo en un refractor.",
+   "Hornea 25 minutos hasta que esté cocido por dentro y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_hamburguesa_pesto_mozzarella",
+  "name": "Hamburguesa a la italiana con pesto",
+  "servings": 4,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 500
+   },
+   {
+    "food": "bolillo",
+    "g": 240,
+    "note": "4 piezas partidas"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "albahaca",
+    "g": 10,
+    "note": "para el pesto"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 10,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 30,
+    "note": "hojas"
+   }
+  ],
+  "steps": [
+   "Forma 4 hamburguesas con la carne, sal y pimienta, y cocínalas en sartén 4 minutos por lado.",
+   "Licúa la albahaca, el parmesano y el aceite para hacer un pesto rápido.",
+   "Tuesta los bolillos, unta pesto, coloca la hamburguesa y la mozzarella para que derrita.",
+   "Agrega jitomate y lechuga, y sirve."
+  ],
+  "tags": [
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_pollo_espinaca_limon",
+  "name": "Pollo salteado con espinaca y limón",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 400,
+    "note": "en tiras"
+   },
+   {
+    "food": "espinaca",
+    "g": 200
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo y ralladura"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sazona las tiras de pollo con sal y pimienta y dóralas en aceite de 4 a 5 minutos.",
+   "Agrega el ajo y la espinaca, y saltea hasta que la espinaca marchite.",
+   "Agrega el jugo y la ralladura de limón.",
+   "Sirve con parmesano encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_minestrone_verduras",
+  "name": "Minestrone de verduras",
+  "servings": 6,
+  "time_min": 45,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "alubias_cocidas",
+    "g": 200,
+    "note": "escurridas"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "en cubitos"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en cubitos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "fideo_sopa",
+    "g": 60
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 1200
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, la zanahoria y el ajo en aceite 5 minutos.",
+   "Agrega el jitomate, la calabacita y el agua; cocina 15 minutos.",
+   "Incorpora las alubias y el fideo, y cocina 10 minutos más.",
+   "Agrega la espinaca, sazona con sal, espolvorea albahaca y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_pastina_pollo",
+  "name": "Sopa de pastina con pollo",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fideo_sopa",
+    "g": 80
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "entera"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en cuartos"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "entero"
+   },
+   {
+    "food": "consome_pollo",
+    "g": 8,
+    "note": "2 cucharaditas"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1500
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Hierve el agua con el pollo, la cebolla, el ajo y el consomé; cocina 20 minutos.",
+   "Retira el pollo, deshébralo y regrésalo al caldo con la zanahoria.",
+   "Agrega la pastina y cocina 6 a 8 minutos hasta que esté al dente.",
+   "Sazona con sal, sirve con perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_sopa_lentejas_italiana",
+  "name": "Sopa de lentejas a la italiana",
+  "servings": 5,
+  "time_min": 50,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lenteja_seca",
+    "g": 200,
+    "note": "enjuagada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "agua_simple",
+    "g": 1300
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 4
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, la zanahoria y el ajo en aceite 5 minutos.",
+   "Agrega el jitomate, el orégano, las lentejas y el agua; cocina tapado 35 minutos.",
+   "Sazona con sal y agrega la espinaca al final.",
+   "Sirve con parmesano espolvoreado."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_ribollita_frijol_col",
+  "name": "Ribollita de frijol y col",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 300,
+    "note": "con su caldo"
+   },
+   {
+    "food": "col",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "pan_integral",
+    "g": 80,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, la zanahoria y el ajo en aceite 5 minutos.",
+   "Agrega el jitomate, la col y el agua; cocina 15 minutos.",
+   "Incorpora el frijol con su caldo, sazona y cocina 10 minutos más.",
+   "Acomoda el pan en el plato, vierte la sopa encima y dale un toque de aceite."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_sopa_pomodoro_albahaca",
+  "name": "Sopa de jitomate y albahaca",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "jitomate",
+    "g": 700,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "albahaca",
+    "g": 8
+   },
+   {
+    "food": "pure_tomate",
+    "g": 30
+   },
+   {
+    "food": "agua_simple",
+    "g": 400
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "en cubitos tostados"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite hasta que estén suaves.",
+   "Agrega el jitomate, el puré y el agua; cocina 15 minutos.",
+   "Licúa la sopa hasta que quede tersa y regrésala a la olla con sal.",
+   "Sirve con albahaca, parmesano y los cubitos de pan tostado."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_stracciatella_pollo",
+  "name": "Stracciatella de pollo con espinaca",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "consome_pollo",
+    "g": 12,
+    "note": "3 cucharaditas"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos batidos"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Calienta el agua con el consomé a fuego medio hasta que hierva.",
+   "Baja el fuego, vierte el huevo batido en hilo mientras revuelves suavemente para formar hebras.",
+   "Agrega la espinaca y cocina 1 minuto.",
+   "Sirve con parmesano, limón y pimienta."
+  ],
+  "tags": [
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_crema_champinones",
+  "name": "Crema de champiñones a la italiana",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 400,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 20
+   },
+   {
+    "food": "harina_trigo",
+    "g": 15
+   },
+   {
+    "food": "leche_descremada",
+    "g": 300
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Derrite la mantequilla y sofríe la cebolla y el ajo.",
+   "Agrega los champiñones y cocina 8 minutos hasta que doren.",
+   "Espolvorea la harina, cocina 1 minuto y agrega la leche y el agua poco a poco.",
+   "Licúa, regresa a la olla, sazona y sirve con parmesano."
+  ],
+  "tags": [
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "ita_sopa_garbanzo_kale",
+  "name": "Sopa de garbanzo y kale",
+  "servings": 4,
+  "time_min": 40,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 300,
+    "note": "escurrido"
+   },
+   {
+    "food": "kale",
+    "g": 120,
+    "note": "sin tallo, picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 1000
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, la zanahoria y el ajo en aceite 5 minutos.",
+   "Agrega el jitomate y el agua y cocina 10 minutos.",
+   "Incorpora los garbanzos y cocina 10 minutos más.",
+   "Agrega el kale, sazona con sal y sirve con parmesano."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_zuppa_cebolla_gratinada",
+  "name": "Zuppa de cebolla gratinada",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cebolla_blanca",
+    "g": 400,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "mantequilla",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   },
+   {
+    "food": "consome_pollo",
+    "g": 8,
+    "note": "2 cucharaditas"
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cocina la cebolla en mantequilla y aceite a fuego bajo 25 minutos hasta dorar.",
+   "Agrega el agua y el consomé y cocina 15 minutos más.",
+   "Vierte la sopa en tazones resistentes, cubre con pan, mozzarella y parmesano.",
+   "Gratina en horno a 220 °C por 5 minutos y sirve con pimienta."
+  ],
+  "tags": [
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "ita_bruschetta_jitomate_albahaca",
+  "name": "Bruschetta de jitomate y albahaca",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 150,
+    "note": "5 rebanadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "en cubitos"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "1 diente para frotar y el resto picado"
+   },
+   {
+    "food": "albahaca",
+    "g": 6,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Tuesta las rebanadas de pan en horno o sartén hasta que estén crujientes.",
+   "Frota una cara del pan caliente con ajo.",
+   "Mezcla el jitomate, el ajo picado, la albahaca, el aceite, sal y pimienta.",
+   "Cubre cada rebanada con la mezcla y sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_caprese_clasica",
+  "name": "Caprese clásica",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 250,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "albahaca",
+    "g": 10,
+    "note": "hojas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Acomoda en un plato rebanadas alternadas de jitomate y mozzarella.",
+   "Pon una hoja de albahaca entre cada rebanada.",
+   "Rocía con aceite, vinagre, sal y pimienta.",
+   "Sirve a temperatura ambiente."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_insalata_garbanzo",
+  "name": "Insalata de garbanzo con feta",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 350,
+    "note": "escurrido"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "perejil",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "queso_feta",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla los garbanzos, el pepino, el jitomate y la cebolla en un bol.",
+   "Agrega el perejil, el aceite, el limón, sal y pimienta.",
+   "Incorpora el queso feta con cuidado.",
+   "Deja reposar 10 minutos antes de servir."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "meal prep",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_ensalada_romana_pollo",
+  "name": "Ensalada romana con pollo y parmesano",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lechuga_romana",
+    "g": 200,
+    "note": "en trozos"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "en lascas"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 60
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "picado"
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el yogur, el limón, el ajo, la mostaza, sal y pimienta para hacer el aderezo.",
+   "Acomoda la lechuga en un bol y agrega el pollo.",
+   "Baña con el aderezo y mezcla bien.",
+   "Termina con lascas de parmesano y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_antipasto_alubias_atun",
+  "name": "Antipasto de alubias y atún",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "alubias_cocidas",
+    "g": 300,
+    "note": "escurridas"
+   },
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "escurrido"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "en juliana fina"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceitunas",
+    "g": 40,
+    "note": "picadas"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Escurre bien las alubias y el atún.",
+   "Mezcla todo con la cebolla, el jitomate y las aceitunas.",
+   "Aliña con aceite, limón, sal y pimienta.",
+   "Deja reposar 10 minutos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_tabla_antipasti",
+  "name": "Tabla de antipasti con pavo y mozzarella",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "jamon_pavo",
+    "g": 120,
+    "note": "enrollado"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceitunas",
+    "g": 40
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en rodajas"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 100,
+    "note": "en tiras"
+   },
+   {
+    "food": "pan_integral",
+    "g": 60,
+    "note": "tostado en rebanadas"
+   },
+   {
+    "food": "almendra",
+    "g": 20
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Acomoda el jamón de pavo enrollado y los cubos de mozzarella en una tabla.",
+   "Agrega el pepino, el pimiento, las aceitunas y las almendras.",
+   "Coloca el pan tostado y decora con albahaca.",
+   "Rocía con aceite de oliva y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_berenjena_parmesana",
+  "name": "Berenjena a la parmesana",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "berenjena",
+    "g": 600,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 100
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 40,
+    "note": "rallado"
+   },
+   {
+    "food": "albahaca",
+    "g": 6
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 30
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sala las rebanadas de berenjena, déjalas reposar 10 minutos y sécalas.",
+   "Hornéalas a 200 °C con poco aceite hasta que estén tiernas, unos 15 minutos.",
+   "Mezcla el puré con ajo, sal y albahaca para hacer la salsa.",
+   "Arma capas de berenjena, salsa, mozzarella y parmesano, y hornea 20 minutos más."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_calabacitas_asadas",
+  "name": "Calabacitas asadas a la italiana",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 500,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 220 °C.",
+   "Mezcla la calabacita con el aceite, el ajo, el orégano, sal y pimienta.",
+   "Hornea en una charola 15 minutos hasta que doren.",
+   "Sirve con limón, parmesano y albahaca picada."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "económica",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_pimientos_asados_ajo",
+  "name": "Pimientos asados con ajo",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pimiento_morron",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "laminado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "albahaca",
+    "g": 8
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa los pimientos en horno a 220 °C 20 minutos hasta que la piel se oscurezca.",
+   "Retira la piel si quieres y corta en tiras.",
+   "Mezcla con ajo, aceite, vinagre, sal y pimienta.",
+   "Deja reposar 15 minutos y sirve con albahaca."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_champinones_ajillo",
+  "name": "Champiñones al ajillo",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "champinon",
+    "g": 500,
+    "note": "enteros o en mitades"
+   },
+   {
+    "food": "ajo",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 25
+   },
+   {
+    "food": "chile_arbol",
+    "g": 1,
+    "note": "desmoronado"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 10,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y dora el ajo con el chile a fuego medio.",
+   "Agrega los champiñones y cocina 6 a 8 minutos hasta que suelten su agua y doren.",
+   "Sazona con sal, pimienta y jugo de limón.",
+   "Sirve con perejil picado."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "ita_pechuga_ricotta_espinaca",
+  "name": "Pechuga rellena de espinaca y ricotta",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "abierta en mariposa"
+   },
+   {
+    "food": "espinaca",
+    "g": 150
+   },
+   {
+    "food": "queso_ricotta",
+    "g": 90
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "pure_tomate",
+    "g": 80
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Saltea la espinaca con ajo y sal; escúrrela y mezcla con la ricotta y el parmesano.",
+   "Extiende la pechuga, rellena con la mezcla, enrolla y sujeta con palillos.",
+   "Dora la pechuga en aceite y colócala en refractor con el puré y la mozzarella.",
+   "Hornea a 190 °C por 25 minutos y sirve con albahaca."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_frittata_claras_espinaca",
+  "name": "Frittata de claras con espinaca",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "clara_huevo",
+    "g": 300,
+    "note": "unas 9 claras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 50,
+    "note": "1 huevo"
+   },
+   {
+    "food": "espinaca",
+    "g": 100
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "en cubitos"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en aceite, agrega el jitomate y la espinaca, y cocina 2 minutos.",
+   "Bate las claras con el huevo, sal, pimienta y el parmesano.",
+   "Vierte la mezcla sobre las verduras y cocina tapado a fuego bajo 6 minutos.",
+   "Termina en horno 3 minutos hasta cuajar y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_frittata_pavo_calabacita",
+  "name": "Frittata de pavo y calabacita",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "4 huevos batidos"
+   },
+   {
+    "food": "pavo_pechuga",
+    "g": 120,
+    "note": "en cubitos"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en cubitos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 40,
+    "note": "rallada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Saltea la cebolla y la calabacita en aceite 4 minutos.",
+   "Agrega el pavo y calienta 1 minuto.",
+   "Vierte los huevos batidos con sal y pimienta, y reparte la mozzarella encima.",
+   "Cocina tapado a fuego bajo 8 minutos o hasta cuajar."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_pasta_fria_pollo_garbanzo",
+  "name": "Pasta fría de pollo con garbanzo",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 150
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 150,
+    "note": "escurrido"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "jugo"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 15,
+    "note": "rallado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente, enjuágala con agua fría y escúrrela.",
+   "Mezcla la pasta con el pollo, los garbanzos, el pepino y el jitomate.",
+   "Aliña con aceite, limón, sal y pimienta.",
+   "Sirve frío con albahaca y parmesano."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "ita_pasta_lentejas_atun",
+  "name": "Pasta de lentejas con atún",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pasta_seca",
+    "g": 150
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 250,
+    "note": "escurridas"
+   },
+   {
+    "food": "atun_agua",
+    "g": 150,
+    "note": "escurrido"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Cuece la pasta al dente y escúrrela.",
+   "Mezcla la pasta con las lentejas, el atún, la cebolla y el jitomate.",
+   "Aliña con aceite, limón, sal y pimienta.",
+   "Espolvorea perejil y sirve tibia."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_tazon_quinoa_pollo",
+  "name": "Tazón de quinoa a la italiana con pollo",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 300
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 350,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "queso_feta",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceitunas",
+    "g": 30,
+    "note": "picadas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "albahaca",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora el pollo con sal en una sartén hasta que esté bien cocido.",
+   "Calienta la quinoa y mezcla con la espinaca para que marchite.",
+   "Arma el tazón con quinoa, pollo, jitomate, aceitunas y feta.",
+   "Aliña con aceite, limón y albahaca, y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_yogur_miel_nuez",
+  "name": "Yogur griego con miel y nuez",
+  "servings": 2,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 300
+   },
+   {
+    "food": "miel",
+    "g": 15
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "granada",
+    "g": 30,
+    "note": "semillas"
+   },
+   {
+    "food": "fresa",
+    "g": 80,
+    "note": "en rebanadas"
+   }
+  ],
+  "steps": [
+   "Sirve el yogur griego en dos tazones.",
+   "Agrega la fresa en rebanadas y las semillas de granada.",
+   "Rocía con miel y espolvorea la nuez picada.",
+   "Sirve de inmediato."
+  ],
+  "tags": [
+   "vegetariana",
+   "rápida",
+   "sin gluten",
+   "alta en proteína"
+  ]
+ },
+ {
+  "id": "ita_polenta_champinones",
+  "name": "Polenta cremosa con champiñones",
+  "servings": 3,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 120,
+    "note": "harina de maíz nixtamalizada"
+   },
+   {
+    "food": "agua_simple",
+    "g": 600
+   },
+   {
+    "food": "champinon",
+    "g": 250,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 30,
+    "note": "rallado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Hierve el agua con sal y agrega la harina de maíz en lluvia, moviendo sin parar.",
+   "Cocina 15 minutos a fuego bajo hasta que espese; agrega mantequilla y parmesano.",
+   "Saltea los champiñones con ajo y aceite hasta que doren.",
+   "Sirve la polenta con los champiñones encima y pimienta."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "ita_sandwich_caprese_pollo",
+  "name": "Sándwich caprese de pollo",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pan_integral",
+    "g": 120,
+    "note": "4 rebanadas"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_mozzarella",
+    "g": 50,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "albahaca",
+    "g": 6
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 30
+   },
+   {
+    "food": "mostaza",
+    "g": 5
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Unta mostaza en dos rebanadas de pan.",
+   "Acomoda pollo, jitomate, mozzarella, albahaca y lechuga.",
+   "Cubre con las otras rebanadas y dora en sartén con un poco de aceite, aplastando.",
+   "Corta a la mitad y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "ita_albondigas_pollo_jitomate",
+  "name": "Albóndigas ligeras de pollo en jitomate",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "molida en casa"
+   },
+   {
+    "food": "clara_huevo",
+    "g": 60,
+    "note": "2 claras"
+   },
+   {
+    "food": "pan_integral",
+    "g": 30,
+    "note": "migas"
+   },
+   {
+    "food": "queso_parmesano",
+    "g": 20,
+    "note": "rallado"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 400,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Mezcla el pollo molido con las claras, las migas, el parmesano, el perejil, el ajo y sal.",
+   "Forma albóndigas y dóralas ligeramente en aceite.",
+   "Cocina la cebolla con el jitomate y el orégano 10 minutos.",
+   "Agrega las albóndigas a la salsa y cocina tapado 15 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep"
+  ]
+ }
+]

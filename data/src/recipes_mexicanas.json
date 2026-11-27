@@ -1,0 +1,5873 @@
+[
+ {
+  "id": "mex_tinga_pollo",
+  "name": "Tinga de pollo",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 500,
+    "note": "deshebrada"
+   },
+   {
+    "food": "jitomate",
+    "g": 500,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "rebanada"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 30,
+    "note": "en adobo"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en el aceite hasta dorar.",
+   "Agrega el jitomate y los chipotles, y cocina 10 minutos.",
+   "Incorpora el pollo deshebrado, el orégano y la sal.",
+   "Deja cocinar 10 minutos más a fuego bajo."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_pollo_guajillo",
+  "name": "Pollo en salsa de guajillo",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en trozos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 30,
+    "note": "desvenados"
+   },
+   {
+    "food": "jitomate",
+    "g": 200
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 250
+   }
+  ],
+  "steps": [
+   "Tuesta los chiles en comal y remójalos en agua caliente 15 minutos.",
+   "Licúa los chiles escurridos con jitomate, ajo, cebolla, especias, sal y el agua.",
+   "Fríe la salsa en aceite caliente 5 minutos.",
+   "Agrega el pollo, tapa y cocina 25 minutos a fuego medio."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_pollo_con_rajas",
+  "name": "Pollo con rajas de poblano",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "chile_poblano",
+    "g": 300,
+    "note": "en rajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "rebanada"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 60
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Asa los poblanos, pélalos, desvénalos y córtalos en rajas.",
+   "Dora el pollo en aceite con la cebolla y el ajo.",
+   "Agrega las rajas y la sal, y cocina 8 minutos.",
+   "Añade la crema, mezcla y cubre con el queso antes de servir. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_bistec_a_la_mexicana",
+  "name": "Bistec a la mexicana",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 450,
+    "note": "en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el chile y el ajo en el aceite.",
+   "Agrega el jitomate y cocina 8 minutos hasta que espese.",
+   "Incorpora el bistec en tiras y la sal, y calienta 5 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_chile_colorado_res",
+  "name": "Chile colorado de res",
+  "servings": 4,
+  "time_min": 95,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 24,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "desvenados"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 400
+   }
+  ],
+  "steps": [
+   "Dora los cubos de res en aceite por tandas y resérvalos.",
+   "Remoja los chiles en agua caliente 15 minutos y licúalos con ajo, comino, orégano, cebolla y sal.",
+   "Fríe la salsa 5 minutos y agrega la carne y el agua.",
+   "Cocina tapado 60 minutos a fuego bajo hasta que la carne esté tierna."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_arrachera_asada",
+  "name": "Arrachera asada con cebollitas",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 600,
+    "note": "cruda"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en gajos"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "en jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla la arrachera con limón, ajo, sal y pimienta, y deja marinar 15 minutos.",
+   "Calienta un comal o sartén muy caliente y asa la carne 3 minutos por lado.",
+   "En la misma sartén dora la cebolla y el chile con un poco de aceite.",
+   "Corta la carne en tiras contra la fibra y sirve con las cebollitas. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_carnitas_naranja",
+  "name": "Carnitas doradas con naranja",
+  "servings": 4,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "carnitas",
+    "g": 500,
+    "note": "cocidas"
+   },
+   {
+    "food": "naranja",
+    "g": 262,
+    "note": "en jugo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Calienta una sartén amplia a fuego medio-alto.",
+   "Dora las carnitas hasta que queden crujientes en las orillas.",
+   "Agrega el jugo de naranja y deja reducir 3 minutos.",
+   "Sirve con cebolla, cilantro y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_cerdo_chile_verde",
+  "name": "Cerdo en salsa verde",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 600,
+    "note": "cocido en cubos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 400
+   },
+   {
+    "food": "chile_serrano",
+    "g": 20
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Hierve los tomates verdes, los chiles y el ajo 10 minutos.",
+   "Licúa todo con cebolla, cilantro y agua hasta obtener una salsa fina.",
+   "Fríe la salsa en aceite 5 minutos y sazona con sal.",
+   "Agrega el cerdo en cubos y cocina 15 minutos a fuego bajo."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_chicharron_salsa_verde",
+  "name": "Chicharrón en salsa verde",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chicharron",
+    "g": 120,
+    "note": "en trozos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300
+   },
+   {
+    "food": "chile_serrano",
+    "g": 25
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "epazote",
+    "g": 4
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Hierve el tomate verde, el chile y la mitad de la cebolla 8 minutos.",
+   "Licúa con cilantro, epazote y el agua, y sazona con sal.",
+   "Calienta la salsa 5 minutos en una olla.",
+   "Agrega el chicharrón, cocina 3 minutos y sirve con el resto de la cebolla."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_chorizo_con_papas",
+  "name": "Chorizo con papas",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chorizo_cerdo",
+    "g": 200
+   },
+   {
+    "food": "papa_cocida",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "chile_guero",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora las papas en aceite hasta que se doren un poco.",
+   "Agrega el chorizo desmenuzado y cocina 5 minutos.",
+   "Incorpora la cebolla y el chile, y cocina 5 minutos más.",
+   "Sazona con sal y sirve caliente."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_huevos_con_chorizo",
+  "name": "Huevos con chorizo",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chorizo_cerdo",
+    "g": 120
+   },
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "batidos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 120,
+    "note": "en tiras"
+   }
+  ],
+  "steps": [
+   "Dora el chorizo en su propia grasa y apártalo.",
+   "Sofríe la cebolla y el jitomate 5 minutos.",
+   "Vierte los huevos batidos y revuelve hasta que cuajen.",
+   "Agrega el chorizo y sirve con las tortillas calientes."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_pollo_salsa_verde",
+  "name": "Pollo en salsa verde",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en trozos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 400
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cilantro",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Cuece los tomates verdes con los chiles y el ajo 10 minutos.",
+   "Licúa con cilantro, cebolla y agua hasta tener una salsa lisa.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Agrega el pollo y cocina tapado 20 minutos a fuego medio."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_costillas_chipotle",
+  "name": "Costillas de res en salsa de chipotle",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_costilla",
+    "g": 800,
+    "note": "cocidas"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 40,
+    "note": "en adobo"
+   },
+   {
+    "food": "salsa_tomate",
+    "g": 40
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en el aceite.",
+   "Licúa los chipotles con la salsa de tomate, el vinagre y un poco de agua.",
+   "Vierte la salsa sobre las costillas y cocina 15 minutos.",
+   "Ajusta la sal y sirve bien caliente. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_pollo_nopales",
+  "name": "Pollo con nopales",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora el pollo en aceite con la cebolla y el ajo.",
+   "Agrega los nopales y cocina 5 minutos.",
+   "Incorpora el jitomate, la sal y cocina 10 minutos tapado.",
+   "Termina con cilantro picado y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_bistec_encebollado",
+  "name": "Bistec encebollado",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 450,
+    "note": "en tiras finas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 250,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sazona la carne con sal y ajo.",
+   "Dora la carne en aceite a fuego alto, 3 minutos.",
+   "Retírala y sofríe la cebolla hasta que esté dorada.",
+   "Regresa la carne, agrega el limón y sirve de inmediato."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_milanesa_pollo_horno",
+  "name": "Milanesa de pollo al horno",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en filetes delgados"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "batido"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 60
+   },
+   {
+    "food": "bolillo",
+    "g": 60,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "en gajos"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Aplana los filetes y sazónalos con sal.",
+   "Pásalos por harina, huevo batido y pan rallado.",
+   "Rocía con aceite y hornea a 200 °C de 15 a 18 minutos, volteando a la mitad.",
+   "Sirve con limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_higado_encebollado",
+  "name": "Hígado de res encebollado",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_higado",
+    "g": 400,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 200,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora la cebolla en aceite hasta que esté suave y dorada.",
+   "Retírala y reserva.",
+   "Sofríe el hígado 3 minutos por lado con el ajo.",
+   "Agrega el jitomate, la cebolla y la sal, y cocina 5 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_pollo_limon_oregano",
+  "name": "Pollo al horno con limón y orégano",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "entera"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "en jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "machacado"
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el jugo de limón, ajo, orégano, paprika, pimienta y sal.",
+   "Unta el pollo con la mezcla y déjalo marinar 20 minutos.",
+   "Hornea a 190 °C durante 35 minutos, rociando con aceite a la mitad.",
+   "Deja reposar 5 minutos y corta en tiras."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_pollo_adobo_anchos",
+  "name": "Pollo en adobo de chiles anchos",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "desvenados"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   }
+  ],
+  "steps": [
+   "Desvena y tuesta los chiles en comal, luego remójalos en agua caliente 15 minutos.",
+   "Licúa los chiles con vinagre, ajo, comino, orégano, sal y el agua.",
+   "Marina el pollo en el adobo 20 minutos.",
+   "Dora el pollo en aceite y cocínalo con el adobo 20 minutos a fuego medio."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_cerdo_chile_colorado",
+  "name": "Cerdo en chile colorado",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 600,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 30,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "desvenados"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   }
+  ],
+  "steps": [
+   "Remoja los chiles en agua caliente 15 minutos.",
+   "Licúa los chiles con ajo, comino, orégano, cebolla, sal y un poco de agua.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Agrega el cerdo y el agua restante, y cocina 25 minutos a fuego bajo."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_pollo_crema_chipotle",
+  "name": "Pollo a la crema de chipotle",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en tiras"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 25,
+    "note": "en adobo"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 120
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora el pollo en aceite con la cebolla y el ajo.",
+   "Licúa los chipotles con la crema y agrega a la sartén.",
+   "Cocina 10 minutos a fuego bajo hasta que espese.",
+   "Sazona con sal y sirve con arroz o tortillas. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_pollo_cacahuate",
+  "name": "Pollo en salsa de cacahuate",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "en piezas"
+   },
+   {
+    "food": "cacahuate",
+    "g": 40,
+    "note": "tostado"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "jitomate",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Tuesta los chiles y el cacahuate en comal.",
+   "Licúa los chiles, cacahuate, jitomate, cebolla, ajo y agua.",
+   "Fríe la salsa en aceite 5 minutos y sazona con sal.",
+   "Agrega el pollo y cocina 20 minutos a fuego medio."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_carne_con_papas",
+  "name": "Carne de res con papas guisadas",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Dora las papas en aceite y resérvalas.",
+   "Sofríe la cebolla, el ajo y el jitomate 5 minutos.",
+   "Agrega la carne, el chile, el agua y la sal, y cocina 10 minutos.",
+   "Incorpora las papas y cocina 15 minutos más hasta que estén suaves."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_lomo_cerdo_naranja",
+  "name": "Lomo de cerdo a la naranja",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 500,
+    "note": "en medallones"
+   },
+   {
+    "food": "naranja",
+    "g": 262,
+    "note": "en jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en aros"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sazona los medallones con sal, comino y orégano.",
+   "Dora la carne en aceite 3 minutos por lado y retírala.",
+   "Sofríe el ajo y la cebolla, agrega el jugo de naranja y reduce 5 minutos.",
+   "Regresa la carne a la salsa y cocina 5 minutos más. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_pollo_recado_rojo",
+  "name": "Pollo en recado rojo yucateco",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "naranja",
+    "g": 131,
+    "note": "en jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Remoja los chiles en agua caliente 15 minutos y licúalos con vinagre, jugo de naranja, ajo y especias.",
+   "Sazona el pollo con sal y cúbrelo con la mezcla.",
+   "Deja marinar 30 minutos en refrigeración.",
+   "Dora el pollo en aceite y cocínalo tapado 20 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tacos_arrachera_aguacate",
+  "name": "Tacos de arrachera con aguacate",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_arrachera",
+    "g": 450
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Sazona la arrachera con sal y limón.",
+   "Asa la carne en sartén muy caliente, 3 minutos por lado.",
+   "Calienta las tortillas en comal y pica la carne en trozos pequeños.",
+   "Sirve con aguacate, cebolla y cilantro. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tacos_pastor_cerdo",
+  "name": "Tacos al pastor de cerdo",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 500,
+    "note": "en láminas"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 12,
+    "note": "desvenado"
+   },
+   {
+    "food": "pina",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Remoja los chiles en agua caliente y licúalos con ajo, vinagre, comino y paprika.",
+   "Marina el cerdo en esta mezcla 30 minutos.",
+   "Dora el cerdo en aceite con trozos de piña y cebolla.",
+   "Sirve en tortillas calientes con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_tacos_pescado_baja",
+  "name": "Tacos de pescado empanizado con col",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 480,
+    "note": "en tiras"
+   },
+   {
+    "food": "maicena",
+    "g": 40
+   },
+   {
+    "food": "agua_simple",
+    "g": 120
+   },
+   {
+    "food": "ajo_polvo",
+    "g": 2
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "col",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 60
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 40
+   }
+  ],
+  "steps": [
+   "Mezcla la maicena con el agua, el ajo en polvo y la sal para hacer una pasta ligera.",
+   "Pasa las tiras de pescado por la mezcla.",
+   "Fríe el pescado en aceite caliente 3 minutos por lado.",
+   "Sirve en tortillas con col, crema y limón. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tacos_camaron_mojo",
+  "name": "Tacos de camarón al mojo de ajo",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 400,
+    "note": "limpio"
+   },
+   {
+    "food": "ajo",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "mantequilla",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Derrite la mantequilla con el aceite y fríe el ajo sin que se queme.",
+   "Agrega los camarones y el chile, y cocina 3 minutos.",
+   "Apaga el fuego, agrega el limón y la sal.",
+   "Sirve en tortillas calientes con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_tacos_pollo_verde",
+  "name": "Tacos de pollo rostizado con salsa verde",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pollo_rostizado",
+    "g": 400,
+    "note": "deshebrado"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 200
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   }
+  ],
+  "steps": [
+   "Hierve el tomate verde con el chile 6 minutos.",
+   "Licúa con cilantro, limón y sal para hacer la salsa.",
+   "Calienta el pollo deshebrado en una sartén.",
+   "Sirve en tortillas con salsa y cebolla."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_tacos_nopal_queso",
+  "name": "Tacos de nopales asados con queso",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "nopal",
+    "g": 400,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Asa los nopales en sartén seca hasta que suelten su baba y se doren.",
+   "Agrega cebolla, ajo y sal, y cocina 5 minutos.",
+   "Calienta las tortillas y rellénalas con nopales, jitomate y queso.",
+   "Termina con cilantro."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tostadas_ceviche_pescado",
+  "name": "Tostadas de ceviche de pescado",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huachinango",
+    "g": 350,
+    "note": "en cubos chicos"
+   },
+   {
+    "food": "limon",
+    "g": 180,
+    "note": "en jugo"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "en cubos"
+   },
+   {
+    "food": "tostada_horneada",
+    "g": 120
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cubre el pescado con jugo de limón y deja reposar 15 minutos hasta que se vuelva opaco.",
+   "Escurre el exceso de jugo y mezcla con jitomate, cebolla, chile y sal.",
+   "Agrega el pepino y el cilantro.",
+   "Sirve sobre las tostadas con aguacate. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tostadas_frijol_pollo",
+  "name": "Tostadas de frijol con pollo deshebrado",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 80
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "deshebrada"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "salsa_picante",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Calienta el frijol refrito en una sartén con un poco de agua.",
+   "Unta el frijol sobre las tostadas.",
+   "Cubre con pollo, lechuga, cebolla y queso.",
+   "Termina con crema y salsa picante."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_tostadas_atun_aguacate",
+  "name": "Tostadas de atún con aguacate",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "escurrido"
+   },
+   {
+    "food": "tostada_horneada",
+    "g": 80
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 80,
+    "note": "picado"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 20,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla el atún con cebolla, jitomate, limón y sal.",
+   "Unta el aguacate sobre las tostadas.",
+   "Cubre con la mezcla de atún y lechuga."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_sopes_frijol_chorizo",
+  "name": "Sopes de frijol con chorizo",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 240
+   },
+   {
+    "food": "agua_simple",
+    "g": 180
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 150
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 80
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 50,
+    "note": "desmoronado"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Mezcla la masa con el agua hasta obtener una masa suave.",
+   "Forma bolitas, aplánalas con los dedos en forma de barquito y cuécelas en comal 4 minutos por lado.",
+   "Dora el chorizo y mezcla con el frijol.",
+   "Unta los sopes con frijol y chorizo, y cubre con lechuga, queso, crema y cebolla. |"
+  ],
+  "tags": [
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_gorditas_chicharron",
+  "name": "Gorditas de chicharrón prensado",
+  "servings": 3,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 240
+   },
+   {
+    "food": "agua_simple",
+    "g": 180
+   },
+   {
+    "food": "chicharron",
+    "g": 90,
+    "note": "picado"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   }
+  ],
+  "steps": [
+   "Mezcla la masa con el agua y forma bolas.",
+   "Aplana las bolas y cuécelas en comal 5 minutos por lado.",
+   "Abre las gorditas por un lado y rellénalas con chicharrón.",
+   "Sirve con salsa de jitomate, chile, cebolla, lechuga y queso. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_memelas_frijol_oaxaca",
+  "name": "Memelas de frijol con queso Oaxaca",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 240
+   },
+   {
+    "food": "agua_simple",
+    "g": 180
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 90,
+    "note": "en hebra"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Haz bolas con la masa y el agua, y aplánalas en forma de disco grueso.",
+   "Cuécelas en comal 5 minutos por lado.",
+   "Unta cada memela con frijol refrito y dora un poco en aceite.",
+   "Cubre con queso, cebolla y chile."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_quesadillas_calabacita",
+  "name": "Quesadillas de calabacita con queso",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "rallada"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 120,
+    "note": "en hebra"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "epazote",
+    "g": 3,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en poco aceite y agrega la calabacita rallada 5 minutos.",
+   "Sazona con epazote y escurre el exceso de agua.",
+   "Rellena las tortillas con queso y calabacita.",
+   "Dora las quesadillas en comal o sartén hasta que el queso se funda."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_quesadillas_pollo_panela",
+  "name": "Quesadillas de pollo con queso panela",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_harina",
+    "g": 180
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "deshebrada"
+   },
+   {
+    "food": "queso_panela",
+    "g": 120,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 14,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Mezcla el pollo con cebolla y chile.",
+   "Rellena las tortillas con pollo y queso panela.",
+   "Dora en comal con poco aceite hasta que el queso se derrita.",
+   "Corta en triángulos y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_flautas_pollo",
+  "name": "Flautas de pollo doradas",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 300,
+    "note": "deshebrada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 40
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 50
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Calienta las tortillas en comal para que se doblen sin romperse.",
+   "Rellena con pollo deshebrado, sazónalo con sal y enrolla bien.",
+   "Fríe las flautas en aceite hasta que estén doradas y crujientes.",
+   "Sirve con lechuga, crema, queso y cebolla. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_taquitos_papa_chorizo",
+  "name": "Taquitos de papa con chorizo",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "machacada"
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 60
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Dora el chorizo y mézclalo con la papa machacada.",
+   "Agrega cebolla y chile, y sazona.",
+   "Rellena las tortillas calientes y enrolla los taquitos.",
+   "Fríelos en aceite hasta dorar y sirve con cilantro."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_tlacoyos_frijol_nopal",
+  "name": "Tlacoyos de frijol y nopal",
+  "servings": 3,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 240
+   },
+   {
+    "food": "agua_simple",
+    "g": 180
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "nopal",
+    "g": 80,
+    "note": "en tiras"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Mezcla la masa con el agua y sal, y forma bolas.",
+   "Aplánalas, rellénalas con frijol y cierra formando óvalos.",
+   "Cuécelos en comal 6 minutos por lado.",
+   "Sirve con nopal cocido, queso y un poco de aceite."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_chilaquiles_verdes_pollo",
+  "name": "Chilaquiles verdes con pollo",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "totopos",
+    "g": 100
+   },
+   {
+    "food": "tomate_verde",
+    "g": 400
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en cuarto"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 200,
+    "note": "deshebrada"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Hierve los tomates verdes, el chile, la cebolla y el ajo 8 minutos.",
+   "Licúa y fríe la salsa en una sartén 5 minutos.",
+   "Agrega los totopos y el pollo, y mezcla rápido para que no se ablanden.",
+   "Sirve con crema, queso y cilantro. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_chilaquiles_rojos_huevo",
+  "name": "Chilaquiles rojos con huevo",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "totopos",
+    "g": 120
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 24,
+    "note": "desvenados"
+   },
+   {
+    "food": "jitomate",
+    "g": 300
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40,
+    "note": "en hebra"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Hierve el jitomate, los chiles y el ajo 10 minutos.",
+   "Licúa con un poco del caldo y fríe la salsa 5 minutos.",
+   "Agrega los totopos y cocina 2 minutos.",
+   "Sirve con huevo frito, queso, crema y cebolla. |"
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_huevos_rancheros",
+  "name": "Huevos rancheros con frijol",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 90
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, el chile y el jitomate 8 minutos.",
+   "Calienta el frijol refrito y las tortillas.",
+   "Fríe los huevos en aceite y sirve sobre las tortillas.",
+   "Cubre con salsa, frijol y queso. |"
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_huevos_salsa_verde",
+  "name": "Huevos en salsa verde",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Hierve el tomate verde y el chile 6 minutos.",
+   "Licúa con cilantro y un poco de cebolla.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Cocina los huevos en la salsa tapados 5 minutos y sirve con queso y tortillas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_huevo_a_la_mexicana",
+  "name": "Huevo a la mexicana",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 300,
+    "note": "batidos"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el chile en aceite 3 minutos.",
+   "Agrega el jitomate y la sal, y cocina 5 minutos.",
+   "Vierte los huevos batidos y revuelve hasta cuajar.",
+   "Sirve con cilantro."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_migas_tortilla",
+  "name": "Migas de tortilla con huevo",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "batidos"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 40,
+    "note": "en hebra"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Dora las tiras de tortilla en aceite hasta que estén crujientes.",
+   "Sofríe cebolla, chile y jitomate 4 minutos.",
+   "Agrega los huevos batidos y revuelve con las tortillas.",
+   "Termina con queso derretido."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_huevos_divorciados",
+  "name": "Huevos divorciados",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 200
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Prepara una salsa roja con jitomate, cebolla y sal.",
+   "Prepara una salsa verde licuando el tomate verde cocido.",
+   "Fríe los huevos en aceite y sírvelos separados por el frijol.",
+   "Acompaña con las dos salsas y tortillas calientes. |"
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_chiles_rellenos_queso",
+  "name": "Chiles rellenos de queso capeados",
+  "servings": 3,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "chile_poblano",
+    "g": 400,
+    "note": "asados"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 200,
+    "note": "separado en clara y yema"
+   },
+   {
+    "food": "harina_trigo",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 40
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Asa los poblanos, ponlos en bolsa 10 minutos y pélalos sin romperlos.",
+   "Rellénalos con queso y cierra con un palillo.",
+   "Bate las claras a punto de turrón, agrega yemas, harina y sal.",
+   "Pasa los chiles por la mezcla y fríelos en aceite. Sirve con salsa de jitomate con cebolla."
+  ],
+  "tags": [
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "mex_chiles_rellenos_picadillo",
+  "name": "Chiles rellenos de picadillo",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "chile_poblano",
+    "g": 400,
+    "note": "asados"
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 300
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pasas",
+    "g": 10
+   },
+   {
+    "food": "almendra",
+    "g": 15,
+    "note": "picada"
+   },
+   {
+    "food": "canela",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Asa, pela y desvena los chiles con cuidado.",
+   "Dora la carne con cebolla y ajo, y agrega jitomate, papa, pasas, almendra, canela y sal.",
+   "Cocina el picadillo 10 minutos.",
+   "Rellena los chiles, pásalos por huevo batido si quieres y sirve. |"
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_quesadillas_hongos_epazote",
+  "name": "Quesadillas de hongos con epazote",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "champinon",
+    "g": 200,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "epazote",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 120,
+    "note": "en hebra"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en aceite hasta que esté suave.",
+   "Agrega los champiñones y la sal, y cocina hasta que suelten el agua.",
+   "Rellena las tortillas con hongos, epazote y queso.",
+   "Dora en comal hasta que el queso se derrita."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tacos_dorados_frijol",
+  "name": "Tacos dorados de frijol con queso",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 180
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 200
+   },
+   {
+    "food": "queso_chihuahua",
+    "g": 100,
+    "note": "rallado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 30
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Calienta el frijol refrito con un poco de agua.",
+   "Rellena cada tortilla con frijol y queso, y enrolla.",
+   "Fríe los tacos en aceite hasta que estén dorados.",
+   "Sirve con lechuga y cebolla."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_pozole_rojo_pollo",
+  "name": "Pozole rojo de pollo",
+  "servings": 5,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 400,
+    "note": "deshebrada"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "en granos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 30,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 12,
+    "note": "desvenado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 700
+   }
+  ],
+  "steps": [
+   "Hierve el elote en agua con sal 10 minutos.",
+   "Remoja y licúa los chiles con ajo, cebolla y un poco de agua.",
+   "Cuela la salsa y cocínala 10 minutos con el caldo del elote.",
+   "Agrega el pollo, el orégano y el elote, y cocina 15 minutos.",
+   "Sirve con lechuga, orégano y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_pozole_verde_pollo",
+  "name": "Pozole verde de pollo",
+  "servings": 5,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 400,
+    "note": "deshebrada"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "en granos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300
+   },
+   {
+    "food": "chile_serrano",
+    "g": 20
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "cilantro",
+    "g": 15
+   },
+   {
+    "food": "epazote",
+    "g": 5
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 600
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Hierve los tomates verdes, el chile, la cebolla y la mitad del cilantro 8 minutos.",
+   "Licúa con espinaca, epazote y un poco de agua.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Agrega el agua, el elote y el pollo, y cocina 20 minutos.",
+   "Sirve con lechuga, cilantro y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_pozole_blanco_pavo",
+  "name": "Pozole blanco de pavo",
+  "servings": 4,
+  "time_min": 55,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 400,
+    "note": "en cubos"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "en granos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "en cuarto"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   }
+  ],
+  "steps": [
+   "Pon a hervir el agua con cebolla, ajo y sal.",
+   "Agrega el pavo y cocina 15 minutos.",
+   "Incorpora el elote y cocina 20 minutos más.",
+   "Sirve con lechuga, orégano y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_menudo_rojo_costilla",
+  "name": "Menudo rojo de costilla",
+  "servings": 5,
+  "time_min": 120,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_costilla",
+    "g": 500,
+    "note": "en trozos"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "en granos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 25,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 12,
+    "note": "desvenado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   }
+  ],
+  "steps": [
+   "Cuece la costilla en agua con cebolla y sal 40 minutos.",
+   "Licúa los chiles con ajo, orégano y un poco de agua.",
+   "Cuela la salsa y agrégala al caldo.",
+   "Incorpora el elote y cocina 40 minutos a fuego bajo.",
+   "Sirve con limón y orégano."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_birria_res",
+  "name": "Birria de res en consomé",
+  "servings": 6,
+  "time_min": 150,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_costilla",
+    "g": 600,
+    "note": "en trozos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 40,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_pasilla",
+    "g": 10,
+    "note": "desvenado"
+   },
+   {
+    "food": "oregano",
+    "g": 2
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "ajo",
+    "g": 8
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en cuarto"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 30
+   },
+   {
+    "food": "jitomate",
+    "g": 150
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   }
+  ],
+  "steps": [
+   "Tuesta los chiles y remójalos en agua caliente 15 minutos.",
+   "Licúa los chiles con jitomate, ajo, cebolla, vinagre, especias y sal.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Agrega la carne y el agua, y cocina tapado 2 horas a fuego bajo.",
+   "Sirve el consomé con carne y cebolla."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_barbacoa_cordero",
+  "name": "Barbacoa de cordero en salsa de chile",
+  "servings": 5,
+  "time_min": 150,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cordero_pierna",
+    "g": 600,
+    "note": "en trozos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 25,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 10,
+    "note": "desvenado"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 2
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 400
+   }
+  ],
+  "steps": [
+   "Remoja los chiles en agua caliente 15 minutos y licúalos con ajo, comino, orégano y cebolla.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Agrega el cordero, el agua y la sal.",
+   "Cocina tapado 2 horas a fuego muy bajo hasta que la carne se deshaga."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_pollo_mixiote",
+  "name": "Pollo en mixiote",
+  "servings": 4,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "jitomate",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "papa_cruda",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa los chiles remojados con ajo, comino, orégano, jitomate, limón y sal.",
+   "Mezcla el pollo y las papas con la salsa.",
+   "Envuelve cada porción en papel pergamino formando paquetes cerrados.",
+   "Hornea a 180 °C durante 45 minutos y sirve en el paquete."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_mole_poblano_pollo",
+  "name": "Mole poblano de pollo",
+  "servings": 5,
+  "time_min": 60,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 500,
+    "note": "en piezas"
+   },
+   {
+    "food": "pasta_mole",
+    "g": 100
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y sofríe la cebolla 5 minutos.",
+   "Agrega la pasta de mole, el agua y el chocolate, y mueve hasta que se disuelva.",
+   "Cocina la salsa 15 minutos a fuego bajo.",
+   "Incorpora el pollo y cocina 10 minutos más.",
+   "Sirve espolvoreado con ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_mole_verde_pollo",
+  "name": "Mole verde con pollo",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 500,
+    "note": "deshebrada"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 300
+   },
+   {
+    "food": "chile_serrano",
+    "g": 20
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "cilantro",
+    "g": 20
+   },
+   {
+    "food": "perejil",
+    "g": 10
+   },
+   {
+    "food": "pepita",
+    "g": 30
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Tuesta las pepitas en sartén sin aceite.",
+   "Hierve los tomates verdes, el chile y la cebolla 8 minutos.",
+   "Licúa con pepitas, hierbas, ajo, espinaca y agua.",
+   "Fríe la salsa en aceite 5 minutos, agrega el pollo y cocina 15 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_mole_negro_pavo",
+  "name": "Mole negro de pavo",
+  "servings": 6,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 500,
+    "note": "en piezas"
+   },
+   {
+    "food": "chile_pasilla",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "chocolate_oscuro",
+    "g": 15
+   },
+   {
+    "food": "almendra",
+    "g": 20
+   },
+   {
+    "food": "pasas",
+    "g": 10
+   },
+   {
+    "food": "ajonjoli",
+    "g": 10
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "canela",
+    "g": 2
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "maduro"
+   },
+   {
+    "food": "agua_simple",
+    "g": 400
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Tuesta los chiles, la almendra, el ajonjolí y el plátano en comal.",
+   "Remoja los chiles y licúalos con todo lo tostado, pasas, especias, cebolla y agua.",
+   "Fríe la pasta en aceite 10 minutos hasta que espese.",
+   "Agrega el pavo y cocina 25 minutos a fuego bajo."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_mole_de_olla_res",
+  "name": "Mole de olla con carne de res",
+  "servings": 6,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "res_bistec",
+    "g": 450,
+    "note": "en trozos"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 15,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 200,
+    "note": "en trozos"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en trozos"
+   },
+   {
+    "food": "epazote",
+    "g": 4
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80
+   },
+   {
+    "food": "masa_maiz",
+    "g": 30
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   }
+  ],
+  "steps": [
+   "Hierve la carne con agua, cebolla y sal 30 minutos.",
+   "Licúa los chiles remojados con ajo y masa, y agrega al caldo.",
+   "Cocina 20 minutos a fuego medio.",
+   "Agrega el elote, la calabacita y el epazote, y cocina 15 minutos más."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_sopa_tlalpena",
+  "name": "Sopa tlalpeña",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "deshebrada"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "en cubos"
+   },
+   {
+    "food": "queso_panela",
+    "g": 80,
+    "note": "en cubos"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 10,
+    "note": "desvenado"
+   },
+   {
+    "food": "epazote",
+    "g": 2
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Fríe las tiras de tortilla en aceite hasta que estén crujientes y escúrrelas.",
+   "Licúa jitomate, cebolla, ajo y chile, y fríe la salsa 5 minutos.",
+   "Agrega el agua, el pollo y el epazote, y cocina 10 minutos.",
+   "Sirve con tortilla, aguacate, queso y crema. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_sopa_lima_yucateca",
+  "name": "Sopa de lima yucateca",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 300,
+    "note": "deshebrada"
+   },
+   {
+    "food": "limon",
+    "g": 120,
+    "note": "en jugo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en cuarto"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "tortilla_maiz",
+    "g": 60,
+    "note": "en tiras"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 900
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el jitomate en aceite 5 minutos.",
+   "Agrega el agua, el chile y el pollo, y cocina 10 minutos.",
+   "Fríe las tiras de tortilla en aceite y agrégalas al caldo.",
+   "Apaga el fuego, agrega el jugo de lima y el cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_fideo_seco_mexicano",
+  "name": "Fideo seco a la mexicana",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fideo_sopa",
+    "g": 120
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "agua_simple",
+    "g": 500
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   }
+  ],
+  "steps": [
+   "Dora el fideo en aceite hasta que esté dorado.",
+   "Sofríe la cebolla y el ajo, y agrega el jitomate 5 minutos.",
+   "Agrega el agua y la sal, y cocina el fideo tapado 12 minutos.",
+   "Sirve con crema encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_arroz_rojo_mexicano",
+  "name": "Arroz rojo a la mexicana",
+  "servings": 6,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_crudo",
+    "g": 300
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "agua_simple",
+    "g": 500
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Dora el arroz en aceite hasta que esté dorado.",
+   "Licúa el jitomate con ajo, cebolla y un poco de agua.",
+   "Agrega la salsa al arroz y sofríe 3 minutos.",
+   "Añade el agua caliente, la sal y la zanahoria, y cocina tapado 20 minutos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_frijoles_charros_tocino",
+  "name": "Frijoles charros con tocino",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 400
+   },
+   {
+    "food": "tocino",
+    "g": 60,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora el tocino en sartén y retira la mitad de la grasa.",
+   "Sofríe la cebolla, el chile y el jitomate 5 minutos.",
+   "Agrega los frijoles con su caldo, el agua y el tocino, y cocina 15 minutos.",
+   "Termina con cilantro y sirve."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_frijoles_negros_epazote",
+  "name": "Frijoles negros de olla con epazote",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_negro_cocido",
+    "g": 500
+   },
+   {
+    "food": "epazote",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en cuarto"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y sofríe la cebolla y el ajo.",
+   "Agrega los frijoles con el agua y el chile, y cocina 15 minutos.",
+   "Sazona con sal y añade el epazote al final."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_frijoles_refritos_caseros",
+  "name": "Frijoles refritos caseros",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 400
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 20
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 30,
+    "note": "desmoronado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla en aceite hasta que esté suave.",
+   "Agrega los frijoles con un poco de su caldo y machácalos con un machete o tenedor.",
+   "Cocina 10 minutos moviendo hasta que espesen.",
+   "Sirve con queso desmoronado encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_calabacitas_mexicanas",
+  "name": "Calabacitas a la mexicana",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "calabacita",
+    "g": 500,
+    "note": "en cubos"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "en granos"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 80,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el chile en aceite 3 minutos.",
+   "Agrega el jitomate y cocina 5 minutos.",
+   "Incorpora la calabacita y el elote, y sazona con sal.",
+   "Cocina tapado 10 minutos y termina con queso."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_rajas_elote_crema",
+  "name": "Rajas de poblano con elote y crema",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "chile_poblano",
+    "g": 400,
+    "note": "en rajas"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 250,
+    "note": "en granos"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 80
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 60,
+    "note": "en hebra"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora la cebolla en aceite hasta que esté suave.",
+   "Agrega las rajas y el elote, y cocina 8 minutos.",
+   "Incorpora la crema y la sal, y calienta 3 minutos.",
+   "Cubre con queso y sirve."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_chilpachole_camaron",
+  "name": "Chilpachole de camarón",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 400,
+    "note": "limpio"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 10,
+    "note": "desvenado"
+   },
+   {
+    "food": "epazote",
+    "g": 4
+   },
+   {
+    "food": "elote_cocido",
+    "g": 100,
+    "note": "en granos"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 600
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Licúa el jitomate con ajo, cebolla, chile y un poco de agua.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Agrega el agua, el elote y cocina 10 minutos.",
+   "Incorpora los camarones y el epazote, y cocina 5 minutos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_sopa_frijol_pasilla",
+  "name": "Sopa de frijol negro con chile pasilla",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_negro_cocido",
+    "g": 500
+   },
+   {
+    "food": "chile_pasilla",
+    "g": 15,
+    "note": "desvenado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "epazote",
+    "g": 4
+   },
+   {
+    "food": "queso_panela",
+    "g": 60,
+    "note": "en cubos"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 700
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Tuesta el chile pasilla en comal y remójalo en agua caliente.",
+   "Licúa el chile con frijoles, ajo, cebolla y parte del agua.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Agrega el resto del agua y cocina 10 minutos.",
+   "Sirve con queso, crema y epazote."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_lentejas_mexicanas",
+  "name": "Lentejas a la mexicana",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 500
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "chayote",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite.",
+   "Agrega el jitomate, la zanahoria y el chayote, y cocina 5 minutos.",
+   "Incorpora las lentejas, el agua, el comino y la sal.",
+   "Cocina 15 minutos a fuego medio."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "meal prep",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_garbanzos_chorizo",
+  "name": "Garbanzos guisados con chorizo",
+  "servings": 4,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 400
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 100
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "agua_simple",
+    "g": 100
+   }
+  ],
+  "steps": [
+   "Dora el chorizo en una olla y apártalo.",
+   "Sofríe la cebolla y el jitomate 5 minutos en la misma grasa.",
+   "Agrega los garbanzos, la papa, el agua y el chorizo, y cocina 15 minutos.",
+   "Sirve con cilantro."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "económica",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_tamales_rajas_queso",
+  "name": "Tamales de rajas con queso",
+  "servings": 6,
+  "time_min": 90,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 400
+   },
+   {
+    "food": "agua_simple",
+    "g": 300
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 40
+   },
+   {
+    "food": "chile_poblano",
+    "g": 200,
+    "note": "en rajas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 100,
+    "note": "en hebra"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Bate la masa con el aceite, el agua y la sal hasta que esté esponjosa.",
+   "Sofríe las rajas y la cebolla 5 minutos.",
+   "Extiende masa sobre la hoja, agrega rajas y queso, y envuelve.",
+   "Cuece los tamales al vapor 60 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tamales_pollo_rojo",
+  "name": "Tamales de pollo en salsa roja",
+  "servings": 6,
+  "time_min": 100,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "masa_maiz",
+    "g": 400
+   },
+   {
+    "food": "agua_simple",
+    "g": 350
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 40
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 300,
+    "note": "deshebrada"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 25,
+    "note": "desvenados"
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Licúa los chiles remojados con ajo, cebolla y agua.",
+   "Cuela la salsa y sazona el pollo con ella.",
+   "Bate la masa con aceite, sal y un poco de caldo de la salsa.",
+   "Rellena las hojas con masa y pollo, envuelve y cuece al vapor 60 minutos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_enchiladas_verdes_pollo",
+  "name": "Enchiladas verdes de pollo",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 400,
+    "note": "deshebrada"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 500
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "cilantro",
+    "g": 10
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 100,
+    "note": "en hebra"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 60
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Hierve el tomate verde, el chile y la cebolla 8 minutos.",
+   "Licúa con cilantro y sal, y fríe la salsa en aceite 5 minutos.",
+   "Pasa las tortillas por la salsa, rellénalas con pollo y enróllalas.",
+   "Acomódalas en un refractario, cubre con salsa, queso y crema, y gratina 5 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_enchiladas_rojas_res",
+  "name": "Enchiladas rojas de res",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 400
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 24,
+    "note": "desvenados"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "desvenados"
+   },
+   {
+    "food": "jitomate",
+    "g": 200
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60
+   },
+   {
+    "food": "queso_fresco",
+    "g": 80,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 15
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Remoja los chiles en agua caliente 15 minutos y licúalos con jitomate, ajo, cebolla y sal.",
+   "Cuela la salsa y fríela en aceite 5 minutos.",
+   "Dora la carne molida con cebolla y sal.",
+   "Pasa las tortillas por la salsa, rellénalas con carne y queso, y sirve."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_enchiladas_suizas",
+  "name": "Enchiladas suizas",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 400,
+    "note": "deshebrada"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 150
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 120,
+    "note": "en hebra"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 400
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Hierve el tomate verde con el chile y la cebolla 8 minutos.",
+   "Licúa con sal y fríe la salsa en aceite 5 minutos.",
+   "Rellena las tortillas con pollo y enróllalas en un refractario.",
+   "Cubre con salsa, crema y queso, y gratina 8 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_enchiladas_de_mole",
+  "name": "Enchiladas de mole",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 400,
+    "note": "deshebrada"
+   },
+   {
+    "food": "pasta_mole",
+    "g": 80
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 5
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   }
+  ],
+  "steps": [
+   "Calienta la pasta de mole con el agua hasta que se haga una salsa lisa.",
+   "Pasa las tortillas por la salsa y rellénalas con pollo.",
+   "Enrolla las enchiladas y cúbrelas con más salsa.",
+   "Sirve con cebolla, queso y ajonjolí. |"
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_enchiladas_mineras",
+  "name": "Enchiladas mineras de chorizo y papa",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 120
+   },
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "jitomate",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Dora el chorizo y mézclalo con la papa y un poco de cebolla.",
+   "Licúa el chile remojado con jitomate y sal, y fríe la salsa 5 minutos.",
+   "Pasa las tortillas por la salsa y rellénalas con chorizo y papa.",
+   "Enróllalas y sirve con queso y cebolla."
+  ],
+  "tags": [
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_enchiladas_frijol_calabacita",
+  "name": "Enchiladas de frijol y calabacita",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "tortilla_maiz",
+    "g": 240
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 400
+   },
+   {
+    "food": "calabacita",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "jitomate",
+    "g": 200
+   },
+   {
+    "food": "queso_panela",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa el chile remojado con jitomate, sal y un poco de agua.",
+   "Fríe la salsa en aceite 5 minutos.",
+   "Sofríe la calabacita con cebolla y mezcla con los frijoles.",
+   "Pasa las tortillas por la salsa, rellénalas, enróllalas y cubre con queso. Gratina 8 minutos."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_ceviche_camaron_cocido",
+  "name": "Ceviche de camarón cocido",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_cocido",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 180,
+    "note": "en jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "en cubos"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Cubre los camarones con jugo de limón y déjalos reposar 10 minutos.",
+   "Agrega el jitomate, la cebolla y el chile.",
+   "Incorpora el pepino y sal.",
+   "Sirve con aguacate y cilantro encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_aguachile_verde",
+  "name": "Aguachile verde de camarón",
+  "servings": 3,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 400,
+    "note": "limpio"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 180,
+    "note": "en jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "en aros"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Licúa el chile, el cilantro, la sal y la mitad del limón.",
+   "Acomoda los camarones en un platón y báñalos con la mezcla y el resto del limón.",
+   "Cubre con pepino y cebolla.",
+   "Sirve de inmediato para que el camarón siga crujiente."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_pescado_veracruzano",
+  "name": "Huachinango a la veracruzana",
+  "servings": 4,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "huachinango",
+    "g": 600,
+    "note": "en filetes"
+   },
+   {
+    "food": "jitomate",
+    "g": 300,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 100,
+    "note": "en aros"
+   },
+   {
+    "food": "aceitunas",
+    "g": 40,
+    "note": "picadas"
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 30,
+    "note": "en rodajas"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 20
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Sazona los filetes con sal y limón, y resérvalos.",
+   "Sofríe la cebolla y el ajo en aceite de oliva 5 minutos.",
+   "Agrega el jitomate, el chile, las aceitunas y el orégano, y cocina 10 minutos.",
+   "Acomoda el pescado sobre la salsa, tapa y cocina 10 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_mojarra_frita_ajo",
+  "name": "Mojarra frita al mojo de ajo",
+  "servings": 3,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "mojarra",
+    "g": 600,
+    "note": "entera limpia"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "en jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 40
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "en aros"
+   }
+  ],
+  "steps": [
+   "Sazona la mojarra con sal, pimienta y limón por dentro y por fuera.",
+   "Fríe el pescado en aceite caliente 5 minutos por lado.",
+   "Dora el ajo en el mismo aceite y viértelo sobre la mojarra.",
+   "Sirve con cebolla en aros."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tilapia_diabla",
+  "name": "Tilapia a la diabla",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 600,
+    "note": "en filetes"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 6
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en cuarto"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 20
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "cilantro",
+    "g": 5,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Licúa los chiles de árbol con jitomate, ajo, vinagre y sal.",
+   "Sofríe la cebolla en aceite de oliva y agrega la salsa 8 minutos.",
+   "Acomoda los filetes sobre la salsa y cocina 8 minutos.",
+   "Espolvorea pimienta y cilantro antes de servir."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_salmon_chipotle_yogur",
+  "name": "Salmón al chipotle con yogur",
+  "servings": 4,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 600,
+    "note": "en filetes"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 30,
+    "note": "en adobo"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Mezcla el chipotle con el yogur, el ajo, el limón y la sal.",
+   "Unta los filetes con la mezcla y déjalos reposar 10 minutos.",
+   "Dora el salmón en aceite de oliva 4 minutos por lado.",
+   "Sirve con cilantro picado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_tilapia_papel_verduras",
+  "name": "Tilapia en papel con verduras",
+  "servings": 4,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tilapia",
+    "g": 600,
+    "note": "en filetes"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "en rodajas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en aros"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 100,
+    "note": "en tiras"
+   },
+   {
+    "food": "calabacita",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Corta cuatro hojas de papel aluminio y acomoda verduras en el centro.",
+   "Coloca un filete sobre las verduras, sazona con sal y limón, y rocía aceite.",
+   "Cierra los paquetes muy bien.",
+   "Hornea a 190 °C durante 20 minutos y sirve en el paquete."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_atun_mexicana",
+  "name": "Atún a la mexicana con chile serrano",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 300,
+    "note": "escurrido"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 1
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el chile en aceite 3 minutos.",
+   "Agrega el jitomate y la sal, y cocina 5 minutos.",
+   "Incorpora el atún desmenuzado y calienta 3 minutos.",
+   "Sirve con cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "rápida",
+   "económica"
+  ]
+ },
+ {
+  "id": "mex_camarones_chipotle_crema",
+  "name": "Camarones al chipotle con crema",
+  "servings": 3,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_crudo",
+    "g": 400,
+    "note": "limpio"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 30,
+    "note": "en adobo"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 80
+   },
+   {
+    "food": "ajo",
+    "g": 4,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite.",
+   "Agrega los camarones y cocina 3 minutos.",
+   "Incorpora los chipotles picados con su adobo y la crema.",
+   "Calienta 3 minutos a fuego bajo y ajusta la sal."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_pipian_verde_pollo",
+  "name": "Pipián verde de pollo",
+  "servings": 4,
+  "time_min": 50,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 600,
+    "note": "en piezas"
+   },
+   {
+    "food": "pepita",
+    "g": 60
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150
+   },
+   {
+    "food": "chile_serrano",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "ajo",
+    "g": 4
+   },
+   {
+    "food": "cilantro",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "agua_simple",
+    "g": 400
+   },
+   {
+    "food": "sal",
+    "g": 3
+   }
+  ],
+  "steps": [
+   "Tuesta las pepitas en comal hasta que revienten.",
+   "Hierve el pollo con agua, cebolla y sal 20 minutos, y reserva el caldo.",
+   "Licúa pepitas, tomate verde, chile, ajo, cilantro y caldo.",
+   "Fríe la salsa en aceite 5 minutos y cocina el pollo en ella 10 minutos."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ },
+ {
+  "id": "mex_ensalada_nopal_queso",
+  "name": "Ensalada de nopal con queso fresco",
+  "servings": 3,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "nopal",
+    "g": 300,
+    "note": "cocido en tiras"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "en cubos"
+   }
+  ],
+  "steps": [
+   "Mezcla los nopales cocidos con jitomate, cebolla y chile.",
+   "Agrega limón y sal.",
+   "Incorpora el queso y el cilantro.",
+   "Sirve con aguacate encima."
+  ],
+  "tags": [
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_guacamole_totopos",
+  "name": "Guacamole tradicional con totopos",
+  "servings": 4,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "aguacate",
+    "g": 300,
+    "note": "machacado"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado sin semillas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   },
+   {
+    "food": "totopos",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Machaca el aguacate con un tenedor hasta que quede rústico.",
+   "Agrega jitomate, cebolla, chile, cilantro y limón.",
+   "Sazona con sal y mezcla.",
+   "Sirve con totopos."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana",
+   "sin gluten",
+   "rápida"
+  ]
+ },
+ {
+  "id": "mex_pechugas_rellenas_rajas",
+  "name": "Pechugas rellenas de rajas y queso",
+  "servings": 4,
+  "time_min": 45,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 500,
+    "note": "abiertas en mariposa"
+   },
+   {
+    "food": "chile_poblano",
+    "g": 150,
+    "note": "en rajas"
+   },
+   {
+    "food": "queso_oaxaca",
+    "g": 80,
+    "note": "en hebra"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en cuarto"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Abre las pechugas en mariposa y sazónalas con sal.",
+   "Sofríe la cebolla y las rajas 5 minutos.",
+   "Rellena las pechugas con rajas y queso, y cierra con palillos.",
+   "Dora en aceite y hornea a 190 °C 20 minutos. Sirve con crema."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_machaca_huevo",
+  "name": "Machaca con huevo y jitomate",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "res_molida_magra",
+    "g": 300
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "batidos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 10
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora la carne molida en aceite hasta que se seque y suelte el jugo.",
+   "Agrega cebolla, chile y jitomate, y cocina 5 minutos.",
+   "Vierte los huevos batidos y revuelve hasta cuajar.",
+   "Sazona con sal y sirve con tortillas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "mex_cochinita_pibil",
+  "name": "Cochinita pibil en hoja de plátano",
+  "servings": 6,
+  "time_min": 120,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 600,
+    "note": "en trozos grandes"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 20,
+    "note": "desvenados"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 40
+   },
+   {
+    "food": "naranja",
+    "g": 262,
+    "note": "en jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 6
+   },
+   {
+    "food": "comino",
+    "g": 1
+   },
+   {
+    "food": "oregano",
+    "g": 1
+   },
+   {
+    "food": "paprika",
+    "g": 2
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1
+   },
+   {
+    "food": "sal",
+    "g": 3
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 80,
+    "note": "en aros"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "en jugo"
+   }
+  ],
+  "steps": [
+   "Licúa los chiles remojados con vinagre, jugo de naranja, ajo y especias.",
+   "Marina el cerdo en la mezcla y déjalo reposar 2 horas.",
+   "Envuelve la carne en papel aluminio y hornea a 170 °C 90 minutos.",
+   "Desmenuza y sirve con cebolla morada encurtida en limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "sin gluten",
+   "meal prep"
+  ]
+ }
+]

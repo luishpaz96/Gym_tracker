@@ -1,0 +1,5711 @@
+[
+ {
+  "id": "bow_arroz_int_pollo_chipotle_frijol",
+  "name": "Bowl de arroz integral con pollo al chipotle y frijol negro",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300,
+    "note": "cocido, unas 1.5 tazas"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 280,
+    "note": "deshebrada"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 20,
+    "note": "2 chiles picados con adobo"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 250
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el jitomate con el aceite durante 5 minutos.",
+   "Agrega el pollo deshebrado y los chiles chipotles con su adobo; cocina 5 minutos más.",
+   "Calienta el frijol negro y el arroz integral por separado.",
+   "Sirve el arroz y el frijol en un tazón, pon el pollo encima y termina con aguacate y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_blanco_carnitas_elote",
+  "name": "Bowl de arroz blanco con carnitas, elote y pico de gallo",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 300
+   },
+   {
+    "food": "carnitas",
+    "g": 240,
+    "note": "recalentadas"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Calienta las carnitas en un sartén a fuego medio hasta que doren, unos 5 minutos.",
+   "Mezcla el jitomate, la cebolla, el chile serrano y el cilantro para el pico de gallo.",
+   "Sazona el pico de gallo con el jugo de limón y un poco de sal.",
+   "Sirve el arroz con las carnitas, el elote y el pico de gallo encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_arrachera_pimiento",
+  "name": "Bowl de arroz integral con arrachera, pimiento y guacamole",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "res_arrachera",
+    "g": 300,
+    "note": "cruda, marinada"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 240,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "aguacate",
+    "g": 150
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Marina la arrachera con sal, limón y una cucharada de aceite durante 10 minutos.",
+   "Asa la carne a fuego alto de 3 a 4 minutos por lado, deja reposar y córtala en tiras.",
+   "Saltea el pimiento y la cebolla morada con el aceite restante hasta que estén suaves.",
+   "Machaca el aguacate con jitomate, chile serrano y limón para el guacamole y sirve sobre el arroz."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_quinoa_pollo_rostizado_salsa_verde",
+  "name": "Bowl de quinoa con pollo rostizado y salsa verde",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "pollo_rostizado",
+    "g": 300,
+    "note": "deshuesado"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12
+   },
+   {
+    "food": "cilantro",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Hierve el tomate verde con el chile y el ajo durante 8 minutos y escúrrelos.",
+   "Licúa el tomate, el chile, la cebolla, el cilantro y un poco de agua para hacer la salsa verde.",
+   "Calienta el pollo con dos cucharadas de salsa verde.",
+   "Acomoda la espinaca sobre la quinoa, pon el pollo encima y báñalo con más salsa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_camaron_ajillo",
+  "name": "Bowl de arroz integral con camarón al ajillo y pico de gallo",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "camaron_crudo",
+    "g": 300,
+    "note": "pelado y desvenado"
+   },
+   {
+    "food": "ajo",
+    "g": 15,
+    "note": "5 dientes picados"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 15
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y dora el ajo picado sin que se queme.",
+   "Agrega el camarón, sazona con sal y cocina 2 minutos por lado hasta que esté rosado.",
+   "Mezcla el jitomate, la cebolla, el chile, el cilantro y el limón para el pico de gallo.",
+   "Sirve el arroz con el camarón al ajillo y el pico de gallo al lado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_tinga_aguacate",
+  "name": "Bowl de arroz integral con tinga de pollo y aguacate",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 300,
+    "note": "deshebrada"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 15,
+    "note": "1 1/2 chiles con adobo"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 60,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Licúa el jitomate con los chiles chipotles y su adobo.",
+   "Sofríe la cebolla en aceite, agrega la salsa licuada y cocina 5 minutos.",
+   "Incorpora el pollo deshebrado y cocina 10 minutos hasta que absorba la salsa.",
+   "Sirve sobre el arroz con lechuga y aguacate."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_frijol_chorizo_papa_cilantro",
+  "name": "Bowl de frijol negro con chorizo, papa y cilantro",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_negro_cocido",
+    "g": 350
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 120,
+    "note": "sin tripa"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Dora la cebolla en el aceite y agrega el chorizo; cocina 5 minutos desmenuzándolo.",
+   "Incorpora las papas y el chile, y dora un par de minutos.",
+   "Agrega el frijol negro con un poco de su caldo y cocina 5 minutos más.",
+   "Sirve caliente con cilantro picado encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_lentejas_chile_ancho_nopal",
+  "name": "Bowl de lentejas con chile ancho y nopal asado",
+  "servings": 2,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 400
+   },
+   {
+    "food": "chile_ancho",
+    "g": 24,
+    "note": "2 piezas desvenadas"
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "jitomate",
+    "g": 100
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Remoja el chile ancho en agua caliente 15 minutos y licúalo con el ajo y el jitomate.",
+   "Asa el nopal en un sartén seco durante 5 minutos.",
+   "Sofríe la cebolla en aceite, agrega la salsa de chile y las lentejas, y cocina 10 minutos.",
+   "Sirve las lentejas con el nopal y la cebolla morada encima."
+  ],
+  "tags": [
+   "económica",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_quinoa_rajas_elote_queso",
+  "name": "Bowl de quinoa con rajas poblanas, elote y queso fresco",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "chile_poblano",
+    "g": 240,
+    "note": "2 piezas en rajas"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "queso_fresco",
+    "g": 60,
+    "note": "desmoronado"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 30
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Asa los chiles poblanos sobre la flama o en comal, mételos en una bolsa 5 minutos y pélalos para hacer rajas.",
+   "Sofríe la cebolla en aceite, agrega las rajas y el elote, y cocina 5 minutos.",
+   "Sazona con sal y calienta la quinoa.",
+   "Sirve la quinoa con las rajas, el queso fresco desmoronado y una cucharada de crema."
+  ],
+  "tags": [
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_atun_mango_serrano",
+  "name": "Bowl de arroz integral con atún, mango y chile serrano",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "mango",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Desmorona el atún en un tazón y mézclalo con el aceite y el jugo de limón.",
+   "Agrega la cebolla, el chile serrano y el cilantro picados.",
+   "Pon el mango en cubos sobre el arroz tibio.",
+   "Acomoda el atún encima del arroz y el mango."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_huevo_mexicana_refrito",
+  "name": "Bowl de arroz integral con huevo a la mexicana y frijol refrito",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "huevo_entero",
+    "g": 150,
+    "note": "3 huevos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 12,
+    "note": "picado"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 120,
+    "note": "unas 4 cucharadas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el chile en el aceite, agrega el jitomate y cocina 3 minutos.",
+   "Bate los huevos, viértelos al sartén con sal y revuelve hasta cuajar.",
+   "Calienta el frijol refrito con un poco de agua.",
+   "Sirve el arroz con el huevo a la mexicana y el frijol refrito."
+  ],
+  "tags": [
+   "económica",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_arroz_blanco_bistec_cebolla",
+  "name": "Bowl de arroz blanco con bistec a la plancha y cebolla morada",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 316
+   },
+   {
+    "food": "res_bistec",
+    "g": 300,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y saltea la cebolla morada y el pimiento hasta que estén suaves.",
+   "Agrega el ajo picado y el bistec, y calienta 3 minutos.",
+   "Rocía el limón sobre la carne.",
+   "Sirve el arroz con el bistec y las verduras salteadas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_quinoa_tofu_pastor_pina",
+  "name": "Bowl de quinoa con tofu al pastor y piña",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "tofu_firme",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "pina",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "2 piezas desvenadas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Remoja los chiles guajillo en agua caliente y licúalos con el ajo, el vinagre y un poco de agua.",
+   "Marina el tofu en la salsa 10 minutos.",
+   "Dora el tofu en el aceite por todos lados, unos 8 minutos, y agrega la piña para dorarla.",
+   "Sirve sobre la quinoa con cebolla y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_tempeh_guajillo_calabacita",
+  "name": "Bowl de arroz integral con tempeh en chile guajillo y calabacita",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "tempeh",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "2 piezas"
+   },
+   {
+    "food": "calabacita",
+    "g": 180,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Licúa los chiles guajillo con ajo, vinagre, comino y medio vaso de agua.",
+   "Dora el tempeh en aceite y báñalo con la salsa; cocina 8 minutos a fuego medio.",
+   "Saltea la calabacita y la cebolla en la misma sartén hasta que estén tiernas.",
+   "Sirve el arroz con el tempeh y la calabacita."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_tostadas_frijol_pollo_lechuga",
+  "name": "Bowl de tostadas de frijol con pollo deshebrado y lechuga",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tostada_horneada",
+    "g": 52,
+    "note": "4 tostadas en trozos"
+   },
+   {
+    "food": "frijol_refrito",
+    "g": 150
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "deshebrada"
+   },
+   {
+    "food": "lechuga_romana",
+    "g": 100,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 40
+   },
+   {
+    "food": "queso_fresco",
+    "g": 40,
+    "note": "desmoronado"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Calienta el frijol refrito con un poco de agua hasta que quede untable.",
+   "Acomoda las tostadas en un tazón y unta el frijol encima.",
+   "Pon el pollo, la lechuga, el jitomate y la cebolla morada.",
+   "Termina con crema y queso fresco desmoronado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "bow_papa_chorizo_huevo_salsa_roja",
+  "name": "Bowl de papa con chorizo, huevo y salsa roja",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 350,
+    "note": "en cubos"
+   },
+   {
+    "food": "chorizo_cerdo",
+    "g": 100,
+    "note": "sin tripa"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "asado"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 2,
+    "note": "2 piezas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Asa el jitomate y los chiles de árbol en el comal, y licúalos con un poco de agua y sal.",
+   "Dora las papas con el chorizo desmoronado en el aceite.",
+   "Fríe los huevos o revuélvelos en el mismo sartén.",
+   "Sirve las papas con chorizo, el huevo encima y la salsa roja."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_garbanzo_pollo_mole",
+  "name": "Bowl de garbanzo con pollo al mole poblano",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 330
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "cruda, en cubos"
+   },
+   {
+    "food": "pasta_mole",
+    "g": 60,
+    "note": "3 cucharadas"
+   },
+   {
+    "food": "agua_simple",
+    "g": 200
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora el pollo en cubos con el aceite y la cebolla.",
+   "Diluye la pasta de mole en el agua caliente y viértela sobre el pollo.",
+   "Cocina a fuego medio 15 minutos, hasta que el pollo esté cocido.",
+   "Agrega el garbanzo, calienta 5 minutos y sirve con ajonjolí encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_lomo_adobo_guajillo",
+  "name": "Bowl de arroz integral con lomo de cerdo en adobo guajillo",
+  "servings": 2,
+  "time_min": 40,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "cerdo_lomo",
+    "g": 280,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 18,
+    "note": "3 piezas"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "oregano",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "ejote",
+    "g": 150,
+    "note": "cocido"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Remoja los chiles guajillo, licúalos con ajo, vinagre, comino y orégano.",
+   "Sofríe la salsa en aceite 5 minutos y añade el lomo; cocina 10 minutos.",
+   "Saltea la cebolla y los ejotes en un sartén aparte.",
+   "Sirve el arroz con el cerdo en adobo y los ejotes salteados."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_camote_frijol_aguacate_chipotle",
+  "name": "Bowl de camote con frijol negro, aguacate y chile chipotle",
+  "servings": 2,
+  "time_min": 35,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 250
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 10,
+    "note": "1 chile con adobo"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "col",
+    "g": 70,
+    "note": "picada fina"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Hornea los camotes en cubos a 200 °C por 25 minutos hasta dorar.",
+   "Calienta el frijol negro con el chile chipotle picado y un poco de su caldo.",
+   "Mezcla la col con la cebolla, el cilantro, el limón y el aceite.",
+   "Sirve el camote y el frijol en un tazón, y acomoda la col y el aguacate encima."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_elote_pollo_tomate_verde_chipotle",
+  "name": "Bowl de elote con pollo, tomate verde y crema de chipotle",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "desgranado"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "cruda, en cubos"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "chipotle_adobo",
+    "g": 10,
+    "note": "1 chile con adobo"
+   },
+   {
+    "food": "crema_mexicana",
+    "g": 60
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora el pollo en cubos con el aceite, la cebolla y el ajo, unos 8 minutos.",
+   "Agrega el tomate verde picado y cocina 5 minutos más.",
+   "Mezcla la crema con el chile chipotle para hacer la crema de chipotle.",
+   "Sirve el elote y el pollo sobre la espinaca y báñalo con la crema."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "bow_quinoa_salmon_arbol_mango",
+  "name": "Bowl de quinoa con salmón al chile de árbol y mango",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "salmon_fresco",
+    "g": 300,
+    "note": "filete"
+   },
+   {
+    "food": "chile_arbol",
+    "g": 3,
+    "note": "3 piezas"
+   },
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Machaca los chiles de árbol con sal y aceite para hacer una pasta.",
+   "Unta el salmón con la pasta y hornéalo a 200 °C durante 12 minutos.",
+   "Mezcla el mango, el pepino, la cebolla y el limón.",
+   "Sirve la quinoa con el salmón y la mezcla de mango encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_tilapia_veracruzana",
+  "name": "Bowl de arroz integral con tilapia a la veracruzana",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "tilapia",
+    "g": 300,
+    "note": "filete"
+   },
+   {
+    "food": "jitomate",
+    "g": 250,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "aceitunas",
+    "g": 30,
+    "note": "7 piezas"
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 14,
+    "note": "1 chile en rajas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "oregano",
+    "g": 2,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el ajo en aceite; agrega el jitomate y cocina 8 minutos.",
+   "Añade las aceitunas, el chile en rajas y el orégano.",
+   "Acomoda la tilapia sobre la salsa, tapa y cocina 8 minutos hasta que se desmorone.",
+   "Sirve el arroz con el pescado y la salsa veracruzana."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_frijol_bayo_cerdo_cebolla_morada",
+  "name": "Bowl de frijol bayo con cerdo deshebrado y cebolla morada",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 340
+   },
+   {
+    "food": "carnitas",
+    "g": 220,
+    "note": "deshebradas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 10,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Calienta el frijol bayo con un poco de su caldo en una olla pequeña.",
+   "Dora las carnitas deshebradas en el aceite un par de minutos.",
+   "Mezcla el jitomate con la cebolla, el cilantro y el limón.",
+   "Sirve el frijol con las carnitas y la salsa encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_nopal_huevo_salsa_asada",
+  "name": "Bowl de arroz con nopal, huevo cocido y salsa de jitomate asado",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 316
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "en tiras"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 huevos en mitades"
+   },
+   {
+    "food": "jitomate",
+    "g": 200,
+    "note": "asado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Asa el jitomate, la cebolla y el chile en el comal; licúalos con sal.",
+   "Sofríe el nopal en aceite hasta que suelte su baba y se seque.",
+   "Calienta el arroz y sirve con el nopal encima.",
+   "Acomoda el huevo cocido y baña todo con la salsa asada."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_lentejas_pollo_ajo_cilantro",
+  "name": "Bowl de lentejas con pollo al ajo y cilantro",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 400
+   },
+   {
+    "food": "muslo_pollo",
+    "g": 300,
+    "note": "sin piel, cocido y deshebrado"
+   },
+   {
+    "food": "ajo",
+    "g": 12,
+    "note": "4 dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en cubos"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla, la zanahoria y el ajo en aceite durante 6 minutos.",
+   "Agrega las lentejas y un poco de agua; cocina 8 minutos.",
+   "Incorpora el pollo deshebrado y calienta 3 minutos más.",
+   "Sirve con cilantro picado y jugo de limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_poke_salmon_arroz_pepino_aguacate",
+  "name": "Bowl poke de salmón con arroz integral, pepino y aguacate",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "salmon_fresco",
+    "g": 300,
+    "note": "crudo, en cubos"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 20,
+    "note": "1 1/3 cucharadas"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Mezcla la salsa de soya con el limón y la cebolla morada.",
+   "Marina el salmón en cubos con esa mezcla durante 10 minutos.",
+   "Acomoda el arroz en el tazón con el pepino y el aguacate.",
+   "Pon el salmón encima y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_poke_atun_mango_pepino",
+  "name": "Bowl poke de atún con mango, pepino y arroz blanco",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 316
+   },
+   {
+    "food": "mango",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Desmenuza el atún y mézclalo con la salsa de soya, el limón y el chile.",
+   "Deja marinar 5 minutos.",
+   "Sirve el arroz en el tazón con el mango y el pepino.",
+   "Acomoda el atún encima y termina con ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_poke_camaron_edamame_jengibre",
+  "name": "Bowl poke de camarón con edamame, pepino y jengibre",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camaron_cocido",
+    "g": 300
+   },
+   {
+    "food": "edamame",
+    "g": 250,
+    "note": "cocido"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "jengibre",
+    "g": 12,
+    "note": "2 cucharadas ralladas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   }
+  ],
+  "steps": [
+   "Mezcla la salsa de soya, el jengibre rallado y el vinagre.",
+   "Marina el camarón y la cebolla en la mezcla 10 minutos.",
+   "Sirve el arroz con el pepino y el edamame.",
+   "Acomoda el camarón encima y báñalo con la marinada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_poke_tofu_ajonjoli_edamame",
+  "name": "Bowl poke de tofu con ajonjolí, edamame y arroz integral",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "edamame",
+    "g": 200,
+    "note": "cocido"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 18,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "pepino",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora el tofu en cubos con el aceite hasta que tenga costra.",
+   "Mezcla la salsa de soya con el vinagre y la cebolla morada.",
+   "Sirve el arroz con el pepino y el edamame.",
+   "Acomoda el tofu encima, báñalo con la salsa y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "rápida",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_ramen_pollo_huevo_espinaca",
+  "name": "Bowl estilo ramen de pollo con huevo cocido y espinaca",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "fideo_sopa",
+    "g": 120,
+    "note": "crudo"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "en tiras"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 huevos en mitades"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "consome_pollo",
+    "g": 8,
+    "note": "2 cucharaditas"
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "en rodajas finas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Hierve el agua con el jengibre y el consomé de pollo durante 10 minutos.",
+   "Cuece el fideo en el caldo 3 minutos y escúrrelo en el tazón.",
+   "Agrega la espinaca, el pollo en tiras y el huevo partido en mitades.",
+   "Vierte el caldo caliente con salsa de soya y cebolla encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_ramen_tofu_champinon_miso",
+  "name": "Bowl estilo ramen de tofu suave con champiñón y miso",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fideo_sopa",
+    "g": 120,
+    "note": "crudo"
+   },
+   {
+    "food": "tofu_suave",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "champinon",
+    "g": 140,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "pasta_miso",
+    "g": 36,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "en rodajas finas"
+   }
+  ],
+  "steps": [
+   "Calienta el agua con el jengibre y los champiñones 8 minutos.",
+   "Disuelve el miso en un poco de caldo y regresa la mezcla a la olla.",
+   "Cuece el fideo en el caldo 3 minutos y escúrrelo en el tazón.",
+   "Agrega el tofu, la espinaca y la cebolla, y sirve el caldo caliente."
+  ],
+  "tags": [
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_ramen_cerdo_huevo_col",
+  "name": "Bowl estilo ramen de cerdo con huevo y col",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "fideo_sopa",
+    "g": 120,
+    "note": "crudo"
+   },
+   {
+    "food": "cerdo_lomo",
+    "g": 220,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 huevos en mitades"
+   },
+   {
+    "food": "col",
+    "g": 100,
+    "note": "en rebanada fina"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   },
+   {
+    "food": "consome_pollo",
+    "g": 8,
+    "note": "2 cucharaditas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "en rodajas finas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Hierve el agua con el consomé, el jengibre y la salsa de soya.",
+   "Saltea la col y la zanahoria en el aceite 3 minutos.",
+   "Cuece el fideo en el caldo, escúrrelo y acomódalo en el tazón.",
+   "Agrega el cerdo, las verduras, el huevo y la cebolla, y sirve el caldo encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_pollo_teriyaki_brocoli",
+  "name": "Bowl de arroz integral con pollo teriyaki y brócoli",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "cruda, en cubos"
+   },
+   {
+    "food": "brocoli",
+    "g": 180,
+    "note": "en floretes"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 32,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 21,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "1 cucharadita rallada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Mezcla la salsa de soya, la miel, el jengibre y el ajo.",
+   "Dora el pollo en cubos con el aceite a fuego medio unos 8 minutos.",
+   "Agrega la salsa y el brócoli, y cocina 5 minutos hasta que espese.",
+   "Sirve sobre el arroz y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_quinoa_res_jengibre_zanahoria",
+  "name": "Bowl de quinoa con res salteada al jengibre y zanahoria",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "res_bistec",
+    "g": 280,
+    "note": "cocido, en tiras finas"
+   },
+   {
+    "food": "zanahoria",
+    "g": 120,
+    "note": "en juliana"
+   },
+   {
+    "food": "jengibre",
+    "g": 12,
+    "note": "2 cucharadas ralladas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 32,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "media cucharada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 50,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Saltea la zanahoria y la cebolla en el aceite a fuego alto durante 4 minutos.",
+   "Agrega el bistec, el jengibre y el ajo, y cocina 2 minutos.",
+   "Mezcla la salsa de soya con la miel y viértela al sartén.",
+   "Sirve la quinoa con la res salteada encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_atun_sesamo_pepino",
+  "name": "Bowl de arroz integral con atún al sésamo y pepino",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "atun_agua",
+    "g": 200,
+    "note": "2 latas escurridas"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 18,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en listones"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Mezcla el atún con la salsa de soya, el vinagre y el aceite.",
+   "Agrega la zanahoria rallada y la cebolla morada.",
+   "Sirve el arroz con el pepino en listones.",
+   "Acomoda el atún encima y termina con ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_tofu_teriyaki_esparrago",
+  "name": "Bowl de arroz integral con tofu teriyaki y espárrago",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "esparrago",
+    "g": 180,
+    "note": "cocido"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 32,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "media cucharada"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "1 cucharadita rallada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   }
+  ],
+  "steps": [
+   "Dora el tofu en cubos con el aceite hasta que esté dorado, unos 8 minutos.",
+   "Agrega el ajo, el jengibre, la salsa de soya y la miel; cocina 3 minutos.",
+   "Calienta el espárrago en el mismo sartén con un poco de salsa.",
+   "Sirve el arroz con el tofu teriyaki y el espárrago, y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_arroz_blanco_salmon_teriyaki_edamame",
+  "name": "Bowl de arroz blanco con salmón teriyaki y edamame",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 316
+   },
+   {
+    "food": "salmon_fresco",
+    "g": 300,
+    "note": "filete en cubos"
+   },
+   {
+    "food": "edamame",
+    "g": 200,
+    "note": "cocido"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 32,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 21,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "1 cucharadita rallada"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Mezcla la salsa de soya, la miel y el jengibre para hacer el teriyaki.",
+   "Cocina el salmón en cubos en un sartén antiadherente 3 minutos por lado.",
+   "Baña el salmón con el teriyaki y cocina 1 minuto más.",
+   "Sirve el arroz con el edamame, el pepino y el salmón; espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_cuscus_pollo_limon_pepino",
+  "name": "Bowl de cuscús con pollo al limón y pepino",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cuscus_crudo",
+    "g": 170,
+    "note": "seco"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 280,
+    "note": "cruda, en tiras"
+   },
+   {
+    "food": "agua_simple",
+    "g": 250,
+    "note": "para el cuscús"
+   },
+   {
+    "food": "limon",
+    "g": 60,
+    "note": "1 pieza, jugo y ralladura"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 14,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   }
+  ],
+  "steps": [
+   "Hierve el agua, viértela sobre el cuscús, tapa y deja reposar 5 minutos; esponja con un tenedor.",
+   "Dora el pollo en tiras con el aceite y el ajo, unos 8 minutos.",
+   "Mezcla el limón, el pepino, la cebolla y el perejil.",
+   "Sirve el cuscús con el pollo y la ensalada de pepino."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_buddha_quinoa_garbanzo_camote_tahini",
+  "name": "Bowl buddha de quinoa con garbanzo, camote y tahini",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 250
+   },
+   {
+    "food": "camote_cocido",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "tahini",
+    "g": 30,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Mezcla el tahini con el limón, el ajo rallado, sal y un poco de agua.",
+   "Dora el garbanzo en el aceite 5 minutos hasta que esté crujiente.",
+   "Acomoda la quinoa con la espinaca, el camote y el garbanzo.",
+   "Baña todo con el aderezo de tahini."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_buddha_camote_brocoli_tahini",
+  "name": "Bowl buddha de camote, brócoli y tahini",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "brocoli",
+    "g": 180,
+    "note": "en floretes"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 200
+   },
+   {
+    "food": "tahini",
+    "g": 30,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "col",
+    "g": 70,
+    "note": "picada fina"
+   },
+   {
+    "food": "pepita",
+    "g": 28,
+    "note": "1 puñado"
+   }
+  ],
+  "steps": [
+   "Hornea el brócoli y el camote con aceite a 200 °C por 20 minutos.",
+   "Prepara el aderezo mezclando tahini, limón, ajo y agua.",
+   "Mezcla la col con el garbanzo.",
+   "Sirve todo en tazones, baña con el tahini y espolvorea pepitas."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_buddha_lentejas_col_zanahoria_limon",
+  "name": "Bowl buddha de lentejas con col morada, zanahoria y aderezo de limón",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 400
+   },
+   {
+    "food": "col",
+    "g": 140,
+    "note": "picada muy fina"
+   },
+   {
+    "food": "zanahoria",
+    "g": 120,
+    "note": "rallada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 14,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "mostaza",
+    "g": 5,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Bate el limón con el aceite, la mostaza y sal para hacer el aderezo.",
+   "Mezcla la col, la zanahoria y la cebolla con la mitad del aderezo.",
+   "Calienta las lentejas 3 minutos con un poco de agua.",
+   "Sirve las lentejas con la ensalada, el perejil y el resto del aderezo."
+  ],
+  "tags": [
+   "económica",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_buddha_tempeh_kale_betabel_ajonjoli",
+  "name": "Bowl buddha de tempeh con kale, betabel y ajonjolí",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 300
+   },
+   {
+    "food": "tempeh",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "kale",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "betabel",
+    "g": 270,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   }
+  ],
+  "steps": [
+   "Dora el tempeh en el aceite 6 minutos por lado.",
+   "Rocía el tempeh con la salsa de soya y el vinagre, y cocina 1 minuto.",
+   "Saltea el kale 2 minutos con una pizca de sal.",
+   "Sirve la quinoa con el kale, el betabel, el tempeh y el ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_buddha_garbanzo_hummus_espinaca_pepino",
+  "name": "Bowl buddha de garbanzo con hummus, espinaca y pepino",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 330
+   },
+   {
+    "food": "hummus",
+    "g": 60,
+    "note": "4 cucharadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 90
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "paprika",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Calienta el garbanzo con el limón y el aceite 3 minutos.",
+   "Acomoda el arroz integral y la espinaca en los tazones.",
+   "Agrega el pepino y el garbanzo tibio.",
+   "Termina con una cucharada de hummus por tazón y paprika."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_quinoa_coliflor_asada_tahini_granada",
+  "name": "Bowl de quinoa con coliflor asada, tahini y granada",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "coliflor",
+    "g": 300,
+    "note": "en floretes"
+   },
+   {
+    "food": "tahini",
+    "g": 30,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "granada",
+    "g": 60,
+    "note": "semillas"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "paprika",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Mezcla la coliflor con el aceite, el comino y la paprika.",
+   "Hornea a 220 °C por 20 minutos hasta que dore.",
+   "Bate el tahini con el limón y un poco de agua.",
+   "Sirve la quinoa con espinaca, coliflor, granada y el tahini encima."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_quinoa_edamame_zanahoria_jengibre",
+  "name": "Bowl de quinoa con edamame, zanahoria y jengibre",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "edamame",
+    "g": 250,
+    "note": "cocido"
+   },
+   {
+    "food": "zanahoria",
+    "g": 120,
+    "note": "en juliana"
+   },
+   {
+    "food": "jengibre",
+    "g": 12,
+    "note": "2 cucharadas ralladas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Saltea la zanahoria y el jengibre en el aceite 4 minutos.",
+   "Agrega la salsa de soya y cocina 1 minuto más.",
+   "Calienta el edamame y mézclalo con la quinoa.",
+   "Sirve con la zanahoria salteada, cebolla morada y ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_soya_texturizada_pastor_pina",
+  "name": "Bowl de soya texturizada al pastor con piña y cebolla morada",
+  "servings": 2,
+  "time_min": 25,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "soya_texturizada",
+    "g": 60,
+    "note": "seca, hidratada en caldo"
+   },
+   {
+    "food": "pina",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "chile_guajillo",
+    "g": 12,
+    "note": "2 piezas"
+   },
+   {
+    "food": "vinagre_blanco",
+    "g": 15
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 316
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Hidrata la soya en agua caliente con sal 10 minutos y escúrrela.",
+   "Licúa los chiles guajillo con el ajo, el vinagre y un poco de agua; marina la soya 10 minutos.",
+   "Dora la soya, la piña y la cebolla en el aceite hasta que tomen color.",
+   "Sirve sobre el arroz y termina con cilantro."
+  ],
+  "tags": [
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_seitan_brocoli_arroz_integral",
+  "name": "Bowl de seitán salteado con brócoli y arroz integral",
+  "servings": 2,
+  "time_min": 20,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "seitan",
+    "g": 250,
+    "note": "en tiras"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "brocoli",
+    "g": 200,
+    "note": "en floretes"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 32,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "jengibre",
+    "g": 6,
+    "note": "1 cucharadita rallada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Dora el seitán en el aceite a fuego alto 4 minutos.",
+   "Agrega el ajo y el jengibre, y cocina 1 minuto.",
+   "Añade el brócoli y la salsa de soya; saltea 4 minutos.",
+   "Sirve sobre el arroz integral y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_tofu_jengibre_zanahoria_integral",
+  "name": "Bowl de tofu firme salteado con jengibre, zanahoria y arroz integral",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_firme",
+    "g": 300,
+    "note": "en cubos"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "zanahoria",
+    "g": 120,
+    "note": "en juliana"
+   },
+   {
+    "food": "jengibre",
+    "g": 12,
+    "note": "2 cucharadas ralladas"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Dora el tofu en cubos con el aceite hasta que esté crujiente.",
+   "Saltea la cebolla, la zanahoria, el jengibre y el ajo 4 minutos.",
+   "Agrega el tofu y la salsa de soya; cocina 2 minutos.",
+   "Sirve sobre el arroz integral y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_fideo_pollo_ajonjoli_pepino",
+  "name": "Bowl de fideo con pollo al ajonjolí y pepino",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pasta_cocida",
+    "g": 280,
+    "note": "espagueti cocido"
+   },
+   {
+    "food": "pechuga_pollo",
+    "g": 280,
+    "note": "cruda, en tiras"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 18,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 32,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "media cucharada"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en listones"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "rallada"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora el pollo en tiras con el aceite 7 minutos.",
+   "Mezcla la salsa de soya con la miel y el ajonjolí, y agrégala al pollo.",
+   "Mezcla la pasta con el pepino, la zanahoria y la cebolla morada.",
+   "Sirve la pasta con el pollo encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_frijol_negro_kale_platano_macho",
+  "name": "Bowl de frijol negro con kale salteado y plátano macho",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "frijol_negro_cocido",
+    "g": 350
+   },
+   {
+    "food": "kale",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "platano",
+    "g": 236,
+    "note": "2 plátanos maduros en rodajas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Fríe las rodajas de plátano en el aceite hasta dorar por ambos lados.",
+   "Sofríe la cebolla y el ajo, agrega el kale y saltea 3 minutos.",
+   "Calienta el frijol negro con un poco de su caldo.",
+   "Sirve el frijol con el kale, el plátano y un chorrito de limón."
+  ],
+  "tags": [
+   "económica",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_yogur_griego_granola_fresa_platano",
+  "name": "Bowl de yogur griego con granola, fresa y plátano",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 150
+   },
+   {
+    "food": "granola",
+    "g": 30,
+    "note": "1 porción"
+   },
+   {
+    "food": "fresa",
+    "g": 100,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "platano",
+    "g": 59,
+    "note": "media pieza"
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "media cucharada"
+   }
+  ],
+  "steps": [
+   "Pon el yogur griego en un tazón.",
+   "Corta la fresa y el plátano en rodajas.",
+   "Agrega la granola encima con la fruta.",
+   "Termina con un hilo de miel."
+  ],
+  "tags": [
+   "meal prep",
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_yogur_natural_avena_mango_chia",
+  "name": "Bowl de yogur natural con avena, mango y chía",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_natural",
+    "g": 225,
+    "note": "1 taza"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 40,
+    "note": "cruda"
+   },
+   {
+    "food": "mango",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "chia",
+    "g": 12,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Remoja la avena con el yogur 10 minutos en el refrigerador.",
+   "Pica el mango en cubos.",
+   "Pon la avena con yogur en un tazón.",
+   "Agrega el mango, la chía y la miel."
+  ],
+  "tags": [
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_smoothie_platano_fresa_almendra",
+  "name": "Bowl de smoothie de plátano, fresa y bebida de almendra",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pieza"
+   },
+   {
+    "food": "fresa",
+    "g": 150
+   },
+   {
+    "food": "leche_almendra",
+    "g": 120,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "almendra",
+    "g": 28,
+    "note": "1 puñado"
+   },
+   {
+    "food": "chia",
+    "g": 12,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Licúa el plátano, la fresa y la bebida de almendra hasta quedar espeso.",
+   "Vierte la mezcla en un tazón.",
+   "Espolvorea las almendras picadas.",
+   "Termina con la chía encima."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_smoothie_verde_espinaca_pina_whey",
+  "name": "Bowl de smoothie verde con espinaca, piña y proteína whey",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "pina",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "platano",
+    "g": 59,
+    "note": "media pieza"
+   },
+   {
+    "food": "whey_aislado",
+    "g": 30,
+    "note": "1 scoop"
+   },
+   {
+    "food": "agua_simple",
+    "g": 120
+   },
+   {
+    "food": "chia",
+    "g": 12,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Licúa la espinaca con el agua hasta que no queden pedazos.",
+   "Agrega la piña, el plátano y la proteína; licúa 30 segundos.",
+   "Sirve en un tazón.",
+   "Espolvorea la chía encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_yogur_griego_mango_chia_pistache",
+  "name": "Bowl de yogur griego con mango, chía y pistache",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "mango",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "chia",
+    "g": 12,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "pistache",
+    "g": 28,
+    "note": "1 puñado"
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Vierte el yogur griego en un tazón.",
+   "Acomoda el mango en cubos sobre el yogur.",
+   "Espolvorea la chía y los pistaches picados.",
+   "Termina con miel."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_kefir_zarzamora_platano_nuez",
+  "name": "Bowl de kéfir con zarzamora, plátano y nuez de Castilla",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kefir",
+    "g": 200,
+    "note": "1 vaso"
+   },
+   {
+    "food": "zarzamora",
+    "g": 100
+   },
+   {
+    "food": "platano",
+    "g": 59,
+    "note": "media pieza"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 28,
+    "note": "1 puñado picado"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 20,
+    "note": "cruda"
+   }
+  ],
+  "steps": [
+   "Pon el kéfir en un tazón hondo.",
+   "Lava las zarzamoras y corta el plátano en rodajas.",
+   "Acomoda la fruta sobre el kéfir.",
+   "Termina con la nuez picada y la avena."
+  ],
+  "tags": [
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_smoothie_cacao_platano_avena",
+  "name": "Bowl de smoothie de cacao con plátano, avena y crema de cacahuate",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pieza"
+   },
+   {
+    "food": "cacao_polvo",
+    "g": 10,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "avena_hojuelas",
+    "g": 40,
+    "note": "cruda"
+   },
+   {
+    "food": "leche_almendra",
+    "g": 150,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "canela",
+    "g": 2,
+    "note": "pizca"
+   }
+  ],
+  "steps": [
+   "Licúa el plátano con la bebida de almendra y el cacao.",
+   "Agrega la avena y licúa 20 segundos.",
+   "Sirve en un tazón y pon la crema de cacahuate encima.",
+   "Espolvorea canela."
+  ],
+  "tags": [
+   "rápida",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_papaya_yogur_granola_coco",
+  "name": "Bowl de papaya con yogur griego, granola y coco rallado",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papaya",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 150
+   },
+   {
+    "food": "granola",
+    "g": 30,
+    "note": "1 porción"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 12,
+    "note": "2 cucharadas"
+   }
+  ],
+  "steps": [
+   "Corta la papaya en cubos y acomódala en un tazón.",
+   "Agrega el yogur griego encima.",
+   "Espolvorea la granola.",
+   "Termina con el coco rallado."
+  ],
+  "tags": [
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_sandia_melon_fresa_chia",
+  "name": "Bowl de sandía, melón y fresa con yogur y chía",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sandia",
+    "g": 304,
+    "note": "2 tazas en cubos"
+   },
+   {
+    "food": "melon",
+    "g": 160,
+    "note": "1 taza en cubos"
+   },
+   {
+    "food": "fresa",
+    "g": 152,
+    "note": "1 taza"
+   },
+   {
+    "food": "yogur_natural",
+    "g": 300,
+    "note": "1 1/3 tazas"
+   },
+   {
+    "food": "chia",
+    "g": 12,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Corta la sandía y el melón en cubos.",
+   "Lava y corta las fresas en mitades.",
+   "Reparte el yogur en dos tazones y acomoda la fruta encima.",
+   "Espolvorea la chía."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_avena_cocida_manzana_canela_cacahuate",
+  "name": "Bowl de avena cocida con manzana, canela y crema de cacahuate",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_cocida",
+    "g": 234,
+    "note": "1 taza cocida"
+   },
+   {
+    "food": "manzana",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "crema_cacahuate",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "canela",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "leche_almendra",
+    "g": 60,
+    "note": "para aligerar"
+   }
+  ],
+  "steps": [
+   "Cocina la manzana en cubos con canela 5 minutos a fuego bajo.",
+   "Calienta la avena cocida con la bebida de almendra.",
+   "Sirve la avena en un tazón.",
+   "Acomoda la manzana y termina con la crema de cacahuate."
+  ],
+  "tags": [
+   "rápida",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_avena_cajeta_platano_nuez",
+  "name": "Bowl de avena con cajeta, plátano y nuez de Castilla",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "avena_cocida",
+    "g": 234,
+    "note": "1 taza cocida"
+   },
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pieza en rodajas"
+   },
+   {
+    "food": "cajeta",
+    "g": 20,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 28,
+    "note": "1 puñado picado"
+   },
+   {
+    "food": "canela",
+    "g": 1,
+    "note": "pizca"
+   }
+  ],
+  "steps": [
+   "Calienta la avena cocida en una olla pequeña.",
+   "Pasa la avena a un tazón y acomoda el plátano en rodajas.",
+   "Pon la cajeta encima con un chorrito de agua tibia.",
+   "Termina con la nuez picada y canela."
+  ],
+  "tags": [
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_pina_mango_coco_chia_soya",
+  "name": "Bowl de piña y mango con bebida de soya, coco y chía",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pina",
+    "g": 330,
+    "note": "2 tazas en cubos"
+   },
+   {
+    "food": "mango",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "leche_soya",
+    "g": 240,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "coco_rallado",
+    "g": 12,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "chia",
+    "g": 12,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Corta la piña y el mango en cubos.",
+   "Reparte la fruta en dos tazones.",
+   "Vierte la bebida de soya sobre la fruta.",
+   "Espolvorea el coco rallado y la chía."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_kefir_arandano_zarzamora_almendra",
+  "name": "Bowl de kéfir con arándano, zarzamora y almendra",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "kefir",
+    "g": 200,
+    "note": "1 vaso"
+   },
+   {
+    "food": "arandano",
+    "g": 74,
+    "note": "media taza"
+   },
+   {
+    "food": "zarzamora",
+    "g": 72,
+    "note": "media taza"
+   },
+   {
+    "food": "almendra",
+    "g": 28,
+    "note": "1 puñado"
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Vierte el kéfir en un tazón.",
+   "Lava la fruta y acomódala encima.",
+   "Pica las almendras y espolvoréalas.",
+   "Termina con un hilo de miel."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_yogur_griego_granada_guayaba_pistache",
+  "name": "Bowl de yogur griego con granada, guayaba y pistache",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "granada",
+    "g": 60,
+    "note": "semillas"
+   },
+   {
+    "food": "guayaba",
+    "g": 90,
+    "note": "1 pieza en cubos"
+   },
+   {
+    "food": "pistache",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Pon el yogur griego en un tazón.",
+   "Corta la guayaba en cubos y acomódala sobre el yogur.",
+   "Agrega las semillas de granada.",
+   "Termina con pistache picado y miel."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_yogur_natural_naranja_kiwi_granola",
+  "name": "Bowl de yogur natural con naranja, kiwi y granola",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_natural",
+    "g": 225,
+    "note": "1 taza"
+   },
+   {
+    "food": "naranja",
+    "g": 131,
+    "note": "1 pieza en gajos"
+   },
+   {
+    "food": "kiwi",
+    "g": 69,
+    "note": "1 pieza en rodajas"
+   },
+   {
+    "food": "granola",
+    "g": 30,
+    "note": "1 porción"
+   }
+  ],
+  "steps": [
+   "Pela la naranja, separa los gajos y pica en trozos.",
+   "Pela el kiwi y córtalo en rodajas.",
+   "Pon el yogur en un tazón y acomoda la fruta encima.",
+   "Termina con granola."
+  ],
+  "tags": [
+   "rápida",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_quinoa_dulce_fresa_platano_canela",
+  "name": "Bowl de quinoa cocida con fresa, plátano y canela",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 185,
+    "note": "1 taza"
+   },
+   {
+    "food": "fresa",
+    "g": 150
+   },
+   {
+    "food": "platano",
+    "g": 118,
+    "note": "1 pieza"
+   },
+   {
+    "food": "leche_almendra",
+    "g": 120,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "canela",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "almendra",
+    "g": 14,
+    "note": "media porción picada"
+   }
+  ],
+  "steps": [
+   "Calienta la quinoa con la bebida de almendra 3 minutos.",
+   "Pasa la quinoa a un tazón.",
+   "Acomoda la fresa y el plátano en rodajas.",
+   "Espolvorea canela y almendra picada."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_leche_almendra_mango_canela",
+  "name": "Bowl de arroz integral con leche de almendra, mango y canela",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 195,
+    "note": "1 taza"
+   },
+   {
+    "food": "leche_almendra",
+    "g": 180,
+    "note": "sin azúcar"
+   },
+   {
+    "food": "mango",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "canela",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "pasas",
+    "g": 10,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "piloncillo",
+    "g": 15,
+    "note": "1 cucharada rallada"
+   }
+  ],
+  "steps": [
+   "Calienta el arroz con la bebida de almendra y el piloncillo 5 minutos.",
+   "Agrega la canela y las pasas.",
+   "Sirve en un tazón.",
+   "Acomoda el mango en cubos encima."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_cottage_pina_pistache_miel",
+  "name": "Bowl de cottage con piña, pistache y miel",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "queso_cottage",
+    "g": 226,
+    "note": "1 taza"
+   },
+   {
+    "food": "pina",
+    "g": 110,
+    "note": "en cubos"
+   },
+   {
+    "food": "pistache",
+    "g": 20,
+    "note": "picado"
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "media cucharada"
+   },
+   {
+    "food": "canela",
+    "g": 1,
+    "note": "pizca"
+   }
+  ],
+  "steps": [
+   "Pon el cottage en un tazón.",
+   "Acomoda la piña en cubos encima.",
+   "Espolvorea pistache picado y canela.",
+   "Termina con miel."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_huevo_revuelto_espinaca_aguacate_frijol",
+  "name": "Bowl de huevo revuelto con espinaca, aguacate y frijol negro",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza"
+   },
+   {
+    "food": "frijol_negro_cocido",
+    "g": 120
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 20,
+    "note": "picada"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "pizca"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla y el jitomate en aceite 3 minutos.",
+   "Agrega la espinaca y cocina 1 minuto hasta que se marchite.",
+   "Bate los huevos con sal, viértelos al sartén y revuelve hasta cuajar.",
+   "Sirve con el frijol negro caliente y el aguacate en rebanadas."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_papa_huevo_ejote_salsa_verde",
+  "name": "Bowl de papa cocida con huevo, ejote y salsa verde",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 340,
+    "note": "en cubos"
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 100,
+    "note": "2 huevos en mitades"
+   },
+   {
+    "food": "ejote",
+    "g": 250,
+    "note": "cocido"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150,
+    "note": "cocido"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Licúa el tomate verde cocido con cebolla, cilantro, chile, ajo y sal.",
+   "Dora las papas en cubos con el aceite hasta que estén crujientes.",
+   "Calienta los ejotes con un poco de salsa verde.",
+   "Sirve las papas con ejote, huevo en mitades y salsa verde."
+  ],
+  "tags": [
+   "económica",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_camote_huevo_espinaca_aguacate",
+  "name": "Bowl de camote con huevo, espinaca y aguacate",
+  "servings": 1,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "camote_cocido",
+    "g": 260,
+    "note": "2 piezas en cubos"
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   },
+   {
+    "food": "aguacate",
+    "g": 75,
+    "note": "media pieza en rebanadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 60,
+    "note": "en rodajas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 5
+   },
+   {
+    "food": "sal",
+    "g": 1,
+    "note": "pizca"
+   }
+  ],
+  "steps": [
+   "Calienta el camote en cubos en un sartén con el aceite 4 minutos.",
+   "Fríe los huevos a tu gusto con sal.",
+   "Acomoda la espinaca y el jitomate en el tazón.",
+   "Pon el camote, el huevo y el aguacate encima."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_tofu_suave_mango_granola_miel",
+  "name": "Bowl de tofu suave con mango, granola y miel",
+  "servings": 1,
+  "time_min": 5,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "tofu_suave",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "mango",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "granola",
+    "g": 30,
+    "note": "1 porción"
+   },
+   {
+    "food": "miel",
+    "g": 7,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Escurre el tofu suave y córtalo en cubos.",
+   "Acomódalo en un tazón con el mango.",
+   "Agrega la granola encima.",
+   "Termina con un hilo de miel."
+  ],
+  "tags": [
+   "rápida",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_yogur_griego_betabel_pepino_quinoa",
+  "name": "Bowl de yogur griego con betabel, pepino y quinoa",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "yogur_griego",
+    "g": 200
+   },
+   {
+    "food": "betabel",
+    "g": 136,
+    "note": "cocido, en cubos"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 185,
+    "note": "1 taza"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "nuez_castilla",
+    "g": 14,
+    "note": "media porción picada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 5
+   }
+  ],
+  "steps": [
+   "Pon la quinoa en un tazón y agrega el yogur griego.",
+   "Acomoda el betabel y el pepino encima.",
+   "Rocía el limón y el aceite de oliva.",
+   "Termina con nuez picada."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_pollo_cottage_pepino_jitomate",
+  "name": "Bowl de pollo con cottage, pepino y jitomate",
+  "servings": 1,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "queso_cottage",
+    "g": 150
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 195,
+    "note": "1 taza"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "pimienta_negra",
+    "g": 1,
+    "note": "pizca"
+   }
+  ],
+  "steps": [
+   "Acomoda el arroz integral en el fondo del tazón.",
+   "Pon el pollo en tiras encima del arroz.",
+   "Agrega el cottage, el pepino y el jitomate en cubos.",
+   "Rocía limón y pimienta."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_huevo_cocido_aguacate_salsa_verde",
+  "name": "Bowl de arroz integral con huevo cocido, aguacate y salsa verde",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "huevo_cocido",
+    "g": 150,
+    "note": "3 huevos en mitades"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "tomate_verde",
+    "g": 150,
+    "note": "crudo, picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 14,
+    "note": "1 chile"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Licúa el tomate verde, la cebolla, el chile, el cilantro y el limón con un poco de agua.",
+   "Calienta el arroz integral y sírvelo en los tazones.",
+   "Acomoda el huevo cocido en mitades y el aguacate.",
+   "Baña con la salsa verde."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_arroz_blanco_mojarra_ajo_limon",
+  "name": "Bowl de arroz blanco con mojarra al ajo y limón",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 316
+   },
+   {
+    "food": "mojarra",
+    "g": 300,
+    "note": "filete"
+   },
+   {
+    "food": "ajo",
+    "g": 9,
+    "note": "3 dientes"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sazona la mojarra con sal, limón y ajo picado.",
+   "Dora el pescado en el aceite 4 minutos por lado.",
+   "Sofríe la cebolla y el jitomate 3 minutos.",
+   "Sirve el arroz con el pescado, la cebolla con jitomate y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_quinoa_bagre_pimiento_limon",
+  "name": "Bowl de quinoa con bagre al horno, pimiento y limón",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "bagre",
+    "g": 300,
+    "note": "filete"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "paprika",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   }
+  ],
+  "steps": [
+   "Precalienta el horno a 200 °C.",
+   "Acomoda el bagre sobre papel con el pimiento, la cebolla y el ajo.",
+   "Rocía limón, aceite y paprika; hornea 15 minutos.",
+   "Sirve sobre la quinoa con los jugos del pescado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_merluza_calabacita_arroz_integral",
+  "name": "Bowl de merluza al vapor con calabacita y arroz integral",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "merluza",
+    "g": 300,
+    "note": "filete"
+   },
+   {
+    "food": "calabacita",
+    "g": 300,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "oregano",
+    "g": 2,
+    "note": "1 cucharadita"
+   }
+  ],
+  "steps": [
+   "Cuece la calabacita al vapor 6 minutos.",
+   "Coloca la merluza sobre la calabacita, sazona con limón, ajo y orégano, y cocina al vapor 8 minutos.",
+   "Calienta el arroz integral con el aceite y la cebolla.",
+   "Sirve el arroz con la calabacita y la merluza encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_trucha_ejote_papa_limon",
+  "name": "Bowl de trucha al limón con ejote y papa",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "trucha",
+    "g": 300,
+    "note": "filete"
+   },
+   {
+    "food": "ejote",
+    "g": 250,
+    "note": "cocido"
+   },
+   {
+    "food": "papa_cocida",
+    "g": 300,
+    "note": "en mitades"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora las papas en un sartén con aceite hasta que estén crujientes.",
+   "Sazona la trucha con sal, ajo y limón; dórala 4 minutos por lado.",
+   "Saltea los ejotes 3 minutos con sal.",
+   "Sirve las papas y los ejotes con la trucha y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_sardina_arroz_pepino_jitomate",
+  "name": "Bowl de sardina con arroz integral, pepino y jitomate",
+  "servings": 1,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "sardina_lata",
+    "g": 100,
+    "note": "4 sardinas escurridas"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 195,
+    "note": "1 taza"
+   },
+   {
+    "food": "pepino",
+    "g": 100,
+    "note": "en medias lunas"
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Escurre las sardinas y desmorónalas con un tenedor.",
+   "Mezcla el jitomate, el pepino, la cebolla y el chile.",
+   "Sirve el arroz en un tazón.",
+   "Acomoda la sardina y la ensalada encima, y rocía limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_caballa_lentejas_cebolla_morada",
+  "name": "Bowl de caballa con lentejas y cebolla morada",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "caballa_cocida",
+    "g": 240,
+    "note": "2 filetes desmenuzados"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 400
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 60,
+    "note": "en rebanadas finas"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "jitomate",
+    "g": 100,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Calienta las lentejas con el jitomate y un poco de agua 5 minutos.",
+   "Mezcla la cebolla morada con limón y sal.",
+   "Sirve las lentejas en tazones con la caballa desmenuzada encima.",
+   "Termina con la cebolla curtida, perejil y aceite."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_pulpo_quinoa_papa_pimenton",
+  "name": "Bowl de pulpo con quinoa, papa y pimentón",
+  "servings": 2,
+  "time_min": 30,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "pulpo_cocido",
+    "g": 240,
+    "note": "en rodajas"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "papa_cocida",
+    "g": 200,
+    "note": "en rodajas"
+   },
+   {
+    "food": "paprika",
+    "g": 3,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 14,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora las rodajas de papa en la mitad del aceite hasta que estén crujientes.",
+   "Calienta el pulpo 3 minutos en una sartén con el resto del aceite.",
+   "Sazona el pulpo con paprika, limón y sal.",
+   "Sirve la quinoa con papa, pulpo, cebolla morada y perejil."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_blanco_camaron_coctel_aguacate",
+  "name": "Bowl de arroz blanco con camarón en cóctel, aguacate y pepino",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 316
+   },
+   {
+    "food": "camaron_cocido",
+    "g": 300
+   },
+   {
+    "food": "salsa_tomate",
+    "g": 34,
+    "note": "2 cucharadas de catsup"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada fina"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "chile_serrano",
+    "g": 6,
+    "note": "picado"
+   }
+  ],
+  "steps": [
+   "Mezcla la salsa de tomate con el limón, el chile y un poco de agua fría.",
+   "Agrega el camarón, la cebolla y el cilantro a la salsa.",
+   "Sirve el arroz en tazones con el pepino y el aguacate.",
+   "Acomoda el camarón en cóctel encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_salmon_ahumado_aguacate_pepino",
+  "name": "Bowl de arroz integral con salmón ahumado, aguacate y pepino",
+  "servings": 2,
+  "time_min": 10,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "salmon_ahumado",
+    "g": 90,
+    "note": "3 rebanadas"
+   },
+   {
+    "food": "aguacate",
+    "g": 150,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "pepino",
+    "g": 120,
+    "note": "en listones"
+   },
+   {
+    "food": "queso_crema",
+    "g": 30,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Calienta ligeramente el arroz integral y sírvelo en dos tazones.",
+   "Acomoda el salmón ahumado, el aguacate y el pepino.",
+   "Pon una cucharada de queso crema y rocía limón.",
+   "Termina con cebolla morada y ajonjolí."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten"
+  ]
+ },
+ {
+  "id": "bow_pollo_rostizado_frijol_bayo_nopal",
+  "name": "Bowl de pollo rostizado con frijol bayo y nopal",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pollo_rostizado",
+    "g": 300,
+    "note": "deshuesado"
+   },
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 340
+   },
+   {
+    "food": "nopal",
+    "g": 200,
+    "note": "cocido en tiras"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "salsa_picante",
+    "g": 10,
+    "note": "2 cucharaditas"
+   }
+  ],
+  "steps": [
+   "Calienta el frijol bayo con un poco de su caldo.",
+   "Calienta el pollo deshuesado en un sartén 3 minutos.",
+   "Agrega el nopal en tiras y cocina 2 minutos.",
+   "Sirve el frijol con el pollo y el nopal, y termina con cebolla, cilantro, limón y salsa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_pavo_quinoa_espinaca_pepita",
+  "name": "Bowl de pechuga de pavo con quinoa, espinaca y pepita",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pavo_pechuga",
+    "g": 300,
+    "note": "cocida en cubos"
+   },
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "espinaca",
+    "g": 90
+   },
+   {
+    "food": "pepita",
+    "g": 28,
+    "note": "1 puñado"
+   },
+   {
+    "food": "zanahoria",
+    "g": 60,
+    "note": "en juliana"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora el pavo en cubos con el aceite 4 minutos.",
+   "Saltea la zanahoria con un poco de agua 3 minutos.",
+   "Acomoda la quinoa con la espinaca cruda encima.",
+   "Sirve el pavo, la zanahoria y las pepitas tostadas, y rocía limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_elote_garbanzo_pimiento_yogur",
+  "name": "Bowl de elote asado con garbanzo, pimiento y yogur",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "elote_cocido",
+    "g": 300,
+    "note": "desgranado y dorado"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 330
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "yogur_griego",
+    "g": 150
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "paprika",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora el elote desgranado en un sartén con aceite 4 minutos.",
+   "Saltea el pimiento en tiras 4 minutos.",
+   "Mezcla el garbanzo con limón, sal y paprika.",
+   "Sirve el garbanzo con el elote y el pimiento, y termina con yogur y cilantro."
+  ],
+  "tags": [
+   "alta en proteína",
+   "rápida",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_lentejas_camote_espinaca_feta",
+  "name": "Bowl de lentejas con camote, espinaca y queso feta",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "lentejas_cocidas",
+    "g": 400
+   },
+   {
+    "food": "camote_cocido",
+    "g": 260,
+    "note": "en cubos"
+   },
+   {
+    "food": "espinaca",
+    "g": 90
+   },
+   {
+    "food": "queso_feta",
+    "g": 30,
+    "note": "2 cucharadas desmoronadas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "oregano",
+    "g": 1,
+    "note": "media cucharadita"
+   }
+  ],
+  "steps": [
+   "Sofríe la cebolla morada en aceite 3 minutos.",
+   "Agrega las lentejas, el camote y el orégano; calienta 5 minutos.",
+   "Incorpora la espinaca y deja que se marchite.",
+   "Sirve con queso feta desmoronado y limón."
+  ],
+  "tags": [
+   "económica",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_mediterranea_garbanzo_hummus_pepino",
+  "name": "Bowl mediterránea de garbanzo con hummus, pepino y pimiento",
+  "servings": 2,
+  "time_min": 15,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "garbanzo_cocido",
+    "g": 330
+   },
+   {
+    "food": "hummus",
+    "g": 90,
+    "note": "6 cucharadas"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pimiento_morron",
+    "g": 120,
+    "note": "en tiras"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "aceitunas",
+    "g": 30,
+    "note": "7 piezas"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Mezcla el garbanzo con limón, aceite y sal.",
+   "Pica el pepino, el pimiento y la cebolla morada.",
+   "Sirve el hummus en el fondo del tazón.",
+   "Acomoda el garbanzo, las verduras y las aceitunas encima."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_res_molida_calabacita_poblano",
+  "name": "Bowl de arroz integral con res molida, calabacita y chile poblano",
+  "servings": 2,
+  "time_min": 30,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 300,
+    "note": "cruda"
+   },
+   {
+    "food": "calabacita",
+    "g": 180,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_poblano",
+    "g": 120,
+    "note": "en cubos"
+   },
+   {
+    "food": "jitomate",
+    "g": 150,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 50,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Dora la carne molida con la cebolla y el ajo, y escurre la grasa.",
+   "Agrega el poblano, la calabacita, el jitomate picado y el comino.",
+   "Cocina a fuego medio 12 minutos hasta que las verduras estén tiernas.",
+   "Sirve sobre el arroz integral caliente."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_quinoa_res_molida_chile_ancho_elote",
+  "name": "Bowl de quinoa con res molida al chile ancho y elote",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "res_molida_magra",
+    "g": 280,
+    "note": "cruda"
+   },
+   {
+    "food": "chile_ancho",
+    "g": 12,
+    "note": "1 pieza desvenada"
+   },
+   {
+    "food": "elote_cocido",
+    "g": 150,
+    "note": "desgranado"
+   },
+   {
+    "food": "jitomate",
+    "g": 120,
+    "note": "picado"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "comino",
+    "g": 2,
+    "note": "1 cucharadita"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Remoja el chile ancho en agua caliente 10 minutos y licúalo con el jitomate y el ajo.",
+   "Dora la carne molida con la cebolla en el aceite; escurre la grasa.",
+   "Agrega la salsa de chile, el comino y cocina 10 minutos.",
+   "Sirve sobre la quinoa con el elote desgranado."
+  ],
+  "tags": [
+   "alta en proteína",
+   "meal prep",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_cerdo_jengibre_arroz_int_brocoli",
+  "name": "Bowl de cerdo al jengibre con arroz integral y brócoli",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "cerdo_lomo",
+    "g": 280,
+    "note": "cocido, en tiras"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "brocoli",
+    "g": 200,
+    "note": "en floretes"
+   },
+   {
+    "food": "jengibre",
+    "g": 12,
+    "note": "2 cucharadas ralladas"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 32,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "miel",
+    "g": 10,
+    "note": "media cucharada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "ajonjoli",
+    "g": 9,
+    "note": "1 cucharada"
+   }
+  ],
+  "steps": [
+   "Calienta el aceite y saltea el jengibre y el ajo 1 minuto.",
+   "Agrega el cerdo y el brócoli; cocina 4 minutos.",
+   "Mezcla la salsa de soya con la miel y añádela al sartén.",
+   "Sirve sobre el arroz integral y espolvorea ajonjolí."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_muslo_pollo_camote_pasilla",
+  "name": "Bowl de muslo de pollo con camote y salsa de chile pasilla",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "muslo_pollo",
+    "g": 300,
+    "note": "sin piel, cocido y en trozos"
+   },
+   {
+    "food": "camote_cocido",
+    "g": 260,
+    "note": "en cubos"
+   },
+   {
+    "food": "chile_pasilla",
+    "g": 20,
+    "note": "2 piezas desvenadas"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "vinagre_manzana",
+    "g": 15
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Remoja los chiles pasilla en agua caliente 10 minutos y licúalos con ajo, vinagre y un poco de agua.",
+   "Sofríe la salsa en aceite 5 minutos.",
+   "Agrega el muslo de pollo y cocina 5 minutos más.",
+   "Sirve el camote y la espinaca con el pollo bañado en la salsa."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_pollo_mango_pepino_arroz_int",
+  "name": "Bowl de pechuga de pollo a la plancha con mango, pepino y arroz integral",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "pechuga_pollo",
+    "g": 300,
+    "note": "cruda, en tiras"
+   },
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "mango",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "pepino",
+    "g": 150,
+    "note": "en cubos"
+   },
+   {
+    "food": "limon",
+    "g": 30,
+    "note": "jugo"
+   },
+   {
+    "food": "chile_jalapeno",
+    "g": 14,
+    "note": "1 chile picado"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "sal",
+    "g": 2
+   }
+  ],
+  "steps": [
+   "Sazona el pollo con sal y limón, y cocínalo en la plancha con aceite 5 minutos por lado.",
+   "Mezcla el mango, el pepino, el chile y el cilantro.",
+   "Sirve el arroz integral en tazones.",
+   "Acomoda el pollo en tiras y la mezcla de mango encima."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_sopa_fideo_pollo_espinaca",
+  "name": "Bowl de sopa de fideo con pollo y espinaca",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "fideo_sopa",
+    "g": 120,
+    "note": "crudo"
+   },
+   {
+    "food": "pechuga_pollo_cocida",
+    "g": 250,
+    "note": "deshebrada"
+   },
+   {
+    "food": "espinaca",
+    "g": 90
+   },
+   {
+    "food": "consome_pollo",
+    "g": 8,
+    "note": "2 cucharaditas"
+   },
+   {
+    "food": "agua_simple",
+    "g": 800
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Hierve el agua con el consomé, el ajo y la cebolla.",
+   "Agrega el fideo y cocina 4 minutos.",
+   "Incorpora el pollo deshebrado y la espinaca.",
+   "Sirve caliente con unas gotas de limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "económica",
+   "sin lácteos"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_chayote_frijol_bayo_panela",
+  "name": "Bowl de arroz integral con chayote, frijol bayo y queso panela",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "chayote",
+    "g": 200,
+    "note": "en cubos"
+   },
+   {
+    "food": "frijol_bayo_cocido",
+    "g": 340
+   },
+   {
+    "food": "queso_panela",
+    "g": 60,
+    "note": "en cubos"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "picada"
+   },
+   {
+    "food": "chile_guero",
+    "g": 15,
+    "note": "1 chile en rajas"
+   },
+   {
+    "food": "cilantro",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Saltea el chayote con la cebolla y el aceite 6 minutos.",
+   "Agrega el chile güero en rajas y el frijol bayo; calienta 3 minutos.",
+   "Sirve el arroz integral con el frijol y el chayote.",
+   "Termina con queso panela en cubos, cilantro y limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin gluten",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_arroz_int_berenjena_garbanzo_tahini",
+  "name": "Bowl de arroz integral con berenjena asada, garbanzo y tahini",
+  "servings": 2,
+  "time_min": 35,
+  "level": "media",
+  "ingredients": [
+   {
+    "food": "arroz_integral_cocido",
+    "g": 300
+   },
+   {
+    "food": "berenjena",
+    "g": 250,
+    "note": "en rodajas"
+   },
+   {
+    "food": "garbanzo_cocido",
+    "g": 250
+   },
+   {
+    "food": "tahini",
+    "g": 30,
+    "note": "2 cucharadas"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "perejil",
+    "g": 8,
+    "note": "picado"
+   },
+   {
+    "food": "espinaca",
+    "g": 60
+   }
+  ],
+  "steps": [
+   "Hornea las rodajas de berenjena con aceite y sal a 200 °C por 20 minutos.",
+   "Mezcla el tahini con limón, ajo y un poco de agua.",
+   "Calienta el garbanzo con un poco de aceite y sal.",
+   "Sirve el arroz con espinaca, berenjena, garbanzo y tahini; termina con perejil."
+  ],
+  "tags": [
+   "meal prep",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_quinoa_champinon_espinaca_huevo",
+  "name": "Bowl de quinoa con champiñones salteados, espinaca y huevo",
+  "servings": 2,
+  "time_min": 20,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "quinoa_cocida",
+    "g": 370
+   },
+   {
+    "food": "champinon",
+    "g": 200,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "espinaca",
+    "g": 120
+   },
+   {
+    "food": "huevo_entero",
+    "g": 100,
+    "note": "2 huevos"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 30,
+    "note": "picada"
+   }
+  ],
+  "steps": [
+   "Saltea los champiñones con el ajo y la cebolla en aceite hasta dorar.",
+   "Agrega la espinaca y cocina 1 minuto hasta que se marchite.",
+   "Cuece los huevos en agua hirviendo 4 minutos para que queden con la yema suave.",
+   "Sirve la quinoa con champiñones, espinaca y huevo, y rocía limón."
+  ],
+  "tags": [
+   "rápida",
+   "sin gluten",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_col_chayote_tofu_arroz_blanco",
+  "name": "Bowl de col y chayote salteados con tofu y arroz blanco",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "arroz_blanco_cocido",
+    "g": 316
+   },
+   {
+    "food": "tofu_firme",
+    "g": 250,
+    "note": "en cubos"
+   },
+   {
+    "food": "col",
+    "g": 200,
+    "note": "picada"
+   },
+   {
+    "food": "chayote",
+    "g": 150,
+    "note": "en tiras"
+   },
+   {
+    "food": "salsa_soya",
+    "g": 16,
+    "note": "1 cucharada"
+   },
+   {
+    "food": "ajo",
+    "g": 6,
+    "note": "2 dientes"
+   },
+   {
+    "food": "cebolla_blanca",
+    "g": 40,
+    "note": "en rebanadas"
+   },
+   {
+    "food": "aceite_vegetal",
+    "g": 7
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   }
+  ],
+  "steps": [
+   "Dora el tofu en cubos con el aceite hasta que esté crujiente.",
+   "Saltea la cebolla, el ajo, el chayote y la col 5 minutos.",
+   "Agrega la salsa de soya y el tofu; cocina 2 minutos.",
+   "Sirve sobre el arroz blanco y rocía limón."
+  ],
+  "tags": [
+   "alta en proteína",
+   "sin lácteos",
+   "vegetariana"
+  ]
+ },
+ {
+  "id": "bow_papa_brocoli_lentejas_yogur",
+  "name": "Bowl de papa con brócoli, lentejas y yogur griego",
+  "servings": 2,
+  "time_min": 25,
+  "level": "fácil",
+  "ingredients": [
+   {
+    "food": "papa_cocida",
+    "g": 340,
+    "note": "en cubos"
+   },
+   {
+    "food": "brocoli",
+    "g": 180,
+    "note": "en floretes"
+   },
+   {
+    "food": "lentejas_cocidas",
+    "g": 300
+   },
+   {
+    "food": "yogur_griego",
+    "g": 100,
+    "note": "para aderezar"
+   },
+   {
+    "food": "limon",
+    "g": 15,
+    "note": "jugo"
+   },
+   {
+    "food": "ajo",
+    "g": 3,
+    "note": "1 diente"
+   },
+   {
+    "food": "cebolla_morada",
+    "g": 30,
+    "note": "picada fina"
+   },
+   {
+    "food": "aceite_oliva",
+    "g": 7
+   }
+  ],
+  "steps": [
+   "Dora las papas en cubos con el aceite 8 minutos.",
+   "Cuece el brócoli al vapor 4 minutos.",
+   "Calienta las lentejas con el ajo y la cebolla.",
+   "Sirve la papa, el brócoli y las lentejas; termina con yogur, limón y sal."
+  ],
+  "tags": [
+   "económica",
+   "meal prep",
+   "sin gluten",
+   "vegetariana"
+  ]
+ }
+]
