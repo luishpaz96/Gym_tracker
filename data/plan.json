@@ -751,7 +751,7 @@
    ],
    "sessions": {
     "1": {
-     "name": "Pecho, tríceps y core",
+     "name": "Pecho, bíceps y abdomen",
      "exercises": [
       {
        "id": "banca",
@@ -774,44 +774,14 @@
        "rest": "2 min"
       },
       {
-       "id": "pecho_maq",
-       "reps": "10–12",
+       "id": "curl_polea",
+       "reps": "8–12",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "aperturas",
-       "reps": "12–15",
-       "sets": [
-        2,
-        2,
-        3
+        3,
+        4
        ],
        "rest": "60–90 s"
-      },
-      {
-       "id": "triceps",
-       "reps": "10–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "tri_cabeza",
-       "reps": "10–12",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "90 s"
       },
       {
        "id": "crunch_maq",
@@ -821,22 +791,12 @@
         3,
         3
        ],
-       "rest": "—"
-      },
-      {
-       "id": "silla_romana",
-       "reps": "10–15",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60–90 s"
+       "rest": "60 s"
       }
      ]
     },
     "3": {
-     "name": "Pierna y hombro",
+     "name": "Pierna",
      "exercises": [
       {
        "id": "sentadilla",
@@ -849,6 +809,16 @@
        "rest": "3 min"
       },
       {
+       "id": "rumano_b",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
        "id": "prensa",
        "reps": "10–12",
        "sets": [
@@ -856,7 +826,7 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "superserie con talones"
       },
       {
        "id": "talones_prensa",
@@ -876,17 +846,32 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, hombro, trapecio y tríceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
       },
       {
-       "id": "extension",
-       "reps": "12–15",
+       "id": "remo_maq",
+       "reps": "8–12",
        "sets": [
-        2,
-        2,
+        3,
+        3,
         3
        ],
-       "rest": "90 s"
+       "rest": "2 min"
       },
       {
        "id": "hombro_maq",
@@ -904,51 +889,6 @@
        "sets": [
         3,
         3,
-        4
-       ],
-       "rest": "60–90 s"
-      }
-     ]
-    },
-    "5": {
-     "name": "Espalda, trapecio y bíceps",
-     "exercises": [
-      {
-       "id": "jalon",
-       "reps": "8–12",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "rumano_b",
-       "reps": "6–10",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "2–3 min"
-      },
-      {
-       "id": "remo_maq",
-       "reps": "8–12",
-       "sets": [
-        3,
-        3,
-        4
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "facepull",
-       "reps": "12–15",
-       "sets": [
-        2,
-        3,
         3
        ],
        "rest": "60 s"
@@ -961,24 +901,14 @@
         3,
         3
        ],
-       "rest": "90 s"
-      },
-      {
-       "id": "curl_polea",
-       "reps": "8–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
        "rest": "60–90 s"
       },
       {
-       "id": "martillo_polea",
+       "id": "tri_cabeza",
        "reps": "10–12",
        "sets": [
-        2,
-        2,
+        3,
+        3,
         3
        ],
        "rest": "60 s"
@@ -1000,7 +930,7 @@
    ],
    "sessions": {
     "1": {
-     "name": "Pecho, tríceps y core",
+     "name": "Pecho, bíceps y abdomen",
      "exercises": [
       {
        "id": "banca",
@@ -1023,44 +953,14 @@
        "rest": "2 min"
       },
       {
-       "id": "pecho_maq",
-       "reps": "10–12",
+       "id": "curl_polea",
+       "reps": "8–12",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "aperturas",
-       "reps": "12–15",
-       "sets": [
-        2,
-        2,
-        3
+        3,
+        4
        ],
        "rest": "60–90 s"
-      },
-      {
-       "id": "triceps",
-       "reps": "10–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "tri_cabeza",
-       "reps": "10–12",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "90 s"
       },
       {
        "id": "crunch_maq",
@@ -1070,22 +970,12 @@
         3,
         3
        ],
-       "rest": "—"
-      },
-      {
-       "id": "silla_romana",
-       "reps": "10–15",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60–90 s"
+       "rest": "60 s"
       }
      ]
     },
     "3": {
-     "name": "Pierna y hombro",
+     "name": "Pierna",
      "exercises": [
       {
        "id": "sentadilla",
@@ -1098,6 +988,16 @@
        "rest": "3 min"
       },
       {
+       "id": "rumano_b",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
        "id": "prensa",
        "reps": "10–12",
        "sets": [
@@ -1105,7 +1005,7 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "superserie con talones"
       },
       {
        "id": "talones_prensa",
@@ -1125,17 +1025,32 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, hombro, trapecio y tríceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
       },
       {
-       "id": "extension",
-       "reps": "12–15",
+       "id": "remo_maq",
+       "reps": "8–12",
        "sets": [
-        2,
-        2,
+        3,
+        3,
         3
        ],
-       "rest": "90 s"
+       "rest": "2 min"
       },
       {
        "id": "hombro_maq",
@@ -1153,51 +1068,6 @@
        "sets": [
         3,
         3,
-        4
-       ],
-       "rest": "60–90 s"
-      }
-     ]
-    },
-    "5": {
-     "name": "Espalda, trapecio y bíceps",
-     "exercises": [
-      {
-       "id": "jalon",
-       "reps": "8–12",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "rumano_b",
-       "reps": "6–10",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "2–3 min"
-      },
-      {
-       "id": "remo_maq",
-       "reps": "8–12",
-       "sets": [
-        3,
-        3,
-        4
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "facepull",
-       "reps": "12–15",
-       "sets": [
-        2,
-        3,
         3
        ],
        "rest": "60 s"
@@ -1210,24 +1080,14 @@
         3,
         3
        ],
-       "rest": "90 s"
-      },
-      {
-       "id": "curl_polea",
-       "reps": "8–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
        "rest": "60–90 s"
       },
       {
-       "id": "martillo_polea",
+       "id": "tri_cabeza",
        "reps": "10–12",
        "sets": [
-        2,
-        2,
+        3,
+        3,
         3
        ],
        "rest": "60 s"
@@ -1249,7 +1109,7 @@
    ],
    "sessions": {
     "1": {
-     "name": "Pecho, tríceps y core",
+     "name": "Pecho, bíceps y abdomen",
      "exercises": [
       {
        "id": "banca",
@@ -1272,44 +1132,14 @@
        "rest": "2 min"
       },
       {
-       "id": "pecho_maq",
-       "reps": "10–12",
+       "id": "curl_polea",
+       "reps": "8–12",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "aperturas",
-       "reps": "12–15",
-       "sets": [
-        2,
-        2,
-        3
+        3,
+        4
        ],
        "rest": "60–90 s"
-      },
-      {
-       "id": "triceps",
-       "reps": "10–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "tri_cabeza",
-       "reps": "10–12",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "90 s"
       },
       {
        "id": "crunch_maq",
@@ -1319,22 +1149,12 @@
         3,
         3
        ],
-       "rest": "—"
-      },
-      {
-       "id": "silla_romana",
-       "reps": "10–15",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60–90 s"
+       "rest": "60 s"
       }
      ]
     },
     "3": {
-     "name": "Pierna y hombro",
+     "name": "Pierna",
      "exercises": [
       {
        "id": "sentadilla",
@@ -1347,6 +1167,16 @@
        "rest": "3 min"
       },
       {
+       "id": "rumano_b",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "2–3 min"
+      },
+      {
        "id": "prensa",
        "reps": "10–12",
        "sets": [
@@ -1354,7 +1184,7 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "superserie con talones"
       },
       {
        "id": "talones_prensa",
@@ -1374,17 +1204,32 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "90 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, hombro, trapecio y tríceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
       },
       {
-       "id": "extension",
-       "reps": "12–15",
+       "id": "remo_maq",
+       "reps": "8–12",
        "sets": [
-        2,
-        2,
+        3,
+        3,
         3
        ],
-       "rest": "90 s"
+       "rest": "2 min"
       },
       {
        "id": "hombro_maq",
@@ -1402,51 +1247,6 @@
        "sets": [
         3,
         3,
-        4
-       ],
-       "rest": "60–90 s"
-      }
-     ]
-    },
-    "5": {
-     "name": "Espalda, trapecio y bíceps",
-     "exercises": [
-      {
-       "id": "jalon",
-       "reps": "8–12",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "rumano_b",
-       "reps": "6–10",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "2–3 min"
-      },
-      {
-       "id": "remo_maq",
-       "reps": "8–12",
-       "sets": [
-        3,
-        3,
-        4
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "facepull",
-       "reps": "12–15",
-       "sets": [
-        2,
-        3,
         3
        ],
        "rest": "60 s"
@@ -1459,24 +1259,14 @@
         3,
         3
        ],
-       "rest": "90 s"
-      },
-      {
-       "id": "curl_polea",
-       "reps": "8–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
        "rest": "60–90 s"
       },
       {
-       "id": "martillo_polea",
+       "id": "tri_cabeza",
        "reps": "10–12",
        "sets": [
-        2,
-        2,
+        3,
+        3,
         3
        ],
        "rest": "60 s"
@@ -1498,7 +1288,7 @@
    ],
    "sessions": {
     "1": {
-     "name": "Pecho, tríceps y core",
+     "name": "Pecho, bíceps y abdomen",
      "exercises": [
       {
        "id": "banca",
@@ -1521,69 +1311,29 @@
        "rest": "2 min"
       },
       {
-       "id": "fondos",
+       "id": "curl_polea",
        "reps": "8–12",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "aperturas",
-       "reps": "12–15",
-       "sets": [
-        2,
-        3,
-        3
+        4,
+        4
        ],
        "rest": "60–90 s"
-      },
-      {
-       "id": "triceps",
-       "reps": "10–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "tri_cabeza",
-       "reps": "10–12",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "60–90 s"
-      },
-      {
-       "id": "silla_romana",
-       "reps": "10–15",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "—"
       },
       {
        "id": "crunch_maq",
        "reps": "10–15",
        "sets": [
-        2,
+        3,
         3,
         3
        ],
-       "rest": "60–90 s"
+       "rest": "60 s"
       }
      ]
     },
     "3": {
-     "name": "Pierna y hombro",
+     "name": "Pierna",
      "exercises": [
       {
        "id": "sentadilla",
@@ -1596,6 +1346,16 @@
        "rest": "3 min"
       },
       {
+       "id": "rumano_b",
+       "reps": "8–10",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "2–3 min"
+      },
+      {
        "id": "prensa",
        "reps": "10–12",
        "sets": [
@@ -1603,7 +1363,7 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "superserie con talones"
       },
       {
        "id": "talones_prensa",
@@ -1619,46 +1379,16 @@
        "id": "femoral",
        "reps": "10–12",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "extension",
-       "reps": "12–15",
-       "sets": [
-        2,
-        2,
+        3,
         3
        ],
        "rest": "90 s"
-      },
-      {
-       "id": "press_smith",
-       "reps": "6–10",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "2–3 min"
-      },
-      {
-       "id": "lat_maq",
-       "reps": "12–20",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "60–90 s"
       }
      ]
     },
     "5": {
-     "name": "Espalda, trapecio y bíceps",
+     "name": "Espalda, hombro, trapecio y tríceps",
      "exercises": [
       {
        "id": "dominadas",
@@ -1671,41 +1401,31 @@
        "rest": "2 min"
       },
       {
-       "id": "rumano_b",
-       "reps": "8–10",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "2–3 min"
-      },
-      {
        "id": "remo_maq",
        "reps": "8–12",
        "sets": [
         3,
-        3,
+        4,
         4
        ],
        "rest": "2 min"
       },
       {
-       "id": "jalon_n",
-       "reps": "10–12",
+       "id": "press_smith",
+       "reps": "6–10",
        "sets": [
-        2,
-        2,
-        3
+        3,
+        4,
+        4
        ],
-       "rest": "90 s"
+       "rest": "2 min"
       },
       {
-       "id": "facepull",
-       "reps": "12–15",
+       "id": "lat_maq",
+       "reps": "12–20",
        "sets": [
-        2,
-        2,
+        3,
+        3,
         3
        ],
        "rest": "60 s"
@@ -1714,21 +1434,21 @@
        "id": "encog_smith",
        "reps": "10–15",
        "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "curl_polea",
-       "reps": "8–12",
-       "sets": [
         3,
         3,
         3
        ],
        "rest": "60–90 s"
+      },
+      {
+       "id": "tri_cabeza",
+       "reps": "10–12",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60 s"
       }
      ]
     }
@@ -1747,7 +1467,7 @@
    ],
    "sessions": {
     "1": {
-     "name": "Pecho, tríceps y core",
+     "name": "Pecho, bíceps y abdomen",
      "exercises": [
       {
        "id": "banca",
@@ -1765,66 +1485,26 @@
        "sets": [
         3,
         3,
-        3
+        4
        ],
        "rest": "2–3 min"
       },
       {
-       "id": "fondos",
+       "id": "curl_polea",
        "reps": "6–10",
        "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "aperturas",
-       "reps": "12–15",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60–90 s"
-      },
-      {
-       "id": "triceps",
-       "reps": "8–10",
-       "sets": [
         3,
         3,
-        3
+        4
        ],
-       "rest": "—"
-      },
-      {
-       "id": "tri_cabeza",
-       "reps": "10–12",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60–90 s"
+       "rest": "90 s"
       },
       {
        "id": "crunch",
        "reps": "10–12",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "pallof",
-       "reps": "10 c/lado",
-       "sets": [
-        2,
-        2,
+        3,
         3
        ],
        "rest": "60 s"
@@ -1832,7 +1512,7 @@
      ]
     },
     "3": {
-     "name": "Pierna y hombro",
+     "name": "Pierna",
      "exercises": [
       {
        "id": "sentadilla",
@@ -1845,6 +1525,16 @@
        "rest": "3 min"
       },
       {
+       "id": "rumano_b",
+       "reps": "5–8",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
        "id": "prensa",
        "reps": "8–10",
        "sets": [
@@ -1852,7 +1542,7 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "superserie con talones"
       },
       {
        "id": "talones_prensa",
@@ -1873,31 +1563,11 @@
         3
        ],
        "rest": "90 s"
-      },
-      {
-       "id": "press_smith",
-       "reps": "4–6",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "3 min"
-      },
-      {
-       "id": "lat_maq",
-       "reps": "10–15",
-       "sets": [
-        3,
-        3,
-        4
-       ],
-       "rest": "60–90 s"
       }
      ]
     },
     "5": {
-     "name": "Espalda, trapecio y bíceps",
+     "name": "Espalda, hombro, trapecio y tríceps",
      "exercises": [
       {
        "id": "dominadas",
@@ -1907,27 +1577,37 @@
         4,
         4
        ],
-       "rest": "2–3 min"
-      },
-      {
-       "id": "rumano_b",
-       "reps": "5–8",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "3 min"
+       "rest": "2 min"
       },
       {
        "id": "remo_maq",
        "reps": "6–8",
        "sets": [
         3,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "press_smith",
+       "reps": "4–6",
+       "sets": [
+        3,
         4,
         4
        ],
        "rest": "2–3 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "10–15",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60 s"
       },
       {
        "id": "encog_smith",
@@ -1937,37 +1617,17 @@
         3,
         3
        ],
-       "rest": "90 s"
+       "rest": "60–90 s"
       },
       {
-       "id": "facepull",
-       "reps": "12–15",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60 s"
-      },
-      {
-       "id": "curl_polea",
-       "reps": "6–10",
+       "id": "triceps",
+       "reps": "8–10",
        "sets": [
         3,
         3,
         3
        ],
-       "rest": "90 s"
-      },
-      {
-       "id": "martillo_polea",
-       "reps": "8–12",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60 s"
+       "rest": "60–90 s"
       }
      ]
     }
@@ -1986,7 +1646,7 @@
    ],
    "sessions": {
     "1": {
-     "name": "Pecho, tríceps y core",
+     "name": "Pecho, bíceps y abdomen",
      "exercises": [
       {
        "id": "incl_barra",
@@ -2004,47 +1664,17 @@
        "sets": [
         3,
         3,
-        3
+        4
        ],
        "rest": "2 min"
       },
       {
-       "id": "aperturas",
-       "reps": "12–15",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "60–90 s"
-      },
-      {
-       "id": "fondos",
-       "reps": "8–12",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "triceps",
+       "id": "predicador",
        "reps": "10–12",
        "sets": [
         3,
-        3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "tri_cabeza",
-       "reps": "10–12",
-       "sets": [
-        2,
-        3,
-        3
+        4,
+        4
        ],
        "rest": "60–90 s"
       },
@@ -2052,18 +1682,8 @@
        "id": "silla_romana",
        "reps": "12–15",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "pallof",
-       "reps": "12 c/lado",
-       "sets": [
-        2,
-        2,
+        3,
         3
        ],
        "rest": "60 s"
@@ -2071,7 +1691,7 @@
      ]
     },
     "3": {
-     "name": "Pierna y hombro",
+     "name": "Pierna",
      "exercises": [
       {
        "id": "hack",
@@ -2084,30 +1704,65 @@
        "rest": "2–3 min"
       },
       {
-       "id": "prensa",
-       "reps": "10–12",
+       "id": "rumano_b",
+       "reps": "8–10",
        "sets": [
-        2,
+        3,
         3,
         3
        ],
-       "rest": "—"
+       "rest": "2–3 min"
       },
       {
-       "id": "talones_prensa",
+       "id": "extension",
        "reps": "12–15",
        "sets": [
-        2,
+        3,
         3,
         3
        ],
-       "rest": "2 min"
+       "rest": "60–90 s"
       },
       {
        "id": "femoral",
        "reps": "12–15",
        "sets": [
-        2,
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "talones_smith",
+       "reps": "12–15",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, hombro, trapecio y tríceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3,
         3,
         3
        ],
@@ -2131,77 +1786,12 @@
         4,
         4
        ],
-       "rest": "60–90 s"
-      },
-      {
-       "id": "pajaros_maq",
-       "reps": "15",
-       "sets": [
-        2,
-        3,
-        3
-       ],
        "rest": "60 s"
-      }
-     ]
-    },
-    "5": {
-     "name": "Espalda, trapecio y bíceps",
-     "exercises": [
-      {
-       "id": "jalon",
-       "reps": "8–12",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "rumano_b",
-       "reps": "8–10",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "2–3 min"
-      },
-      {
-       "id": "remo_polea",
-       "reps": "10–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "pullover",
-       "reps": "12–15",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "60–90 s"
       },
       {
        "id": "encog_smith",
        "reps": "12–15",
        "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "predicador",
-       "reps": "10–12",
-       "sets": [
         3,
         3,
         3
@@ -2209,12 +1799,12 @@
        "rest": "60–90 s"
       },
       {
-       "id": "martillo_polea",
+       "id": "tri_cabeza",
        "reps": "10–12",
        "sets": [
-        2,
         3,
-        3
+        3,
+        4
        ],
        "rest": "60 s"
       }
@@ -2235,7 +1825,7 @@
    ],
    "sessions": {
     "1": {
-     "name": "Pecho, tríceps y core",
+     "name": "Pecho, bíceps y abdomen",
      "exercises": [
       {
        "id": "banca",
@@ -2253,66 +1843,26 @@
        "sets": [
         3,
         3,
-        3
+        4
        ],
        "rest": "2–3 min"
       },
       {
-       "id": "fondos",
+       "id": "curl_polea",
        "reps": "6–10",
        "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "aperturas",
-       "reps": "12–15",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60–90 s"
-      },
-      {
-       "id": "triceps",
-       "reps": "8–10",
-       "sets": [
         3,
         3,
-        3
+        4
        ],
-       "rest": "—"
-      },
-      {
-       "id": "tri_cabeza",
-       "reps": "10–12",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60–90 s"
+       "rest": "90 s"
       },
       {
        "id": "crunch",
        "reps": "10–12",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "pallof",
-       "reps": "10 c/lado",
-       "sets": [
-        2,
-        2,
+        3,
         3
        ],
        "rest": "60 s"
@@ -2320,7 +1870,7 @@
      ]
     },
     "3": {
-     "name": "Pierna y hombro",
+     "name": "Pierna",
      "exercises": [
       {
        "id": "sentadilla",
@@ -2333,6 +1883,16 @@
        "rest": "3 min"
       },
       {
+       "id": "rumano_b",
+       "reps": "5–8",
+       "sets": [
+        3,
+        3,
+        4
+       ],
+       "rest": "3 min"
+      },
+      {
        "id": "prensa",
        "reps": "8–10",
        "sets": [
@@ -2340,7 +1900,7 @@
         3,
         3
        ],
-       "rest": "—"
+       "rest": "superserie con talones"
       },
       {
        "id": "talones_prensa",
@@ -2361,31 +1921,11 @@
         3
        ],
        "rest": "90 s"
-      },
-      {
-       "id": "press_smith",
-       "reps": "4–6",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "3 min"
-      },
-      {
-       "id": "lat_maq",
-       "reps": "10–15",
-       "sets": [
-        3,
-        3,
-        4
-       ],
-       "rest": "60–90 s"
       }
      ]
     },
     "5": {
-     "name": "Espalda, trapecio y bíceps",
+     "name": "Espalda, hombro, trapecio y tríceps",
      "exercises": [
       {
        "id": "dominadas",
@@ -2395,27 +1935,37 @@
         4,
         4
        ],
-       "rest": "2–3 min"
-      },
-      {
-       "id": "rumano_b",
-       "reps": "5–8",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "3 min"
+       "rest": "2 min"
       },
       {
        "id": "remo_maq",
        "reps": "6–8",
        "sets": [
         3,
+        3,
+        3
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "press_smith",
+       "reps": "4–6",
+       "sets": [
+        3,
         4,
         4
        ],
        "rest": "2–3 min"
+      },
+      {
+       "id": "lat_maq",
+       "reps": "10–15",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60 s"
       },
       {
        "id": "encog_smith",
@@ -2425,37 +1975,17 @@
         3,
         3
        ],
-       "rest": "90 s"
+       "rest": "60–90 s"
       },
       {
-       "id": "facepull",
-       "reps": "12–15",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60 s"
-      },
-      {
-       "id": "curl_polea",
-       "reps": "6–10",
+       "id": "triceps",
+       "reps": "8–10",
        "sets": [
         3,
         3,
         3
        ],
-       "rest": "90 s"
-      },
-      {
-       "id": "martillo_polea",
-       "reps": "8–12",
-       "sets": [
-        2,
-        2,
-        3
-       ],
-       "rest": "60 s"
+       "rest": "60–90 s"
       }
      ]
     }
@@ -2474,7 +2004,7 @@
    ],
    "sessions": {
     "1": {
-     "name": "Pecho, tríceps y core",
+     "name": "Pecho, bíceps y abdomen",
      "exercises": [
       {
        "id": "incl_barra",
@@ -2492,47 +2022,17 @@
        "sets": [
         3,
         3,
-        3
+        4
        ],
        "rest": "2 min"
       },
       {
-       "id": "aperturas",
-       "reps": "12–15",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "60–90 s"
-      },
-      {
-       "id": "fondos",
-       "reps": "8–12",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "triceps",
+       "id": "predicador",
        "reps": "10–12",
        "sets": [
         3,
-        3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "tri_cabeza",
-       "reps": "10–12",
-       "sets": [
-        2,
-        3,
-        3
+        4,
+        4
        ],
        "rest": "60–90 s"
       },
@@ -2540,18 +2040,8 @@
        "id": "silla_romana",
        "reps": "12–15",
        "sets": [
-        2,
         3,
-        3
-       ],
-       "rest": "—"
-      },
-      {
-       "id": "pallof",
-       "reps": "12 c/lado",
-       "sets": [
-        2,
-        2,
+        3,
         3
        ],
        "rest": "60 s"
@@ -2559,7 +2049,7 @@
      ]
     },
     "3": {
-     "name": "Pierna y hombro",
+     "name": "Pierna",
      "exercises": [
       {
        "id": "hack",
@@ -2572,30 +2062,65 @@
        "rest": "2–3 min"
       },
       {
-       "id": "prensa",
-       "reps": "10–12",
+       "id": "rumano_b",
+       "reps": "8–10",
        "sets": [
-        2,
+        3,
         3,
         3
        ],
-       "rest": "—"
+       "rest": "2–3 min"
       },
       {
-       "id": "talones_prensa",
+       "id": "extension",
        "reps": "12–15",
        "sets": [
-        2,
+        3,
         3,
         3
        ],
-       "rest": "2 min"
+       "rest": "60–90 s"
       },
       {
        "id": "femoral",
        "reps": "12–15",
        "sets": [
-        2,
+        3,
+        3,
+        3
+       ],
+       "rest": "60–90 s"
+      },
+      {
+       "id": "talones_smith",
+       "reps": "12–15",
+       "sets": [
+        3,
+        3,
+        3
+       ],
+       "rest": "60 s"
+      }
+     ]
+    },
+    "5": {
+     "name": "Espalda, hombro, trapecio y tríceps",
+     "exercises": [
+      {
+       "id": "jalon",
+       "reps": "8–12",
+       "sets": [
+        3,
+        4,
+        4
+       ],
+       "rest": "2 min"
+      },
+      {
+       "id": "remo_polea",
+       "reps": "10–12",
+       "sets": [
+        3,
         3,
         3
        ],
@@ -2619,77 +2144,12 @@
         4,
         4
        ],
-       "rest": "60–90 s"
-      },
-      {
-       "id": "pajaros_maq",
-       "reps": "15",
-       "sets": [
-        2,
-        3,
-        3
-       ],
        "rest": "60 s"
-      }
-     ]
-    },
-    "5": {
-     "name": "Espalda, trapecio y bíceps",
-     "exercises": [
-      {
-       "id": "jalon",
-       "reps": "8–12",
-       "sets": [
-        3,
-        4,
-        4
-       ],
-       "rest": "2 min"
-      },
-      {
-       "id": "rumano_b",
-       "reps": "8–10",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "2–3 min"
-      },
-      {
-       "id": "remo_polea",
-       "reps": "10–12",
-       "sets": [
-        3,
-        3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "pullover",
-       "reps": "12–15",
-       "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "60–90 s"
       },
       {
        "id": "encog_smith",
        "reps": "12–15",
        "sets": [
-        2,
-        3,
-        3
-       ],
-       "rest": "90 s"
-      },
-      {
-       "id": "predicador",
-       "reps": "10–12",
-       "sets": [
         3,
         3,
         3
@@ -2697,12 +2157,12 @@
        "rest": "60–90 s"
       },
       {
-       "id": "martillo_polea",
+       "id": "tri_cabeza",
        "reps": "10–12",
        "sets": [
-        2,
         3,
-        3
+        3,
+        4
        ],
        "rest": "60 s"
       }

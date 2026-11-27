@@ -663,28 +663,32 @@
  },
  {
   "id": "lat_maq",
-  "name": "Jalón al pecho en máquina",
-  "group": "Espalda",
+  "name": "Elevaciones laterales en máquina",
+  "group": "Hombro",
   "primary": [
-   "dorsales"
+   "hombro_lateral"
   ],
   "secondary": [
-   "biceps"
+   "trapecio"
   ],
   "equipment": "Máquina",
   "where": [
    "gym"
   ],
   "cues": [
-   "Ajusta el apoyo de muslos para que no se levanten.",
-   "Jala la barra a la parte alta del pecho con los codos hacia abajo.",
-   "Sube controlando hasta estirar los brazos."
+   "Ajusta el asiento para que el eje de la máquina quede a la altura de tus hombros.",
+   "Sube con los codos hasta la altura de los hombros, sin encogerlos.",
+   "Baja lento: 2–3 segundos."
   ],
-  "alt": "Jalón al pecho en polea",
+  "alt": "Elevación lateral en polea",
   "fitwill": "https://fitwill.app/es/exercise/3629/lever-lateral-raise/",
-  "fedb": "Full_Range-Of-Motion_Lat_Pulldown",
+  "fedb": "Cable_Seated_Lateral_Raise",
   "keywords": [
-   "full range of motion lat pulldown"
+   "laterales",
+   "lateral raise",
+   "machine lateral",
+   "hombro lateral",
+   "elevaciones"
   ]
  },
  {
