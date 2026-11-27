@@ -1,6 +1,7 @@
 // Summary: mapa semanal con semáforo, peso corporal, consejos y gráficas.
 import { el, toast, fmtNum } from '../ui.js';
-import { weekStatus, today } from '../stats.js';
+import { weekStatus, today, targetsOf } from '../stats.js';
+import { adherence } from '../nutrition.js';
 import { generateTips } from '../tips.js';
 import { drawChart } from '../charts.js';
 import { weeklyAverages } from '../weight.js';
@@ -41,12 +42,33 @@ function weightCard(ctx) {
   return card;
 }
 
+function nutritionCard(ctx) {
+  const t = targetsOf(ctx);
+  if (!t) return null;
+  const a = adherence(ctx.foodLogs, t, today(), 14);
+  const card = el('section', { class: 'card' }, el('h2', { text: 'Alimentación (14 días)' }));
+  if (!a.loggedDays) { card.append(el('p', { class: 'muted', text: 'Aún no registras comidas. Hazlo en Comida y aquí verás tu avance.' })); return card; }
+  const stat = (v, l) => el('div', { class: 'stat' }, el('strong', { text: v }), l);
+  card.append(el('div', { class: 'stat-row' }, stat(`${a.pct}%`, 'adherencia'), stat(`${a.okDays}/${a.loggedDays}`, 'días en meta'), stat(String(a.mealsLogged), 'comidas')),
+    el('p', { class: 'muted small', text: 'Día en meta: calorías dentro de ±10 % y proteína ≥ 90 % de tu objetivo.' }));
+  const mk = (title, key, target, unit) => {
+    const canvas = el('canvas', { role: 'img', 'aria-label': `Gráfica de ${title} contra tu meta` });
+    card.append(el('h3', { text: title }), el('div', { class: 'chart-wrap short' }, canvas));
+    requestAnimationFrame(() => drawChart(canvas, { type: 'bar', labels: a.days.map((d) => short(d.date)), yTitle: unit,
+      datasets: [{ label: title, data: a.days.map((d) => Math.round(d.tot[key])) }, { label: `Meta (${target})`, type: 'line', data: a.days.map(() => target), pointRadius: 0, borderDash: [6, 4] }] }));
+  };
+  mk('Calorías', 'kcal', t.kcal, 'kcal'); mk('Proteína', 'p', t.p, 'g');
+  return card;
+}
+
 export async function render(ctx, root) {
   root.append(el('h1', { text: 'Summary' }));
   await body.render(ctx, root);
   root.append(weightCard(ctx));
+  const nc = nutritionCard(ctx); if (nc) root.append(nc);
   const tips = generateTips({ status: weekStatus(ctx), workouts: ctx.workouts, exercises: ctx.data.exercises, plan: ctx.plan, today: today(),
-    weights: ctx.weights, weightGoal: ctx.profile?.goal_weight_kg ? goalOf(ctx.profile, ctx.weights) : null });
+    weights: ctx.weights, weightGoal: ctx.profile?.goal_weight_kg ? goalOf(ctx.profile, ctx.weights) : null,
+    nutrition: targetsOf(ctx) ? { logs: ctx.foodLogs, targets: targetsOf(ctx) } : null });
   root.append(el('section', { class: 'card' }, el('h2', { text: 'Consejos' }),
     el('ul', { class: 'tips' }, tips.map((t) => el('li', { class: `tip tip-${t.kind}`, text: t.text })))));
   await charts.render(ctx, root);

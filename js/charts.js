@@ -37,7 +37,7 @@ function drawFallback(canvas, type, labels, ds, text, grid, zero = true) {
   const x = (i) => pad.l + ((W - pad.l - pad.r) * (i + 0.5)) / Math.max(1, labels.length);
   const y = (v) => pad.t + (H - pad.t - pad.b) * (1 - (v - lo) / (max - lo));
   c.font = '11px system-ui, sans-serif'; c.fillStyle = text; c.strokeStyle = grid; c.lineWidth = 1;
-  for (let k = 0; k <= 4; k++) { const v = lo + ((max - lo) * k) / 4, yy = y(v); c.beginPath(); c.moveTo(pad.l, yy); c.lineTo(W - pad.r, yy); c.stroke(); c.textAlign = 'right'; c.fillText(String(Math.round(v * 10) / 10), pad.l - 4, yy + 4); }
+  for (let k = 0; k <= 4; k++) { const v = lo + ((max - lo) * k) / 4, yy = y(v); c.beginPath(); c.moveTo(pad.l, yy); c.lineTo(W - pad.r, yy); c.stroke(); c.textAlign = 'right'; c.fillText(String((max - lo) > 30 ? Math.round(v) : Math.round(v * 10) / 10), pad.l - 4, yy + 4); }
   const step = Math.ceil(labels.length / 6);
   c.textAlign = 'center'; labels.forEach((l, i) => { if (i % step === 0) c.fillText(l, x(i), H - 6); });
   ds.forEach((d, di) => {

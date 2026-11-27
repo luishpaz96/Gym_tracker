@@ -1,0 +1,4806 @@
+[
+ {
+  "id": "pechuga_pollo",
+  "name": "Pechuga de pollo sin piel (cruda)",
+  "cat": "Proteína animal",
+  "kcal": 113,
+  "p": 22.5,
+  "c": 0.0,
+  "f": 2.6,
+  "fiber": 0.0,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 180
+  },
+  "protein_pick": true,
+  "keywords": [
+   "pollo",
+   "pechuga",
+   "chicken breast"
+  ]
+ },
+ {
+  "id": "pechuga_pollo_cocida",
+  "name": "Pechuga de pollo cocida sin piel",
+  "cat": "Proteína animal",
+  "kcal": 156,
+  "p": 31.0,
+  "c": 0.0,
+  "f": 3.6,
+  "fiber": 0.0,
+  "unit": {
+   "name": "taza deshebrada",
+   "g": 140
+  },
+  "protein_pick": true,
+  "keywords": [
+   "pollo cocido",
+   "pollo deshebrado",
+   "cooked chicken breast"
+  ]
+ },
+ {
+  "id": "muslo_pollo",
+  "name": "Muslo de pollo sin piel (cocido)",
+  "cat": "Proteína animal",
+  "kcal": 202,
+  "p": 26.0,
+  "c": 0.0,
+  "f": 10.9,
+  "fiber": 0.0,
+  "unit": {
+   "name": "pieza",
+   "g": 100
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pollo muslo",
+   "chicken thigh"
+  ]
+ },
+ {
+  "id": "pollo_rostizado",
+  "name": "Pollo rostizado con piel (cocido)",
+  "cat": "Proteína animal",
+  "kcal": 232,
+  "p": 27.3,
+  "c": 0.0,
+  "f": 13.6,
+  "fiber": 0.0,
+  "unit": {
+   "name": "1/4 de pollo",
+   "g": 200
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pollo asado",
+   "rostizado",
+   "rotisserie chicken"
+  ]
+ },
+ {
+  "id": "pavo_pechuga",
+  "name": "Pechuga de pavo sin piel (cocida)",
+  "cat": "Proteína animal",
+  "kcal": 126,
+  "p": 30.0,
+  "c": 0.0,
+  "f": 0.7,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 30
+  },
+  "protein_pick": true,
+  "keywords": [
+   "pavo",
+   "turkey breast"
+  ]
+ },
+ {
+  "id": "jamon_pavo",
+  "name": "Jamón de pavo (rebanada)",
+  "cat": "Proteína animal",
+  "kcal": 98,
+  "p": 17.0,
+  "c": 3.0,
+  "f": 2.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 20
+  },
+  "protein_pick": false,
+  "keywords": [
+   "jamón de pavo",
+   "deli turkey",
+   "turkey ham"
+  ]
+ },
+ {
+  "id": "res_bistec",
+  "name": "Bistec de res (aguayón), cocido",
+  "cat": "Proteína animal",
+  "kcal": 184,
+  "p": 29.0,
+  "c": 0.0,
+  "f": 7.5,
+  "fiber": 0.0,
+  "unit": {
+   "name": "bistec mediano",
+   "g": 120
+  },
+  "protein_pick": true,
+  "keywords": [
+   "res",
+   "bistec",
+   "beef steak",
+   "round steak"
+  ]
+ },
+ {
+  "id": "res_arrachera",
+  "name": "Arrachera de res cruda",
+  "cat": "Proteína animal",
+  "kcal": 213,
+  "p": 19.5,
+  "c": 0.0,
+  "f": 15.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "porción",
+   "g": 150
+  },
+  "protein_pick": false,
+  "keywords": [
+   "arrachera",
+   "skirt steak",
+   "fajitas"
+  ]
+ },
+ {
+  "id": "res_molida_magra",
+  "name": "Carne molida de res magra (90 % magra), cruda",
+  "cat": "Proteína animal",
+  "kcal": 170,
+  "p": 20.0,
+  "c": 0.0,
+  "f": 10.0,
+  "fiber": 0.0,
+  "unit": null,
+  "protein_pick": true,
+  "keywords": [
+   "carne molida",
+   "picadillo",
+   "ground beef",
+   "lean beef"
+  ]
+ },
+ {
+  "id": "res_molida_80",
+  "name": "Carne molida de res 80/20, cruda",
+  "cat": "Proteína animal",
+  "kcal": 249,
+  "p": 17.2,
+  "c": 0.0,
+  "f": 20.0,
+  "fiber": 0.0,
+  "unit": null,
+  "protein_pick": false,
+  "keywords": [
+   "carne molida",
+   "ground beef 80/20",
+   "hamburguesa"
+  ]
+ },
+ {
+  "id": "res_costilla",
+  "name": "Costilla de res cocida",
+  "cat": "Proteína animal",
+  "kcal": 280,
+  "p": 25.0,
+  "c": 0.0,
+  "f": 20.0,
+  "fiber": 0.0,
+  "unit": null,
+  "protein_pick": false,
+  "keywords": [
+   "costilla",
+   "beef rib",
+   "short rib"
+  ]
+ },
+ {
+  "id": "res_higado",
+  "name": "Hígado de res cocido",
+  "cat": "Proteína animal",
+  "kcal": 178,
+  "p": 26.0,
+  "c": 5.0,
+  "f": 6.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 80
+  },
+  "protein_pick": false,
+  "keywords": [
+   "hígado",
+   "beef liver"
+  ]
+ },
+ {
+  "id": "res_milanesa",
+  "name": "Milanesa de res empanizada (frita)",
+  "cat": "Proteína animal",
+  "kcal": 246,
+  "p": 20.0,
+  "c": 12.0,
+  "f": 13.0,
+  "fiber": 0.5,
+  "unit": {
+   "name": "milanesa",
+   "g": 150
+  },
+  "protein_pick": false,
+  "keywords": [
+   "milanesa",
+   "breaded beef cutlet",
+   "schnitzel"
+  ]
+ },
+ {
+  "id": "cerdo_lomo",
+  "name": "Lomo de cerdo magro, cocido",
+  "cat": "Proteína animal",
+  "kcal": 136,
+  "p": 26.2,
+  "c": 0.0,
+  "f": 3.5,
+  "fiber": 0.0,
+  "unit": {
+   "name": "porción",
+   "g": 100
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cerdo",
+   "lomo",
+   "pork loin",
+   "pork tenderloin"
+  ]
+ },
+ {
+  "id": "cordero_pierna",
+  "name": "Pierna de cordero cocida",
+  "cat": "Proteína animal",
+  "kcal": 234,
+  "p": 27.0,
+  "c": 0.0,
+  "f": 14.0,
+  "fiber": 0.0,
+  "unit": null,
+  "protein_pick": false,
+  "keywords": [
+   "cordero",
+   "lamb",
+   "lamb leg"
+  ]
+ },
+ {
+  "id": "carnitas",
+  "name": "Carnitas de cerdo (cocidas)",
+  "cat": "Proteína animal",
+  "kcal": 271,
+  "p": 25.0,
+  "c": 0.0,
+  "f": 19.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "porción",
+   "g": 100
+  },
+  "protein_pick": false,
+  "keywords": [
+   "carnitas",
+   "pork carnitas"
+  ]
+ },
+ {
+  "id": "chicharron",
+  "name": "Chicharrón de cerdo frito",
+  "cat": "Proteína animal",
+  "kcal": 523,
+  "p": 61.0,
+  "c": 0.0,
+  "f": 31.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "porción",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chicharrón",
+   "pork rinds",
+   "cracklings"
+  ]
+ },
+ {
+  "id": "tocino",
+  "name": "Tocino de cerdo frito",
+  "cat": "Proteína animal",
+  "kcal": 532,
+  "p": 37.0,
+  "c": 1.4,
+  "f": 42.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 8
+  },
+  "protein_pick": false,
+  "keywords": [
+   "tocino",
+   "bacon"
+  ]
+ },
+ {
+  "id": "chorizo_cerdo",
+  "name": "Chorizo de cerdo cocido",
+  "cat": "Proteína animal",
+  "kcal": 446,
+  "p": 24.0,
+  "c": 2.0,
+  "f": 38.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "porción",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chorizo",
+   "mexican chorizo",
+   "sausage"
+  ]
+ },
+ {
+  "id": "jamon_cerdo",
+  "name": "Jamón de cerdo cocido (rebanada)",
+  "cat": "Proteína animal",
+  "kcal": 144,
+  "p": 21.0,
+  "c": 1.5,
+  "f": 6.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 25
+  },
+  "protein_pick": false,
+  "keywords": [
+   "jamón",
+   "ham",
+   "cooked ham"
+  ]
+ },
+ {
+  "id": "atun_agua",
+  "name": "Atún en agua, escurrido (lata)",
+  "cat": "Pescados y mariscos",
+  "kcal": 109,
+  "p": 25.5,
+  "c": 0.0,
+  "f": 0.8,
+  "fiber": 0.0,
+  "unit": {
+   "name": "lata escurrida",
+   "g": 100
+  },
+  "protein_pick": true,
+  "keywords": [
+   "atún",
+   "tuna",
+   "tuna in water"
+  ]
+ },
+ {
+  "id": "atun_aceite",
+  "name": "Atún en aceite, escurrido (lata)",
+  "cat": "Pescados y mariscos",
+  "kcal": 190,
+  "p": 29.0,
+  "c": 0.0,
+  "f": 8.2,
+  "fiber": 0.0,
+  "unit": {
+   "name": "lata escurrida",
+   "g": 100
+  },
+  "protein_pick": false,
+  "keywords": [
+   "atún en aceite",
+   "tuna in oil"
+  ]
+ },
+ {
+  "id": "salmon_fresco",
+  "name": "Salmón fresco (crudo)",
+  "cat": "Pescados y mariscos",
+  "kcal": 202,
+  "p": 20.4,
+  "c": 0.0,
+  "f": 13.4,
+  "fiber": 0.0,
+  "unit": {
+   "name": "filete",
+   "g": 150
+  },
+  "protein_pick": true,
+  "keywords": [
+   "salmón",
+   "salmon",
+   "salmon fillet"
+  ]
+ },
+ {
+  "id": "salmon_ahumado",
+  "name": "Salmón ahumado",
+  "cat": "Pescados y mariscos",
+  "kcal": 111,
+  "p": 18.0,
+  "c": 0.0,
+  "f": 4.3,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "salmón ahumado",
+   "smoked salmon",
+   "lox"
+  ]
+ },
+ {
+  "id": "tilapia",
+  "name": "Tilapia cruda",
+  "cat": "Pescados y mariscos",
+  "kcal": 96,
+  "p": 20.1,
+  "c": 0.0,
+  "f": 1.7,
+  "fiber": 0.0,
+  "unit": {
+   "name": "filete",
+   "g": 120
+  },
+  "protein_pick": true,
+  "keywords": [
+   "tilapia",
+   "tilapia fillet"
+  ]
+ },
+ {
+  "id": "mojarra",
+  "name": "Mojarra (pescado blanco) cruda",
+  "cat": "Pescados y mariscos",
+  "kcal": 90,
+  "p": 19.0,
+  "c": 0.0,
+  "f": 1.5,
+  "fiber": 0.0,
+  "unit": {
+   "name": "filete",
+   "g": 120
+  },
+  "protein_pick": true,
+  "keywords": [
+   "mojarra",
+   "pescado blanco",
+   "white fish"
+  ]
+ },
+ {
+  "id": "bagre",
+  "name": "Bagre crudo",
+  "cat": "Pescados y mariscos",
+  "kcal": 104,
+  "p": 17.9,
+  "c": 0.0,
+  "f": 3.6,
+  "fiber": 0.0,
+  "unit": {
+   "name": "filete",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "bagre",
+   "catfish"
+  ]
+ },
+ {
+  "id": "huachinango",
+  "name": "Huachinango (pargo) crudo",
+  "cat": "Pescados y mariscos",
+  "kcal": 100,
+  "p": 20.5,
+  "c": 0.0,
+  "f": 2.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "filete",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "huachinango",
+   "red snapper"
+  ]
+ },
+ {
+  "id": "merluza",
+  "name": "Merluza cruda",
+  "cat": "Pescados y mariscos",
+  "kcal": 81,
+  "p": 17.8,
+  "c": 0.0,
+  "f": 1.1,
+  "fiber": 0.0,
+  "unit": {
+   "name": "filete",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "merluza",
+   "hake"
+  ]
+ },
+ {
+  "id": "trucha",
+  "name": "Trucha arcoíris cruda",
+  "cat": "Pescados y mariscos",
+  "kcal": 114,
+  "p": 20.5,
+  "c": 0.0,
+  "f": 3.5,
+  "fiber": 0.0,
+  "unit": {
+   "name": "filete",
+   "g": 150
+  },
+  "protein_pick": false,
+  "keywords": [
+   "trucha",
+   "rainbow trout"
+  ]
+ },
+ {
+  "id": "sardina_lata",
+  "name": "Sardina en agua (lata), escurrida",
+  "cat": "Pescados y mariscos",
+  "kcal": 162,
+  "p": 24.6,
+  "c": 0.0,
+  "f": 7.1,
+  "fiber": 0.0,
+  "unit": {
+   "name": "sardina",
+   "g": 25
+  },
+  "protein_pick": true,
+  "keywords": [
+   "sardina",
+   "sardines"
+  ]
+ },
+ {
+  "id": "caballa_cocida",
+  "name": "Caballa (macarela) cocida",
+  "cat": "Pescados y mariscos",
+  "kcal": 202,
+  "p": 23.6,
+  "c": 0.0,
+  "f": 11.9,
+  "fiber": 0.0,
+  "unit": {
+   "name": "filete",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "caballa",
+   "macarela",
+   "mackerel"
+  ]
+ },
+ {
+  "id": "camaron_cocido",
+  "name": "Camarón cocido",
+  "cat": "Pescados y mariscos",
+  "kcal": 100,
+  "p": 24.0,
+  "c": 0.2,
+  "f": 0.3,
+  "fiber": 0.0,
+  "unit": {
+   "name": "camarón mediano",
+   "g": 12
+  },
+  "protein_pick": true,
+  "keywords": [
+   "camarón",
+   "shrimp",
+   "prawn"
+  ]
+ },
+ {
+  "id": "camaron_crudo",
+  "name": "Camarón crudo",
+  "cat": "Pescados y mariscos",
+  "kcal": 86,
+  "p": 20.1,
+  "c": 0.2,
+  "f": 0.5,
+  "fiber": 0.0,
+  "unit": {
+   "name": "camarón mediano",
+   "g": 12
+  },
+  "protein_pick": false,
+  "keywords": [
+   "camarón crudo",
+   "raw shrimp"
+  ]
+ },
+ {
+  "id": "pulpo_cocido",
+  "name": "Pulpo cocido",
+  "cat": "Pescados y mariscos",
+  "kcal": 156,
+  "p": 30.0,
+  "c": 4.4,
+  "f": 2.1,
+  "fiber": 0.0,
+  "unit": null,
+  "protein_pick": true,
+  "keywords": [
+   "pulpo",
+   "octopus"
+  ]
+ },
+ {
+  "id": "calamar",
+  "name": "Calamar crudo",
+  "cat": "Pescados y mariscos",
+  "kcal": 87,
+  "p": 15.6,
+  "c": 3.1,
+  "f": 1.4,
+  "fiber": 0.0,
+  "unit": null,
+  "protein_pick": false,
+  "keywords": [
+   "calamar",
+   "squid"
+  ]
+ },
+ {
+  "id": "almeja",
+  "name": "Almeja cruda",
+  "cat": "Pescados y mariscos",
+  "kcal": 85,
+  "p": 14.6,
+  "c": 3.6,
+  "f": 1.4,
+  "fiber": 0.0,
+  "unit": null,
+  "protein_pick": false,
+  "keywords": [
+   "almeja",
+   "clam"
+  ]
+ },
+ {
+  "id": "mejillon",
+  "name": "Mejillón cocido",
+  "cat": "Pescados y mariscos",
+  "kcal": 164,
+  "p": 24.0,
+  "c": 7.0,
+  "f": 4.5,
+  "fiber": 0.0,
+  "unit": null,
+  "protein_pick": false,
+  "keywords": [
+   "mejillón",
+   "mussels"
+  ]
+ },
+ {
+  "id": "surimi",
+  "name": "Surimi (palitos de cangrejo)",
+  "cat": "Pescados y mariscos",
+  "kcal": 89,
+  "p": 7.0,
+  "c": 13.0,
+  "f": 1.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "palito",
+   "g": 20
+  },
+  "protein_pick": false,
+  "keywords": [
+   "surimi",
+   "imitation crab"
+  ]
+ },
+ {
+  "id": "huevo_entero",
+  "name": "Huevo entero crudo",
+  "cat": "Lácteos y huevo",
+  "kcal": 139,
+  "p": 12.6,
+  "c": 0.7,
+  "f": 9.5,
+  "fiber": 0.0,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 50
+  },
+  "protein_pick": true,
+  "keywords": [
+   "huevo",
+   "egg",
+   "whole egg"
+  ]
+ },
+ {
+  "id": "huevo_cocido",
+  "name": "Huevo cocido duro",
+  "cat": "Lácteos y huevo",
+  "kcal": 150,
+  "p": 12.6,
+  "c": 1.1,
+  "f": 10.6,
+  "fiber": 0.0,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 50
+  },
+  "protein_pick": false,
+  "keywords": [
+   "huevo duro",
+   "hard boiled egg"
+  ]
+ },
+ {
+  "id": "clara_huevo",
+  "name": "Clara de huevo cruda",
+  "cat": "Lácteos y huevo",
+  "kcal": 48,
+  "p": 10.9,
+  "c": 0.7,
+  "f": 0.2,
+  "fiber": 0.0,
+  "unit": {
+   "name": "clara",
+   "g": 33
+  },
+  "protein_pick": true,
+  "keywords": [
+   "clara",
+   "claras",
+   "egg white"
+  ]
+ },
+ {
+  "id": "yema_huevo",
+  "name": "Yema de huevo cruda",
+  "cat": "Lácteos y huevo",
+  "kcal": 316,
+  "p": 15.9,
+  "c": 3.6,
+  "f": 26.5,
+  "fiber": 0.0,
+  "unit": {
+   "name": "yema",
+   "g": 17
+  },
+  "protein_pick": false,
+  "keywords": [
+   "yema",
+   "egg yolk"
+  ]
+ },
+ {
+  "id": "leche_entera",
+  "name": "Leche entera",
+  "cat": "Lácteos y huevo",
+  "kcal": 62,
+  "p": 3.2,
+  "c": 4.8,
+  "f": 3.3,
+  "fiber": 0.0,
+  "unit": {
+   "name": "taza",
+   "g": 244
+  },
+  "protein_pick": false,
+  "keywords": [
+   "leche",
+   "milk",
+   "whole milk"
+  ]
+ },
+ {
+  "id": "leche_descremada",
+  "name": "Leche descremada",
+  "cat": "Lácteos y huevo",
+  "kcal": 34,
+  "p": 3.4,
+  "c": 5.0,
+  "f": 0.1,
+  "fiber": 0.0,
+  "unit": {
+   "name": "taza",
+   "g": 245
+  },
+  "protein_pick": true,
+  "keywords": [
+   "leche descremada",
+   "skim milk",
+   "low fat milk"
+  ]
+ },
+ {
+  "id": "leche_deslactosada",
+  "name": "Leche deslactosada entera",
+  "cat": "Lácteos y huevo",
+  "kcal": 62,
+  "p": 3.3,
+  "c": 4.7,
+  "f": 3.3,
+  "fiber": 0.0,
+  "unit": {
+   "name": "taza",
+   "g": 244
+  },
+  "protein_pick": false,
+  "keywords": [
+   "leche deslactosada",
+   "lactose free milk"
+  ]
+ },
+ {
+  "id": "leche_condensada",
+  "name": "Leche condensada azucarada",
+  "cat": "Lácteos y huevo",
+  "kcal": 328,
+  "p": 7.9,
+  "c": 54.4,
+  "f": 8.7,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 20
+  },
+  "protein_pick": false,
+  "keywords": [
+   "leche condensada",
+   "condensed milk"
+  ]
+ },
+ {
+  "id": "crema_mexicana",
+  "name": "Crema mexicana (ácida)",
+  "cat": "Lácteos y huevo",
+  "kcal": 203,
+  "p": 2.4,
+  "c": 4.6,
+  "f": 19.4,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "crema",
+   "crema ácida",
+   "sour cream",
+   "mexican cream"
+  ]
+ },
+ {
+  "id": "crema_cocinar",
+  "name": "Crema para batir o cocinar (35 %)",
+  "cat": "Lácteos y huevo",
+  "kcal": 345,
+  "p": 2.1,
+  "c": 2.8,
+  "f": 36.1,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "crema para cocinar",
+   "heavy cream",
+   "whipping cream"
+  ]
+ },
+ {
+  "id": "queso_panela",
+  "name": "Queso panela",
+  "cat": "Lácteos y huevo",
+  "kcal": 297,
+  "p": 19.5,
+  "c": 3.0,
+  "f": 23.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 30
+  },
+  "protein_pick": true,
+  "keywords": [
+   "panela",
+   "queso panela",
+   "fresh cheese"
+  ]
+ },
+ {
+  "id": "queso_fresco",
+  "name": "Queso fresco (ranchero)",
+  "cat": "Lácteos y huevo",
+  "kcal": 294,
+  "p": 17.2,
+  "c": 3.4,
+  "f": 23.5,
+  "fiber": 0.0,
+  "unit": {
+   "name": "porción",
+   "g": 30
+  },
+  "protein_pick": true,
+  "keywords": [
+   "queso fresco",
+   "queso ranchero",
+   "fresh cheese"
+  ]
+ },
+ {
+  "id": "queso_oaxaca",
+  "name": "Queso Oaxaca (en hebra)",
+  "cat": "Lácteos y huevo",
+  "kcal": 318,
+  "p": 22.0,
+  "c": 2.2,
+  "f": 24.6,
+  "fiber": 0.0,
+  "unit": {
+   "name": "porción",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "oaxaca",
+   "queso de hebra",
+   "string cheese"
+  ]
+ },
+ {
+  "id": "queso_chihuahua",
+  "name": "Queso Chihuahua (tipo Monterey Jack)",
+  "cat": "Lácteos y huevo",
+  "kcal": 361,
+  "p": 24.5,
+  "c": 0.6,
+  "f": 29.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chihuahua",
+   "monterey jack",
+   "queso amarillo"
+  ]
+ },
+ {
+  "id": "queso_parmesano",
+  "name": "Queso parmesano rallado",
+  "cat": "Lácteos y huevo",
+  "kcal": 426,
+  "p": 38.0,
+  "c": 4.1,
+  "f": 28.6,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "parmesano",
+   "parmesan",
+   "grated cheese"
+  ]
+ },
+ {
+  "id": "queso_mozzarella",
+  "name": "Queso mozzarella",
+  "cat": "Lácteos y huevo",
+  "kcal": 299,
+  "p": 22.2,
+  "c": 2.2,
+  "f": 22.4,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "mozzarella",
+   "mozzarella cheese"
+  ]
+ },
+ {
+  "id": "queso_feta",
+  "name": "Queso feta",
+  "cat": "Lácteos y huevo",
+  "kcal": 265,
+  "p": 14.2,
+  "c": 4.1,
+  "f": 21.3,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada desmoronada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "feta",
+   "feta cheese"
+  ]
+ },
+ {
+  "id": "queso_cottage",
+  "name": "Queso cottage (2 % grasa)",
+  "cat": "Lácteos y huevo",
+  "kcal": 79,
+  "p": 11.1,
+  "c": 3.4,
+  "f": 2.3,
+  "fiber": 0.0,
+  "unit": {
+   "name": "taza",
+   "g": 226
+  },
+  "protein_pick": true,
+  "keywords": [
+   "cottage",
+   "cottage cheese",
+   "requesón"
+  ]
+ },
+ {
+  "id": "queso_crema",
+  "name": "Queso crema (tipo Philadelphia)",
+  "cat": "Lácteos y huevo",
+  "kcal": 348,
+  "p": 5.9,
+  "c": 4.1,
+  "f": 34.2,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "queso crema",
+   "cream cheese"
+  ]
+ },
+ {
+  "id": "queso_cheddar",
+  "name": "Queso cheddar",
+  "cat": "Lácteos y huevo",
+  "kcal": 403,
+  "p": 24.9,
+  "c": 1.3,
+  "f": 33.1,
+  "fiber": 0.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cheddar",
+   "queso amarillo",
+   "yellow cheese"
+  ]
+ },
+ {
+  "id": "queso_ricotta",
+  "name": "Queso ricotta",
+  "cat": "Lácteos y huevo",
+  "kcal": 174,
+  "p": 11.3,
+  "c": 3.0,
+  "f": 13.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "ricotta"
+  ]
+ },
+ {
+  "id": "yogur_natural",
+  "name": "Yogur natural entero",
+  "cat": "Lácteos y huevo",
+  "kcal": 62,
+  "p": 3.5,
+  "c": 4.7,
+  "f": 3.3,
+  "fiber": 0.0,
+  "unit": {
+   "name": "taza",
+   "g": 225
+  },
+  "protein_pick": false,
+  "keywords": [
+   "yogur",
+   "yogurt",
+   "plain yogurt"
+  ]
+ },
+ {
+  "id": "yogur_griego",
+  "name": "Yogur griego natural",
+  "cat": "Lácteos y huevo",
+  "kcal": 59,
+  "p": 10.2,
+  "c": 3.6,
+  "f": 0.4,
+  "fiber": 0.0,
+  "unit": {
+   "name": "envase",
+   "g": 150
+  },
+  "protein_pick": true,
+  "keywords": [
+   "yogur griego",
+   "greek yogurt"
+  ]
+ },
+ {
+  "id": "yogur_descremado",
+  "name": "Yogur natural descremado",
+  "cat": "Lácteos y huevo",
+  "kcal": 55,
+  "p": 5.7,
+  "c": 7.7,
+  "f": 0.2,
+  "fiber": 0.0,
+  "unit": {
+   "name": "envase",
+   "g": 150
+  },
+  "protein_pick": false,
+  "keywords": [
+   "yogur light",
+   "nonfat yogurt",
+   "yogur bajo en grasa"
+  ]
+ },
+ {
+  "id": "kefir",
+  "name": "Kéfir natural",
+  "cat": "Lácteos y huevo",
+  "kcal": 61,
+  "p": 3.3,
+  "c": 4.5,
+  "f": 3.3,
+  "fiber": 0.0,
+  "unit": {
+   "name": "vaso",
+   "g": 200
+  },
+  "protein_pick": false,
+  "keywords": [
+   "kéfir",
+   "kefir"
+  ]
+ },
+ {
+  "id": "helado_vainilla",
+  "name": "Helado de vainilla",
+  "cat": "Lácteos y huevo",
+  "kcal": 209,
+  "p": 3.5,
+  "c": 24.0,
+  "f": 11.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "bola",
+   "g": 60
+  },
+  "protein_pick": false,
+  "keywords": [
+   "helado",
+   "ice cream",
+   "vanilla ice cream"
+  ]
+ },
+ {
+  "id": "frijol_negro_cocido",
+  "name": "Frijol negro cocido",
+  "cat": "Leguminosas",
+  "kcal": 118,
+  "p": 8.9,
+  "c": 15.0,
+  "f": 0.5,
+  "fiber": 8.7,
+  "unit": {
+   "name": "taza",
+   "g": 172
+  },
+  "protein_pick": true,
+  "keywords": [
+   "frijol negro",
+   "frijoles",
+   "black beans"
+  ]
+ },
+ {
+  "id": "frijol_bayo_cocido",
+  "name": "Frijol bayo cocido (pinto)",
+  "cat": "Leguminosas",
+  "kcal": 129,
+  "p": 9.0,
+  "c": 17.2,
+  "f": 0.7,
+  "fiber": 9.0,
+  "unit": {
+   "name": "taza",
+   "g": 171
+  },
+  "protein_pick": true,
+  "keywords": [
+   "frijol bayo",
+   "frijol pinto",
+   "pinto beans"
+  ]
+ },
+ {
+  "id": "frijol_refrito",
+  "name": "Frijol refrito de lata",
+  "cat": "Leguminosas",
+  "kcal": 107,
+  "p": 5.5,
+  "c": 14.5,
+  "f": 2.0,
+  "fiber": 4.5,
+  "unit": {
+   "name": "cucharada",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "frijol refrito",
+   "refried beans"
+  ]
+ },
+ {
+  "id": "frijol_negro_seco",
+  "name": "Frijol negro seco (crudo)",
+  "cat": "Leguminosas",
+  "kcal": 318,
+  "p": 21.6,
+  "c": 46.9,
+  "f": 1.4,
+  "fiber": 15.5,
+  "unit": {
+   "name": "taza seca",
+   "g": 190
+  },
+  "protein_pick": false,
+  "keywords": [
+   "frijol seco",
+   "dry black beans"
+  ]
+ },
+ {
+  "id": "garbanzo_cocido",
+  "name": "Garbanzo cocido",
+  "cat": "Leguminosas",
+  "kcal": 153,
+  "p": 8.9,
+  "c": 19.8,
+  "f": 2.6,
+  "fiber": 7.6,
+  "unit": {
+   "name": "taza",
+   "g": 164
+  },
+  "protein_pick": true,
+  "keywords": [
+   "garbanzo",
+   "chickpeas"
+  ]
+ },
+ {
+  "id": "garbanzo_seco",
+  "name": "Garbanzo seco (crudo)",
+  "cat": "Leguminosas",
+  "kcal": 339,
+  "p": 19.3,
+  "c": 43.3,
+  "f": 6.0,
+  "fiber": 17.4,
+  "unit": {
+   "name": "taza seca",
+   "g": 190
+  },
+  "protein_pick": false,
+  "keywords": [
+   "garbanzo seco",
+   "dry chickpeas"
+  ]
+ },
+ {
+  "id": "lentejas_cocidas",
+  "name": "Lentejas cocidas",
+  "cat": "Leguminosas",
+  "kcal": 104,
+  "p": 9.0,
+  "c": 12.2,
+  "f": 0.4,
+  "fiber": 7.9,
+  "unit": {
+   "name": "taza",
+   "g": 198
+  },
+  "protein_pick": true,
+  "keywords": [
+   "lentejas",
+   "lentils"
+  ]
+ },
+ {
+  "id": "lenteja_seca",
+  "name": "Lenteja seca (cruda)",
+  "cat": "Leguminosas",
+  "kcal": 332,
+  "p": 25.8,
+  "c": 49.4,
+  "f": 1.1,
+  "fiber": 10.7,
+  "unit": {
+   "name": "taza seca",
+   "g": 200
+  },
+  "protein_pick": false,
+  "keywords": [
+   "lenteja seca",
+   "dry lentils"
+  ]
+ },
+ {
+  "id": "alubias_cocidas",
+  "name": "Alubias blancas cocidas",
+  "cat": "Leguminosas",
+  "kcal": 129,
+  "p": 9.7,
+  "c": 18.6,
+  "f": 0.4,
+  "fiber": 6.3,
+  "unit": {
+   "name": "taza",
+   "g": 179
+  },
+  "protein_pick": false,
+  "keywords": [
+   "alubias",
+   "judías blancas",
+   "white beans",
+   "cannellini"
+  ]
+ },
+ {
+  "id": "tortilla_maiz",
+  "name": "Tortilla de maíz",
+  "cat": "Cereales y tubérculos",
+  "kcal": 215,
+  "p": 5.7,
+  "c": 38.3,
+  "f": 2.9,
+  "fiber": 6.3,
+  "unit": {
+   "name": "tortilla",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "tortilla de maíz",
+   "corn tortilla",
+   "tortillas"
+  ]
+ },
+ {
+  "id": "tortilla_harina",
+  "name": "Tortilla de harina de trigo",
+  "cat": "Cereales y tubérculos",
+  "kcal": 300,
+  "p": 8.3,
+  "c": 48.2,
+  "f": 7.8,
+  "fiber": 2.1,
+  "unit": {
+   "name": "tortilla",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "tortilla de harina",
+   "flour tortilla",
+   "burrito"
+  ]
+ },
+ {
+  "id": "tostada_horneada",
+  "name": "Tostada horneada de maíz",
+  "cat": "Cereales y tubérculos",
+  "kcal": 380,
+  "p": 8.0,
+  "c": 74.0,
+  "f": 4.5,
+  "fiber": 5.5,
+  "unit": {
+   "name": "tostada",
+   "g": 13
+  },
+  "protein_pick": false,
+  "keywords": [
+   "tostada",
+   "tostadas",
+   "corn tostada"
+  ]
+ },
+ {
+  "id": "masa_maiz",
+  "name": "Harina de maíz nixtamalizada (masa seca)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 363,
+  "p": 7.5,
+  "c": 73.0,
+  "f": 3.6,
+  "fiber": 4.5,
+  "unit": {
+   "name": "taza",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "masa",
+   "maseca",
+   "harina de maíz",
+   "corn masa flour"
+  ]
+ },
+ {
+  "id": "elote_cocido",
+  "name": "Elote cocido (maíz dulce)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 106,
+  "p": 3.4,
+  "c": 18.6,
+  "f": 1.5,
+  "fiber": 2.4,
+  "unit": {
+   "name": "mazorca",
+   "g": 150
+  },
+  "protein_pick": false,
+  "keywords": [
+   "elote",
+   "maíz dulce",
+   "sweet corn"
+  ]
+ },
+ {
+  "id": "bolillo",
+  "name": "Bolillo (pan blanco)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 273,
+  "p": 9.0,
+  "c": 51.3,
+  "f": 3.0,
+  "fiber": 2.2,
+  "unit": {
+   "name": "pieza",
+   "g": 60
+  },
+  "protein_pick": false,
+  "keywords": [
+   "bolillo",
+   "pan",
+   "french roll"
+  ]
+ },
+ {
+  "id": "pan_blanco_caja",
+  "name": "Pan de caja blanco",
+  "cat": "Cereales y tubérculos",
+  "kcal": 255,
+  "p": 9.0,
+  "c": 46.3,
+  "f": 3.2,
+  "fiber": 2.7,
+  "unit": {
+   "name": "rebanada",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pan blanco",
+   "pan de caja",
+   "white bread"
+  ]
+ },
+ {
+  "id": "pan_integral",
+  "name": "Pan integral de caja",
+  "cat": "Cereales y tubérculos",
+  "kcal": 233,
+  "p": 13.0,
+  "c": 34.0,
+  "f": 3.4,
+  "fiber": 7.0,
+  "unit": {
+   "name": "rebanada",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pan integral",
+   "whole wheat bread"
+  ]
+ },
+ {
+  "id": "totopos",
+  "name": "Totopos (tortilla frita)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 487,
+  "p": 7.1,
+  "c": 58.5,
+  "f": 24.0,
+  "fiber": 4.5,
+  "unit": {
+   "name": "puñado",
+   "g": 25
+  },
+  "protein_pick": false,
+  "keywords": [
+   "totopos",
+   "tortilla chips",
+   "chips"
+  ]
+ },
+ {
+  "id": "avena_hojuelas",
+  "name": "Avena en hojuelas (cruda)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 374,
+  "p": 16.9,
+  "c": 55.7,
+  "f": 6.9,
+  "fiber": 10.6,
+  "unit": {
+   "name": "taza",
+   "g": 80
+  },
+  "protein_pick": false,
+  "keywords": [
+   "avena",
+   "oats",
+   "rolled oats"
+  ]
+ },
+ {
+  "id": "avena_cocida",
+  "name": "Avena cocida (con agua)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 68,
+  "p": 2.5,
+  "c": 10.3,
+  "f": 1.5,
+  "fiber": 1.7,
+  "unit": {
+   "name": "taza",
+   "g": 234
+  },
+  "protein_pick": false,
+  "keywords": [
+   "avena cocida",
+   "oatmeal",
+   "porridge"
+  ]
+ },
+ {
+  "id": "arroz_blanco_cocido",
+  "name": "Arroz blanco cocido",
+  "cat": "Cereales y tubérculos",
+  "kcal": 126,
+  "p": 2.7,
+  "c": 27.8,
+  "f": 0.3,
+  "fiber": 0.4,
+  "unit": {
+   "name": "taza",
+   "g": 158
+  },
+  "protein_pick": false,
+  "keywords": [
+   "arroz",
+   "rice",
+   "white rice"
+  ]
+ },
+ {
+  "id": "arroz_integral_cocido",
+  "name": "Arroz integral cocido",
+  "cat": "Cereales y tubérculos",
+  "kcal": 119,
+  "p": 2.7,
+  "c": 24.0,
+  "f": 1.0,
+  "fiber": 1.6,
+  "unit": {
+   "name": "taza",
+   "g": 195
+  },
+  "protein_pick": false,
+  "keywords": [
+   "arroz integral",
+   "brown rice"
+  ]
+ },
+ {
+  "id": "arroz_crudo",
+  "name": "Arroz blanco crudo",
+  "cat": "Cereales y tubérculos",
+  "kcal": 354,
+  "p": 7.1,
+  "c": 79.1,
+  "f": 0.7,
+  "fiber": 1.3,
+  "unit": {
+   "name": "taza seca",
+   "g": 185
+  },
+  "protein_pick": false,
+  "keywords": [
+   "arroz crudo",
+   "raw rice"
+  ]
+ },
+ {
+  "id": "pasta_seca",
+  "name": "Pasta seca (espagueti, crudo)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 358,
+  "p": 13.0,
+  "c": 71.5,
+  "f": 1.5,
+  "fiber": 3.2,
+  "unit": {
+   "name": "porción",
+   "g": 80
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pasta",
+   "espagueti",
+   "spaghetti",
+   "dry pasta"
+  ]
+ },
+ {
+  "id": "pasta_cocida",
+  "name": "Pasta cocida (espagueti)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 151,
+  "p": 5.8,
+  "c": 29.1,
+  "f": 0.9,
+  "fiber": 1.8,
+  "unit": {
+   "name": "porción",
+   "g": 140
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pasta cocida",
+   "cooked pasta"
+  ]
+ },
+ {
+  "id": "fideo_sopa",
+  "name": "Fideo para sopa (crudo)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 350,
+  "p": 12.5,
+  "c": 70.0,
+  "f": 1.5,
+  "fiber": 3.0,
+  "unit": {
+   "name": "puño",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "fideo",
+   "sopa de fideo",
+   "vermicelli",
+   "noodles"
+  ]
+ },
+ {
+  "id": "quinoa_cruda",
+  "name": "Quinoa cruda",
+  "cat": "Cereales y tubérculos",
+  "kcal": 354,
+  "p": 14.1,
+  "c": 57.2,
+  "f": 6.1,
+  "fiber": 7.0,
+  "unit": {
+   "name": "taza seca",
+   "g": 170
+  },
+  "protein_pick": false,
+  "keywords": [
+   "quinoa",
+   "quinua",
+   "raw quinoa"
+  ]
+ },
+ {
+  "id": "quinoa_cocida",
+  "name": "Quinoa cocida",
+  "cat": "Cereales y tubérculos",
+  "kcal": 114,
+  "p": 4.4,
+  "c": 18.5,
+  "f": 1.9,
+  "fiber": 2.8,
+  "unit": {
+   "name": "taza",
+   "g": 185
+  },
+  "protein_pick": false,
+  "keywords": [
+   "quinoa cocida",
+   "cooked quinoa"
+  ]
+ },
+ {
+  "id": "cuscus_crudo",
+  "name": "Cuscús crudo",
+  "cat": "Cereales y tubérculos",
+  "kcal": 356,
+  "p": 12.8,
+  "c": 72.4,
+  "f": 0.6,
+  "fiber": 5.0,
+  "unit": {
+   "name": "taza seca",
+   "g": 173
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cuscús",
+   "couscous"
+  ]
+ },
+ {
+  "id": "papa_cocida",
+  "name": "Papa blanca cocida (hervida)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 85,
+  "p": 1.9,
+  "c": 18.3,
+  "f": 0.1,
+  "fiber": 1.8,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 170
+  },
+  "protein_pick": false,
+  "keywords": [
+   "papa",
+   "potato",
+   "papa hervida"
+  ]
+ },
+ {
+  "id": "papa_cruda",
+  "name": "Papa blanca cruda",
+  "cat": "Cereales y tubérculos",
+  "kcal": 75,
+  "p": 2.0,
+  "c": 15.3,
+  "f": 0.1,
+  "fiber": 2.2,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 170
+  },
+  "protein_pick": false,
+  "keywords": [
+   "papa cruda",
+   "raw potato"
+  ]
+ },
+ {
+  "id": "camote_cocido",
+  "name": "Camote cocido",
+  "cat": "Cereales y tubérculos",
+  "kcal": 86,
+  "p": 2.0,
+  "c": 17.4,
+  "f": 0.2,
+  "fiber": 3.3,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 130
+  },
+  "protein_pick": false,
+  "keywords": [
+   "camote",
+   "batata",
+   "sweet potato"
+  ]
+ },
+ {
+  "id": "harina_trigo",
+  "name": "Harina de trigo (todo uso)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 350,
+  "p": 10.3,
+  "c": 73.6,
+  "f": 1.0,
+  "fiber": 2.7,
+  "unit": {
+   "name": "taza",
+   "g": 125
+  },
+  "protein_pick": false,
+  "keywords": [
+   "harina",
+   "harina de trigo",
+   "flour",
+   "all purpose flour"
+  ]
+ },
+ {
+  "id": "harina_integral",
+  "name": "Harina de trigo integral",
+  "cat": "Cereales y tubérculos",
+  "kcal": 342,
+  "p": 13.2,
+  "c": 61.3,
+  "f": 2.5,
+  "fiber": 10.7,
+  "unit": {
+   "name": "taza",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "harina integral",
+   "whole wheat flour"
+  ]
+ },
+ {
+  "id": "maicena",
+  "name": "Fécula de maíz (maicena)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 366,
+  "p": 0.3,
+  "c": 90.4,
+  "f": 0.1,
+  "fiber": 0.9,
+  "unit": {
+   "name": "cucharada",
+   "g": 8
+  },
+  "protein_pick": false,
+  "keywords": [
+   "maicena",
+   "fécula de maíz",
+   "cornstarch"
+  ]
+ },
+ {
+  "id": "cereal_maiz",
+  "name": "Cereal de maíz tostado (hojuelas)",
+  "cat": "Cereales y tubérculos",
+  "kcal": 370,
+  "p": 7.5,
+  "c": 81.5,
+  "f": 1.0,
+  "fiber": 2.5,
+  "unit": {
+   "name": "taza",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cereal",
+   "corn flakes",
+   "hojuelas de maíz"
+  ]
+ },
+ {
+  "id": "jitomate",
+  "name": "Jitomate (tomate rojo) crudo",
+  "cat": "Verduras",
+  "kcal": 19,
+  "p": 0.9,
+  "c": 2.7,
+  "f": 0.2,
+  "fiber": 1.2,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "jitomate",
+   "tomate",
+   "tomato",
+   "tomate rojo"
+  ]
+ },
+ {
+  "id": "tomate_verde",
+  "name": "Tomate verde (tomatillo) crudo",
+  "cat": "Verduras",
+  "kcal": 32,
+  "p": 1.0,
+  "c": 3.9,
+  "f": 1.0,
+  "fiber": 1.9,
+  "unit": {
+   "name": "pieza",
+   "g": 35
+  },
+  "protein_pick": false,
+  "keywords": [
+   "tomate verde",
+   "tomatillo"
+  ]
+ },
+ {
+  "id": "cebolla_blanca",
+  "name": "Cebolla blanca cruda",
+  "cat": "Verduras",
+  "kcal": 39,
+  "p": 1.1,
+  "c": 7.6,
+  "f": 0.1,
+  "fiber": 1.7,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 110
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cebolla",
+   "onion",
+   "white onion"
+  ]
+ },
+ {
+  "id": "cebolla_morada",
+  "name": "Cebolla morada cruda",
+  "cat": "Verduras",
+  "kcal": 39,
+  "p": 1.1,
+  "c": 7.6,
+  "f": 0.1,
+  "fiber": 1.7,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 110
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cebolla morada",
+   "red onion"
+  ]
+ },
+ {
+  "id": "ajo",
+  "name": "Ajo crudo",
+  "cat": "Verduras",
+  "kcal": 158,
+  "p": 6.4,
+  "c": 31.0,
+  "f": 0.5,
+  "fiber": 2.1,
+  "unit": {
+   "name": "diente",
+   "g": 3
+  },
+  "protein_pick": false,
+  "keywords": [
+   "ajo",
+   "garlic",
+   "clove"
+  ]
+ },
+ {
+  "id": "chile_serrano",
+  "name": "Chile serrano crudo",
+  "cat": "Verduras",
+  "kcal": 30,
+  "p": 1.7,
+  "c": 3.1,
+  "f": 0.4,
+  "fiber": 3.6,
+  "unit": {
+   "name": "chile",
+   "g": 6
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chile serrano",
+   "serrano pepper"
+  ]
+ },
+ {
+  "id": "chile_jalapeno",
+  "name": "Chile jalapeño crudo",
+  "cat": "Verduras",
+  "kcal": 28,
+  "p": 0.9,
+  "c": 3.7,
+  "f": 0.4,
+  "fiber": 2.8,
+  "unit": {
+   "name": "chile",
+   "g": 14
+  },
+  "protein_pick": false,
+  "keywords": [
+   "jalapeño",
+   "jalapeno pepper"
+  ]
+ },
+ {
+  "id": "chile_poblano",
+  "name": "Chile poblano crudo",
+  "cat": "Verduras",
+  "kcal": 23,
+  "p": 1.5,
+  "c": 2.8,
+  "f": 0.2,
+  "fiber": 1.8,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "poblano",
+   "chile poblano",
+   "poblano pepper"
+  ]
+ },
+ {
+  "id": "chile_guero",
+  "name": "Chile güero crudo",
+  "cat": "Verduras",
+  "kcal": 26,
+  "p": 0.9,
+  "c": 3.8,
+  "f": 0.3,
+  "fiber": 2.1,
+  "unit": {
+   "name": "chile",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "güero",
+   "chile güero",
+   "yellow chile"
+  ]
+ },
+ {
+  "id": "cilantro",
+  "name": "Cilantro fresco",
+  "cat": "Verduras",
+  "kcal": 22,
+  "p": 2.1,
+  "c": 0.9,
+  "f": 0.5,
+  "fiber": 2.8,
+  "unit": {
+   "name": "cucharada picada",
+   "g": 4
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cilantro",
+   "coriander",
+   "coriander leaves"
+  ]
+ },
+ {
+  "id": "epazote",
+  "name": "Epazote fresco",
+  "cat": "Verduras",
+  "kcal": 31,
+  "p": 2.8,
+  "c": 2.7,
+  "f": 0.6,
+  "fiber": 2.0,
+  "unit": {
+   "name": "ramita",
+   "g": 2
+  },
+  "protein_pick": false,
+  "keywords": [
+   "epazote",
+   "wormseed"
+  ]
+ },
+ {
+  "id": "perejil",
+  "name": "Perejil fresco",
+  "cat": "Verduras",
+  "kcal": 38,
+  "p": 3.0,
+  "c": 3.0,
+  "f": 0.8,
+  "fiber": 3.3,
+  "unit": {
+   "name": "cucharada picada",
+   "g": 4
+  },
+  "protein_pick": false,
+  "keywords": [
+   "perejil",
+   "parsley"
+  ]
+ },
+ {
+  "id": "albahaca",
+  "name": "Albahaca fresca",
+  "cat": "Verduras",
+  "kcal": 32,
+  "p": 3.2,
+  "c": 2.6,
+  "f": 0.6,
+  "fiber": 1.6,
+  "unit": {
+   "name": "cucharada picada",
+   "g": 2
+  },
+  "protein_pick": false,
+  "keywords": [
+   "albahaca",
+   "basil",
+   "fresh basil"
+  ]
+ },
+ {
+  "id": "espinaca",
+  "name": "Espinaca cruda",
+  "cat": "Verduras",
+  "kcal": 25,
+  "p": 2.9,
+  "c": 1.4,
+  "f": 0.4,
+  "fiber": 2.2,
+  "unit": {
+   "name": "taza picada",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "espinaca",
+   "spinach"
+  ]
+ },
+ {
+  "id": "lechuga_romana",
+  "name": "Lechuga romana cruda",
+  "cat": "Verduras",
+  "kcal": 16,
+  "p": 1.2,
+  "c": 1.2,
+  "f": 0.3,
+  "fiber": 2.1,
+  "unit": {
+   "name": "taza picada",
+   "g": 47
+  },
+  "protein_pick": false,
+  "keywords": [
+   "lechuga",
+   "romaine",
+   "lettuce"
+  ]
+ },
+ {
+  "id": "pepino",
+  "name": "Pepino crudo",
+  "cat": "Verduras",
+  "kcal": 17,
+  "p": 0.7,
+  "c": 3.1,
+  "f": 0.1,
+  "fiber": 0.5,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 200
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pepino",
+   "cucumber"
+  ]
+ },
+ {
+  "id": "calabacita",
+  "name": "Calabacita cruda",
+  "cat": "Verduras",
+  "kcal": 18,
+  "p": 1.2,
+  "c": 2.1,
+  "f": 0.3,
+  "fiber": 1.0,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 180
+  },
+  "protein_pick": false,
+  "keywords": [
+   "calabacita",
+   "calabacín",
+   "zucchini",
+   "squash"
+  ]
+ },
+ {
+  "id": "chayote",
+  "name": "Chayote crudo",
+  "cat": "Verduras",
+  "kcal": 19,
+  "p": 0.8,
+  "c": 2.8,
+  "f": 0.1,
+  "fiber": 1.7,
+  "unit": {
+   "name": "pieza",
+   "g": 200
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chayote",
+   "christophine"
+  ]
+ },
+ {
+  "id": "nopal",
+  "name": "Nopal cocido sin espinas",
+  "cat": "Verduras",
+  "kcal": 15,
+  "p": 1.3,
+  "c": 1.1,
+  "f": 0.1,
+  "fiber": 2.2,
+  "unit": {
+   "name": "penca",
+   "g": 100
+  },
+  "protein_pick": false,
+  "keywords": [
+   "nopal",
+   "nopales",
+   "cactus pad"
+  ]
+ },
+ {
+  "id": "ejote",
+  "name": "Ejote cocido",
+  "cat": "Verduras",
+  "kcal": 35,
+  "p": 1.9,
+  "c": 4.7,
+  "f": 0.2,
+  "fiber": 3.2,
+  "unit": {
+   "name": "taza",
+   "g": 125
+  },
+  "protein_pick": false,
+  "keywords": [
+   "ejote",
+   "green beans",
+   "string beans"
+  ]
+ },
+ {
+  "id": "berenjena",
+  "name": "Berenjena cruda",
+  "cat": "Verduras",
+  "kcal": 23,
+  "p": 1.0,
+  "c": 2.5,
+  "f": 0.2,
+  "fiber": 3.4,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 250
+  },
+  "protein_pick": false,
+  "keywords": [
+   "berenjena",
+   "eggplant",
+   "aubergine"
+  ]
+ },
+ {
+  "id": "pimiento_morron",
+  "name": "Pimiento morrón rojo crudo",
+  "cat": "Verduras",
+  "kcal": 26,
+  "p": 1.0,
+  "c": 3.9,
+  "f": 0.3,
+  "fiber": 2.1,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 120
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pimiento",
+   "morrón",
+   "bell pepper",
+   "red pepper"
+  ]
+ },
+ {
+  "id": "betabel",
+  "name": "Betabel (remolacha) cocido",
+  "cat": "Verduras",
+  "kcal": 43,
+  "p": 1.7,
+  "c": 7.2,
+  "f": 0.2,
+  "fiber": 2.8,
+  "unit": {
+   "name": "taza en cubos",
+   "g": 136
+  },
+  "protein_pick": false,
+  "keywords": [
+   "betabel",
+   "remolacha",
+   "beet",
+   "beetroot"
+  ]
+ },
+ {
+  "id": "zanahoria",
+  "name": "Zanahoria cruda",
+  "cat": "Verduras",
+  "kcal": 38,
+  "p": 0.9,
+  "c": 6.8,
+  "f": 0.2,
+  "fiber": 2.8,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 60
+  },
+  "protein_pick": false,
+  "keywords": [
+   "zanahoria",
+   "carrot"
+  ]
+ },
+ {
+  "id": "brocoli",
+  "name": "Brócoli crudo",
+  "cat": "Verduras",
+  "kcal": 36,
+  "p": 2.8,
+  "c": 4.0,
+  "f": 0.4,
+  "fiber": 2.6,
+  "unit": {
+   "name": "taza picada",
+   "g": 91
+  },
+  "protein_pick": false,
+  "keywords": [
+   "brócoli",
+   "broccoli"
+  ]
+ },
+ {
+  "id": "coliflor",
+  "name": "Coliflor cruda",
+  "cat": "Verduras",
+  "kcal": 26,
+  "p": 1.9,
+  "c": 3.0,
+  "f": 0.3,
+  "fiber": 2.0,
+  "unit": {
+   "name": "taza picada",
+   "g": 107
+  },
+  "protein_pick": false,
+  "keywords": [
+   "coliflor",
+   "cauliflower"
+  ]
+ },
+ {
+  "id": "champinon",
+  "name": "Champiñón blanco crudo",
+  "cat": "Verduras",
+  "kcal": 26,
+  "p": 3.1,
+  "c": 2.3,
+  "f": 0.3,
+  "fiber": 1.0,
+  "unit": {
+   "name": "taza en rebanadas",
+   "g": 70
+  },
+  "protein_pick": false,
+  "keywords": [
+   "champiñón",
+   "hongo",
+   "mushroom",
+   "button mushroom"
+  ]
+ },
+ {
+  "id": "col",
+  "name": "Col (repollo) cruda",
+  "cat": "Verduras",
+  "kcal": 24,
+  "p": 1.3,
+  "c": 3.3,
+  "f": 0.1,
+  "fiber": 2.5,
+  "unit": {
+   "name": "taza picada",
+   "g": 70
+  },
+  "protein_pick": false,
+  "keywords": [
+   "col",
+   "repollo",
+   "cabbage"
+  ]
+ },
+ {
+  "id": "kale",
+  "name": "Col rizada (kale) cruda",
+  "cat": "Verduras",
+  "kcal": 53,
+  "p": 4.3,
+  "c": 5.2,
+  "f": 0.9,
+  "fiber": 3.6,
+  "unit": {
+   "name": "taza picada",
+   "g": 21
+  },
+  "protein_pick": false,
+  "keywords": [
+   "kale",
+   "col rizada"
+  ]
+ },
+ {
+  "id": "jengibre",
+  "name": "Jengibre fresco",
+  "cat": "Verduras",
+  "kcal": 82,
+  "p": 1.8,
+  "c": 15.8,
+  "f": 0.8,
+  "fiber": 2.0,
+  "unit": {
+   "name": "cucharada rallada",
+   "g": 6
+  },
+  "protein_pick": false,
+  "keywords": [
+   "jengibre",
+   "ginger"
+  ]
+ },
+ {
+  "id": "esparrago",
+  "name": "Espárrago cocido",
+  "cat": "Verduras",
+  "kcal": 21,
+  "p": 2.2,
+  "c": 1.9,
+  "f": 0.1,
+  "fiber": 2.1,
+  "unit": {
+   "name": "taza",
+   "g": 90
+  },
+  "protein_pick": false,
+  "keywords": [
+   "espárrago",
+   "asparagus"
+  ]
+ },
+ {
+  "id": "platano",
+  "name": "Plátano (banana)",
+  "cat": "Frutas",
+  "kcal": 104,
+  "p": 1.1,
+  "c": 22.8,
+  "f": 0.3,
+  "fiber": 2.6,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 118
+  },
+  "protein_pick": false,
+  "keywords": [
+   "plátano",
+   "banana",
+   "banano"
+  ]
+ },
+ {
+  "id": "manzana",
+  "name": "Manzana con cáscara",
+  "cat": "Frutas",
+  "kcal": 63,
+  "p": 0.3,
+  "c": 13.8,
+  "f": 0.2,
+  "fiber": 2.4,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 182
+  },
+  "protein_pick": false,
+  "keywords": [
+   "manzana",
+   "apple"
+  ]
+ },
+ {
+  "id": "naranja",
+  "name": "Naranja dulce",
+  "cat": "Frutas",
+  "kcal": 56,
+  "p": 0.9,
+  "c": 11.8,
+  "f": 0.1,
+  "fiber": 2.4,
+  "unit": {
+   "name": "pieza mediana",
+   "g": 131
+  },
+  "protein_pick": false,
+  "keywords": [
+   "naranja",
+   "orange"
+  ]
+ },
+ {
+  "id": "mandarina",
+  "name": "Mandarina",
+  "cat": "Frutas",
+  "kcal": 63,
+  "p": 0.8,
+  "c": 13.3,
+  "f": 0.3,
+  "fiber": 1.8,
+  "unit": {
+   "name": "pieza",
+   "g": 88
+  },
+  "protein_pick": false,
+  "keywords": [
+   "mandarina",
+   "tangerine",
+   "clementine"
+  ]
+ },
+ {
+  "id": "mango",
+  "name": "Mango",
+  "cat": "Frutas",
+  "kcal": 70,
+  "p": 0.8,
+  "c": 15.0,
+  "f": 0.4,
+  "fiber": 1.6,
+  "unit": {
+   "name": "mango mediano",
+   "g": 200
+  },
+  "protein_pick": false,
+  "keywords": [
+   "mango"
+  ]
+ },
+ {
+  "id": "papaya",
+  "name": "Papaya",
+  "cat": "Frutas",
+  "kcal": 51,
+  "p": 0.5,
+  "c": 10.8,
+  "f": 0.3,
+  "fiber": 1.7,
+  "unit": {
+   "name": "rebanada",
+   "g": 150
+  },
+  "protein_pick": false,
+  "keywords": [
+   "papaya"
+  ]
+ },
+ {
+  "id": "pina",
+  "name": "Piña",
+  "cat": "Frutas",
+  "kcal": 58,
+  "p": 0.5,
+  "c": 13.1,
+  "f": 0.1,
+  "fiber": 1.4,
+  "unit": {
+   "name": "taza picada",
+   "g": 165
+  },
+  "protein_pick": false,
+  "keywords": [
+   "piña",
+   "pineapple"
+  ]
+ },
+ {
+  "id": "sandia",
+  "name": "Sandía",
+  "cat": "Frutas",
+  "kcal": 35,
+  "p": 0.6,
+  "c": 7.6,
+  "f": 0.2,
+  "fiber": 0.4,
+  "unit": {
+   "name": "taza",
+   "g": 152
+  },
+  "protein_pick": false,
+  "keywords": [
+   "sandía",
+   "watermelon"
+  ]
+ },
+ {
+  "id": "melon",
+  "name": "Melón",
+  "cat": "Frutas",
+  "kcal": 40,
+  "p": 0.8,
+  "c": 8.2,
+  "f": 0.2,
+  "fiber": 0.9,
+  "unit": {
+   "name": "taza",
+   "g": 160
+  },
+  "protein_pick": false,
+  "keywords": [
+   "melón",
+   "cantaloupe",
+   "melon"
+  ]
+ },
+ {
+  "id": "fresa",
+  "name": "Fresa",
+  "cat": "Frutas",
+  "kcal": 40,
+  "p": 0.7,
+  "c": 7.7,
+  "f": 0.3,
+  "fiber": 2.0,
+  "unit": {
+   "name": "taza",
+   "g": 152
+  },
+  "protein_pick": false,
+  "keywords": [
+   "fresa",
+   "strawberry"
+  ]
+ },
+ {
+  "id": "arandano",
+  "name": "Arándano",
+  "cat": "Frutas",
+  "kcal": 59,
+  "p": 0.7,
+  "c": 12.1,
+  "f": 0.3,
+  "fiber": 2.4,
+  "unit": {
+   "name": "taza",
+   "g": 148
+  },
+  "protein_pick": false,
+  "keywords": [
+   "arándano",
+   "blueberry"
+  ]
+ },
+ {
+  "id": "frambuesa",
+  "name": "Frambuesa",
+  "cat": "Frutas",
+  "kcal": 46,
+  "p": 1.2,
+  "c": 5.4,
+  "f": 0.7,
+  "fiber": 6.5,
+  "unit": {
+   "name": "taza",
+   "g": 123
+  },
+  "protein_pick": false,
+  "keywords": [
+   "frambuesa",
+   "raspberry"
+  ]
+ },
+ {
+  "id": "zarzamora",
+  "name": "Zarzamora",
+  "cat": "Frutas",
+  "kcal": 38,
+  "p": 1.4,
+  "c": 4.3,
+  "f": 0.5,
+  "fiber": 5.3,
+  "unit": {
+   "name": "taza",
+   "g": 144
+  },
+  "protein_pick": false,
+  "keywords": [
+   "zarzamora",
+   "blackberry",
+   "mora"
+  ]
+ },
+ {
+  "id": "uva",
+  "name": "Uva",
+  "cat": "Frutas",
+  "kcal": 68,
+  "p": 0.7,
+  "c": 15.4,
+  "f": 0.2,
+  "fiber": 0.9,
+  "unit": {
+   "name": "taza",
+   "g": 151
+  },
+  "protein_pick": false,
+  "keywords": [
+   "uva",
+   "grape"
+  ]
+ },
+ {
+  "id": "durazno",
+  "name": "Durazno",
+  "cat": "Frutas",
+  "kcal": 41,
+  "p": 0.9,
+  "c": 8.0,
+  "f": 0.3,
+  "fiber": 1.5,
+  "unit": {
+   "name": "pieza",
+   "g": 150
+  },
+  "protein_pick": false,
+  "keywords": [
+   "durazno",
+   "melocotón",
+   "peach"
+  ]
+ },
+ {
+  "id": "pera",
+  "name": "Pera",
+  "cat": "Frutas",
+  "kcal": 57,
+  "p": 0.4,
+  "c": 12.1,
+  "f": 0.1,
+  "fiber": 3.1,
+  "unit": {
+   "name": "pieza",
+   "g": 178
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pera",
+   "pear"
+  ]
+ },
+ {
+  "id": "kiwi",
+  "name": "Kiwi",
+  "cat": "Frutas",
+  "kcal": 62,
+  "p": 1.1,
+  "c": 11.7,
+  "f": 0.5,
+  "fiber": 3.0,
+  "unit": {
+   "name": "pieza",
+   "g": 69
+  },
+  "protein_pick": false,
+  "keywords": [
+   "kiwi"
+  ]
+ },
+ {
+  "id": "limon",
+  "name": "Limón verde (pulpa)",
+  "cat": "Frutas",
+  "kcal": 39,
+  "p": 1.1,
+  "c": 6.5,
+  "f": 0.3,
+  "fiber": 2.8,
+  "unit": {
+   "name": "pieza",
+   "g": 60
+  },
+  "protein_pick": false,
+  "keywords": [
+   "limón",
+   "lime",
+   "limón verde",
+   "key lime"
+  ]
+ },
+ {
+  "id": "guayaba",
+  "name": "Guayaba",
+  "cat": "Frutas",
+  "kcal": 66,
+  "p": 2.6,
+  "c": 8.9,
+  "f": 1.0,
+  "fiber": 5.4,
+  "unit": {
+   "name": "pieza",
+   "g": 90
+  },
+  "protein_pick": false,
+  "keywords": [
+   "guayaba",
+   "guava"
+  ]
+ },
+ {
+  "id": "granada",
+  "name": "Granada (semillas)",
+  "cat": "Frutas",
+  "kcal": 77,
+  "p": 1.7,
+  "c": 12.8,
+  "f": 1.2,
+  "fiber": 4.0,
+  "unit": {
+   "name": "taza de semillas",
+   "g": 174
+  },
+  "protein_pick": false,
+  "keywords": [
+   "granada",
+   "pomegranate"
+  ]
+ },
+ {
+  "id": "aguacate",
+  "name": "Aguacate (pulpa)",
+  "cat": "Frutas",
+  "kcal": 161,
+  "p": 2.0,
+  "c": 1.8,
+  "f": 14.7,
+  "fiber": 6.7,
+  "unit": {
+   "name": "mitad",
+   "g": 75
+  },
+  "protein_pick": false,
+  "keywords": [
+   "aguacate",
+   "avocado"
+  ]
+ },
+ {
+  "id": "pasas",
+  "name": "Pasas",
+  "cat": "Frutas",
+  "kcal": 326,
+  "p": 3.1,
+  "c": 75.5,
+  "f": 0.5,
+  "fiber": 3.7,
+  "unit": {
+   "name": "cucharada",
+   "g": 10
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pasas",
+   "raisins"
+  ]
+ },
+ {
+  "id": "datil",
+  "name": "Dátil seco",
+  "cat": "Frutas",
+  "kcal": 300,
+  "p": 2.5,
+  "c": 68.3,
+  "f": 0.4,
+  "fiber": 6.7,
+  "unit": {
+   "name": "pieza",
+   "g": 8
+  },
+  "protein_pick": false,
+  "keywords": [
+   "dátil",
+   "date"
+  ]
+ },
+ {
+  "id": "aceite_oliva",
+  "name": "Aceite de oliva extra virgen",
+  "cat": "Grasas y semillas",
+  "kcal": 900,
+  "p": 0.0,
+  "c": 0.0,
+  "f": 100.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 13.5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "aceite de oliva",
+   "olive oil",
+   "EVOO"
+  ]
+ },
+ {
+  "id": "aceite_vegetal",
+  "name": "Aceite vegetal (canola o girasol)",
+  "cat": "Grasas y semillas",
+  "kcal": 900,
+  "p": 0.0,
+  "c": 0.0,
+  "f": 100.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 13.6
+  },
+  "protein_pick": false,
+  "keywords": [
+   "aceite",
+   "aceite vegetal",
+   "vegetable oil",
+   "canola oil"
+  ]
+ },
+ {
+  "id": "manteca_cerdo",
+  "name": "Manteca de cerdo",
+  "cat": "Grasas y semillas",
+  "kcal": 900,
+  "p": 0.0,
+  "c": 0.0,
+  "f": 100.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 13
+  },
+  "protein_pick": false,
+  "keywords": [
+   "manteca",
+   "lard"
+  ]
+ },
+ {
+  "id": "mantequilla",
+  "name": "Mantequilla con sal",
+  "cat": "Grasas y semillas",
+  "kcal": 734,
+  "p": 0.9,
+  "c": 0.1,
+  "f": 81.1,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 14
+  },
+  "protein_pick": false,
+  "keywords": [
+   "mantequilla",
+   "butter"
+  ]
+ },
+ {
+  "id": "crema_cacahuate",
+  "name": "Crema de cacahuate natural (sin azúcar)",
+  "cat": "Grasas y semillas",
+  "kcal": 618,
+  "p": 25.1,
+  "c": 14.1,
+  "f": 49.9,
+  "fiber": 6.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 16
+  },
+  "protein_pick": false,
+  "keywords": [
+   "crema de cacahuate",
+   "mantequilla de maní",
+   "peanut butter"
+  ]
+ },
+ {
+  "id": "almendra",
+  "name": "Almendra",
+  "cat": "Grasas y semillas",
+  "kcal": 595,
+  "p": 21.2,
+  "c": 9.1,
+  "f": 49.9,
+  "fiber": 12.5,
+  "unit": {
+   "name": "puñado",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "almendra",
+   "almond"
+  ]
+ },
+ {
+  "id": "nuez_castilla",
+  "name": "Nuez de Castilla",
+  "cat": "Grasas y semillas",
+  "kcal": 689,
+  "p": 15.2,
+  "c": 7.0,
+  "f": 65.2,
+  "fiber": 6.7,
+  "unit": {
+   "name": "puñado",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "nuez",
+   "nuez de castilla",
+   "walnut"
+  ]
+ },
+ {
+  "id": "cacahuate",
+  "name": "Cacahuate tostado sin sal",
+  "cat": "Grasas y semillas",
+  "kcal": 593,
+  "p": 25.8,
+  "c": 7.6,
+  "f": 49.2,
+  "fiber": 8.5,
+  "unit": {
+   "name": "puñado",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cacahuate",
+   "maní",
+   "peanuts",
+   "peanut"
+  ]
+ },
+ {
+  "id": "pistache",
+  "name": "Pistache",
+  "cat": "Grasas y semillas",
+  "kcal": 576,
+  "p": 20.2,
+  "c": 16.6,
+  "f": 45.3,
+  "fiber": 10.6,
+  "unit": {
+   "name": "puñado",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pistache",
+   "pistachio"
+  ]
+ },
+ {
+  "id": "nuez_india",
+  "name": "Nuez de la India (cajú)",
+  "cat": "Grasas y semillas",
+  "kcal": 582,
+  "p": 18.2,
+  "c": 26.9,
+  "f": 43.9,
+  "fiber": 3.3,
+  "unit": {
+   "name": "puñado",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "nuez de la india",
+   "cashew",
+   "cajú"
+  ]
+ },
+ {
+  "id": "avellana",
+  "name": "Avellana",
+  "cat": "Grasas y semillas",
+  "kcal": 655,
+  "p": 15.0,
+  "c": 7.0,
+  "f": 60.8,
+  "fiber": 9.7,
+  "unit": {
+   "name": "puñado",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "avellana",
+   "hazelnut"
+  ]
+ },
+ {
+  "id": "chia",
+  "name": "Semillas de chía",
+  "cat": "Grasas y semillas",
+  "kcal": 442,
+  "p": 16.5,
+  "c": 7.7,
+  "f": 30.7,
+  "fiber": 34.4,
+  "unit": {
+   "name": "cucharada",
+   "g": 12
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chía",
+   "chia seeds"
+  ]
+ },
+ {
+  "id": "linaza",
+  "name": "Linaza molida",
+  "cat": "Grasas y semillas",
+  "kcal": 514,
+  "p": 18.3,
+  "c": 1.6,
+  "f": 42.2,
+  "fiber": 27.3,
+  "unit": {
+   "name": "cucharada",
+   "g": 10
+  },
+  "protein_pick": false,
+  "keywords": [
+   "linaza",
+   "flaxseed",
+   "ground flax"
+  ]
+ },
+ {
+  "id": "pepita",
+  "name": "Semillas de calabaza (pepita)",
+  "cat": "Grasas y semillas",
+  "kcal": 593,
+  "p": 30.2,
+  "c": 4.7,
+  "f": 49.0,
+  "fiber": 6.0,
+  "unit": {
+   "name": "puñado",
+   "g": 28
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pepitas",
+   "semillas de calabaza",
+   "pumpkin seeds"
+  ]
+ },
+ {
+  "id": "girasol",
+  "name": "Semillas de girasol",
+  "cat": "Grasas y semillas",
+  "kcal": 610,
+  "p": 20.8,
+  "c": 11.4,
+  "f": 51.5,
+  "fiber": 8.6,
+  "unit": {
+   "name": "cucharada",
+   "g": 9
+  },
+  "protein_pick": false,
+  "keywords": [
+   "semillas de girasol",
+   "sunflower seeds"
+  ]
+ },
+ {
+  "id": "ajonjoli",
+  "name": "Ajonjolí (semillas de sésamo)",
+  "cat": "Grasas y semillas",
+  "kcal": 588,
+  "p": 17.7,
+  "c": 11.6,
+  "f": 49.7,
+  "fiber": 11.8,
+  "unit": {
+   "name": "cucharada",
+   "g": 9
+  },
+  "protein_pick": false,
+  "keywords": [
+   "ajonjolí",
+   "sésamo",
+   "sesame seeds"
+  ]
+ },
+ {
+  "id": "tahini",
+  "name": "Pasta de ajonjolí (tahini)",
+  "cat": "Grasas y semillas",
+  "kcal": 618,
+  "p": 17.0,
+  "c": 11.9,
+  "f": 53.8,
+  "fiber": 9.3,
+  "unit": {
+   "name": "cucharada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "tahini",
+   "pasta de ajonjolí",
+   "sesame paste"
+  ]
+ },
+ {
+  "id": "coco_rallado",
+  "name": "Coco rallado sin azúcar",
+  "cat": "Grasas y semillas",
+  "kcal": 673,
+  "p": 6.9,
+  "c": 8.1,
+  "f": 64.5,
+  "fiber": 16.3,
+  "unit": {
+   "name": "cucharada",
+   "g": 6
+  },
+  "protein_pick": false,
+  "keywords": [
+   "coco",
+   "coco rallado",
+   "shredded coconut"
+  ]
+ },
+ {
+  "id": "aceitunas",
+  "name": "Aceitunas verdes en salmuera",
+  "cat": "Grasas y semillas",
+  "kcal": 150,
+  "p": 1.0,
+  "c": 0.5,
+  "f": 15.3,
+  "fiber": 3.3,
+  "unit": {
+   "name": "pieza",
+   "g": 4
+  },
+  "protein_pick": false,
+  "keywords": [
+   "aceitunas",
+   "olives"
+  ]
+ },
+ {
+  "id": "tofu_firme",
+  "name": "Tofu firme",
+  "cat": "Proteína vegetal",
+  "kcal": 152,
+  "p": 15.8,
+  "c": 2.0,
+  "f": 8.7,
+  "fiber": 1.2,
+  "unit": {
+   "name": "porción",
+   "g": 100
+  },
+  "protein_pick": true,
+  "keywords": [
+   "tofu",
+   "tofu firme",
+   "firm tofu"
+  ]
+ },
+ {
+  "id": "tofu_suave",
+  "name": "Tofu suave (sedoso)",
+  "cat": "Proteína vegetal",
+  "kcal": 51,
+  "p": 4.8,
+  "c": 1.9,
+  "f": 2.6,
+  "fiber": 0.3,
+  "unit": {
+   "name": "porción",
+   "g": 100
+  },
+  "protein_pick": false,
+  "keywords": [
+   "tofu suave",
+   "silken tofu"
+  ]
+ },
+ {
+  "id": "tempeh",
+  "name": "Tempeh",
+  "cat": "Proteína vegetal",
+  "kcal": 209,
+  "p": 20.3,
+  "c": 7.6,
+  "f": 10.8,
+  "fiber": 0.0,
+  "unit": {
+   "name": "tira",
+   "g": 50
+  },
+  "protein_pick": true,
+  "keywords": [
+   "tempeh"
+  ]
+ },
+ {
+  "id": "seitan",
+  "name": "Seitán (gluten de trigo)",
+  "cat": "Proteína vegetal",
+  "kcal": 372,
+  "p": 75.2,
+  "c": 13.2,
+  "f": 1.9,
+  "fiber": 0.6,
+  "unit": {
+   "name": "porción",
+   "g": 100
+  },
+  "protein_pick": true,
+  "keywords": [
+   "seitán",
+   "seitan",
+   "wheat gluten"
+  ]
+ },
+ {
+  "id": "soya_texturizada",
+  "name": "Proteína de soya texturizada (seca)",
+  "cat": "Proteína vegetal",
+  "kcal": 308,
+  "p": 50.0,
+  "c": 20.0,
+  "f": 0.2,
+  "fiber": 13.0,
+  "unit": {
+   "name": "taza seca",
+   "g": 30
+  },
+  "protein_pick": true,
+  "keywords": [
+   "soya texturizada",
+   "TVP",
+   "textured soy protein"
+  ]
+ },
+ {
+  "id": "edamame",
+  "name": "Edamame cocido",
+  "cat": "Proteína vegetal",
+  "kcal": 120,
+  "p": 11.9,
+  "c": 3.7,
+  "f": 5.2,
+  "fiber": 5.2,
+  "unit": {
+   "name": "taza",
+   "g": 155
+  },
+  "protein_pick": true,
+  "keywords": [
+   "edamame",
+   "soya verde",
+   "soybeans"
+  ]
+ },
+ {
+  "id": "soya_cocida",
+  "name": "Frijol de soya cocido",
+  "cat": "Proteína vegetal",
+  "kcal": 175,
+  "p": 16.6,
+  "c": 3.9,
+  "f": 9.0,
+  "fiber": 6.0,
+  "unit": {
+   "name": "taza",
+   "g": 172
+  },
+  "protein_pick": false,
+  "keywords": [
+   "soya",
+   "frijol de soya",
+   "soybeans cooked"
+  ]
+ },
+ {
+  "id": "hamburguesa_vegetal",
+  "name": "Hamburguesa vegetal de frijol",
+  "cat": "Proteína vegetal",
+  "kcal": 149,
+  "p": 9.0,
+  "c": 15.0,
+  "f": 5.0,
+  "fiber": 4.0,
+  "unit": {
+   "name": "pieza",
+   "g": 90
+  },
+  "protein_pick": false,
+  "keywords": [
+   "hamburguesa vegetal",
+   "veggie burger",
+   "bean burger"
+  ]
+ },
+ {
+  "id": "whey_concentrado",
+  "name": "Proteína whey concentrado (polvo)",
+  "cat": "Suplementos",
+  "kcal": 393,
+  "p": 80.0,
+  "c": 7.0,
+  "f": 5.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "scoop",
+   "g": 30
+  },
+  "protein_pick": true,
+  "keywords": [
+   "whey",
+   "proteína whey",
+   "whey protein concentrate",
+   "proteína en polvo"
+  ]
+ },
+ {
+  "id": "whey_aislado",
+  "name": "Proteína whey aislado (polvo)",
+  "cat": "Suplementos",
+  "kcal": 377,
+  "p": 90.0,
+  "c": 2.0,
+  "f": 1.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "scoop",
+   "g": 30
+  },
+  "protein_pick": true,
+  "keywords": [
+   "whey isolate",
+   "aislado",
+   "proteína aislada"
+  ]
+ },
+ {
+  "id": "caseina",
+  "name": "Proteína de caseína (polvo)",
+  "cat": "Suplementos",
+  "kcal": 362,
+  "p": 80.0,
+  "c": 6.0,
+  "f": 2.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "scoop",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "caseína",
+   "casein"
+  ]
+ },
+ {
+  "id": "proteina_vegetal_polvo",
+  "name": "Proteína vegetal en polvo (chícharo y arroz)",
+  "cat": "Suplementos",
+  "kcal": 383,
+  "p": 75.0,
+  "c": 8.0,
+  "f": 5.0,
+  "fiber": 3.0,
+  "unit": {
+   "name": "scoop",
+   "g": 30
+  },
+  "protein_pick": true,
+  "keywords": [
+   "proteína vegetal",
+   "plant protein",
+   "pea protein"
+  ]
+ },
+ {
+  "id": "creatina",
+  "name": "Creatina monohidratada",
+  "cat": "Suplementos",
+  "kcal": 0,
+  "p": 0.0,
+  "c": 0.0,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "scoop",
+   "g": 5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "creatina",
+   "creatine"
+  ]
+ },
+ {
+  "id": "colageno",
+  "name": "Colágeno hidrolizado (polvo)",
+  "cat": "Suplementos",
+  "kcal": 360,
+  "p": 90.0,
+  "c": 0.0,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "scoop",
+   "g": 10
+  },
+  "protein_pick": false,
+  "keywords": [
+   "colágeno",
+   "collagen peptides"
+  ]
+ },
+ {
+  "id": "barra_proteina",
+  "name": "Barra de proteína (chocolate)",
+  "cat": "Suplementos",
+  "kcal": 340,
+  "p": 30.0,
+  "c": 30.0,
+  "f": 10.0,
+  "fiber": 5.0,
+  "unit": {
+   "name": "barra",
+   "g": 60
+  },
+  "protein_pick": false,
+  "keywords": [
+   "barra de proteína",
+   "protein bar"
+  ]
+ },
+ {
+  "id": "bebida_proteina",
+  "name": "Bebida de proteína lista para tomar",
+  "cat": "Suplementos",
+  "kcal": 115,
+  "p": 10.0,
+  "c": 12.0,
+  "f": 3.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "botella",
+   "g": 330
+  },
+  "protein_pick": false,
+  "keywords": [
+   "bebida de proteína",
+   "protein shake"
+  ]
+ },
+ {
+  "id": "salsa_soya",
+  "name": "Salsa de soya",
+  "cat": "Condimentos y salsas",
+  "kcal": 59,
+  "p": 8.1,
+  "c": 4.9,
+  "f": 0.6,
+  "fiber": 0.8,
+  "unit": {
+   "name": "cucharada",
+   "g": 16
+  },
+  "protein_pick": false,
+  "keywords": [
+   "salsa de soya",
+   "soy sauce",
+   "soya"
+  ]
+ },
+ {
+  "id": "salsa_picante",
+  "name": "Salsa picante de chile de árbol (botella)",
+  "cat": "Condimentos y salsas",
+  "kcal": 36,
+  "p": 1.5,
+  "c": 6.0,
+  "f": 0.4,
+  "fiber": 1.0,
+  "unit": {
+   "name": "cucharadita",
+   "g": 5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "salsa picante",
+   "hot sauce",
+   "salsa de chile"
+  ]
+ },
+ {
+  "id": "salsa_tomate",
+  "name": "Salsa de tomate (catsup)",
+  "cat": "Condimentos y salsas",
+  "kcal": 105,
+  "p": 1.2,
+  "c": 24.7,
+  "f": 0.1,
+  "fiber": 0.3,
+  "unit": {
+   "name": "cucharada",
+   "g": 17
+  },
+  "protein_pick": false,
+  "keywords": [
+   "catsup",
+   "ketchup",
+   "salsa de tomate"
+  ]
+ },
+ {
+  "id": "mayonesa",
+  "name": "Mayonesa",
+  "cat": "Condimentos y salsas",
+  "kcal": 681,
+  "p": 1.0,
+  "c": 0.6,
+  "f": 75.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 13
+  },
+  "protein_pick": false,
+  "keywords": [
+   "mayonesa",
+   "mayo",
+   "mayonnaise"
+  ]
+ },
+ {
+  "id": "mostaza",
+  "name": "Mostaza amarilla",
+  "cat": "Condimentos y salsas",
+  "kcal": 62,
+  "p": 4.4,
+  "c": 2.0,
+  "f": 3.3,
+  "fiber": 3.3,
+  "unit": {
+   "name": "cucharadita",
+   "g": 5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "mostaza",
+   "mustard"
+  ]
+ },
+ {
+  "id": "vinagre_blanco",
+  "name": "Vinagre blanco",
+  "cat": "Condimentos y salsas",
+  "kcal": 2,
+  "p": 0.0,
+  "c": 0.5,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "vinagre",
+   "vinegar",
+   "white vinegar"
+  ]
+ },
+ {
+  "id": "vinagre_manzana",
+  "name": "Vinagre de manzana",
+  "cat": "Condimentos y salsas",
+  "kcal": 4,
+  "p": 0.0,
+  "c": 0.9,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "vinagre de manzana",
+   "apple cider vinegar"
+  ]
+ },
+ {
+  "id": "pure_tomate",
+  "name": "Puré de tomate concentrado",
+  "cat": "Condimentos y salsas",
+  "kcal": 89,
+  "p": 4.3,
+  "c": 14.8,
+  "f": 0.5,
+  "fiber": 4.1,
+  "unit": {
+   "name": "cucharada",
+   "g": 16
+  },
+  "protein_pick": false,
+  "keywords": [
+   "puré de tomate",
+   "tomato paste",
+   "jitomate concentrado"
+  ]
+ },
+ {
+  "id": "chipotle_adobo",
+  "name": "Chiles chipotles en adobo (lata)",
+  "cat": "Condimentos y salsas",
+  "kcal": 112,
+  "p": 2.0,
+  "c": 14.0,
+  "f": 5.0,
+  "fiber": 1.5,
+  "unit": {
+   "name": "chile chipotle",
+   "g": 10
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chipotle en adobo",
+   "chipotles adobados",
+   "adobo"
+  ]
+ },
+ {
+  "id": "pasta_mole",
+  "name": "Pasta de mole (lista)",
+  "cat": "Condimentos y salsas",
+  "kcal": 307,
+  "p": 8.0,
+  "c": 33.0,
+  "f": 15.0,
+  "fiber": 4.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 20
+  },
+  "protein_pick": false,
+  "keywords": [
+   "mole",
+   "pasta de mole",
+   "mole poblano"
+  ]
+ },
+ {
+  "id": "sal",
+  "name": "Sal de mesa",
+  "cat": "Condimentos y salsas",
+  "kcal": 0,
+  "p": 0.0,
+  "c": 0.0,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharadita",
+   "g": 6
+  },
+  "protein_pick": false,
+  "keywords": [
+   "sal",
+   "salt"
+  ]
+ },
+ {
+  "id": "pimienta_negra",
+  "name": "Pimienta negra molida",
+  "cat": "Condimentos y salsas",
+  "kcal": 280,
+  "p": 10.4,
+  "c": 39.5,
+  "f": 3.3,
+  "fiber": 25.3,
+  "unit": {
+   "name": "cucharadita",
+   "g": 2
+  },
+  "protein_pick": false,
+  "keywords": [
+   "pimienta",
+   "pimienta negra",
+   "black pepper"
+  ]
+ },
+ {
+  "id": "comino",
+  "name": "Comino molido",
+  "cat": "Condimentos y salsas",
+  "kcal": 428,
+  "p": 17.8,
+  "c": 33.7,
+  "f": 22.3,
+  "fiber": 10.5,
+  "unit": {
+   "name": "cucharadita",
+   "g": 2
+  },
+  "protein_pick": false,
+  "keywords": [
+   "comino",
+   "cumin"
+  ]
+ },
+ {
+  "id": "oregano",
+  "name": "Orégano seco",
+  "cat": "Condimentos y salsas",
+  "kcal": 265,
+  "p": 9.0,
+  "c": 26.4,
+  "f": 4.3,
+  "fiber": 42.5,
+  "unit": {
+   "name": "cucharadita",
+   "g": 2
+  },
+  "protein_pick": false,
+  "keywords": [
+   "orégano",
+   "oregano"
+  ]
+ },
+ {
+  "id": "canela",
+  "name": "Canela molida",
+  "cat": "Condimentos y salsas",
+  "kcal": 243,
+  "p": 4.0,
+  "c": 27.5,
+  "f": 1.2,
+  "fiber": 53.1,
+  "unit": {
+   "name": "cucharadita",
+   "g": 3
+  },
+  "protein_pick": false,
+  "keywords": [
+   "canela",
+   "cinnamon"
+  ]
+ },
+ {
+  "id": "chile_polvo",
+  "name": "Chile en polvo (mezcla)",
+  "cat": "Condimentos y salsas",
+  "kcal": 312,
+  "p": 13.5,
+  "c": 14.9,
+  "f": 14.3,
+  "fiber": 34.8,
+  "unit": {
+   "name": "cucharadita",
+   "g": 2.5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chile en polvo",
+   "chili powder"
+  ]
+ },
+ {
+  "id": "chile_ancho",
+  "name": "Chile ancho seco",
+  "cat": "Condimentos y salsas",
+  "kcal": 336,
+  "p": 14.0,
+  "c": 28.0,
+  "f": 12.0,
+  "fiber": 30.0,
+  "unit": {
+   "name": "pieza",
+   "g": 12
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chile ancho",
+   "ancho chile",
+   "ancho"
+  ]
+ },
+ {
+  "id": "chile_guajillo",
+  "name": "Chile guajillo seco",
+  "cat": "Condimentos y salsas",
+  "kcal": 301,
+  "p": 12.0,
+  "c": 35.0,
+  "f": 7.0,
+  "fiber": 25.0,
+  "unit": {
+   "name": "pieza",
+   "g": 6
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chile guajillo",
+   "guajillo"
+  ]
+ },
+ {
+  "id": "chile_pasilla",
+  "name": "Chile pasilla seco",
+  "cat": "Condimentos y salsas",
+  "kcal": 365,
+  "p": 17.0,
+  "c": 30.0,
+  "f": 13.0,
+  "fiber": 30.0,
+  "unit": {
+   "name": "pieza",
+   "g": 10
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chile pasilla",
+   "pasilla"
+  ]
+ },
+ {
+  "id": "chile_morita",
+  "name": "Chile chipotle seco (morita)",
+  "cat": "Condimentos y salsas",
+  "kcal": 353,
+  "p": 14.0,
+  "c": 30.0,
+  "f": 13.0,
+  "fiber": 30.0,
+  "unit": {
+   "name": "pieza",
+   "g": 4
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chipotle seco",
+   "chile morita",
+   "morita"
+  ]
+ },
+ {
+  "id": "chile_arbol",
+  "name": "Chile de árbol seco",
+  "cat": "Condimentos y salsas",
+  "kcal": 371,
+  "p": 12.0,
+  "c": 29.0,
+  "f": 17.0,
+  "fiber": 27.0,
+  "unit": {
+   "name": "pieza",
+   "g": 1
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chile de árbol",
+   "chile seco",
+   "arbol chile"
+  ]
+ },
+ {
+  "id": "ajo_polvo",
+  "name": "Ajo en polvo",
+  "cat": "Condimentos y salsas",
+  "kcal": 357,
+  "p": 16.6,
+  "c": 68.8,
+  "f": 0.7,
+  "fiber": 4.5,
+  "unit": {
+   "name": "cucharadita",
+   "g": 3
+  },
+  "protein_pick": false,
+  "keywords": [
+   "ajo en polvo",
+   "garlic powder"
+  ]
+ },
+ {
+  "id": "cebolla_polvo",
+  "name": "Cebolla en polvo",
+  "cat": "Condimentos y salsas",
+  "kcal": 353,
+  "p": 10.4,
+  "c": 72.4,
+  "f": 1.0,
+  "fiber": 6.6,
+  "unit": {
+   "name": "cucharadita",
+   "g": 3
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cebolla en polvo",
+   "onion powder"
+  ]
+ },
+ {
+  "id": "paprika",
+  "name": "Paprika (pimentón)",
+  "cat": "Condimentos y salsas",
+  "kcal": 359,
+  "p": 14.1,
+  "c": 29.1,
+  "f": 12.9,
+  "fiber": 34.9,
+  "unit": {
+   "name": "cucharadita",
+   "g": 2
+  },
+  "protein_pick": false,
+  "keywords": [
+   "paprika",
+   "pimentón",
+   "smoked paprika"
+  ]
+ },
+ {
+  "id": "consome_pollo",
+  "name": "Consomé de pollo en polvo",
+  "cat": "Condimentos y salsas",
+  "kcal": 256,
+  "p": 8.0,
+  "c": 42.0,
+  "f": 6.0,
+  "fiber": 1.0,
+  "unit": {
+   "name": "cucharadita",
+   "g": 4
+  },
+  "protein_pick": false,
+  "keywords": [
+   "consomé",
+   "caldo de pollo en polvo",
+   "bouillon",
+   "chicken bouillon"
+  ]
+ },
+ {
+  "id": "salsa_pescado",
+  "name": "Salsa de pescado (nam pla)",
+  "cat": "Condimentos y salsas",
+  "kcal": 35,
+  "p": 5.1,
+  "c": 3.6,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharadita",
+   "g": 5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "salsa de pescado",
+   "fish sauce",
+   "nam pla"
+  ]
+ },
+ {
+  "id": "pasta_miso",
+  "name": "Pasta de miso",
+  "cat": "Condimentos y salsas",
+  "kcal": 200,
+  "p": 12.4,
+  "c": 21.4,
+  "f": 6.0,
+  "fiber": 5.4,
+  "unit": {
+   "name": "cucharada",
+   "g": 18
+  },
+  "protein_pick": false,
+  "keywords": [
+   "miso",
+   "pasta de miso",
+   "miso paste"
+  ]
+ },
+ {
+  "id": "agua_simple",
+  "name": "Agua simple",
+  "cat": "Bebidas",
+  "kcal": 0,
+  "p": 0.0,
+  "c": 0.0,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "vaso",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "agua",
+   "water"
+  ]
+ },
+ {
+  "id": "cafe_negro",
+  "name": "Café negro preparado sin azúcar",
+  "cat": "Bebidas",
+  "kcal": 0,
+  "p": 0.1,
+  "c": 0.0,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "taza",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "café",
+   "coffee",
+   "café negro",
+   "espresso"
+  ]
+ },
+ {
+  "id": "te_verde",
+  "name": "Té verde (infusión sin azúcar)",
+  "cat": "Bebidas",
+  "kcal": 1,
+  "p": 0.0,
+  "c": 0.2,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "taza",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "té verde",
+   "green tea"
+  ]
+ },
+ {
+  "id": "jugo_naranja",
+  "name": "Jugo de naranja natural",
+  "cat": "Bebidas",
+  "kcal": 46,
+  "p": 0.7,
+  "c": 10.2,
+  "f": 0.2,
+  "fiber": 0.2,
+  "unit": {
+   "name": "vaso",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "jugo de naranja",
+   "orange juice"
+  ]
+ },
+ {
+  "id": "jugo_tomate",
+  "name": "Jugo de tomate (bote)",
+  "cat": "Bebidas",
+  "kcal": 19,
+  "p": 0.9,
+  "c": 3.5,
+  "f": 0.1,
+  "fiber": 0.4,
+  "unit": {
+   "name": "vaso",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "jugo de tomate",
+   "tomato juice"
+  ]
+ },
+ {
+  "id": "refresco_cola",
+  "name": "Refresco de cola (regular)",
+  "cat": "Bebidas",
+  "kcal": 42,
+  "p": 0.0,
+  "c": 10.6,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "lata",
+   "g": 355
+  },
+  "protein_pick": false,
+  "keywords": [
+   "refresco",
+   "cola",
+   "soda",
+   "soft drink"
+  ]
+ },
+ {
+  "id": "agua_jamaica",
+  "name": "Agua de jamaica sin azúcar",
+  "cat": "Bebidas",
+  "kcal": 2,
+  "p": 0.1,
+  "c": 0.5,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "vaso",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "agua de jamaica",
+   "hibiscus tea",
+   "jamaica"
+  ]
+ },
+ {
+  "id": "horchata",
+  "name": "Agua de horchata (con azúcar)",
+  "cat": "Bebidas",
+  "kcal": 61,
+  "p": 0.4,
+  "c": 14.0,
+  "f": 0.3,
+  "fiber": 0.1,
+  "unit": {
+   "name": "vaso",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "horchata",
+   "agua de horchata",
+   "rice drink"
+  ]
+ },
+ {
+  "id": "atole_maiz",
+  "name": "Atole de maíz (con agua y azúcar)",
+  "cat": "Bebidas",
+  "kcal": 62,
+  "p": 1.0,
+  "c": 13.0,
+  "f": 0.5,
+  "fiber": 0.5,
+  "unit": {
+   "name": "vaso",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "atole",
+   "atole de maíz",
+   "corn drink"
+  ]
+ },
+ {
+  "id": "leche_almendra",
+  "name": "Bebida de almendra sin azúcar",
+  "cat": "Bebidas",
+  "kcal": 14,
+  "p": 0.6,
+  "c": 0.3,
+  "f": 1.1,
+  "fiber": 0.4,
+  "unit": {
+   "name": "taza",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "leche de almendra",
+   "almond milk"
+  ]
+ },
+ {
+  "id": "bebida_avena",
+  "name": "Bebida de avena sin azúcar",
+  "cat": "Bebidas",
+  "kcal": 46,
+  "p": 1.0,
+  "c": 6.8,
+  "f": 1.5,
+  "fiber": 0.8,
+  "unit": {
+   "name": "taza",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "leche de avena",
+   "oat milk",
+   "bebida de avena"
+  ]
+ },
+ {
+  "id": "leche_soya",
+  "name": "Bebida de soya sin azúcar",
+  "cat": "Bebidas",
+  "kcal": 36,
+  "p": 3.3,
+  "c": 1.5,
+  "f": 1.8,
+  "fiber": 0.4,
+  "unit": {
+   "name": "taza",
+   "g": 240
+  },
+  "protein_pick": false,
+  "keywords": [
+   "leche de soya",
+   "soy milk",
+   "soy drink"
+  ]
+ },
+ {
+  "id": "chocolate_oscuro",
+  "name": "Chocolate oscuro 70 % cacao",
+  "cat": "Otros",
+  "kcal": 576,
+  "p": 7.8,
+  "c": 35.0,
+  "f": 42.6,
+  "fiber": 10.9,
+  "unit": {
+   "name": "cuadro",
+   "g": 10
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chocolate oscuro",
+   "dark chocolate",
+   "chocolate amargo"
+  ]
+ },
+ {
+  "id": "chocolate_leche",
+  "name": "Chocolate con leche",
+  "cat": "Otros",
+  "kcal": 529,
+  "p": 7.7,
+  "c": 56.0,
+  "f": 29.7,
+  "fiber": 3.4,
+  "unit": {
+   "name": "cuadro",
+   "g": 10
+  },
+  "protein_pick": false,
+  "keywords": [
+   "chocolate con leche",
+   "milk chocolate"
+  ]
+ },
+ {
+  "id": "cacao_polvo",
+  "name": "Cacao en polvo sin azúcar",
+  "cat": "Otros",
+  "kcal": 228,
+  "p": 19.6,
+  "c": 20.9,
+  "f": 13.7,
+  "fiber": 37.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cacao",
+   "cocoa powder",
+   "cacao en polvo"
+  ]
+ },
+ {
+  "id": "galletas_maria",
+  "name": "Galletas María",
+  "cat": "Otros",
+  "kcal": 420,
+  "p": 7.5,
+  "c": 71.5,
+  "f": 11.0,
+  "fiber": 2.5,
+  "unit": {
+   "name": "galleta",
+   "g": 7
+  },
+  "protein_pick": false,
+  "keywords": [
+   "galletas maría",
+   "galletas",
+   "cookies",
+   "crackers"
+  ]
+ },
+ {
+  "id": "galletas_avena",
+  "name": "Galletas de avena",
+  "cat": "Otros",
+  "kcal": 431,
+  "p": 6.0,
+  "c": 62.0,
+  "f": 17.0,
+  "fiber": 3.0,
+  "unit": {
+   "name": "galleta",
+   "g": 12
+  },
+  "protein_pick": false,
+  "keywords": [
+   "galletas de avena",
+   "oatmeal cookies"
+  ]
+ },
+ {
+  "id": "granola",
+  "name": "Granola",
+  "cat": "Otros",
+  "kcal": 466,
+  "p": 10.0,
+  "c": 59.0,
+  "f": 20.0,
+  "fiber": 5.0,
+  "unit": {
+   "name": "porción (1/4 taza)",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "granola",
+   "muesli"
+  ]
+ },
+ {
+  "id": "palomitas",
+  "name": "Palomitas de maíz naturales (sin mantequilla)",
+  "cat": "Otros",
+  "kcal": 374,
+  "p": 12.9,
+  "c": 63.3,
+  "f": 4.5,
+  "fiber": 14.5,
+  "unit": {
+   "name": "taza",
+   "g": 8
+  },
+  "protein_pick": false,
+  "keywords": [
+   "palomitas",
+   "popcorn"
+  ]
+ },
+ {
+  "id": "concha",
+  "name": "Concha (pan dulce)",
+  "cat": "Otros",
+  "kcal": 363,
+  "p": 8.0,
+  "c": 50.5,
+  "f": 14.0,
+  "fiber": 1.5,
+  "unit": {
+   "name": "pieza",
+   "g": 80
+  },
+  "protein_pick": false,
+  "keywords": [
+   "concha",
+   "pan dulce",
+   "sweet bread"
+  ]
+ },
+ {
+  "id": "grenetina",
+  "name": "Grenetina (gelatina sin sabor)",
+  "cat": "Otros",
+  "kcal": 340,
+  "p": 85.0,
+  "c": 0.0,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "sobre",
+   "g": 7
+  },
+  "protein_pick": false,
+  "keywords": [
+   "grenetina",
+   "gelatina sin sabor",
+   "gelatin"
+  ]
+ },
+ {
+  "id": "cajeta",
+  "name": "Cajeta de leche (dulce de leche)",
+  "cat": "Otros",
+  "kcal": 332,
+  "p": 7.0,
+  "c": 58.0,
+  "f": 8.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 20
+  },
+  "protein_pick": false,
+  "keywords": [
+   "cajeta",
+   "dulce de leche",
+   "caramel"
+  ]
+ },
+ {
+  "id": "papitas",
+  "name": "Papitas fritas tipo botana",
+  "cat": "Otros",
+  "kcal": 546,
+  "p": 7.0,
+  "c": 48.5,
+  "f": 35.0,
+  "fiber": 4.5,
+  "unit": {
+   "name": "puñado",
+   "g": 30
+  },
+  "protein_pick": false,
+  "keywords": [
+   "papitas",
+   "papas fritas",
+   "chips",
+   "potato chips"
+  ]
+ },
+ {
+  "id": "hummus",
+  "name": "Hummus",
+  "cat": "Otros",
+  "kcal": 164,
+  "p": 8.0,
+  "c": 8.3,
+  "f": 9.6,
+  "fiber": 6.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "hummus",
+   "garbanzo puré",
+   "chickpea dip"
+  ]
+ },
+ {
+  "id": "tamal_pollo",
+  "name": "Tamal de pollo (cocido)",
+  "cat": "Otros",
+  "kcal": 192,
+  "p": 6.5,
+  "c": 25.5,
+  "f": 6.5,
+  "fiber": 2.5,
+  "unit": {
+   "name": "pieza",
+   "g": 150
+  },
+  "protein_pick": false,
+  "keywords": [
+   "tamal",
+   "tamales",
+   "tamal de pollo"
+  ]
+ },
+ {
+  "id": "azucar",
+  "name": "Azúcar blanca",
+  "cat": "Otros",
+  "kcal": 400,
+  "p": 0.0,
+  "c": 100.0,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 12.5
+  },
+  "protein_pick": false,
+  "keywords": [
+   "azúcar",
+   "sugar",
+   "azúcar blanca"
+  ]
+ },
+ {
+  "id": "piloncillo",
+  "name": "Piloncillo",
+  "cat": "Otros",
+  "kcal": 382,
+  "p": 0.4,
+  "c": 95.0,
+  "f": 0.1,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada rallada",
+   "g": 15
+  },
+  "protein_pick": false,
+  "keywords": [
+   "piloncillo",
+   "panela",
+   "brown sugar"
+  ]
+ },
+ {
+  "id": "miel",
+  "name": "Miel de abeja",
+  "cat": "Otros",
+  "kcal": 331,
+  "p": 0.3,
+  "c": 82.4,
+  "f": 0.0,
+  "fiber": 0.0,
+  "unit": {
+   "name": "cucharada",
+   "g": 21
+  },
+  "protein_pick": false,
+  "keywords": [
+   "miel",
+   "honey"
+  ]
+ },
+ {
+  "id": "levadura",
+  "name": "Levadura seca instantánea",
+  "cat": "Otros",
+  "kcal": 331,
+  "p": 40.4,
+  "c": 11.8,
+  "f": 7.6,
+  "fiber": 26.9,
+  "unit": {
+   "name": "cucharadita",
+   "g": 7
+  },
+  "protein_pick": false,
+  "keywords": [
+   "levadura",
+   "yeast",
+   "dry yeast"
+  ]
+ }
+]

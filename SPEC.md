@@ -45,7 +45,7 @@ Animación: frames `https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@f00c92c
 Cubre fase 1, fase 2, semana 10, fase 3 y los bloques H/F/E de la etapa 2 con sus fechas reales.
 
 ## Navegación
-Barra inferior: **Track**, **Summary**, **Biblioteca**. La cuenta vive en el engrane del encabezado (`#/cuenta`). Las rutas antiguas (`#/hoy`, `#/registrar`, `#/progreso`, `#/cuerpo`) redirigen a Track o Summary.
+Barra inferior: **Track**, **Comida** (Alimentación), **Recetas**, **Summary**, **Biblioteca**. La cuenta vive en el engrane del encabezado (`#/cuenta`). Las rutas antiguas (`#/hoy`, `#/registrar`, `#/progreso`, `#/cuerpo`) redirigen a Track o Summary.
 
 ## Funciones de la app
 1. **Auth** (pantalla inicial): registro e inicio con email + contraseña, enlace mágico, recuperación de contraseña. Teléfono (OTP por SMS) detrás de `config.PHONE_AUTH_ENABLED=false`. Cerrar sesión, borrar cuenta y datos, exportar mis datos (JSON) en Cuenta.
@@ -63,8 +63,14 @@ Barra inferior: **Track**, **Summary**, **Biblioteca**. La cuenta vive en el eng
 8. **Técnica / "API" de video**: `getTechnique(exerciseId)` → `{frames, cues, fitwillUrl}` y `openTechnique(exerciseId)`. Fitwill no permite incrustar su video: se muestra la animación y un botón que abre su página.
 9. **Modo demo** (`?demo=1`): datos falsos en localStorage (perfil, 6 semanas de pesos, plan generado y sesiones), claramente rotulado; nunca toca Supabase.
 
+## Alimentación y recetas (ver NUTRITION_SPEC.md)
+- **Comida**: metas diarias (kcal, P, C, G, fibra) con `js/nutrition.js` a partir del perfil (Mifflin-St Jeor, factor por días de entreno, ajuste por meta, "¿Cómo se calcula?"); pestañas Día / Proteínas / Plan. Plan de comidas: 3–6 por día con nombre y hora (`profiles.meals_per_day`, `meal_plan`), reparto de kcal y proteína por comida. Registro por comida y fecha desde recetas (porciones decimales), alimentos (gramos o porción casera) y "Proteínas populares" (`protein_pick`); barras de avance por comida y por día, editar, quitar y copiar la comida de ayer.
+- **Recetas**: categorías de `recipe_categories.json`, búsqueda sin acentos (nombre, ingrediente, etiqueta), filtros (alta en proteína, <30 min, <500 kcal, favoritas), listas paginadas, `recipes.json` cargado una sola vez bajo demanda; detalle con macros por porción, ingredientes (g y porción casera), pasos y "Agregar a comida".
+- `food_logs`: snapshot de kcal/P/C/G/fibra y etiqueta por renglón (no depende del catálogo). Cola sin conexión (`gt_fqueue_<uid>`). Se incluye en exportar y en `delete_my_account()`.
+- **Summary** suma adherencia (días con kcal ±10 % y proteína ≥90 %), comidas registradas, gráficas de 14 días y consejos de nutrición.
+
 ## Datos de usuario (Supabase)
-`profiles` (unit, display_name, birth_year, sex, height_cm, goal_weight_kg, days_per_week), `workouts`, `workout_exercises`, `sets`, `body_weights` (único por usuario y fecha), `user_plans` (plan jsonb + source generated|preset). Todo con RLS por `user_id`.
+`profiles` (unit, display_name, birth_year, sex, height_cm, goal_weight_kg, days_per_week), `workouts`, `workout_exercises`, `sets`, `food_logs`, `body_weights` (único por usuario y fecha), `user_plans` (plan jsonb + source generated|preset). Todo con RLS por `user_id`.
 
 ## Seguridad (obligatorio)
 - RLS activado en todas las tablas; políticas `user_id = auth.uid()` para select/insert/update/delete. Ningún service key en el cliente.

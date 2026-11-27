@@ -87,12 +87,41 @@ create table if not exists public.user_plans (
   updated_at timestamptz not null default now()
 );
 
+-- ---- Versión 3: alimentación (plan de comidas y registro de comidas) ----
+alter table public.profiles add column if not exists meals_per_day smallint;
+alter table public.profiles add column if not exists meal_plan jsonb;
+alter table public.profiles drop constraint if exists profiles_meals_chk;
+alter table public.profiles add constraint profiles_meals_chk check (meals_per_day is null or meals_per_day between 3 and 6);
+alter table public.profiles drop constraint if exists profiles_meal_plan_chk;
+alter table public.profiles add constraint profiles_meal_plan_chk check (meal_plan is null or (jsonb_typeof(meal_plan) = 'array' and jsonb_array_length(meal_plan) <= 6 and pg_column_size(meal_plan) < 2000));
+
+-- Cada renglón guarda un "snapshot" de macros para no depender del catálogo (que es estático).
+create table if not exists public.food_logs (
+  id         uuid primary key default gen_random_uuid(),
+  user_id    uuid not null default auth.uid() references auth.users (id) on delete cascade,
+  logged_on  date not null check (logged_on between date '2000-01-01' and date '2100-01-01'),
+  meal_slot  smallint not null check (meal_slot between 1 and 6),
+  source     text not null check (source in ('recipe', 'food')),
+  ref_id     text not null check (char_length(ref_id) between 1 and 64 and ref_id ~ '^[a-zA-Z0-9_-]+$'),
+  label      text check (label is null or char_length(label) <= 80),
+  servings   numeric(7,2) check (servings is null or (servings > 0 and servings <= 100)),
+  grams      numeric(7,1) check (grams is null or (grams > 0 and grams <= 10000)),
+  kcal       numeric(7,1) not null check (kcal between 0 and 20000),
+  p          numeric(6,1) not null check (p between 0 and 2000),
+  c          numeric(6,1) not null check (c between 0 and 3000),
+  f          numeric(6,1) not null check (f between 0 and 2000),
+  fiber      numeric(6,1) not null default 0 check (fiber between 0 and 500),
+  created_at timestamptz not null default now(),
+  check ((source = 'recipe' and servings is not null) or (source = 'food' and grams is not null))
+);
+
 -- ============ Índices ============
 create index if not exists workouts_user_date_idx on public.workouts (user_id, performed_on desc);
 create index if not exists workout_exercises_workout_idx on public.workout_exercises (workout_id);
 create index if not exists workout_exercises_user_idx on public.workout_exercises (user_id);
 create index if not exists sets_we_idx on public.sets (workout_exercise_id);
 create index if not exists sets_user_idx on public.sets (user_id);
+create index if not exists food_logs_user_date_idx on public.food_logs (user_id, logged_on desc);
 create index if not exists body_weights_user_date_idx on public.body_weights (user_id, measured_on desc);
 
 -- ============ Row Level Security ============
@@ -102,10 +131,11 @@ alter table public.workout_exercises enable row level security;
 alter table public.sets              enable row level security;
 alter table public.body_weights      enable row level security;
 alter table public.user_plans        enable row level security;
+alter table public.food_logs         enable row level security;
 
 -- Sin acceso para anon; solo usuarios autenticados y solo a sus filas.
-revoke all on public.profiles, public.workouts, public.workout_exercises, public.sets, public.body_weights, public.user_plans from anon;
-grant select, insert, update, delete on public.profiles, public.workouts, public.workout_exercises, public.sets, public.body_weights, public.user_plans to authenticated;
+revoke all on public.profiles, public.workouts, public.workout_exercises, public.sets, public.body_weights, public.user_plans, public.food_logs from anon;
+grant select, insert, update, delete on public.profiles, public.workouts, public.workout_exercises, public.sets, public.body_weights, public.user_plans, public.food_logs to authenticated;
 
 drop policy if exists profiles_select on public.profiles;
 drop policy if exists profiles_insert on public.profiles;
@@ -166,6 +196,15 @@ create policy up_insert on public.user_plans for insert to authenticated with ch
 create policy up_update on public.user_plans for update to authenticated using (user_id = (select auth.uid())) with check (user_id = (select auth.uid()));
 create policy up_delete on public.user_plans for delete to authenticated using (user_id = (select auth.uid()));
 
+drop policy if exists fl_select on public.food_logs;
+drop policy if exists fl_insert on public.food_logs;
+drop policy if exists fl_update on public.food_logs;
+drop policy if exists fl_delete on public.food_logs;
+create policy fl_select on public.food_logs for select to authenticated using (user_id = (select auth.uid()));
+create policy fl_insert on public.food_logs for insert to authenticated with check (user_id = (select auth.uid()));
+create policy fl_update on public.food_logs for update to authenticated using (user_id = (select auth.uid())) with check (user_id = (select auth.uid()));
+create policy fl_delete on public.food_logs for delete to authenticated using (user_id = (select auth.uid()));
+
 -- ============ Triggers: updated_at del perfil ============
 create or replace function public.touch_updated_at()
 returns trigger language plpgsql set search_path = '' as $$
@@ -195,6 +234,7 @@ begin
   delete from public.sets where user_id = uid;
   delete from public.workout_exercises where user_id = uid;
   delete from public.workouts where user_id = uid;
+  delete from public.food_logs where user_id = uid;
   delete from public.body_weights where user_id = uid;
   delete from public.user_plans where user_id = uid;
   delete from public.profiles where user_id = uid;

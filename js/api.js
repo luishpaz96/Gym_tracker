@@ -32,7 +32,13 @@ export function buildWorkout({ performed_on, plan_day, notes, exercises }) {
   });
 }
 
-const PROFILE_COLS = 'display_name,unit,bodyweight,birth_year,sex,height_cm,goal_weight_kg,days_per_week';
+const FOOD_COLS = 'id,logged_on,meal_slot,source,ref_id,label,servings,grams,kcal,p,c,f,fiber';
+const normFood = (r) => ({ id: r.id, logged_on: r.logged_on, meal_slot: r.meal_slot, source: r.source, ref_id: r.ref_id, label: r.label || r.ref_id,
+  servings: r.servings == null ? null : Number(r.servings), grams: r.grams == null ? null : Number(r.grams),
+  kcal: Number(r.kcal), p: Number(r.p), c: Number(r.c), f: Number(r.f), fiber: Number(r.fiber) });
+const foodRow = (e) => ({ id: e.id, logged_on: e.logged_on, meal_slot: e.meal_slot, source: e.source, ref_id: e.ref_id, label: e.label || null,
+  servings: e.servings, grams: e.grams, kcal: e.kcal, p: e.p, c: e.c, f: e.f, fiber: e.fiber });
+const PROFILE_COLS = 'display_name,unit,bodyweight,birth_year,sex,height_cm,goal_weight_kg,days_per_week,meals_per_day,meal_plan';
 const isNetworkError = (err) => !navigator.onLine || err instanceof TypeError || /failed to fetch|network|load failed/i.test(String(err?.message || err));
 
 // ============================== Supabase ==============================
@@ -41,6 +47,7 @@ export function createRemoteApi() {
   let userId = null;
   const qKey = () => `gt_queue_${userId}`;
   const cKey = () => `gt_cache_${userId}`;
+  const fKey = () => `gt_fqueue_${userId}`;
   const api = {
     mode: 'remote', user: null,
     async init() {
@@ -65,7 +72,7 @@ export function createRemoteApi() {
     async signOut() {
       const uid = userId;
       try { await sb.auth.signOut(); } finally {
-        if (uid) { for (const k of ['cache', 'profile', 'weights', 'plan']) lsDel(`gt_${k}_${uid}`); }
+        if (uid) { for (const k of ['cache', 'profile', 'weights', 'plan', 'food']) lsDel(`gt_${k}_${uid}`); }
         lsDel('gt_draft'); // la cola pendiente se conserva por si había datos sin subir
       }
     },
@@ -77,7 +84,8 @@ export function createRemoteApi() {
     },
     async saveProfile(p) {
       const row = { user_id: userId, unit: p.unit === 'lb' ? 'lb' : 'kg', display_name: p.display_name || null, bodyweight: p.bodyweight || null,
-        birth_year: p.birth_year ?? null, sex: p.sex ?? null, height_cm: p.height_cm ?? null, goal_weight_kg: p.goal_weight_kg ?? null, days_per_week: p.days_per_week ?? null };
+        birth_year: p.birth_year ?? null, sex: p.sex ?? null, height_cm: p.height_cm ?? null, goal_weight_kg: p.goal_weight_kg ?? null, days_per_week: p.days_per_week ?? null,
+        meals_per_day: p.meals_per_day ?? null, meal_plan: p.meal_plan ?? null };
       lsSet(`gt_profile_${userId}`, row);
       const { error } = await sb.from('profiles').upsert(row, { onConflict: 'user_id' });
       if (error) throw error;
@@ -107,7 +115,32 @@ export function createRemoteApi() {
       if (error) throw error;
       lsSet(`gt_plan_${userId}`, { plan, source });
     },
-    pendingCount() { return userId ? lsGet(qKey(), []).length : 0; },
+    // ---- Registro de comidas (con cola sin conexión) ----
+    async listFoodLogs(from) {
+      let remote;
+      try {
+        const { data, error } = await sb.from('food_logs').select(FOOD_COLS).gte('logged_on', from).order('logged_on', { ascending: true }).limit(5000);
+        if (error) throw error;
+        remote = data.map(normFood); lsSet(`gt_food_${userId}`, remote);
+      } catch (err) { if (!isNetworkError(err)) throw err; remote = lsGet(`gt_food_${userId}`, []).filter((e) => e.logged_on >= from); }
+      const have = new Set(remote.map((e) => e.id));
+      const q = lsGet(fKey(), []).filter((e) => !have.has(e.id) && e.logged_on >= from);
+      const del = new Set(lsGet(`gt_fdel_${userId}`, []));
+      return [...remote.filter((e) => !del.has(e.id)), ...q];
+    },
+    async saveFoodLog(e) {
+      try { const { error } = await sb.from('food_logs').upsert(foodRow(e), { onConflict: 'id' }); if (error) throw error; return { queued: false }; }
+      catch (err) {
+        if (!isNetworkError(err)) throw err;
+        const q = lsGet(fKey(), []).filter((x) => x.id !== e.id); q.push(e); lsSet(fKey(), q); return { queued: true };
+      }
+    },
+    async deleteFoodLog(id) {
+      const q = lsGet(fKey(), []); if (q.some((x) => x.id === id)) { lsSet(fKey(), q.filter((x) => x.id !== id)); return; }
+      try { const { error } = await sb.from('food_logs').delete().eq('id', id); if (error) throw error; }
+      catch (err) { if (!isNetworkError(err)) throw err; lsSet(`gt_fdel_${userId}`, [...lsGet(`gt_fdel_${userId}`, []), id]); }
+    },
+    pendingCount() { return userId ? lsGet(qKey(), []).length + lsGet(fKey(), []).length : 0; },
     pendingList() { return userId ? lsGet(qKey(), []) : []; },
     async listWorkouts() {
       let remote = null;
@@ -136,8 +169,15 @@ export function createRemoteApi() {
     },
     async flush() {
       if (!userId) return 0;
-      const q = lsGet(qKey(), []); if (!q.length) return 0;
-      const rest = []; let ok = 0;
+      let ok = 0;
+      const fq = lsGet(fKey(), []), frest = [];
+      for (const e of fq) { try { const { error } = await sb.from('food_logs').upsert(foodRow(e), { onConflict: 'id' }); if (error) throw error; ok++; } catch (err) { if (isNetworkError(err)) frest.push(e); } }
+      lsSet(fKey(), frest);
+      const dels = lsGet(`gt_fdel_${userId}`, []), drest = [];
+      for (const id of dels) { try { const { error } = await sb.from('food_logs').delete().eq('id', id); if (error) throw error; } catch (err) { if (isNetworkError(err)) drest.push(id); } }
+      lsSet(`gt_fdel_${userId}`, drest);
+      const q = lsGet(qKey(), []); if (!q.length) return ok;
+      const rest = [];
       for (const w of q) {
         try { await pushWorkout(sb, w); ok++; }
         catch (err) { if (isNetworkError(err)) rest.push(w); else console.warn('Entrenamiento descartado de la cola:', err.message); }
@@ -145,12 +185,12 @@ export function createRemoteApi() {
       lsSet(qKey(), rest); return ok;
     },
     async exportAll() {
-      const [workouts, profile, body_weights, plan] = await Promise.all([api.listWorkouts(), api.getProfile(), api.listBodyWeights(), api.getPlan()]);
-      return { exported_at: new Date().toISOString(), app: 'gym_tracker', email: api.user?.email || null, profile, body_weights, plan, workouts };
+      const [workouts, profile, body_weights, plan, food_logs] = await Promise.all([api.listWorkouts(), api.getProfile(), api.listBodyWeights(), api.getPlan(), api.listFoodLogs('2000-01-01')]);
+      return { exported_at: new Date().toISOString(), app: 'gym_tracker', email: api.user?.email || null, profile, body_weights, plan, food_logs, workouts };
     },
     async deleteAccount() {
       const { error } = await sb.rpc('delete_my_account'); if (error) throw error;
-      const uid = userId; for (const k of ['cache', 'profile', 'weights', 'plan', 'queue']) lsDel(`gt_${k}_${uid}`); lsDel('gt_draft');
+      const uid = userId; for (const k of ['cache', 'profile', 'weights', 'plan', 'queue', 'fqueue', 'fdel', 'food']) lsDel(`gt_${k}_${uid}`); lsDel('gt_draft');
       try { await sb.auth.signOut(); } catch { /* la cuenta ya no existe */ }
     },
   };
@@ -168,23 +208,26 @@ async function pushWorkout(sb, w) {
 
 // ============================== Demo ==============================
 export function createDemoApi(seed) {
-  const K = { w: 'gt_demo_workouts', p: 'gt_demo_profile', b: 'gt_demo_weights', l: 'gt_demo_plan' };
-  const plant = () => { const d = seed(); lsSet(K.w, d.workouts); lsSet(K.p, d.profile); lsSet(K.b, d.weights); lsSet(K.l, d.plan); };
+  const K = { w: 'gt_demo_workouts', p: 'gt_demo_profile', b: 'gt_demo_weights', l: 'gt_demo_plan', f: 'gt_demo_food' };
+  const plant = () => { const d = seed(); lsSet(K.w, d.workouts); lsSet(K.p, d.profile); lsSet(K.b, d.weights); lsSet(K.l, d.plan); lsSet(K.f, d.food || []); };
   const api = {
     mode: 'demo', user: { id: 'demo', email: 'demo@local' },
-    async init() { if (!lsGet(K.w, null) || !lsGet(K.l, null)) plant(); return api.user; },
+    async init() { if (!lsGet(K.w, null) || !lsGet(K.l, null) || !lsGet(K.f, null)) plant(); return api.user; },
     onAuthChange() { return { data: { subscription: { unsubscribe() {} } } }; },
     async getProfile() { return lsGet(K.p, { unit: 'kg' }); },
     async saveProfile(p) { lsSet(K.p, p); },
     async listBodyWeights() { return lsGet(K.b, []).sort((a, b) => a.measured_on.localeCompare(b.measured_on)); },
     async addBodyWeight(d, kg) { const l = lsGet(K.b, []).filter((r) => r.measured_on !== d); l.push({ measured_on: d, weight_kg: kg }); lsSet(K.b, l); },
+    async listFoodLogs(from) { return lsGet(K.f, []).filter((e) => e.logged_on >= from); },
+    async saveFoodLog(e) { const l = lsGet(K.f, []).filter((x) => x.id !== e.id); l.push(e); lsSet(K.f, l); return { queued: false }; },
+    async deleteFoodLog(id) { lsSet(K.f, lsGet(K.f, []).filter((x) => x.id !== id)); },
     async getPlan() { return lsGet(K.l, null); },
     async savePlan(plan, source) { lsSet(K.l, { plan, source }); },
     pendingCount: () => 0, pendingList: () => [],
     async listWorkouts() { return lsGet(K.w, []).sort((a, b) => b.performed_on.localeCompare(a.performed_on)); },
     async saveWorkout(w) { const l = lsGet(K.w, []); l.push(w); lsSet(K.w, l); return { queued: false }; },
     async flush() { return 0; },
-    async exportAll() { return { exported_at: new Date().toISOString(), app: 'gym_tracker', demo: true, profile: await api.getProfile(), body_weights: await api.listBodyWeights(), workouts: await api.listWorkouts() }; },
+    async exportAll() { return { exported_at: new Date().toISOString(), app: 'gym_tracker', demo: true, profile: await api.getProfile(), body_weights: await api.listBodyWeights(), food_logs: await api.listFoodLogs('2000-01-01'), workouts: await api.listWorkouts() }; },
     async signOut() { Object.values(K).forEach(lsDel); lsDel('gt_draft'); },
     async deleteAccount() { await api.signOut(); },
     resetDemo() { plant(); lsDel('gt_draft'); },

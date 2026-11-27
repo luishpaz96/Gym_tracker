@@ -2,7 +2,8 @@
 import { addDays, weekStart, bestE1RM } from './calc.js';
 import { compareExercise } from './grading.js';
 import { pickForMuscle } from './recommend.js';
-import { weightTip } from './weight.js';
+import { weightTip, weeklyChangePct } from './weight.js';
+import { nutritionTips } from './nutrition.js';
 
 const planDaysPerWeek = (plan) => Object.keys(plan?.days || {}).length || 3;
 const sessionDates = (workouts) => [...new Set(workouts.map((w) => w.performed_on))];
@@ -28,7 +29,7 @@ function history(workouts, exId) {
     .map((w) => ({ w, ex: (w.exercises || []).find((e) => e.exercise_id === exId && (e.sets || []).some((s) => +s.reps > 0)) })).filter((x) => x.ex);
 }
 
-export function generateTips({ status, workouts, exercises, plan, today, weights = null, weightGoal = null }) {
+export function generateTips({ status, workouts, exercises, plan, today, weights = null, weightGoal = null, nutrition = null }) {
   const byId = Object.fromEntries(exercises.map((e) => [e.id, e]));
   const goal = planDaysPerWeek(plan);
   const tips = [];
@@ -37,6 +38,8 @@ export function generateTips({ status, workouts, exercises, plan, today, weights
   tips.push({ kind: 'week', text: done >= goal ? `Cumpliste tus ${goal} sesiones de la semana. Buen trabajo.` : `Llevas ${done} de ${goal} sesiones esta semana.${goal - done === 1 ? ' Te falta 1.' : ` Te faltan ${goal - done}.`}` });
 
   if (weights && weightGoal) tips.push({ kind: 'weight', text: weightTip(weights, weightGoal) });
+
+  if (nutrition) tips.push(...nutritionTips({ ...nutrition, today, goal: weightGoal, weightPct: weights ? weeklyChangePct(weights) : null }).slice(0, 1));
 
   const needy = status.filter((m) => m.status === 'red' || m.status === 'yellow').sort((a, b) => (a.sets / a.target) - (b.sets / b.target)).slice(0, 2);
   for (const m of needy) {

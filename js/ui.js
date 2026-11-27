@@ -39,6 +39,8 @@ export const $ = (sel, root = document) => root.querySelector(sel);
 const ICONS = {
   track: 'M6 7v10M3 9v6M18 7v10M21 9v6M6 12h12',
   summary: 'M4 19V5M4 19h16M8 15l4-5 3 3 5-7',
+  comida: 'M7 3v7M4.5 3v5a2.5 2.5 0 0 0 5 0V3M7 11v10M17 3c-2.2 1.6-3 4.2-3 7h3v11',
+  recetas: 'M7 14a3.5 3.5 0 1 1 1.6-6.6A3.6 3.6 0 0 1 15.4 7.4 3.5 3.5 0 1 1 17 14v6H7z',
   hoy: 'M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-4v-6h-6v6H5a1 1 0 0 1-1-1z',
   registrar: 'M12 5v14M5 12h14',
   progreso: 'M4 19V5M4 19h16M8 15l4-5 3 3 5-7',

@@ -354,3 +354,86 @@ test('validación de perfil: rangos', () => {
   assert.ok(!prof.profileComplete({ unit: 'kg' }));
   assert.equal(prof.ageOf({ birth_year: 1998 }, 2026), 28);
 });
+
+// ---------- Nutrición ----------
+import * as nut from '../js/nutrition.js';
+const FOOD = { id: 'pollo', name: 'Pechuga', kcal: 120, p: 22.5, c: 0, f: 2.6, fiber: 0, unit: { name: 'pieza', g: 200 } };
+const RECIPE = { id: 'mex_tinga', name: 'Tinga', per_serving: { kcal: 300, p: 30, c: 20, f: 10, fiber: 4 } };
+
+test('metas: Mifflin-St Jeor, factor, ajuste por meta y macros', () => {
+  const prof = { sex: 'M', weight_kg: 80, height_cm: 175, age: 30, days_per_week: 3 };
+  assert.equal(Math.round(nut.bmr(prof)), 1749);
+  const m = nut.computeTargets(prof, 'recomp');
+  assert.equal(m.tdee, Math.round(1748.75 * 1.45));
+  assert.equal(m.kcal, m.tdee);
+  assert.equal(m.p, 160); assert.equal(m.f, 72);
+  assert.equal(m.fiber, Math.round(14 * m.kcal / 1000));
+  assert.ok(Math.abs((4 * m.p + 4 * m.c + 9 * m.f) - m.kcal) < 15);
+  const g = nut.computeTargets(prof, 'gain');
+  assert.ok(Math.abs(g.kcal - (m.tdee + Math.min(m.tdee * 0.1, 300))) <= 1);
+  const l = nut.computeTargets(prof, 'lose');
+  assert.ok(Math.abs(l.kcal - Math.max(m.tdee * 0.8, 1748.75 * 1.1)) <= 1);
+  assert.equal(l.p, 176);
+  const f = nut.computeTargets({ ...prof, sex: 'F' }, 'recomp');
+  assert.equal(f.bmr, Math.round(nut.bmr({ ...prof, sex: 'F' })));
+  assert.ok(f.bmr < m.bmr);
+  assert.equal(nut.computeTargets({ ...prof, days_per_week: 6 }, 'recomp').factor, 1.7);
+  // suelo de TMB x 1.1 al bajar con poca actividad
+  const small = nut.computeTargets({ sex: 'F', weight_kg: 50, height_cm: 150, age: 40, days_per_week: 2 }, 'lose');
+  assert.ok(small.kcal >= Math.round(small.bmr * 1.1) - 1);
+});
+
+test('reparto por comida suma 100 % y respeta nombres', () => {
+  for (const n of [3, 4, 5, 6]) assert.ok(Math.abs(nut.MEAL_DEFAULTS[n].shares.reduce((a, b) => a + b, 0) - 1) < 1e-9);
+  const plan = nut.mealPlanOf({ meals_per_day: 4 });
+  assert.deepEqual(plan.map((m) => m.name), ['Desayuno', 'Colación', 'Comida', 'Cena']);
+  const t = nut.computeTargets({ sex: 'M', weight_kg: 80, height_cm: 175, age: 30, days_per_week: 3 }, 'recomp');
+  const split = nut.splitMeals(t, plan);
+  assert.ok(Math.abs(split.reduce((a, m) => a + m.kcal, 0) - t.kcal) <= 3);
+  assert.equal(nut.mealPlanOf({ meals_per_day: 9 }).length, 6);
+  assert.equal(nut.mealPlanOf({ meals_per_day: 4, meal_plan: [{ name: 'Almuerzo', time: '09:15' }] })[0].name, 'Almuerzo');
+  assert.equal(nut.mealPlanOf({}).length, 4);
+});
+
+test('macros de alimento, receta y totales del registro', () => {
+  assert.deepEqual(nut.macrosForFood(FOOD, 200), { kcal: 240, p: 45, c: 0, f: 5.2, fiber: 0 });
+  assert.equal(nut.unitGrams(FOOD, 1.5), 300);
+  assert.equal(nut.unitGrams({ unit: null }, 2), null);
+  assert.equal(nut.macrosForRecipe(RECIPE, 1.5).kcal, 450);
+  const a = nut.entryFromFood(FOOD, 150, { id: 'a', logged_on: '2026-11-26', meal_slot: 1 });
+  const b = nut.entryFromRecipe(RECIPE, 2, { id: 'b', logged_on: '2026-11-26', meal_slot: 3 });
+  assert.equal(a.kcal, 180); assert.equal(b.kcal, 600); assert.equal(b.servings, 2);
+  const c = nut.rescaleEntry(b, 0.5);
+  assert.equal(c.kcal, 300); assert.equal(c.servings, 1);
+  const logs = [a, b, { ...a, id: 'c', logged_on: '2026-11-25' }];
+  assert.deepEqual(nut.dayTotals(logs, '2026-11-26'), { kcal: 780, p: 93.8, c: 40, f: 23.9, fiber: 8 });
+  assert.equal(nut.mealEntries(logs, '2026-11-26', 3).length, 1);
+});
+
+test('adherencia: kcal ±10 % y proteína ≥ 90 %', () => {
+  const T = { kcal: 2000, p: 150, c: 200, f: 60, fiber: 28 };
+  assert.ok(nut.dayAdheres({ kcal: 2100, p: 140 }, T));
+  assert.ok(!nut.dayAdheres({ kcal: 2300, p: 150 }, T));
+  assert.ok(!nut.dayAdheres({ kcal: 1700, p: 150 }, T));
+  assert.ok(!nut.dayAdheres({ kcal: 2000, p: 130 }, T));
+  const mk = (d, slot, kcal, p) => ({ id: d + slot, logged_on: d, meal_slot: slot, kcal, p, c: 0, f: 0, fiber: 0 });
+  const logs = [mk('2026-11-26', 1, 1000, 80), mk('2026-11-26', 2, 1000, 70), mk('2026-11-25', 1, 800, 40)];
+  const a = nut.adherence(logs, T, '2026-11-27', 14);
+  assert.equal(a.days.length, 14);
+  assert.equal(a.loggedDays, 2); assert.equal(a.okDays, 1); assert.equal(a.pct, 50); assert.equal(a.mealsLogged, 3);
+  assert.equal(nut.adherence([], T, '2026-11-27').pct, null);
+});
+
+test('consejos de nutrición', () => {
+  const T = { kcal: 2000, p: 150, c: 200, f: 60, fiber: 28 };
+  const mk = (d, kcal, p) => ({ id: d, logged_on: d, meal_slot: 1, kcal, p, c: 0, f: 0, fiber: 0 });
+  const low = [mk('2026-11-25', 2000, 100), mk('2026-11-26', 2000, 90), mk('2026-11-27', 2000, 150)];
+  assert.match(nut.nutritionTips({ logs: low, targets: T, today: '2026-11-27', goal: 'gain' })[0].text, /Proteína baja en 2 de 3/);
+  const over = [mk('2026-11-26', 2600, 160), mk('2026-11-27', 2500, 160)];
+  assert.match(nut.nutritionTips({ logs: over, targets: T, today: '2026-11-27', goal: 'lose' })[0].text, /sobre tu meta/);
+  const stuck = [mk('2026-11-26', 2000, 150), mk('2026-11-27', 2050, 150)];
+  assert.match(nut.nutritionTips({ logs: stuck, targets: T, today: '2026-11-27', goal: 'lose', weightPct: 0.2 })[0].text, /el peso no baja/);
+  assert.match(nut.nutritionTips({ logs: [], targets: T, today: '2026-11-27', goal: 'lose' })[0].text, /Registra lo que comes/);
+  const tips = generateTips({ status: rec.muscleStatus(MUSCLES, {}, true), workouts: [{ id: '1', performed_on: '2026-11-25', exercises: [] }], exercises: EX, plan: PLAN, today: '2026-11-27', weights: [], weightGoal: 'lose', nutrition: { logs: over, targets: T } });
+  assert.ok(tips.some((t) => t.kind === 'food') && tips.length <= 5);
+});

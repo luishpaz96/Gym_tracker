@@ -1,10 +1,11 @@
 // Arranque, enrutador y shell de la app.
 import * as config from './config.js';
-import { loadData } from './data.js';
+import { loadData, loadFoods } from './data.js';
 import { createRemoteApi, createDemoApi } from './api.js';
 import { makeSeed } from './demo.js';
 import { renderAuth } from './auth.js';
 import { el, clear, icon, toast, $ } from './ui.js';
+import { foodFrom } from './stats.js';
 import { profileComplete } from './profile.js';
 import { ensurePlan } from './planctl.js';
 import { renderOnboarding } from './screens/onboarding.js';
@@ -20,12 +21,14 @@ applyTheme(getTheme());
 
 const ROUTES = {
   track: () => import('./screens/track.js'),
+  comida: () => import('./screens/comida.js'),
+  recetas: () => import('./screens/recetas.js'),
   summary: () => import('./screens/summary.js'),
   biblioteca: () => import('./screens/biblioteca.js'),
   cuenta: () => import('./screens/cuenta.js'),
 };
-const ALIAS = { hoy: 'track', registrar: 'track', progreso: 'summary', cuerpo: 'summary' };
-const NAV = [['track', 'Track'], ['summary', 'Summary'], ['biblioteca', 'Biblioteca']];
+const ALIAS = { alimentacion: 'comida', 'alimentación': 'comida', hoy: 'track', registrar: 'track', progreso: 'summary', cuerpo: 'summary' };
+const NAV = [['track', 'Track'], ['comida', 'Comida'], ['recetas', 'Recetas'], ['summary', 'Summary'], ['biblioteca', 'Biblioteca']];
 
 function message(title, text, extra) {
   const root = viewEl(); clear(root);
@@ -59,10 +62,11 @@ async function route(ctx) {
 }
 
 async function startApp(api, data) {
-  const ctx = { api, data, workouts: [], weights: [], plan: null, planSource: null, profile: { unit: 'kg' },
+  const ctx = { api, data, workouts: [], weights: [], foodLogs: [], plan: null, planSource: null, profile: { unit: 'kg' },
     theme: getTheme,
     toggleTheme() { const t = getTheme() === 'dark' ? 'light' : 'dark'; try { localStorage.setItem(themeKey, t); } catch { /* sin almacenamiento */ } applyTheme(t); },
-    async refresh() { ctx.workouts = await api.listWorkouts(); } };
+    async refresh() { ctx.workouts = await api.listWorkouts(); },
+    async refreshFood() { ctx.foodLogs = await api.listFoodLogs(foodFrom()); } };
   try { ctx.profile = { unit: 'kg', ...(await api.getProfile()) }; } catch { /* se queda en kg */ }
   try { ctx.weights = await api.listBodyWeights(); } catch { /* sin conexión */ }
   if (!profileComplete(ctx.profile)) {
@@ -71,6 +75,7 @@ async function startApp(api, data) {
   }
   await ensurePlan(ctx);
   try { await api.flush(); } catch { /* sin conexión */ }
+  try { await ctx.refreshFood(); } catch (e) { console.warn(e?.message); }
   try { await ctx.refresh(); } catch (e) { console.warn(e?.message); toast('No se pudieron cargar tus entrenamientos', 'bad'); }
   shell(ctx);
   window.addEventListener('online', async () => { const n = await api.flush().catch(() => 0); if (n) { toast(`Se subieron ${n} sesión(es) pendientes`); await ctx.refresh(); } });
@@ -83,6 +88,7 @@ async function boot() {
   try { data = await loadData(); } catch (e) { return message('No se pudieron cargar los datos', 'Revisa tu conexión e intenta de nuevo.'); }
 
   if (demo) {
+    data.foods = (await loadFoods()).foods;
     const api = createDemoApi(() => makeSeed(data));
     await api.init();
     return startApp(api, data);
