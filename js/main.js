@@ -55,7 +55,9 @@ async function route(ctx) {
     await mod.render(ctx, root);
   } catch (e) {
     console.error(e);
-    clear(root).append(el('p', { class: 'banner bad', text: 'Ocurrió un error al mostrar esta pantalla.' }));
+    const detail = String((e && (e.message || e.details || e.hint || e.code)) || e).slice(0, 300);
+    clear(root).append(el('p', { class: 'banner bad', text: 'Ocurrió un error al mostrar esta pantalla.' }),
+      el('p', { class: 'muted small', text: `Detalle: ${detail}` }));
   }
   window.scrollTo(0, 0);
   root.focus({ preventScroll: true });
