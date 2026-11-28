@@ -8,7 +8,9 @@ export function scoreExercise(ex, q) {
   const kws = (ex.keywords || []).map(normalize);
   const rest = normalize([ex.group, ex.equipment].join(' '));
   const hay = [name, ...kws, rest].join(' | ');
-  if (!tokens.every((t) => hay.includes(t))) return 0;
+  const compact = (x) => x.replace(/[^a-z0-9]/g, '');
+  // Sin espacios: "facepull" encuentra "face pull", "pecdeck" encuentra "pec deck".
+  if (!tokens.every((t) => hay.includes(t)) && !compact(hay).includes(compact(q))) return 0;
   let score = 10;
   if (name.startsWith(q)) score += 100;
   else if (name.split(' ').some((w) => w.startsWith(q))) score += 60;

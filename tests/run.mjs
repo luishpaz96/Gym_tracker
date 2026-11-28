@@ -575,3 +575,11 @@ test('sesión: pasos +/- , descanso y progreso', async () => {
   assert.deepEqual(s.setProgress(ex), { done: 3, total: 5 }); assert.equal(s.currentExercise(ex), 1);
   assert.equal(s.currentExercise([{ sets: [{ done: true }] }]), 0); assert.equal(s.currentExercise([]), -1);
 });
+
+test('buscador: sin espacios encuentra nombres con espacio (facepull)', async () => {
+  const { searchExercises } = await import('../js/search.js');
+  const list = [{ id: 'facepull', name: 'Face pull con cuerda', group: 'Hombro', equipment: 'Polea', keywords: [] }, { id: 'x', name: 'Press de banca', group: 'Pecho', equipment: 'Barra', keywords: [] }];
+  assert.equal(searchExercises(list, { query: 'facepull' })[0]?.id, 'facepull');
+  assert.equal(searchExercises(list, { query: 'face pull' })[0]?.id, 'facepull');
+  assert.equal(searchExercises(list, { query: 'facepull' }).length, 1);
+});
