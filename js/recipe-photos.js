@@ -1,6 +1,6 @@
 // Fotos ilustrativas de recetas desde Wikimedia Commons (consulta desde el teléfono; sin llaves ni servidor).
 // Solo se aceptan licencias libres: CC0, dominio público, CC BY y CC BY-SA. Resultado (incluso "sin foto") en caché 30 días.
-import { el, icon } from './ui.js';
+import { el } from './ui.js';
 
 const API = 'https://commons.wikimedia.org/w/api.php';
 const TTL = 30 * 24 * 3600 * 1000;
@@ -67,33 +67,28 @@ export function getRecipePhoto(recipe, fetchFn = (u) => fetch(u)) {
 }
 
 // ---- Interfaz ----
-const CAT_ICON = { sopas: 'recetas', mexicanas: 'comida' };
-const hueClass = (cat) => { let h = 0; for (const ch of String(cat || '')) h = (h * 31 + ch.charCodeAt(0)) % 8; return `ph-${h}`; };
+// Sin foto no se muestra nada: la tarjeta/detalle queda como antes. La imagen se inserta solo cuando cargó bien.
 const io = typeof IntersectionObserver !== 'undefined' ? new IntersectionObserver((entries) => {
   for (const e of entries) if (e.isIntersecting) { io.unobserve(e.target); e.target.dispatchEvent(new Event('gt-visible')); }
 }, { rootMargin: '200px' }) : null;
 
-// size: 'thumb' (64x64 en listas) o 'hero' (16:9 en el detalle). Devuelve un contenedor con marcador de posición.
-export function recipePhoto(recipe, { size = 'thumb' } = {}) {
-  const box = el('div', { class: `rphoto ${size} ${hueClass(recipe.cat)} loading`, role: size === 'hero' ? 'img' : null, 'aria-label': size === 'hero' ? `Sin foto de ${recipe.name}` : null, 'aria-hidden': size === 'thumb' ? 'true' : null }, icon(CAT_ICON[recipe.cat] || 'recetas'));
-  const caption = size === 'hero' ? el('p', { class: 'muted tiny rphoto-cap' }) : null;
+// size: 'thumb' (64x64, se antepone a `host`) o 'hero' (16:9 + pie, se antepone a `host`).
+export function attachPhoto(recipe, host, { size = 'thumb' } = {}) {
   let started = false;
   const load = async () => {
     if (started) return; started = true;
     const photo = await getRecipePhoto(recipe);
-    box.classList.remove('loading');
     if (!photo) return;
-    const img = el('img', { alt: size === 'hero' ? `Foto ilustrativa de ${recipe.name}` : '', loading: 'lazy', decoding: 'async', referrerpolicy: 'no-referrer' });
-    img.addEventListener('load', () => { box.classList.add('has'); });
-    box.append(img);
-    img.addEventListener('error', () => { img.remove(); });
-    img.src = photo.thumb;
-    if (caption) {
+    const img = el('img', { alt: size === 'hero' ? `Foto ilustrativa de ${recipe.name}` : '', decoding: 'async', referrerpolicy: 'no-referrer' });
+    img.addEventListener('load', () => {
+      const box = el('div', { class: `rphoto ${size}` }, img);
+      if (size !== 'hero') { host.prepend(box); return; }
       const txt = `Foto ilustrativa · ${photo.author} · ${photo.license} · Wikimedia Commons`;
-      caption.append(photo.page ? el('a', { href: photo.page, target: '_blank', rel: 'noopener noreferrer', text: txt }) : txt);
-    }
+      host.prepend(box, el('p', { class: 'muted tiny rphoto-cap' }, photo.page ? el('a', { href: photo.page, target: '_blank', rel: 'noopener noreferrer', text: txt }) : txt));
+    });
+    img.addEventListener('error', () => { /* sin foto: no se muestra nada */ });
+    img.src = photo.thumb;
   };
   if (size === 'hero' || !io) load();
-  else { box.addEventListener('gt-visible', load); io.observe(box); }
-  return caption ? el('div', {}, box, caption) : box;
+  else { host.addEventListener('gt-visible', load); io.observe(host); }
 }

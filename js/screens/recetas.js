@@ -3,7 +3,7 @@ import { el, clear, icon, openModal, fmtNum , pageHead } from '../ui.js';
 import { loadRecipes } from '../data.js';
 import { normalize } from '../search.js';
 import { openLogEntry } from './logentry.js';
-import { recipePhoto } from '../recipe-photos.js';
+import { attachPhoto } from '../recipe-photos.js';
 
 const PAGE = 30;
 const st = { cat: null, query: '', protein: false, quick: false, light: false, fav: false, shown: PAGE };
@@ -26,6 +26,13 @@ function filtered(rd) {
     && (!st.fav || fv.has(r.id)) && q.every((t) => idx.get(r.id).includes(t)));
 }
 
+// Botón de la fila; la miniatura se antepone solo si hay foto y cargó bien
+function pickBtn(r, ctx, rd, ...kids) {
+  const b = el('button', { class: 'pick nb', type: 'button', on: { click: () => openRecipe(ctx, rd, r) } }, ...kids);
+  attachPhoto(r, b, { size: 'thumb' });
+  return b;
+}
+
 export function openRecipe(ctx, rd, r) {
   const ps = r.per_serving;
   const ing = (r.ingredients || []).map((i) => {
@@ -35,13 +42,13 @@ export function openRecipe(ctx, rd, r) {
   });
   const stat = (v, l) => el('div', { class: 'stat' }, el('strong', { text: v }), l);
   const body = el('div', { class: 'tech' },
-    recipePhoto(r, { size: 'hero' }),
     el('p', { class: 'muted small', text: `${r.servings} porciones · ${r.time_min} min · ${r.level} · ${(r.tags || []).join(', ')}` }),
     el('div', { class: 'stat-row' }, stat(fmtNum(ps.kcal), 'kcal'), stat(fmtNum(ps.p, 1), 'P g'), stat(fmtNum(ps.c, 1), 'C g'), stat(fmtNum(ps.f, 1), 'G g')),
     el('p', { class: 'muted small', text: `Por porción · fibra ${fmtNum(ps.fiber || 0, 1)} g` }),
     el('h3', { text: 'Ingredientes (receta completa)' }), el('ul', { class: 'cues' }, ing),
     el('h3', { text: 'Preparación' }), el('ol', { class: 'cues' }, (r.steps || []).map((s) => el('li', { text: s }))),
     el('button', { class: 'btn primary block big', type: 'button', on: { click: () => openLogEntry(ctx, { kind: 'recipe', item: r }) } }, 'Agregar a comida'));
+  attachPhoto(r, body, { size: 'hero' });
   openModal(r.name, body, { wide: true });
 }
 
@@ -74,7 +81,7 @@ export async function render(ctx, root) {
     rows.slice(0, st.shown).forEach((r) => {
       const star = el('button', { class: 'fav', type: 'button', 'aria-label': fv.has(r.id) ? `Quitar ${r.name} de favoritas` : `Marcar ${r.name} como favorita`, 'aria-pressed': String(fv.has(r.id)), text: fv.has(r.id) ? '★' : '☆' });
       star.addEventListener('click', () => { const s = favs(); if (s.has(r.id)) s.delete(r.id); else s.add(r.id); saveFavs(s); if (st.fav) draw(); else { const on = s.has(r.id); star.textContent = on ? '★' : '☆'; star.setAttribute('aria-pressed', String(on)); } });
-      ul.append(el('li', { class: 'list-item' }, el('button', { class: 'pick nb', type: 'button', on: { click: () => openRecipe(ctx, rd, r) } }, recipePhoto(r, { size: 'thumb' }), el('span', { class: 'grow' }, el('strong', { text: r.name }),
+      ul.append(el('li', { class: 'list-item' }, pickBtn(r, ctx, rd, el('span', { class: 'grow' }, el('strong', { text: r.name }),
         el('span', { class: 'muted small block', text: `${r.time_min} min · ${fmtNum(r.per_serving.kcal)} kcal · P ${fmtNum(r.per_serving.p, 1)} g` }))), star));
     });
     if (!rows.length) ul.append(el('li', { class: 'muted pad', text: 'Sin resultados.' }));
