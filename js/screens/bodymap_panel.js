@@ -10,15 +10,22 @@ export async function render(ctx, root) {
   const byId = Object.fromEntries(status.map((s) => [s.id, s]));
   root.append(el('h2', { text: 'Semana actual (lun–dom)' }), el('p', { class: 'muted small', text: 'Series efectivas de esta semana contra tu objetivo semanal.' }));
 
+  const VKEY = 'gt_mapview';
+  let view = 'front';
+  try { const v = localStorage.getItem(VKEY); if (v === 'front' || v === 'back') view = v; } catch { /* sin almacenamiento */ }
   let selected = null;
   const detail = el('section', { class: 'card', 'aria-live': 'polite' });
   const maps = {};
-  const pair = el('div', { class: 'map-pair' });
-  [['front', 'Frente'], ['back', 'Espalda']].forEach(([v, label]) => {
-    maps[v] = buildBodyMap(v, ctx.data.muscleById, { onSelect: select, statusOf: (s) => STATUS_LABEL[s] }); maps[v].paint(byId);
-    pair.append(el('figure', { class: 'map-fig' }, maps[v].root, el('figcaption', { text: label })));
-  });
-  const mapHost = el('div', { class: 'map-host' }, pair);
+  const mapHost = el('div', { class: 'map-host' });
+  const toggle = el('div', { class: 'seg', role: 'group', 'aria-label': 'Vista del cuerpo' });
+  const mkMap = (v) => { maps[v] = buildBodyMap(v, ctx.data.muscleById, { onSelect: select, statusOf: (s) => STATUS_LABEL[s] }); maps[v].paint(byId); return maps[v]; };
+  function setView(v) {
+    view = v; try { localStorage.setItem(VKEY, v); } catch { /* sin almacenamiento */ }
+    clear(mapHost); mapHost.append(el('div', { class: 'map-single' }, (maps[v] || mkMap(v)).root));
+    [...toggle.children].forEach((b) => { const on = b.dataset.view === v; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
+    maps[v].select(selected);
+  }
+  [['front', 'Frente'], ['back', 'Espalda']].forEach(([v, label]) => toggle.append(el('button', { class: 'seg-btn', type: 'button', dataset: { view: v }, on: { click: () => setView(v) } }, label)));
   function select(id) {
     selected = id; Object.values(maps).forEach((m) => m.select(id)); showDetail();
   }
@@ -34,14 +41,14 @@ export async function render(ctx, root) {
       : el('p', { class: 'muted', text: 'Sin series esta semana.' }));
   }
 
-  root.append(el('div', { class: 'card' }, mapHost,
+  root.append(toggle, el('div', { class: 'card' }, mapHost,
     el('ul', { class: 'legend' }, ['green', 'yellow', 'red', 'gray'].map((k) => el('li', {}, el('span', { class: `dot st-${k}` }), `${STATUS_LABEL[k]}${{ green: ' (≥100 %)', yellow: ' (50–99 %)', red: ' (<50 %)', gray: '' }[k]}`)))));
-  showDetail();
+  setView(view); showDetail();
   root.append(detail);
 
   // Lista accesible de todos los músculos
   root.append(el('section', { class: 'card' }, el('h2', { text: 'Todos los músculos' }), el('ul', { class: 'list' }, status.map((s) =>
-    el('li', {}, el('button', { class: 'pick', type: 'button', on: { click: () => { select(s.id); detail.scrollIntoView({ block: 'nearest' }); } } },
+    el('li', {}, el('button', { class: 'pick', type: 'button', on: { click: () => { const mv = ctx.data.muscleById[s.id]?.view; if ((mv === 'front' || mv === 'back') && mv !== view) setView(mv); select(s.id); mapHost.scrollIntoView({ block: 'nearest' }); } } },
       el('span', { class: `dot st-${s.status}`, 'aria-hidden': 'true' }), el('span', { class: 'grow', text: s.name }),
       el('span', { class: 'muted small', text: `${fmtNum(s.sets, 1)}/${s.target} · ${STATUS_LABEL[s.status]}` })))))));
 }
