@@ -238,3 +238,4 @@ body.scroll-lock { position: fixed; left: 0; right: 0; width: 100%; overflow: hi
 /* Resumen */
 .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 8px 0; } .kpi { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 6px; text-align: center; } .kpi strong { display: block; font-size: 1.3rem; } .kpi span { font-size: .8rem; color: var(--muted); }
 .rest-spacer { height: 150px; }
+.dot.st-gray { background: var(--muscle-none); }
