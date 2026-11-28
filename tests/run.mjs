@@ -597,3 +597,19 @@ test('fotos de recetas: licencias y elección del resultado', async () => {
   assert.equal(rp.pickPhoto({ query: { pages: { 1: { index: 1, imageinfo: [{ mime: 'image/jpeg', thumburl: 'https://evil.example/a.jpg', extmetadata: { LicenseShortName: { value: 'CC0' } } }] } } } }), null);
   assert.match(rp.searchUrl('pozole rojo'), /origin=%2A|origin=\*/); assert.match(rp.searchUrl('pozole rojo'), /gsrsearch=pozole\+rojo\+filetype%3Abitmap/);
 });
+
+test('complementos: grupos, orden y chips rápidos', () => {
+  const mk = (id, order, extra = {}) => ({ id, name: id, kcal: 100, p: 3, c: 20, f: 1, fiber: 1, unit: { name: 'pieza', g: 30 }, complement: true, complement_order: order, ...extra });
+  const foods = [mk('arroz_blanco_cocido', 25), mk('bolillo', 9), mk('tortilla_maiz', 0), mk('galletas_saladas', 20), mk('tamal_masa', 24), mk('tortilla_harina', 3), mk('telera', 12), { id: 'pollo', name: 'Pollo', kcal: 1, p: 1, c: 0, f: 0 }];
+  const g = nut.groupComplements(foods);
+  assert.deepEqual(g.map((x) => x.group), ['Tortillas', 'Panes', 'Galletas y tostadas', 'Masa', 'Arroz, frijoles y más']);
+  assert.deepEqual(g[0].items.map((f) => f.id), ['tortilla_maiz', 'tortilla_harina']); assert.deepEqual(g[1].items.map((f) => f.id), ['bolillo', 'telera']);
+  assert.ok(!g.flatMap((x) => x.items).some((f) => f.id === 'pollo'));
+  const log = (id, n = 1) => Array.from({ length: n }, () => ({ source: 'food', ref_id: id }));
+  assert.deepEqual(nut.topComplements([], foods).map((f) => f.id), ['tortilla_maiz', 'tortilla_harina', 'bolillo']); // predeterminados
+  assert.deepEqual(nut.topComplements([...log('telera', 5), ...log('bolillo', 2), ...log('pollo', 9), { source: 'recipe', ref_id: 'telera' }], foods).map((f) => f.id), ['telera', 'bolillo', 'tortilla_maiz']);
+  assert.deepEqual(nut.topComplements([...log('telera', 1), ...log('bolillo', 1)], foods, 2).map((f) => f.id), ['bolillo', 'telera']); // empate: por complement_order
+  const e = nut.complementEntry(foods[2], 2.5, { id: 'x', logged_on: '2026-01-01', meal_slot: 1 });
+  assert.equal(e.grams, 75); assert.equal(e.kcal, 75); assert.equal(e.source, 'food');
+  assert.equal(nut.chipLabel({ name: 'Bolillo (pan blanco)' }), '+1 bolillo');
+});

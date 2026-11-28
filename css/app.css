@@ -239,3 +239,13 @@ body.scroll-lock { position: fixed; left: 0; right: 0; width: 100%; overflow: hi
 .rphoto.thumb { width: 64px; height: 64px; } .rphoto.hero { width: 100%; aspect-ratio: 16 / 9; border-radius: 14px; margin-bottom: 4px; }
 .rphoto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .rphoto-cap { margin: 0 0 10px; } .rphoto-cap a { color: var(--muted); }
+
+/* Complementos */
+.comp-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.comp-act { display: flex; align-items: center; gap: 8px; }
+.qty { display: inline-flex; align-items: center; gap: 4px; } .qty-val { min-width: 36px; text-align: center; font-weight: 700; font-variant-numeric: tabular-nums; }
+.qty .step-btn { width: 44px; height: 44px; font-size: 1.3rem; }
+.chips.quick { padding: 8px 0 4px; flex-wrap: wrap; overflow: visible; }
+.accomp-row { padding: 4px 0; }
+.comp-row > .grow { flex: 1 1 100%; } .comp-act { width: 100%; justify-content: space-between; }
+.sheet .seg { gap: 2px; } .sheet .seg-btn { font-size: .85rem; padding: 0 4px; }

@@ -5,7 +5,7 @@ const SHELL = ['./', 'index.html', 'css/app.css', 'manifest.webmanifest', 'icons
   'js/main.js', 'js/config.js', 'js/calc.js', 'js/search.js', 'js/grading.js', 'js/recommend.js', 'js/ui.js', 'js/data.js', 'js/api.js', 'js/supabase.js',
   'js/auth.js', 'js/demo.js', 'js/stats.js', 'js/charts.js', 'js/bodymap.js', 'js/technique.js',
   'js/overload.js', 'js/plan-generator.js', 'js/weight.js', 'js/profile.js', 'js/planctl.js', 'js/screens/onboarding.js', 'js/tips.js', 'js/screens/track.js', 'js/screens/summary.js', 'js/screens/bodymap_panel.js', 'js/screens/charts_panel.js', 'js/screens/biblioteca.js', 'js/screens/cuenta.js', 'js/screens/grade.js',
-  'js/units.js', 'js/authlink.js', 'js/nutrition.js', 'js/screens/powders.js', 'js/recipe-photos.js', 'js/screens/picker.js', 'js/screens/intro.js', 'js/session.js', 'js/screens/comida.js', 'js/screens/recetas.js', 'js/screens/logentry.js',
+  'js/units.js', 'js/authlink.js', 'js/nutrition.js', 'js/screens/powders.js', 'js/screens/complements.js', 'js/recipe-photos.js', 'js/screens/picker.js', 'js/screens/intro.js', 'js/session.js', 'js/screens/comida.js', 'js/screens/recetas.js', 'js/screens/logentry.js',
   'data/muscles.json', 'data/exercises.json', 'data/plan.json', 'data/foods.json', 'data/recipes.json', 'data/recipe_categories.json', 'data/protein_powders.json'];
 const CDN_ALLOW = [
   'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js',

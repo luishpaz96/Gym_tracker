@@ -8,9 +8,11 @@ import { addDays } from '../calc.js';
 import { mealPlanOf, splitMeals, dayTotals, mealEntries, sumEntries, MEAL_DEFAULTS, clampMeals } from '../nutrition.js';
 import { newId } from '../api.js';
 import { openLogEntry, openEditEntry } from './logentry.js';
+import { renderComplementRows, quickChips } from './complements.js';
 import { GOAL_LABEL } from '../plan-generator.js';
 
 const st = { date: null, tab: 'dia' };
+let foodsList = [];
 const dayLabel = (d) => new Date(d + 'T00:00:00Z').toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' });
 
 function bar(label, value, target, unit) {
@@ -24,6 +26,7 @@ export async function render(ctx, root) {
   st.date ||= today();
   const targets = targetsOf(ctx);
   let favP = await favoritePowder(ctx);
+  foodsList = (await loadFoods()).foods;
   root.append(pageHead('Alimentación', 'Tus metas del día y lo que has comido, comida por comida.'));
   const tabs = el('div', { class: 'seg', role: 'group', 'aria-label': 'Sección' });
   const host = el('div');
@@ -71,6 +74,10 @@ function dia(ctx, host, targets, redraw, favP) {
       el('button', { class: 'btn small', type: 'button', 'aria-label': `Editar ${e.label}`, on: { click: () => openEditEntry(ctx, e, redraw) } }, 'Editar'),
       el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Quitar ${e.label}`, on: { click: async () => { try { await ctx.api.deleteFoodLog(e.id); await ctx.refreshFood(); redraw(); } catch { toast('No se pudo quitar', 'bad'); } } } }, icon('borrar')))))); 
     const prev = mealEntries(logs, addDays(date, -1), m.slot);
+    const chipRow = quickChips(ctx, foodsList, { date, slot: m.slot, onSaved: redraw,
+      onMore: () => openPicker(ctx, { date, slot: m.slot, onSaved: redraw, initialTab: 'complementos' }),
+      onHold: (f) => openLogEntry(ctx, { kind: 'food', item: f, date, slot: m.slot, onSaved: redraw }) });
+    if (chipRow) card.append(chipRow);
     card.append(el('div', { class: 'row gap' },
       el('button', { class: 'btn small grow primary', type: 'button', on: { click: () => openPicker(ctx, { date, slot: m.slot, onSaved: redraw }) } }, '+ Agregar'),
       favP ? el('button', { class: 'btn small', type: 'button', 'aria-label': `Agregar 1 scoop de ${powderTitle(favP)} a ${m.name}`, on: { click: () => quickAddScoop(ctx, favP, date, m.slot, redraw) } }, '+1 scoop') : null,
@@ -103,14 +110,14 @@ export async function openPicker(ctx, { date, slot, onSaved, initialTab = 'alime
   const search = el('input', { class: 'input', type: 'search', placeholder: 'Buscar…', 'aria-label': 'Buscar', maxlength: 60, autocomplete: 'off' });
   const list = el('ul', { class: 'list' });
   const seg = el('div', { class: 'seg', role: 'group', 'aria-label': 'Origen' });
-  const tabs = [['alimentos', 'Alimentos'], ['recetas', 'Recetas'], ['proteinas', 'Proteínas']];
+  const tabs = [['alimentos', 'Alimentos'], ['recetas', 'Recetas'], ['complementos', 'Complementos'], ['proteinas', 'Proteínas']];
   tabs.forEach(([id, label]) => seg.append(el('button', { class: 'seg-btn', type: 'button', on: { click: () => { tab = id; fill(); } } }, label)));
   const match = (name, kws, q) => { if (!q) return true; const h = normalize(`${name} ${(kws || []).join(' ')}`); return q.split(' ').every((t) => h.includes(t)); };
   function fill() {
     [...seg.children].forEach((b, i) => { const on = tabs[i][0] === tab; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
     clear(list);
     const q = normalize(query);
-    if (!q && recents.length) {
+    if (!q && recents.length && tab !== 'complementos') {
       list.append(el('h3', { class: 'sub', text: 'Recientes' }));
       recents.forEach(({ kind, item }) => {
         const go = kind === 'recipe' ? () => openLogEntry(ctx, { kind: 'recipe', item, date, slot, onSaved: (e) => { box.close(); onSaved?.(e); } })
@@ -121,6 +128,7 @@ export async function openPicker(ctx, { date, slot, onSaved, initialTab = 'alime
       list.append(el('h3', { class: 'sub', text: 'Todo el catálogo' }));
     }
     let rows;
+    if (tab === 'complementos') { renderComplementRows(ctx, list, foods, { query, date, slot, onSaved }); return; }
     if (tab === 'recetas') rows = rd.recipes.filter((r) => match(r.name, r.tags, q)).slice(0, 40).map((r) => ({ t: r.name, s: `${r.per_serving.kcal} kcal · P ${r.per_serving.p} g por porción`, go: () => openLogEntry(ctx, { kind: 'recipe', item: r, date, slot, onSaved: (e) => { box.close(); onSaved?.(e); } }) }));
     else {
       const src = tab === 'proteinas' ? foods.filter((f) => f.protein_pick).sort((a, b) => b.p - a.p) : foods;

@@ -139,3 +139,34 @@ export function nutritionTips({ logs, targets, today, goal, weightPct = null }) 
   if (!tips.length) tips.push({ kind: 'food', text: `Buen trabajo: tu ingesta de la semana está dentro de tu meta (${targets.kcal} kcal, ${targets.p} g de proteína).` });
   return tips.slice(0, 2);
 }
+
+// ---- Complementos (tortillas, panes, arroz…) ----
+export const COMPLEMENT_GROUPS = ['Tortillas', 'Panes', 'Galletas y tostadas', 'Masa', 'Arroz, frijoles y más'];
+export function complementGroup(food) {
+  const id = String(food.id || '');
+  if (/^tortilla/.test(id)) return COMPLEMENT_GROUPS[0];
+  if (/^(bolillo|birote|telera|pan_|baguette)/.test(id)) return COMPLEMENT_GROUPS[1];
+  if (/^(tostada|totopos|salmas|galletas)/.test(id)) return COMPLEMENT_GROUPS[2];
+  if (/^(gordita|sope|tamal)/.test(id)) return COMPLEMENT_GROUPS[3];
+  return COMPLEMENT_GROUPS[4];
+}
+export const complementsOf = (foods) => (foods || []).filter((f) => f.complement).sort((a, b) => (a.complement_order ?? 999) - (b.complement_order ?? 999));
+// [{group, items}] en el orden de COMPLEMENT_GROUPS; dentro de cada grupo, por complement_order
+export function groupComplements(foods) {
+  const list = complementsOf(foods);
+  return COMPLEMENT_GROUPS.map((group) => ({ group, items: list.filter((f) => complementGroup(f) === group) })).filter((g) => g.items.length);
+}
+export const COMPLEMENT_DEFAULTS = ['tortilla_maiz', 'tortilla_harina', 'bolillo'];
+// Los n complementos más usados en los registros; si faltan, se completa con los predeterminados.
+export function topComplements(logs, foods, n = 3, defaults = COMPLEMENT_DEFAULTS) {
+  const byId = Object.fromEntries(complementsOf(foods).map((f) => [f.id, f]));
+  const count = {};
+  for (const e of logs || []) if (e.source === 'food' && byId[e.ref_id]) count[e.ref_id] = (count[e.ref_id] || 0) + 1;
+  const ranked = Object.keys(count).sort((a, b) => count[b] - count[a] || (byId[a].complement_order ?? 999) - (byId[b].complement_order ?? 999));
+  const ids = [...ranked];
+  for (const d of defaults) if (ids.length < n && byId[d] && !ids.includes(d)) ids.push(d);
+  return ids.slice(0, n).map((id) => byId[id]);
+}
+export const complementEntry = (food, pieces, base) => entryFromFood(food, round((food.unit?.g || 100) * pieces, 1), base);
+export const complementMacros = (food, pieces) => macrosForFood(food, round((food.unit?.g || 100) * pieces, 1));
+export const chipLabel = (food, pieces = 1) => `+${pieces} ${food.name.replace(/\s*\(.*?\)\s*/g, ' ').trim().toLowerCase()}`;
