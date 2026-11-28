@@ -583,3 +583,17 @@ test('buscador: sin espacios encuentra nombres con espacio (facepull)', async ()
   assert.equal(searchExercises(list, { query: 'face pull' })[0]?.id, 'facepull');
   assert.equal(searchExercises(list, { query: 'facepull' }).length, 1);
 });
+
+test('fotos de recetas: licencias y elección del resultado', async () => {
+  const rp = await import('../js/recipe-photos.js');
+  for (const ok of ['CC0', 'Public domain', 'CC BY 4.0', 'CC BY-SA 3.0', 'CC BY-SA 2.0 DE', 'CC-BY-SA-4.0', 'PD']) assert.ok(rp.licenseOk(ok), ok);
+  for (const bad of ['CC BY-NC 4.0', 'CC BY-ND 2.0', 'CC BY-NC-SA 3.0', 'Copyrighted free use', 'All rights reserved', '', undefined]) assert.ok(!rp.licenseOk(bad), String(bad));
+  const page = (index, mime, lic, extra = {}) => ({ index, imageinfo: [{ mime, thumburl: `https://upload.wikimedia.org/x${index}.jpg`, descriptionshorturl: `https://commons.wikimedia.org/w/index.php?curid=${index}`, extmetadata: { LicenseShortName: { value: lic }, Artist: { value: '<a href="//x">Ana <b>Pérez</b></a>' } }, ...extra }] });
+  const json = { query: { pages: { 11: page(3, 'image/jpeg', 'CC BY 4.0'), 12: page(1, 'image/svg+xml', 'CC0'), 13: page(2, 'image/png', 'CC BY-NC 2.0'), 14: page(4, 'image/webp', 'CC0') } } };
+  const r = rp.pickPhoto(json); // índice 1 es svg, 2 es NC: gana el 3
+  assert.equal(r.thumb, 'https://upload.wikimedia.org/x3.jpg'); assert.equal(r.author, 'Ana Pérez'); assert.equal(r.license, 'CC BY 4.0'); assert.match(r.page, /commons\.wikimedia\.org/);
+  assert.equal(rp.pickPhoto({ query: { pages: { 1: page(1, 'image/jpeg', 'CC BY-NC 4.0') } } }), null);
+  assert.equal(rp.pickPhoto({}), null);
+  assert.equal(rp.pickPhoto({ query: { pages: { 1: { index: 1, imageinfo: [{ mime: 'image/jpeg', thumburl: 'https://evil.example/a.jpg', extmetadata: { LicenseShortName: { value: 'CC0' } } }] } } } }), null);
+  assert.match(rp.searchUrl('pozole rojo'), /origin=%2A|origin=\*/); assert.match(rp.searchUrl('pozole rojo'), /gsrsearch=pozole\+rojo\+filetype%3Abitmap/);
+});

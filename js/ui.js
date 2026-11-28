@@ -92,7 +92,7 @@ function dropLayer(layer) { // cierre por código: quita la entrada de historial
   if (i < 0) return;
   layers.splice(i, 1); pending++; history.back();
 }
-window.addEventListener('popstate', () => {
+if (typeof window !== 'undefined') window.addEventListener('popstate', () => {
   if (pending) { pending--; if (!pending) queue.splice(0).forEach((f) => f()); return; }
   const top = layers.pop(); if (top) top.close(true); // Atrás (o deslizar en iOS) cierra la capa superior
 });
