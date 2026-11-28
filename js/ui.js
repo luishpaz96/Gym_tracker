@@ -71,6 +71,32 @@ export function icon(name) {
     svg('path', { d: ICONS[name] || '' }));
 }
 
+// ---- Capas (modales/hojas): bloqueo de scroll del fondo y botón Atrás del navegador ----
+let locks = 0, savedY = 0;
+function lockScroll() {
+  if (locks++ === 0) { savedY = window.scrollY; document.body.classList.add('scroll-lock'); document.body.style.top = `-${savedY}px`; }
+}
+function unlockScroll() {
+  if (--locks === 0) { document.body.classList.remove('scroll-lock'); document.body.style.top = ''; window.scrollTo(0, savedY); }
+}
+const layers = [], queue = []; let pending = 0;
+function pushLayer(close) {
+  const layer = { close, dead: false };
+  const go = () => { if (layer.dead) return; try { history.pushState({ gtLayer: true }, ''); layers.push(layer); } catch { /* sin historial */ } };
+  if (pending) queue.push(go); else go();
+  return layer;
+}
+function dropLayer(layer) { // cierre por código: quita la entrada de historial que se agregó al abrir
+  layer.dead = true;
+  const i = layers.indexOf(layer);
+  if (i < 0) return;
+  layers.splice(i, 1); pending++; history.back();
+}
+window.addEventListener('popstate', () => {
+  if (pending) { pending--; if (!pending) queue.splice(0).forEach((f) => f()); return; }
+  const top = layers.pop(); if (top) top.close(true); // Atrás (o deslizar en iOS) cierra la capa superior
+});
+
 // ---- Toast ----
 let toastTimer;
 export function toast(msg, kind = 'info') {
@@ -86,7 +112,13 @@ export function toast(msg, kind = 'info') {
 export function openModal(title, bodyNode, { wide = false } = {}) {
   const prev = document.activeElement;
   const root = $('#modal-root');
-  const close = () => { clear(root); document.removeEventListener('keydown', onKey); if (prev?.focus) prev.focus(); modal.dispatchEvent(new Event('closed')); };
+  let closed = false, layer = null;
+  const close = (fromPop) => {
+    if (closed) return; closed = true;
+    clear(root); document.removeEventListener('keydown', onKey); unlockScroll();
+    if (fromPop !== true && layer) dropLayer(layer);
+    if (prev?.focus) prev.focus(); modal.dispatchEvent(new Event('closed'));
+  };
   const onKey = (e) => {
     if (e.key === 'Escape') close();
     if (e.key === 'Tab') {
@@ -97,14 +129,15 @@ export function openModal(title, bodyNode, { wide = false } = {}) {
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     }
   };
-  const closeBtn = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Cerrar', on: { click: close } }, icon('cerrar'));
+  const closeBtn = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Cerrar', on: { click: () => close() } }, icon('cerrar'));
   const modal = el('div', { class: `modal${wide ? ' wide' : ''}`, role: 'dialog', 'aria-modal': 'true', 'aria-label': title },
     el('div', { class: 'modal-head' }, el('h2', { text: title }), closeBtn), el('div', { class: 'modal-body' }, bodyNode));
   const backdrop = el('div', { class: 'backdrop', on: { click: (e) => { if (e.target === backdrop) close(); } } }, modal);
   clear(root).append(backdrop);
+  lockScroll(); layer = pushLayer(close);
   document.addEventListener('keydown', onKey);
   closeBtn.focus();
-  return { close, modal };
+  return { close: () => close(), modal };
 }
 
 // Hoja a pantalla completa (selectores). Devuelve { close, body, root }. Esc o ✕ cierran.
@@ -112,15 +145,15 @@ export function openSheet(title, { onClose } = {}) {
   const prev = document.activeElement;
   const host = el('div', { class: 'sheet-root' });
   const body = el('div', { class: 'sheet-body' });
-  let closed = false;
-  const close = () => { if (closed) return; closed = true; document.removeEventListener('keydown', onKey); host.remove(); document.body.classList.remove('sheet-open'); if (prev?.focus) prev.focus(); onClose?.(); };
+  let closed = false, layer = null;
+  const close = (fromPop) => { if (closed) return; closed = true; document.removeEventListener('keydown', onKey); host.remove(); unlockScroll(); if (fromPop !== true && layer) dropLayer(layer); if (prev?.focus) prev.focus(); onClose?.(); };
   const onKey = (e) => { if (e.key === 'Escape' && !$('#modal-root').firstChild) close(); };
-  const closeBtn = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Cerrar', on: { click: close } }, icon('cerrar'));
+  const closeBtn = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Cerrar', on: { click: () => close() } }, icon('cerrar'));
   host.append(el('div', { class: 'sheet', role: 'dialog', 'aria-modal': 'true', 'aria-label': title },
     el('div', { class: 'sheet-head' }, closeBtn, el('h2', { text: title })), body));
-  document.body.append(host); document.body.classList.add('sheet-open');
+  document.body.append(host); lockScroll(); layer = pushLayer(close);
   document.addEventListener('keydown', onKey);
-  return { close, body, root: host };
+  return { close: () => close(), body, root: host };
 }
 
 // Encabezado de pantalla: título + una línea que explica para qué sirve

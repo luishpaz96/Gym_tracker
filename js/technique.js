@@ -58,5 +58,6 @@ export async function openTechnique(exerciseId) {
     ex.alt ? el('p', {}, el('strong', { text: 'Alternativa: ' }), ex.alt) : null,
     t.fitwillUrl ? el('a', { class: 'btn primary block', href: t.fitwillUrl, target: '_blank', rel: 'noopener noreferrer' }, 'Ver video en Fitwill') : null,
     el('p', { class: 'muted tiny' }, 'Animación: free-exercise-db (dominio público).'));
-  openModal(ex.name, body);
+  const m = openModal(ex.name, body);
+  body.append(el('button', { class: 'btn block', type: 'button', on: { click: () => m.close() } }, 'Cerrar'));
 }
