@@ -61,7 +61,8 @@
    "meal prep",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken rice bowl"
  },
  {
   "id": "bow_arroz_blanco_carnitas_elote",
@@ -120,7 +121,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "carnitas bowl"
  },
  {
   "id": "bow_arroz_int_arrachera_pimiento",
@@ -186,7 +188,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "arrachera bowl"
  },
  {
   "id": "bow_quinoa_pollo_rostizado_salsa_verde",
@@ -245,7 +248,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken quinoa bowl"
  },
  {
   "id": "bow_arroz_int_camaron_ajillo",
@@ -313,7 +317,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "shrimp rice bowl"
  },
  {
   "id": "bow_arroz_int_tinga_aguacate",
@@ -372,7 +377,8 @@
    "meal prep",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "tinga bowl"
  },
  {
   "id": "bow_frijol_chorizo_papa_cilantro",
@@ -426,7 +432,8 @@
    "económica",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chorizo bean bowl"
  },
  {
   "id": "bow_lentejas_chile_ancho_nopal",
@@ -485,7 +492,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "lentil bowl"
  },
  {
   "id": "bow_quinoa_rajas_elote_queso",
@@ -540,7 +548,8 @@
   "tags": [
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "quinoa bowl corn"
  },
  {
   "id": "bow_arroz_int_atun_mango_serrano",
@@ -599,7 +608,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "tuna mango rice bowl"
  },
  {
   "id": "bow_arroz_int_huevo_mexicana_refrito",
@@ -658,7 +668,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "huevos a la mexicana"
  },
  {
   "id": "bow_arroz_blanco_bistec_cebolla",
@@ -711,7 +722,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "steak rice bowl"
  },
  {
   "id": "bow_quinoa_tofu_pastor_pina",
@@ -774,7 +786,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tofu pastor bowl"
  },
  {
   "id": "bow_arroz_int_tempeh_guajillo_calabacita",
@@ -838,7 +851,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tempeh bowl"
  },
  {
   "id": "bow_tostadas_frijol_pollo_lechuga",
@@ -896,7 +910,8 @@
    "alta en proteína",
    "rápida",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "chicken tostada bowl"
  },
  {
   "id": "bow_papa_chorizo_huevo_salsa_roja",
@@ -949,7 +964,8 @@
   "tags": [
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chorizo potato bowl"
  },
  {
   "id": "bow_garbanzo_pollo_mole",
@@ -1002,7 +1018,8 @@
    "meal prep",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "mole poblano chicken"
  },
  {
   "id": "bow_arroz_int_lomo_adobo_guajillo",
@@ -1070,7 +1087,8 @@
    "meal prep",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "pork rice bowl"
  },
  {
   "id": "bow_camote_frijol_aguacate_chipotle",
@@ -1133,7 +1151,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "sweet potato bowl"
  },
  {
   "id": "bow_elote_pollo_tomate_verde_chipotle",
@@ -1194,7 +1213,8 @@
   "tags": [
    "alta en proteína",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "corn chicken bowl"
  },
  {
   "id": "bow_quinoa_salmon_arbol_mango",
@@ -1256,7 +1276,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "salmon quinoa bowl"
  },
  {
   "id": "bow_arroz_int_tilapia_veracruzana",
@@ -1319,7 +1340,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "tilapia veracruzana"
  },
  {
   "id": "bow_frijol_bayo_cerdo_cebolla_morada",
@@ -1372,7 +1394,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "pork bean bowl"
  },
  {
   "id": "bow_arroz_nopal_huevo_salsa_asada",
@@ -1425,7 +1448,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "nopal egg rice bowl"
  },
  {
   "id": "bow_lentejas_pollo_ajo_cilantro",
@@ -1489,7 +1513,8 @@
    "meal prep",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken lentil bowl"
  },
  {
   "id": "bow_poke_salmon_arroz_pepino_aguacate",
@@ -1548,7 +1573,8 @@
    "alta en proteína",
    "rápida",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "salmon poke bowl"
  },
  {
   "id": "bow_poke_atun_mango_pepino",
@@ -1607,7 +1633,8 @@
    "alta en proteína",
    "rápida",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "tuna poke bowl"
  },
  {
   "id": "bow_poke_camaron_edamame_jengibre",
@@ -1664,7 +1691,8 @@
    "alta en proteína",
    "rápida",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "shrimp poke bowl"
  },
  {
   "id": "bow_poke_tofu_ajonjoli_edamame",
@@ -1728,7 +1756,8 @@
    "rápida",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tofu poke bowl"
  },
  {
   "id": "bow_ramen_pollo_huevo_espinaca",
@@ -1790,7 +1819,8 @@
   "tags": [
    "alta en proteína",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken ramen bowl"
  },
  {
   "id": "bow_ramen_tofu_champinon_miso",
@@ -1847,7 +1877,8 @@
   "tags": [
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tofu ramen bowl"
  },
  {
   "id": "bow_ramen_cerdo_huevo_col",
@@ -1919,7 +1950,8 @@
   "tags": [
    "alta en proteína",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "pork ramen bowl"
  },
  {
   "id": "bow_arroz_int_pollo_teriyaki_brocoli",
@@ -1982,7 +2014,8 @@
    "alta en proteína",
    "meal prep",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "teriyaki chicken bowl"
  },
  {
   "id": "bow_quinoa_res_jengibre_zanahoria",
@@ -2044,7 +2077,8 @@
   "tags": [
    "alta en proteína",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "ginger beef bowl"
  },
  {
   "id": "bow_arroz_int_atun_sesamo_pepino",
@@ -2106,7 +2140,8 @@
    "alta en proteína",
    "rápida",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "sesame tuna bowl"
  },
  {
   "id": "bow_arroz_int_tofu_teriyaki_esparrago",
@@ -2169,7 +2204,8 @@
    "alta en proteína",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "teriyaki tofu bowl"
  },
  {
   "id": "bow_arroz_blanco_salmon_teriyaki_edamame",
@@ -2227,7 +2263,8 @@
   "tags": [
    "alta en proteína",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "teriyaki salmon bowl"
  },
  {
   "id": "bow_cuscus_pollo_limon_pepino",
@@ -2291,7 +2328,8 @@
   "tags": [
    "alta en proteína",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "lemon chicken couscous bowl"
  },
  {
   "id": "bow_buddha_quinoa_garbanzo_camote_tahini",
@@ -2353,7 +2391,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "buddha bowl"
  },
  {
   "id": "bow_buddha_camote_brocoli_tahini",
@@ -2416,7 +2455,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "buddha bowl sweet potato"
  },
  {
   "id": "bow_buddha_lentejas_col_zanahoria_limon",
@@ -2481,7 +2521,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "buddha bowl lentils"
  },
  {
   "id": "bow_buddha_tempeh_kale_betabel_ajonjoli",
@@ -2538,7 +2579,8 @@
    "alta en proteína",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "buddha bowl tempeh"
  },
  {
   "id": "bow_buddha_garbanzo_hummus_espinaca_pepino",
@@ -2595,7 +2637,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "buddha bowl hummus"
  },
  {
   "id": "bow_quinoa_coliflor_asada_tahini_granada",
@@ -2657,7 +2700,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "roasted cauliflower bowl"
  },
  {
   "id": "bow_quinoa_edamame_zanahoria_jengibre",
@@ -2716,7 +2760,8 @@
    "rápida",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "quinoa edamame bowl"
  },
  {
   "id": "bow_soya_texturizada_pastor_pina",
@@ -2778,7 +2823,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "soy pastor bowl"
  },
  {
   "id": "bow_seitan_brocoli_arroz_integral",
@@ -2837,7 +2883,8 @@
    "rápida",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "seitan bowl"
  },
  {
   "id": "bow_tofu_jengibre_zanahoria_integral",
@@ -2900,7 +2947,8 @@
    "alta en proteína",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tofu ginger bowl"
  },
  {
   "id": "bow_fideo_pollo_ajonjoli_pepino",
@@ -2963,7 +3011,8 @@
   "tags": [
    "alta en proteína",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken noodle bowl sesame"
  },
  {
   "id": "bow_frijol_negro_kale_platano_macho",
@@ -3017,7 +3066,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "black bean plantain bowl"
  },
  {
   "id": "bow_yogur_griego_granola_fresa_platano",
@@ -3061,7 +3111,8 @@
    "meal prep",
    "rápida",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "greek yogurt bowl granola"
  },
  {
   "id": "bow_yogur_natural_avena_mango_chia",
@@ -3105,7 +3156,8 @@
   "tags": [
    "rápida",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "mango yogurt bowl"
  },
  {
   "id": "bow_smoothie_platano_fresa_almendra",
@@ -3150,7 +3202,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "smoothie bowl"
  },
  {
   "id": "bow_smoothie_verde_espinaca_pina_whey",
@@ -3199,7 +3252,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "green smoothie bowl"
  },
  {
   "id": "bow_yogur_griego_mango_chia_pistache",
@@ -3244,7 +3298,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "yogurt bowl mango pistachio"
  },
  {
   "id": "bow_kefir_zarzamora_platano_nuez",
@@ -3287,7 +3342,8 @@
   "tags": [
    "rápida",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "kefir bowl"
  },
  {
   "id": "bow_smoothie_cacao_platano_avena",
@@ -3337,7 +3393,8 @@
    "rápida",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "chocolate smoothie bowl"
  },
  {
   "id": "bow_papaya_yogur_granola_coco",
@@ -3375,7 +3432,8 @@
   "tags": [
    "rápida",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "papaya yogurt bowl"
  },
  {
   "id": "bow_sandia_melon_fresa_chia",
@@ -3420,7 +3478,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "fruit bowl watermelon"
  },
  {
   "id": "bow_avena_cocida_manzana_canela_cacahuate",
@@ -3465,7 +3524,8 @@
    "rápida",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "oatmeal bowl apple"
  },
  {
   "id": "bow_avena_cajeta_platano_nuez",
@@ -3509,7 +3569,8 @@
   "tags": [
    "rápida",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "oatmeal bowl banana"
  },
  {
   "id": "bow_pina_mango_coco_chia_soya",
@@ -3555,7 +3616,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tropical fruit bowl"
  },
  {
   "id": "bow_kefir_arandano_zarzamora_almendra",
@@ -3600,7 +3662,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "berry kefir bowl"
  },
  {
   "id": "bow_yogur_griego_granada_guayaba_pistache",
@@ -3645,7 +3708,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "pomegranate yogurt bowl"
  },
  {
   "id": "bow_yogur_natural_naranja_kiwi_granola",
@@ -3684,7 +3748,8 @@
   "tags": [
    "rápida",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "kiwi yogurt bowl"
  },
  {
   "id": "bow_quinoa_dulce_fresa_platano_canela",
@@ -3734,7 +3799,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "quinoa breakfast bowl"
  },
  {
   "id": "bow_arroz_int_leche_almendra_mango_canela",
@@ -3785,7 +3851,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "rice pudding mango"
  },
  {
   "id": "bow_cottage_pina_pistache_miel",
@@ -3831,7 +3898,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "cottage cheese bowl"
  },
  {
   "id": "bow_huevo_revuelto_espinaca_aguacate_frijol",
@@ -3890,7 +3958,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "scrambled eggs bowl avocado"
  },
  {
   "id": "bow_papa_huevo_ejote_salsa_verde",
@@ -3955,7 +4024,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "potato egg bowl"
  },
  {
   "id": "bow_camote_huevo_espinaca_aguacate",
@@ -4009,7 +4079,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "sweet potato egg bowl"
  },
  {
   "id": "bow_tofu_suave_mango_granola_miel",
@@ -4049,7 +4120,8 @@
    "rápida",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tofu yogurt bowl"
  },
  {
   "id": "bow_yogur_griego_betabel_pepino_quinoa",
@@ -4103,7 +4175,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "beet quinoa bowl"
  },
  {
   "id": "bow_pollo_cottage_pepino_jitomate",
@@ -4157,7 +4230,8 @@
    "alta en proteína",
    "rápida",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "chicken bowl cucumber tomato"
  },
  {
   "id": "bow_arroz_int_huevo_cocido_aguacate_salsa_verde",
@@ -4217,7 +4291,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "egg avocado rice bowl"
  },
  {
   "id": "bow_arroz_blanco_mojarra_ajo_limon",
@@ -4279,7 +4354,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "fish rice bowl"
  },
  {
   "id": "bow_quinoa_bagre_pimiento_limon",
@@ -4337,7 +4413,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "catfish quinoa bowl"
  },
  {
   "id": "bow_merluza_calabacita_arroz_integral",
@@ -4395,7 +4472,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "fish rice bowl zucchini"
  },
  {
   "id": "bow_trucha_ejote_papa_limon",
@@ -4453,7 +4531,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "trout bowl"
  },
  {
   "id": "bow_sardina_arroz_pepino_jitomate",
@@ -4510,7 +4589,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "sardine rice bowl"
  },
  {
   "id": "bow_caballa_lentejas_cebolla_morada",
@@ -4565,7 +4645,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "mackerel bowl"
  },
  {
   "id": "bow_pulpo_quinoa_papa_pimenton",
@@ -4628,7 +4709,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "octopus quinoa bowl"
  },
  {
   "id": "bow_arroz_blanco_camaron_coctel_aguacate",
@@ -4692,7 +4774,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "shrimp cocktail bowl"
  },
  {
   "id": "bow_arroz_int_salmon_ahumado_aguacate_pepino",
@@ -4750,7 +4833,8 @@
   "tags": [
    "rápida",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "smoked salmon bowl"
  },
  {
   "id": "bow_pollo_rostizado_frijol_bayo_nopal",
@@ -4805,7 +4889,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "rotisserie chicken bowl"
  },
  {
   "id": "bow_pavo_quinoa_espinaca_pepita",
@@ -4857,7 +4942,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "turkey quinoa bowl"
  },
  {
   "id": "bow_elote_garbanzo_pimiento_yogur",
@@ -4915,7 +5001,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "corn chickpea bowl"
  },
  {
   "id": "bow_lentejas_camote_espinaca_feta",
@@ -4972,7 +5059,8 @@
    "económica",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "lentil sweet potato bowl"
  },
  {
   "id": "bow_mediterranea_garbanzo_hummus_pepino",
@@ -5031,7 +5119,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "mediterranean bowl"
  },
  {
   "id": "bow_arroz_int_res_molida_calabacita_poblano",
@@ -5099,7 +5188,8 @@
    "meal prep",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "ground beef rice bowl"
  },
  {
   "id": "bow_quinoa_res_molida_chile_ancho_elote",
@@ -5163,7 +5253,8 @@
    "meal prep",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "beef quinoa bowl"
  },
  {
   "id": "bow_cerdo_jengibre_arroz_int_brocoli",
@@ -5225,7 +5316,8 @@
   "tags": [
    "alta en proteína",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "pork ginger bowl"
  },
  {
   "id": "bow_muslo_pollo_camote_pasilla",
@@ -5282,7 +5374,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken sweet potato bowl"
  },
  {
   "id": "bow_pollo_mango_pepino_arroz_int",
@@ -5344,7 +5437,8 @@
    "alta en proteína",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken mango bowl"
  },
  {
   "id": "bow_sopa_fideo_pollo_espinaca",
@@ -5402,7 +5496,8 @@
    "alta en proteína",
    "económica",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken noodle bowl"
  },
  {
   "id": "bow_arroz_int_chayote_frijol_bayo_panela",
@@ -5464,7 +5559,8 @@
    "alta en proteína",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "bean rice bowl"
  },
  {
   "id": "bow_arroz_int_berenjena_garbanzo_tahini",
@@ -5526,7 +5622,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "eggplant chickpea bowl"
  },
  {
   "id": "bow_quinoa_champinon_espinaca_huevo",
@@ -5584,7 +5681,8 @@
    "sin gluten",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "quinoa bowl mushroom"
  },
  {
   "id": "bow_col_chayote_tofu_arroz_blanco",
@@ -5647,7 +5745,8 @@
    "alta en proteína",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tofu rice bowl"
  },
  {
   "id": "bow_papa_brocoli_lentejas_yogur",
@@ -5706,6 +5805,7 @@
    "meal prep",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "potato broccoli bowl"
  }
 ]

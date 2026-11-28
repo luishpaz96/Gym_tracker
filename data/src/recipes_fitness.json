@@ -58,7 +58,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "pollo al chipotle"
  },
  {
   "id": "fit_pollo_quinoa_pepino_jitomate",
@@ -124,7 +125,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "grilled chicken quinoa"
  },
  {
   "id": "fit_pollo_curry_garbanzo_espinaca",
@@ -190,7 +192,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "chicken chickpea curry"
  },
  {
   "id": "fit_pollo_muslo_camote_ejotes",
@@ -246,7 +249,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "roasted chicken sweet potato"
  },
  {
   "id": "fit_fajitas_pollo_pimiento_tortilla",
@@ -307,7 +311,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "chicken fajitas"
  },
  {
   "id": "fit_pollo_rostizado_col_pepino",
@@ -364,7 +369,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "pollo rostizado"
  },
  {
   "id": "fit_pollo_teriyaki_brocoli_arroz",
@@ -423,7 +429,8 @@
    "alta en proteína",
    "meal prep",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chicken teriyaki broccoli"
  },
  {
   "id": "fit_pollo_dorado_lechuga_aguacate",
@@ -488,7 +495,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "chicken breast salad avocado"
  },
  {
   "id": "fit_pollo_salsa_verde_frijol_tortilla",
@@ -549,7 +557,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "pollo en salsa verde"
  },
  {
   "id": "fit_pollo_limon_lentejas_espinaca",
@@ -615,7 +624,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "lemon chicken lentils"
  },
  {
   "id": "fit_pollo_papas_horno_brocoli",
@@ -676,7 +686,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "baked chicken potatoes broccoli"
  },
  {
   "id": "fit_pollo_mole_arroz_integral",
@@ -730,7 +741,8 @@
    "alta en proteína",
    "meal prep",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "mole poblano"
  },
  {
   "id": "fit_burrito_bowl_pollo_frijol_arroz",
@@ -791,7 +803,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "chicken burrito bowl"
  },
  {
   "id": "fit_pollo_pastor_pina_tortilla",
@@ -850,7 +863,8 @@
    "alta en proteína",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "pollo al pastor"
  },
  {
   "id": "fit_pollo_curry_rojo_calabacita",
@@ -915,7 +929,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "red chicken curry"
  },
  {
   "id": "fit_pollo_brochetas_quinoa_pimiento",
@@ -980,7 +995,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "chicken skewers peppers"
  },
  {
   "id": "fit_guisado_pollo_papa_calabacita",
@@ -1046,7 +1062,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "guisado de pollo"
  },
  {
   "id": "fit_pollo_ajillo_ejotes_arroz_blanco",
@@ -1106,7 +1123,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "pollo al ajillo"
  },
  {
   "id": "fit_pollo_champinones_quinoa_mostaza",
@@ -1166,7 +1184,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "chicken mushroom quinoa"
  },
  {
   "id": "fit_enchiladas_verdes_pollo_calabacita",
@@ -1227,7 +1246,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "enchiladas verdes"
  },
  {
   "id": "fit_pollo_mexicana_frijol_bayo",
@@ -1293,7 +1313,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "pollo a la mexicana"
  },
  {
   "id": "fit_pollo_mango_arroz_integral_pepino",
@@ -1358,7 +1379,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "chicken mango rice bowl"
  },
  {
   "id": "fit_pollo_jengibre_ajonjoli_edamame",
@@ -1419,7 +1441,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "ginger chicken edamame"
  },
  {
   "id": "fit_pollo_ancho_calabacita_guisado",
@@ -1480,7 +1503,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "chile ancho pollo"
  },
  {
   "id": "fit_pollo_lentejas_tahini_espinaca",
@@ -1545,7 +1569,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "chicken lentil salad"
  },
  {
   "id": "fit_pavo_quinoa_esparragos_limon",
@@ -1601,7 +1626,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "turkey breast quinoa"
  },
  {
   "id": "fit_wrap_pavo_aguacate_espinaca",
@@ -1655,7 +1681,8 @@
    "alta en proteína",
    "sin lácteos",
    "rápida"
-  ]
+  ],
+  "photo_q": "turkey avocado wrap"
  },
  {
   "id": "fit_pavo_salteado_arroz_blanco_verduras",
@@ -1715,7 +1742,8 @@
    "meal prep",
    "sin lácteos",
    "rápida"
-  ]
+  ],
+  "photo_q": "turkey stir fry rice"
  },
  {
   "id": "fit_pavo_pipian_verde_calabacita",
@@ -1780,7 +1808,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "pipián verde"
  },
  {
   "id": "fit_pavo_ensalada_garbanzo_espinaca",
@@ -1846,7 +1875,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "turkey chickpea salad"
  },
  {
   "id": "fit_pavo_camote_brocoli_paprika",
@@ -1901,7 +1931,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "roasted turkey sweet potato"
  },
  {
   "id": "fit_bistec_nopal_frijol_negro",
@@ -1966,7 +1997,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "bistec con nopales"
  },
  {
   "id": "fit_arrachera_elote_cebolla_jitomate",
@@ -2021,7 +2053,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "arrachera asada"
  },
  {
   "id": "fit_picadillo_magro_calabacita_arroz_integral",
@@ -2082,7 +2115,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "picadillo"
  },
  {
   "id": "fit_hamburguesa_res_magra_camote",
@@ -2146,7 +2180,8 @@
    "alta en proteína",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "beef burger sweet potato"
  },
  {
   "id": "fit_albondigas_res_magra_jitomate_arroz",
@@ -2210,7 +2245,8 @@
    "alta en proteína",
    "meal prep",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "meatballs tomato sauce"
  },
  {
   "id": "fit_tacos_bistec_chipotle_repollo",
@@ -2265,7 +2301,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "beef tacos cabbage"
  },
  {
   "id": "fit_res_brocoli_arroz_integral_ajo",
@@ -2319,7 +2356,8 @@
    "alta en proteína",
    "meal prep",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "beef broccoli garlic"
  },
  {
   "id": "fit_carne_chile_ancho_papa_zanahoria",
@@ -2384,7 +2422,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "carne en chile ancho"
  },
  {
   "id": "fit_ensalada_res_quinoa_pepino",
@@ -2444,7 +2483,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "beef quinoa salad"
  },
  {
   "id": "fit_fajitas_res_pimiento_tortilla",
@@ -2509,7 +2549,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "beef fajitas"
  },
  {
   "id": "fit_lomo_cerdo_hierbas_puré_camote",
@@ -2564,7 +2605,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "pork tenderloin sweet potato"
  },
  {
   "id": "fit_lomo_cerdo_guajillo_frijol_bayo",
@@ -2624,7 +2666,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "pork tenderloin guajillo"
  },
  {
   "id": "fit_pavo_ajillo_garbanzo_espinaca",
@@ -2685,7 +2728,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "garlic turkey chickpeas"
  },
  {
   "id": "fit_brochetas_pavo_calabacita_quinoa",
@@ -2740,7 +2784,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "turkey skewers"
  },
  {
   "id": "fit_pavo_guisado_papa_ejote_jitomate",
@@ -2801,7 +2846,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "turkey stew potato"
  },
  {
   "id": "fit_bistec_lentejas_cebolla_morada",
@@ -2861,7 +2907,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "steak lentils"
  },
  {
   "id": "fit_res_kale_garbanzo_limon",
@@ -2917,7 +2964,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "beef kale chickpeas"
  },
  {
   "id": "fit_lomo_cerdo_brocoli_quinoa_limon",
@@ -2972,7 +3020,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "pork tenderloin broccoli"
  },
  {
   "id": "fit_lomo_cerdo_manzana_coliflor",
@@ -3032,7 +3081,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "pork tenderloin apple cauliflower"
  },
  {
   "id": "fit_salmon_horno_quinoa_esparragos",
@@ -3087,7 +3137,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "baked salmon quinoa asparagus"
  },
  {
   "id": "fit_tilapia_empapelada_calabacita_arroz",
@@ -3148,7 +3199,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "tilapia en papel"
  },
  {
   "id": "fit_tacos_mojarra_col_tortilla",
@@ -3209,7 +3261,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "fish tacos cabbage"
  },
  {
   "id": "fit_ensalada_atun_garbanzo_pepino",
@@ -3271,7 +3324,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "tuna chickpea salad"
  },
  {
   "id": "fit_tostadas_atun_frijol_aguacate",
@@ -3327,7 +3381,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "tostadas de atún"
  },
  {
   "id": "fit_atun_quinoa_pepino_limon",
@@ -3384,7 +3439,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "tuna quinoa salad"
  },
  {
   "id": "fit_camarones_mojo_ajo_arroz_integral",
@@ -3445,7 +3501,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "garlic shrimp rice"
  },
  {
   "id": "fit_camarones_diabla_quinoa_ejotes",
@@ -3505,7 +3562,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "camarones a la diabla"
  },
  {
   "id": "fit_huachinango_veracruzana_arroz_integral",
@@ -3565,7 +3623,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "huachinango a la veracruzana"
  },
  {
   "id": "fit_merluza_empapelada_papa_ejote",
@@ -3626,7 +3685,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "merluza empapelada"
  },
  {
   "id": "fit_trucha_horno_lentejas_espinaca",
@@ -3681,7 +3741,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "baked trout lentils"
  },
  {
   "id": "fit_ensalada_caballa_lechuga_aguacate",
@@ -3736,7 +3797,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "mackerel salad"
  },
  {
   "id": "fit_sardinas_jitomate_frijol_negro",
@@ -3798,7 +3860,8 @@
    "sin gluten",
    "económica",
    "rápida"
-  ]
+  ],
+  "photo_q": "sardines tomato beans"
  },
  {
   "id": "fit_salmon_ahumado_huevo_pan_integral",
@@ -3846,7 +3909,8 @@
   "tags": [
    "alta en proteína",
    "rápida"
-  ]
+  ],
+  "photo_q": "smoked salmon egg toast"
  },
  {
   "id": "fit_mojarra_nopal_jitomate_limon",
@@ -3906,7 +3970,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "mojarra a la plancha"
  },
  {
   "id": "fit_pulpo_ajo_papa_ejotes",
@@ -3966,7 +4031,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "pulpo al ajo"
  },
  {
   "id": "fit_calamar_plancha_garbanzo_espinaca",
@@ -4026,7 +4092,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "grilled calamari"
  },
  {
   "id": "fit_almejas_ajillo_arroz_integral",
@@ -4081,7 +4148,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "clams garlic"
  },
  {
   "id": "fit_mejillones_vapor_quinoa_jitomate",
@@ -4141,7 +4209,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "steamed mussels"
  },
  {
   "id": "fit_tilapia_chipotle_lentejas_jitomate",
@@ -4201,7 +4270,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "tilapia chipotle"
  },
  {
   "id": "fit_salmon_plancha_lentejas_espinaca",
@@ -4256,7 +4326,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "grilled salmon lentils"
  },
  {
   "id": "fit_ceviche_camaron_pepino_aguacate",
@@ -4316,7 +4387,8 @@
    "sin lácteos",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "ceviche de camarón"
  },
  {
   "id": "fit_atun_arroz_integral_ejote_tomate",
@@ -4373,7 +4445,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "tuna rice green beans"
  },
  {
   "id": "fit_bagre_horno_papa_cebolla",
@@ -4434,7 +4507,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "baked catfish potatoes"
  },
  {
   "id": "fit_omelette_claras_espinaca_champinon",
@@ -4491,7 +4565,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "egg white omelette"
  },
  {
   "id": "fit_tortilla_huevo_papa_lechuga",
@@ -4552,7 +4627,8 @@
    "sin lácteos",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "tortilla española"
  },
  {
   "id": "fit_huevos_mexicana_frijoles_tortillas",
@@ -4618,7 +4694,8 @@
    "sin lácteos",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "huevos a la mexicana"
  },
  {
   "id": "fit_burritos_claras_frijol_bayo_espinaca",
@@ -4675,7 +4752,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "breakfast burrito"
  },
  {
   "id": "fit_revuelto_claras_brocoli_pan_integral",
@@ -4730,7 +4808,8 @@
    "sin lácteos",
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "scrambled eggs broccoli"
  },
  {
   "id": "fit_ensalada_huevo_garbanzo_pepino",
@@ -4792,7 +4871,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "egg chickpea salad"
  },
  {
   "id": "fit_frittata_claras_pavo_calabacita",
@@ -4847,7 +4927,8 @@
    "meal prep",
    "sin lácteos",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "frittata"
  },
  {
   "id": "fit_huevos_horno_esparragos_quinoa",
@@ -4903,7 +4984,8 @@
    "sin lácteos",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "baked eggs asparagus"
  },
  {
   "id": "fit_chilaquiles_claras_salsa_verde",
@@ -4960,7 +5042,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "chilaquiles verdes"
  },
  {
   "id": "fit_huevos_salsa_jitomate_lentejas",
@@ -5021,7 +5104,8 @@
    "sin lácteos",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "huevos en salsa roja"
  },
  {
   "id": "fit_tofu_salteado_brocoli_arroz_integral",
@@ -5076,7 +5160,8 @@
    "meal prep",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "tofu stir fry broccoli"
  },
  {
   "id": "fit_tofu_plancha_quinoa_pepino",
@@ -5138,7 +5223,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "grilled tofu quinoa"
  },
  {
   "id": "fit_tempeh_cacahuate_brocoli_arroz",
@@ -5199,7 +5285,8 @@
    "sin lácteos",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "tempeh peanut sauce"
  },
  {
   "id": "fit_picadillo_soya_frijoles_calabacita",
@@ -5266,7 +5353,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "soy picadillo"
  },
  {
   "id": "fit_bowl_tofu_edamame_arroz_zanahoria",
@@ -5322,7 +5410,8 @@
    "sin lácteos",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "tofu edamame bowl"
  },
  {
   "id": "fit_tofu_chile_ancho_papa_ejote",
@@ -5378,7 +5467,8 @@
    "sin lácteos",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "tofu chile ancho"
  },
  {
   "id": "fit_seitan_salteado_brocoli_pimiento",
@@ -5433,7 +5523,8 @@
    "meal prep",
    "sin lácteos",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "seitan stir fry"
  },
  {
   "id": "fit_frijol_soya_elote_jitomate_arroz",
@@ -5495,7 +5586,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "frijol de soya"
  },
  {
   "id": "fit_lentejas_olla_huevo_zanahoria_arroz",
@@ -5557,7 +5649,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "lentil stew egg"
  },
  {
   "id": "fit_guisado_garbanzo_lentejas_calabacita",
@@ -5619,7 +5712,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "chickpea lentil stew"
  },
  {
   "id": "fit_bowl_garbanzo_quinoa_tahini",
@@ -5676,7 +5770,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "chickpea quinoa bowl"
  },
  {
   "id": "fit_frijoles_negros_huevo_arroz_integral",
@@ -5728,7 +5823,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "black beans fried egg"
  },
  {
   "id": "fit_alubias_chorizo_col",
@@ -5784,7 +5880,8 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "fabada"
  },
  {
   "id": "fit_lentejas_secas_nopales_tortillas_huevo",
@@ -5846,7 +5943,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "lentejas con nopales"
  },
  {
   "id": "fit_tofu_revuelto_frijol_bayo_tortillas",
@@ -5908,7 +6006,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "tofu scramble"
  },
  {
   "id": "fit_lentejas_guisadas_atun_calabacita",
@@ -5964,6 +6063,7 @@
    "sin lácteos",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "lentil stew tuna"
  }
 ]

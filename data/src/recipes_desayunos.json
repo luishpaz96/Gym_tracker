@@ -53,7 +53,8 @@
    "sin lácteos",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "huevos a la mexicana"
  },
  {
   "id": "des_huevos_rancheros",
@@ -111,7 +112,8 @@
    "vegetariana",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "huevos rancheros"
  },
  {
   "id": "des_huevos_revueltos_espinaca",
@@ -158,7 +160,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "scrambled eggs spinach"
  },
  {
   "id": "des_huevos_revueltos_nopal",
@@ -210,7 +213,8 @@
    "sin gluten",
    "sin lácteos",
    "económica"
-  ]
+  ],
+  "photo_q": "huevos con nopal"
  },
  {
   "id": "des_huevos_revueltos_jamon_pavo",
@@ -254,7 +258,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "scrambled eggs ham"
  },
  {
   "id": "des_huevos_con_chorizo_papa",
@@ -295,7 +300,8 @@
   "tags": [
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "huevos con chorizo"
  },
  {
   "id": "des_huevos_al_albanil",
@@ -338,7 +344,8 @@
    "sin gluten",
    "sin lácteos",
    "económica"
-  ]
+  ],
+  "photo_q": "huevos albañil"
  },
  {
   "id": "des_huevos_en_salsa_verde",
@@ -395,7 +402,8 @@
    "vegetariana",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "huevos en salsa verde"
  },
  {
   "id": "des_huevos_divorciados",
@@ -451,7 +459,8 @@
    "vegetariana",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "huevos divorciados"
  },
  {
   "id": "des_huevos_a_la_florentina",
@@ -498,7 +507,8 @@
   "tags": [
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "eggs florentine"
  },
  {
   "id": "des_huevos_revueltos_champinones",
@@ -545,7 +555,8 @@
   "tags": [
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "scrambled eggs mushrooms"
  },
  {
   "id": "des_huevos_horneados_espinaca",
@@ -591,7 +602,8 @@
   "tags": [
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "baked eggs spinach"
  },
  {
   "id": "des_huevos_con_frijoles_queso",
@@ -645,7 +657,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "huevos con frijoles"
  },
  {
   "id": "des_huevos_motuleños",
@@ -701,7 +714,8 @@
   "tags": [
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "huevos motuleños"
  },
  {
   "id": "des_huevos_revueltos_calabacita_epazote",
@@ -747,7 +761,8 @@
    "sin gluten",
    "sin lácteos",
    "económica"
-  ]
+  ],
+  "photo_q": "scrambled eggs zucchini"
  },
  {
   "id": "des_huevos_tibios_aguacate",
@@ -800,7 +815,8 @@
    "sin gluten",
    "sin lácteos",
    "rápida"
-  ]
+  ],
+  "photo_q": "avocado eggs"
  },
  {
   "id": "des_huevos_revueltos_queso_oaxaca",
@@ -850,7 +866,8 @@
   "tags": [
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "huevos revueltos con queso"
  },
  {
   "id": "des_huevos_con_tocino_tortilla",
@@ -890,7 +907,8 @@
    "sin gluten",
    "sin lácteos",
    "rápida"
-  ]
+  ],
+  "photo_q": "eggs bacon tortilla"
  },
  {
   "id": "des_huevos_revueltos_pollo_espinaca",
@@ -936,7 +954,8 @@
    "alta en proteína",
    "rápida",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "scrambled eggs chicken spinach"
  },
  {
   "id": "des_omelette_claras_espinaca",
@@ -983,7 +1002,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "spinach omelette"
  },
  {
   "id": "des_omelette_jamon_queso",
@@ -1022,7 +1042,8 @@
    "alta en proteína",
    "rápida",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "ham cheese omelette"
  },
  {
   "id": "des_omelette_champinones_cebolla",
@@ -1060,7 +1081,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "mushroom omelette"
  },
  {
   "id": "des_omelette_nopal_queso_fresco",
@@ -1103,7 +1125,8 @@
    "sin gluten",
    "sin lácteos",
    "económica"
-  ]
+  ],
+  "photo_q": "nopal omelette"
  },
  {
   "id": "des_omelette_pavo_jitomate",
@@ -1146,7 +1169,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "turkey tomato omelette"
  },
  {
   "id": "des_huevos_horneados_rajas_poblano",
@@ -1197,7 +1221,8 @@
   "tags": [
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "baked eggs poblano"
  },
  {
   "id": "des_omelette_rajas_poblano",
@@ -1239,7 +1264,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "poblano omelette"
  },
  {
   "id": "des_omelette_salmon_queso_crema",
@@ -1286,7 +1312,8 @@
    "alta en proteína",
    "rápida",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "smoked salmon omelette"
  },
  {
   "id": "des_omelette_calabacita_panela",
@@ -1327,7 +1354,8 @@
   "tags": [
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "zucchini omelette"
  },
  {
   "id": "des_omelette_atun_cebolla_morada",
@@ -1372,7 +1400,8 @@
    "sin gluten",
    "sin lácteos",
    "económica"
-  ]
+  ],
+  "photo_q": "tuna omelette"
  },
  {
   "id": "des_omelette_chorizo_papa",
@@ -1413,7 +1442,8 @@
   "tags": [
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chorizo potato omelette"
  },
  {
   "id": "des_chilaquiles_verdes_pollo",
@@ -1471,7 +1501,8 @@
   "tags": [
    "alta en proteína",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "chilaquiles verdes"
  },
  {
   "id": "des_chilaquiles_rojos_huevo",
@@ -1526,7 +1557,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "chilaquiles rojos"
  },
  {
   "id": "des_chilaquiles_nopal_queso",
@@ -1576,7 +1608,8 @@
    "vegetariana",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "chilaquiles de nopal"
  },
  {
   "id": "des_chilaquiles_horno_pollo_chipotle",
@@ -1625,7 +1658,8 @@
   "tags": [
    "alta en proteína",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "baked chilaquiles chicken"
  },
  {
   "id": "des_chilaquiles_frijol_huevo",
@@ -1674,7 +1708,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "chilaquiles de frijol negro"
  },
  {
   "id": "des_chilaquiles_calabacita_oaxaca",
@@ -1720,7 +1755,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "chilaquiles calabacita"
  },
  {
   "id": "des_mollete_frijol_queso",
@@ -1773,7 +1809,8 @@
    "vegetariana",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "molletes"
  },
  {
   "id": "des_mollete_integral_pico_gallo",
@@ -1825,7 +1862,8 @@
   "tags": [
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "molletes pico de gallo"
  },
  {
   "id": "des_mollete_pollo_deshebrado",
@@ -1873,7 +1911,8 @@
   "tags": [
    "alta en proteína",
    "rápida"
-  ]
+  ],
+  "photo_q": "molletes de pollo"
  },
  {
   "id": "des_mollete_atun_queso",
@@ -1923,7 +1962,8 @@
    "alta en proteína",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "molletes de atún"
  },
  {
   "id": "des_mollete_aguacate_frijol",
@@ -1972,7 +2012,8 @@
    "vegetariana",
    "sin lácteos",
    "rápida"
-  ]
+  ],
+  "photo_q": "molletes aguacate"
  },
  {
   "id": "des_burrito_desayuno_huevo_frijol",
@@ -2029,7 +2070,8 @@
    "rápida",
    "económica",
    "meal prep"
-  ]
+  ],
+  "photo_q": "breakfast burrito"
  },
  {
   "id": "des_burrito_desayuno_chorizo_papa",
@@ -2080,7 +2122,8 @@
   "tags": [
    "meal prep",
    "económica"
-  ]
+  ],
+  "photo_q": "breakfast burrito chorizo"
  },
  {
   "id": "des_burrito_desayuno_nopal_queso",
@@ -2130,7 +2173,8 @@
   "tags": [
    "vegetariana",
    "económica"
-  ]
+  ],
+  "photo_q": "breakfast burrito nopal"
  },
  {
   "id": "des_burrito_desayuno_pollo_espinaca",
@@ -2179,7 +2223,8 @@
   "tags": [
    "alta en proteína",
    "meal prep"
-  ]
+  ],
+  "photo_q": "breakfast burrito chicken"
  },
  {
   "id": "des_burrito_desayuno_res_molida",
@@ -2229,7 +2274,8 @@
   "tags": [
    "alta en proteína",
    "meal prep"
-  ]
+  ],
+  "photo_q": "breakfast burrito beef"
  },
  {
   "id": "des_hotcakes_avena_platano",
@@ -2275,7 +2321,8 @@
    "vegetariana",
    "meal prep",
    "económica"
-  ]
+  ],
+  "photo_q": "banana oatmeal pancakes"
  },
  {
   "id": "des_hotcakes_avena_claras",
@@ -2320,7 +2367,8 @@
    "alta en proteína",
    "vegetariana",
    "meal prep"
-  ]
+  ],
+  "photo_q": "oatmeal pancakes"
  },
  {
   "id": "des_waffles_avena_almendra",
@@ -2362,7 +2410,8 @@
    "sin lácteos",
    "vegetariana",
    "meal prep"
-  ]
+  ],
+  "photo_q": "oatmeal waffles"
  },
  {
   "id": "des_hotcakes_avena_manzana",
@@ -2408,7 +2457,8 @@
    "vegetariana",
    "económica",
    "meal prep"
-  ]
+  ],
+  "photo_q": "apple oatmeal pancakes"
  },
  {
   "id": "des_waffles_avena_proteina",
@@ -2455,7 +2505,8 @@
    "alta en proteína",
    "vegetariana",
    "meal prep"
-  ]
+  ],
+  "photo_q": "protein waffles strawberry"
  },
  {
   "id": "des_hotcakes_camote_avena",
@@ -2500,7 +2551,8 @@
    "vegetariana",
    "meal prep",
    "económica"
-  ]
+  ],
+  "photo_q": "sweet potato pancakes"
  },
  {
   "id": "des_avena_nocturna_mango_chia",
@@ -2541,7 +2593,8 @@
    "alta en proteína",
    "meal prep",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "overnight oats mango"
  },
  {
   "id": "des_avena_nocturna_platano_cacahuate",
@@ -2579,7 +2632,8 @@
    "meal prep",
    "vegetariana",
    "económica"
-  ]
+  ],
+  "photo_q": "overnight oats peanut butter"
  },
  {
   "id": "des_avena_nocturna_cacao_platano",
@@ -2616,7 +2670,8 @@
    "sin lácteos",
    "vegetariana",
    "meal prep"
-  ]
+  ],
+  "photo_q": "overnight oats chocolate banana"
  },
  {
   "id": "des_avena_nocturna_fresa_yogur",
@@ -2658,7 +2713,8 @@
    "alta en proteína",
    "meal prep",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "overnight oats strawberry yogurt"
  },
  {
   "id": "des_avena_nocturna_manzana_canela",
@@ -2699,7 +2755,8 @@
    "meal prep",
    "vegetariana",
    "económica"
-  ]
+  ],
+  "photo_q": "overnight oats apple cinnamon"
  },
  {
   "id": "des_avena_nocturna_pina_coco",
@@ -2741,7 +2798,8 @@
    "sin lácteos",
    "vegetariana",
    "meal prep"
-  ]
+  ],
+  "photo_q": "overnight oats pineapple coconut"
  },
  {
   "id": "des_pan_frances_integral_platano",
@@ -2787,7 +2845,8 @@
    "vegetariana",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "banana french toast"
  },
  {
   "id": "des_pan_frances_jamon_queso",
@@ -2826,7 +2885,8 @@
   "tags": [
    "alta en proteína",
    "rápida"
-  ]
+  ],
+  "photo_q": "ham cheese french toast"
  },
  {
   "id": "des_pan_frances_miel_nuez",
@@ -2871,7 +2931,8 @@
   "tags": [
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "french toast honey walnuts"
  },
  {
   "id": "des_pan_frances_sin_lacteos_fresa",
@@ -2913,7 +2974,8 @@
    "sin lácteos",
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "strawberry french toast"
  },
  {
   "id": "des_pan_frances_claras_naranja",
@@ -2960,7 +3022,8 @@
    "alta en proteína",
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "orange french toast"
  },
  {
   "id": "des_tostadas_frijol_pollo",
@@ -3011,7 +3074,8 @@
    "alta en proteína",
    "rápida",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "tostadas de frijol"
  },
  {
   "id": "des_tostadas_atun_aguacate",
@@ -3062,7 +3126,8 @@
    "rápida",
    "sin gluten",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "tostadas de aguacate"
  },
  {
   "id": "des_tostadas_huevo_nopal",
@@ -3116,7 +3181,8 @@
    "sin gluten",
    "sin lácteos",
    "económica"
-  ]
+  ],
+  "photo_q": "tostadas de nopal"
  },
  {
   "id": "des_tostadas_salmon_queso_crema",
@@ -3164,7 +3230,8 @@
    "alta en proteína",
    "rápida",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "smoked salmon toast"
  },
  {
   "id": "des_tostadas_pollo_jitomate_cebolla",
@@ -3213,7 +3280,8 @@
    "meal prep",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "chicken tostadas"
  },
  {
   "id": "des_tostadas_aguacate_huevo_cocido",
@@ -3264,7 +3332,8 @@
    "sin lácteos",
    "rápida",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "avocado toast egg"
  },
  {
   "id": "des_yogur_griego_granola_fresa",
@@ -3302,7 +3371,8 @@
    "alta en proteína",
    "rápida",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "greek yogurt granola strawberries"
  },
  {
   "id": "des_yogur_griego_platano_cacahuate",
@@ -3336,7 +3406,8 @@
    "rápida",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "greek yogurt peanut butter"
  },
  {
   "id": "des_yogur_natural_chia_frambuesa",
@@ -3370,7 +3441,8 @@
    "sin gluten",
    "meal prep",
    "rápida"
-  ]
+  ],
+  "photo_q": "yogurt chia raspberry"
  },
  {
   "id": "des_yogur_griego_mango_linaza",
@@ -3404,7 +3476,8 @@
    "rápida",
    "sin gluten",
    "vegetariana"
-  ]
+  ],
+  "photo_q": "mango yogurt bowl"
  },
  {
   "id": "des_yogur_natural_arandanos_nuez",
@@ -3441,7 +3514,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "yogurt blueberries walnuts"
  },
  {
   "id": "des_yogur_natural_granola_papaya",
@@ -3473,7 +3547,8 @@
    "vegetariana",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "papaya yogurt granola"
  },
  {
   "id": "des_kefir_zarzamora_avena",
@@ -3506,7 +3581,8 @@
    "vegetariana",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "kefir blackberry oats"
  },
  {
   "id": "des_yogur_natural_durazno_pepita",
@@ -3544,7 +3620,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "peach yogurt"
  },
  {
   "id": "des_licuado_platano_avena",
@@ -3581,7 +3658,8 @@
    "vegetariana",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "banana oat smoothie"
  },
  {
   "id": "des_smoothie_fresa_yogur_griego",
@@ -3618,7 +3696,8 @@
    "rápida",
    "vegetariana",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "strawberry smoothie"
  },
  {
   "id": "des_smoothie_verde_espinaca_pina",
@@ -3656,7 +3735,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "green smoothie spinach"
  },
  {
   "id": "des_licuado_mango_whey",
@@ -3687,7 +3767,8 @@
   "tags": [
    "alta en proteína",
    "rápida"
-  ]
+  ],
+  "photo_q": "mango protein smoothie"
  },
  {
   "id": "des_smoothie_arandano_almendra",
@@ -3725,7 +3806,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "blueberry smoothie"
  },
  {
   "id": "des_licuado_papaya_linaza",
@@ -3764,7 +3846,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "papaya smoothie"
  },
  {
   "id": "des_smoothie_platano_cacao_avena",
@@ -3801,7 +3884,8 @@
    "sin lácteos",
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "chocolate banana smoothie"
  },
  {
   "id": "des_licuado_proteico_chocolate",
@@ -3838,7 +3922,8 @@
   "tags": [
    "alta en proteína",
    "rápida"
-  ]
+  ],
+  "photo_q": "chocolate protein shake"
  },
  {
   "id": "des_smoothie_frambuesa_kefir",
@@ -3870,7 +3955,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "raspberry smoothie"
  },
  {
   "id": "des_licuado_guayaba_soya",
@@ -3904,7 +3990,8 @@
    "vegetariana",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "guava smoothie"
  },
  {
   "id": "des_sandwich_pavo_panela",
@@ -3949,7 +4036,8 @@
   "tags": [
    "alta en proteína",
    "rápida"
-  ]
+  ],
+  "photo_q": "turkey sandwich"
  },
  {
   "id": "des_sandwich_huevo_aguacate",
@@ -3993,7 +4081,8 @@
    "vegetariana",
    "rápida",
    "sin lácteos"
-  ]
+  ],
+  "photo_q": "egg avocado sandwich"
  },
  {
   "id": "des_sandwich_atun_pepino",
@@ -4036,7 +4125,8 @@
    "alta en proteína",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "tuna sandwich"
  },
  {
   "id": "des_sandwich_salmon_queso_crema",
@@ -4077,7 +4167,8 @@
   "tags": [
    "alta en proteína",
    "rápida"
-  ]
+  ],
+  "photo_q": "smoked salmon sandwich"
  },
  {
   "id": "des_sandwich_pollo_espinaca",
@@ -4124,7 +4215,8 @@
   "tags": [
    "alta en proteína",
    "meal prep"
-  ]
+  ],
+  "photo_q": "chicken sandwich"
  },
  {
   "id": "des_sandwich_queso_oaxaca_jamon",
@@ -4161,7 +4253,8 @@
   "tags": [
    "económica",
    "rápida"
-  ]
+  ],
+  "photo_q": "torta de jamón"
  },
  {
   "id": "des_sandwich_clara_espinaca_integral",
@@ -4207,7 +4300,8 @@
    "alta en proteína",
    "vegetariana",
    "rápida"
-  ]
+  ],
+  "photo_q": "egg white sandwich"
  },
  {
   "id": "des_sandwich_tostado_jamon_queso",
@@ -4242,7 +4336,8 @@
   "tags": [
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "ham and cheese sandwich"
  },
  {
   "id": "des_quesadillas_huevo_espinaca",
@@ -4287,7 +4382,8 @@
    "vegetariana",
    "sin gluten",
    "rápida"
-  ]
+  ],
+  "photo_q": "quesadillas de huevo"
  },
  {
   "id": "des_avena_cocida_manzana_canela",
@@ -4329,7 +4425,8 @@
    "vegetariana",
    "sin lácteos",
    "económica"
-  ]
+  ],
+  "photo_q": "oatmeal apple cinnamon"
  },
  {
   "id": "des_enfrijoladas_huevo",
@@ -4376,7 +4473,8 @@
    "vegetariana",
    "sin gluten",
    "económica"
-  ]
+  ],
+  "photo_q": "enfrijoladas"
  },
  {
   "id": "des_tacos_huevo_nopal",
@@ -4428,7 +4526,8 @@
    "sin gluten",
    "rápida",
    "económica"
-  ]
+  ],
+  "photo_q": "tacos de huevo"
  },
  {
   "id": "des_gorditas_frijol_huevo",
@@ -4479,6 +4578,7 @@
    "sin lácteos",
    "económica",
    "sin gluten"
-  ]
+  ],
+  "photo_q": "gorditas de frijol"
  }
 ]
