@@ -693,7 +693,7 @@
  },
  {
   "id": "pullover",
-  "name": "Jalón con brazos rectos en polea",
+  "name": "Pullover en polea (jalón con brazos rectos)",
   "group": "Espalda",
   "primary": [
    "dorsales"
@@ -712,7 +712,13 @@
   "fitwill": "https://fitwill.app/es/exercise/0238/cable-straight-arm-pulldown/",
   "fedb": "Straight-Arm_Pulldown",
   "keywords": [
-   "straight arm pulldown"
+   "straight arm pulldown",
+   "pull over",
+   "pullover polea",
+   "pull over con polea",
+   "pullover en polea",
+   "jalon brazos rectos",
+   "dorsales"
   ]
  },
  {
@@ -3420,7 +3426,8 @@
    "Bent-Arm Dumbbell Pullover",
    "pullover mancuerna",
    "pull over",
-   "bent arm pullover"
+   "bent arm pullover",
+   "pull over mancuerna"
   ]
  },
  {
@@ -7465,6 +7472,68 @@
   "keywords": [
    "Rocking Standing Calf Raise",
    "talones balanceo"
+  ]
+ },
+ {
+  "id": "pullover_polea_cuerda",
+  "name": "Pullover en polea con cuerda",
+  "group": "Espalda",
+  "primary": [
+   "dorsales"
+  ],
+  "secondary": [
+   "triceps",
+   "abdomen"
+  ],
+  "equipment": "Polea",
+  "where": [
+   "gym"
+  ],
+  "cues": [
+   "Polea alta con cuerda; da un paso atrás e inclina un poco el torso con los brazos casi rectos.",
+   "Lleva la cuerda hasta los muslos abriéndola al final, moviendo solo los hombros.",
+   "Regresa lento hasta sentir el estiramiento en los dorsales."
+  ],
+  "alt": "Pullover en polea (jalón con brazos rectos)",
+  "fitwill": null,
+  "fedb": "Rope_Straight-Arm_Pulldown",
+  "keywords": [
+   "pull over",
+   "pullover cuerda",
+   "pull over con polea",
+   "rope straight arm pulldown",
+   "rope pullover",
+   "dorsales"
+  ]
+ },
+ {
+  "id": "pullover_barra",
+  "name": "Pullover con barra en banco",
+  "group": "Espalda",
+  "primary": [
+   "dorsales"
+  ],
+  "secondary": [
+   "pecho",
+   "triceps"
+  ],
+  "equipment": "Barra",
+  "where": [
+   "gym",
+   "casa"
+  ],
+  "cues": [
+   "Acostado en el banco, toma la barra (o barra Z) con los brazos sobre el pecho y los codos un poco flexionados.",
+   "Baja la barra por detrás de la cabeza hasta sentir el estiramiento, sin arquear la espalda baja.",
+   "Regresa por el mismo arco hasta arriba del pecho."
+  ],
+  "alt": "Pullover con mancuerna",
+  "fitwill": null,
+  "fedb": "Bent-Arm_Barbell_Pullover",
+  "keywords": [
+   "pull over",
+   "pullover barra",
+   "barbell pullover"
   ]
  }
 ]

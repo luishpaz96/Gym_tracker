@@ -1,6 +1,6 @@
 // Service worker: solo cachea archivos estáticos propios, data/*.json y las 2 librerías CDN fijadas (con SRI).
 // Nunca intercepta ni guarda respuestas de Supabase (otro origen) ni peticiones que no sean GET.
-const VERSION = 'gt-v18';
+const VERSION = 'gt-v19';
 const SHELL = ['./', 'index.html', 'css/app.css', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
   'js/main.js', 'js/config.js', 'js/calc.js', 'js/search.js', 'js/grading.js', 'js/recommend.js', 'js/ui.js', 'js/data.js', 'js/api.js', 'js/supabase.js',
   'js/auth.js', 'js/demo.js', 'js/stats.js', 'js/charts.js', 'js/bodymap.js', 'js/technique.js',
