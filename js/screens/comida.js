@@ -8,11 +8,12 @@ import { addDays } from '../calc.js';
 import { mealPlanOf, splitMeals, dayTotals, mealEntries, sumEntries, MEAL_DEFAULTS, clampMeals } from '../nutrition.js';
 import { newId } from '../api.js';
 import { openLogEntry, openEditEntry } from './logentry.js';
+import { describeFoodAmount } from '../nutrition.js';
 import { renderComplementRows, quickChips } from './complements.js';
 import { GOAL_LABEL } from '../plan-generator.js';
 
 const st = { date: null, tab: 'dia' };
-let foodsList = [];
+let foodsList = [], foodMap = {};
 const dayLabel = (d) => new Date(d + 'T00:00:00Z').toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' });
 
 function bar(label, value, target, unit) {
@@ -26,7 +27,7 @@ export async function render(ctx, root) {
   st.date ||= today();
   const targets = targetsOf(ctx);
   let favP = await favoritePowder(ctx);
-  foodsList = (await loadFoods()).foods;
+  foodsList = (await loadFoods()).foods; foodMap = Object.fromEntries(foodsList.map((f) => [f.id, f]));
   root.append(pageHead('Alimentación', 'Tus metas del día y lo que has comido, comida por comida.'));
   const tabs = el('div', { class: 'seg', role: 'group', 'aria-label': 'Sección' });
   const host = el('div');
@@ -70,7 +71,7 @@ function dia(ctx, host, targets, redraw, favP) {
     if (targets) { const pr = el('progress', { max: '100', 'aria-label': `${m.name}: avance de calorías` }); pr.value = Math.min(100, Math.round((t.kcal / m.kcal) * 100)); card.append(pr); }
     if (entries.length) card.append(el('ul', { class: 'list' }, entries.map((e) => el('li', { class: 'list-item' },
       el('div', { class: 'grow' }, el('strong', { text: e.label || e.ref_id }),
-        el('div', { class: 'muted small', text: `${e.source === 'recipe' ? `${fmtNum(e.servings, 2)} porc.` : e.source === 'powder' ? `${fmtNum(e.servings, 2)} scoop` : `${fmtNum(e.grams, 1)} g`} · ${fmtNum(e.kcal)} kcal · P ${fmtNum(e.p, 1)} g` })),
+        el('div', { class: 'muted small', text: `${e.source === 'recipe' ? `${fmtNum(e.servings, 2)} porc.` : e.source === 'powder' ? `${fmtNum(e.servings, 2)} scoop` : describeFoodAmount(e, foodMap[e.ref_id], (g) => fmtNum(g, 1))} · ${fmtNum(e.kcal)} kcal · P ${fmtNum(e.p, 1)} g` })),
       el('button', { class: 'btn small', type: 'button', 'aria-label': `Editar ${e.label}`, on: { click: () => openEditEntry(ctx, e, redraw) } }, 'Editar'),
       el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Quitar ${e.label}`, on: { click: async () => { try { await ctx.api.deleteFoodLog(e.id); await ctx.refreshFood(); redraw(); } catch { toast('No se pudo quitar', 'bad'); } } } }, icon('borrar')))))); 
     const prev = mealEntries(logs, addDays(date, -1), m.slot);

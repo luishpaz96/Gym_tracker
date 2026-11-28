@@ -60,6 +60,17 @@ export function openEditEntry(ctx, entry, onSaved) {
   const qty = el('input', { class: 'input', type: 'text', inputmode: 'decimal', value: String(cur), maxlength: 7, 'aria-label': isRecipe ? 'Porciones / scoops' : 'Gramos' });
   const err = el('p', { class: 'field-err', role: 'alert' });
   const ok = el('button', { class: 'btn primary block', type: 'button' }, 'Guardar');
+  const piecesHost = el('div');
+  // Alimentos con medida casera: también se puede editar en piezas (ligadas a los gramos)
+  if (!isRecipe) loadFoods().then(({ foodById }) => {
+    const f = foodById?.[entry.ref_id]; if (!f?.unit?.g) return;
+    const pcs = el('input', { class: 'input', type: 'text', inputmode: 'decimal', maxlength: 7, 'aria-label': `Cantidad en ${f.unit.name}` });
+    const sync = () => { const c = num(qty.value) / f.unit.g; pcs.value = Number.isFinite(c) && c > 0 ? String(Math.round(c * 100) / 100) : ''; };
+    sync();
+    qty.addEventListener('input', sync);
+    pcs.addEventListener('input', () => { const g = Math.round(num(pcs.value) * f.unit.g * 10) / 10; qty.value = Number.isFinite(g) && g > 0 ? String(g) : ''; });
+    piecesHost.append(el('label', { class: 'field' }, el('span', { text: `o en ${f.unit.name} (${f.unit.g} g c/u)` }), pcs));
+  });
   ok.addEventListener('click', async () => {
     const v = num(qty.value);
     if (!(v > 0) || v > (isRecipe ? 100 : 10000)) { err.textContent = 'Cantidad fuera de rango.'; return; }
@@ -67,5 +78,5 @@ export function openEditEntry(ctx, entry, onSaved) {
     try { await ctx.api.saveFoodLog(rescaleEntry(entry, v / cur)); await ctx.refreshFood(); m.close(); onSaved?.(); }
     catch { err.textContent = 'No se pudo guardar.'; ok.disabled = false; }
   });
-  const m = openModal(entry.label || entry.ref_id, el('div', {}, el('label', { class: 'field' }, el('span', { text: isRecipe ? 'Porciones' : 'Gramos' }), qty), err, ok));
+  const m = openModal(entry.label || entry.ref_id, el('div', {}, el('label', { class: 'field' }, el('span', { text: isRecipe ? 'Porciones' : 'Gramos' }), qty), piecesHost, err, ok));
 }

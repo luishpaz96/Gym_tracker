@@ -170,3 +170,19 @@ export function topComplements(logs, foods, n = 3, defaults = COMPLEMENT_DEFAULT
 export const complementEntry = (food, pieces, base) => entryFromFood(food, round((food.unit?.g || 100) * pieces, 1), base);
 export const complementMacros = (food, pieces) => macrosForFood(food, round((food.unit?.g || 100) * pieces, 1));
 export const chipLabel = (food, pieces = 1) => `+${pieces} ${food.name.replace(/\s*\(.*?\)\s*/g, ' ').trim().toLowerCase()}`;
+
+// ---- Cantidades en piezas ----
+const plWord = (w) => (/[aeiouáéíóú]$/i.test(w) ? `${w}s` : /z$/i.test(w) ? `${w.slice(0, -1)}ces` : `${w}es`);
+export const pluralUnit = (name, n) => (n > 1 ? String(name).split(' ').map(plWord).join(' ') : String(name));
+export const fmtPieces = (n) => { const w = Math.floor(n), half = n - w >= 0.5; return half ? (w ? `${w}½` : '½') : String(w); };
+// Piezas si grams/unit.g está a ±3 % de un múltiplo de 0.5 (y ≥ 0.5); si no, null
+export function piecesOf(entry, food) {
+  if (!food?.unit?.g || !(entry.grams > 0)) return null;
+  const raw = entry.grams / food.unit.g, n = Math.round(raw * 2) / 2;
+  return n >= 0.5 && Math.abs(raw - n) <= n * 0.03 ? n : null;
+}
+// "2 tortillas de maíz · 60 g" (o solo "60 g" cuando no encaja en piezas)
+export function describeFoodAmount(entry, food, fmtG = (g) => String(Math.round(g * 10) / 10)) {
+  const n = piecesOf(entry, food), g = `${fmtG(entry.grams)} g`;
+  return n === null ? g : `${fmtPieces(n)} ${pluralUnit(food.unit.name, n)} · ${g}`;
+}

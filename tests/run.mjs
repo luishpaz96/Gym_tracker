@@ -613,3 +613,16 @@ test('complementos: grupos, orden y chips rápidos', () => {
   assert.equal(e.grams, 75); assert.equal(e.kcal, 75); assert.equal(e.source, 'food');
   assert.equal(nut.chipLabel({ name: 'Bolillo (pan blanco)' }), '+1 bolillo');
 });
+
+test('cantidades en piezas: texto y plurales', () => {
+  const tort = { name: 'Tortilla de maíz', unit: { name: 'tortilla', g: 30 } };
+  const d = (g, f = tort) => nut.describeFoodAmount({ grams: g }, f);
+  assert.equal(d(60), '2 tortillas · 60 g'); assert.equal(d(30), '1 tortilla · 30 g'); assert.equal(d(15), '½ tortilla · 15 g'); assert.equal(d(45), '1½ tortillas · 45 g');
+  assert.equal(d(61), '2 tortillas · 61 g'); // dentro de ±3 %
+  assert.equal(d(50), '50 g'); assert.equal(d(7), '7 g'); // fuera de múltiplo de 0.5
+  assert.equal(d(90, { unit: { name: 'rebanada', g: 30 } }), '3 rebanadas · 90 g');
+  assert.equal(d(90, { unit: { name: 'bolillo', g: 60 } }), '1½ bolillos · 90 g');
+  assert.equal(d(320, { unit: { name: 'taza', g: 160 } }), '2 tazas · 320 g');
+  assert.equal(nut.pluralUnit('tortilla mediana', 2), 'tortillas medianas'); assert.equal(nut.pluralUnit('pieza', 3), 'piezas'); assert.equal(nut.pluralUnit('cucharada', 1), 'cucharada'); assert.equal(nut.pluralUnit('pan', 2), 'panes');
+  assert.equal(nut.describeFoodAmount({ grams: 100 }, { name: 'x' }), '100 g');
+});
